@@ -1,7 +1,12 @@
 // Tiny static file server with HTTP Range support (required for video
-// seeking in browsers). Serves production/out/video on 0.0.0.0:8000.
+// seeking in browsers). Serves production/out/video on 0.0.0.0:8000 by
+// default; override with VIDROOT (directory) and VIDPORT (port) env vars
+// to serve other projects, e.g. season1/ep01/out/video on 8001.
 const http = require('http'), fs = require('fs'), path = require('path');
-const ROOT = path.resolve(__dirname, '..', 'out', 'video');
+const ROOT = process.env.VIDROOT
+  ? path.resolve(process.env.VIDROOT)
+  : path.resolve(__dirname, '..', 'out', 'video');
+const PORT = parseInt(process.env.VIDPORT || '8000', 10);
 const MIME = { '.mp4': 'video/mp4', '.html': 'text/html; charset=utf-8',
                '.jpg': 'image/jpeg', '.srt': 'text/plain; charset=utf-8',
                '.vtt': 'text/vtt; charset=utf-8' };
@@ -31,4 +36,4 @@ http.createServer((req, res) => {
       fs.createReadStream(f).pipe(res);
     }
   });
-}).listen(8000, '0.0.0.0', () => console.log('video server listening on 0.0.0.0:8000'));
+}).listen(PORT, '0.0.0.0', () => console.log(`video server listening on 0.0.0.0:${PORT} root=${ROOT}`));
