@@ -1,0 +1,230 @@
+# Lecture 17 — Corruption, Transparency and the Governance of Resource Revenue
+
+**The resource curse, the disclosure revolution, and what happens when a contract is bought**
+
+> **Series:** WHY YOU MUST STUDY INTERNATIONAL ENERGY AND NATURAL RESOURCES LAW AT ALL PROGRAMME LEVELS  
+> **Module:** Module Four · Dispute Settlement and the Future  
+> **Lecturer:** Prof. Williams, TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION, USA  
+> **Duration:** 30 minutes · **Slides:** 16 · **Narration:** 3,491 words  
+> **Video:** `dist/lecture-17.mp4`
+
+---
+
+## Learning Outcomes
+
+1. Explain the resource curse thesis and assess the strength of the evidence for it.
+2. Describe the transparency architecture: the EITI, mandatory payment disclosure, and contract transparency.
+3. Explain the beneficial ownership problem and the legal responses to it.
+4. Identify the principal anti-corruption instruments and their enforcement characteristics.
+5. Analyse the mechanisms for managing resource revenue across generations.
+6. Evaluate whether corruption is best understood as a legal failure or a governance failure.
+
+## Lecture Script
+
+### 01. Corruption, Transparency and Revenue `bumper`
+
+### 02. Corruption, Transparency and the Governance of Resource Revenue `title`
+
+**Narration**
+
+Welcome to Lecture Seventeen. We turn now to the least comfortable subject in this series, and I want to make no apology for that, because it is the one that most often determines whether the law we have discussed in the previous sixteen lectures achieves anything at all. A well-drafted petroleum law is worthless if the licence is awarded to whoever paid the largest bribe. A permanent sovereignty doctrine is a mockery if the proceeds are transferred to a private account. And an arbitration clause is of no comfort to a population whose resources were signed away at a price nobody in government was in a position to negotiate. The question of this lecture is therefore not a specialist one. It is the question of whether the legal architecture we have built can survive contact with the incentives that extraction creates. Let me begin with those incentives.
+
+### 03. What This Lecture Establishes `objectives`
+
+
+**Narration**
+
+Six outcomes. First, to explain the resource curse thesis, and to assess honestly how strong the evidence for it is, because the proposition is widely asserted and frequently overstated. Second, to describe the transparency architecture that has been built in response, comprising the Extractive Industries Transparency Initiative, mandatory payment disclosure regimes, and the movement for contract transparency. Third, to explain the beneficial ownership problem, which is the mechanism through which most of the abuse in this sector is actually concealed, and the legal responses to it. Fourth, to identify the principal anti-corruption instruments and to describe how they are enforced in practice. Fifth, to analyse the mechanisms through which resource revenue can be managed across generations, including sovereign wealth funds and fiscal rules. And sixth, to evaluate whether corruption in this sector is best understood as a legal failure or as a governance failure, since the answer determines what the remedy should be.
+
+### 04. The Problem `section`
+
+**Narration**
+
+Let me begin with the proposition, and then with the evidence for it.
+
+### 05. The Resource Curse, and What the Evidence Actually Shows `bullets`
+
+- The thesis: states with abundant natural resources frequently experience worse development outcomes than states with fewer.
+- The mechanisms proposed: revenue volatility, currency appreciation, debt, conflict, and the weakening of accountability.
+- The accountability mechanism is the most important: governments financed by resource rents need less from their citizens.
+- The evidence is real but conditional: the effect is not automatic, and it depends heavily on the quality of institutions.
+
+*On-screen note:* The proposition is not that resources are a curse. It is that resources remove the pressure that makes institutions function.
+
+**Narration**
+
+Let me state the thesis carefully, because it is frequently reduced to a slogan and then dismissed on the basis of the slogan. The resource curse, or the paradox of plenty, is the observation that states with an abundance of non-renewable natural resources frequently experience worse economic and developmental outcomes, less democracy and more conflict than states with fewer natural resources. That observation was first made systematically in the nineteen nineties, and it has since generated a very large literature. The mechanisms proposed are several, and they are worth distinguishing. There is revenue volatility, since commodity prices swing widely and a budget built on a high price collapses when it falls. There is currency appreciation, since large exports of a commodity raise the exchange rate and make other sectors uncompetitive, in a phenomenon sometimes called Dutch disease. There is debt, since governments borrow against anticipated future revenue and are left with obligations they cannot service. There is conflict, since a concentrated and lootable revenue source provides both a motive and a means for armed groups. And, most importantly for our purposes, there is the weakening of accountability. A government that derives most of its revenue from a handful of companies rather than from the taxation of its citizens has a substantially reduced need to account to those citizens, and the institutions through which taxation and representation were historically negotiated simply do not develop. Now let me be honest about the evidence, because the proposition is contested and you should know why. The correlation is not automatic. Several states with very large resource endowments have achieved excellent outcomes, and the difference between them and the failures correlates strongly with the quality of institutions at the point the revenue began to flow. The current consensus is therefore conditional rather than deterministic: resources do not cause poor outcomes, but they do remove the fiscal pressure that otherwise induces governments to build accountable institutions, and in the absence of strong institutions the outcome is frequently poor. That is a claim about incentives rather than about geology, and it is a claim with which law can engage.
+
+### 06. Transparency `section`
+
+**Narration**
+
+Let me turn to the response, which has been built largely around disclosure.
+
+### 07. EITI and Mandatory Payment Disclosure `bullets`
+
+- The Extractive Industries Transparency Initiative reconciles what companies pay with what governments receive.
+- Participation requires a multi-stakeholder group of government, companies and civil society, and annual reporting against a standard.
+- The standard has been extended repeatedly, and now reaches contracts, beneficial ownership, state participation and commodity trading.
+- Parallel mandatory regimes require listed and large companies in several jurisdictions to report payments government by government.
+
+*On-screen note:* The theory is simple: a payment that must be reconciled between two published sets of figures is harder to steal.
+
+**Narration**
+
+Let me describe the principal response that has been built, because it is unusual among international initiatives in having survived and expanded for over twenty years. The Extractive Industries Transparency Initiative was launched in 2002 following an announcement at the World Summit on Sustainable Development, and was established in 2003 at a conference in London. Its mechanism is straightforward. A participating country implements a standard, and produces an annual report which reconciles what the extractive companies operating in that country say they paid with what the government says it received, with the reconciliation performed by an independent administrator and overseen by a multi-stakeholder group comprising representatives of government, of companies and of civil society. That third element is the one that gives the initiative its force, because it puts non-governmental organisations in the room with the figures. The standard has been revised several times and has been progressively extended. It now requires disclosure across the value chain: the legal and fiscal framework, licences and contracts, beneficial ownership of the companies holding those licences, production volumes and values, the collection and allocation of revenue, social and environmental expenditure, the role of state-owned enterprises, and, most recently, commodity trading by state entities. The theory behind all of it is simple and is worth stating plainly: a payment that must be reconciled between two published sets of figures is materially harder to steal than one that appears in neither. In parallel, and partly in response to the initiative's limits, several jurisdictions have legislated to make payment disclosure mandatory rather than voluntary. Legislation in the United States required securities regulators to adopt rules on payments to governments for the commercial development of oil, gas and minerals; rules were adopted, disapproved by the legislature, and re-adopted some years later. The European Union requires large undertakings and public interest entities active in extractive industries or logging to report payments to governments country by country and project by project. And Canada requires entities engaged in the commercial development of oil, gas or minerals that meet a size threshold to report payments above a defined amount to each payee government. The result is that the largest companies in the sector now face overlapping and not entirely consistent disclosure obligations in several jurisdictions.
+
+### 08. Beneficial Ownership: Who Actually Owns This Company? `bullets`
+
+- A licence is awarded to a company; that company is owned by another company, which is owned by a trust or by a nominee.
+- Anonymous companies are the mechanism through which bribery, tax evasion and the misappropriation of state assets are concealed.
+- The legal responses are beneficial ownership registers, which may be public or accessible on a demonstrated interest.
+- The principal weaknesses are verification, since registers record what is declared, and the ease of incorporating elsewhere.
+
+*On-screen note:* A register records what a company declares. Without verification, it records a claim rather than a fact.
+
+**Narration**
+
+Let me now take you to the mechanism through which most abuse in this sector is actually concealed, because it is not a suitcase of cash and it rarely has been. It is a company. The pattern is standard and it is documented in the disclosures of leaked corporate records over the last decade. An extractive licence is awarded to a company incorporated in the host state. That company is wholly owned by a company incorporated elsewhere. That company is owned by a trust, or by a foundation, or by a nominee shareholder acting on undisclosed instructions. At the end of the chain there is an individual who may be a politically exposed person, and who appears nowhere in any document the public can see. Anonymous companies serve three functions in this sector, and you should be able to name all three. They conceal a bribe, since a payment to a consulting company owned by an official's family is very difficult to characterise in a prosecution. They conceal a confiscation, since state assets can be transferred to a company whose ownership cannot be traced. And they conceal tax liability, since profit can be shifted through the chain. The legal responses are registers. A beneficial ownership register requires a company to identify the natural persons who ultimately own or control it, and jurisdictions have adopted two principal models: a public register, open to anyone, and a register accessible on a demonstration of legitimate interest, sometimes with a government authority as the intermediary. Most jurisdictions now have some form of requirement, and several have moved to public registers following litigation and following European Union directives on the prevention of money laundering. Let me identify the two weaknesses, because they are persistent and they are the reason these registers have delivered less than was hoped. The first is verification: a register records what a company declares, and unless a registrar has both the obligation and the resources to verify declarations against other sources, the register records a claim rather than a fact. The second is arbitrage: capital and corporate structures move readily to jurisdictions without registers, and the least cooperative jurisdictions determine the effectiveness of the whole system.
+
+### 09. Contract Transparency: The Argument That Has Now Been Won `bullets`
+
+- The argument against disclosure was that contracts are commercially confidential and that disclosure deters investment.
+- The argument for it is that contracts allocate public resources, and that secrecy prevents both scrutiny and comparison.
+- The practice has shifted decisively: many governments now publish contracts as a matter of course, and lenders and initiatives require it.
+- The residual questions concern what may be redacted, and whether disclosure changes negotiating behaviour as well as outcomes.
+
+*On-screen note:* A government that cannot see what its neighbour agreed cannot know whether its own terms are any good.
+
+**Narration**
+
+Let me take one further element of the transparency agenda, because it is the one where the argument has been won most decisively and most recently. That element is contract transparency, and the question is whether agreements between a state and an extractive company should be published. The case against was made seriously for many years, and it has two parts: that contracts contain commercially sensitive information whose disclosure would harm the company, and that disclosure would deter investment by exposing terms to competitors and to criticism. The case for is that a contract allocating the nation's non-renewable resources is not a private commercial matter, that its terms determine the public revenue for a generation, and that secrecy prevents exactly the scrutiny that would improve outcomes. And there is one argument for disclosure that I find decisive, and I want you to remember it. A government that cannot see what its neighbour agreed cannot know whether its own terms are any good. Contract secrecy does not protect a state's negotiating position; it protects the counterparty's, because the company negotiates hundreds of contracts and the government negotiates a handful, and the asymmetry of information is entirely in the company's favour. The practice has shifted decisively. Many governments now publish contracts as a policy of course, a number of national laws require it, multilateral lenders and the transparency initiative require it, and several large companies have committed to it unilaterally. The residual questions are narrower now. What may be legitimately redacted, with the emerging consensus being that genuinely personal data and specific technical information may be withheld but that fiscal terms, stabilisation clauses and dispute settlement provisions may not. And whether disclosure changes negotiating behaviour, as distinct from outcomes, which is a question that researchers are now able to study because the corpus of published contracts has finally grown large enough.
+
+### 10. Law, Money and Consequence `section`
+
+**Narration**
+
+Let me turn to the legal instruments, and then to the consequences when they are breached.
+
+### 11. The Anti-Corruption Framework, and How It Is Enforced `bullets`
+
+- The Convention on Combating Bribery of Foreign Public Officials requires states to criminalise bribery of foreign officials.
+- The Convention against Corruption is broader: prevention, criminalisation, international cooperation and asset recovery.
+- Domestic statutes with extraterritorial reach do the enforcing: legislation on corrupt practices abroad, and legislation on bribery generally.
+- Enforcement is concentrated: a small number of jurisdictions bring almost all cases, and settlements dominate over trials.
+
+*On-screen note:* The law on corruption is now extensive. The question that remains is who enforces it, and against whom.
+
+**Narration**
+
+Let me survey the instruments, and then tell you what I think is the most important fact about them. There are three layers. The first is the Convention on Combating Bribery of Foreign Public Officials in International Business Transactions, adopted under the auspices of the Organisation for Economic Co-operation and Development, which requires each party to make it a criminal offence to offer, promise or give any undue pecuniary or other advantage to a foreign public official in order to obtain or retain business. It addresses the supply side of bribery, which was the deliberate focus, and it is backed by a monitoring system that reviews each party's implementation. The second layer is the United Nations Convention against Corruption, which is broader in every dimension: it has chapters on prevention, including measures directed at the private sector and at public procurement; on criminalisation and law enforcement; on international cooperation; on asset recovery, which was its most significant innovation; and on technical assistance. It has near-universal membership. The third layer, and this is where enforcement actually happens, is domestic legislation with extraterritorial reach. The principal statute of this kind is the legislation of the United States on corrupt practices abroad, which criminalises the bribery of foreign officials and, separately, imposes accounting and internal controls obligations on issuers. Alongside it sits the bribery legislation of the United Kingdom, whose distinctive feature is a corporate offence of failing to prevent bribery, subject to a defence of having adequate procedures in place. Now, the fact I want you to take away is about enforcement rather than doctrine. Enforcement of these instruments is extraordinarily concentrated. A very small number of jurisdictions bring the overwhelming majority of cases; most parties to the conventions have never brought a significant foreign bribery prosecution. Resolutions are overwhelmingly negotiated settlements rather than contested trials, and they are frequently accompanied by the appointment of an independent monitor. The result is a body of law that is extensive on paper, uneven in application, and dependent for its effect on the prosecutorial priorities of a handful of jurisdictions.
+
+### 12. Sovereign Wealth Funds, Fiscal Rules and Intergenerational Equity `bullets`
+
+- The problem: a non-renewable resource is converted into money, and the money must serve generations that will not have the resource.
+- Stabilisation funds smooth revenue against price volatility; savings funds convert an exhaustible asset into a permanent one.
+- Fiscal rules constrain what a government may spend, most commonly by reference to the expected real return on the fund.
+- The principles governing these funds address governance, transparency and the prohibition of political use of the assets.
+
+*On-screen note:* A barrel of oil spent this year is a barrel that no future citizen will have. The only legal instrument available is a rule about spending.
+
+**Narration**
+
+Let me address the question of what a state should do with the money once it has it, because this is the subject in which legal drafting has the clearest claim to have improved outcomes. The problem is one of intergenerational equity. A non-renewable resource is converted, over a finite period, into financial assets. Those assets must serve not only the generation that happens to be alive during extraction but also the generations that follow, who will have neither the resource nor any share in it. There are two principal instruments. A stabilisation fund addresses revenue volatility: it accumulates revenue when prices are high and releases it when prices fall, so that public spending is not subject to the commodity cycle. A savings or intergenerational fund addresses exhaustion: it converts a depleting physical asset into a permanent financial one, whose income continues after the resource is gone. The governance of these funds is conventionally regulated by three elements. There is a fiscal rule, which constrains what the government may transfer into the budget; the most cited formulation permits spending of the expected real return on the fund, conventionally estimated at around three per cent per annum, so that the real value of the capital is preserved indefinitely. There is an investment mandate, which constrains how the fund may be invested, and which in the most successful cases is set by the legislature, implemented by the central bank or a dedicated manager, and disclosed in detail. And there is a set of governing principles, agreed among sovereign wealth funds internationally, addressing the legal framework, the governance structure, the accountability framework and the prohibition on the use of the assets for political purposes. Let me be candid about the difficulty. These institutions work where the political settlement supports them, and they fail where it does not, and the literature on the subject is unambiguous that fund creation frequently precedes rather than follows the establishment of the fiscal discipline that would make it work.
+
+### 13. A Contract Obtained by Bribery Is Not Protected `case`
+
+*World Duty Free Company Limited v. The Republic of Kenya, ICSID Case No. ARB/00/7, Award of 4 October 2006*
+
+The claimant operated duty free retail outlets at airports in Kenya under a long-term lease. It alleged that Kenya had wrongfully taken its investment, and brought claims in contract and under an investment treaty. In the course of the proceedings, the claimant's principal gave evidence that, at a meeting with the then President of the Republic, a sum of two million United States dollars had been handed over and characterised to Kenyan authorities as a personal donation. He stated that this was a bribe and that it was a Kenyan custom for prominent people to give something to the President when they met him. The tribunal noted that corruption is contrary to the international public policy of most, if not all, states, and to the laws of Kenya, and that the contract had been obtained by corruption. It held that the contract was void and unenforceable, and it declined to uphold any claim founded upon it, observing that a party which has engaged in corruption cannot seek the assistance of an international tribunal.
+
+> **Holding / significance.** Corruption is contrary to international public policy and to the laws of virtually all states. A contract obtained by bribery is unenforceable, and claims founded on it will be dismissed, whatever the conduct of the respondent.
+
+**Narration**
+
+Our case is World Duty Free against the Republic of Kenya, decided in 2006, and it is the clearest statement available of the consequences of corruption in this field. The facts are remarkable, and they are remarkable because the claimant's own witness gave the evidence that destroyed the claim. The claimant operated duty free retail outlets at airports in Kenya under a long lease. It alleged that Kenya had wrongfully taken its investment, and it brought claims both in contract and under the applicable investment treaty. In the course of the proceedings, its principal gave evidence that, at a meeting with the then President of the Republic, a sum of two million dollars had been handed over, and that this had been characterised to Kenyan authorities as a personal donation to the President's party, or as money for party purposes. He stated in terms that this was a bribe, and that it was a Kenyan custom, in his words, for prominent people to give something to the President when they met him. The tribunal's reasoning was uncompromising. It observed that corruption is contrary to the international public policy of most, if not all, states, and that it is contrary to the laws of Kenya. It held that the contract had been obtained by corruption, that it was therefore void and unenforceable, and that no claim founded upon it could succeed. It made a point of general importance along the way: that a party which has engaged in corruption cannot seek the assistance of an international tribunal to enforce the bargain it bought, and that this is so even where the respondent's own conduct is open to criticism, because the doctrine rests on the integrity of the process rather than on the relative fault of the parties. Now, let me draw out three consequences that matter to your practice. First, corruption is jurisdictional in effect: it does not merely reduce damages, it removes the foundation of the claim. Second, the standard of proof applied by tribunals in these cases has been a matter of genuine difficulty, since a bribe is rarely evidenced, and tribunals have had to decide how strong the inference must be before they will find it. And third, the consequence falls entirely on the investor, which is asymmetrical, and which is defensible only on the basis that the alternative would be to make international tribunals the enforcers of corrupt bargains.
+
+### 14. Why This Matters at Your Level `levels`
+
+**Undergraduate level**
+- State the resource curse thesis and the accountability mechanism, and say why the evidence is conditional.
+- Describe what the EITI does, and what its most recent standard requires beyond payment reconciliation.
+- Explain the beneficial ownership problem and name the two principal weaknesses of registers.
+- State the holding of World Duty Free v. Kenya in one sentence.
+
+**Postgraduate level**
+- Assess whether transparency reforms have reduced corruption in the sector, or merely relocated it.
+- Analyse whether the asymmetry of the corruption defence is defensible, given that the state's officials were also complicit.
+- Evaluate mandatory payment disclosure: does it serve citizens, or does it serve competitors and short sellers?
+- Critique the sovereign wealth fund model: can a fund survive a political settlement that does not support fiscal discipline?
+
+**Narration**
+
+Let me bring this to your programme. At undergraduate level, I want four things. First, the resource curse thesis, together with the accountability mechanism, which is the most important of the mechanisms proposed, and an honest statement of why the evidence is conditional rather than automatic. Second, a description of what the transparency initiative does, including what its standard now requires beyond the reconciliation of payments, and I would particularly want you to mention contracts, beneficial ownership and commodity trading. Third, the beneficial ownership problem and the two principal weaknesses of registers, which are verification and jurisdictional arbitrage. And fourth, the holding of our case in a single sentence, with the reason stated as international public policy rather than as a matter of domestic law. At postgraduate level, I want you to argue. Assess whether transparency reforms have actually reduced corruption in this sector, or whether they have relocated it into forms that disclosure does not reach, such as inflated service contracts and commodity trading arrangements. Analyse whether the asymmetry of the corruption defence is defensible, given that in almost every case the state's own officials were party to the conduct, and consider whether the better answer would be a doctrine of comparative fault. Evaluate mandatory payment disclosure on its own terms: does it in fact serve the citizens of producer states, who are the stated beneficiaries, or does it serve competitors and capital markets, who are the actual users of the data? And critique the sovereign wealth fund model directly: can such a fund survive a political settlement that does not support the fiscal discipline on which it depends, and what should the law do about that?
+
+### 15. What We Have Established `summary`
+
+- The resource curse operates through incentives rather than geology: resource rents reduce the pressure that builds accountable institutions.
+- The transparency architecture comprises the EITI, mandatory payment disclosure in several jurisdictions, and the contract transparency norm.
+- Anonymous companies are the principal concealment mechanism, and registers are limited by verification and by arbitrage.
+- Anti-corruption law is extensive and unevenly enforced, with a small number of jurisdictions bringing almost all cases.
+- A contract obtained by bribery is unenforceable, and claims founded on it will be dismissed as contrary to international public policy.
+
+> **The one thing to remember.** Transparency is not a substitute for accountability, but it is the precondition for it: a payment that nobody can see is a payment that nobody can challenge.
+
+**Narration**
+
+Let me close. The resource curse operates through incentives rather than through geology, and its most important mechanism is that resource rents reduce the fiscal pressure which historically produced accountable institutions. The transparency architecture that has been built in response comprises the Extractive Industries Transparency Initiative, mandatory payment disclosure in several major jurisdictions, and a contract transparency norm which the industry has substantially conceded. Anonymous companies remain the principal mechanism of concealment, and registers are limited by the difficulty of verification and by the ease of incorporating elsewhere. The anti-corruption framework is extensive in doctrine and concentrated in enforcement, with a small number of jurisdictions bringing almost all cases. And the consequence for an investor, as our case establishes, is that a contract obtained by bribery is unenforceable and claims founded on it will be dismissed, irrespective of the respondent's own conduct. The final sentence of this lecture is the one I would like you to remember: transparency is not a substitute for accountability, but it is the precondition for it. In the next lecture we turn to the institutional dimension of the whole field, and examine the organisations that govern global energy. Let me leave you with one question to carry forward. Every instrument we have examined in this lecture, from the reconciliation of payments to the disclosure of beneficial ownership, requires somebody to look at what has been disclosed. Disclosure without a reader achieves nothing, and the readers who matter are journalists, auditors, parliamentarians and civil servants in the countries where the resources are. If you are wondering where your career in this field might do the most good, I would direct you there. And let me add this final observation, which I think resolves the question I set you at the start of the lecture. Is corruption in this sector a legal failure or a governance failure? It is both, but the two operate at different points in the sequence. The law supplies the standard, and the standard in most jurisdictions is now adequate. What is missing is the institutional capacity to apply it, and capacity is a governance question that no statute can supply on its own.
+
+### 16.  `end`
+
+**Narration**
+
+Thank you. For the next session, please read the World Duty Free award, and consider what standard of proof a tribunal should apply before finding that an investment was obtained by corruption.
+
+## Required and Recommended Reading
+
+- World Duty Free Company Limited v. The Republic of Kenya, ICSID Case No. ARB/00/7, Award, 4 October 2006.
+- United Nations Convention against Corruption, 2003, chapters II, III and V.
+- Convention on Combating Bribery of Foreign Public Officials in International Business Transactions (OECD, 1997).
+- Extractive Industries Transparency Initiative, The EITI Standard (2016, revised 2023).
+- Sovereign Wealth Funds: Generally Accepted Principles and Practices (Santiago Principles), International Working Group of Sovereign Wealth Funds, October 2008.
+- Paul Collier, The Bottom Billion (Oxford University Press, 2007), ch. 4.
+
+## Self-Test
+
+1. The most important mechanism proposed for the resource curse is:
+    a) Geological depletion
+    b) Resource rents reduce the need for governments to tax citizens, weakening the institutions through which accountability is built ✓
+    c) Foreign exchange instability alone
+    d) The absence of technology transfer
+
+   *The evidence is conditional: resources do not cause poor outcomes, but they remove the fiscal pressure that induces accountable institutions.*
+
+2. In World Duty Free v. Kenya, the tribunal held that:
+    a) Kenya had lawfully expropriated the investment
+    b) Corruption is contrary to international public policy, and a contract obtained by bribery is unenforceable ✓
+    c) The bribe was too small to matter
+    d) Both parties were equally at fault, so damages were reduced
+
+   *The tribunal declined to assist a claimant whose investment had been obtained by corruption, resting the decision on the integrity of the process rather than on comparative fault.*
+
+3. The two principal weaknesses of beneficial ownership registers are:
+    a) Cost and complexity
+    b) Verification of what is declared, and the ease of incorporating in jurisdictions without registers ✓
+    c) Encrypted data and privacy law
+    d) The absence of any legal basis
+
+   *A register records a claim rather than a fact unless declarations are verified, and capital moves readily to jurisdictions without requirements.*
+
+4. The EITI operates principally by:
+    a) Imposing sanctions on non-compliant companies
+    b) Reconciling what companies say they paid against what governments say they received, overseen by a multi-stakeholder group ✓
+    c) Setting commodity prices
+    d) Arbitrating resource disputes
+
+   *Participation requires government, companies and civil society to sit together over the figures, and the standard now extends well beyond payment reconciliation.*
+
+---
+
+*TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION, USA · International Energy & Natural Resources Law · Global Perspectives · Delivered by Prof. Williams*

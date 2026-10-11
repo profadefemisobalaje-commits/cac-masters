@@ -1,0 +1,235 @@
+# Lecture 18 — International Energy Institutions and Global Governance
+
+**The missing organisation, the patchwork that replaces it, and the emergency system that binds the consumers**
+
+> **Series:** WHY YOU MUST STUDY INTERNATIONAL ENERGY AND NATURAL RESOURCES LAW AT ALL PROGRAMME LEVELS  
+> **Module:** Module Four · Dispute Settlement and the Future  
+> **Lecturer:** Prof. Williams, TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION, USA  
+> **Duration:** 30 minutes · **Slides:** 16 · **Narration:** 3,452 words  
+> **Video:** `dist/lecture-18.mp4`
+
+---
+
+## Learning Outcomes
+
+1. Explain why there is no global energy organisation, and what follows from that absence.
+2. Describe the principal international energy institutions and their differing legal characters.
+3. Analyse the legal architecture of the emergency oil sharing system.
+4. Explain the role of regional bodies and of multilateral lenders in governing energy.
+5. Assess the consequences of institutional fragmentation for the coherence of the field.
+6. Evaluate the case for and against a global energy organisation.
+
+## Lecture Script
+
+### 01. Energy Institutions and Global Governance `bumper`
+
+### 02. International Energy Institutions and Global Governance `title`
+
+**Narration**
+
+Welcome to Lecture Eighteen. I want to begin with a comparison that will frame everything in this session. International trade has a global organisation with a binding dispute settlement system. Civil aviation has one. Maritime shipping has one. Postal services have one. Telecommunications has one. Energy, which is more economically significant than any of them and more politically consequential than most, has none. There is no World Energy Organisation. There has never been one, and the proposals for one have repeatedly failed. What exists instead is a patchwork of institutions with overlapping mandates, different memberships, different legal characters and no common authority. Some of them are treaty organisations, some are producer associations, some are lenders and some are little more than secretariats for a dialogue. Understanding that patchwork, and understanding why it has this shape, is the object of this lecture.
+
+### 03. What This Lecture Establishes `objectives`
+
+
+**Narration**
+
+Six outcomes. First, to explain why there is no global energy organisation, and what practically follows from that absence rather than merely lamenting it. Second, to describe the principal international energy institutions, and to distinguish them by legal character, since a treaty organisation, a producer association and a lender's policy framework are very different things with very different effects. Third, to analyse the legal architecture of the emergency oil sharing system, which is the closest thing this field has to a binding collective security arrangement. Fourth, to explain the role of regional bodies and of multilateral lenders, which together do a great deal of the governing that the missing global organisation does not do. Fifth, to assess the consequences of institutional fragmentation for the coherence of the field. And sixth, to evaluate the case for and against the creation of a global energy organisation, because the proposal is periodically revived and you should be able to argue it in both directions.
+
+### 04. The Landscape `section`
+
+**Narration**
+
+Let me begin with the absence, and then with what fills it.
+
+### 05. Why There Is No World Energy Organisation `bullets`
+
+- States have consistently treated energy as a matter of national sovereignty rather than of collective management.
+- Producers and consumers have divergent interests, and no institution can serve both without disappointing one.
+- Other sectors have organisations because their subject is a shared technical system, not a rivalrous commodity.
+- The consequence is fragmentation: overlapping mandates, no hierarchy, no general dispute settlement, and no authoritative voice.
+
+*On-screen note:* Trade has an organisation because states agreed to be bound. Energy does not, because the largest actors have not.
+
+**Narration**
+
+Let me explain the absence, because it is not an oversight and it will not be corrected by pointing out that it exists. Three reasons. The first is sovereignty. States have consistently, and across every ideological tradition, treated energy as an attribute of national sovereignty rather than as a matter of collective management, and the doctrine of permanent sovereignty over natural resources, which we examined at the start of this series, gives that position a powerful legal expression. An organisation with authority over production decisions would be inconsistent with it. The second reason is divergence. The interests of exporters and importers are genuinely opposed on the central question, which is price. An institution that stabilises prices in the interest of consumers is contrary to the interest of producers, and vice versa, and no institutional design has reconciled that. The third reason is structural, and it is the one most often overlooked. The sectors that do have global organisations have them because the object of regulation is a shared technical system rather than a rivalrous commodity. Aircraft must use common rules to fly between countries, and ships must use common rules to enter ports. Oil, gas and electricity do not require that, and the coordination they do require has been achieved bilaterally and regionally instead. The consequence is a specific set of practical problems that I want you to be able to identify. There is no hierarchy among the institutions, so no body's view prevails over another's. There is no general dispute settlement mechanism for energy disputes as such, only for investment and trade disputes arising from them. There is no authoritative voice on a crisis, only competing statements. And there is no single place where the law of this field is developed, which is why you have had to learn it from treaties, contracts, arbitral awards and the practice of lenders across eighteen lectures.
+
+### 06. OPEC and the IEA: Producers and Consumers `two-col`
+
+**THE PRODUCERS**
+- Established in 1960 at Baghdad by five founding states, with its seat in Vienna since 1965.
+- Its statute requires it to coordinate and unify petroleum policies among members and to stabilise prices in international markets.
+- It operates by production quotas agreed among members, extended since 2016 through cooperation with non-member producers.
+- It is not a treaty organisation with regulatory powers, and its decisions are implemented by national action.
+
+**THE CONSUMERS**
+- Established in 1974 by the principal industrialised economies in response to the embargo of the previous year.
+- Its founding agreement imposes binding obligations of stockholding, demand restraint and emergency sharing.
+- It is the principal source of authoritative statistics and analysis on global energy markets.
+- Its membership has broadened and its mandate has extended to energy security, transition policy and critical minerals.
+
+**Narration**
+
+Let me now take the two institutions that dominate the landscape, and let me begin with an important legal distinction between them, because students frequently assume they are counterparts and they are not. The Organization of the Petroleum Exporting Countries was established in 1960 at a conference in Baghdad by five founding states, and has had its seat in Vienna since 1965. Its statute sets out its purposes, which are to coordinate and unify the petroleum policies of its members, to determine the best means for safeguarding their interests, to seek stability of prices in international oil markets at equitable levels, and to secure a steady income for producing countries and a regular supply for consuming nations. It operates through production quotas agreed among members and implemented by each member's own decision, and since 2016 it has done so in cooperation with a group of non-member producers, an arrangement that now covers a large share of global supply. Its legal character is that of an intergovernmental organisation whose decisions are given effect by national action rather than by any supranational authority, and this is precisely why the coercion problem arises: the members act collectively on a market in which they are the principal sellers. The International Energy Agency was established in 1974 by the principal industrialised economies, directly in response to the disruption of the preceding winter, and its founding instrument is the Agreement on an International Energy Program. That agreement imposes genuine legal obligations, which is the distinction I want you to carry away: member countries must maintain emergency oil reserves, must restrain demand in an emergency, must allocate available oil among themselves according to a defined mechanism, and must maintain the standby measures necessary to do all of this. Alongside the emergency function, the Agency has become the principal source of authoritative statistics and analysis on global energy markets, which gives it an influence quite disproportionate to its formal powers, and its mandate has extended substantially into the energy transition and into the security of critical mineral supply chains. So, to put the distinction in one sentence: one of these organisations coordinates production decisions, and the other imposes binding legal obligations on consumption and sharing.
+
+### 07. The Rest of the Architecture: IAEA, IRENA and the Dialogue Bodies `bullets`
+
+- The International Atomic Energy Agency administers safeguards under the Non-Proliferation Treaty, and has inspection powers.
+- The International Renewable Energy Agency is the first global organisation devoted to renewable energy, and is a treaty body.
+- The International Energy Forum provides a producer-consumer dialogue without regulatory or quota functions.
+- Initiatives on sustainable energy and the Sustainable Development Goals set targets and mobilise finance, but bind nobody.
+
+*On-screen note:* The institutions with genuine legal powers are the ones with a security or safety mandate. The rest persuade.
+
+**Narration**
+
+Let me survey the remainder of the architecture, and let me do so with a distinction in mind: which of these bodies can compel anything? The International Atomic Energy Agency, established in 1957 with its seat in Vienna, is the strongest of them. It administers the safeguards system established by the Treaty on the Non-Proliferation of Nuclear Weapons, under which each non-nuclear-weapon state party undertakes to accept safeguards on all its nuclear material, and it verifies compliance through inspection. That is a genuine power, and as we saw in the nuclear lecture it exists because the states concerned have a converging security interest in verification. The International Renewable Energy Agency, founded in 2009 and seated in Abu Dhabi, is the first global intergovernmental organisation devoted to renewable energy. It is a treaty body with a general conference and a council, and its functions are to promote adoption, to provide advice and capacity building, and to serve as a repository of knowledge. Its powers are persuasive rather than compulsory, and that has proven sufficient for its purposes. The International Energy Forum, whose secretariat is in Riyadh and whose membership accounts for the overwhelming majority of global oil and gas supply and demand, is the principal venue for producer-consumer dialogue. It has no regulatory function, no quotas and no treaty obligations of substance; its purpose is that ministers who would otherwise meet only in crisis meet regularly instead. And then there are the initiatives and campaigns: the sustainable energy initiative launched by the Secretary-General of the United Nations in 2011, which has since become an international organisation in its own right, and the seventh Sustainable Development Goal, which commits the international community to ensure access to affordable, reliable, sustainable and modern energy for all by 2030, with targets on access, on the share of renewables and on the rate of improvement in energy efficiency. Those targets are politically significant and legally soft. The generalisation I want you to draw is this: the institutions in this field with genuine legal powers are the ones with a safety or security mandate. Everything else persuades.
+
+### 08. Regions, Lenders, Emergencies `section`
+
+**Narration**
+
+Let me now turn to where much of the governing actually happens, which is not in the global organisations at all.
+
+### 09. Regional Governance: Where the Rules Are Actually Made `bullets`
+
+- The European Union has gone furthest: directives, binding regulations, an agency for the cooperation of regulators, and network codes.
+- In West Africa, regional bodies have established a power pool and a centre for renewable energy and energy efficiency.
+- In Southern Africa, a power pool coordinates trade across a dozen national systems, with a competitive market in places.
+- In Asia and the Americas, cooperation is shallower, and takes the form of interconnection projects and ministerial dialogue.
+
+*On-screen note:* Energy is physically regional: electrons and molecules move to neighbours. Governance follows the physics, however politics is arranged.
+
+**Narration**
+
+Let me now take you to the level at which a great deal of the operative law of this field is actually made, and which is systematically under-taught. That level is the region, and it is not an arbitrary level: energy is physically regional, because electrons and molecules move to neighbours, and governance tends to follow the physics regardless of how the politics is arranged. The European Union has gone very much further than anywhere else, and its model is worth knowing in outline because it is the template others adapt. There is a body of directives and regulations requiring the unbundling of network operation from supply and generation, guaranteeing third-party access, and setting renewable and efficiency targets. There is an agency for the cooperation of energy regulators, which coordinates national regulators and adopts framework guidelines. There are organisations of network operators which develop binding network codes. And there is a wholesale market design, with market coupling across borders, that has no equivalent anywhere else in the world. Elsewhere the patterns differ but the direction is similar. In West Africa, the regional economic community has established a power pool to develop cross-border interconnection and a regional market, and a specialised centre for renewable energy and energy efficiency, which has been among the more effective energy institutions on the continent. In Southern Africa, a power pool coordinates trade across a dozen or more national systems and operates a competitive market alongside bilateral contracts. In East Africa, in Central America, in the Andes and in South-East Asia, comparable arrangements exist at varying stages of development, generally proceeding from interconnection projects towards shared rules for access, dispatch and payment. The recurring legal problems are the same everywhere, and they are the ones we examined in the electricity lecture: who may use the interconnector and on what terms, who bears the cost of the constraint, how payment security is achieved where obligations accumulate, and how a regional rule is made binding on a national regulator that was not consulted.
+
+### 10. The Lenders as Regulators `bullets`
+
+- Where national regulation is weak, the conditions attached to project finance become the effective regulatory standard.
+- Multilateral and export credit lenders apply environmental and social performance requirements that are frequently stricter than local law.
+- The Equator Principles commit adopting banks to apply those standards to project finance above a threshold.
+- The consequence is real governance with no public accountability: a private standard, applied by contract, displacing public law.
+
+*On-screen note:* A mining code matters less to a project than the sustainability standards attached to the money that built it.
+
+**Narration**
+
+Let me now name the most important regulatory actor in this field that almost no textbook on international law mentions, and that is the lender. There is a straightforward reason for this. Large energy and extractive projects are financed, and where they are financed internationally, the conditions attached to the money frequently impose standards stricter and better enforced than the law of the host state. The principal instruments are the environmental and social performance standards of the multilateral institutions, which a borrower must meet as a condition of finance and which are applied throughout the life of the project through supervision. Those standards address assessment and management of risk, labour and working conditions, resource efficiency and pollution, community health and safety, land acquisition and involuntary resettlement, biodiversity, indigenous peoples, and cultural heritage. They require consultation, disclosure, grievance mechanisms and independent monitoring, and they are given effect contractually rather than through any public law process. Alongside them sit the Equator Principles, adopted by a large proportion of the world's project finance banks, under which the bank undertakes not to provide finance to a project that does not comply with those standards above a defined threshold. There are also the standards applied by export credit agencies, which are increasingly aligned with them. Now, I want you to hold two thoughts about this simultaneously, because the arrangement is genuinely double-edged. The first is that it works, in the limited sense that projects financed under these standards are materially better managed than they would otherwise be, and that this is the single most effective regulatory instrument operating in much of the world. The second is that it is deeply undemocratic. A private standard, applied by contract, administered by an institution accountable to its shareholders rather than to the affected population, displaces public law in the very places where public law is weakest. That is real governance without public accountability, and it is one of the central unresolved questions in this field.
+
+### 11. The Only Binding Collective Security Arrangement in Energy `case`
+
+*The Agreement on an International Energy Program (1974) and its activation in 2022*
+
+The Agreement was concluded in 1974 by the principal industrialised oil-importing states. It requires each participant to maintain emergency reserves, to restrain demand in an emergency, and to share available oil among participants according to a defined allocation formula. A co-ordinated emergency response is triggered where the group, or any participant, suffers a disruption of a defined magnitude to its oil supplies. The system was activated on a large scale in 2022, when members agreed to a co-ordinated release of emergency stocks following the invasion of Ukraine: an initial release of over sixty million barrels, followed some weeks later by a further release of one hundred and twenty million barrels, the largest co-ordinated releases in the history of the arrangement.
+
+> **Holding / significance.** The emergency sharing system demonstrates that binding collective obligations in energy are possible, but only among states with convergent interests and only for a narrow emergency purpose.
+
+**Narration**
+
+Our case study is the one instrument in this field that imposes genuinely binding collective obligations, and it is worth examining closely because it is both the strongest thing the institutional architecture has produced and a demonstration of its limits. The Agreement on an International Energy Program was concluded in 1974, in the shadow of the embargo imposed the previous year, which had demonstrated that a group of producers acting together could inflict severe economic damage on individual importers, and that importers acting alone could be picked off one at a time. The Agreement's design responds directly to that lesson. It requires each participant to maintain emergency reserves, and the standard obligation has long been to hold stocks equivalent to at least ninety days of net imports. It requires participants to have programmes ready to restrain demand. And, most significantly, it establishes a system of allocation: in a declared emergency, available oil supply is shared among participants according to a formula, so that no participant bears the whole burden of a disruption. A co-ordinated emergency response may be triggered where the group, or any participant, suffers a disruption of a defined magnitude. The system was activated on a significant scale in 2022. Following the invasion of Ukraine and the consequent disruption to supply, members agreed in March to a co-ordinated release of emergency stocks amounting to over sixty million barrels, and some weeks later to a further one hundred and twenty million barrels over the following six months. These were the largest co-ordinated releases in the history of the arrangement. Now, the lessons. First, that binding collective obligations in energy are achievable: the ninety-day stockholding requirement is observed, monitored and effective. Second, that they are achievable only among states whose interests converge, since the participants are all importers with a shared interest in the stability of supply. And third, that the scope is narrow. The system addresses supply emergencies of a defined kind; it does not address price, market structure, investment, or the transition, and it could not be extended to them without the very divergence of interest that has prevented a general organisation from being created.
+
+### 12. Coherence `section`
+
+**Narration**
+
+Let me close with an assessment of the architecture as a whole.
+
+### 13. Fragmentation, and the Case for and Against a Global Organisation `bullets`
+
+- The case against: a general organisation would require a consensus that does not exist, and would likely be captured or paralysed.
+- The case for: the current patchwork leaves genuine gaps, particularly in data, in emergency coordination beyond oil, and in developing country voice.
+- A middle position: strengthen specific functions rather than create a general institution, since the functions differ in their politics.
+- The most persuasive current argument concerns critical minerals, where the supply chains are concentrated and the gap is widest.
+
+*On-screen note:* The question is not whether the architecture is untidy. It is whether untidiness is the price of an agreement that holds.
+
+**Narration**
+
+Let me put the two cases to you directly, because the question of whether a global energy organisation should be created is periodically revived and you should be able to argue both sides. The case against is strong. A general organisation would require a consensus that plainly does not exist, since the largest producers and the largest consumers want incompatible things on price. It would either be captured by its most powerful members or paralysed by their disagreement, and the history of institutional proposals in this field is a history of states declining to accept constraints on their energy decisions. There is also a genuine question of comparative institutional advantage: the existing bodies function reasonably well within their mandates, and a merger would destroy that. The case for is also strong, and it is about gaps rather than tidiness. There is no authoritative global source of reserve and supply data that states trust and act on, which is why disputes about data recur in every negotiation. There is no emergency coordination mechanism for gas, for electricity or for critical minerals comparable to the oil arrangement, and the events of 2021 and 2022 demonstrated what that costs. And developing countries, which will account for most of the growth in energy demand over the coming decades, have very little voice in institutions designed in the nineteen seventies by and for industrialised importers. A middle position, which I find most persuasive and which I would invite you to test, is to strengthen specific functions rather than to create a general institution, because the functions differ sharply in their politics: data is easy, emergency sharing is harder, and price is impossible. And the most compelling current argument for new institutional capacity concerns critical minerals, since the supply chains for them are more concentrated than those for any fuel, the processing is dominated by a very small number of states, and there is presently no institution with either the mandate or the information to address it. The question is not whether the architecture is untidy. It is whether untidiness is the price of an arrangement that states will actually accept, and I would put it to you that it is. A tidy architecture would require a consensus whose absence is the very reason the field looks as it does. That is a frustrating conclusion for a lawyer, who would prefer a hierarchy and a forum, but it is a realistic one, and realism is the beginning of effective advice.
+
+### 14. Why This Matters at Your Level `levels`
+
+**Undergraduate level**
+- Explain why there is no world energy organisation, giving all three reasons.
+- Distinguish OPEC from the IEA by legal character, and say what obligations the IEA's founding agreement imposes.
+- Name the regional energy institutions of West Africa and Southern Africa and say what each does.
+- Describe how lenders regulate projects where national law is weak, and name one instrument.
+
+**Postgraduate level**
+- Assess whether the emergency sharing system could be extended to gas or to critical minerals, and identify the obstacle.
+- Analyse whether lender-imposed standards are legitimate governance, and propose an accountability mechanism for them.
+- Evaluate the case for a global energy organisation, and specify which functions you would transfer to it and why.
+- Critique the data function: why do states not trust one another's energy statistics, and what would it take to fix that?
+
+**Narration**
+
+Let me bring this to your programme. At undergraduate level, I want four things. First, the reasons there is no world energy organisation, and I want all three: sovereignty, the divergence of producer and consumer interests, and the technical character of the sectors that do have organisations. Second, a distinction between the two principal institutions by legal character, together with the specific obligations imposed by the consumers' founding agreement, and I would highlight the stockholding requirement. Third, the regional institutions of West Africa and Southern Africa, and what each of them does. And fourth, an account of how lenders regulate projects where national law is weak, with at least one instrument named. At postgraduate level, I want you to build arguments. Assess whether the emergency sharing system could be extended to gas or to critical minerals, and identify the specific obstacle rather than merely gesturing at politics. Analyse whether standards imposed by lenders constitute legitimate governance, and if you think they do not, propose an accountability mechanism that would not destroy the instrument. Evaluate the case for a global energy organisation, and be specific about which functions you would transfer to it, since a general answer of the kind that says more cooperation is needed will not do. And critique the data function: why do states not trust one another's energy statistics, and what institutional design would it actually take to fix that, given that the answer is unlikely to be a treaty.
+
+### 15. What We Have Established `summary`
+
+- There is no global energy organisation, for reasons of sovereignty, divergent interests and the technical character of the sector.
+- OPEC coordinates production by national action; the IEA imposes binding obligations of stockholding, restraint and sharing.
+- The institutions with genuine legal powers are those with a safety or security mandate; the rest persuade.
+- Regional bodies and multilateral lenders do much of the governing that the missing global organisation does not.
+- The emergency oil system shows that binding collective obligations are possible where interests converge and the purpose is narrow.
+
+> **The one thing to remember.** The architecture is fragmented because the interests are. The reform question is therefore which functions can be separated from the politics that blocks the rest.
+
+**Narration**
+
+Let me close. There is no global energy organisation, and the reasons are sovereignty, the genuine divergence between producer and consumer interests, and the fact that the sectors which do have global organisations regulate shared technical systems rather than rivalrous commodities. The two principal institutions differ fundamentally in legal character: the producers' organisation coordinates policy and members implement it by national action, while the consumers' organisation imposes binding obligations of stockholding, demand restraint and emergency sharing. The institutions in this field that hold genuine legal powers are those with a safety or security mandate, and everything else operates by persuasion. Regional bodies and multilateral lenders do a great deal of the governing, with the latter applying standards through contract that are frequently stricter than the law of the host state. And the emergency oil system demonstrates the limits as clearly as the possibilities: binding collective obligations are achievable where interests converge and the purpose is narrow, and not otherwise. In the next lecture we turn to the question of access, and examine energy poverty, energy justice and the right to energy. Let me leave you with one thought about the whole of this module. We have now surveyed the instruments through which disputes are settled, the rules on corruption, and the institutions that govern. What should be apparent is that the field does not lack law. It lacks architecture: there is no single place in which the law of energy is made, and consequently no single place in which it can be reformed. That is why practitioners in this field must hold so much of it in their heads at once, and it is why a generalist training such as this one is not a luxury but a requirement. Let me close with the observation that I would want you to carry into the final two lectures of this series. The architecture is fragmented because the interests are fragmented, and it will cohere only when states conclude that they need it to. That is a political judgement rather than a legal one, but it is taken by lawyers, in rooms, on the basis of advice. We return to that in the final lecture.
+
+### 16.  `end`
+
+**Narration**
+
+Thank you. For the next session, please read the Agreement on an International Energy Program, and consider whether the emergency sharing obligation could survive a transition in which oil ceases to be the critical fuel.
+
+## Required and Recommended Reading
+
+- Agreement on an International Energy Program, 18 November 1974, chapters I to IV.
+- Statute of the International Renewable Energy Agency, 2009.
+- Statute of the International Atomic Energy Agency, 1956, arts III and XII.
+- Organization of the Petroleum Exporting Countries, Statute (as amended), art. 2.
+- Directive (EU) 2019/944 on common rules for the internal market for electricity; Regulation (EU) 2019/942 establishing ACER.
+- International Finance Corporation, Performance Standards on Environmental and Social Sustainability (2012); The Equator Principles (2020).
+
+## Self-Test
+
+1. The principal legal distinction between OPEC and the IEA is that:
+    a) OPEC is a treaty organisation and the IEA is not
+    b) The IEA's founding agreement imposes binding obligations of stockholding, demand restraint and emergency sharing, while OPEC decisions are implemented by national action ✓
+    c) OPEC has inspection powers
+    d) The IEA can impose production quotas
+
+   *The producers' organisation coordinates policy and its members act; the consumers' organisation binds its members to specific emergency obligations.*
+
+2. Which energy institutions hold genuine compulsory powers?
+    a) All of them
+    b) Those with a safety or security mandate, such as the International Atomic Energy Agency ✓
+    c) Only regional bodies
+    d) Only the International Renewable Energy Agency
+
+   *Verification powers exist where states share a compelling interest in verification, which is the point made in the nuclear lecture.*
+
+3. Lender-imposed environmental and social standards are significant because:
+    a) They are public law
+    b) They are applied by contract and frequently impose stricter requirements than the law of the host state ✓
+    c) They are enforced by criminal sanctions
+    d) They apply only in the European Union
+
+   *This produces effective governance without public accountability, which is the central unresolved question about the arrangement.*
+
+4. The emergency oil release of 2022 is significant because:
+    a) It was the first use of the system
+    b) It was the largest co-ordinated release in the history of the arrangement, and demonstrated the system's continued operation ✓
+    c) It ended the arrangement
+    d) It was directed against producers
+
+   *The releases, amounting to over sixty million barrels followed by a further one hundred and twenty million, activated a mechanism designed in 1974.*
+
+---
+
+*TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION, USA · International Energy & Natural Resources Law · Global Perspectives · Delivered by Prof. Williams*
