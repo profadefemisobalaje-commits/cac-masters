@@ -1,0 +1,653 @@
+{
+  "course": "CPY 701",
+  "course_title": "Introduction to Counseling Psychology",
+  "week": 4,
+  "title": "Week 4 — Group Counselling",
+  "lecturer": "Prof. S.M.A. Philips",
+  "institution": "Triune Biblical University Global Extension, USA",
+  "target_minutes": 35,
+  "references": [
+    "Yalom, I. D., & Leszcz, M. (2020). The Theory and Practice of Group Psychotherapy (6th ed.). Basic Books.",
+    "Tuckman, B. W. (1965). Developmental sequence in small groups. Psychological Bulletin, 63(6), 384-399.",
+    "Burlingame, G. M., Strauss, B., & Joyce, A. (2013). Change mechanisms and effectiveness of small group treatments. In M. J. Lambert (Ed.), Bergin and Garfield's Handbook of Psychotherapy and Behavior Change (6th ed.). Wiley.",
+    "Corey, M. S., Corey, G., & Corey, C. (2018). Groups: Process and Practice (10th ed.). Cengage.",
+    "American Psychological Association. (2017). Ethical Principles of Psychologists and Code of Conduct. — Standard 10.03: Group Therapy."
+  ],
+  "slides": [
+    {
+      "layout": "title",
+      "course": "CPY 701 — Introduction to Counseling Psychology",
+      "title": "Group Counselling",
+      "subtitle": "The group as the agent of change, and the leader's discipline of protection",
+      "narration": "Welcome to Week Four of CPY 701. We have spent three weeks on the individual: first the field itself, then the theories, then the skills of the consulting room. Today the unit of treatment changes. Our subject is group counselling, and I want to state the argument of the session at the outset, because everything that follows depends on it. The argument is this: a group is not individual counselling performed in public. The group itself is the agent of change, and the leader's principal work is to build and protect the conditions in which the group can do what no single counsellor can do. If you lead a group as though it were a sequence of private conversations with an audience, you will waste the most powerful resource in the room, and that resource is the members themselves. The lecture has three movements. First, what a group is and what makes it therapeutic. Second, how a group is built and what it goes through before it can work. Third, what you actually do as the leader in the room."
+    },
+    {
+      "layout": "objectives",
+      "title": "Learning Objectives",
+      "eyebrow": "By the end of this lecture you should be able to",
+      "items": [
+        "Distinguish group counselling from individual counselling in terms of mechanism, not merely headcount.",
+        "Name the main types of group and the obligations each carries for the leader.",
+        "Describe the therapeutic factors that operate in groups, and identify which ones require protection.",
+        "State what the evidence says about group outcomes, and where groups are not indicated.",
+        "Sequence the stages of group development and predict what the group needs at each stage.",
+        "Describe how to select, screen and compose a counselling group of six to eight members.",
+        "Identify the leader functions that produce a working group, and the six errors that destroy one."
+      ],
+      "narration": "Here is what you should be able to do by the end of this session. First, distinguish group counselling from individual counselling in terms of mechanism, not merely headcount, and name the main types of group. Second, describe the therapeutic factors that operate in groups, and explain which ones require the leader's protection. Third, state what the evidence says about group outcomes, including where groups are equal to individual work and where they are not. Fourth, sequence the stages of group development and predict what the group will need at each stage. Fifth, describe how you would select, screen and compose a group of six to eight members. Sixth, identify the leader functions that produce a working group, and the six errors that most reliably destroy one. And seventh, analyse a first session and say what you would have done differently. Notice that the emphasis today is on the group as a system. Your attention shifts from the individual in front of you to the relations among eight people, and that is a genuinely different skill. Of these seven, the one that will prove hardest in practice is the last. Members will want you to be the source of insight, and the evidence says your job is to be the source of conditions."
+    },
+    {
+      "layout": "section",
+      "number": "1",
+      "eyebrow": "Part One",
+      "title": "The Group as the Unit of Treatment",
+      "subtitle": "Why the relations among members, and not the leader's attention, are the mechanism.",
+      "narration": "Part One establishes what a group is and why it works. I want to begin with mechanism, because a great deal of poor group leadership comes from a single misunderstanding: the assumption that a group is simply a way of treating several people at once. That idea is attractive, it is efficient, and it is wrong."
+    },
+    {
+      "layout": "definition",
+      "title": "Five Kinds of Group",
+      "eyebrow": "Key Concept 1",
+      "term": "What Makes a Group a Group",
+      "body": "A PSYCHOEDUCATIONAL group teaches a skill or a body of information through a structured programme, such as a stress-management course. A COUNSELLING group addresses personal concerns through interaction among members, with a leader who facilitates. A PSYCHOTHERAPY group works at greater depth with more distressed members and a more interpretive leader. A SUPPORT group is organised around a shared condition or loss, and its authority is the lived experience of its members. A TASK group exists to accomplish a job. All five depend on interaction among members, not on the leader's attention rotating around the room. That is the definition to hold: the relations among members are the mechanism.",
+      "source": "This typology follows Corey, Corey and Corey (2018), who distinguish these formats by purpose, structure and the depth of disclosure expected.",
+      "footnote": "CPY 701 concerns the counselling group, and that is the model used in this lecture. Most of the principles transfer to the other formats, but the obligations do not transfer unchanged.",
+      "narration": "Let me define the terms, because they carry different obligations. A psychoeducational group teaches a skill or a body of information through a structured programme, such as a stress-management course or a marriage-preparation class. Structure is high and disclosure is moderate. A counselling group addresses personal concerns through interaction among members, with a leader who facilitates rather than instructs. A psychotherapy group works at greater depth with more distressed members and a more interpretive leader. A support group is organised around a shared condition or loss, and its authority is the lived experience of its members rather than the training of its leader. A task group exists to accomplish a job, and its health is measured by the work rather than by insight. Notice what all five have in common, because this is the point of the slide: they depend on interaction among members, not on the leader's attention rotating around the room. That is the definition I want you to carry. A group is a treatment in which the relations among members are the mechanism. The choice of format is a clinical decision rather than a matter of whichever room is free. A psychoeducational group of eight people learning to manage anxiety is a different intervention from a counselling group of eight people examining their relationships, and the leader's conduct should differ accordingly."
+    },
+    {
+      "layout": "bullets",
+      "title": "The Therapeutic Factors",
+      "eyebrow": "Key Concept 2",
+      "subtitle": "Eleven factors, clustered into four families. Only one of them is a technique the leader performs.",
+      "bullets": [
+        {
+          "t": "Through what the group says and shows",
+          "strong": true
+        },
+        {
+          "t": "Imparting information — members learn from instruction and from each other's experience.",
+          "lvl": 1
+        },
+        {
+          "t": "Development of socialising techniques — how to give and receive feedback, disagree without rupture, be direct without cruelty.",
+          "lvl": 1
+        },
+        {
+          "t": "Through being with others",
+          "strong": true
+        },
+        {
+          "t": "Universality — the discovery that you are not the only person with this problem. Often the most powerful moment in a group's life.",
+          "lvl": 1
+        },
+        {
+          "t": "Altruism — the experience of being useful to somebody else.",
+          "lvl": 1
+        },
+        {
+          "t": "Group cohesiveness — belonging and warmth, which keeps members coming back and taking risks.",
+          "lvl": 1
+        },
+        {
+          "t": "Through the group as a second family",
+          "strong": true
+        },
+        {
+          "t": "Corrective recapitulation of the primary family group — early family patterns replay, and this time get a different response.",
+          "lvl": 1
+        },
+        {
+          "t": "Through the leader's restraint",
+          "strong": true
+        },
+        {
+          "t": "Interpersonal learning — seeing how you affect others, and hearing about it.",
+          "lvl": 1
+        },
+        {
+          "t": "Catharsis — the release of long-held feeling, in safety.",
+          "lvl": 1
+        },
+        {
+          "t": "Existential factors — the confrontation with the givens of life.",
+          "lvl": 1
+        },
+        {
+          "t": "Holding all of it together: instillation of hope.",
+          "lvl": 1
+        }
+      ],
+      "narration": "Yalom, who has done more than anyone to describe how groups heal, named eleven therapeutic factors. I am going to group them, because eleven items are hard to hold in your head, and you will need them in your head at the moment a group goes quiet and you are tempted to fill the space. First, factors that operate through what the group says and shows. Imparting information, where members learn from instruction and from one another's experience. And development of socialising techniques, where members learn how to give and receive feedback, how to disagree without rupture, and how to be direct without cruelty. Second, factors that operate through being with others. Universality, the discovery that you are not the only person with this problem, which is often the single most powerful moment in a group's life. Altruism, the experience of being useful to somebody else, which is unavailable in individual work. And group cohesiveness, the sense of belonging and warmth that keeps members coming back and taking risks. Third, factors that operate through the group as a rehearsal of the family. Corrective recapitulation of the primary family group, where members replay early patterns and receive a different response. And fourth, factors that require the leader's restraint: interpersonal learning, where members learn how they affect others by seeing it happen and hearing about it; catharsis, the release of long-held feeling; and existential confrontation with the givens of life. Holding all of it together is instillation of hope. Now notice something. Only one of these eleven is a technique that the leader performs. The rest are conditions that the leader protects. That distinction is the defining insight of group work."
+    },
+    {
+      "layout": "table",
+      "title": "What the Leader Must Protect",
+      "eyebrow": "Key Concept 3",
+      "subtitle": "Each factor fails in a characteristic way when the leader neglects it.",
+      "columns": [
+        "Factor",
+        "What it looks like",
+        "What the leader protects"
+      ],
+      "widths": [
+        0.2,
+        0.38,
+        0.42
+      ],
+      "rows": [
+        [
+          "Universality",
+          "Members recognising their own experience in someone else's",
+          "That no single member is treated as the group's problem to be solved"
+        ],
+        [
+          "Altruism",
+          "Members turning to help each other without being asked",
+          "Resisting the urge to be the only helper in the room"
+        ],
+        [
+          "Cohesion",
+          "Warmth, attendance, increasing risk-taking",
+          "Safety, punctuality, and addressing absences and silences early"
+        ],
+        [
+          "Interpersonal learning",
+          "Feedback about impact, offered and received",
+          "Linking members to each other rather than to yourself"
+        ],
+        [
+          "Catharsis",
+          "The release of feeling that has been held a long time",
+          "Not manufacturing it, not interrupting it, and containing it afterwards"
+        ],
+        [
+          "Hope",
+          "Seeing another member improve",
+          "Naming change out loud, and keeping contact with how members are doing"
+        ]
+      ],
+      "narration": "This slide turns each factor into a supervisory question, because a factor can be present in principle and absent in practice. Universality looks like members recognising their own experience in somebody else's account, and what the leader protects is the rule that no single member becomes the group's designated problem. The moment a group settles on one member as the one who is broken, universality collapses for everybody. Altruism looks like members turning to help each other without being asked, and the leader protects it by resisting the urge to be the only helper in the room. When the leader answers every distress, members learn that help comes from the front of the room. Cohesion looks like warmth, attendance and increasing risk-taking, and it is protected by attention to the small things: who is late, who has been absent twice, whose last contribution went unanswered. Interpersonal learning looks like feedback about impact being offered and received, and the leader protects it by linking members to each other rather than to themselves. Catharsis looks like the release of feeling held for a long time. The leader's job is not to produce it, which is impossible, and not to interrupt it, which is common, but to contain it afterwards, because a member who has wept in front of six people needs somebody to attend to what that cost. And hope looks like watching somebody else get better, which is why the leader names change out loud when it happens. One duty sits behind that entire third column, and it is not written on the slide. Cohesion is carried more by your conduct than by your statements: whether you are on time, whether you remember what a member said two sessions ago, whether you apologise when you get something wrong. Those small reliabilities are what members read as safety."
+    },
+    {
+      "layout": "bullets",
+      "title": "Does Group Counselling Work?",
+      "eyebrow": "Key Concept 4",
+      "subtitle": "What the evidence supports, and the one place groups reliably underperform.",
+      "bullets": [
+        {
+          "t": "Outcomes are comparable to individual therapy for many conditions.",
+          "strong": true
+        },
+        {
+          "t": "Meta-analytic reviews of group treatments find effect sizes broadly equivalent to individual formats, and on measures of social support the group has a structural advantage.",
+          "lvl": 1
+        },
+        {
+          "t": "Cohesion is the group's equivalent of the therapeutic alliance.",
+          "strong": true
+        },
+        {
+          "t": "It is among the most consistent predictors of outcome in the group literature, which is why slide 6 spent its time on protecting it.",
+          "lvl": 1
+        },
+        {
+          "t": "The main threat is attrition, not ineffectiveness.",
+          "strong": true
+        },
+        {
+          "t": "Drop-out is concentrated in the first sessions. Early attendance predicts the whole course; a member who misses session two rarely returns.",
+          "lvl": 1
+        },
+        {
+          "t": "Groups are not indicated for everyone.",
+          "strong": true
+        },
+        {
+          "t": "Acute crisis requiring individual care, severe reality distortion, and an inability to tolerate feedback are the classic exclusions. Screening is a clinical act, not an administrative one.",
+          "lvl": 1
+        }
+      ],
+      "narration": "Before we go further, the evidence, stated as honestly as I can state it. First, group formats produce outcomes comparable to individual therapy across many conditions. Meta-analytic reviews of group treatment find effect sizes broadly equivalent to individual formats, and on measures of social support the group has a structural advantage, because the member leaves with a network rather than a single relationship. Second, cohesion is the group's equivalent of the therapeutic alliance, and it is among the most consistent predictors of outcome in the group literature. That is the empirical reason the previous slide spent its time on protecting it. If you wanted one thing to manage in your first group, manage cohesion. Third, and this is the finding that should shape your practice, the main threat to groups is attrition rather than ineffectiveness. Drop-out is concentrated in the first few sessions. Attendances in the first two sessions predict the whole course, and a member who misses the second session rarely returns. So the practical implication is that your job in the first hour is not to demonstrate insight; it is to make the second hour likely. Fourth, groups are not indicated for everyone. Acute crisis requiring individual care, severe reality distortion, and a marked inability to tolerate feedback are the classic exclusions. I want to add that modern practice is more inclusive than the original lists, especially for psychoeducational groups, but the principle stands. Screening is a clinical act, not an administrative one, and it is where group leadership begins. One caveat about the evidence. Most of the trials concern psychotherapy and counselling groups for adults, and much of the meta-analytic work pools formats that differ from one another. So the honest summary is this. Group formats work, they work for many of the problems you will meet, and they work least well with members who cannot yet use other people. Combining a group with occasional individual sessions is common practice, and it is often the best arrangement available."
+    },
+    {
+      "layout": "section",
+      "number": "2",
+      "eyebrow": "Part Two",
+      "title": "Formation and Development",
+      "subtitle": "How a group is built, and what it goes through before it can work.",
+      "narration": "Part Two concerns formation and development. A group is not assembled; it is built, and then it must pass through a predictable sequence before it becomes useful. Leaders who do not know the sequence tend to misread a normal developmental crisis as a failure of their leadership, and then they do something regrettable in response."
+    },
+    {
+      "layout": "process",
+      "title": "Stages of Group Development",
+      "eyebrow": "Key Concept 5",
+      "subtitle": "Tuckman's sequence, with the leader's task at each stage.",
+      "steps": [
+        {
+          "h": "Forming",
+          "b": "Polite, anxious, dependent on the leader. Task: orient, structure, set the frame and the norms."
+        },
+        {
+          "h": "Storming",
+          "b": "Conflict, competition for position, dissatisfaction with the leader. Task: do not flee. Name it and work with it."
+        },
+        {
+          "h": "Norming",
+          "b": "Norms settle and cohesion grows. Task: reinforce what is working and notice what is not, early."
+        },
+        {
+          "h": "Performing",
+          "b": "The group does its work with less structure. Task: keep process commentary alive, and stay quiet more."
+        },
+        {
+          "h": "Adjourning",
+          "b": "Ending, and the loss that comes with it. Task: process the ending explicitly, and review what changed."
+        }
+      ],
+      "narration": "Here is the developmental sequence, described by Tuckman in 1965 and still the most useful map we have. Forming is polite, anxious and dependent. Members are watching you to find out what is allowed, and your task is to orient them, provide structure, and set the frame and the norms. Notice that structure is high here, and that this is legitimate rather than a failure of democracy. Storming is the stage leaders fear most, and it is the one I most want you to expect. Conflict appears, members compete for position, and somebody is dissatisfied with you. A great many beginning leaders respond to this stage by becoming more directive, or by reassuring everyone that the group is fine, and both responses postpone the work. The task here is not to prevent the conflict but to keep it inside the frame: name it, normalise it, and make sure the person carrying it is not harmed or abandoned. Norming is where norms settle and cohesion grows, and the leader's task is to reinforce what is working and to notice what is not, early, because a bad norm is much cheaper to address in week three than in week ten. Performing is the stage at which the group does its work with less structure and the leader speaks least. And adjourning is the ending, which I want to insist is a stage of treatment rather than an administrative event. Members who have been honest with each other are about to lose that, and the loss needs to be processed explicitly. I should add that the sequence is not a one-way escalator. A group can move backwards under stress: a new member, a departure, or a painful disclosure can return a performing group briefly to storming. That is normal, and it is not regression in the clinical sense."
+    },
+    {
+      "layout": "bullets",
+      "title": "Selection, Screening and Composition",
+      "eyebrow": "Key Concept 6",
+      "subtitle": "The hour in which you screen a member is the hour in which you lead the group.",
+      "bullets": [
+        {
+          "t": "Size: six to eight members for an interactive group.",
+          "strong": true
+        },
+        {
+          "t": "Below five, the group lacks energy and every absence is felt. Above ten, it fragments into subgroups and the quiet members disappear.",
+          "lvl": 1
+        },
+        {
+          "t": "Screen every prospective member individually, before the group starts.",
+          "strong": true
+        },
+        {
+          "t": "Explain the format, the norms and the limits of confidentiality. Assess whether this person can use the group's mechanism, and whether the group can hold them.",
+          "lvl": 1
+        },
+        {
+          "t": "Compose for cohesion first, and for difference second.",
+          "strong": true
+        },
+        {
+          "t": "Enough shared ground that members recognise each other; enough variety in age, temperament and coping style that members have something to learn.",
+          "lvl": 1
+        },
+        {
+          "t": "Agree the frame in writing: time-limited or open, how many sessions, what attendance is expected, what happens when someone misses.",
+          "strong": true
+        },
+        {
+          "t": "Commitment agreed in advance is the strongest single protection against the attrition that threatens every group.",
+          "lvl": 1
+        }
+      ],
+      "narration": "Selection, screening and composition. On size, six to eight members is the classic recommendation for an interactive group. Below five the group lacks energy, and every absence is felt disproportionately. Above ten it fragments into subgroups and the quiet members disappear. On screening, I want to be emphatic: screen every prospective member individually, and do it before the group begins. The screening conversation is where you explain the format, the norms and the limits of confidentiality, and where you assess two things: whether this person can use the group's mechanism, and whether this particular group can hold this particular person. Those are different questions, and both matter. A distressed member in a group of six who cannot be held will damage the group and be damaged by it. On composition, look for cohesion first and difference second. You need enough shared ground that members recognise one another, and enough variety in age, temperament and coping style that there is something to learn. A group of six identical people is comfortable and inert. On the frame, agree it in advance and put it in writing: whether the group is time-limited or open, how many sessions, what attendance is expected, and what happens when somebody misses. Commitment agreed in advance is the strongest single protection you have against the attrition I described earlier, and it costs you nothing but a conversation. I want to close on the point that screening is where group leadership starts. A leader who inherits a badly composed group spends the whole course compensating, and the members pay for it. Two more decisions before you start. Decide whether the group is open or closed. A closed, time-limited group of twelve sessions gives cohesion a chance to build and gives the ending a meaning, while an open group absorbs departures but must re-establish its norms with every arrival. And prepare your members before the first session: tell them what the group will be like, what will be asked of them, and what they may find difficult. Preparation is one of the few things you can do before a group starts that demonstrably reduces early drop-out."
+    },
+    {
+      "layout": "bullets",
+      "title": "Culture, Community and Confidentiality",
+      "eyebrow": "Key Concept 7",
+      "subtitle": "Group work in a close-knit community is not the same as group work among strangers.",
+      "bullets": [
+        {
+          "t": "In Nigeria the counsellor-to-population ratio makes the group model a necessity, not an option.",
+          "strong": true
+        },
+        {
+          "t": "One trained counsellor can serve eight people in an hour, and the members leave with a network rather than a single relationship.",
+          "lvl": 1
+        },
+        {
+          "t": "The group is not a foreign form. The extended family, the age-grade meeting, the church cell and the cooperative already work this way.",
+          "strong": true
+        },
+        {
+          "t": "Your task is to use that familiarity rather than to import a foreign etiquette wholesale.",
+          "lvl": 1
+        },
+        {
+          "t": "Confidentiality cannot be promised, only agreed and protected.",
+          "strong": true
+        },
+        {
+          "t": "Members are not bound by a code of ethics. State the limit at the outset, ask for an explicit commitment, and return to it at intervals.",
+          "lvl": 1
+        },
+        {
+          "t": "In a small city, disclosure can travel through kinship networks.",
+          "strong": true
+        },
+        {
+          "t": "When members may be known to one another, the fear of exposure shapes what is said. Ask about it openly rather than waiting for it to emerge.",
+          "lvl": 1
+        },
+        {
+          "t": "Expect the authority dynamic, and manage it deliberately.",
+          "strong": true
+        },
+        {
+          "t": "Deference to the leader, or to an older member, can silence younger ones. Norms that permit disagreement must be stated, demonstrated, and protected when first tested.",
+          "lvl": 1
+        }
+      ],
+      "narration": "Now the cultural and community dimension, which in our setting is not an addendum but a determinant of whether the group works at all. Consider scale first. In Nigeria the counsellor-to-population ratio is thin enough that the group model is a necessity rather than a preference. One trained counsellor can serve eight people in an hour, and the members leave with a network rather than a single relationship. That makes group work, in my view, the most important thing you will learn in this programme for the health system you are actually going to work in. Second, the group is not a foreign form. The extended family, the age-grade meeting, the church cell and the cooperative already work in this way, and members arrive with expectations formed by them. Your task is to use that familiarity rather than to import a foreign etiquette wholesale. Third, and this requires care. Confidentiality in a group cannot be promised, only agreed and protected. Members are not bound by a code of ethics, and you cannot guarantee what they will do. State the limit in the screening conversation and again at the first session, ask for an explicit commitment, and return to it at intervals. In a small city, disclosure can travel through kinship networks, and members know that better than you do. When people in the group may be known to one another, the fear of exposure shapes what is said, so ask about it openly rather than waiting for it to surface as an unexplained silence. Fourth, expect the authority dynamic and manage it deliberately. Deference to the leader, or to an older member, can silence the younger ones. Norms that permit disagreement have to be stated, demonstrated by you, and protected the first time somebody tests them. One practical matter inside the room. When feeling rises, members often switch language, into Yoruba, Igbo, Hausa or pidgin, and what is sayable can change with the language. If you do not share the language, say so early and agree how it will be handled. If you do share it, notice carefully what is said in one language and not in the other."
+    },
+    {
+      "layout": "section",
+      "number": "3",
+      "eyebrow": "Part Three",
+      "title": "The Leader in the Room",
+      "subtitle": "What to do, what not to do, and the one thing to attend to before all others.",
+      "narration": "Part Three puts you back in the room, this time as the leader of a system rather than the helper of an individual. The skills you learned in Week Three are all still required, and they will all be tested harder, because in a group you are attending to eight people at once and the silence you leave will be filled by somebody."
+    },
+    {
+      "layout": "bullets",
+      "title": "Leader Functions",
+      "eyebrow": "Key Concept 8",
+      "subtitle": "Six things a group leader does. Notice how few of them involve information.",
+      "bullets": [
+        {
+          "t": "Structure — high at the start, deliberately reduced over time.",
+          "strong": true
+        },
+        {
+          "t": "The leader's activity should decline as the group's competence grows. A group that still needs you in week eight has been taught dependence.",
+          "lvl": 1
+        },
+        {
+          "t": "Linking — connecting members to each other, not to yourself.",
+          "strong": true
+        },
+        {
+          "t": "\"Chidi, that sounds close to what Amaka described a moment ago.\" The leader's most valuable sentence is often a bridge between two members.",
+          "lvl": 1
+        },
+        {
+          "t": "Drawing out — creating space rather than demanding speech.",
+          "strong": true
+        },
+        {
+          "t": "\"There are three people who have not spoken yet, and there is no hurry.\" This invites without putting anybody on the spot.",
+          "lvl": 1
+        },
+        {
+          "t": "Blocking — protecting the group from one member's behaviour.",
+          "strong": true
+        },
+        {
+          "t": "Interrupting a monologue, stopping an interrogation, preventing a scapegoat. Blocking is done for the group, not against the person.",
+          "lvl": 1
+        },
+        {
+          "t": "Modelling — the leader's own conduct is the norm.",
+          "strong": true
+        },
+        {
+          "t": "How you receive disagreement, acknowledge error and handle conflict teaches the group more than any stated rule.",
+          "lvl": 1
+        },
+        {
+          "t": "Process commentary — naming what is happening between people.",
+          "strong": true
+        },
+        {
+          "t": "\"I notice that whenever we approach your father, the conversation turns to logistics.\"",
+          "lvl": 1
+        }
+      ],
+      "narration": "Six leader functions. First, structure, high at the start and deliberately reduced over time. The leader's activity should decline as the group's competence grows, and I want to name the failure mode: a group that still needs you in week eight has been taught dependence, and that is our doing rather than theirs. Second, linking. Connecting members to each other rather than to yourself. Chidi, that sounds close to what Amaka described a moment ago. The leader's most valuable sentence is frequently a bridge between two members, and the reason is that every link you build between them strengthens the mechanism, while every answer you supply strengthens only you. Third, drawing out, which is creating space rather than demanding speech. There are three people who have not spoken yet, and there is no hurry. That sentence invites without putting anyone on the spot, and it tells the group that you are watching the whole system rather than the last person who spoke. Fourth, blocking. This is the function beginners find hardest, because it feels rude, and it is the one the group most needs you to perform. Blocking means interrupting a monologue, stopping one member interrogating another, and preventing the group from settling on a scapegoat. Do it for the group, and say why you are doing it. Fifth, modelling. Your conduct is the norm, not your statements about norms. How you receive disagreement, acknowledge an error, and handle conflict with another person teaches the group more than any rule you announce. Sixth, process commentary. Naming what is happening between people: I notice that whenever we approach your father, the conversation turns to logistics. That is a sentence no member can easily say, which is exactly why it is yours."
+    },
+    {
+      "layout": "table",
+      "title": "Six Leader Errors",
+      "eyebrow": "Key Concept 9",
+      "subtitle": "Every one of these is a well-intentioned response to discomfort, usually yours.",
+      "columns": [
+        "The error",
+        "What it does to the group",
+        "What to do instead"
+      ],
+      "widths": [
+        0.24,
+        0.4,
+        0.36
+      ],
+      "rows": [
+        [
+          "Rescuing",
+          "Removes the group's opportunity to help, and teaches that help comes from the front of the room",
+          "Wait. Count to ten. Let the members work, and comment on the process afterwards"
+        ],
+        [
+          "Over-structuring",
+          "Turns the group into a class, and members into an audience for the leader",
+          "Reduce agenda as the group matures; let silence and choice exist"
+        ],
+        [
+          "Spotlighting",
+          "Forces a reluctant member to perform, and confirms that the group is unsafe for the hesitant",
+          "Create space without assignment: \"no hurry\" rather than \"what do you think?\""
+        ],
+        [
+          "Colluding with silence",
+          "Lets avoidance become the norm, and the important topic never arrives",
+          "Name the avoidance itself, respectfully: \"I notice we move away from this each time\""
+        ],
+        [
+          "Permitting scapegoating",
+          "One member is sacrificed to relieve the group's anxiety; the group learns that honesty is dangerous",
+          "Block it at the first sign, and ask the group what it is doing with that member"
+        ],
+        [
+          "Serial individual counselling",
+          "The group becomes a waiting room while you conduct eight private sessions in public",
+          "Return to the group after any individual attention: \"who else recognises this?\""
+        ]
+      ],
+      "narration": "Now the six errors, and I want to say at the outset that every one of them is a well-intentioned response to discomfort, and the discomfort is usually the leader's. First, rescuing. Moving in as soon as the group struggles, which removes the group's opportunity to help and teaches that help comes from the front of the room. The remedy is almost embarrassingly simple: wait, count to ten, let the members work, and comment on the process afterwards. Second, over-structuring. Filling the hour with an agenda, which turns the group into a class and the members into an audience. The remedy is to reduce structure as the group matures and let silence and choice exist. Third, spotlighting. Tunde, you have been quiet, what do you think? It feels inclusive and it forces a reluctant member to perform, confirming that the group is unsafe for the hesitant. Create space instead, without assignment. Fourth, colluding with silence. Letting an avoidance become a norm, so that the topic the group is organised around never arrives. Name the avoidance itself, respectfully: I notice that we move away from this each time we come near it. Fifth, permitting scapegoating. One member is sacrificed to relieve the group's anxiety, and the group learns that honesty is dangerous and that somebody will always pay for it. Block this at the first sign, and ask the group what it is doing with that member. Sixth, serial individual counselling. Working with one member at a time while the others wait, so the group becomes a waiting room for eight private sessions conducted in public. The remedy is a habit worth forming now: after any individual attention, return to the group. Who else recognises this?"
+    },
+    {
+      "layout": "bullets",
+      "title": "The Here-and-Now",
+      "eyebrow": "Key Concept 10",
+      "subtitle": "The group's own behaviour is the material. Use it when it is live, and not otherwise.",
+      "bullets": [
+        {
+          "t": "Groups drift towards content and towards the leader.",
+          "strong": true
+        },
+        {
+          "t": "Members tell stories about elsewhere, and turn to you for verdicts. Both are comfortable, and both avoid the room.",
+          "lvl": 1
+        },
+        {
+          "t": "The here-and-now means treating what happens between members as the clinical material.",
+          "strong": true
+        },
+        {
+          "t": "Not the story about the workplace, but who was interrupted while telling it, and who went quiet.",
+          "lvl": 1
+        },
+        {
+          "t": "Two tiers of process: what the group is doing, and how members feel about what it is doing.",
+          "strong": true
+        },
+        {
+          "t": "The second tier is harder and more valuable. \"That is the first time anyone has disagreed with you here. What was that like?\"",
+          "lvl": 1
+        },
+        {
+          "t": "Do not process everything.",
+          "strong": true
+        },
+        {
+          "t": "Process commentary is indicated when the group's behaviour is itself an instance of the problem members bring. Otherwise, let the discussion be a discussion.",
+          "lvl": 1
+        }
+      ],
+      "narration": "The here-and-now. Every group drifts in two directions, and both are away from the room. It drifts towards content, so that members tell stories about elsewhere, and it drifts towards the leader, so that members turn to you for verdicts. Both are comfortable, and both avoid the thing that makes the group therapeutic. The here-and-now is the corrective: treating what happens between the members as the clinical material. Not the story about the workplace, but who was interrupted while telling it, and who went quiet when it was told. This is the group's version of the shift from content to process that we discussed in Week Three, with the volume turned up, because in a group the material is being produced live by eight people. There are two tiers of process, and I want you to distinguish them. The first is what the group is doing: we have spent twenty minutes on one member and the rest of you have been listeners. The second tier is how members feel about what the group is doing: that is the first time anyone has disagreed with you here, Chidi. What was that like? The second tier is harder to say and considerably more valuable, because it puts feeling and relationship into the room rather than describing them from a distance. A caution, though, and it is an important one. Do not process everything. A leader who comments on every exchange becomes an interruption and the group stops speaking freely. Process commentary is indicated when the group's own behaviour is an instance of the problem members bring. Otherwise, let a discussion be a discussion, and save the commentary for the moment it is live."
+    },
+    {
+      "layout": "bullets",
+      "title": "Difficult Moments",
+      "eyebrow": "Key Concept 11",
+      "subtitle": "Five situations you will meet in your first year of leading, and what each one is actually asking for.",
+      "bullets": [
+        {
+          "t": "Silence",
+          "strong": true
+        },
+        {
+          "t": "Almost always anxiety about risk, not failure. Tolerate it. The leader's composure is what tells the group the silence is survivable.",
+          "lvl": 1
+        },
+        {
+          "t": "The monopolist",
+          "strong": true
+        },
+        {
+          "t": "Block kindly and publicly, for the group's sake rather than against the person. The monopolist is often the most anxious member in the room.",
+          "lvl": 1
+        },
+        {
+          "t": "The silent member",
+          "strong": true
+        },
+        {
+          "t": "Distinguish unable to speak from unwilling, and from nothing to say yet. Join them to another member's theme instead of requesting a contribution.",
+          "lvl": 1
+        },
+        {
+          "t": "Conflict between members",
+          "strong": true
+        },
+        {
+          "t": "A working group needs conflict. Protect the person, not the harmony, and do not resolve it on their behalf.",
+          "lvl": 1
+        },
+        {
+          "t": "A member in crisis",
+          "strong": true
+        },
+        {
+          "t": "Triage outside the group, and do not conduct the crisis in front of the others. The group is not a substitute for individual care.",
+          "lvl": 1
+        }
+      ],
+      "narration": "Five situations you will meet in your first year of leading. First, silence. A group's silence is almost always anxiety about risk rather than evidence of failure, and the leader's composure is what tells the members that the silence is survivable. If you cannot sit in it, the group learns that quiet is an emergency, and they will fill every pause for the rest of the course. Second, the monopolist. Block kindly and publicly, for the group's sake rather than against the person, and remember that the member who speaks without stopping is often the most anxious person in the room. The monologue is a way of managing fear, so your block must leave the member's dignity intact. Third, the silent member. Distinguish three cases, because they call for different responses: unable to speak, unwilling to speak, and nothing to say yet. The first may be a language or safety issue, the second may be a confidential reason you learn in supervision, and the third is normal in a new group. In all three cases, join the member to another member's theme rather than requesting a contribution. Fourth, conflict between members. A working group needs conflict, and the leader's task is to protect the person rather than the harmony. Do not resolve it on their behalf, and do not let it run unmanaged. Fifth, a member in crisis. Triage outside the group. Do not conduct the crisis in front of the others, and do not allow the group to become a substitute for individual care. That is partly a clinical judgement and partly an ethical one, and it is the subject of the next slide but one."
+    },
+    {
+      "layout": "casestudy",
+      "title": "First Session of a Group",
+      "eyebrow": "Case Vignette",
+      "paragraphs": [
+        "A new counselling group of six meets for the first time. It is week one. The leader has given the frame and the confidentiality agreement, and asked the group to begin. For ten minutes, Bisi has spoken almost continuously about her marriage, in detail. Two members, Chidi and Amaka, have begun to exchange glances. Tunde, twenty-two and the youngest, has said nothing at all. The remaining two, Idowu and Grace, have offered only small murmurs of agreement.",
+        "The leader feels two impulses at once: to let Bisi finish, because interrupting feels unkind, and to work individually with Tunde, because he is being left out. Both impulses are the leader's discomfort speaking."
+      ],
+      "questions": [
+        "What is the group doing, described as a process rather than as a set of individuals?",
+        "What is the risk of allowing Bisi to continue for another ten minutes?",
+        "What is the risk of asking Tunde directly whether he would like to say something?",
+        "Which leader function would you use now, and what sentence would you say?",
+        "How would you use the silence, rather than end it?"
+      ],
+      "narration": "Let us analyse a first session. Six members, first meeting. The leader has given the frame and the confidentiality agreement and asked the group to begin. For ten minutes, Bisi has spoken almost continuously about her marriage, in detail. Two members, Chidi and Amaka, have begun to exchange glances. Tunde, who is twenty-two and the youngest, has said nothing at all. The other two, Idowu and Grace, have offered small murmurs of agreement. The leader feels two impulses at once: to let Bisi finish, because interrupting feels unkind, and to work individually with Tunde, because he is being left out. I want you to notice that both impulses are the leader's discomfort speaking, and neither is a plan. So what is the group doing? Describe it as a process rather than as six individuals. It is organising itself around one voice, and it has already begun to mark the person who is not speaking. If you let it run, the pattern becomes the norm in forty minutes, and by session three you have a leader with an audience and one member carrying the whole group. If you ask Tunde directly whether he would like to say something, you have spotlighted him, which tells the group that silence is a problem to be repaired by the leader and that the youngest member must perform on request. Now, which function would you use, and what sentence would you say? I would block, gently, for the group. Something like: Bisi, thank you, and I want to stop you there for a moment. Two things. Three people have not spoken yet, and there is no hurry. And I want to ask the group something. What has it been like to listen for ten minutes? Notice what that sentence does. It does not criticise Bisi, it releases her, it names the pattern without shaming anyone, and it hands the work back to the group. And then the last question: how would you use the silence rather than end it? After that question, say nothing. Whatever comes next from the members is worth more than anything you could add, and your silence is the demonstration that the room can hold the moment."
+    },
+    {
+      "layout": "bullets",
+      "title": "Ethics, Safety and the Frame",
+      "eyebrow": "Key Concept 12",
+      "subtitle": "What the code requires of you specifically because this is a group.",
+      "bullets": [
+        {
+          "t": "Describe roles and the limits of confidentiality at the outset, and mean it.",
+          "strong": true
+        },
+        {
+          "t": "The APA Ethics Code addresses group work directly: in group settings you describe the roles and responsibilities of all parties and the limits of confidentiality. Ask for an explicit commitment from each member.",
+          "lvl": 1
+        },
+        {
+          "t": "Screen for suitability, and record that you did.",
+          "strong": true
+        },
+        {
+          "t": "Screening is both a clinical and a protective act. Document the criteria you used and who you did not accept.",
+          "lvl": 1
+        },
+        {
+          "t": "Manage dual relationships actively in small communities.",
+          "strong": true
+        },
+        {
+          "t": "Members may be colleagues, relatives or church members. Anticipate it in screening, name it in the group, and be prepared to refer a member on.",
+          "lvl": 1
+        },
+        {
+          "t": "Write group notes that protect the other members.",
+          "strong": true
+        },
+        {
+          "t": "Notes identify people beyond your client. Record themes, patterns and your own process, not other members' confidences.",
+          "lvl": 1
+        },
+        {
+          "t": "Do not lead alone what you cannot hold alone.",
+          "strong": true
+        },
+        {
+          "t": "Co-leading is the standard training model for a reason: it gives you a witness, a check on your blind spots, and a supervisor in the room.",
+          "lvl": 1
+        }
+      ],
+      "narration": "Finally, the ethics, organised around what the code requires of you specifically because this is a group rather than an individual client. First, describe roles and the limits of confidentiality at the outset, and mean it. The APA Ethics Code addresses group work directly: in group settings, psychologists describe the roles and responsibilities of all parties and the limits of confidentiality. That is a requirement to speak about it, clearly, at the beginning, and to ask for an explicit commitment from each member. Second, screen for suitability and record that you did. Screening is both a clinical act and a protective one, and documentation should show the criteria you used and who you decided not to accept. Third, manage dual relationships actively, because in small communities you will not avoid them. Members may be colleagues, relatives, or members of your church, and these relationships do not disappear when the group starts. Anticipate them in screening, name them in the group when they exist, and be prepared to refer a member on when the overlap is too great to manage. Fourth, write group notes that protect the other members. This is a distinctive group problem. Your notes identify people beyond your client, and a note that records another member's confidence has now been shared with a third party without consent. Record themes, patterns and your own process, not other members' disclosures. Fifth, and this is advice I give to every new group leader: do not lead alone what you cannot hold alone. Co-leading is the standard training model for a reason. It provides a witness, a check on your blind spots, and a supervisor's perspective inside the room."
+    },
+    {
+      "layout": "takeaways",
+      "title": "Key Takeaways",
+      "eyebrow": "Summary",
+      "items": [
+        "A group is not individual counselling in public. The relations among members are the mechanism, and the leader's task is to protect the conditions in which they work.",
+        "Of the therapeutic factors, only one is a technique the leader performs. The rest are conditions the leader protects, and universality and cohesion are the first two to defend.",
+        "Group outcomes are comparable to individual therapy, and the main threat is attrition in the first sessions rather than ineffectiveness.",
+        "The group will pass through forming, storming, norming, performing and adjourning. Storming is normal; the leader's job is to stay and work with it rather than to flee or impose order.",
+        "Economy is the leader's discipline. Link members to each other, block for the group, use process commentary when it is live, and let silence do its work."
+      ],
+      "narration": "Let me consolidate. Five takeaways. One. A group is not individual counselling performed in public. The relations among members are the mechanism, and the leader's task is to protect the conditions in which those relations can work. Two. Of the eleven therapeutic factors, only one is a technique the leader performs. The rest are conditions the leader protects, and the first two to defend are universality and cohesion, because when they fail everything else fails with them. Three. Group outcomes are comparable to individual therapy across many conditions, and the main threat to the groups you will run is attrition in the first sessions rather than ineffectiveness. So your first hour has one overriding objective: make the second hour likely. Four. The group will pass through forming, storming, norming, performing and adjourning, and storming is normal rather than evidence that you have failed. The leader's job at that stage is to stay, keep the conflict inside the frame, and work with it. And five. Economy is the leader's discipline, just as it was the counsellor's discipline last week. Link members to each other rather than to yourself, block for the group, use process commentary when it is live, and let silence do the work that only silence can do. If you retain one sentence from today, let it be the definition we began with. The relations among members are the mechanism, and everything a leader does is either protecting that mechanism or getting in its way."
+    },
+    {
+      "layout": "reading",
+      "title": "Reading and Preparation for Week 5",
+      "eyebrow": "Required Reading",
+      "items": [
+        "Yalom, I. D., & Leszcz, M. (2020). The Theory and Practice of Group Psychotherapy (6th ed.). Basic Books. — Chapters 1–5: the therapeutic factors, and the here-and-now.",
+        "Corey, M. S., Corey, G., & Corey, C. (2018). Groups: Process and Practice (10th ed.). Cengage. — Stages of group development, and the ethical and professional issues chapter.",
+        "Burlingame, G. M., Strauss, B., & Joyce, A. (2013). Change mechanisms and effectiveness of small group treatments. In Bergin and Garfield's Handbook of Psychotherapy and Behavior Change. — The evidence base quoted today.",
+        "Tuckman, B. W. (1965). Developmental sequence in small groups. Psychological Bulletin, 63(6), 384-399. — Short, and worth reading in the original.",
+        "American Psychological Association. (2017). Ethical Principles of Psychologists and Code of Conduct. — Standard 10.03: Group Therapy.",
+        {
+          "t": "Preparation for Week 5: write a one-page opening plan for a six-member counselling group. Include your frame, your confidentiality statement, your first intervention, and the process commentary you would use if one member spoke for the first ten minutes.",
+          "italic": true
+        }
+      ],
+      "narration": "Your reading for the coming week. Yalom and Leszcz, chapters one to five, which cover the therapeutic factors and the here-and-now. This is the primary text for group work and it repays slow reading, particularly the chapter on the therapeutic factors, where the eleven factors are described with their clinical detail. Corey, Corey and Corey, the chapters on stages of group development and on ethical and professional issues, which is the most practically useful treatment of group ethics available. Burlingame, Strauss and Joyce for the evidence base I quoted today, if you want to see the effect sizes for yourself rather than taking my summary of them. Tuckman's 1965 paper on developmental sequence, which is short, sixty years old, and still accurate, and worth reading in the original so that you know what he actually claimed. And Standard 10.03 of the APA Ethics Code, on group therapy, which is two sentences long and which you should be able to state from memory. For preparation, write a one-page opening plan for a six-member counselling group. Include your frame, your confidentiality statement, your first intervention, and the process commentary you would use if one member spoke for the first ten minutes. Bring it to the session, and we will read some of them aloud and examine them together. That exercise is also preparation for the end-of-week examination."
+    },
+    {
+      "layout": "end",
+      "title": "End of Week 4",
+      "eyebrow": "Thank You",
+      "body": "Next week: assessment and case formulation — how a counsellor moves from first contact to a working formulation, and how standard instruments are used well, and badly.",
+      "next": [
+        "Read Yalom and Leszcz Chapters 1–5, and Corey et al. on stages and ethics.",
+        "Bring your one-page group opening plan to the next session.",
+        "Submit your reflective journal entry by Friday, 23:59.",
+        "The Block A examination covers Weeks 1–4 and is held at the end of this week. It is worth 40% of your continuous assessment."
+      ],
+      "narration": "That brings us to the end of Week Four, and to the end of Block A. Thank you for a lecture in which the unit of treatment changed, and in which many of you will have recognised the group dynamics of your own families, churches and workplaces. Next week we turn to assessment and case formulation: how a counsellor moves from first contact to a working formulation, and how standard instruments are used well and badly. Before then, five things. Read Yalom and Leszcz chapters one to five, and Corey and colleagues on stages and ethics. Bring your one-page group opening plan to the next session, because we will examine them together and they are also preparation for the examination. Submit your reflective journal entry by Friday at twenty three fifty nine. And note that the Block A examination, covering Weeks One to Four, is held at the end of this week and carries forty per cent of your continuous assessment. Prepare for it by being able to state, without notes, the four arguments of the four lectures: that the field has a history that shapes its present; that theory is a map you must be able to hold lightly; that competence in technique looks like restraint; and that in a group the members, not the leader, are the mechanism. If you can state those four claims and defend them with one example each, you are ready. I will see you in Week Five."
+    }
+  ]
+}

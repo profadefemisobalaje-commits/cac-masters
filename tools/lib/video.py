@@ -88,7 +88,30 @@ def _fmt_ts(t: float) -> str:
     return f"{h:02d}:{m:02d}:{s:02d}.{ms:03d}"
 
 
-def write_vtt(segments: list[Segment], path: str, wrap_at: int = 62, tempo: float = 1.0):
+
+def quantize_totals(segments: list[Segment], tempo: float, fps: int = FPS) -> list[float]:
+    """Per-segment on-screen durations, snapped to a shared frame grid.
+
+    Each segment is encoded separately with -t, and the encoder rounds that
+    duration to a whole number of frames. Rounding every segment independently
+    leaves the concatenated video short of the target by up to one frame each:
+    twenty segments at 15 fps lose about 0.07s, which is enough to make a
+    2100.000s master report as 34:59.93 in the container header. Snapping the
+    cumulative boundaries to the grid instead keeps each segment within half a
+    frame of its ideal length while making the total exactly right.
+    """
+    want = [s.duration / tempo + s.pad_lead + s.pad_tail for s in segments]
+    out, cum, prev = [], 0.0, 0
+    for w in want:
+        cum += w
+        frames = int(round(cum * fps))
+        out.append((frames - prev) / fps)
+        prev = frames
+    return out
+
+
+def write_vtt(segments: list[Segment], path: str, wrap_at: int = 62, tempo: float = 1.0,
+              totals: list[float] | None = None):
     """One cue per slide covering its full on-screen time.
 
     `tempo` must be the same value the video was built with: the on-screen
@@ -97,7 +120,8 @@ def write_vtt(segments: list[Segment], path: str, wrap_at: int = 62, tempo: floa
     """
     out, t = ["WEBVTT", ""], 0.0
     for i, seg in enumerate(segments, 1):
-        start, end = t, t + seg.duration / tempo + seg.pad_lead + seg.pad_tail
+        span = totals[i - 1] if totals else seg.duration / tempo + seg.pad_lead + seg.pad_tail
+        start, end = t, t + span
         out.append(str(i))
         out.append(f"{_fmt_ts(start)} --> {_fmt_ts(end)}")
         words, line, lines = seg.text.split(), "", []
@@ -116,13 +140,13 @@ def write_vtt(segments: list[Segment], path: str, wrap_at: int = 62, tempo: floa
 
 
 def write_transcript(segments: list[Segment], path: str, title: str = "",
-                     tempo: float = 1.0):
+                     tempo: float = 1.0, totals: list[float] | None = None):
     """Write the readable transcript with per-slide markers and durations."""
     with open(path, "w", encoding="utf-8") as f:
         if title:
             f.write(f"{title}\n{'=' * len(title)}\n\n")
-        for s in segments:
-            d = s.duration / tempo + s.pad_lead + s.pad_tail
+        for n, s in enumerate(segments):
+            d = totals[n] if totals else s.duration / tempo + s.pad_lead + s.pad_tail
             f.write(f"[slide {s.index:02d} · {s.layout} · {d:.1f}s]\n{s.text}\n\n")
 
 
@@ -176,15 +200,17 @@ def build_video(segments: list[Segment], out_mp4: str, workdir: str,
     #    and again at concat put the audio through three lossy generations,
     #    which compounds inter-sample overshoot (peaks crept from -0.7 dBFS in
     #    the source up to -0.002 dBFS) and degrades quality for no benefit.
+    totals = quantize_totals(segments, tempo)
+
     audio_parts, video_parts = [], []
-    for seg in segments:
+    for i, seg in enumerate(segments):
         filters = []
         if abs(tempo - 1.0) > 0.004:
             filters.append(f"atempo={tempo:.5f}")
         d = seg.duration / tempo
         filters.append(f"adelay={int(seg.pad_lead*1000)}|{int(seg.pad_lead*1000)}")
         filters.append(f"apad=pad_dur={seg.pad_tail}")
-        total = d + seg.pad_lead + seg.pad_tail
+        total = totals[i]
 
         wav = os.path.join(workdir, f"a{seg.index:03d}.wav")
         run([FFMPEG, "-y", "-v", "error", "-i", seg.audio,
@@ -232,7 +258,7 @@ def build_video(segments: list[Segment], out_mp4: str, workdir: str,
          "-c:v", "copy", "-af", f"alimiter=level=disabled:limit={PEAK_CEILING}",
          *AUDIO_CODEC, "-movflags", "+faststart", out_mp4])
 
-    total = sum(s.duration / tempo + s.pad_lead + s.pad_tail for s in segments)
+    total = sum(totals)
     meta = {
         "output": out_mp4, "segments": len(segments),
         "duration_seconds": round(total, 2),
@@ -242,10 +268,11 @@ def build_video(segments: list[Segment], out_mp4: str, workdir: str,
         "target_duration": target_duration, "tempo_note": tempo_note,
     }
     if vtt_path:
-        write_vtt(segments, vtt_path, tempo=tempo)
+        write_vtt(segments, vtt_path, tempo=tempo, totals=totals)
         meta["vtt"] = vtt_path
     if transcript_path:
-        write_transcript(segments, transcript_path, title=title, tempo=tempo)
+        write_transcript(segments, transcript_path, title=title, tempo=tempo,
+                         totals=totals)
         meta["transcript"] = transcript_path
 
     for p in video_parts + audio_parts:
