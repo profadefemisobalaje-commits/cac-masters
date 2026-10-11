@@ -148,7 +148,14 @@ li.lec.pending{opacity:.72;border-style:dashed}
 .btn:hover{background:var(--navy-d);text-decoration:none}
 .btn.ghost{background:transparent;color:var(--navy);border:1px solid var(--rule)}
 .btn.ghost:hover{background:#fff}
+.btn.gold{background:var(--gold);color:var(--navy-d)}
+.btn.gold:hover{background:var(--gold-l)}
 .btn.off{background:#E7E2D6;color:var(--muted);cursor:not-allowed}
+.downloads{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px 18px;
+  background:#fff;border:1px solid var(--rule);border-radius:8px;padding:20px 24px;margin-top:6px}
+.downloads a{display:block;font-size:14.5px;padding:5px 0;border-bottom:1px dotted var(--rule)}
+.downloads a::before{content:"↓ ";color:var(--gold);font-weight:700}
+.note{font-family:system-ui,sans-serif;font-size:13.5px;color:var(--muted);margin:0 0 16px}
 li.lec.pending .num{background:#8A93A5}
 footer{background:var(--navy-d);color:#94A3B8;padding:44px 0;font-size:13.5px;
   font-family:system-ui,sans-serif}
@@ -239,13 +246,33 @@ objectives for undergraduate and postgraduate students.</p>""")
             h.append(f'<div class="row"><span>Runtime</span><b>{_esc(r["duration"])}</b></div>')
             h.append(f'<div class="row"><span>Size</span><b>{r["video_size"]:.0f} MB</b></div>')
             h.append(f'<a class="btn" href="video/lecture-{r["no"]:02d}.mp4">Watch</a>')
+            h.append(f'<a class="btn gold" href="video/lecture-{r["no"]:02d}.mp4?dl=1">'
+                     f'Download MP4</a>')
         else:
             h.append('<div class="row"><span>Status</span><b>In production</b></div>')
             h.append('<span class="btn off">Watch</span>')
         if r["has_script"]:
-            h.append(f'<a class="btn ghost" href="script/lecture-{r["no"]:02d}.md">Script</a>')
+            h.append(f'<a class="btn ghost" href="script/lecture-{r["no"]:02d}.md?dl=1">'
+                     f'Script</a>')
         h.append('</div></li>')
     h.append('</ol></section></div>')
+
+    # ---------------- direct downloads ----------------
+    h.append('<div class="wrap"><section>')
+    h.append('<h2 class="sec">Direct downloads</h2>')
+    total_mb = sum(r["video_size"] for r in rows)
+    h.append(f'<p class="note">Right-click and choose “Save link as”, or click to download. '
+             f'Each file is a self-contained H.264/AAC MP4 with soft English subtitles. '
+             f'Total {total_mb/1024:.2f} GB across {len(rows)} files.</p>')
+    h.append('<div class="downloads">')
+    for r in rows:
+        if not r["has_video"]:
+            continue
+        name = f"Lecture {r['no']:02d} — {r['title']}"
+        h.append(f'<a href="video/lecture-{r["no"]:02d}.mp4?dl=1" '
+                 f'download="{_esc(name)}.mp4">{_esc(name)} '
+                 f'<span style="color:var(--muted)">· {r["video_size"]:.0f} MB</span></a>')
+    h.append('</div></section></div>')
 
     # ---------------- footer ----------------
     stamp = datetime.now(timezone.utc).strftime("%d %B %Y")

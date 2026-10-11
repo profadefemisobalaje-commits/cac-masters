@@ -56,7 +56,14 @@ li.lec.pending{opacity:.72;border-style:dashed}
 .btn:hover{background:var(--navy-d);text-decoration:none}
 .btn.ghost{background:transparent;color:var(--navy);border:1px solid var(--rule)}
 .btn.ghost:hover{background:#fff}
+.btn.gold{background:var(--gold);color:var(--navy-d)}
+.btn.gold:hover{background:var(--gold-l)}
 .btn.off{background:#E7E2D6;color:var(--muted);cursor:not-allowed}
+.downloads{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:8px 18px;
+  background:#fff;border:1px solid var(--rule);border-radius:8px;padding:20px 24px;margin-top:6px}
+.downloads a{display:block;font-size:14.5px;padding:5px 0;border-bottom:1px dotted var(--rule)}
+.downloads a::before{content:"↓ ";color:var(--gold);font-weight:700}
+.note{font-family:system-ui,sans-serif;font-size:13.5px;color:var(--muted);margin:0 0 16px}
 li.lec.pending .num{background:#8A93A5}
 footer{background:var(--navy-d);color:#94A3B8;padding:44px 0;font-size:13.5px;
   font-family:system-ui,sans-serif}
@@ -116,7 +123,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>50 MB</b></div>
 <div class="row"><span>Size</span><b>50 MB</b></div>
 <a class="btn" href="video/lecture-01.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-01.md">Script</a>
+<a class="btn gold" href="video/lecture-01.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-01.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-02">
 <div class="num"><div class="big">02</div><div class="sm">Lecture</div></div>
@@ -132,7 +140,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>52 MB</b></div>
 <div class="row"><span>Size</span><b>52 MB</b></div>
 <a class="btn" href="video/lecture-02.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-02.md">Script</a>
+<a class="btn gold" href="video/lecture-02.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-02.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-03">
 <div class="num"><div class="big">03</div><div class="sm">Lecture</div></div>
@@ -148,7 +157,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>53 MB</b></div>
 <div class="row"><span>Size</span><b>53 MB</b></div>
 <a class="btn" href="video/lecture-03.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-03.md">Script</a>
+<a class="btn gold" href="video/lecture-03.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-03.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-04">
 <div class="num"><div class="big">04</div><div class="sm">Lecture</div></div>
@@ -164,7 +174,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>53 MB</b></div>
 <div class="row"><span>Size</span><b>53 MB</b></div>
 <a class="btn" href="video/lecture-04.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-04.md">Script</a>
+<a class="btn gold" href="video/lecture-04.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-04.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-05">
 <div class="num"><div class="big">05</div><div class="sm">Lecture</div></div>
@@ -180,7 +191,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>53 MB</b></div>
 <div class="row"><span>Size</span><b>53 MB</b></div>
 <a class="btn" href="video/lecture-05.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-05.md">Script</a>
+<a class="btn gold" href="video/lecture-05.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-05.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-06">
 <div class="num"><div class="big">06</div><div class="sm">Lecture</div></div>
@@ -196,7 +208,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>53 MB</b></div>
 <div class="row"><span>Size</span><b>53 MB</b></div>
 <a class="btn" href="video/lecture-06.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-06.md">Script</a>
+<a class="btn gold" href="video/lecture-06.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-06.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-07">
 <div class="num"><div class="big">07</div><div class="sm">Lecture</div></div>
@@ -212,7 +225,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>53 MB</b></div>
 <div class="row"><span>Size</span><b>53 MB</b></div>
 <a class="btn" href="video/lecture-07.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-07.md">Script</a>
+<a class="btn gold" href="video/lecture-07.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-07.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-08">
 <div class="num"><div class="big">08</div><div class="sm">Lecture</div></div>
@@ -228,7 +242,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>53 MB</b></div>
 <div class="row"><span>Size</span><b>53 MB</b></div>
 <a class="btn" href="video/lecture-08.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-08.md">Script</a>
+<a class="btn gold" href="video/lecture-08.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-08.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-09">
 <div class="num"><div class="big">09</div><div class="sm">Lecture</div></div>
@@ -244,7 +259,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>53 MB</b></div>
 <div class="row"><span>Size</span><b>53 MB</b></div>
 <a class="btn" href="video/lecture-09.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-09.md">Script</a>
+<a class="btn gold" href="video/lecture-09.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-09.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-10">
 <div class="num"><div class="big">10</div><div class="sm">Lecture</div></div>
@@ -260,7 +276,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>53 MB</b></div>
 <div class="row"><span>Size</span><b>53 MB</b></div>
 <a class="btn" href="video/lecture-10.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-10.md">Script</a>
+<a class="btn gold" href="video/lecture-10.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-10.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-11">
 <div class="num"><div class="big">11</div><div class="sm">Lecture</div></div>
@@ -276,7 +293,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>54 MB</b></div>
 <div class="row"><span>Size</span><b>54 MB</b></div>
 <a class="btn" href="video/lecture-11.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-11.md">Script</a>
+<a class="btn gold" href="video/lecture-11.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-11.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-12">
 <div class="num"><div class="big">12</div><div class="sm">Lecture</div></div>
@@ -292,7 +310,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>54 MB</b></div>
 <div class="row"><span>Size</span><b>54 MB</b></div>
 <a class="btn" href="video/lecture-12.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-12.md">Script</a>
+<a class="btn gold" href="video/lecture-12.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-12.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-13">
 <div class="num"><div class="big">13</div><div class="sm">Lecture</div></div>
@@ -308,7 +327,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>52 MB</b></div>
 <div class="row"><span>Size</span><b>52 MB</b></div>
 <a class="btn" href="video/lecture-13.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-13.md">Script</a>
+<a class="btn gold" href="video/lecture-13.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-13.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-14">
 <div class="num"><div class="big">14</div><div class="sm">Lecture</div></div>
@@ -324,7 +344,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>53 MB</b></div>
 <div class="row"><span>Size</span><b>53 MB</b></div>
 <a class="btn" href="video/lecture-14.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-14.md">Script</a>
+<a class="btn gold" href="video/lecture-14.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-14.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-15">
 <div class="num"><div class="big">15</div><div class="sm">Lecture</div></div>
@@ -340,7 +361,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>53 MB</b></div>
 <div class="row"><span>Size</span><b>53 MB</b></div>
 <a class="btn" href="video/lecture-15.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-15.md">Script</a>
+<a class="btn gold" href="video/lecture-15.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-15.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-16">
 <div class="num"><div class="big">16</div><div class="sm">Lecture</div></div>
@@ -356,7 +378,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>54 MB</b></div>
 <div class="row"><span>Size</span><b>54 MB</b></div>
 <a class="btn" href="video/lecture-16.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-16.md">Script</a>
+<a class="btn gold" href="video/lecture-16.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-16.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-17">
 <div class="num"><div class="big">17</div><div class="sm">Lecture</div></div>
@@ -372,7 +395,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>53 MB</b></div>
 <div class="row"><span>Size</span><b>53 MB</b></div>
 <a class="btn" href="video/lecture-17.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-17.md">Script</a>
+<a class="btn gold" href="video/lecture-17.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-17.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-18">
 <div class="num"><div class="big">18</div><div class="sm">Lecture</div></div>
@@ -388,7 +412,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>54 MB</b></div>
 <div class="row"><span>Size</span><b>54 MB</b></div>
 <a class="btn" href="video/lecture-18.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-18.md">Script</a>
+<a class="btn gold" href="video/lecture-18.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-18.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-19">
 <div class="num"><div class="big">19</div><div class="sm">Lecture</div></div>
@@ -404,7 +429,8 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>52 MB</b></div>
 <div class="row"><span>Size</span><b>52 MB</b></div>
 <a class="btn" href="video/lecture-19.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-19.md">Script</a>
+<a class="btn gold" href="video/lecture-19.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-19.md?dl=1">Script</a>
 </div></li>
 <li class="lec" id="lecture-20">
 <div class="num"><div class="big">20</div><div class="sm">Lecture</div></div>
@@ -420,9 +446,35 @@ objectives for undergraduate and postgraduate students.</p>
 <div class="row"><span>Runtime</span><b>50 MB</b></div>
 <div class="row"><span>Size</span><b>50 MB</b></div>
 <a class="btn" href="video/lecture-20.mp4">Watch</a>
-<a class="btn ghost" href="script/lecture-20.md">Script</a>
+<a class="btn gold" href="video/lecture-20.mp4?dl=1">Download MP4</a>
+<a class="btn ghost" href="script/lecture-20.md?dl=1">Script</a>
 </div></li>
 </ol></section></div>
+<div class="wrap"><section>
+<h2 class="sec">Direct downloads</h2>
+<p class="note">Right-click and choose “Save link as”, or click to download. Each file is a self-contained H.264/AAC MP4 with soft English subtitles. Total 1.03 GB across 20 files.</p>
+<div class="downloads">
+<a href="video/lecture-01.mp4?dl=1" download="Lecture 01 — The Case for Studying International Energy and Natural Resources Law.mp4">Lecture 01 — The Case for Studying International Energy and Natural Resources Law <span style="color:var(--muted)">· 50 MB</span></a>
+<a href="video/lecture-02.mp4?dl=1" download="Lecture 02 — What International Energy and Natural Resources Law Is: Scope, Sources and Subjects.mp4">Lecture 02 — What International Energy and Natural Resources Law Is: Scope, Sources and Subjects <span style="color:var(--muted)">· 52 MB</span></a>
+<a href="video/lecture-03.mp4?dl=1" download="Lecture 03 — Permanent Sovereignty over Natural Resources: Right, Duty and Trust.mp4">Lecture 03 — Permanent Sovereignty over Natural Resources: Right, Duty and Trust <span style="color:var(--muted)">· 53 MB</span></a>
+<a href="video/lecture-04.mp4?dl=1" download="Lecture 04 — The Global Energy Order: Geopolitics, Markets and Law.mp4">Lecture 04 — The Global Energy Order: Geopolitics, Markets and Law <span style="color:var(--muted)">· 53 MB</span></a>
+<a href="video/lecture-05.mp4?dl=1" download="Lecture 05 — Natural Resources in International Economic Law: Trade, Investment and Development.mp4">Lecture 05 — Natural Resources in International Economic Law: Trade, Investment and Development <span style="color:var(--muted)">· 53 MB</span></a>
+<a href="video/lecture-06.mp4?dl=1" download="Lecture 06 — International Petroleum Law: Concessions, Production Sharing and Joint Ventures.mp4">Lecture 06 — International Petroleum Law: Concessions, Production Sharing and Joint Ventures <span style="color:var(--muted)">· 53 MB</span></a>
+<a href="video/lecture-07.mp4?dl=1" download="Lecture 07 — International Gas Law and Cross-Border Pipelines: Transit, Pricing and Security.mp4">Lecture 07 — International Gas Law and Cross-Border Pipelines: Transit, Pricing and Security <span style="color:var(--muted)">· 53 MB</span></a>
+<a href="video/lecture-08.mp4?dl=1" download="Lecture 08 — Electricity, Regional Power Pools and Cross-Border Energy Trade.mp4">Lecture 08 — Electricity, Regional Power Pools and Cross-Border Energy Trade <span style="color:var(--muted)">· 53 MB</span></a>
+<a href="video/lecture-09.mp4?dl=1" download="Lecture 09 — The Law of the Sea and Offshore Energy Resources.mp4">Lecture 09 — The Law of the Sea and Offshore Energy Resources <span style="color:var(--muted)">· 53 MB</span></a>
+<a href="video/lecture-10.mp4?dl=1" download="Lecture 10 — Mining and Critical Minerals in International Law.mp4">Lecture 10 — Mining and Critical Minerals in International Law <span style="color:var(--muted)">· 53 MB</span></a>
+<a href="video/lecture-11.mp4?dl=1" download="Lecture 11 — Nuclear Energy Law: Non-Proliferation, Safety and Liability.mp4">Lecture 11 — Nuclear Energy Law: Non-Proliferation, Safety and Liability <span style="color:var(--muted)">· 54 MB</span></a>
+<a href="video/lecture-12.mp4?dl=1" download="Lecture 12 — Renewable Energy and the International Law of the Energy Transition.mp4">Lecture 12 — Renewable Energy and the International Law of the Energy Transition <span style="color:var(--muted)">· 54 MB</span></a>
+<a href="video/lecture-13.mp4?dl=1" download="Lecture 13 — Climate Change Law and the Future of Fossil Fuels.mp4">Lecture 13 — Climate Change Law and the Future of Fossil Fuels <span style="color:var(--muted)">· 52 MB</span></a>
+<a href="video/lecture-14.mp4?dl=1" download="Lecture 14 — Human Rights, Indigenous Peoples and Resource Extraction.mp4">Lecture 14 — Human Rights, Indigenous Peoples and Resource Extraction <span style="color:var(--muted)">· 53 MB</span></a>
+<a href="video/lecture-15.mp4?dl=1" download="Lecture 15 — Environmental Protection, Biodiversity and the Extractive Sector.mp4">Lecture 15 — Environmental Protection, Biodiversity and the Extractive Sector <span style="color:var(--muted)">· 53 MB</span></a>
+<a href="video/lecture-16.mp4?dl=1" download="Lecture 16 — Investment Arbitration and the Energy Charter Treaty.mp4">Lecture 16 — Investment Arbitration and the Energy Charter Treaty <span style="color:var(--muted)">· 54 MB</span></a>
+<a href="video/lecture-17.mp4?dl=1" download="Lecture 17 — Corruption, Transparency and the Governance of Resource Revenue.mp4">Lecture 17 — Corruption, Transparency and the Governance of Resource Revenue <span style="color:var(--muted)">· 53 MB</span></a>
+<a href="video/lecture-18.mp4?dl=1" download="Lecture 18 — International Energy Institutions and Global Governance.mp4">Lecture 18 — International Energy Institutions and Global Governance <span style="color:var(--muted)">· 54 MB</span></a>
+<a href="video/lecture-19.mp4?dl=1" download="Lecture 19 — Energy Poverty, Energy Justice and the Right to Energy.mp4">Lecture 19 — Energy Poverty, Energy Justice and the Right to Energy <span style="color:var(--muted)">· 52 MB</span></a>
+<a href="video/lecture-20.mp4?dl=1" download="Lecture 20 — Why You Must Study This Subject: Synthesis and Prospect.mp4">Lecture 20 — Why You Must Study This Subject: Synthesis and Prospect <span style="color:var(--muted)">· 50 MB</span></a>
+</div></section></div>
 <footer><div class="wrap">
 <p><b>WHY YOU MUST STUDY INTERNATIONAL ENERGY AND NATURAL RESOURCES LAW AT ALL PROGRAMME LEVELS</b></p>
 <p>Prof. Williams · TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION, USA</p>
