@@ -15,6 +15,18 @@ Master in Counseling Psychology — accelerated 1-year lecture-video programme (
 | `data/schedule-52-weeks.csv` | Week-by-week schedule for the full 52-week year |
 | `tools/` | Slide engine, PPTX export, narration driver, video assembler |
 
+## Preview the videos in a browser
+
+```bash
+python3 tools/serve_media.py --port 8080 --host 0.0.0.0
+```
+
+Opens a gallery listing every rendered video with an inline player and download
+links. Unlike `python -m http.server`, it implements HTTP **Range** requests, which
+browsers require in order to start playback and seek — without them the player
+shows a broken or unscrubbable video. It also sends no `X-Frame-Options`, so the
+page works inside an embedding iframe.
+
 ## Pipeline
 
 ```bash
