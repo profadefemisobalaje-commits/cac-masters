@@ -20,6 +20,8 @@ GOP = 150          # 10 seconds at 15 fps
 VIDEO_CODEC = ["-c:v", "libx264", "-preset", "veryfast", "-tune", "stillimage",
                "-crf", "22", "-pix_fmt", "yuv420p"]
 AUDIO_CODEC = ["-c:a", "aac", "-b:a", "96k", "-ar", "44100", "-ac", "1"]
+PEAK_CEILING = 0.794   # limiter target: AAC overshoots sample peaks by ~0.6 dB,
+                       # so this lands the encoded master near -1.6 dBFS
 
 
 def run(cmd, **kw):
@@ -138,7 +140,7 @@ def build_video(segments: list[Segment], out_mp4: str, workdir: str,
     os.makedirs(workdir, exist_ok=True)
     os.makedirs(os.path.dirname(os.path.abspath(out_mp4)) or ".", exist_ok=True)
     for f in os.listdir(workdir):
-        if f.endswith((".mp4", ".m4a", ".txt")):
+        if f.endswith((".mp4", ".m4a", ".wav", ".txt")):
             try: os.remove(os.path.join(workdir, f))
             except OSError: pass
 
@@ -168,56 +170,67 @@ def build_video(segments: list[Segment], out_mp4: str, workdir: str,
                               f"over target by {speech-budget:.0f}s and speeding up "
                               f"{wanted:.2f}x would sound rushed — trim the narration")
 
-    # 1. normalise every segment to a uniform stream so concat is safe
-    parts = []
+    # 1. per-segment assets. Audio goes through a LOSSLESS intermediate (WAV):
+    #    padding and tempo-shifting are done once in PCM, and the whole lecture's
+    #    audio is encoded to AAC exactly once at the end. Encoding per segment
+    #    and again at concat put the audio through three lossy generations,
+    #    which compounds inter-sample overshoot (peaks crept from -0.7 dBFS in
+    #    the source up to -0.002 dBFS) and degrades quality for no benefit.
+    audio_parts, video_parts = [], []
     for seg in segments:
-        img = seg.image
-        aud = seg.audio
         filters = []
         if abs(tempo - 1.0) > 0.004:
             filters.append(f"atempo={tempo:.5f}")
-        if seg.pad_lead > 0 or seg.pad_tail > 0:
-            d = seg.duration / tempo
-            filters.append(f"adelay={int(seg.pad_lead*1000)}|{int(seg.pad_lead*1000)}")
-            filters.append(f"apad=pad_dur={seg.pad_tail}")
-            padded = os.path.join(workdir, f"seg{seg.index:03d}_pad.m4a")
-            run([FFMPEG, "-y", "-v", "error", "-i", aud,
-                 "-af", ",".join(filters),
-                 "-t", f"{d + seg.pad_lead + seg.pad_tail:.3f}",
-                 *AUDIO_CODEC, padded])
-            aud = padded
-        elif filters:
-            padded = os.path.join(workdir, f"seg{seg.index:03d}_pad.m4a")
-            run([FFMPEG, "-y", "-v", "error", "-i", aud, "-af", ",".join(filters),
-                 *AUDIO_CODEC, padded])
-            aud = padded
+        d = seg.duration / tempo
+        filters.append(f"adelay={int(seg.pad_lead*1000)}|{int(seg.pad_lead*1000)}")
+        filters.append(f"apad=pad_dur={seg.pad_tail}")
+        total = d + seg.pad_lead + seg.pad_tail
 
-        # MPEG-TS is unusable here: this static ffmpeg build segfaults reading it.
-        part = os.path.join(workdir, f"seg{seg.index:03d}.mp4")
-        total = (seg.duration / tempo) + seg.pad_lead + seg.pad_tail
-        # Decode the still image once per second, not once per frame: with
-        # `-loop 1 -framerate 30` ffmpeg re-decodes the PNG 30 times a second and
-        # that decode, not the encoder, dominates the build time.
+        wav = os.path.join(workdir, f"a{seg.index:03d}.wav")
+        run([FFMPEG, "-y", "-v", "error", "-i", seg.audio,
+             "-af", ",".join(filters), "-t", f"{total:.3f}",
+             "-c:a", "pcm_s16le", "-ar", "44100", "-ac", "1", wav])
+        audio_parts.append(wav)
+
+        # video-only segment; MPEG-TS is unusable here because this static
+        # ffmpeg build segfaults reading it
+        part = os.path.join(workdir, f"v{seg.index:03d}.mp4")
         run([FFMPEG, "-y", "-v", "error",
-             "-loop", "1", "-framerate", "1", "-i", img, "-i", aud,
+             "-loop", "1", "-framerate", "1", "-i", seg.image,
              "-vf", f"fps={FPS},scale=1920:1080,format=yuv420p",
              "-t", f"{total:.3f}",
-             "-r", str(FPS), "-fps_mode", "cfr",
+             "-r", str(FPS), "-fps_mode", "cfr", "-an",
              *VIDEO_CODEC, "-g", str(GOP),
-             *AUDIO_CODEC,
              "-video_track_timescale", "90000",
              part])
-        parts.append(part)
+        video_parts.append(part)
 
-    # 2. concat. Video is copied; audio is re-encoded to avoid the non-monotonic
-    #    DTS drift that AAC priming samples introduce when copying between parts.
-    lst = os.path.join(workdir, "concat.txt")
-    with open(lst, "w") as f:
-        for p in parts:
+    # 2. concatenate the video streams losslessly
+    vlist = os.path.join(workdir, "vconcat.txt")
+    with open(vlist, "w") as f:
+        for p in video_parts:
             f.write(f"file '{os.path.abspath(p)}'\n")
-    run([FFMPEG, "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", lst,
-         "-c:v", "copy", "-c:a", "aac", "-b:a", "96k", "-ar", "44100", "-ac", "1",
-         "-movflags", "+faststart", out_mp4])
+    joined_v = os.path.join(workdir, "joined_video.mp4")
+    run([FFMPEG, "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", vlist,
+         "-c", "copy", "-an", joined_v])
+
+    # 3. concatenate the audio in PCM, then encode to AAC once, with a true-peak
+    #    ceiling of -1 dBFS so the master keeps headroom for downstream processing
+    alist = os.path.join(workdir, "aconcat.txt")
+    with open(alist, "w") as f:
+        for p in audio_parts:
+            f.write(f"file '{os.path.abspath(p)}'\n")
+    joined_a = os.path.join(workdir, "joined_audio.wav")
+    run([FFMPEG, "-y", "-v", "error", "-f", "concat", "-safe", "0", "-i", alist,
+         "-c", "copy", joined_a])
+
+    # 4. final mux: video copied, audio encoded once
+    run([FFMPEG, "-y", "-v", "error", "-i", joined_v, "-i", joined_a,
+         "-map", "0:v:0", "-map", "1:a:0",
+         # level=disabled is essential: alimiter auto-levels the output by
+         # default, applying makeup gain that defeats the ceiling entirely.
+         "-c:v", "copy", "-af", f"alimiter=level=disabled:limit={PEAK_CEILING}",
+         *AUDIO_CODEC, "-movflags", "+faststart", out_mp4])
 
     total = sum(s.duration / tempo + s.pad_lead + s.pad_tail for s in segments)
     meta = {
@@ -235,7 +248,7 @@ def build_video(segments: list[Segment], out_mp4: str, workdir: str,
         write_transcript(segments, transcript_path, title=title, tempo=tempo)
         meta["transcript"] = transcript_path
 
-    for p in parts:
+    for p in video_parts + audio_parts:
         try: os.remove(p)
         except OSError: pass
     return meta

@@ -59,6 +59,6 @@ Change the whole series' look in one file: `tools/lib/theme.py` (colours, type s
 - [x] Template approved; narration via presenter recording script
 - [x] **CPY 701 Week 1 complete and verified — 35:00.000, all cues frame-accurate**
 - [x] Branding: Triune Biblical University Global Extension, USA — Prof. S.M.A. Philips
-- [ ] CPY 701 Week 2 — slides and script done, narration 10/32 voiced
+- [x] **CPY 701 Week 2 complete and verified — 35:00.000, all 20 cues frame-accurate**
 - [ ] CPY 701 Weeks 2–16
 - [ ] Remaining 27 courses × 16 weeks

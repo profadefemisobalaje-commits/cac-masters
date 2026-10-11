@@ -1,11 +1,20 @@
 {
+  "output": "/home/user/cac-masters/media/cpy-701-w02/cpy-701-w02.mp4",
+  "segments": 20,
+  "duration_seconds": 2100.0,
+  "duration_hms": "00:35:00",
+  "width": 1920,
+  "height": 1080,
+  "fps": 15,
+  "title": "CPY 701 \u2014 Week 2 \u2014 Theories and Approaches in Counseling",
+  "tempo": 0.99244,
+  "speech_seconds": 2038.5,
+  "target_duration": 2100,
+  "tempo_note": "slowed to 0.992 to reach 35.0 min",
+  "vtt": "/home/user/cac-masters/media/cpy-701-w02/cpy-701-w02.vtt",
+  "transcript": "/home/user/cac-masters/media/cpy-701-w02/cpy-701-w02.txt",
   "course": "CPY 701",
-  "course_title": "Introduction to Counseling Psychology",
   "week": 2,
-  "title": "Week 2 \u2014 Theories and Approaches in Counseling",
   "slug": "cpy-701-w02",
-  "slides": 20,
-  "words": 5240,
-  "est_minutes": 34.5,
-  "problems": []
+  "words": 5240
 }

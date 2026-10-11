@@ -243,6 +243,46 @@ padding brings the finished video to ~35 minutes.
 
 ---
 
+## 7d. AUDIO CHAIN — one encode, and a limiter that actually limits
+
+Two audio defects were found by inspecting the finished Week 2 master rather
+than trusting the build.
+
+### Triple lossy encoding
+The original chain AAC-encoded the audio three times: once for the padded
+per-slide file, again when muxing each segment, and a third time during
+concatenation. Each generation compounds inter-sample overshoot — source peaks
+of -0.7 dBFS arrived at the output as -0.002 dBFS.
+
+The chain is now:
+
+1. Padding and tempo-shift are applied once, in **PCM (WAV)** — lossless.
+2. Video-only segments are concatenated with `-c copy`.
+3. The PCM audio is concatenated, then encoded to AAC **exactly once**.
+4. Final mux: video copied, single audio encode.
+
+Result: source peaks of -0.7 dBFS now produce a master peaking at -1.6 dBFS,
+with `Flat factor: 0.000000` confirming no clipped samples across 92 million.
+
+### `alimiter` auto-levels by default
+`alimiter` has an `level` option that is **enabled by default**, applying makeup
+gain after limiting that defeats the ceiling entirely — a limiter set to -2 dBFS
+still produced output peaking at -0.0 dBFS. It must be disabled:
+
+```
+alimiter=level=disabled:limit=0.794
+```
+
+The target is -2 dBFS rather than -1 dBFS because AAC overshoots sample peaks by
+roughly 0.6 dB; the encoded master then lands near -1.6 dBFS, leaving ~1 dB of
+true-peak headroom for whatever the university does downstream.
+
+### Loudness reference
+Week 2 master: mean -20.1 dBFS, peak -1.6 dBFS, no clipping. That is a
+comfortable level for spoken-word lecture delivery.
+
+---
+
 ## 8. DURABILITY — read this before writing any more code
 
 Two failures destroyed a completed 35-minute lecture. Both are now fixed, and
