@@ -8,9 +8,9 @@ institution      Triune Biblical University Global Extension, USA
 presenter        Prof. S.M.A. Philips
 target runtime   35:00
 slides           21
-narration        5,218 words
+narration        5,548 words
 measured pace    152 words per minute
-projected speech 34.3 min  (+ per-slide beats = 0.6 min)
+projected speech 36.5 min  (+ per-slide beats = 0.6 min)
 
 HOW TO USE
   1. Each block below is one slide. Read the narration at a measured,
@@ -37,14 +37,14 @@ RUNNING ORDER
      11  bullets         359  00:15  Culture, Community and Confidentiality
      12  section          63  00:17  The Leader in the Room
      13  bullets         290  00:18  Leader Functions
-     14  table           285  00:20  Six Leader Errors
-     15  bullets         281  00:21  The Here-and-Now
-     16  bullets         277  00:23  Difficult Moments
-     17  casestudy       366  00:25  First Session of a Group
-     18  bullets         277  00:28  Ethics, Safety and the Frame
-     19  takeaways       246  00:29  Key Takeaways
-     20  reading         225  00:31  Reading and Preparation for Week 5
-     21  end             244  00:33  End of Week 4
+     14  table           361  00:20  Six Leader Errors
+     15  bullets         350  00:22  The Here-and-Now
+     16  bullets         337  00:24  Difficult Moments
+     17  casestudy       435  00:27  First Session of a Group
+     18  bullets         333  00:29  Ethics, Safety and the Frame
+     19  takeaways       246  00:32  Key Takeaways
+     20  reading         225  00:33  Reading and Preparation for Week 5
+     21  end             244  00:35  End of Week 4
 
 ==============================================================================
 
@@ -497,7 +497,7 @@ is a sentence no member can easily say, which is exactly why it is yours.
 >>BREATHE  —  advance to the next slide
 
 ------------------------------------------------------------------------------
-SLIDE 14 of 21   |   TABLE   |   00:01   |   00:20 in
+SLIDE 14 of 21   |   TABLE   |   00:02   |   00:20 in
 ------------------------------------------------------------------------------
 TITLE: Six Leader Errors
 EYEBROW: Key Concept 9
@@ -533,12 +533,18 @@ group what it is doing with that member. Sixth, serial individual
 counselling. Working with one member at a time while the others wait, so the
 group becomes a waiting room for eight private sessions conducted in public.
 The remedy is a habit worth forming now: after any individual attention,
-return to the group. Who else recognises this?
+return to the group. Who else recognises this? There is a practical way to
+tell which of these you are committing, and it is to read your own feeling.
+Rescuing feels like compassion and is usually relief at ending your
+discomfort. Over-structuring feels responsible and is usually anxiety about
+an empty hour. Spotlighting feels inclusive and is usually a wish to be seen
+as inclusive. Each of the six has a signature feeling, and learning to read
+that signature in yourself is supervision work.
 
 >>BREATHE  —  advance to the next slide
 
 ------------------------------------------------------------------------------
-SLIDE 15 of 21   |   BULLETS   |   00:01   |   00:21 in
+SLIDE 15 of 21   |   BULLETS   |   00:02   |   00:22 in
 ------------------------------------------------------------------------------
 TITLE: The Here-and-Now
 EYEBROW: Key Concept 10
@@ -574,12 +580,18 @@ it is an important one. Do not process everything. A leader who comments on
 every exchange becomes an interruption and the group stops speaking freely.
 Process commentary is indicated when the group's own behaviour is an
 instance of the problem members bring. Otherwise, let a discussion be a
-discussion, and save the commentary for the moment it is live.
+discussion, and save the commentary for the moment it is live. I should warn
+you that process commentary feels artificial the first twenty times you say
+it. It will sound to you like jargon rather than speech, and that sensation
+passes. Notice too that you do not have to be right. A process comment
+offered tentatively, and corrected by the group, has still done its work,
+because it put the relationship into the room as something the group can
+discuss.
 
 >>BREATHE  —  advance to the next slide
 
 ------------------------------------------------------------------------------
-SLIDE 16 of 21   |   BULLETS   |   00:01   |   00:23 in
+SLIDE 16 of 21   |   BULLETS   |   00:02   |   00:24 in
 ------------------------------------------------------------------------------
 TITLE: Difficult Moments
 EYEBROW: Key Concept 11
@@ -615,11 +627,16 @@ it run unmanaged. Fifth, a member in crisis. Triage outside the group. Do
 not conduct the crisis in front of the others, and do not allow the group to
 become a substitute for individual care. That is partly a clinical judgement
 and partly an ethical one, and it is the subject of the next slide but one.
+One principle covers all five situations. In every one of them the leader's
+first task is to keep the group's attention on itself rather than on you. A
+group that looks to the leader to resolve every difficulty has been taught
+to do so, and the teaching happens in the first hour. Ask what the group
+notices, and then wait.
 
 >>BREATHE  —  advance to the next slide
 
 ------------------------------------------------------------------------------
-SLIDE 17 of 21   |   CASESTUDY   |   00:02   |   00:25 in
+SLIDE 17 of 21   |   CASESTUDY   |   00:02   |   00:27 in
 ------------------------------------------------------------------------------
 TITLE: First Session of a Group
 EYEBROW: Case Vignette
@@ -653,12 +670,17 @@ names the pattern without shaming anyone, and it hands the work back to the
 group. And then the last question: how would you use the silence rather than
 end it? After that question, say nothing. Whatever comes next from the
 members is worth more than anything you could add, and your silence is the
-demonstration that the room can hold the moment.
+demonstration that the room can hold the moment. One more thing about that
+moment, and it is the part that will feel hardest. When you block, you will
+feel that you have been unkind to Bisi. You have not. You have protected the
+group from a pattern, in front of everyone, which is how norms are made.
+Saying nothing for another ten minutes is not kindness; it is one person's
+discomfort being paid for by five others.
 
 >>BREATHE  —  advance to the next slide
 
 ------------------------------------------------------------------------------
-SLIDE 18 of 21   |   BULLETS   |   00:01   |   00:28 in
+SLIDE 18 of 21   |   BULLETS   |   00:02   |   00:29 in
 ------------------------------------------------------------------------------
 TITLE: Ethics, Safety and the Frame
 EYEBROW: Key Concept 12
@@ -695,12 +717,16 @@ a third party without consent. Record themes, patterns and your own process,
 not other members' disclosures. Fifth, and this is advice I give to every
 new group leader: do not lead alone what you cannot hold alone. Co-leading
 is the standard training model for a reason. It provides a witness, a check
-on your blind spots, and a supervisor's perspective inside the room.
+on your blind spots, and a supervisor's perspective inside the room. There
+is one piece of documentation I want you to adopt from the beginning, and it
+is not in the code. Write your session notes as though the members may one
+day read them, because in a complaint or an audit they may. That discipline
+changes what you write, and it changes it for the better.
 
 >>BREATHE  —  advance to the next slide
 
 ------------------------------------------------------------------------------
-SLIDE 19 of 21   |   TAKEAWAYS   |   00:01   |   00:29 in
+SLIDE 19 of 21   |   TAKEAWAYS   |   00:01   |   00:32 in
 ------------------------------------------------------------------------------
 TITLE: Key Takeaways
 EYEBROW: Summary
@@ -736,7 +762,7 @@ in its way.
 >>BREATHE  —  advance to the next slide
 
 ------------------------------------------------------------------------------
-SLIDE 20 of 21   |   READING   |   00:01   |   00:31 in
+SLIDE 20 of 21   |   READING   |   00:01   |   00:33 in
 ------------------------------------------------------------------------------
 TITLE: Reading and Preparation for Week 5
 EYEBROW: Required Reading
@@ -771,7 +797,7 @@ also preparation for the end-of-week examination.
 >>BREATHE  —  advance to the next slide
 
 ------------------------------------------------------------------------------
-SLIDE 21 of 21   |   END   |   00:01   |   00:33 in
+SLIDE 21 of 21   |   END   |   00:01   |   00:35 in
 ------------------------------------------------------------------------------
 TITLE: End of Week 4
 EYEBROW: Thank You

@@ -1,11 +1,20 @@
 {
+  "output": "/home/user/cac-masters/media/cpy-701-w04/cpy-701-w04.mp4.tmp.mp4",
+  "segments": 21,
+  "duration_seconds": 2100.0,
+  "duration_hms": "00:35:00",
+  "width": 1920,
+  "height": 1080,
+  "fps": 15,
+  "title": "CPY 701 \u2014 Week 4 \u2014 Group Counselling",
+  "tempo": 0.99782,
+  "speech_seconds": 2047.2,
+  "target_duration": 2100,
+  "tempo_note": "slowed to 0.998 to reach 35.0 min exactly",
+  "vtt": "/home/user/cac-masters/media/cpy-701-w04/cpy-701-w04.vtt",
+  "transcript": "/home/user/cac-masters/media/cpy-701-w04/cpy-701-w04.txt",
   "course": "CPY 701",
-  "course_title": "Introduction to Counseling Psychology",
   "week": 4,
-  "title": "Week 4 \u2014 Group Counselling",
   "slug": "cpy-701-w04",
-  "slides": 21,
-  "words": 5218,
-  "est_minutes": 34.3,
-  "problems": []
+  "words": 5548
 }

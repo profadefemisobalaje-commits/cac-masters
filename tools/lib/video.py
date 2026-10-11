@@ -180,19 +180,25 @@ def build_video(segments: list[Segment], out_mp4: str, workdir: str,
             wanted = speech / budget
             if wanted < min_tempo:
                 tempo_note = (f"narration is {speech:.0f}s but budget is {budget:.0f}s; "
-                              f"clamping tempo to {min_tempo} — extend the narration")
+                              f"clamping tempo to {min_tempo} - extend the narration")
                 tempo = min_tempo
-            elif wanted < 0.995:
+            elif wanted <= max_tempo:
+                # Apply any correction inside the legal band, however small.
+                # There used to be a dead zone between 0.995 and 1.005 where no
+                # tempo was applied at all, which left the video up to half a
+                # percent off the target: Week 4 came out at 34:55 rather than
+                # 35:00 because 0.998 fell in that gap. A 0.2 percent tempo
+                # change is inaudible, and the duration is a fixed requirement,
+                # so the correction is always worth applying.
                 tempo = wanted
-                tempo_note = f"slowed to {tempo:.3f} to reach {target_duration/60:.1f} min"
-            elif wanted > 1.005 and wanted <= max_tempo:
-                tempo = wanted
-                tempo_note = (f"sped up to {tempo:.3f} to reach "
-                              f"{target_duration/60:.1f} min exactly")
-            elif wanted > max_tempo:
+                if abs(wanted - 1.0) > 0.0005:
+                    verb = "sped up" if wanted > 1 else "slowed"
+                    tempo_note = (f"{verb} to {tempo:.3f} to reach "
+                                  f"{target_duration/60:.1f} min exactly")
+            else:
                 tempo_note = (f"narration is {speech:.0f}s but budget is {budget:.0f}s; "
                               f"over target by {speech-budget:.0f}s and speeding up "
-                              f"{wanted:.2f}x would sound rushed — trim the narration")
+                              f"{wanted:.2f}x would sound rushed - trim the narration")
 
     # 1. per-segment assets. Audio goes through a LOSSLESS intermediate (WAV):
     #    padding and tempo-shifting are done once in PCM, and the whole lecture's
