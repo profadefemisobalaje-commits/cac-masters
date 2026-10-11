@@ -243,5 +243,45 @@ padding brings the finished video to ~35 minutes.
 
 ---
 
+## 8. DURABILITY — read this before writing any more code
+
+Two failures destroyed a completed 35-minute lecture. Both are now fixed, and
+both constraints are permanent properties of this environment.
+
+### 8.1 Never write generated output to a directory named `out`
+
+The platform excludes a fixed set of directory names from its workspace
+snapshots. Anything written under one of them is dropped at the end of a turn:
+
+```
+out   build   dist   coverage   target   node_modules   __pycache__
+.arena  .cache  .local  .npm  .nuxt  .output  .parcel-cache  .pytest_cache
+.ruff_cache  .svelte-kit  .tox  .turbo  .venv  .vite
+```
+
+All generated media therefore goes to **`media/`**, defined once in
+`tools/lib/course.py` as `MEDIA`. If a path is ever needed in a new tool, import
+that constant rather than writing the directory name again.
+
+### 8.2 Always push
+
+Local commits are not durable here. When the sandbox restored, `.git` held only
+the remote's initial commit and every local commit was gone, while the working
+tree survived. Work is only safe once it is on `origin`.
+
+**Working rule for the rest of the series:** voice a batch, then immediately
+commit and push the audio. Audio is the single most expensive asset to
+regenerate (10 clips per turn), so it is committed as soon as it exists rather
+than waiting for the finished video.
+
+### 8.3 Deliverable size
+
+Audio dominated the deliverable: a single lecturer voice was being encoded at
+128 kbps **stereo**, which alone accounted for 33 MB of a 50 MB file. It is now
+**96 kbps mono**. Expected master size falls to roughly 25–30 MB per lecture,
+and the same setting is applied when the segments are concatenated.
+
+---
+
 *Prepared alongside the accelerated curriculum master plan. Week 1 of CPY 701 is built and
 waiting for your review before the remaining 447 videos are scheduled.*
