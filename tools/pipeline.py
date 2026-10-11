@@ -447,6 +447,11 @@ def main():
         lec = json.load(open(f, encoding="utf-8"))
         if wanted is not None and lec["no"] not in wanted:
             continue
+        out_mp4 = os.path.join(ROOT, "dist", f"lecture-{lec['no']:02d}.mp4")
+        if os.path.exists(out_mp4) and os.path.getsize(out_mp4) > 10 * 1024 * 1024:
+            print(f"\n=== Lecture {lec['no']:02d}: {lec['title']} — already rendered, "
+                  f"skipping ===", flush=True)
+            continue
         print(f"\n=== Lecture {lec['no']:02d}: {lec['title']} ===", flush=True)
         t0 = time.time()
         timing = build(lec, ROOT, keep_wav=a.keep_wav)
