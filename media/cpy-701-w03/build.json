@@ -1,11 +1,20 @@
 {
+  "output": "/home/user/cac-masters/media/cpy-701-w03/cpy-701-w03.mp4",
+  "segments": 20,
+  "duration_seconds": 2100.0,
+  "duration_hms": "00:35:00",
+  "width": 1920,
+  "height": 1080,
+  "fps": 15,
+  "title": "CPY 701 \u2014 Week 3 \u2014 Counselling Techniques and Interventions",
+  "tempo": 1.00785,
+  "speech_seconds": 2070.1,
+  "target_duration": 2100,
+  "tempo_note": "sped up to 1.008 to reach 35.0 min exactly",
+  "vtt": "/home/user/cac-masters/media/cpy-701-w03/cpy-701-w03.vtt",
+  "transcript": "/home/user/cac-masters/media/cpy-701-w03/cpy-701-w03.txt",
   "course": "CPY 701",
-  "course_title": "Introduction to Counseling Psychology",
   "week": 3,
-  "title": "Week 3 \u2014 Counselling Techniques and Interventions",
   "slug": "cpy-701-w03",
-  "slides": 20,
-  "words": 5431,
-  "est_minutes": 35.7,
-  "problems": []
+  "words": 5431
 }
