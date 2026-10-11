@@ -1,0 +1,54 @@
+week,semester,block,courses_running,assessment_milestone,clinical_and_thesis
+0,Orientation,-,Registration and LMS onboarding,"Baseline diagnostic assessment; supervisor allocation briefing",Thesis handbook issued
+1,1,A,"CPY 701; CPY 702",Teaching begins; reflective journal opens,-
+2,1,A,"CPY 701; CPY 702",Mid-block test - CPY 701,-
+3,1,A,"CPY 701; CPY 702",Micro-skills lab 1 (video-recorded peer feedback),-
+4,1,A,"CPY 701; CPY 702",BLOCK A EXAMINATION + skills practical,-
+5,1,B,"CPY 703; CPY 704",Teaching begins; case-study portfolio opens,-
+6,1,B,"CPY 703; CPY 704",Mid-block test - CPY 703,-
+7,1,B,"CPY 703; CPY 704",Techniques lab - role-play with standardised clients,-
+8,1,B,"CPY 703; CPY 704",BLOCK B EXAMINATION + group facilitation practical,-
+9,1,C,"CPY 705; CPY 706",Teaching begins,Thesis M1 - topic selection and supervisor allocation
+10,1,C,"CPY 705; CPY 706",Mid-block test - CPY 705,-
+11,1,C,"CPY 705; CPY 706",Family genogram lab; career assessment battery lab,-
+12,1,C,"CPY 705; CPY 706",BLOCK C EXAMINATION,Thesis - literature search due
+13,1,D,"CPY 707; CPY 708",Teaching begins; multicultural competence self-audit,-
+14,1,D,"CPY 707; CPY 708",Mid-block test - CPY 707,-
+15,1,D,"CPY 707; CPY 708",Addiction screening lab; diversity panel session,-
+16,1,D,"CPY 707; CPY 708",BLOCK D EXAMINATION - Semester 1 ends,Thesis M2 - full proposal draft due
+17,Break,-,-,-,-
+18,2,E,"CPY 709; CPY 710",Teaching begins; ethics casebook opens,-
+19,2,E,"CPY 709; CPY 710",Mid-block test - CPY 709,-
+20,2,E,"CPY 709; CPY 710",Psychometric administration lab (WAIS; BDI-II),-
+21,2,E,"CPY 709; CPY 710",BLOCK E EXAMINATION + ethics dilemma viva,-
+22,2,F,"CPY 711; CPY 712",Teaching begins,Practicum CPY 727 begins (1-2 days/week)
+23,2,F,"CPY 711; CPY 712",Mid-block test - CPY 711; DSM-5-TR diagnostic lab,Practicum week 2
+24,2,F,"CPY 711; CPY 712",Child observation lab; play-therapy skills session,Practicum week 3
+25,2,F,"CPY 711; CPY 712",BLOCK F EXAMINATION + diagnostic formulation report,Practicum week 4
+26,2,G,"CPY 713; CPY 714",Teaching begins; trauma-informed care workshop,Practicum week 5
+27,2,G,"CPY 713; CPY 714",Mid-block test - CPY 713,Thesis M3 - proposal defence; Practicum week 6
+28,2,G,"CPY 713; CPY 714",Crisis intervention simulation; couples session lab,Practicum week 7
+29,2,G,"CPY 713; CPY 714",BLOCK G EXAMINATION,Ethics/IRB clearance obtained; Practicum week 8
+30,2,H,"CPY 715; CPY 716",Teaching begins,Thesis M4 - data collection begins; Practicum week 9
+31,2,H,"CPY 715; CPY 716",Mid-block test - CPY 715; grief-counselling lab,Practicum week 10
+32,2,H,"CPY 715; CPY 716",Geriatric assessment lab; life-review therapy practice,Practicum week 11
+33,2,H,"CPY 715; CPY 716",BLOCK H EXAMINATION - Semester 2 ends,Practicum log and supervisor report due
+34,Break,-,-,-,-
+35,Break,-,-,-,-
+36,3,I,"CPY 717; CPY 718",Teaching begins,Internship CPY 728 begins (3 days/week); thesis data collection
+37,3,I,"CPY 717; CPY 718",Mid-block test - CPY 717; assistive-technology lab,Internship week 2
+38,3,I,"CPY 717; CPY 718",Affirmative practice lab; disability simulation workshop,Internship week 3
+39,3,I,"CPY 717; CPY 718",BLOCK I EXAMINATION,Internship week 4; thesis data collection continues
+40,3,J,"CPY 719; CPY 720",Teaching begins; CBT/DBT skills lab,Internship week 5
+41,3,J,"CPY 719; CPY 720",Mid-block test - CPY 719,Thesis - data analysis begins; Internship week 6
+42,3,J,"CPY 719; CPY 720",Behavioural activation workshop; outcome-monitoring lab,Internship week 7
+43,3,J,"CPY 719; CPY 720",BLOCK J EXAMINATION,Thesis results chapter draft; Internship week 8
+44,3,K,"CPY 721; CPY 722",Teaching begins; personality assessment lab,Internship week 9
+45,3,K,"CPY 721; CPY 722",Mid-block test - CPY 721; SPSS and qualitative coding workshop,Internship week 10
+46,3,K,"CPY 721; CPY 722",Clinical formulation seminar; research proposal clinic,Internship week 11
+47,3,K,"CPY 721; CPY 722",BLOCK K EXAMINATION,Thesis M5 - full draft to supervisor; Internship week 12
+48,3,L,-,Full-time internship block,Thesis M6 - submitted for examination; Internship week 13
+49,3,L,-,Comprehensive examination revision,Internship week 14
+50,3,L,-,Thesis M7 - ORAL DEFENCE (VIVA),Internship week 15
+51,3,L,-,Internship log and final case portfolio due,Thesis corrections submitted; Internship week 16
+52,Graduation,-,-,Senate results and convocation,-

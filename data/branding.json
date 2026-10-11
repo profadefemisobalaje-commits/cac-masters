@@ -1,0 +1,6 @@
+{
+  "institution": "Triune Biblical University Global Extension, USA",
+  "lecturer": "Prof. S.M.A. Philips",
+  "programme": "Master in Counseling Psychology",
+  "_note": "Single source of truth for programme branding. Every lecture inherits these values unless a week-NN.json overrides them, so changing them here restyles the whole series on the next slide build."
+}

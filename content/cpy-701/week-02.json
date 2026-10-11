@@ -1,0 +1,459 @@
+{
+  "course": "CPY 701",
+  "course_title": "Introduction to Counseling Psychology",
+  "week": 2,
+  "title": "Week 2 — Theories and Approaches in Counseling",
+  "lecturer": "Prof. S.M.A. Philips",
+  "institution": "Triune Biblical University Global Extension, USA",
+  "target_minutes": 35,
+  "references": [
+    "Gelso, C. J., Nutt Williams, E., & Fretz, B. R. (2014). Counseling Psychology (3rd ed.). APA.",
+    "Woolfe, R., Strawbridge, S., Douglas, B., & Kasket, E. (2019). Handbook of Counselling Psychology (4th ed.). SAGE.",
+    "Shedler, J. (2010). The efficacy of psychodynamic psychotherapy. American Psychologist, 65(2), 98-109."
+  ],
+  "slides": [
+    {
+      "layout": "title",
+      "course": "CPY 701 — Introduction to Counseling Psychology",
+      "title": "Theories and Approaches in Counseling",
+      "subtitle": "The great traditions, and what each one assumes about how human beings change",
+      "narration": "Welcome back to CPY 701. This is Week Two of sixteen, and today we examine the great theoretical traditions of counselling. Last week I told you that what makes the theories different from one another is not the techniques they use, but the assumption each one makes about how human beings change. That claim is the spine of this lecture. We will work through the psychodynamic, behavioural, cognitive, humanistic and systemic traditions, and for each one I want you to ask a single question: what does this theory believe has to happen for a person to get better? By the end of the session I want you to be able to answer that question for every major tradition, to state honestly what the evidence says about each, and to understand why almost no competent practitioner today works from one theory alone. Before we start, one warning. You will be tempted to pick a favourite today and defend it for the rest of your career. Resist that. You are not choosing a football team. You are assembling a repertoire."
+    },
+    {
+      "layout": "objectives",
+      "title": "Learning Objectives",
+      "eyebrow": "By the end of this lecture you should be able to",
+      "items": [
+        "Explain why a coherent theory of change is a professional necessity, not an academic luxury.",
+        "Describe the five major traditions and the central mechanism of change each one proposes.",
+        "State what each tradition assumes about human nature, pathology and the role of the counselor.",
+        "Summarise the current evidence base for each orientation without overstating it.",
+        "Distinguish the four routes to integrative practice and identify the risks of each.",
+        "Justify a treatment choice for a named client by reference to evidence, formulation and client preference."
+      ],
+      "narration": "Here is what you should be able to do by the end of this session. First, explain why a coherent theory of change is a professional necessity rather than an academic luxury. Second, describe the five major traditions, and state the central mechanism of change that each one proposes. Third, state what each tradition assumes about human nature, about the origins of distress, and about the proper role of the counsellor. Fourth, summarise the current evidence base for each orientation honestly, without overstating what the research shows. Fifth, distinguish the four routes to integrative practice, and identify the risks that come with each. And sixth, justify a treatment choice for a named client by reference to evidence, to your own formulation, and to the client's preference and values. That final objective is the professional skill this lecture is really about. Notice that it requires all three sources of information. If your justification rests on the evidence alone, you are ignoring the person in front of you. If it rests on your formulation alone, you are ignoring the science. And if it rests on the client's preference alone, you are not offering professional expertise at all."
+    },
+    {
+      "layout": "section",
+      "number": "1",
+      "eyebrow": "Part One",
+      "title": "Why Theory Matters",
+      "subtitle": "What a theory of change actually does for you and your client.",
+      "narration": "Let us begin with a question that students sometimes find impertinent but which I want you to take seriously. Why do we need theory at all? If the evidence tells us which treatments work, and if kindness and listening matter more than anything else, could we not simply do what works and leave the theorising to academics? The answer is no, and the reason is not that academics need employment. It is that in a room with a distressed person, you must decide, moment by moment, what to attend to, what to say, what to ignore and what to do next. Theory is what tells you how to decide."
+    },
+    {
+      "layout": "definition",
+      "title": "What a Theory of Counselling Actually Is",
+      "eyebrow": "Key Concept 1",
+      "term": "A Theory of Counselling",
+      "body": "An organised set of assumptions about human functioning, about how distress and disorder arise, and about the mechanisms by which change occurs. From those assumptions a theory generates a rationale for what the counsellor should attend to, what should be done, and in what order.",
+      "source": "Note the logical order: assumptions about human nature come first, the mechanism of change follows from them, and technique comes last.",
+      "footnote": "This is why two counsellors using the same technique can be doing entirely different things. The technique is shared; the assumption underneath it is not.",
+      "narration": "Here is the working definition for today. A theory of counselling is an organised set of assumptions about human functioning, about how distress and disorder arise, and about the mechanisms by which change occurs. From those assumptions, a theory generates a rationale for what the counsellor should attend to, what should be done, and in what order. Let me draw your attention to the logical order in that sentence, because it is the reverse of the order in which students usually meet this material. Assumptions about human nature come first. The mechanism of change follows from those assumptions. And technique comes last, as the practical consequence of the first two. Now consider what this means when two practitioners use the same technique. A psychodynamic counsellor and a cognitive behavioural therapist may both invite a client to describe an early memory of a parent. The technique looks identical. But the psychodynamic practitioner is attending to the internalised relationship and expecting insight to do the work, while the cognitive practitioner is attending to the belief formed in that memory and expecting the revision of that belief to do the work. Same action, different theory, different destination. This is why I said on the first slide that technique is the wrong place to look for what separates the traditions. The separation lives above the technique, in the assumptions."
+    },
+    {
+      "layout": "bullets",
+      "title": "The Four Jobs of a Theory",
+      "eyebrow": "Key Concept 2",
+      "subtitle": "A theory earns its place by doing work — not by being elegant or famous.",
+      "bullets": [
+        {
+          "t": "It organises the chaos",
+          "strong": true
+        },
+        {
+          "t": "A distressed client arrives with an undifferentiated mass of material. Theory tells you what to attend to and what to let pass. Without it you will attend to whatever is most vivid, which is usually not what is most useful.",
+          "lvl": 1
+        },
+        {
+          "t": "It makes your reasoning examinable",
+          "strong": true
+        },
+        {
+          "t": "If you can name your reasoning, a supervisor can challenge it. If your reasoning is a private intuition, it can be neither taught, nor corrected, nor defended.",
+          "lvl": 1
+        },
+        {
+          "t": "It predicts what should happen next",
+          "strong": true
+        },
+        {
+          "t": "A theory of change generates expectations: if the mechanism is correct, then this intervention should shift that outcome, and it should be measurable. Expectations can be tested. Hunches cannot.",
+          "lvl": 1
+        },
+        {
+          "t": "It protects the client from your preferences",
+          "strong": true
+        },
+        {
+          "t": "Your own life story makes certain explanations emotionally satisfying to you. A theory forces you to justify why your preferred explanation fits this client, rather than only fitting you.",
+          "lvl": 1
+        }
+      ],
+      "narration": "A theory earns its place by doing work, not by being elegant or by being famous. Here are the four jobs I need a theory to do. First, it organises the chaos. A distressed client arrives with an undifferentiated mass of material: a recent argument, a difficult childhood, a physical symptom, a financial worry, a suspicion about a colleague, a fear about the future. All of it is real, and all of it is vivid. Theory is what tells you what to attend to and what to let pass for now. And notice why this matters practically. Without a theory you will attend to whatever is most vivid in the room, and the most vivid thing is very often not the most useful thing. The client who cries hardest about their employer may be presenting the surface of a problem that lives in their marriage. Second, theory makes your reasoning examinable. If you can name what you are doing and why, a supervisor can challenge it, and you can learn. If your reasoning is a private intuition that you cannot articulate, it can neither be taught nor corrected nor defended. This is the difference between a professional and a well-meaning person with good instincts. Third, a theory of change predicts what should happen next. If the mechanism you have proposed is right, then this intervention should shift that outcome, and the shift should be measurable. Expectations can be tested against evidence. Hunches cannot be tested at all, which is precisely why they feel so reliable. Fourth, and this is the job students find hardest to accept: theory protects your client from your personal preferences. Every one of you has a life story that makes certain explanations emotionally satisfying. If your own family dismissed your feelings, you may find yourself drawn strongly to interpretations about suppressed emotion, and you will find them everywhere. Theory forces you to justify why your favoured explanation fits this client, rather than only fitting you. That is not a small protection. It is the difference between practice and projection."
+    },
+    {
+      "layout": "section",
+      "number": "2",
+      "eyebrow": "Part Two",
+      "title": "The Great Traditions",
+      "subtitle": "Five families of theory, and the mechanism of change each one proposes.",
+      "narration": "We turn now to the traditions themselves. I want to be clear about how I am organising this, because there is more than one legitimate way to divide the field. I am going to group the theories by the mechanism of change they propose, because that is the question that matters most in practice. What has to happen for this person to get better? For the psychodynamic traditions, the answer involves making the unconscious conscious. For the behavioural traditions, it involves new learning. For the cognitive traditions, revised beliefs. For the humanistic traditions, the removal of conditions of worth so that the person's own growth tendency can operate. And for the systemic traditions, a change in the patterns that surround the individual. Five families, five different answers to the same question."
+    },
+    {
+      "layout": "bullets",
+      "title": "The Psychodynamic Tradition",
+      "eyebrow": "Tradition 1 of 5",
+      "subtitle": "Change mechanism: making the unconscious conscious, within a corrective relationship.",
+      "bullets": [
+        {
+          "t": "Core assumption",
+          "strong": true
+        },
+        {
+          "t": "Much of mental life is outside awareness. Early relationships are internalised as working models that then shape later relationships, including the one with you.",
+          "lvl": 1
+        },
+        {
+          "t": "Mechanism of change",
+          "strong": true
+        },
+        {
+          "t": "Insight into repeating patterns, combined with a relationship in which the old pattern does not repeat, weakens its grip.",
+          "lvl": 1
+        },
+        {
+          "t": "Signature concepts to know",
+          "strong": true
+        },
+        {
+          "t": "Transference, countertransference, defence mechanisms, repetition compulsion, the working alliance.",
+          "lvl": 1
+        },
+        {
+          "t": "Evidence and modern form",
+          "strong": true
+        },
+        {
+          "t": "Brief psychodynamic therapies have a growing evidence base, particularly for depression and panic. Shedler's 2010 review is the standard starting point.",
+          "lvl": 1
+        }
+      ],
+      "narration": "The psychodynamic tradition begins with Freud and has been transformed almost beyond recognition since his time. Its core assumption is that much of mental life occurs outside awareness. Early relationships are internalised as working models, or internal objects, and those models then shape later relationships, including, importantly, the relationship the client forms with you. The mechanism of change follows from that assumption. The client gains insight into a repeating pattern, and simultaneously experiences a relationship in which the old pattern does not repeat. Both halves are necessary. Insight without a corrective experience tends to produce a client who can explain their problem beautifully and still has it. There are four concepts you must know by name. Transference is the client's displacement onto you of feelings and expectations that originally belonged to an earlier relationship. Countertransference is the mirror image: your own emotional response to the client, which is sometimes a source of information about what the client evokes in others. Defence mechanisms are the processes by which the mind keeps unacceptable material out of awareness, and they are not pathology. They are the mind protecting itself. And the repetition compulsion names the striking human tendency to reproduce a painful pattern rather than to remember and resolve it, which is why a client may recreate with you exactly the relational dynamic that hurt them. On the evidence, I want to correct a prejudice you may have absorbed. The claim that psychodynamic therapy has no evidence is simply false. Shedler's review in American Psychologist in 2010 summarised effect sizes comparable to those of other established treatments, with gains that appeared to increase after therapy ended. Modern brief psychodynamic treatments have decent support, particularly for depression and panic. The tradition has real weaknesses, including a long history of unfalsifiable claims and of therapies that ran for years without outcome measurement, but the evidence is not one of them."
+    },
+    {
+      "layout": "twocol",
+      "title": "The Behavioural and Cognitive Traditions",
+      "eyebrow": "Traditions 2 and 3 of 5",
+      "subtitle": "Different mechanisms, and a great deal of confusion between them in everyday conversation.",
+      "columns": [
+        {
+          "h": "Behavioural — change by new learning",
+          "items": [
+            "Distress is learned, and can be unlearned",
+            "Mechanism: extinction, exposure, reinforcement",
+            "Focus on observable behaviour and its consequences",
+            "Core methods: exposure, behavioural activation, skills training",
+            "Evidence: strongest of all traditions for anxiety and obsessive-compulsive disorder"
+          ]
+        },
+        {
+          "h": "Cognitive — change by revised belief",
+          "items": [
+            "Distress is driven by how events are appraised, not by events themselves",
+            "Mechanism: identifying and testing biased beliefs",
+            "Focus on automatic thoughts, rules and core beliefs",
+            "Core methods: thought records, behavioural experiments, socratic questioning",
+            "Evidence: very strong for depression, anxiety disorders and more"
+          ]
+        }
+      ],
+      "narration": "The behavioural and cognitive traditions are often spoken of together, as CBT, and in practice they are usually delivered together. But their mechanisms of change are different, and you should be able to separate them. The behavioural tradition holds that distress is learned, and therefore can be unlearned. Its mechanism is new learning: extinction, exposure, and the modification of reinforcement contingencies. Its focus is on observable behaviour and what follows it. Its core methods include exposure, behavioural activation and skills training. Its evidence base is the strongest of any tradition, particularly for the anxiety disorders and obsessive compulsive disorder, where exposure-based work is the treatment of first choice. The cognitive tradition holds that distress is driven less by events than by how the person appraises those events. Its mechanism is the identification and testing of biased beliefs. Its focus is on automatic thoughts, the intermediate rules a person holds about how life must work, and the deeper core beliefs about the self. Its methods include thought records, behavioural experiments and Socratic questioning. Its evidence base is very strong, especially for depression. Now here is why the distinction matters in practice. Exposure works even when the client's beliefs are unchanged at the start, because the learning happens through experience rather than through argument. And cognitive restructuring does nothing if the client merely understands it intellectually, because the belief has not actually been tested against experience. Notice that both traditions converge on the same practical principle: change requires the client to encounter disconfirming experience. Telling a person that their fear is irrational changes very little. Arranging for them to discover that it is unfounded changes a great deal. If you take one practical lesson from this slide, take that one."
+    },
+    {
+      "layout": "definition",
+      "title": "The Humanistic Tradition",
+      "eyebrow": "Tradition 4 of 5",
+      "term": "Person-Centred Therapy",
+      "body": "Human beings possess an actualising tendency: an innate drive towards growth, maturity and the fulfilment of potential. Distress arises when conditions of worth prevent that tendency from operating. The counsellor's task is not to direct or to correct, but to provide the relational conditions — empathy, unconditional positive regard and congruence — under which the client's own growth process resumes.",
+      "source": "Rogers, C. R. (1957). The necessary and sufficient conditions of therapeutic personality change. Journal of Consulting Psychology, 21(2), 95-103.",
+      "footnote": "Rogers claimed these conditions were not merely helpful but sufficient. That strong claim is contested, and you should know both the claim and the criticism.",
+      "narration": "The humanistic tradition, and specifically the person centred therapy that Carl Rogers developed, rests on a claim about human nature that is quite different from anything we have met so far. Rogers held that human beings possess an actualising tendency, an innate drive towards growth, maturity and the fulfilment of potential. If that is true, then the counsellor's job is not to construct something in the client. It is to remove what is in the way. Distress, on this account, arises when conditions of worth interfere with the actualising tendency. A child who is only loved when they perform, or only accepted when they suppress anger, learns that their worth is conditional. They then internalise that condition and apply it to themselves, and the parts of their experience that do not meet it are denied. The task of therapy is to provide the relational conditions under which the actualising tendency can resume, and Rogers named three: empathy, which is accurate understanding of the client's frame of reference; unconditional positive regard, which is acceptance of the client without conditions attached; and congruence, which is the counsellor's authenticity, the refusal to hide behind a professional mask. Rogers went further than most people realise. In his 1957 paper he claimed these conditions were not merely helpful but necessary and sufficient. Necessary, meaning that without them no therapy would work. Sufficient, meaning that with them, nothing else was required. That second claim is the one that has been most contested, and you should know both the claim and the criticism. What has survived, and what has been absorbed into almost every other approach, is the finding that the therapeutic relationship is a powerful predictor of outcome. That idea began here, and it is now one of the most replicated findings in the field."
+    },
+    {
+      "layout": "bullets",
+      "title": "The Systemic Tradition",
+      "eyebrow": "Tradition 5 of 5",
+      "subtitle": "Change mechanism: altering the patterns of interaction that sustain the problem.",
+      "bullets": [
+        {
+          "t": "Core assumption: the problem lives between people, not only inside one person",
+          "strong": true
+        },
+        {
+          "t": "An individual's symptoms are understood as serving a function within a relational system. The identified patient is rarely the whole story.",
+          "lvl": 1
+        },
+        {
+          "t": "Circular rather than linear causality",
+          "strong": true
+        },
+        {
+          "t": "Behaviour is understood as mutual influence rather than one-directional cause and effect. Not 'she nags because he withdraws', but both, in a loop.",
+          "lvl": 1
+        },
+        {
+          "t": "Signature concepts to know",
+          "strong": true
+        },
+        {
+          "t": "Homeostasis, feedback loops, boundaries, triangulation, enmeshment, the identified patient.",
+          "lvl": 1
+        },
+        {
+          "t": "Evidence and contemporary form",
+          "strong": true
+        },
+        {
+          "t": "Family therapy has strong evidence in several conditions, notably eating disorders in adolescents and relapse prevention in psychosis.",
+          "lvl": 1
+        }
+      ],
+      "narration": "The systemic tradition changes the unit of analysis, and that is its whole contribution. Its core assumption is that the problem lives between people, not only inside one person. An individual's symptoms are understood as serving a function within a relational system, and the person who is presented as the patient, whom early systemic writers called the identified patient, is rarely the whole story. Consider a child who develops severe behavioural problems. A linear account says the child has a disorder and the task is to treat the child. A systemic account asks a different question. What happens in this family when the child's behaviour escalates? Does it draw a distant parent back into the home? Does it unite two parents who otherwise argue? If either is true, then the behaviour is doing relational work, and treating the child alone may relieve the system's pressure by removing its function, which the system may then resist. The second core idea is circular rather than linear causality. Behaviour is understood as mutual influence rather than one-directional cause and effect. Not she nags because he withdraws, but both, in a loop that each person's behaviour sustains. This does not mean nobody is responsible for anything, and I want to be careful here, because circular causality has sometimes been used to excuse harm. It means that blame is a poor guide to intervention, and that intervening anywhere in the loop may change the whole. The concepts you should know by name are homeostasis, the system's tendency to resist change and return to its familiar state; feedback loops; boundaries, which may be too rigid or too diffuse; triangulation, in which two people manage their tension by involving a third; enmeshment; and the identified patient. On the evidence, family based treatment has strong support in several conditions, most notably eating disorders in adolescents, where family based treatment is a first line approach, and relapse prevention in psychosis, where family intervention measurably reduces relapse rates. Week Five, Family Counseling, will take this tradition much further."
+    },
+    {
+      "layout": "section",
+      "number": "3",
+      "eyebrow": "Part Three",
+      "title": "What Each Tradition Assumes",
+      "subtitle": "Side by side, the assumptions behind the techniques become visible.",
+      "narration": "Part Three puts the traditions side by side, because the differences between them are clearest when you examine their assumptions rather than their techniques. This is the comparison I want you to carry in your head, and I am going to give it to you as a single table that you can reconstruct from memory. For each tradition, hold three things: what it believes is the source of the problem, what it believes the client must experience for change to occur, and who it believes is the principal agent of that change."
+    },
+    {
+      "layout": "table",
+      "title": "Assumptions Compared",
+      "eyebrow": "Table 2.1",
+      "subtitle": "Read down each column, not across the rows — the contrasts are the point.",
+      "columns": [
+        "Tradition",
+        "Source of distress",
+        "Change requires",
+        "Agent of change"
+      ],
+      "widths": [
+        0.17,
+        0.29,
+        0.3,
+        0.24
+      ],
+      "rows": [
+        [
+          "Psychodynamic",
+          "Unconscious conflict; internalised early relationships",
+          "Insight into repeating patterns, within a new relationship",
+          "Client's insight, enabled by the counsellor"
+        ],
+        [
+          "Behavioural",
+          "Learned associations and reinforcement history",
+          "New learning through disconfirming experience",
+          "Structured practice, inside and between sessions"
+        ],
+        [
+          "Cognitive",
+          "Biased appraisals, rules and core beliefs",
+          "Testing beliefs against evidence and experience",
+          "Collaborative examination of evidence"
+        ],
+        [
+          "Humanistic",
+          "Conditions of worth blocking the actualising tendency",
+          "Empathy, unconditional positive regard, congruence",
+          "The client's own growth tendency"
+        ],
+        [
+          "Systemic",
+          "Patterns of interaction that sustain the symptom",
+          "Altering the pattern, often with the whole system present",
+          "The relational system itself"
+        ]
+      ],
+      "narration": "This table is the heart of the lecture, and I want you to read it down the columns rather than across the rows, because the contrasts are the point. Take the third column, what change requires. The psychodynamic traditions say change requires insight into a repeating pattern, and it must happen within a new relationship. The behavioural traditions say change requires new learning through disconfirming experience. The cognitive traditions say change requires testing beliefs against evidence and experience. The humanistic traditions say change requires the relational conditions of empathy, unconditional positive regard and congruence. And the systemic traditions say change requires altering the pattern, often with the whole system in the room. Now look at the fourth column, the agent of change, because this is where the traditions differ most sharply and where they are most frequently blurred. For the psychodynamic and humanistic traditions, the principal agent is the client's own process, enabled or released by the counsellor. For the cognitive tradition, the agent is a collaborative examination that the counsellor actively structures. For the behavioural tradition, the agent is structured practice, much of which happens between sessions rather than inside them. And for the systemic tradition, the agent is the relational system itself, which is why systemic practitioners will happily work with people who are not the referred client. One observation I want to leave with you. Ranking these traditions from most directive to least directive gives you: behavioural, then cognitive, then systemic, then psychodynamic, then humanistic. That spectrum is useful, because client preference tends to follow it. Some clients want structure and homework. Others find homework patronising and want to be understood. Both are legitimate, and matching the approach to the person is part of the skill. And one further observation about the systemic column. It is the only tradition in this table that does not locate the problem inside a single mind, and that difference has practical consequences you will meet immediately on placement. A systemic practitioner may decline to treat the referred client alone, not out of inflexibility, but because the theory holds that changing an individual while the surrounding pattern is untouched will often merely move the problem rather than resolve it."
+    },
+    {
+      "layout": "process",
+      "title": "What Actually Accounts for Change",
+      "eyebrow": "The Common Factors Evidence",
+      "subtitle": "Across orientations, a large share of the variance is explained by factors shared by all of them.",
+      "steps": [
+        {
+          "h": "Client and context",
+          "b": "Resources, severity, social support and life events account for the largest share"
+        },
+        {
+          "h": "Alliance",
+          "b": "Agreement on goals and tasks, plus the bond, predicts outcome in every orientation"
+        },
+        {
+          "h": "Allegiance and expectancy",
+          "b": "The practitioner's belief in the approach, and the client's hope, both contribute"
+        },
+        {
+          "h": "Technique",
+          "b": "Specific methods make a real and measurable difference, but a smaller one than the earlier factors"
+        }
+      ],
+      "narration": "Before we turn to integration, I need to give you the evidence about what actually accounts for change, because it reframes everything else. When researchers decompose the variance in therapy outcomes, the picture looks roughly like this. The largest share is accounted for by the client and their context: their resources, the severity of the problem, their social support, and the life events that occur during treatment. You cannot control most of this, and you should not pretend to. A substantial further share is accounted for by the alliance, meaning agreement on goals, agreement on tasks, and the relational bond. This holds across every orientation, which tells you it is not a feature of any one theory. Another portion is accounted for by allegiance and expectancy: the practitioner's belief in what they are doing, and the client's hope that it will help. And technique, the specific methods that distinguish the orientations, accounts for a real and measurable difference, but a smaller one than the factors already named. Now, misread this and you will draw a dangerous conclusion. Technique accounts for a smaller share, therefore technique does not matter. That is wrong, and the evidence does not support it. The specific methods are what make the difference between treatments that work for a condition and treatments that do not. Exposure works for obsessive compulsive disorder and relaxation training does not. That difference is technique, and it is decisive. What the common factors evidence tells us is something subtler and more demanding: that a well-delivered treatment delivering the wrong method is ineffective, and so is a poorly delivered treatment delivering the right method. You need both, and the pressure on you is therefore to be technically competent and relationally skilled. Any training programme that treats those as alternatives has misunderstood its job."
+    },
+    {
+      "layout": "section",
+      "number": "4",
+      "eyebrow": "Part Four",
+      "title": "Integration and Choosing",
+      "subtitle": "Why almost no competent practitioner works from one theory alone.",
+      "narration": "Part Four addresses the question you will actually face in practice. Which of these traditions should you use? The honest answer, supported by how practitioners behave rather than by what they claim, is that most experienced clinicians use more than one. Surveys consistently find that the largest single group of practitioners identifies as integrative or eclectic rather than as adherents of a single orientation. So the professional question is not which theory is true, but how to combine theories responsibly."
+    },
+    {
+      "layout": "bullets",
+      "title": "Four Routes to Integration",
+      "eyebrow": "Key Concept 3",
+      "subtitle": "Not all integration is equal. Three of these four are defensible; one is usually not.",
+      "bullets": [
+        {
+          "t": "Technical eclecticism",
+          "strong": true
+        },
+        {
+          "t": "Select techniques from different traditions according to what the evidence says works for this problem. Defensible, provided your selection is driven by evidence rather than by comfort.",
+          "lvl": 1
+        },
+        {
+          "t": "Theoretical integration",
+          "strong": true
+        },
+        {
+          "t": "Blend two or more theories into a single coherent model — cognitive analytic therapy and schema therapy are the best known examples. Demanding, but intellectually serious.",
+          "lvl": 1
+        },
+        {
+          "t": "Assimilative integration",
+          "strong": true
+        },
+        {
+          "t": "Work from a firm primary orientation, but absorb techniques from elsewhere without abandoning the underlying theory. The most common route in real practice.",
+          "lvl": 1
+        },
+        {
+          "t": "Syncretism — the one to avoid",
+          "strong": true
+        },
+        {
+          "t": "Mixing approaches without a rationale because it feels helpful in the moment. This is not integration. It is drift, and the client carries the cost.",
+          "lvl": 1
+        }
+      ],
+      "narration": "There are four routes to integration, and I want to name them precisely, because not all integration is equal. Three of these four are defensible. One is usually not. The first is technical eclecticism. You select techniques from different traditions according to what the evidence says works for this particular problem. This is defensible, provided that your selection is genuinely driven by the evidence rather than by what you happen to find comfortable. The danger is a practitioner who claims to be eclectic and is in fact doing whatever they like, with the evidence as a post-hoc justification. The second route is theoretical integration, in which you blend two or more theories into a single coherent model. Cognitive analytic therapy, which brings together psychodynamic and cognitive ideas, is the best known example, as is schema therapy. This route is demanding, but intellectually serious. It requires you to reconcile the assumptions, not merely the techniques, and that is hard work. The third route is assimilative integration, and it is the most common in real practice. You work from a firm primary orientation, but you absorb techniques from elsewhere without abandoning the underlying theory. So a psychodynamic practitioner might use a behavioural activation plan because the client's depression demands it, while still understanding the case psychodynamically. The key is that the primary theory remains the source of coherence. The fourth route has no defenders but many practitioners, and I want you to be able to recognise it in yourself. It is syncretism: mixing approaches without any rationale, because it feels helpful in the moment. This is not integration. It is drift. And when integration is principled, the practitioner can explain why they chose a technique. When it is drift, the practitioner cannot, and the client carries the cost of that incoherence. The test is simple and you should apply it to yourself throughout your training: can I explain, in advance, why I am doing this with this client? I want to add one caution about assimilative integration, because it is the route most of you will take and it has a specific failure mode. The primary orientation has to remain the source of your coherence. If you begin borrowing techniques whose assumptions contradict your primary theory, and you do not notice, you are no longer practising assimilative integration. You are practising syncretism with a respectable name attached to it."
+    },
+    {
+      "layout": "bullets",
+      "title": "What the Evidence Says About Orientations",
+      "eyebrow": "Research Spotlight",
+      "subtitle": "Honest statements, including the ones that complicate the picture.",
+      "bullets": [
+        {
+          "t": "For most common conditions, several orientations work",
+          "strong": true
+        },
+        {
+          "t": "Depression responds to cognitive, behavioural, psychodynamic and person-centred work. The dodo verdict — that all have won — is closer to the truth than the marketing of any single school.",
+          "lvl": 1
+        },
+        {
+          "t": "For some conditions, the specific method is decisive",
+          "strong": true
+        },
+        {
+          "t": "Exposure with response prevention for obsessive-compulsive disorder and behavioural therapy for phobias are examples where the right method clearly outperforms the wrong one.",
+          "lvl": 1
+        },
+        {
+          "t": "More is not better",
+          "strong": true
+        },
+        {
+          "t": "Most clients who will improve do so early. Routinely extending treatment beyond eight to ten sessions produces diminishing returns in most presentations.",
+          "lvl": 1
+        },
+        {
+          "t": "The evidence base is not culturally representative",
+          "strong": true
+        },
+        {
+          "t": "The trials behind these claims were largely conducted on Western samples. Extrapolation to your clients is an assumption, not a finding, and it should be stated as such.",
+          "lvl": 1
+        }
+      ],
+      "narration": "Now the evidence, stated as honestly as I can state it. First, for most common conditions, several orientations work. Depression, for example, responds to cognitive therapy, behavioural activation, brief psychodynamic therapy and person centred work. When the effects are compared head to head, the differences are usually small, and the finding that all of the major therapies have won is closer to the truth than the marketing of any single school. This is the famous dodo verdict, named after the bird in Alice in Wonderland that declared everybody has won and all must have prizes. Second, and this is the important qualification, for some conditions the specific method is decisive. Exposure with response prevention for obsessive compulsive disorder is the clearest example. Behavioural therapy for specific phobias is another. In these cases, the wrong method does not work however well it is delivered, and the right method works even in fairly ordinary hands. So the dodo verdict is true for some conditions and false for others, and you need to know which is which. Third, more is not better. Most clients who are going to improve do so early. Routinely extending treatment beyond eight to ten sessions produces diminishing returns for most presentations. This is uncomfortable for practitioners, because there is always more to explore, and exploring feels like diligence. It is not diligence if it displaces the results the client came for. Fourth, and I want this stated plainly because it affects how you interpret everything else: the evidence base is not culturally representative. The trials behind these claims were overwhelmingly conducted on Western samples, mostly in North America and Europe. Extrapolating those findings to a Nigerian client in Ibadan is an assumption, not a finding. I am not saying the treatments do not work here, and a great deal of clinical experience suggests many of them do. I am saying that the confident version of these claims is not supported by the evidence, and part of your professional integrity is stating the uncertainty rather than borrowing the confidence. Let me make that practical. Knowing which situation you are in means asking, before you choose, whether this presentation is one where the major approaches converge or one where the method is decisive. Depression and adjustment difficulties are usually the former. Obsessive compulsive disorder, phobias and panic are usually the latter. Getting that judgment wrong is one of the most consequential errors a beginning practitioner can make, because in the second group, delivering the wrong method competently still fails."
+    },
+    {
+      "layout": "casestudy",
+      "title": "One Client, Five Lenses",
+      "eyebrow": "Case Vignette",
+      "paragraphs": [
+        "Chidi is a 34-year-old secondary school teacher. He was referred after four months of low mood, disturbed sleep and a marked withdrawal from colleagues he used to enjoy. He describes himself as 'not good enough', and says he has felt this way 'for as long as I can remember, but it got worse after I was passed over for promotion'.",
+        "He grew up with a father who was warm when Chidi excelled and silent when he did not. His wife has said that he apologises constantly, including for things that are not his fault."
+      ],
+      "questions": [
+        "Psychodynamic: what pattern is repeating, and where will it appear in your consulting room?",
+        "Cognitive: what core belief is at work, and what keeps it intact?",
+        "Behavioural: what has he stopped doing, and how is that maintaining the low mood?",
+        "Humanistic: what condition of worth did he internalise, and what would he have to experience from you?",
+        "Systemic: how does his withdrawal affect his marriage, and what function might his self-blame serve?",
+        "Which formulation would you test first — and what evidence would change your mind?"
+      ],
+      "narration": "Let us apply this to a case. Chidi is thirty four, a secondary school teacher, referred after four months of low mood, disturbed sleep, and a marked withdrawal from colleagues he used to enjoy. He describes himself as not good enough, and he says he has felt this way for as long as he can remember, though it worsened after he was passed over for promotion. He grew up with a father who was warm when Chidi excelled and silent when he did not. And his wife reports that he apologises constantly, including for things that are plainly not his fault. Now I want you to notice something about this vignette before we reach the questions. Every fact I have given you is doing double duty. The apology is a behavioural observation, a cognitive belief made audible, a relational pattern, and a systemic event. This is precisely why the traditions diverge in what they attend to. Let us take them in order. Psychodynamic: what pattern is repeating, and where will it appear in your consulting room? The pattern is worth conditional on performance, learned from a father whose warmth was contingent. And you should expect it to appear with you. Chidi will very likely arrive apologetic, eager to be a good client, anxious about your approval and sensitive to any sign of disappointment. That is transference, and it is also your best evidence. Cognitive: what core belief is at work, and what keeps it intact? The core belief is something close to I am only acceptable when I perform, with the promotion decision functioning as confirmation. What keeps it intact is that he selects, remembers and attends to evidence that fits, and he apologises pre-emptively, which prevents anyone from actually disconfirming him. Behavioural: what has he stopped doing, and how is that maintaining the low mood? He has withdrawn from colleagues, which removes the social contact and reinforcement that would lift his mood. This is a textbook downward spiral, and it is also the fastest thing you can change. Humanistic: what condition of worth did he internalise, and what would he have to experience from you? He internalised the condition that warmth is earned. To loosen it he would need to experience, not merely be told, that your regard for him is not contingent on performance. Person centred practitioners call that unconditional positive regard, and it is harder to provide than it sounds with a client who apologises constantly. Systemic: how does his withdrawal affect his marriage, and what function might his self blame serve? His self blame and apology may be quietly managing conflict, by pre-empting any accusation before it is made. If so, then reducing his self blame may increase tension at home in the short term, and you should prepare for that rather than be surprised by it. Finally, the real question. Which formulation would you test first, and what evidence would change your mind? There is no single right answer, and I am not going to pretend there is. The answer depends on severity, on risk, on what he wants, and on what is available. But whatever you choose, you must be able to state what evidence would lead you to abandon it. That is what makes it a formulation rather than an assumption."
+    },
+    {
+      "layout": "takeaways",
+      "title": "Key Takeaways",
+      "eyebrow": "Summary",
+      "items": [
+        "A theory of counselling is a set of assumptions from which a change mechanism follows, and from which technique follows last. Assumptions, not techniques, separate the traditions.",
+        "Five families propose five mechanisms: insight, new learning, revised belief, released growth, and altered patterns of interaction.",
+        "The common factors evidence tells you to be technically competent and relationally skilled. It does not license you to be either instead of the other.",
+        "For most conditions several orientations work; for a few conditions the specific method is decisive. Know which situation you are in.",
+        "Integration is legitimate when you can explain in advance why you chose a method. If you cannot, it is drift."
+      ],
+      "narration": "Let me consolidate. Five takeaways. One. A theory of counselling is a set of assumptions about human functioning, from which a mechanism of change follows, and from which technique follows last. It is the assumptions, not the techniques, that separate the traditions. Two. Five families, five mechanisms of change. Insight into repeating patterns within a new relationship. New learning through disconfirming experience. The revision of biased beliefs. The release of an actualising tendency that conditions of worth had blocked. And the alteration of patterns of interaction that sustain the symptom. Three. The common factors evidence tells you to become technically competent and relationally skilled. It does not license you to be either one instead of the other, and any training programme that treats them as alternatives has misunderstood its job. Four. For most common conditions, several orientations perform comparably. For a smaller number of conditions, the specific method is decisive, and the clearest example is exposure with response prevention for obsessive compulsive disorder. You must know which situation you are in before you choose. Five. Integration is legitimate when you can explain in advance why you chose a method for this client. When you cannot explain it in advance, it is not integration. It is drift. And the test of drift is that the practitioner reaches for the rationale afterwards, whereas the principled integrator has it beforehand."
+    },
+    {
+      "layout": "reading",
+      "title": "Reading and Preparation for Week 3",
+      "eyebrow": "Required Reading",
+      "items": [
+        "Gelso, C. J., Nutt Williams, E., & Fretz, B. R. (2014). Counseling Psychology (3rd ed.). APA. — Chapter 7: Theoretical Approaches to Counseling and Psychotherapy.",
+        "Woolfe, R., Strawbridge, S., Douglas, B., & Kasket, E. (2019). Handbook of Counselling Psychology (4th ed.). SAGE. — Chapter 2.",
+        "Shedler, J. (2010). The efficacy of psychodynamic psychotherapy. American Psychologist, 65(2), 98-109. — Read the effect size comparisons carefully and note where Shedler concedes limitations.",
+        "Rogers, C. R. (1957). The necessary and sufficient conditions of therapeutic personality change. Journal of Consulting Psychology, 21(2), 95-103. — A short paper. Read it in full.",
+        "American Psychological Association. (2017). Ethical Principles of Psychologists and Code of Conduct. — Standard 2: Competence.",
+        {
+          "t": "Preparation for Week 3: in your reflective journal, 400 to 600 words. Having met all five traditions, which one are you most drawn to, and what in your own history might explain that attraction? Be specific and be honest — this is the exercise in the whole semester that most repays candour.",
+          "italic": true
+        }
+      ],
+      "narration": "Your reading for the coming week. Read Chapter Seven of Gelso, Nutt Williams and Fretz, which surveys the theoretical approaches, alongside Chapter Two of the Woolfe Handbook, whose British framing usefully differs from the American text on several points you should notice. Read Shedler's 2010 paper on the efficacy of psychodynamic psychotherapy. Read it carefully, and notice where Shedler concedes limitations. A source that concedes nothing is a source you should trust less, not more. Read Rogers' 1957 paper in full. As I said, it is short, and it is the founding statement of the most influential idea in our field. Read Standard Two of the APA Ethics Code, on competence, and consider what it demands of a newly qualified practitioner who has been trained mainly in one orientation. Finally, your preparation for Week Three. In your reflective journal, write four to six hundred words on the following. Having met all five traditions, which one are you most drawn to, and what in your own history might explain that attraction? I want you to be specific and honest. Of all the exercises this semester, that is the one that most repays candour, because the answer you write down privately, and do not have to defend, is the one that will tell you where your blind spots are likely to be."
+    },
+    {
+      "layout": "end",
+      "title": "End of Week 2",
+      "eyebrow": "Thank You",
+      "body": "Next week: the practical skills that turn a theory into a session — attending, listening, questioning and the discipline of staying with the client.",
+      "next": [
+        "Read Gelso et al. Chapter 7, Woolfe et al. Chapter 2, Shedler (2010) and Rogers (1957) before the next session.",
+        "Submit your reflective journal entry by Friday, 23:59.",
+        "Bring your honest answer to the question of attraction — we will discuss the pattern in seminar, not the individuals."
+      ],
+      "narration": "That brings us to the end of Week Two. Thank you for staying with a lecture that has covered a great deal of conceptual ground. Next week we leave theory for practice and examine counselling techniques and interventions: attending, listening, questioning, reflecting, and above all the discipline of staying with the client instead of reaching for the impressive formulation. You will notice that the skills we study next week belong to no single tradition. That is exactly the point, and it is the practical bridge between what we did today and everything that follows. Before then, three things. Read the four items indicated, and give Shedler and Rogers real attention rather than skimming them. Submit your reflective journal entry by Friday at twenty three fifty nine. And bring your honest answer to the question of which tradition attracts you. In seminar we will discuss the pattern across the group, not the individuals in it, and I think you will find the pattern instructive. I will see you next week."
+    }
+  ]
+}

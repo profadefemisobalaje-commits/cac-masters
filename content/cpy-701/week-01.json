@@ -1,0 +1,504 @@
+{
+  "course": "CPY 701",
+  "course_title": "Introduction to Counseling Psychology",
+  "week": 1,
+  "title": "Week 1 — What Counseling Psychology Is",
+  "lecturer": "Prof. S.M.A. Philips",
+  "institution": "Triune Biblical University Global Extension, USA",
+  "references": [
+    "Gelso, C. J., Nutt Williams, E., & Fretz, B. R. (2014). Counseling Psychology (3rd ed.). APA.",
+    "Woolfe, R., Strawbridge, S., Douglas, B., & Kasket, E. (2019). Handbook of Counselling Psychology (4th ed.). SAGE."
+  ],
+  "slides": [
+    {
+      "layout": "title",
+      "course": "CPY 701 — Introduction to Counseling Psychology",
+      "title": "What Counseling Psychology Is",
+      "subtitle": "Foundations of a profession: definition, history, identity and scope",
+      "narration": "Welcome to CPY 701, Introduction to Counseling Psychology. This is Week One of sixteen, and our subject for the next thirty-five minutes is the most basic question in the entire programme: what exactly is counseling psychology? It sounds like a simple question. It is not. The answer decides what you are allowed to do, how you are trained, what research you read, and how you explain yourself to a client, a hospital, a school, or a court. Over this lecture we will define the field, trace where it came from, separate it from its neighbouring professions, and locate it firmly in the Nigerian and African context in which most of you will practise. Please have your notebook open, because the second half of the lecture builds on the vocabulary we establish in the first."
+    },
+    {
+      "layout": "objectives",
+      "title": "Learning Objectives",
+      "eyebrow": "By the end of this lecture you should be able to",
+      "items": [
+        "Define counseling psychology and state the distinctive emphases that separate it from other mental health professions.",
+        "Trace the historical development of the profession from vocational guidance through the Rogerian revolution to evidence-based practice.",
+        "Explain the scientist-practitioner model and describe what it demands of you as a trainee.",
+        "Distinguish counseling psychology from clinical psychology, psychiatry and counselling on the basis of training and scope.",
+        "Describe the multicultural and social justice commitments that define the modern profession.",
+        "Situate the profession within the Nigerian mental health system and explain the access challenge it faces."
+      ],
+      "narration": "Here is what you should be able to do by the end of this session. First, define counseling psychology, and state the distinctive emphases that separate it from the other mental health professions. Second, trace the historical development of the profession, from vocational guidance through the Rogerian revolution to contemporary evidence-based practice. Third, explain the scientist-practitioner model, and describe honestly what it demands of you as a trainee. Fourth, distinguish counseling psychology from clinical psychology, from psychiatry, and from general counselling, on the basis of training and scope rather than on the basis of reputation. Fifth, describe the multicultural and social justice commitments that define the modern profession. And sixth, situate the profession within the Nigerian mental health system, and explain the access challenge that it faces. I want to draw your attention to the fact that objectives one and four are connected. You cannot define a profession without also defining its boundaries, and boundaries are always contested. That contest is part of what we study."
+    },
+    {
+      "layout": "section",
+      "number": "1",
+      "eyebrow": "Part One",
+      "title": "Defining the Field",
+      "subtitle": "What counseling psychology is, and what it is not.",
+      "narration": "Let us begin with Part One, defining the field. I want to start with what the profession is, and then move immediately to what it is not, because in the minds of the public, and frankly in the minds of many students entering this programme, those boundaries are blurred. A client who says, I think I need to see a psychologist, usually has no idea which psychologist, or whether they need a psychologist at all. Part of your professional formation is learning to answer that question accurately, both for yourself and for the people you serve."
+    },
+    {
+      "layout": "definition",
+      "title": "What Is Counseling Psychology?",
+      "eyebrow": "Key Concept 1",
+      "term": "Counseling Psychology",
+      "body": "A psychological specialty that facilitates personal and interpersonal functioning across the lifespan, with attention to emotional, social, vocational, educational, health-related, developmental and organisational concerns. It emphasises strengths, prevention, and the person's context, not merely the removal of symptoms.",
+      "source": "Adapted from the Society of Counseling Psychology, Division 17 of the American Psychological Association.",
+      "footnote": "Note carefully what the definition asks you to attend to: the whole lifespan, the person's strengths, and the environments in which the person lives and works.",
+      "narration": "Here is the working definition we will use throughout this course. Counseling psychology is a psychological specialty that facilitates personal and interpersonal functioning across the lifespan, with attention to emotional, social, vocational, educational, health-related, developmental, and organisational concerns. Let me pull that apart, because every phrase in it is doing work. First, it is a specialty within psychology. It is not a synonym for psychology as a whole, and it is not a brand of general counselling. Second, it facilitates functioning. Notice the verb. The profession is oriented towards the enhancement of normal functioning, not only towards the relief of pathology. Third, it attends to functioning across the lifespan. That means the specialty is concerned with the child, the adolescent, the working adult, the couple, and the older adult, and with the transitions between those stages. Fourth, the list of domains, emotional, social, vocational, educational, health-related, developmental and organisational, is deliberately wide. Vocational and educational concerns in particular have been central to this profession since its birth, and they distinguish it from specialties that confine themselves to clinical settings. And notice finally what the definition does not say. It does not lead with diagnosis. It does not lead with disorder. It leads with functioning, with context, and with strengths. Write that down, because it will reappear in every course you take this year."
+    },
+    {
+      "layout": "stats",
+      "title": "Why This Matters: The Scale of Need",
+      "eyebrow": "Context",
+      "stats": [
+        {
+          "v": "1 in 8",
+          "l": "people worldwide live with a mental health condition"
+        },
+        {
+          "v": "~85%",
+          "l": "of those in low- and middle-income countries receive no treatment"
+        },
+        {
+          "v": "0.1%",
+          "l": "of Nigeria's health budget is directed to mental health"
+        },
+        {
+          "v": "<1",
+          "l": "psychiatrist per 100,000 people in Nigeria"
+        }
+      ],
+      "note": "These figures are the reason the profession cannot be defined by the consulting room alone. Where need is large and professional supply is small, prevention, task-sharing and community-level work become core professional activities, not optional extras. Verify current figures against the WHO Mental Health Atlas for your assignment.",
+      "narration": "Before we go further into definition, let me show you why definition matters in this particular region of the world. The World Health Organization estimates that roughly one in eight people globally lives with a mental health condition. In low income and middle income countries, the great majority of those people, on some estimates around eighty five per cent, receive no treatment at all. Nigeria spends a very small fraction of its already stretched health budget on mental health, and has fewer than one psychiatrist for every hundred thousand people. Now, hold those numbers against the definition we just read. If your professional identity is built only around one-to-one psychotherapy in a consulting room, then in this country you can reach a tiny sliver of the people who need help, and you will spend your career with a waiting list you cannot shorten. That is precisely why counseling psychology has always insisted on prevention, on psychoeducation, on group work, on vocational and educational intervention, and on working with systems rather than only with individuals. Those are not secondary activities for us. They are how the profession answers the arithmetic of need. When you write your assignments this semester, I want you to check the current figures against the WHO Mental Health Atlas, because these numbers move, and part of being a scientist-practitioner is refusing to quote a statistic you have not verified."
+    },
+    {
+      "layout": "bullets",
+      "title": "Three Professions, Three Trainings",
+      "eyebrow": "Key Concept 2",
+      "subtitle": "Distinction rests on training and legal scope, not on prestige or effectiveness.",
+      "bullets": [
+        {
+          "t": "Psychiatry — a medical specialty",
+          "strong": true
+        },
+        {
+          "t": "Trained first as a physician, then as a psychiatric specialist. May diagnose, prescribe and admit. Usually sees the highest-acuity presentations.",
+          "lvl": 1
+        },
+        {
+          "t": "Clinical psychology — a psychological specialty",
+          "strong": true
+        },
+        {
+          "t": "Trained in psychological science and in psychopathology. Specialises in assessment and treatment of significant mental disorder.",
+          "lvl": 1
+        },
+        {
+          "t": "Counseling psychology — a psychological specialty",
+          "strong": true
+        },
+        {
+          "t": "Trained in psychological science, with emphasis on lifespan development, strengths, prevention and vocational or educational functioning.",
+          "lvl": 1
+        },
+        {
+          "t": "Counselling — a related but distinct profession",
+          "strong": true
+        },
+        {
+          "t": "Training, licensure and scope vary widely by country; not always a psychology qualification.",
+          "lvl": 1
+        }
+      ],
+      "narration": "Let us now do the disambiguation properly. There are three professions that the public routinely confuses, and a fourth that is related but genuinely distinct. Psychiatry is a medical specialty. A psychiatrist is a physician first, holding a medical degree, and then completing specialist training in psychiatry. Because of that medical training, the psychiatrist is the one member of this group who may prescribe medication and admit a patient to hospital. Psychiatry tends, though not exclusively, to see the highest acuity presentations, and its lens is substantially biological and pharmacological, though modern psychiatric practice is far more integrated than the stereotype suggests. Clinical psychology is a psychological specialty. A clinical psychologist holds a psychology degree and completes doctoral training in psychological science, psychopathology and its treatment. Clinical psychology historically oriented itself towards significant mental disorder, psychological assessment, and the treatment of severe psychopathology, and it is trained to work in health care settings with people who are unwell. Counseling psychology is also a psychological specialty. Like the clinical psychologist, the counseling psychologist is trained in psychological science. But the historical emphasis falls differently. Counseling psychology emphasises lifespan development, the strengths and resources of the person, prevention, and vocational and educational functioning. In practice, the two overlap enormously, and in most settings you will find counseling psychologists treating depression, anxiety and trauma, and clinical psychologists doing career and adjustment work. Fourth, counselling. Here I need you to be careful. Counselling is a related profession with its own traditions, and in many countries it has its own training and licensure pathway that is not a psychology qualification at all. In Nigeria, and across much of Africa, the picture is further complicated by lay counsellors, religious counsellors, and paraprofessional workers who deliver a very large share of actual frontline support. They are often highly effective and deeply trusted. Understanding that ecology, rather than dismissing it, is part of our job. So, the headline: these professions are distinguished by training and by legal scope of practice, not by prestige, and not by which one is more helpful. Anyone who tells you one profession is inherently more effective is not giving you a scientific answer."
+    },
+    {
+      "layout": "table",
+      "title": "Scope of Practice Compared",
+      "eyebrow": "Table 1.1",
+      "subtitle": "Indicative comparison. Regulatory scope varies by jurisdiction and must be verified locally.",
+      "columns": [
+        "Profession",
+        "Core training",
+        "Prescribing",
+        "Typical focus"
+      ],
+      "widths": [
+        0.22,
+        0.26,
+        0.16,
+        0.36
+      ],
+      "rows": [
+        [
+          "Psychiatrist",
+          "Medical degree + psychiatric residency",
+          "Yes",
+          "Severe mental disorder; biological and pharmacological treatment"
+        ],
+        [
+          "Clinical psychologist",
+          "Doctoral training in psychopathology",
+          "No",
+          "Assessment and treatment of significant mental disorder"
+        ],
+        [
+          "Counseling psychologist",
+          "Master's or doctoral training in psychology",
+          "No",
+          "Lifespan functioning, prevention, career, adjustment and wellbeing"
+        ],
+        [
+          "Counsellor",
+          "Certificate, diploma or degree in counselling",
+          "No",
+          "Supportive, developmental and psychoeducational work"
+        ]
+      ],
+      "narration": "This table consolidates what we have just discussed, and I want you to use it as a reference sheet for the rest of the semester. Read down the columns. The first column names the profession. The second states the core training. Notice that two of these are psychology qualifications and two are not, and that only one is a medical qualification. The third column asks about prescribing, and the answer is a single yes. This is the cleanest, least ambiguous boundary in the whole picture, and you should hold onto it firmly, because it is also the boundary most often blurred by clients and, occasionally, by practitioners. Only a physician may prescribe. A counseling psychologist does not prescribe, and a counselling psychologist who implies otherwise is acting outside their competence and, in most jurisdictions, outside the law. The fourth column describes typical focus. Read these as tendencies, not as fences. In contemporary practice the boundary between clinical and counseling psychology is porous by design, and many services deliberately hire both because the training produces complementary strengths. I want to add a caution about this table. It describes the situation in jurisdictions with well developed regulatory systems. In Nigeria, and in many African countries, the legal framework for psychological practice has been developing rapidly, and the scope question is partly a matter of national law and partly a matter of professional ethics. Before you take a placement or a job, find out what your national regulator or professional association actually permits you to do. That is not a bureaucratic formality. Practising outside your scope is the fastest way to harm a client, and it is one of the most common grounds for disciplinary action in our profession."
+    },
+    {
+      "layout": "twocol",
+      "title": "Common Misconceptions",
+      "eyebrow": "Key Concept 5",
+      "subtitle": "Each of these beliefs is widespread, and each of them damages either access to care or the quality of it.",
+      "columns": [
+        {
+          "h": "What people often believe",
+          "items": [
+            "Counseling is only for people with serious mental illness.",
+            "A counselor mainly listens and then gives advice.",
+            "Counseling is essentially the same as talking to a friend or a religious leader.",
+            "It only works if you already believe in it."
+          ]
+        },
+        {
+          "h": "What is actually the case",
+          "items": [
+            "It addresses the whole range of functioning, from a career decision to severe distress.",
+            "Listening is a disciplined, trained skill, and advice-giving is generally avoided on purpose.",
+            "Natural support is genuinely valuable, but it carries no confidentiality duty, no ethical code and no outcome measurement.",
+            "Outcomes are measurable, and they are comparable across treatments."
+          ]
+        }
+      ],
+      "narration": "Before we leave definition behind, let me address five beliefs that you will meet constantly, in your family, in your church or mosque, in your workplace, and, I am sorry to say, sometimes in your own head. Each of them is widespread, and each of them does real damage. The first misconception is that counseling is only for people with serious mental illness. This belief keeps millions of people away from help, because nobody wants to be told they are mad, and in many communities the stigma attached to that label is severe. The truth is that this profession addresses the full range of human functioning, from a twenty-two year old choosing a career, to a couple navigating a difficult transition, to a person in acute crisis. Coming to see a counseling psychologist is not a declaration that something is deeply wrong with you. It is a decision to use a professional resource for a problem that professional training happens to address. The second misconception is that a counselor mainly listens and then gives advice. Listening is indeed central, but it is a disciplined, trained skill, not a passive one. And advice-giving is generally avoided on purpose, which surprises many students. Rogers' argument, which we have already met, is that the client's own agency is the mechanism of change. If I tell you what to do, I have borrowed your problem for an hour and handed it straight back. If instead I help you clarify what you want and what stands in the way, the change belongs to you and it outlives the session. The third misconception is that counseling is essentially the same as talking to a friend or a religious leader. Let me be careful here, because this is not a claim that professional help is superior to the support of people who love you. It is a claim about what is different. Your friend is not bound by confidentiality, is not obliged by an ethical code, is not trained to assess risk, is not required to keep records, and is not measuring whether what they are doing is working. Those five differences are the profession. The fourth misconception is that it only works if you already believe in it. This is partly true of every treatment, medicine included, and it is called the placebo effect. But it is not the whole story. Psychotherapy produces measurable change that persists, and the effect is larger than placebo alone. The fifth misconception, which I meet in students as often as in the public, is that all psychological treatments are equally effective and therefore it does not matter what you learn. It matters a great deal. We will come to the evidence in a few minutes."
+    },
+    {
+      "layout": "section",
+      "number": "2",
+      "eyebrow": "Part Two",
+      "title": "How the Profession Came to Be",
+      "subtitle": "From choosing a vocation to evidence-based practice.",
+      "narration": "We turn now to Part Two, the history of the profession. I want to persuade you that this is not antiquarian detail. Every commitment we hold, and every blind spot we carry, is legible in the history. The profession's insistence on vocational work, its optimism about human capacity, its later reckoning with culture and power, and its current struggle to integrate research with practice, all have identifiable origins and identifiable dates. When you understand where a commitment came from, you are much better placed to judge whether it still serves the people you are trying to help."
+    },
+    {
+      "layout": "process",
+      "title": "Four Moments That Made the Profession",
+      "eyebrow": "Historical Development",
+      "subtitle": "Each moment added a layer that the profession still carries.",
+      "steps": [
+        {
+          "h": "1908",
+          "b": "Frank Parsons opens the Vocation Bureau in Boston; systematic vocational guidance begins."
+        },
+        {
+          "h": "1942",
+          "b": "Carl Rogers publishes Counseling and Psychotherapy; the counselling relationship becomes a subject of science."
+        },
+        {
+          "h": "1951",
+          "b": "Division 17 of the APA takes the name Counseling Psychology; the specialty is formally named."
+        },
+        {
+          "h": "1990s",
+          "b": "Multicultural counselling competencies and social justice enter the professional mainstream."
+        }
+      ],
+      "narration": "The profession has four founding moments, and I want to take them in turn because each one left a permanent deposit in our identity. The first moment is nineteen oh eight. Frank Parsons, an engineer and social reformer in Boston, opened the Vocation Bureau, and began offering young people a systematic process of matching their aptitudes and interests to the demands of available occupations. Parsons' book, Choosing a Vocation, published the following year, is often treated as the founding text of vocational guidance. Notice the character of that founding act. It was not clinical. It was educational and social reformist. It began in the settlement house movement, in the attempt to help immigrants and working class youth find decent work. That origin is why vocational and educational concerns remain central to this profession, and why we are comfortable in schools and universities, in careers services, and in community settings, in a way that some other specialties are not. The second moment is nineteen forty two, when Carl Rogers published Counseling and Psychotherapy. Rogers' contribution was, in a sense, an inversion. Rather than treating the counsellor's technique as the active ingredient, he made the quality of the relationship the subject of serious study, and he insisted that the client holds the capacity for growth. That optimism, that faith in the person's own resources, is still one of our defining commitments, and it is why strengths based language appears in every definition of this field. The third moment is nineteen fifty one, when Division Seventeen of the American Psychological Association renamed itself Counseling Psychology. That is when the specialty got its name and its formal organisational identity, and much of the internal debate about training standards, accreditation and scope dates from that period. The fourth moment belongs to the nineteen nineties, when a sustained critique from within the profession, led by scholars such as Derald Wing Sue, forced a reckoning with culture, race, gender and power. The multicultural counselling competencies, and later the social justice turn, reshaped what competence is understood to mean. I want to flag honestly that this fourth moment is unfinished. We will return to it in Week Twelve, in the Multicultural Counseling course, and again in Week Thirteen."
+    },
+    {
+      "layout": "quote",
+      "eyebrow": "Carl Rogers, 1942",
+      "quote": "It is the client who knows what hurts, what directions to go, what problems are crucial, what experiences have been deeply buried. It began to occur to me that unless I had a need to demonstrate my own cleverness and learning, I would do better to rely upon the client for the direction of movement in the process.",
+      "attribution": "Carl R. Rogers, On Becoming a Person, 1961",
+      "narration": "I want to read you Rogers in his own words, because paraphrase softens the argument. He wrote: It is the client who knows what hurts, what directions to go, what problems are crucial, what experiences have been deeply buried. It began to occur to me that unless I had a need to demonstrate my own cleverness and learning, I would do better to rely upon the client for the direction of movement in the process. There are two claims in that passage, and they are worth separating. The first is a claim about knowledge. Rogers is saying that the client's experiential knowledge of their own life is real knowledge, and that it is not automatically inferior to the clinician's theoretical knowledge. The second is a claim about the counsellor's motives. He names, with unusual candour, the temptation to perform expertise, the need to demonstrate cleverness. Every one of you will feel that temptation. It arrives the first time a client looks at you expectantly and you have no idea what to say. The discipline Rogers is recommending is not passivity. It is the discipline of staying close to the person's actual account rather than reaching for the impressive formulation. Hold that thought, because in Week Three, when we study technique, you will meet this tension again in a practical form."
+    },
+    {
+      "layout": "section",
+      "number": "3",
+      "eyebrow": "Part Three",
+      "title": "The Scientist-Practitioner",
+      "subtitle": "How research and practice are supposed to inform one another.",
+      "narration": "Part Three turns to the model of the professional that this programme is training you to become. It is called the scientist-practitioner model, and it was formalised at a conference in Boulder, Colorado, in nineteen forty nine. The idea is simple to state and demanding to live. A psychologist is not a technician who applies a fixed procedure, and not a detached researcher who studies other people's work. A psychologist is a professional who brings scientific habits of mind to every act of practice, and who brings the questions raised by practice back to the evidence."
+    },
+    {
+      "layout": "process",
+      "title": "The Reflective Practice Cycle",
+      "eyebrow": "Key Concept 3",
+      "subtitle": "Six steps you will be expected to run, explicitly, for every client you see this year.",
+      "steps": [
+        {
+          "h": "Observe",
+          "b": "Client work raises a question worth answering"
+        },
+        {
+          "h": "Read",
+          "b": "Locate and appraise the best available evidence"
+        },
+        {
+          "h": "Formulate",
+          "b": "Integrate evidence with the client's values and context"
+        },
+        {
+          "h": "Act",
+          "b": "Deliver the intervention with fidelity"
+        },
+        {
+          "h": "Measure",
+          "b": "Monitor outcome session by session"
+        },
+        {
+          "h": "Reflect",
+          "b": "Revise, or share what was learned"
+        }
+      ],
+      "narration": "Here is the cycle, expressed as six concrete steps that I expect you to be able to run and, in your later placements, to document. Step one, observe. Your client work raises a question. Suppose a client you are treating for anxiety is not improving after four sessions of the protocol you chose. That is not a failure. That is a question. Step two, read. You go to the evidence. What does the literature say about non-response to that protocol at four sessions? Are there moderators, things about this client's presentation that predict a different response? Step three, formulate. You take what you learned and integrate it with what you know about this particular client, their values, their resources, their culture, and their circumstances. The evidence never tells you what to do for a named person. It constrains your options. Step four, act. You deliver the intervention, and you deliver it with fidelity, meaning you actually do what the protocol says rather than an approximation of it. Step five, measure. You monitor outcome session by session rather than waiting until the end. This is the step most often skipped in busy services, and it is the one that makes the whole cycle scientific. Without measurement you are not running a cycle at all, you are merely accumulating impressions, and clinical impressions are demonstrably unreliable. Step six, reflect, revise, or share what you learned. If the change worked, you have something worth telling a colleague. If it did not, you have something equally worth telling. The cycle is not a staircase. You will loop through it many times with the same client. And notice that it is also a description of your thesis, which begins in Week Nine of this semester. Milestone one, topic selection, is nothing more than step one, observe, applied systematically to a question you care about."
+    },
+    {
+      "layout": "twocol",
+      "title": "What the Model Demands of You",
+      "eyebrow": "Key Concept 4",
+      "columns": [
+        {
+          "h": "As a consumer of research",
+          "items": [
+            "Read primary sources, not only textbooks and summaries",
+            "Appraise study quality rather than accepting conclusions",
+            "Recognise the difference between evidence and enthusiasm",
+            "Notice whose populations are missing from the evidence base"
+          ]
+        },
+        {
+          "h": "As a reflective practitioner",
+          "items": [
+            "Monitor your own outcomes rather than trusting memory",
+            "Seek supervision and use it honestly",
+            "Record your reasoning so it can be examined",
+            "Treat your own errors as data"
+          ]
+        }
+      ],
+      "narration": "Let me make the demands concrete, because the phrase scientist-practitioner can float about as a slogan if we are not careful. On the left, what the model demands of you as a consumer of research. You must read primary sources, not only textbooks and lecture summaries, including, I should say, not only these lectures. You must learn to appraise the quality of a study rather than simply accepting its conclusion, which means understanding sampling, measurement, comparison conditions and the difference between statistical and practical significance. You must learn to recognise the difference between evidence and enthusiasm, because those two things wear similar clothes. And you must notice whose populations are missing from the evidence base. This last point is not a political footnote. If the randomised controlled trials that inform a protocol were conducted almost entirely on European and North American samples, then applying that protocol in Ibadan or Kano is an extrapolation, and you should know that it is an extrapolation and be honest about the uncertainty. On the right, what the model demands of you as a reflective practitioner. You must monitor your own outcomes rather than trusting your memory of how clients are doing, because memory is systematically flattering. You must seek supervision and use it honestly, including the parts of your work you are least proud of. You must record your reasoning so that it can be examined by another person. And you must treat your own errors as data rather than as shameful secrets. I will tell you plainly that the practitioners who harm clients are rarely the ones who make mistakes. Everyone makes mistakes. The ones who harm clients are the ones who cannot tolerate being wrong, and who therefore never inspect their own work."
+    },
+    {
+      "layout": "bullets",
+      "title": "What the Evidence Says",
+      "eyebrow": "Research Spotlight",
+      "subtitle": "Five findings every trainee in this programme should be able to state from memory.",
+      "bullets": [
+        {
+          "t": "Psychotherapy works, and the effect is substantial",
+          "strong": true
+        },
+        {
+          "t": "Meta-analytic estimates place the average effect at roughly 0.7 to 0.8 standard deviations — comparable to, or larger than, many medical interventions in routine use.",
+          "lvl": 1
+        },
+        {
+          "t": "The alliance predicts outcome across every orientation",
+          "strong": true
+        },
+        {
+          "t": "Agreement on goals, agreement on tasks, and the bond between client and clinician predict outcome regardless of the model being used.",
+          "lvl": 1
+        },
+        {
+          "t": "Common factors and specific techniques both matter",
+          "strong": true
+        },
+        {
+          "t": "The long-running debate between them is a false dichotomy in practice. Effective treatment deliberately uses both.",
+          "lvl": 1
+        },
+        {
+          "t": "Transplanting an evidence base without cultural adaptation costs you engagement",
+          "strong": true
+        },
+        {
+          "t": "Adapting interventions to the client's cultural context reliably improves retention and outcome for minoritised populations.",
+          "lvl": 1
+        },
+        {
+          "t": "The therapist is a measurable source of variance",
+          "strong": true
+        },
+        {
+          "t": "Some clinicians consistently achieve better outcomes than others, and the gap can be narrowed with feedback and deliberate practice.",
+          "lvl": 1
+        }
+      ],
+      "narration": "Now the evidence, because everything I have said so far could be dismissed as professional self-description. Five findings, and I want you to be able to state each of them from memory, with the reasoning behind it. First. Psychotherapy works, and the effect is substantial. When you pool hundreds of trials, the average effect of psychological treatment is somewhere around zero point seven to zero point eight standard deviations. That number means very little until you compare it, so let me compare it. It is comparable to, and in many cases larger than, the effect sizes reported for widely used medical interventions, including several that are routinely prescribed in this country. If you would not describe a drug with that effect size as merely talking, you should not describe psychotherapy that way either. Second. The therapeutic alliance predicts outcome across every theoretical orientation. This is one of the most replicated findings in the whole field. Whatever model you practise, the agreement you reach with your client about what the goals are, the agreement you reach about what tasks you will both do to pursue those goals, and the quality of the bond between you, all predict how well the client does. Notice what this means for your training. It means that your relational skill is not a soft extra sitting on top of your technique. It is an evidence-based component of treatment in its own right. Third, common factors and specific techniques both matter, and the long argument about which is doing the work is a false dichotomy in practice. The alliance may be a common factor, but I cannot build an alliance in the abstract. I build it while doing something, and what I do is the specific technique. Effective clinicians deliberately use both. Fourth. Transplanting an evidence base without cultural adaptation costs you engagement. The trials that established the protocols were largely conducted on European and North American samples. When interventions are sensitively adapted to the client's cultural context, retention and outcome reliably improve for minoritised groups. That finding is the empirical foundation for the multicultural commitment I described earlier. Fifth, and most uncomfortably for you as a trainee, the therapist is a measurable source of variance. Some clinicians consistently achieve better outcomes than others with comparable caseloads, and, crucially, most clinicians believe they are already above average, which cannot be true of all of them. The gap can be narrowed, but only by measuring your own outcomes and using that feedback deliberately. That is the scientist-practitioner cycle again, and it is why I keep returning to it."
+    },
+    {
+      "layout": "section",
+      "number": "4",
+      "eyebrow": "Part Four",
+      "title": "The Context You Will Practise In",
+      "subtitle": "Culture, access and the Nigerian mental health system.",
+      "narration": "Part Four situates all of this in the context where you will actually work. Everything we have discussed so far was largely developed in Europe and North America, in systems with comparatively large professional workforces and comparatively well funded services. You are training in a different context, and the profession's identity is not finished until it has been thought through here."
+    },
+    {
+      "layout": "bullets",
+      "title": "Counseling Psychology in the Nigerian Context",
+      "eyebrow": "Application",
+      "bullets": [
+        {
+          "t": "Cultural concepts of distress shape presentation",
+          "strong": true
+        },
+        {
+          "t": "Clients may express psychological distress somatically, spiritually, or through family and community language rather than through the vocabulary of DSM categories.",
+          "lvl": 1
+        },
+        {
+          "t": "Care is plural",
+          "strong": true
+        },
+        {
+          "t": "Families, religious communities and traditional healers are often the first and most trusted points of contact. Effective practice works with them, not against them.",
+          "lvl": 1
+        },
+        {
+          "t": "Support is socially structured",
+          "strong": true
+        },
+        {
+          "t": "Emotional and financial support is frequently organised through extended family networks, mutual aid and religious associations as much as through state services.",
+          "lvl": 1
+        },
+        {
+          "t": "Legal and regulatory frameworks have changed recently",
+          "strong": true
+        },
+        {
+          "t": "Nigeria's mental health legislation was modernised by the National Mental Health Act signed in 2023, with further professional regulation under continuous development.",
+          "lvl": 1
+        }
+      ],
+      "narration": "Four features of the Nigerian context that should shape your practice, and that I want you to carry into every course this year. The first is that cultural concepts of distress shape presentation. A client may describe their suffering through bodily symptoms, through spiritual affliction, through family conflict, or through a sense of social and moral failure, rather than through the vocabulary of mood, anxiety and trauma that our diagnostic systems use. This is not evasion or ignorance on the client's part. It is a different, and internally coherent, explanatory model. If you listen only for DSM categories, you will frequently miss what you are being told. The second feature is that care is plural. Families, religious communities, traditional healers, and lay counsellors are often the first, and frequently the most trusted, points of contact for people in distress. The practical question for you is not whether this is scientifically ideal. It is how to work alongside these resources with respect and without abandoning your own professional judgement. A counselor who tells a client that their pastor, their mother, and their imam are all obstacles to proper treatment will lose the client. The third feature is that support is socially structured. Where the state provides little, people provide for one another through extended family, savings associations, religious congregations, and community networks. Those structures are a genuine resource, and part of your assessment should be understanding which of them a given client can access, and which of them are themselves a source of strain. The fourth feature is legal and regulatory change. Nigeria's mental health legislation was modernised by the National Mental Health Act, signed into law in January 2023, replacing a colonial era statute. This is a significant development, and the professional and regulatory landscape around it continues to evolve. You should read the Act itself at some point this semester. It is not long, and it tells you what the law expects of you."
+    },
+    {
+      "layout": "casestudy",
+      "title": "Vignette: Tolu",
+      "eyebrow": "Case Vignette",
+      "paragraphs": [
+        "Tolu is a 29-year-old bank officer who presents at a general hospital complaining of persistent headache, poor sleep and a heaviness in the chest that has lasted four months. Physical investigations have found no explanation.",
+        "On further discussion she describes growing worry about her job security, a recent restructuring at work, and a feeling that she is falling behind her peers. She has not told her family, because, she says, they already carry enough. She asks whether she needs a doctor or a counsellor, and says she has been told to 'stop thinking too much'."
+      ],
+      "questions": [
+        "Which profession is the appropriate point of entry, and what would change your answer?",
+        "What is she communicating through the physical symptoms that she has not said in words?",
+        "What strengths and social resources would you want to assess?",
+        "What would a strengths-based formulation add to a purely symptomatic one?"
+      ],
+      "narration": "Let us apply all of this to a case. Tolu is twenty nine years old, works in a bank, and comes to a general hospital complaining of persistent headache, poor sleep, and a heaviness in the chest that has lasted about four months. Physical investigations have found no explanation for her symptoms. On further discussion, and note that it took further discussion, she describes growing worry about job security, a recent restructuring at work, and a sense that she is falling behind her peers. She has not told her family, because, she says, they are already carrying enough. She asks whether she needs a doctor or a counsellor, and she reports that she has been told to stop thinking too much. I want to work through the questions on this slide with you, and I want you to notice how each one draws on a different part of the lecture. First, which profession is the appropriate point of entry, and what would change your answer? On what we have seen, this presentation is consistent with an anxiety or adjustment difficulty, and there is no indication of psychosis, of risk to life, or of a condition requiring medication as a first step. So the appropriate entry point is a psychological professional. But what would change the answer? If she disclosed active suicidal intent with a plan, the urgency and the composition of the team change immediately. If the sleep disturbance were severe and persistent with early morning waking and marked weight loss, you would want a psychiatric opinion. So, the answer is provisional, and it is revised as information arrives. That is what competent formulation looks like. Second, what is she communicating through her physical symptoms that she has not said in words? In many cultural contexts, and this is very much the case in Nigeria, bodily idioms are a legitimate and often more acceptable way of expressing psychological distress. Her headache and chest heaviness are not a distraction from the real problem. They are the form in which she can bring the problem to a hospital at all. Third, what strengths and social resources would you want to assess? She is employed, in a demanding job, and she is seeking help, which took considerable courage. She has a family she is protecting, which suggests both connection and a burden of obligation. What else does she have? Does she have savings, colleagues, a religious community, a friend in whom she has confided? Those resources are the basis of any plan you build with her. Fourth, what would a strengths based formulation add to a purely symptomatic one? It would add the question of what she is trying to protect, what she is good at, and what she wants her life to look like. A purely symptomatic formulation asks how we remove the headache. A strengths based formulation also asks who she is when she is well, and what she needs in order to get back there. We will return to Tolu at several points this semester."
+    },
+    {
+      "layout": "table",
+      "title": "How You Will Be Assessed in CPY 701",
+      "eyebrow": "Course Administration",
+      "subtitle": "Continuous assessment carries 40 per cent; the end-of-block examination carries 60 per cent.",
+      "columns": [
+        "Component",
+        "Weight",
+        "Format",
+        "Due"
+      ],
+      "widths": [
+        0.26,
+        0.12,
+        0.36,
+        0.26
+      ],
+      "rows": [
+        [
+          "Reflective journal",
+          "10%",
+          "400–600 words per entry, submitted weekly",
+          "Weeks 2–16"
+        ],
+        [
+          "Seminar presentation",
+          "10%",
+          "15-minute presentation plus questions",
+          "Allocated in Week 1"
+        ],
+        [
+          "Mid-block test",
+          "10%",
+          "60-minute written paper",
+          "Week 2"
+        ],
+        [
+          "Skills laboratory",
+          "10%",
+          "Recorded micro-counselling session with peer feedback",
+          "Week 3"
+        ],
+        [
+          "Block examination",
+          "60%",
+          "Written examination covering Weeks 1–4",
+          "Week 4"
+        ]
+      ],
+      "narration": "Finally, the practical matter of how this course is assessed, because I want no one to be surprised in Week Four. Continuous assessment carries forty per cent and the end-of-block examination carries sixty per cent. Your reflective journal is worth ten per cent, and I mean it when I say it is the component students most often underestimate. Four to six hundred words per week from Week Two onward, submitted weekly. It is not a summary of the lecture. It is your thinking about the lecture, and I will be looking for evidence that you have argued with the material rather than copied it. Your seminar presentation is ten per cent, fifteen minutes followed by questions, and allocations will be made by the end of this week. Prepare it as though your colleagues have read the same texts you have, because they will have. The mid-block test in Week Two carries ten per cent and covers the material from Weeks One and Two only. The skills laboratory in Week Three carries ten per cent and involves a recorded micro-counselling session with peer feedback. I want to be direct about that one, because being recorded is uncomfortable for almost everyone. The discomfort is part of the training. You cannot develop counselling skill from reading about it, and you cannot see what you actually do without watching yourself do it. Finally, the block examination in Week Four carries sixty per cent and covers Weeks One to Four. One administrative note. If a placement or an illness prevents you from meeting a deadline, tell me before the deadline, not after it. In a compressed twelve-month programme there is very little slack, and a problem disclosed early is almost always solvable, while a problem disclosed late usually is not."
+    },
+    {
+      "layout": "takeaways",
+      "title": "Key Takeaways",
+      "eyebrow": "Summary",
+      "items": [
+        "Counseling psychology is a psychological specialty defined by lifespan functioning, strengths, prevention and context, not by the removal of symptoms alone.",
+        "Its boundaries with neighbouring professions rest on training and legal scope of practice, not on prestige. Only physicians prescribe.",
+        "The profession carries four historical deposits: vocational guidance, the Rogerian relationship, the formal naming of the specialty, and the multicultural and social justice turn.",
+        "The scientist-practitioner model is a working cycle, not a slogan: observe, read, formulate, act, measure, reflect.",
+        "In Nigeria the arithmetic of need makes prevention, group work, task-sharing and community-level practice core professional duties."
+      ],
+      "narration": "Let me consolidate. Five takeaways. One. Counseling psychology is a psychological specialty defined by functioning across the lifespan, by strengths, by prevention, and by context. It is not defined by the removal of symptoms alone. Two. Its boundaries with neighbouring professions rest on training and on legal scope of practice, not on prestige and not on claims of superiority. Only physicians prescribe. Three. The profession carries four historical deposits. Vocational guidance, from Parsons. The primacy of the therapeutic relationship, from Rogers. The formal naming and standard setting of the specialty in the nineteen fifties. And the multicultural and social justice turn of the nineteen nineties, which is still unfinished. Four. The scientist-practitioner model is a working cycle, not a slogan. Observe, read, formulate, act, measure, reflect, and loop. Five. In Nigeria, the arithmetic of need makes prevention, group work, task-shifting and community level practice core professional duties rather than optional extras. If you remember only one thing from this lecture, remember the fourth takeaway, because it is the one you will be assessed on continuously and it is the one that will keep your clients safer."
+    },
+    {
+      "layout": "reading",
+      "title": "Reading and Preparation for Week 2",
+      "eyebrow": "Required Reading",
+      "items": [
+        "Gelso, C. J., Nutt Williams, E., & Fretz, B. R. (2014). Counseling Psychology (3rd ed.). APA. — Chapter 1: Introduction.",
+        "Woolfe, R., Strawbridge, S., Douglas, B., & Kasket, E. (2019). Handbook of Counselling Psychology (4th ed.). SAGE. — Chapter 1.",
+        "American Psychological Association. (2017). Ethical Principles of Psychologists and Code of Conduct. — Read the General Principles and Standards 1 and 2.",
+        "Nigeria: National Mental Health Act 2021, signed January 2023. Read Parts I and II.",
+        "Journal of Counseling Psychology — locate one empirical article from the last three years and note its research question.",
+        {
+          "t": "Preparation for Week 2: begin the reflective journal. First entry, 400 to 600 words: which of the four historical moments in this lecture connects most directly to why you are on this programme?",
+          "italic": true
+        }
+      ],
+      "narration": "Your reading and preparation for the coming week. Read Chapter One of Gelso, Nutt Williams and Fretz, which is the closest thing this field has to an authoritative introductory text, and Chapter One of the Woolfe and colleagues Handbook, which will give you the British and European framing and usefully differs from the American text on several points you should notice. Read the General Principles and Standards One and Two of the APA Ethics Code. You will be living with that document for the rest of your career and you should begin now. Read Parts One and Two of Nigeria's National Mental Health Act. As I said, it is short, and it will tell you what the law in this country expects of you. Then go to the Journal of Counseling Psychology, find one empirical article published in the last three years, and write down its research question in a single sentence. Not its conclusion, its question. That is an exercise in learning to read like a scientist-practitioner. Finally, your preparation for Week Two. Open your reflective journal and write an entry of four hundred to six hundred words on the following question: which of the four historical moments I described today connects most directly to your own reason for being on this programme? I want you to be honest in that entry, because nobody will read it except you and your supervisor, and because the exercise will do you no good if you write what you think I want to hear."
+    },
+    {
+      "layout": "end",
+      "title": "End of Week 1",
+      "eyebrow": "Thank You",
+      "body": "Next week: the great theoretical traditions of counselling, and what each one assumes about human change.",
+      "next": [
+        "Read Gelso et al. Chapter 1 and Woolfe et al. Chapter 1 before the next session.",
+        "Submit your reflective journal entry by Friday, 23:59.",
+        "Note any question you could not answer today — bring it to the seminar."
+      ],
+      "narration": "That brings us to the end of Week One. Thank you for your attention, and for staying with a lecture that has been heavy on definition and history, which is deliberate, because everything else in this programme stands on it. Next week we move to theories and approaches in counselling, and we will examine the great traditions, psychoanalytic, behavioural, cognitive, humanistic, systemic and integrative, and, more importantly, what each one assumes about how human beings change. That assumption is what makes the theories different from one another, and it is what you must learn to see. Before then, three things. Read Gelso and Woolfe as indicated. Submit your reflective journal entry by Friday at twenty three fifty nine. And bring to the seminar the one question from today that you could not answer. That question is more valuable than any answer I could give you, because it is the beginning of your own thinking in this field. I will see you next week."
+    }
+  ]
+}

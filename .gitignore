@@ -1,0 +1,13 @@
+# Heavy derived intermediates — regenerable, never committed.
+media/**/work*/
+media/**/slides/
+media/**/_pptx_tmp.png
+__pycache__/
+*.pyc
+
+# Toolchain binaries and fonts: rebuild with tools/setup_env.sh
+assets/fonts/
+tools/bin/
+
+# Local overrides
+.env

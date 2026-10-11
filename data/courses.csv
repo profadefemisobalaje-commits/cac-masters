@@ -1,0 +1,31 @@
+semester,block,teaching_weeks,course_code,course_title,credit_hours,type,track
+1,A,1-4,CPY 701,Introduction to Counseling Psychology,2.75,Core,Foundation
+1,A,1-4,CPY 702,Theories and Approaches in Counseling,2.75,Core,Foundation
+1,B,5-8,CPY 703,Counseling Techniques and Interventions,2.75,Core,Skills
+1,B,5-8,CPY 704,Group Counseling,2.75,Core,Skills
+1,C,9-12,CPY 705,Family Counseling,2.75,Core,Applied
+1,C,9-12,CPY 706,Career Counseling,2.75,Core,Applied
+1,D,13-16,CPY 707,Multicultural Counseling,2.75,Core,Applied
+1,D,13-16,CPY 708,Substance Abuse Counseling,2.75,Core,Applied
+1,Longitudinal,9-16,CPY 770,Master Thesis (Milestone 1: Topic & Proposal Draft),2.75,Thesis,Research
+2,E,18-21,CPY 709,Assessment and Evaluation in Counseling,2.75,Core,Assessment
+2,E,18-21,CPY 710,Ethics and Professional Issues in Counseling,2.75,Core,Professional
+2,F,22-25,CPY 711,Psychopathology and Diagnosis,2.75,Core,Clinical
+2,F,22-25,CPY 712,Child and Adolescent Counseling,2.75,Core,Clinical
+2,G,26-29,CPY 713,Counseling for Trauma and Crisis,2.75,Core,Clinical
+2,G,26-29,CPY 714,Couples Counseling,2.75,Core,Clinical
+2,H,30-33,CPY 715,Counseling for Grief and Loss,2.75,Core,Clinical
+2,H,30-33,CPY 716,Counseling for Aging and Geriatrics,2.75,Core,Clinical
+2,Longitudinal,22-33,CPY 727,Practicum in Counseling (Elective),2.75,Elective,Clinical Placement
+3,I,36-39,CPY 717,Counseling for Disabilities,2.75,Core,Specialist
+3,I,36-39,CPY 718,Counseling for LGBTQ+ Individuals,2.75,Core,Specialist
+3,J,40-43,CPY 719,Counseling for Eating Disorders,2.75,Core,Specialist
+3,J,40-43,CPY 720,Counseling for Anxiety and Depression,2.75,Core,Specialist
+3,K,44-47,CPY 721,Counseling for Personality Disorders,2.75,Core,Specialist
+3,K,44-47,CPY 722,Research Methodology,2.75,Core,Research
+3,Longitudinal,36-51,CPY 728,Internship in Counseling Psychology (Elective),2.75,Elective,Clinical Placement
+3,Longitudinal,36-51,CPY 770,Master Thesis (Milestones 4-7: Data, Write-up, Defence),2.75,Thesis,Research
+,,,CPY 723,Counseling for Sexual Disorders,2.75,Elective (not selected),Specialist
+,,,CPY 724,Counseling for Relationship Issues,2.75,Elective (not selected),Specialist
+,,,CPY 725,Counseling for Anger Management,2.75,Elective (not selected),Specialist
+,,,CPY 726,Research Methods in Counseling Psychology,2.75,Elective (not selected),Research
