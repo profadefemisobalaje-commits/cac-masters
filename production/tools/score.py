@@ -77,7 +77,7 @@ def add(buf, sig, st_samples, gain=1.0):
 
 def main():
     tl = json.load(open(os.path.join(ROOT, "out", "timeline.json"), encoding="utf-8"))
-    n = int(TOTAL * SR)
+    n = int(tl["total"] * SR)
     left = np.zeros(n, dtype=np.float32)
     right = np.zeros(n, dtype=np.float32)
     for seg in tl["segments"]:

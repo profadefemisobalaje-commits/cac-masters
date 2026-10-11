@@ -56,26 +56,45 @@ def main():
     for s in order:
         segs.setdefault(s["section"], []).append(s)
     seg_keys = list(segs)
+    FREE = len(seg_keys) == 1  # episode mode: one section, free runtime
 
     tl_scenes, chunk_starts, segments = [], {}, []
+    cursor_global = 0.0
     for si, key in enumerate(seg_keys):
         members = segs[key]
-        seg_start, seg_end = si * SEG, (si + 1) * SEG
-        speech_total = sum(speech.get(s["id"], 0.0) for s in members)
         n_leads = sum(1 for s in members
                       if first_scene_of.get(chunk_of.get(s["id"], -1)) == s["id"])
-        pad_total = SEG - speech_total - n_leads * LEAD
+        if FREE:
+            speech_f = sum(speech.get(s["id"], 0.0) for s in members)
+            n_m = sum(1 for s in members if s["id"] not in speech)
+            pad_f = 6.0 * n_m + 1.2 * (len(members) - n_m) + 9.0
+            seg_start = cursor_global
+            seg_end = seg_start + speech_f + pad_f + n_leads * LEAD
+        else:
+            seg_start, seg_end = si * SEG, (si + 1) * SEG
+        speech_total = sum(speech.get(s["id"], 0.0) for s in members)
+        if FREE:
+            pad_total = seg_end - seg_start - speech_total - n_leads * LEAD
+        else:
+            pad_total = SEG - speech_total - n_leads * LEAD
         if pad_total < 0:
             pad_total = 0.0
         weights = []
         for i, s in enumerate(members):
-            w = 1.0
-            if s["id"] not in speech:
-                w = 3.0            # music-only scene: real hold
-            if i == 0:
-                w += 2.0           # title hold
-            if i == len(members) - 1:
-                w += 2.0           # reflective hold
+            if FREE:
+                w = 6.0 if s["id"] not in speech else 1.2
+                if i == 0:
+                    w += 3.0
+                if i == len(members) - 1:
+                    w += 6.0
+            else:
+                w = 1.0
+                if s["id"] not in speech:
+                    w = 3.0
+                if i == 0:
+                    w += 2.0
+                if i == len(members) - 1:
+                    w += 2.0
             weights.append(w)
         wsum = sum(weights)
         cursor = seg_start
@@ -108,12 +127,14 @@ def main():
         if abs(drift) > 0.0005:
             tl_scenes[-1]["end"] = round(tl_scenes[-1]["end"] + drift, 3)
         segments.append({"section": key, "start": seg_start, "end": seg_end})
+        cursor_global = seg_end
 
     chunks = [{"index": c["index"], "file": c["file"],
                "offset": round(chunk_starts[c["index"]], 3),
                "dur": round(c["dur"], 3)}
               for c in plan["chunks"] if c["index"] in chunk_starts]
-    out = {"total": 3600.0, "segments": segments, "scenes": tl_scenes, "chunks": chunks}
+    out = {"total": round(tl_scenes[-1]["end"], 3), "segments": segments,
+           "scenes": tl_scenes, "chunks": chunks}
     json.dump(out, open(os.path.join(ROOT, "out", "timeline.json"), "w",
                         encoding="utf-8"), indent=2, ensure_ascii=False)
     print(f"timeline: {len(tl_scenes)} scenes, ends {tl_scenes[-1]['end']:.3f}s")

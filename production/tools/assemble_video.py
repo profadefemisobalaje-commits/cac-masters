@@ -71,7 +71,7 @@ def main():
     run([FF, "-y", "-hide_banner", "-loglevel", "error", "-i", silent,
          "-i", os.path.join(ROOT, "out", "audio", "mix.wav"),
          "-c:v", "copy", "-c:a", "aac", "-b:a", "192k", "-ar", "48000",
-         "-t", "3600", "-movflags", "+faststart", final])
+         "-t", str(int(round(tl["total"]))), "-movflags", "+faststart", final])
     print(f"FINAL: {final}")
 
 

@@ -31,7 +31,7 @@ def tc(s):
     return h * 3600 + m * 60 + sec
 
 
-def parse_file(path):
+def parse_file(path, carry=""):
     scenes, cur = [], None
     mode = None
     for raw in open(path, encoding="utf-8"):
@@ -65,8 +65,8 @@ def parse_file(path):
             cur["narration"] += line + "\n"
     if cur:
         scenes.append(cur)
-    # SECTION (and file-level context) is declared once per file: inherit forward.
-    last = ""
+    # SECTION (and file-level context) is declared once per project: inherit forward.
+    last = carry
     for s in scenes:
         if s["section"]:
             last = s["section"]
@@ -76,7 +76,7 @@ def parse_file(path):
         if s["narration"].lower() == "(none)":
             s["narration"] = ""
         s["words"] = len(s["narration"].split())
-    return scenes
+    return scenes, last
 
 
 def main():
@@ -86,8 +86,9 @@ def main():
         print("no script files found", file=sys.stderr)
         sys.exit(1)
     scenes = []
+    carry = ""
     for f in files:
-        got = parse_file(f)
+        got, carry = parse_file(f, carry)
         for s in got:
             s["file"] = os.path.basename(f)
         scenes.extend(got)
