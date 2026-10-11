@@ -169,6 +169,31 @@ if __name__ == "__main__":
     if sys.argv[1] == "check":
         print(f"{lec.slug}: {len(lec.slides)} slides, {lec.word_count} words, "
               f"~{lec.est_minutes:.1f} min")
+        # Report the tempo the assembler will have to apply, at authoring time.
+        # Catching this here costs nothing; catching it after voicing costs turns.
+        target = lec.data.get("target_minutes", 35) * 60
+        padding = len(lec.slides) * 2.3          # 0.7 lead + 1.6 tail per slide
+        budget = target - padding
+        speech = lec.word_count / 152.0 * 60
+        tempo = speech / budget if budget > 0 else 1.0
+        # tempo = speech / budget, so tempo > 1 means the narration runs LONG
+        # and the assembler must speed it up.
+        if tempo > 1.06:
+            verdict = (f"TOO LONG by {speech-budget:.0f}s — the assembler refuses "
+                       f"above 1.06x and will leave the video long. Trim about "
+                       f"{(speech-budget)*152/60:.0f} words.")
+        elif tempo > 1.005:
+            verdict = (f"a little over by {speech-budget:.0f}s — will be sped up "
+                       f"{tempo:.3f}x, which is imperceptible; acceptable")
+        elif tempo >= 0.995:
+            verdict = "IDEAL — lands on target with essentially no adjustment"
+        else:
+            verdict = (f"short by {budget-speech:.0f}s — the assembler will slow it "
+                       f"down; add about {(budget-speech)*152/60:.0f} words for a "
+                       f"natural lecture pace")
+        print(f"target {target/60:.0f} min | est speech {speech:.0f}s | "
+              f"budget {budget:.0f}s | implied tempo {tempo:.4f}")
+        print(f"  -> {verdict}")
         print("problems:", lec.validate() or "none")
     elif sys.argv[1] == "slides":
         do_slides(lec)
