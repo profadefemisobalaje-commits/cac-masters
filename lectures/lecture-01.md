@@ -1,0 +1,266 @@
+# Lecture 01 — The Case for Studying International Energy and Natural Resources Law
+
+**Why this field, why now, and why it belongs at every level of your programme**
+
+> **Series:** WHY YOU MUST STUDY INTERNATIONAL ENERGY AND NATURAL RESOURCES LAW AT ALL PROGRAMME LEVELS  
+> **Module:** Module One · Foundations  
+> **Lecturer:** Prof. Williams, TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION, USA  
+> **Duration:** 30 minutes · **Slides:** 18 · **Narration:** 3,570 words  
+> **Video:** `dist/lecture-01.mp4`
+
+---
+
+## Learning Outcomes
+
+1. Explain why energy and natural resources have moved from the periphery to the centre of international legal practice.
+2. Describe the material facts about global energy and resource flows that give this field its urgency.
+3. Distinguish international energy and natural resources law from its neighbouring disciplines.
+4. Identify the principal actors, instruments and institutions that populate the field.
+5. Situate the field in the long history of decolonisation, development and economic self-determination.
+6. Articulate, at your own programme level, a reasoned case for studying this field.
+
+## Lecture Script
+
+### 01. The Case for Studying International Energy and Natural Resources Law `bumper`
+
+### 02. The Case for Studying International Energy and Natural Resources Law `title`
+
+**Narration**
+
+Good day, and welcome. I am Professor Williams, of Triune Biblical University Global Extension in the United States of America. You are beginning a twenty-part series on the question of why you must study international energy and natural resources law at all programme levels. Let me begin with a claim that is deliberately provocative. If you were to assemble the ten most consequential legal disputes of the last quarter century, and remove from that list every dispute that turns on energy, minerals, water, forests, or land, you would be left with almost nothing. The law that governs how humanity extracts, converts, transports, prices and abandons the material basis of its own civilisation is not a specialist backwater. It is the load-bearing structure of the contemporary international legal order.
+
+### 03. What This Lecture Establishes `objectives`
+
+
+**Narration**
+
+This opening lecture has a limited but essential ambition. It does not attempt to teach you the doctrine; that is the work of the nineteen lectures that follow. Its purpose is to justify the subject. By the end of it, you should be able to do six things. First, to explain why energy and natural resources have moved from the periphery of international legal practice to its centre. Second, to describe the material facts about global energy and resource flows that give the field its urgency, and to do so precisely enough to survive questioning. Third, to distinguish this field from its neighbours: from international environmental law, from international economic law, from the law of the sea, from human rights law, all of which it overlaps and none of which it reduces to. Fourth, to identify the principal actors, instruments and institutions that populate it. Fifth, to situate the field in the long history of decolonisation, development and economic self-determination, because it is simply not intelligible without that history. And sixth, to articulate, at your own programme level, a reasoned and personal case for studying it. That sixth outcome is not decorative. You will be asked to defend your curriculum, and you should be able to.
+
+### 04. The World This Law Governs `section`
+
+**Narration**
+
+Let us begin, then, with the world that this body of law actually governs, rather than with the law itself.
+
+### 05. Every Object in This Room Is a Resource Bargain `bullets`
+
+- The device you are reading this on required cobalt, lithium, copper, rare earths and silicon — each mined, shipped, refined and traded across several legal orders.
+- The electricity behind it came from a grid governed by national regulation, regional treaties and cross-border interconnection agreements.
+- The fuel that moved the components came from a reservoir or a wellfield licensed under a contract negotiated between a state and an investor.
+- Behind each step sits a legal instrument: a licence, a concession, a treaty, a charterparty, an arbitral award.
+
+*On-screen note:* Nothing in a modern economy is produced entirely within one legal order.
+
+**Narration**
+
+Consider the object through which you are receiving this lecture. It contains cobalt, almost certainly from the Copperbelt of Central Africa. It contains lithium, probably from the Atacama, from Western Australia, or from a hard-rock deposit in China. It contains copper, rare earth elements, silicon, gold, and a dozen other substances, each of which was extracted under a licence, exported under a customs regime, refined in a state that may have had nothing to do with its origin, and assembled into a component that crossed perhaps five frontiers before reaching you. The electricity that charges it came from a grid that is regulated nationally, interconnected regionally, and increasingly supplied by generators whose fuel crossed an ocean. The ships, trucks and trains that carried the components burned fuel refined from crude that was lifted from a reservoir under a production sharing contract negotiated decades ago between a government and a foreign company. Behind every one of those steps sits a legal instrument: a mining licence, a concession agreement, a bilateral investment treaty, a charterparty, a transit protocol, an arbitral award. The point is not merely that the modern economy is global. The point is that the modern economy is global because a dense lattice of legal instruments makes it so, and that lattice is what we are going to study.
+
+### 06. Energy Is the Resource on Which All Others Depend `bullets`
+
+- Energy is not one industry among many; it is an input into every other industry, and into water, food and transport.
+- Roughly four fifths of the world's primary energy still comes from coal, oil and gas — a share that has fallen only slowly after two centuries of fossil dominance.
+- The energy transition is therefore not a change of fuel but a rebuilding of the material and legal architecture of the world economy.
+- Electricity demand is rising again after two decades of flat consumption in advanced economies, driven by data centres, electrification and cooling.
+
+*On-screen note:* Energy law is not a subset of commercial law. It is infrastructure law.
+
+**Narration**
+
+Now, among the resources that this field governs, energy has a special status, and you must understand why. Energy is not one industry among many. It is an input into every other industry, and into the production of food, into the supply of clean water, into transport, into heating, into defence, and into the digital infrastructure on which the modern state itself now depends. When the price of energy moves, everything moves. When the supply of energy is interrupted, states behave differently, and not always well. It follows that the energy transition we are living through is not a change of fuel. It is a rebuilding of the material and legal architecture of the world economy, and rebuilding on that scale generates an enormous volume of legal work: new contracts, new tariffs, new grid codes, new subsidy regimes, new critical mineral agreements, new decommissioning obligations, new stranded asset disputes, new questions about who bears the cost of assets that must be retired before the end of their economic life. Notice too that after two decades of essentially flat electricity demand in the advanced economies, demand is rising again, driven by data centres, by the electrification of transport and heating, and by cooling load in a warming world. The legal community did not anticipate this. That is precisely why the field needs you.
+
+### 07. Three Facts That Make This Field What It Is `bullets`
+
+- Concentration: proved reserves, refining capacity and mineral processing are concentrated in few hands — the legal consequence is supply-security law.
+- Material intensity: clean energy technologies are significantly more mineral-intensive per unit of capacity than combustion-based generation.
+- Substitution of risk: the transition shifts dependence from fuel flows, which can be diversified quickly, to material stocks, which cannot.
+
+*On-screen note:* Fuel flows can be rerouted in weeks. Mines take a decade to permit.
+
+**Narration**
+
+Let me give you three material facts, because this field is unusually dependent on facts of this kind, and a lawyer who argues about resources without knowing them will be exposed immediately. The first fact is concentration. Proved oil reserves, refining capacity, and above all the processing and separation stages for critical minerals are concentrated in a small number of jurisdictions. The precise percentages shift from year to year and you should not memorise them, but the structural point is stable and it is this: concentration is the reason supply-security law exists. Every export control, every stockpile obligation, every critical minerals partnership and every friend-shoring agreement in the last few years is a response to that concentration. The second fact is material intensity. Clean energy technologies are markedly more mineral-intensive per unit of installed capacity than the combustion-based generation they replace. An electric vehicle requires several times the mineral input of a conventional one, and a unit of wind or solar capacity requires more copper, more steel and more rare earths per megawatt than a gas-fired plant. The transition is therefore not a dematerialisation of the economy but a re-materialisation of it, and the demand curves for lithium, nickel, cobalt, graphite and copper are the demand curves of climate policy itself. The third fact follows from the first two, and it is the one I most want you to remember. The transition substitutes one category of risk for another. Dependence on fuel flows can be managed, because a cargo can be rerouted in weeks and a supplier can be changed within a contract cycle. Dependence on material stocks cannot be managed so easily, because a mine takes a decade or more to permit, finance and build, and a processing plant nearly as long. That asymmetry is why critical minerals law has become a distinct and rapidly growing practice. It is also why the legal instruments of the transition look different from the legal instruments of the oil age: longer, more interventionist, and far more willing to oblige a state to act rather than merely to refrain.
+
+### 08. Why This Field Has Become Central Rather Than Peripheral `bullets`
+
+- Climate: the international climate regime now reaches directly into investment, trade and licensing decisions.
+- Technology: renewables, storage, hydrogen and digital grids have created regulatory problems with no settled answers.
+- Geopolitics: energy and minerals have been re-weaponised as instruments of statecraft since 2022.
+- Litigation: climate and resource disputes now run in domestic, regional and international fora simultaneously.
+- Development: resource-rich developing states are renegotiating fiscal terms and local content obligations.
+
+**Narration**
+
+Let me name the five pressures that have driven this field to the centre of practice, because naming them will structure much of the rest of the series. The first is climate. The international climate regime no longer merely exhorts; through the nationally determined contributions, through Article Six of the Paris Agreement, and through the growing body of advisory opinions and human rights decisions, it reaches directly into investment decisions, licensing decisions, and trade measures. The second is technology. Renewables, battery storage, hydrogen, carbon capture and digital grid management have created regulatory problems for which there are genuinely no settled answers, and the lawyers who solve them will write the textbooks of the next generation. The third is geopolitics. Since 2022, energy and minerals have been re-weaponised as instruments of statecraft on a scale not seen since the nineteen seventies, and sanctions, export controls, price caps and countermeasures are now part of the daily diet of the energy lawyer. The fourth is litigation. Climate and resource disputes no longer run in a single forum; they run simultaneously in domestic courts, in regional human rights bodies, in arbitral tribunals, and before the International Court of Justice, and the resulting fragmentation is itself a subject of study. The fifth is development. Resource-rich developing states are renegotiating fiscal terms, asserting local content obligations, and insisting on beneficiation of minerals at home rather than export of raw ore. Each of those five pressures generates work, and each generates questions that existing doctrine answers imperfectly.
+
+### 09. The right of peoples and nations to permanent sovereignty over their natural wea `quote`
+
+> The right of peoples and nations to permanent sovereignty over their natural wealth and resources must be exercised in the interest of their national development and of the well-being of the people of the State concerned.
+>
+> — G.A. Res. 1803 (XVII), 14 December 1962 — Permanent Sovereignty over Natural Resources
+
+**Narration**
+
+If you take one text away from this lecture, take this one. In December 1962, the United Nations General Assembly adopted Resolution 1803 on permanent sovereignty over natural resources. Its first paragraph declares that the right of peoples and nations to permanent sovereignty over their natural wealth and resources must be exercised in the interest of their national development and of the well-being of the people of the state concerned. Read that sentence slowly. It does three things at once. It affirms a right. It locates the holder of the right in peoples and nations, not merely in governments. And it qualifies the right by a purpose, so that sovereignty is not a licence but a trust. Almost every controversy in this field, from the nationalisations of the nineteen seventies to the critical minerals agreements of the present decade, can be understood as an argument about where the balance in that sentence should fall.
+
+### 10. What Kind of Law Is This? `section`
+
+**Narration**
+
+So much for the world. Let me now turn to a harder question, and one that students frequently ask badly: what kind of law is this?
+
+### 11. A Field Without a Single Code `bullets`
+
+- There is no International Energy Court and no comprehensive global energy convention.
+- The field is assembled from treaties, contracts, customary law, general principles, soft law and technical standards.
+- Most operative rules are found in contracts: concessions, production sharing contracts, joint ventures, offtake agreements.
+- Arbitral awards do the work that precedent does in a common law system — without a formal doctrine of precedent.
+
+*On-screen note:* Mastery here means mastery of sources, not of a code.
+
+**Narration**
+
+The first thing to understand is that international energy and natural resources law has no single code. There is no comprehensive global energy convention. There is no International Energy Court, notwithstanding periodic proposals to create one. What exists instead is an assemblage: multilateral treaties of general application, regional energy treaties and protocols, thousands of bilateral investment treaties, an enormous volume of state contracts, customary international law on state responsibility and expropriation, general principles of law, a thick layer of soft law produced by international organisations and industry bodies, and technical standards that are formally voluntary but practically binding because every serious contract incorporates them. Notice where the operative rules are most often found. They are found in contracts. The concession, the production sharing contract, the joint venture agreement, the gas sales agreement, the offtake agreement, the transit agreement: these are the instruments that actually allocate risk and money. And because these disputes are typically arbitrated rather than litigated, arbitral awards perform in this field much the function that precedent performs in a common law system, without any formal doctrine of precedent and with only a limited culture of publication. The consequence for you as a student is important. Mastery in this field does not consist of knowing a code. It consists of knowing where to look, how to rank sources, and how to argue when they conflict.
+
+### 12. What This Field Is Not `bullets`
+
+- Not international environmental law: that field restricts harm; this field allocates rights, rents and risks over production.
+- Not international economic law: trade and investment rules are instruments here, not the subject matter.
+- Not the law of the sea, though UNCLOS allocates the offshore resource base on which much of the field operates.
+- Not human rights law, though resource projects generate some of the most serious rights claims in practice.
+- It is the law of the resource bargain: who gets the resource, on what terms, and who carries the loss.
+
+*On-screen note:* Overlap is constant. Collapse into a neighbouring discipline is the error to avoid.
+
+**Narration**
+
+At this point a diligent student should interrupt me and ask how this field differs from the subjects already on the syllabus, because the honest answer is that it overlaps with several of them, and I do not want you to leave this lecture with the impression that you are simply doing international environmental law with better jargon. Consider each candidate in turn. International environmental law is concerned principally with restricting harm: with pollution, with conservation, with liability for damage to the environment. This field is concerned with allocating the rights, rents and risks of production. The two overlap constantly, and a single project will engage both, but their orientations are different, and it matters: one asks whether an activity may proceed, the other asks who gets what if it does. International economic law supplies instruments rather than subject matter. Trade rules and investment rules are among the principal tools by which resource bargains are structured and enforced, but the subject of the enquiry is the resource, not the market. The law of the sea is not the field either, but you cannot practise without it, because the United Nations Convention on the Law of the Sea allocates the offshore resource base on which a large and growing share of oil, gas and future seabed mineral activity depends. Human rights law is not the field, although resource extraction generates some of the most serious human rights claims in contemporary practice, and no competent adviser treats rights assessment as optional. What the field actually is, and this is the definition I shall use throughout the series, is the law of the resource bargain: who gets the resource, on what terms, and who carries the loss when the bargain fails. Overlap with the neighbouring disciplines is constant and productive. Collapse into any one of them is the error you must avoid.
+
+### 13. The Public and the Private Are Inseparable Here `two-col`
+
+**PUBLIC INTERNATIONAL LAW**
+- Sovereignty over natural resources
+- Treaties: UNCLOS, Energy Charter, climate regime
+- State responsibility and expropriation
+- Human rights and indigenous peoples
+- Maritime delimitation and seabed regime
+
+**PRIVATE AND COMMERCIAL LAW**
+- Concessions and production sharing contracts
+- Joint operating agreements and unitisation
+- Investment treaty arbitration
+- Project finance and security packages
+- Insurance, force majeure and change in law
+
+**Narration**
+
+The second structural point is that the public and the private cannot be separated in this field, and any curriculum that teaches them apart is teaching its students something false. On the public side sit the classic materials: the doctrine of permanent sovereignty, the United Nations Convention on the Law of the Sea, the Energy Charter Treaty, the climate regime, the law of state responsibility, the international law on expropriation, the human rights of indigenous peoples, and the rules of maritime delimitation that determine who owns the seabed in the first place. On the private side sit the instruments of commerce: the concession, the production sharing contract, the joint operating agreement, the unitisation agreement that governs a reservoir straddling a boundary, the investment treaty claim, the project finance security package, the force majeure and change-in-law clauses that decide who absorbs a regulatory shock. The crucial observation is that a single dispute routinely involves both registers at once. An investor complains that a change in the host state's fiscal regime breaches the fair and equitable treatment standard in a treaty. The host state replies that it was exercising its sovereign right to regulate in the public interest, and that its conduct is protected by the police powers doctrine. The tribunal must then decide a question that is at once constitutional, commercial and international. You cannot do that well if you have been trained on only one side of the line.
+
+### 14. Two Vantage Points on the Same Bargain `bullets`
+
+- Capital-exporting states emphasise protection of investment, stability of contract and predictability of the fiscal regime.
+- Resource-holding developing states emphasise sovereignty, the right to regulate, local content and distributive justice.
+- Most of the world's reserves sit in states that did not write the standard forms now used to develop them.
+- A global perspective therefore requires you to hold both positions seriously, not to choose one in advance.
+
+*On-screen note:* Global perspective is a method, not a slogan.
+
+**Narration**
+
+The third structural point, and the one that justifies the phrase global perspectives in the title of this series, is that the field looks entirely different depending on where you stand. From the vantage point of a capital-exporting state, the emphasis falls on the protection of investment, the stability of contractual arrangements, and the predictability of the fiscal regime, because without those, capital will not move. From the vantage point of a resource-holding developing state, the emphasis falls on sovereignty, on the right to regulate in the public interest, on local content and technology transfer, and on distributive justice, because without those, resource wealth does not translate into development. Both positions are reasonable. Both are rooted in history. And the asymmetry between them is not accidental: most of the world's reserves lie in states that did not write the standard contractual forms now used to develop them, and did not design the arbitral system that interprets them. To study this field from a global perspective is therefore not to adopt a neutral standpoint, because there is no such standpoint available. It is to hold both positions seriously enough to state each one better than its advocates usually state it, and then to reason between them. That is an intellectual discipline, and it is one this series will practise on you repeatedly. Let me give you a method for it, because good intentions are not enough. First, before you criticise a position, state the strongest available version of it, and state it well enough that its advocate would recognise it. Second, identify the historical grievance behind the position, because in this field there almost always is one, and it is usually about dispossession. Third, ask who drafted the instrument in question and who had to accept it as offered. And fourth, ask not which outcome is correct but which outcome would survive, because a bargain that one party experiences as imposed will be renegotiated, formally or otherwise, the moment the balance of power shifts. If you apply that method consistently you will find that you disagree with advocates on both sides, which is the beginning of independence rather than the absence of conviction. I should add one caution about the literature itself. Much of the foundational writing in this field was produced by scholars from states that had been colonised and by scholars from states that had done the colonising, and the two traditions ask different questions. Read both. A bibliography drawn from only one of them will give you a confident and incomplete education.
+
+### 15. A Concession Is Not a Treaty `case`
+
+*Anglo-Iranian Oil Co. (United Kingdom v. Iran), Preliminary Objection, I.C.J. Reports 1952, p. 93*
+
+Britain argued that the 1933 concession between Iran and the Anglo-Iranian Oil Company was a treaty, and that Iran's nationalisation of 1951 could therefore be pursued as a breach of treaty before the International Court of Justice. Iran had nationalised its oil industry in the exercise of what it considered its sovereign rights. The Court held that the concession was a concessionary contract between a government and a foreign corporation, not an agreement between two states, and accordingly found that it lacked jurisdiction on the basis invoked.
+
+> **Holding / significance.** A concession agreement between a State and a foreign company is not a treaty. The distinction between the contractual and the international plane remains one of the organising faults of the entire field.
+
+**Narration**
+
+Let me ground all of this in a case, because the field is best learned through its founding disputes, and there is no better one to begin with than the Anglo-Iranian Oil Company case of 1952. The facts are simple and the consequences are not. Iran nationalised its oil industry in 1951. Britain took the matter to the International Court of Justice, arguing that the concession of 1933 between Iran and the Anglo-Iranian Oil Company was in substance a treaty, so that its impairment could be pursued as an international claim. Iran replied that the Court had no jurisdiction. The Court agreed with Iran. It held that the concession was a concessionary contract between a government and a foreign corporation, and not an agreement between two states, and that jurisdiction could not be founded upon it. Now, why does this matter to you, more than seventy years later? Because the distinction the Court drew, between the contractual plane and the international plane, is the organising fault line of the entire field. Every question about stabilisation clauses, about umbrella clauses, about whether a breach of contract can be elevated into a breach of treaty, descends from this decision. When Iran lost on jurisdiction it won on substance in a deeper sense: the international law of the twentieth century had conceded that a state dealing with a foreign investor acts, in the first instance, as a contracting party rather than as a sovereign legislating for the world. Everything that followed, including the great arbitral awards of the nineteen seventies and the investment treaty system of the last three decades, is an attempt to work out the consequences of that concession.
+
+### 16. Why This Matters at Your Level `levels`
+
+**Undergraduate level**
+- Take this field as a lens on public international law: sovereignty, treaties, state responsibility become concrete.
+- Use resource disputes to learn to read a treaty and a contract side by side.
+- Build the habit of asking who benefits and who bears the cost of a legal rule.
+- Practise explaining a technical rule to a non-lawyer in one paragraph.
+
+**Postgraduate level**
+- Treat the field as a problem in legal pluralism: overlapping regimes, no hierarchy, no single forum.
+- Engage the methodological literature on fragmentation and on the legitimacy of investment arbitration.
+- Design a research question that is answerable, original, and grounded in primary sources rather than commentary.
+- Critique a standard contractual form from the perspective of a state that did not draft it.
+
+**Narration**
+
+Let me now bring this down to your own programme, because the title of this series promises relevance at all levels and I intend to honour that promise in every lecture. If you are an undergraduate, the value of this field is that it makes public international law concrete. Sovereignty, treaties, state responsibility and the sources of law are abstractions until you watch them decide who gets the revenue from a mine, or whether a pipeline may cross a border. Use this field as a workshop: read a treaty and a contract side by side and ask yourself which one actually governs the outcome, and why. Build the habit of asking, of every rule you encounter, who benefits from it and who bears its cost, because that question is the beginning of judgement. And practise explaining technical rules to a non-lawyer in a single paragraph, because that is what clients and ministers will ask of you. If you are a postgraduate, I want something different from you. Treat the field as a problem in legal pluralism: here are overlapping regimes with no agreed hierarchy and no single forum, and the interesting questions are about how they interact and who has the authority to decide. Engage the methodological literature directly, on fragmentation, on the legitimacy of investor-state arbitration, on the critique of the standard forms. Design a research question that is genuinely answerable, genuinely original, and grounded in primary sources rather than in what commentators say about primary sources. And attempt at least once to critique a standard contractual form from the perspective of a state that did not draft it. If you can do that, you have begun to think like a scholar in this field.
+
+### 17. What We Have Established `summary`
+
+- The material basis of modern life is governed by a dense lattice of cross-border legal instruments.
+- Energy is the master resource: the transition rebuilds the legal architecture of the world economy.
+- Five pressures — climate, technology, geopolitics, litigation and development — have made the field central.
+- The field has no code; it is assembled from treaties, contracts, custom, awards and standards.
+- Its public and private registers cannot be separated, and its perspectives are genuinely contested.
+
+> **The one thing to remember.** You are not studying a specialty. You are studying the legal structure through which the material world is governed — and it is being renegotiated now.
+
+**Narration**
+
+Let me close by gathering the threads. We began with the observation that every object in a modern economy is the product of a resource bargain, and that the lattice of instruments governing those bargains is what this field studies. We saw that energy is the master resource, and that the energy transition is not a change of fuel but a reconstruction of the legal architecture of the world economy. We named the five converging pressures, climate, technology, geopolitics, litigation and development, that have carried this field from the periphery to the centre. We established that the field has no code, that mastery consists in knowing how to rank and reconcile sources, and that its public and private registers cannot be separated in practice. We read the foundational text of permanent sovereignty and the foundational case on the character of state contracts. And we have begun, at each of your programme levels, to say what studying this field is for. In the next lecture we turn from justification to structure, and ask precisely what international energy and natural resources law is: its scope, its sources, and its subjects.
+
+### 18.  `end`
+
+**Narration**
+
+Thank you for your attention. The reading for this lecture is listed in the course materials, and I would ask you in particular to read Resolution 1803 in full, because it is short and it will repay the effort. I look forward to seeing you in Lecture Two.
+
+## Required and Recommended Reading
+
+- Kim Talus, Introduction to International Energy Law (Hart Publishing, 2022) chs 1–2.
+- Nico Schrijver, Sovereignty over Natural Resources: Balancing Rights and Duties (Cambridge University Press, 1997) chs 1–3.
+- Anglo-Iranian Oil Co. (United Kingdom v. Iran), Preliminary Objection, I.C.J. Reports 1952, p. 93.
+- G.A. Res. 1803 (XVII), Permanent Sovereignty over Natural Resources, 14 December 1962.
+- Peter D. Cameron, International Energy Investment Law (Oxford University Press, 2010) ch. 1.
+- Adrian J. Bradbrook, 'Energy Law as an Academic Discipline' (1996) 17 University of Western Australia Law Review 193.
+
+## Self-Test
+
+1. In Anglo-Iranian Oil Co. (1952), how did the International Court of Justice characterise the 1933 concession?
+    a) As a treaty between two states
+    b) As a concessionary contract between a government and a foreign corporation ✓
+    c) As a unilateral act attributable to Iran
+    d) As customary international law codified in writing
+
+   *The Court held the concession was a contract between a State and a foreign company, not an interstate agreement, and therefore declined jurisdiction on the basis invoked.*
+
+2. G.A. Resolution 1803 (XVII) of 1962 is best described as:
+    a) A binding multilateral convention on resource nationalisation
+    b) A General Assembly resolution affirming permanent sovereignty over natural resources ✓
+    c) An arbitral award on compensation for expropriation
+    d) A Security Council resolution imposing sanctions
+
+   *It is a General Assembly resolution. Its normative force has been debated for decades, but its first paragraph remains the canonical statement of permanent sovereignty.*
+
+3. Which of the following is NOT among the five converging pressures identified in this lecture?
+    a) Climate
+    b) Technology
+    c) Geopolitics
+    d) Codification ✓
+
+   *The five are climate, technology, geopolitics, litigation and development. Codification is notably absent: the field remains uncodified, which is precisely what makes it demanding.*
+
+4. Why does the lecture insist that the public and private registers of the field cannot be separated?
+    a) Because most disputes are heard in national courts only
+    b) Because a single dispute routinely requires both treaty standards and contractual terms to be applied together ✓
+    c) Because international law has abolished the distinction
+    d) Because contracts are now treaties
+
+   *Investor-state disputes characteristically require a tribunal to apply a treaty standard to conduct governed by a contract, and to weigh it against the state's right to regulate.*
+
+---
+
+*TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION, USA · International Energy & Natural Resources Law · Global Perspectives · Delivered by Prof. Williams*

@@ -1,0 +1,258 @@
+{
+  "no": 7,
+  "title": "International Gas Law and Cross-Border Pipelines: Transit, Pricing and Security",
+  "subtitle": "Why gas is not oil: infrastructure, transit dependence and the legal architecture of a pipeline",
+  "module": "Module Two · Substantive Regimes",
+  "keywords": ["natural gas", "pipelines", "transit", "take-or-pay", "LNG", "third-party access"],
+  "objectives": [
+    "Explain the physical and commercial characteristics that make gas legally distinct from oil.",
+    "Describe the layered legal architecture of a cross-border pipeline.",
+    "Analyse third-party access, tariff regulation and unbundling as responses to vertical integration.",
+    "Explain the legal structure of liquefied natural gas chains and the significance of destination clauses.",
+    "Assess how transit disputes are resolved, and the limited role of public international law in doing so.",
+    "Apply the principles to a live transit and pricing dispute."
+  ],
+  "slides": [
+    {
+      "type": "bumper",
+      "title": "International Gas Law and Cross-Border Pipelines"
+    },
+    {
+      "type": "title",
+      "title": "International Gas Law and Cross-Border Pipelines",
+      "subtitle": "Why gas is not oil: infrastructure, transit dependence and the legal architecture of a pipeline",
+      "module": "Module Two · Substantive Regimes",
+      "narration": "Welcome to Lecture Seven. We remain with hydrocarbons, but we move from oil to gas, and I want to begin with a proposition that students find surprising. Gas is not simply oil in a gaseous state. Legally, commercially and politically it is a different commodity, and the difference is not chemical but structural. Oil is a global market: a cargo can be loaded in one place and sold in another, and if one buyer refuses, there are many others. Gas, for most of its history, has been a regional and a relational market, because it reaches its customer through a pipe that cost billions to build, connects only two points, and cannot be diverted. That single physical fact generates an entire body of law: long-term contracts, take-or-pay obligations, transit agreements, third-party access regimes and security of supply regulation. Once you understand the pipe, you understand the law."
+    },
+    {
+      "type": "objectives",
+      "title": "What This Lecture Establishes",
+      "narration": "Six outcomes. First, to explain the physical and commercial characteristics that make gas legally distinct from oil, and to connect each characteristic to a legal consequence. Second, to describe the layered legal architecture of a cross-border pipeline, because a pipeline is not governed by one instrument but by a stack of them operating at different levels. Third, to analyse third-party access, tariff regulation and unbundling as the principal legal responses to vertical integration in the industry. Fourth, to explain the legal structure of liquefied natural gas chains, and why the question of destination clauses matters so much. Fifth, to assess how transit disputes are actually resolved, and to give you an honest account of how small a role public international law plays in that resolution. And sixth, to apply all of this to a live transit and pricing dispute, which is what our case study will require."
+    },
+    {
+      "type": "section",
+      "num": "I",
+      "title": "Why Gas Is Different",
+      "narration": "Let me begin by establishing the structural difference precisely."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Structural consequences",
+      "title": "The Pipe Determines the Law",
+      "items": [
+        "Gas is bulky and costly to move, so the transport asset is specific to the route and cannot be redeployed.",
+        "That creates bilateral dependence: the seller needs the buyer as much as the buyer needs the seller.",
+        "Long-term contracts with take-or-pay obligations exist to finance the pipe by guaranteeing revenue.",
+        "Transit introduces a third party whose consent and conduct are essential and whose interests differ.",
+        "Price is therefore harder to set by a global benchmark, which is why indexation and price review clauses dominate."
+      ],
+      "note": "Specific assets plus bilateral dependence plus a transit state: three problems oil does not have.",
+      "narration": "Let me make the structural point precisely, because everything else follows from it. Gas is bulky and expensive to move relative to its energy content. Transporting it requires either a pipeline, which is a fixed asset specific to a single route and representing a sunk cost of billions, or liquefaction, which requires an even more capital-intensive chain of liquefaction plant, specialised vessels and regasification terminal. The consequence is that the transport asset cannot be redeployed. A pipeline from A to B serves A and B, and if the relationship between them fails, the asset is worth a fraction of what it cost. That produces bilateral dependence, which economists call the hold-up problem: the seller needs the buyer as much as the buyer needs the seller, and each can exploit the other once the asset is built. The contractual response is the long-term contract with a take-or-pay obligation, under which the buyer must pay for a minimum volume whether or not it takes it, which guarantees the revenue stream necessary to finance the pipeline in the first place. Now add a border. If the pipeline crosses a third state, that state's consent and continuing cooperation are essential, and its interests differ from those of both the seller and the buyer. And notice finally what this does to price. Because there is no single global gas market of the kind that exists for oil, price must be set by reference to something else: historically to competing fuels and especially to oil products, and increasingly to trading hubs where gas is bought and sold competitively. That is why gas contracts contain price review provisions of a sophistication rarely seen in oil."
+    },
+    {
+      "type": "two-col",
+      "kicker": "Two routes to market",
+      "title": "Pipeline Gas and LNG: Different Chains, Different Risks",
+      "left_h": "PIPELINE GAS",
+      "left": [
+        "Fixed infrastructure connecting specified points; no alternative route if the pipe is closed.",
+        "Transit risk: the pipeline is subject to the politics of every state it crosses.",
+        "Price traditionally indexed to oil products or to a regional hub.",
+        "Contracts are long-term, with take-or-pay and minimum transit volumes.",
+        "The dominant legal instruments are intergovernmental and host government agreements."
+      ],
+      "right_h": "LIQUEFIED NATURAL GAS",
+      "right": [
+        "Liquefaction, shipping and regasification; the cargo can be diverted to another market.",
+        "Route risk concentrated at chokepoints rather than in transit states.",
+        "Price increasingly set by regional hubs and spot cargoes rather than oil indexation.",
+        "Contracts range from twenty-year term deals to short and spot transactions.",
+        "The dominant legal instruments are sale and purchase agreements, shipping contracts and terminal use agreements."
+      ],
+      "narration": "Gas reaches its market by one of two routes, and the legal consequences of each are quite different, so let me put them side by side. Pipeline gas depends on fixed infrastructure connecting specified points. If the pipe is closed, there is no alternative route, unless a reverse-flow arrangement or an interconnector exists. The principal risk is transit risk: the pipeline is exposed to the politics of every state it crosses, and a dispute between the producer and a transit state can interrupt supply to a customer with whom the transit state has no quarrel at all. Pricing has traditionally been indexed to oil products or to a regional hub, and contracts are long-term, with take-or-pay obligations for the buyer and minimum volume commitments for transit. The dominant legal instruments are intergovernmental agreements between states, host government agreements between the state and the project, and transportation agreements. Liquefied natural gas is different in almost every respect. The chain consists of a liquefaction plant, specialised cryogenic vessels and a regasification terminal, and while that chain is even more capital-intensive, the cargo at the end of it is mobile. It can be diverted to another market if a buyer fails, which fundamentally changes the balance of commercial power. Route risk is concentrated at maritime chokepoints rather than in transit states, which is a different and generally more manageable exposure. Pricing has moved decisively toward regional hubs and spot trading, and the contract spectrum now runs from twenty-year term agreements to single-cargo spot sales. The dominant instruments are sale and purchase agreements, time charterparties or bareboat charters, and terminal use agreements. What I want you to notice is that liquefaction is, in effect, a technology for converting a relational market into a market. It restores to gas the optionality that oil has always had, and that is why its growth has transformed gas law more than any doctrinal development."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Pricing",
+      "title": "Price Review: The Clause That Keeps Long Contracts Alive",
+      "items": [
+        "Indexation to oil products versus hub pricing: two methods, two allocations of price risk.",
+        "A price review clause allows either party to require renegotiation of the price at defined intervals or on defined triggers.",
+        "The tribunal's task is not to impose a fair price but to apply the standard the parties chose, which is the drafting question.",
+        "The most difficult reviews arise where the index itself has been distorted, abandoned or ceased to be representative."
+      ],
+      "note": "A price review clause is a mechanism for survival. Without it, a long contract either breaks or is renegotiated under duress.",
+      "narration": "I want to return to the question of price, because it is the subject on which most gas disputes actually turn, and because the mechanism that keeps long-term gas contracts alive is one that students rarely examine closely. Recall the two methods of pricing. Under oil indexation, the contract price is calculated by reference to the price of competing oil products, through a formula with a base price, a slope and an escalation component. Under hub pricing, the price is set by reference to a trading hub at which gas is bought and sold competitively. The two methods allocate price risk differently, and the shift from the first to the second has been one of the largest commercial adjustments in the modern history of the industry. Now, no formula survives contact with three decades of market change, and that is why gas contracts contain price review clauses. Such a clause permits either party, at defined intervals or on the occurrence of defined triggers, to require the price to be renegotiated; and if the parties cannot agree, the matter goes to arbitration, frequently before an expert tribunal rather than a lawyer-led one. The critical drafting point, and it is one that decides these disputes, is the standard the tribunal is to apply. Some clauses direct the tribunal to restore the bargain the parties originally made. Others direct it to bring the price into line with prevailing market conditions. Some are silent, which leaves the tribunal to reason from the contract as a whole. A tribunal's task is not to impose a fair price, however tempted it may be. It is to apply whatever standard the parties chose. And the hardest cases of all, which we are now seeing, are those in which the index itself has failed: where an index has been distorted by state intervention, abandoned by its publisher, or rendered unrepresentative by structural change in the market. In those cases the tribunal must effectively decide what the parties would have agreed had they foreseen the failure, which is as close to legislation as commercial arbitration ever comes."
+    },
+    {
+      "type": "section",
+      "num": "II",
+      "title": "The Architecture of a Cross-Border Pipeline",
+      "narration": "Let me now take you inside the legal architecture of a cross-border pipeline, which is a stack rather than a single instrument."
+    },
+    {
+      "type": "diagram",
+      "kicker": "The legal stack",
+      "title": "Four Instruments, Four Levels of Governance",
+      "nodes": [
+        "Intergovernmental agreement: treaty between the states concerned, allocating political risk, granting the right to build, and stabilising the regime.",
+        "Host government agreement: contract between the state and the project, addressing fiscal terms, land rights, stabilisation and dispute settlement.",
+        "Transportation or transit agreement: commercial contract fixing capacity, tariffs, minimum volumes and the consequences of interruption.",
+        "Domestic licences, permits and regulatory approvals: the operating permissions without which the treaty and the contracts achieve nothing."
+      ],
+      "vertical": true,
+      "narration": "A cross-border pipeline is governed by four instruments operating at four different levels, and the single most common error made by students, and occasionally by practitioners, is to treat one of them as though it were the whole. At the top sits the intergovernmental agreement, which is a treaty between the states concerned. It allocates political risk, grants the right to construct and operate the line, provides for the treatment of the project in the event of a dispute, and frequently includes stabilisation and taxation provisions. It exists because no investor will commit billions to an asset crossing several jurisdictions on the strength of municipal law alone. Below it sits the host government agreement, a contract between the state and the project vehicle, addressing fiscal terms, land rights and access, customs treatment, currency, employment, and dispute settlement. Below that sits the transportation or transit agreement, which is a commercial contract fixing capacity, tariffs, minimum volumes, nomination procedures, and the consequences of interruption or under-delivery. And beneath all three sit the domestic licences, permits, environmental approvals and regulatory consents without which the treaty and the contracts achieve precisely nothing. Now, why does this layering matter? Because the instruments are between different parties, governed by different laws, and heard in different fora. A state may comply with its treaty while breaching its contract, or hold the necessary permit while frustrating the project administratively. Effective advice on a cross-border pipeline therefore requires you to hold all four levels in mind simultaneously, and to ask at each of them what happens if the relationship deteriorates."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Competition and access",
+      "title": "Unbundling, Third-Party Access and Tariff Regulation",
+      "items": [
+        "Vertical integration creates the problem: one entity owns the gas, the pipe and the customer relationship.",
+        "Unbundling separates ownership of transportation from production and supply, legally or functionally.",
+        "Third-party access obliges the pipeline owner to carry gas for others on non-discriminatory published terms.",
+        "Tariff regulation sets the methodology by which the transportation charge is calculated and approved.",
+        "Exemptions are granted for new infrastructure, to make investment possible, and are themselves contested."
+      ],
+      "note": "The central regulatory question is whether a pipeline is a competitive asset or a natural monopoly.",
+      "narration": "Once a pipeline is built, a second legal problem arises, which is competition. A pipeline is the paradigm natural monopoly: it is inefficient to build two of them along the same route, and so whoever owns the one that exists has market power over everyone who needs to use it. If that same entity also produces gas and sells it to customers, it has both the ability and the incentive to disadvantage its competitors' molecules in favour of its own. The regulatory response has three parts. The first is unbundling, which separates ownership or control of transportation from production and supply. Ownership unbundling requires the divestiture of the network; there are weaker variants, including the independent system operator and the independent transmission operator models, which leave ownership intact but separate control. The second is third-party access, which obliges the pipeline owner to transport gas for others on terms that are published, non-discriminatory and regulated, rather than on terms it dictates. The third is tariff regulation, which prescribes the methodology by which the transportation charge is calculated and requires regulatory approval of the resulting tariffs, typically on the basis of a allowed revenue and a permitted rate of return on the regulated asset base. And then there is the exception that proves the rule: new infrastructure is frequently granted exemption from third-party access and tariff regulation for a defined period, on the reasoning that without the prospect of capturing the full value of its investment, no one would build it. Those exemptions are among the most heavily litigated decisions in energy regulation, and I commend them to you as an example of the permanent tension in this field between the competition needed to discipline an incumbent and the certainty needed to attract new capital."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Emergency",
+      "title": "Security of Supply: The Legal Instruments of Emergency",
+      "items": [
+        "Obligations to hold emergency stocks of oil, calculated against net imports, and to be capable of drawing them down.",
+        "Solidarity and supply protection obligations in the gas sector, including obligations to supply protected customers.",
+        "Preventive action plans and emergency plans, prepared and published in advance under regulatory supervision.",
+        "Reverse flow capability, interconnection obligations and infrastructure standards as the physical precondition of solidarity."
+      ],
+      "note": "Emergency law in this field is mostly preparation. Its effectiveness is determined years before the crisis.",
+      "narration": "One further element of gas law deserves attention, because it is the branch of the subject that most directly expresses the security concern, and that is the law of emergency. In the oil sector, the principal instrument is the obligation to hold emergency stocks. Participating states must maintain stocks equivalent to a defined number of days of net imports, calculated according to a common methodology, and must be capable of drawing them down and, in the collective system, of sharing them in accordance with an allocation decision. In the gas sector, the instruments are more varied because the physical problem is harder: gas cannot be stockpiled at anything like the same scale, so the instruments are as much about infrastructure and cooperation as about reserves. There are supply protection obligations, under which a supplier must continue to supply defined categories of protected customer, typically households and essential services, even in a severe disruption. There are preventive action plans and emergency plans, which must be prepared in advance, consulted upon, published and revised, and which identify the risks, the measures and the responsibilities. There are obligations to enable and maintain reverse flow capability on interconnectors, so that gas can be moved against its normal direction to a state in deficit. And there are infrastructure standards and exemption regimes, designed to ensure that the physical network can actually deliver what the plans assume. The observation I want to leave you with is about the nature of this law. Emergency regulation in energy is overwhelmingly preparatory: it consists of obligations to plan, to build, to hold and to rehearse, all of which are discharged years before any crisis. Its effectiveness is therefore determined by decisions taken in calm conditions, which is precisely why the most important legal work in this area is done when nothing is happening."
+    },
+    {
+      "type": "case",
+      "kicker": "Transit and pricing in practice",
+      "title": "Transit Volumes, Take-or-Pay, and What Arbitration Can and Cannot Fix",
+      "case": "Naftogaz of Ukraine and Gazprom — Stockholm Chamber of Commerce arbitrations under the 2009 supply and transit contracts (awards of 2018; settlement of December 2019)",
+      "body": "The 2009 contracts between Gazprom and Naftogaz governed both the sale of gas to Ukraine and the transit of Russian gas across Ukrainian territory to European customers. Two arbitrations followed. In the transit award, the tribunal found that Gazprom had failed to deliver the contractually agreed minimum volumes for transit and ordered substantial payment to Naftogaz. In the supply award, the tribunal substantially reduced the take-or-pay liability claimed by Gazprom and adjusted the contract price. In December 2019 the parties settled, with a substantial payment by Gazprom and a new transit arrangement.",
+      "holding": "Transit disputes of this kind are resolved by contract, not by public international law. The tribunal applied the bargains the parties had made, including minimum volume obligations and take-or-pay, and did not purport to decide questions of energy security or state responsibility.",
+      "narration": "Our case is the series of Stockholm arbitrations between Naftogaz of Ukraine and Gazprom under the 2009 contracts, decided in 2018 and settled in 2019, and I have chosen it because it demonstrates something that I regard as fundamental and that is frequently misunderstood. Two contracts were in issue. The first governed the sale of gas by Gazprom to Ukraine, and the second governed the transit of Russian gas across Ukrainian territory to customers further west. Two awards followed. In the transit award, the tribunal found that Gazprom had failed to deliver the minimum volumes for transit that the contract required, and ordered a substantial payment to Naftogaz. In the supply award, the tribunal substantially reduced the take-or-pay liability that Gazprom claimed, and made significant adjustments to the contract price, applying the review mechanisms in the bargain rather than imposing a price of its own. In December 2019 the parties settled, on terms that included a substantial payment by Gazprom and a new transit arrangement. Now, what should a student of international law take from this? The most important lesson is negative. These disputes, which concerned the energy security of a continent and the transit of gas across a state in conflict, were resolved entirely as commercial contract disputes, under contractual arbitration clauses, applying the terms the parties had agreed. Public international law played almost no role. There was no application of the Energy Charter Treaty's transit provisions, no invocation of state responsibility, no resort to the International Court. The tribunal decided what the contracts said about minimum volumes and take-or-pay, and left the geopolitics to others. That is not a criticism of the tribunal. It is a description of where authority actually lies in this field. If you want to understand gas transit, read the contracts. The public law supplies a backdrop, and occasionally a treaty obligation, but the operative rules are private and they are enforced privately."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Environmental turn",
+      "title": "Methane, Flaring, and the Regulation of What Escapes",
+      "items": [
+        "Methane is the second largest contributor to warming and a large share of emissions from oil and gas operations is fugitive rather than combusted.",
+        "The regulatory response is measurement-based: leak detection and repair, monitoring, reporting and verification obligations.",
+        "Flaring and venting are being prohibited outright except in defined safety or commissioning circumstances.",
+        "New instruments reach imports: methane performance standards applied to gas and oil entering a market."
+      ],
+      "note": "Gas has been presented as a transition fuel. Whether that holds depends on whether fugitive emissions are controlled.",
+      "narration": "There is one development that may determine the future of the entire gas industry, and it deserves a place in any serious account of gas law. Methane is a potent greenhouse gas and the second largest contributor to anthropogenic warming after carbon dioxide. A substantial share of the emissions attributable to oil and gas operations is not carbon dioxide from combustion but methane that escapes: from vents, from fugitive leaks in valves and compressors, from incomplete flaring, and from abandoned wells. The regulatory response is now well developed and it is distinctive in method: it is measurement-based rather than technology-based. Regulators increasingly require leak detection and repair programmes, continuous or periodic monitoring, quantified reporting on a defined methodology, and independent verification. Flaring and venting, which were for decades treated as an operational necessity and regulated lightly if at all, are being prohibited except in defined circumstances such as safety, emergency or commissioning. And the newest instruments reach across borders, in the form of methane performance standards applied to oil and gas entering a market, which means that an exporter must demonstrate the emissions intensity of its supply chain to a regulator in another jurisdiction. Now, why does this matter so much to gas specifically? Because the case for gas as a transition fuel rests on its producing roughly half the carbon dioxide of coal when burned. That advantage is eroded, and in unfavourable cases eliminated entirely, if the fugitive methane emissions across the chain are significant. The legal and measurement questions about methane are therefore not a technical adjunct to gas law. They will determine whether gas has a long-term role at all."
+    },
+    {
+      "type": "levels",
+      "title": "Why This Matters at Your Level",
+      "ug": [
+        "Be able to state in one sentence why gas requires long-term contracts and oil does not.",
+        "Draw the four-level legal stack of a cross-border pipeline from memory.",
+        "Find the take-or-pay clause and the price review clause in one published gas contract.",
+        "Explain the difference between ownership unbundling and functional unbundling without notes."
+      ],
+      "pg": [
+        "Assess whether third-party access exemptions for new infrastructure are justified, and on what evidence that should be judged.",
+        "Analyse whether the near-absence of public international law in transit disputes is a defect in the system or a sensible allocation of competence.",
+        "Evaluate how the growth of liquefied natural gas has altered the bargaining power of producers and consumers.",
+        "Design a legal architecture for a proposed cross-border pipeline, and identify every point at which it can fail."
+      ],
+      "narration": "Let me bring this to your programme. At undergraduate level, I want four things from this lecture. First, the ability to state in one sentence why gas requires long-term contracts and oil generally does not, because that sentence contains the whole field. Second, the ability to draw the four-level legal stack of a cross-border pipeline from memory: intergovernmental agreement, host government agreement, transportation agreement, and domestic permissions. Third, the discipline of finding the take-or-pay clause and the price review clause in one published gas contract, and explaining in your own words what each does. And fourth, the ability to distinguish ownership unbundling from functional unbundling without referring to notes, since that distinction is the vocabulary of gas regulation. At postgraduate level, I want evaluation and design. Assess whether exemptions from third-party access for new infrastructure are justified, and be explicit about the evidence on which that judgement should be made, including the counterfactual of what would have been built without the exemption. Analyse whether the near-absence of public international law in transit disputes is a defect to be remedied or a sensible allocation of competence to the parties who hold the relevant information, and notice that your answer will depend on your view of the legitimacy of commercial arbitration in matters of public consequence. Evaluate how the growth of liquefied natural gas has shifted bargaining power between producers and consumers, and whether that shift is stable. And attempt the design exercise: specify the legal architecture for a proposed cross-border pipeline and identify every point at which it can fail, politically, commercially and physically."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Transition",
+      "title": "Stranded Assets and the Repurposing of Infrastructure",
+      "items": [
+        "A stranded asset is one that must be retired before the end of its economic life because of policy, technology or market change.",
+        "The legal question is who bears the loss: the investor, the state, the consumer, or the taxpayer.",
+        "Repurposing converts gas infrastructure to hydrogen, to carbon dioxide transport, or to other uses, and raises novel safety and access questions.",
+        "The instruments available include compensation schemes, regulated asset bases, and conversion of assets to public ownership with payment."
+      ],
+      "note": "Every pipeline built for a fuel that is later abandoned is a stranded asset with a legal question attached to it.",
+      "narration": "Let me finish this part with the question that will occupy the next generation of gas lawyers, and it is a question about loss. A stranded asset is one that must be retired, or that loses most of its value, before the end of its expected economic life, because of a change in policy, in technology or in market structure. Coal-fired generation in jurisdictions that have legislated a phase-out is the clearest example, but gas infrastructure is increasingly exposed to the same risk, whether through methane regulation, through electrification of heating, through renewable substitution in generation, or through a carbon price that renders the fuel uncompetitive. The legal question, when that happens, is deceptively simple and immensely consequential: who bears the loss? There is the investor, whose capital has not been recovered. There is the state, which may or may not have legislated with compensation in mind. There is the consumer, who bears costs through network charges and through the write-down of regulated asset values. And there is the taxpayer, who ultimately funds whatever the state pays. The law answers that question differently in different systems, and frequently badly. Now, there is an alternative to stranding, which is repurposing. Gas pipelines are being assessed for conversion to hydrogen service, and for the transport of carbon dioxide to storage sites. Gas storage is being adapted for hydrogen. Terminals are being reconfigured. Each of those conversions raises questions that the existing law does not answer well: questions of safety regulation, of materials compatibility, of access and tariff treatment, of who pays for the conversion, and of whether the repurposed asset remains within the original consent. The instruments available to manage all of this include negotiated compensation schemes, the continued recovery of a regulated asset base under a controlled run-off, and the transfer of assets into public ownership with payment determined by statute or by arbitration. Which is chosen is a political decision about the allocation of loss. Your task, as the lawyer, is to make sure the decision is made knowingly."
+    },
+    {
+      "type": "summary",
+      "title": "What We Have Established",
+      "points": [
+        "Gas is legally distinct from oil because the transport asset is specific, sunk and cannot be redeployed.",
+        "Bilateral dependence produces long-term contracts with take-or-pay and price review provisions.",
+        "A cross-border pipeline is governed by a stack: treaty, host government agreement, transportation contract and domestic permissions.",
+        "Unbundling, third-party access and tariff regulation are the responses to natural monopoly, with exemptions for new build.",
+        "Transit disputes are resolved as contract disputes, with public international law playing a marginal role."
+      ],
+      "takeaway": "The law of gas is the law of the pipe. Understand what the infrastructure can and cannot be made to do, and the contracts that finance it will make sense.",
+      "narration": "Let me close. Gas is legally distinct from oil because the transport asset is specific, sunk and cannot be redeployed, and everything else in gas law is a consequence of that single fact. Bilateral dependence produces long-term contracts with take-or-pay obligations and elaborate price review provisions. A cross-border pipeline is governed by a stack of four instruments, between different parties, under different laws, in different fora. The natural monopoly problem is met through unbundling, third-party access and tariff regulation, tempered by exemptions granted to make new construction financeable. And in the Stockholm arbitrations we saw the most important structural truth about this area: transit disputes are resolved as contract disputes, applying bargains the parties made, with public international law providing a backdrop rather than a remedy. In the next lecture we move from molecules to electrons, and examine the law of electricity, regional power pools and cross-border energy trade."
+    },
+    {
+      "type": "end",
+      "next": "Lecture 08 — Electricity, Regional Power Pools and Cross-Border Energy Trade",
+      "narration": "Thank you. For the next session, please read the summary of the Stockholm awards and consider this question: if Ukraine and Gazprom had never signed a transit contract with minimum volume obligations, what legal remedy would have been available, and to whom?"
+    }
+  ],
+  "readings": [
+    "Kim Talus, Introduction to International Energy Law (Hart Publishing, 2022) chs 8–9.",
+    "Kim Talus, Vertical Natural Gas Transportation Capacity, Upstream Commodity Contracts and EU Competition Law (Kluwer, 2011).",
+    "Energy Charter Treaty, 17 December 1994, arts 7 (transit) and 14 (protection of investment).",
+    "Catherine Redgwell, 'International Law and the Protection of Energy Infrastructure' in Don C. Smith (ed), Energy Security in a Changing World (Boulder, 2019).",
+    "Peter D. Cameron, Competition in Energy Markets: Law and Regulation in the European Union (2nd edn, Oxford University Press, 2007).",
+    "International Energy Agency, Natural Gas Market Review (annual)."
+  ],
+  "quiz": [
+    {
+      "q": "The principal reason gas requires long-term take-or-pay contracts is that:",
+      "options": [
+        "Gas is chemically unstable",
+        "The transport asset is specific and sunk, creating bilateral dependence that must be financed by guaranteed revenue",
+        "Public international law requires it",
+        "Gas prices are more volatile than oil prices"
+      ],
+      "answer": 1,
+      "explain": "Take-or-pay guarantees the revenue stream that makes the pipeline financeable, which is the contractual answer to the hold-up problem."
+    },
+    {
+      "q": "Which of the following is NOT one of the four levels of a cross-border pipeline's legal stack?",
+      "options": [
+        "Intergovernmental agreement",
+        "Host government agreement",
+        "Transportation or transit agreement",
+        "A global treaty on pipeline construction"
+      ],
+      "answer": 3,
+      "explain": "There is no global pipeline convention. The stack is treaty, host government agreement, transportation contract, and domestic permissions."
+    },
+    {
+      "q": "Third-party access regulation requires the pipeline owner to:",
+      "options": [
+        "Sell its gas to any customer who applies",
+        "Transport gas for others on published, non-discriminatory and regulated terms",
+        "Build additional capacity on demand",
+        "Divest the pipeline immediately"
+      ],
+      "answer": 1,
+      "explain": "It is an access obligation, not a supply or construction obligation. Divestiture is ownership unbundling, a separate remedy."
+    },
+    {
+      "q": "The Naftogaz–Gazprom arbitrations are best understood as:",
+      "options": [
+        "State responsibility claims before the International Court of Justice",
+        "Commercial contract arbitrations applying the terms of the 2009 supply and transit contracts",
+        "Investment treaty claims under the Energy Charter Treaty",
+        "Proceedings before a regional human rights court"
+      ],
+      "answer": 1,
+      "explain": "They were decided contractually. Public international law supplied the backdrop, not the cause of action."
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+# ---- Python / tooling -----------------------------------------------------
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# ---- Models (downloadable / large) ---------------------------------------
+models/
+
+# ---- Generated media (regenerate with `python tools/pipeline.py`) ---------
+slides/
+audio/
+dist/
+build/
+site/assets/video/
+*.wav
+*.mp3
+*.mp4
+*.srt
+
+# ---- OS --------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+
+# ---- Site (generated) ------------------------------------------------------
+site/video
+site/script

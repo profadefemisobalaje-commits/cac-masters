@@ -1,0 +1,240 @@
+{
+  "no": 15,
+  "title": "Environmental Protection, Biodiversity and the Extractive Sector",
+  "subtitle": "Assessment, participation, water and the living world: the proceduralisation of environmental duties",
+  "module": "Module Three · Cross-Cutting Themes",
+  "keywords": ["environmental impact assessment", "precaution", "Aarhus", "shared watercourses", "biodiversity", "offsets"],
+  "objectives": [
+    "Explain why international environmental law has proceduralised: from substantive outcomes to process obligations.",
+    "State the principal Rio principles and the mitigation hierarchy, and apply them to a project scenario.",
+    "Describe the legal requirements of environmental and social impact assessment, including transboundary assessment.",
+    "Explain the three pillars of access: information, public participation and access to justice.",
+    "Analyse the legal regime for shared watercourses and the water-energy nexus.",
+    "Assess the current biodiversity framework and the controversy over biodiversity offsets."
+  ],
+  "slides": [
+    {
+      "type": "bumper",
+      "title": "Environment, Biodiversity and Extraction"
+    },
+    {
+      "type": "title",
+      "title": "Environmental Protection, Biodiversity and the Extractive Sector",
+      "subtitle": "Assessment, participation, water and the living world: the proceduralisation of environmental duties",
+      "module": "Module Three · Cross-Cutting Themes",
+      "narration": "Welcome to Lecture Fifteen. I want to begin with an observation that will help you read every case and every instrument in this area correctly. International environmental law has, over fifty years, moved substantially away from prescribing substantive outcomes and towards prescribing processes. It rarely tells a state what level of pollution is permitted. It very often tells a state what it must study, whom it must notify, whom it must consult, what it must publish, and how it must justify its decision. That movement has a name: the proceduralisation of environmental law. It is often criticised as a retreat, and I want you to understand both why it happened and why the criticism is only partly right. It happened because substantive standards are hard to agree and harder to verify, whereas a duty to assess and to consult can be agreed by almost everyone and can be checked by anyone. And the criticism is only partly right because process, rigorously enforced, changes outcomes. Let me take you through it."
+    },
+    {
+      "type": "objectives",
+      "title": "What This Lecture Establishes",
+      "narration": "Six outcomes. First, to explain why international environmental law has proceduralised, and to understand what is gained and what is lost by that. Second, to state the principal principles adopted at the Rio Conference and the mitigation hierarchy, and to apply both to a project scenario rather than merely reciting them. Third, to describe the legal requirements of environmental and social impact assessment, including where an impact crosses a border. Fourth, to explain the three pillars of access, which are information, public participation and access to justice, and to identify where they are binding. Fifth, to analyse the legal regime for shared watercourses and to connect it to the water demands of energy production. And sixth, to assess the current global biodiversity framework and the controversy over biodiversity offsets, which is one of the most contested practical questions in the field."
+    },
+    {
+      "type": "section",
+      "num": "I",
+      "title": "Principles",
+      "narration": "Let me begin with the principles that inform every instrument in this field."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Foundational principles",
+      "title": "What Rio Actually Declared",
+      "items": [
+        "Prevention: states have a responsibility to ensure that activities within their jurisdiction do not cause damage to the environment of other states.",
+        "Precaution: where there are threats of serious or irreversible damage, lack of full scientific certainty shall not be used as a reason for postponing measures.",
+        "Polluter pays: those who produce pollution should bear the cost of managing it, with due regard to the public interest.",
+        "Environmental impact assessment: national authorities must require assessment for activities likely to have a significant adverse impact."
+      ],
+      "note": "These are principles, not rules. Their legal force comes from the treaties and national laws that give them effect.",
+      "narration": "Let me take you through the four principles that recur in every instrument and every judgment in this field, and let me be precise about what each of them says, because they are quoted constantly and quoted loosely. The first is prevention, and it has two halves. States have the sovereign right to exploit their own resources pursuant to their own environmental and developmental policies, and they have the responsibility to ensure that activities within their jurisdiction or control do not cause damage to the environment of other states or of areas beyond national jurisdiction. That second half is the no-harm principle, and it is customary international law, established in the arbitral and judicial decisions we shall examine. The second is precaution. Where there are threats of serious or irreversible damage, lack of full scientific certainty shall not be used as a reason for postponing cost-effective measures to prevent environmental degradation. Notice carefully what this does and does not say. It does not say that action must be taken; it says that uncertainty is not a reason for inaction, and it qualifies the measures by cost-effectiveness. Its legal status is contested, and the better view is that it operates as an interpretive principle and as a direction to decision-makers rather than as a freestanding obligation. The third is that the polluter should, in principle, bear the cost of pollution, with due regard to the public interest and without distorting international trade and investment. That is the economic logic behind environmental liability regimes, and it is given effect in most jurisdictions through the permit system and through remediation obligations. And the fourth is that environmental impact assessment, as a national instrument, shall be undertaken for proposed activities that are likely to have a significant adverse impact on the environment and are subject to a decision of a competent national authority. That fourth principle is the one that has proved most consequential, because it has been given effect in almost every legal system on earth."
+    },
+    {
+      "type": "diagram",
+      "kicker": "Practice",
+      "title": "The Mitigation Hierarchy",
+      "vertical": true,
+      "nodes": [
+        "AVOID — prevent the impact altogether: site selection, routing, timing, or not proceeding. This is where nearly all of the environmental value is created, and it is the step most often skipped.",
+        "MINIMISE — reduce the duration, intensity and extent of impacts that cannot be avoided, through design and through operational controls.",
+        "RESTORE — rehabilitate degraded ecosystems and reinstate ecological functions where the impact has already occurred, on site where that is possible.",
+        "OFFSET — compensate for residual impacts in a measurable way. Explicitly the last resort, and the most contested step in the hierarchy."
+      ],
+      "narration": "Let me give you the operative framework that governs how environmental harm is to be handled in practice, because it is now embedded in lender requirements, in national law and in corporate policy across the sector, and it is frequently misapplied. It is the mitigation hierarchy, and it has four steps which must be taken in order. The first is avoidance. Prevent the impact altogether, whether by choosing a different site, by routing a pipeline differently, by scheduling works outside a breeding season, or in the last resort by not proceeding at all. This is the step in which nearly all of the environmental value is created, and it is the step that is most often skipped, because by the time a project reaches the assessment stage the site has usually been chosen. The second step is minimisation, which applies to impacts that cannot be avoided: reducing their duration, intensity and extent through design and through operational controls. The third is restoration, which means rehabilitating degraded ecosystems and reinstating functions, on site where possible. And the fourth is offsetting, which compensates for residual impacts that remain after the first three steps, and which is explicitly a last resort. Now, the hierarchy is ordered for a reason, and the reason is worth stating explicitly: avoidance is certain, while offsetting is speculative. An avoided impact is guaranteed. An offset depends on the success of a management intervention over decades, on the permanence of the protection, and on the counterfactual being correct, which is to say on the offset site genuinely having been at risk. The interesting legal question, and it is one I shall return to, is whether offsets are being used to compensate for residual impacts, as the hierarchy requires, or to justify projects that should not have proceeded past the first step."
+    },
+    {
+      "type": "section",
+      "num": "II",
+      "title": "Assessment, Participation, Water",
+      "narration": "Let me now turn to the instruments, beginning with the one that carries the most weight in practice."
+    },
+    {
+      "type": "bullets",
+      "kicker": "The central instrument",
+      "title": "Environmental and Social Impact Assessment",
+      "items": [
+        "Screening: is assessment required at all, and to what depth?",
+        "Scoping: what impacts and alternatives will be studied, and over what spatial and temporal boundary?",
+        "Baseline and prediction: the existing state of the environment, and the forecast of change.",
+        "Alternatives, mitigation, participation, decision, and monitoring — with reasons given for the decision."
+      ],
+      "note": "The most litigated elements are not the science. They are the boundary of the assessment and the adequacy of the reasons.",
+      "narration": "Environmental impact assessment is the single most important instrument in this field, and it is worth understanding it as a legal procedure rather than as a technical study. It has identifiable stages, and disputes arise at each of them. There is screening, which determines whether assessment is required and at what depth, and which is frequently the subject of litigation because it is the point at which a project can escape the process altogether. There is scoping, which determines what impacts and what alternatives will be studied, and it is here that the two most consequential decisions are taken: the spatial boundary of the assessment, and the temporal boundary. Both of those decisions are, in substance, decisions about the outcome, and this is precisely the argument we encountered in the climate lecture about downstream emissions. There is the establishment of the baseline, since an impact can only be assessed against a description of what is there, and a poor baseline is the commonest technical failure. There is prediction of impacts, including cumulative impacts from other projects in the same area, which are systematically under-assessed because no single proponent is responsible for them. There is the consideration of alternatives, including the alternative of not proceeding, which is a requirement in most systems and an uncomfortable one for promoters. There is the design of mitigation, measured against the hierarchy we have just examined. There is public participation, which I shall address separately. There is the decision, which must be reasoned, must respond to the assessment, and must respond to the objections received. And there is monitoring and compliance, which is where most systems are weakest, since the conditions attached to an approval are frequently neither enforced nor verified. The addition of the word social, producing the environmental and social impact assessment, reflects the recognition that the impacts on people, which we examined in the previous lecture, must be assessed in the same instrument and not separately."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Procedural rights",
+      "title": "The Three Pillars of Access",
+      "items": [
+        "Information: the right to obtain environmental information held by public authorities, subject to narrow exceptions.",
+        "Participation: the right to participate effectively in decisions on specific activities, at a stage when options are open.",
+        "Justice: the right to review procedures and decisions, with adequate and effective remedies and without prohibitive cost.",
+        "These are binding where a treaty makes them so, and the most developed regional instrument is the Aarhus Convention."
+      ],
+      "note": "Participation that begins after the decision has been taken in substance is not participation. Timing is the whole question.",
+      "narration": "Let me now set out the three procedural rights that give individuals and communities a legal handle on environmental decision-making, since these are the rights that convert the abstract duty to assess into something a person can actually enforce. The first pillar is access to information: the right to obtain environmental information held by public authorities, without having to state an interest, and subject only to narrow and interpreted exceptions. Its practical importance is difficult to overstate, because without the baseline data, the emissions data and the monitoring data, no community and no non-governmental organisation can make an effective case about anything. The second pillar is public participation: the right to participate effectively in decision-making on specific activities that may have a significant effect on the environment. The qualifying words carry the weight. Participation must be early, in the sense that it must occur while all options are open and effective participation can take place. It must be informed, which requires the information pillar to function. And it must be genuine, which requires that the observations received be taken into due account in the decision, and that the decision-maker explain what was made of them. The third pillar is access to justice: the right to a review procedure before a court or an independent and impartial body, to challenge the substantive and procedural legality of decisions, with adequate and effective remedies, including injunctive relief, with procedures that are fair, equitable, timely and not prohibitively expensive. These three pillars are set out most fully and most bindingly in a regional instrument, the Convention on Access to Information, Public Participation in Decision-making and Access to Justice in Environmental Matters, adopted under the auspices of the United Nations Economic Commission for Europe, and its compliance mechanism is among the most developed in international environmental law. Comparable provisions now appear in regional instruments elsewhere and in the environmental provisions of many national constitutions."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Water",
+      "title": "Shared Watercourses and the Water-Energy Nexus",
+      "items": [
+        "The two governing principles are equitable and reasonable utilisation, and the obligation not to cause significant harm.",
+        "Their relationship is contested: some read no-significant-harm as the limit on equitable use; others read it as a factor within it.",
+        "The 1997 Convention codifies both, together with prior notification, exchange of data, and environmental protection.",
+        "Energy is water-intensive: cooling, hydraulic fracturing, mineral processing, and hydropower itself all compete for it."
+      ],
+      "note": "Every energy technology needs water. Nearly every large watercourse is shared. Those two facts produce a legal problem.",
+      "narration": "Let me turn to water, which is the resource most frequently affected by energy projects and the one whose legal regime is most often misunderstood. The law of shared freshwater resources rests on two principles, and the relationship between them is the central doctrinal question in the field. The first is equitable and reasonable utilisation: a watercourse state must utilise an international watercourse in its own territory in an equitable and reasonable manner, having regard to all relevant factors and circumstances, including geographic, hydrographic, climatic and ecological factors, the social and economic needs of the states concerned, the population dependent on the watercourse, the existing and potential uses, and the availability of alternatives. The second is the obligation not to cause significant harm: a state must take all appropriate measures to prevent the causing of significant harm to other watercourse states. Now, the contested question is whether no-significant-harm operates as a limit on equitable utilisation, so that a use causing significant harm is simply unlawful, or as one factor to be weighed within the equitable balancing, so that a harmful use may still be permissible if it is equitable overall. The drafting and the case law support both readings, and the question is genuinely open. The principal codification is the Convention on the Law of the Non-Navigational Uses of International Watercourses, adopted in 1997, which sets out both principles together with detailed procedural obligations: regular exchange of data and information, prior notification of planned measures with supporting technical data, a period for response, consultation and negotiation, and obligations relating to the protection and preservation of the ecosystems of international watercourses. A parallel regional instrument, adopted under the same commission for Europe, extends to transboundary waters generally and has an institutional machinery. Now, connect this to energy, because the connection is where the disputes of the next twenty years will be found. Every energy technology requires water: thermal generation for cooling, hydraulic fracturing for the fluid, mineral processing for the concentrate and the tailings, biofuel production for the crop, and hydropower by definition. Meanwhile almost every large watercourse is shared. Those two facts together mean that energy decisions are water decisions, and water decisions are frequently transboundary."
+    },
+    {
+      "type": "case",
+      "kicker": "Transboundary harm",
+      "title": "Procedure Without Substance: What the Court Would Not Decide",
+      "case": "Pulp Mills on the River Uruguay (Argentina v. Uruguay), International Court of Justice, Judgment of 20 April 2010",
+      "body": "Argentina challenged Uruguay's authorisation of two pulp mills on the River Uruguay, a shared watercourse regulated by a 1975 statute which established a joint commission and required a party planning works liable to affect the regime of the river or the quality of its waters to notify the commission and the other party. Argentina alleged breach of both procedural and substantive obligations. The Court held that Uruguay had breached its procedural obligations of notification, consultation and negotiation, and that the joint consultation procedure established by the statute was a substantive obligation in itself. It held however that, on the evidence, Uruguay had not breached its substantive obligations, since Argentina had not established that the discharges had caused harm to the river or its ecosystem. The Court further observed that environmental impact assessment has gained so much acceptance among states that it may now be considered a requirement under general international law where there is a risk of significant adverse impact in a transboundary context.",
+      "holding": "Procedural obligations in a shared-resource regime are enforceable in themselves and may be breached even where no substantive harm is proved. Transboundary environmental impact assessment is now a requirement of general international law.",
+      "narration": "Our case is Pulp Mills on the River Uruguay, decided by the International Court in 2010, and it is the clearest illustration available of both the strength and the limits of the procedural turn I described at the start. The facts concern two pulp mills authorised by Uruguay on the River Uruguay, which forms the boundary with Argentina and is regulated by a statute of 1975 establishing a joint commission and a consultation procedure. The statute required a party planning any works liable to affect the regime of the river or the quality of its waters to notify the commission, which was then to determine whether the plan might cause significant damage to the other party and, if so, to require the parties to enter into consultations. Argentina alleged breach of procedural obligations, of notification and consultation, and of substantive obligations, of preventing pollution and of protecting the aquatic environment. The Court found for Argentina on procedure and against it on substance. On procedure, it held that Uruguay had failed to notify, to consult and to negotiate as the statute required, and it made a point of general importance: the consultation procedure is not merely a diplomatic formality but a substantive obligation, whose breach is a breach of the treaty independently of whether any harm resulted. On substance, it held that Argentina had not established that the discharges from the mills had in fact caused harm to the river or its ecosystem, and it therefore dismissed that part of the claim. And then the Court said the sentence for which the case is now principally cited: that it may now be considered a requirement under general international law to undertake an environmental impact assessment where there is a risk that the proposed industrial activity may have a significant adverse impact in a transboundary context. Take three things from this. First, that procedure is independently enforceable, which is what makes the procedural turn worthwhile. Second, that the evidentiary burden in a substantive environmental claim is enormous, which is the principal reason claimants now prefer procedural arguments. And third, that the Court's statement on assessment is the clearest judicial endorsement of the instrument we have been discussing."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Liability and remediation",
+      "title": "Who Cleans Up? Liability, Security and Legacy",
+      "items": [
+        "Administrative liability operates through permits, conditions, enforcement notices and remediation orders against the operator.",
+        "Civil liability in tort requires proof of damage and causation, which is hard where exposure is chronic and diffuse.",
+        "Financial assurance mechanisms, including bonds, trust funds and parent guarantees, exist to ensure the money survives the operator.",
+        "Successor liability is the recurring problem: the harm is discovered after the responsible entity has been sold or dissolved."
+      ],
+      "note": "The purpose of financial assurance is to ensure that the cost of remediation falls on the operator rather than the public.",
+      "narration": "Let me add one further element before we turn to biodiversity, because it is where the environmental duties we have discussed either bite or do not. That element is liability, and specifically the question of who pays to put things right. There are three layers. The first is administrative, and it is the layer that does most of the work in practice. It operates through the permit: conditions attached to an authorisation, monitoring and reporting obligations, enforcement and improvement notices, suspension and revocation, and remediation or clean-up orders directed at the operator. Its advantages are that it does not require proof of damage to any person and that it is administered by a specialist regulator; its disadvantages are that it depends entirely on the capacity and the willingness of that regulator, and that the sanction is frequently a fraction of the cost of compliance. The second layer is civil liability, typically in tort, which allows a person who has suffered damage to claim compensation. It is theoretically important and practically difficult, because the claimant must establish damage and causation, and in environmental cases the exposure is frequently chronic, the pathway is complex, the harm is diffuse across a population, and the latency period is measured in decades. The third layer is financial assurance, and it is the most effective instrument we have. Bonds, letters of credit, trust funds, insurance and parent company guarantees are all used to ensure that money is available to discharge remediation obligations, and that it remains available if the operator becomes insolvent. The recurring problem across all three layers is succession. Environmental harm is characteristically discovered long after the activity that caused it, by which time the entity responsible has been sold, restructured, renamed or dissolved, and its assets have gone somewhere else. Jurisdictions respond variously through successor liability provisions, through the retention of liability on the transfer of a permit, through the imposition of liability on the parent, and through the creation of statutory funds financed by levies. The purpose of all of it is the same: to ensure that the cost of remediation falls on the operator, and ultimately on the consumers who benefited, rather than on the public."
+    },
+    {
+      "type": "section",
+      "num": "III",
+      "title": "Biodiversity",
+      "narration": "Let me close with the part of the environment that has no market price and therefore the least protection."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Biodiversity",
+      "title": "From Convention to Framework: Biodiversity Governance Now",
+      "items": [
+        "The Convention on Biological Diversity sets three objectives: conservation, sustainable use, and fair and equitable sharing of benefits.",
+        "The Kunming-Montreal Global Biodiversity Framework, adopted in 2022, sets goals and targets, including area-based conservation targets.",
+        "A separate agreement on marine biodiversity of areas beyond national jurisdiction was adopted in 2023.",
+        "The persistent weakness remains implementation: national strategies exist, but finance and enforcement do not match them."
+      ],
+      "note": "Around sixty-nine per cent average decline in monitored wildlife populations since 1970. The law has not kept pace with that finding.",
+      "narration": "Let me close with biodiversity, which is the element of the environment that legal regimes protect least well, and the reason is structural: biodiversity loss generates diffuse benefits to everyone and concentrated costs to whoever is asked to stop causing it. The governing instrument is the Convention on Biological Diversity, which has three objectives that must be read together: the conservation of biological diversity, the sustainable use of its components, and the fair and equitable sharing of the benefits arising out of the utilisation of genetic resources. The third objective is the one that most directly concerns this course, since it connects biodiversity to the commercial exploitation of natural resources, and it is implemented through access and benefit-sharing regimes under which a user obtains prior informed consent and agrees mutually agreed terms with the provider. Alongside the Convention sits a set of specialised instruments: the convention on wetlands of international importance, the convention on international trade in endangered species, the convention concerning the protection of the world cultural and natural heritage, and the conventions on migratory species. The framework was substantially renewed at the fifteenth meeting of the Conference of the Parties to the Convention, held in 2022, which adopted the Kunming-Montreal Global Biodiversity Framework, with goals to be achieved by 2050 and targets to be achieved by 2030, including area-based conservation targets, a target on reducing the risk from pesticides and hazardous chemicals, and targets on finance and on the integration of biodiversity into decision-making. And a separate and long-negotiated instrument on the conservation and sustainable use of marine biological diversity of areas beyond national jurisdiction was adopted in 2023, which is directly relevant to the seabed questions we examined earlier. The persistent weakness, however, is unchanged across thirty years: national biodiversity strategies and action plans exist in most states, and the finance, the capacity and the enforcement to deliver them do not. The most cited assessment of the state of global biodiversity, published in 2019, found that around a million animal and plant species are threatened with extinction and that the average abundance of monitored wildlife populations has declined very substantially since 1970. The law has not kept pace with that finding."
+    },
+    {
+      "type": "levels",
+      "title": "Why This Matters at Your Level",
+      "ug": [
+        "State the four Rio principles and apply the precautionary principle to a specific factual scenario.",
+        "Describe the stages of environmental impact assessment, and identify which stage is most often decisive.",
+        "Name the three pillars of access and the instrument in which they are most fully developed.",
+        "State the two principles governing shared watercourses, and the contested question between them."
+      ],
+      "pg": [
+        "Assess whether proceduralisation represents progress or retreat in international environmental law.",
+        "Analyse Pulp Mills: was the Court right that no substantive harm was proved, and what does that reveal about evidentiary burden?",
+        "Evaluate biodiversity offsets against the mitigation hierarchy: do they compensate residual impacts or license avoidable ones?",
+        "Critique the relationship between equitable utilisation and no significant harm, and defend a resolution of it."
+      ],
+      "narration": "Let me bring this to your programme. At undergraduate level, I want four things. First, the Rio principles, stated accurately and applied to facts, and I want you to be careful with the precautionary principle in particular, since it is routinely overstated. Second, the stages of environmental impact assessment, and a view on which stage is most often decisive, where I would suggest the answer is scoping, because that is where the boundary of the study is fixed. Third, the three pillars of access and the convention in which they are most fully articulated. And fourth, the two principles governing shared watercourses, together with a statement of what is contested between them. At postgraduate level, I want you to argue. Assess whether the proceduralisation of environmental law represents progress or retreat, and I would ask you to look at what Pulp Mills actually delivered before answering. Analyse that case on substance: was the Court right that no harm was proved, and what does the outcome reveal about the evidentiary burden facing a state bringing an environmental claim? Evaluate biodiversity offsets against the mitigation hierarchy, and give a view on whether in practice they compensate for residual impacts or license impacts that should have been avoided, since the literature is genuinely divided. And critique the relationship between equitable utilisation and no significant harm, and defend a resolution, bearing in mind that the question is not academic but determines the outcome of every dispute about upstream abstraction and hydropower."
+    },
+    {
+      "type": "summary",
+      "title": "What We Have Established",
+      "points": [
+        "Environmental law has proceduralised, prescribing process rather than outcome, because process is negotiable and verifiable.",
+        "The Rio principles inform every instrument, and assessment has become a requirement of general international law in transboundary contexts.",
+        "Impact assessment is a legal procedure whose decisive stage is scoping, and whose weakest stage is enforcement.",
+        "Shared watercourses are governed by two principles whose relationship is unresolved, and energy is water-intensive.",
+        "Biodiversity governance has ambitious targets and persistent implementation and finance gaps."
+      ],
+      "takeaway": "Process is not a substitute for environmental protection. But rigorously enforced process changes decisions, and the alternative has rarely proved negotiable.",
+      "narration": "Let me close. Environmental law has proceduralised, prescribing process rather than outcome, because process can be agreed and verified where substantive standards cannot. The Rio principles inform every instrument in the field, and the requirement to assess transboundary impacts has become a requirement of general international law, as the International Court stated in 2010. Impact assessment is best understood as a legal procedure whose decisive stage is scoping, since that is where the boundary of the enquiry is fixed, and whose weakest stage is enforcement, since conditions are rarely verified. Shared watercourses are governed by equitable utilisation and by the obligation not to cause significant harm, and the relationship between those two principles is unresolved, which matters because every energy technology requires water and most large watercourses are shared. And biodiversity governance has targets of genuine ambition and an implementation gap that has persisted for thirty years. In the next lecture we turn to the instruments through which disputes in this field are actually resolved, and examine international investment arbitration and the Energy Charter Treaty."
+    },
+    {
+      "type": "end",
+      "next": "Lecture 16 — Investment Arbitration and the Energy Charter Treaty",
+      "narration": "Thank you. For the next session, please read the Pulp Mills judgment, and identify precisely what evidence Argentina would have needed to succeed on the substantive claim."
+    }
+  ],
+  "readings": [
+    "Pulp Mills on the River Uruguay (Argentina v. Uruguay), I.C.J. Reports 2010, p. 14.",
+    "Rio Declaration on Environment and Development, 1992, principles 2, 15, 16 and 17.",
+    "Convention on the Law of the Non-Navigational Uses of International Watercourses, 1997, arts 5, 6 and 7.",
+    "Convention on Access to Information, Public Participation in Decision-making and Access to Justice in Environmental Matters (Aarhus, 1998).",
+    "Convention on Biological Diversity, 1992, arts 1, 8(j) and 15; Kunming-Montreal Global Biodiversity Framework (2022).",
+    "Convention on Environmental Impact Assessment in a Transboundary Context (Espoo, 1991)."
+  ],
+  "quiz": [
+    {
+      "q": "In Pulp Mills, the International Court held that:",
+      "options": [
+        "Uruguay breached both procedural and substantive obligations",
+        "Uruguay breached procedural obligations of notification and consultation, but no substantive harm was proved",
+        "Argentina had no standing",
+        "The 1975 statute was invalid"
+      ],
+      "answer": 1,
+      "explain": "The Court treated the consultation procedure as a substantive obligation in itself, while finding the evidence of harm insufficient."
+    },
+    {
+      "q": "The precautionary principle, as stated in the Rio Declaration, provides that:",
+      "options": [
+        "All potentially harmful activities must be prohibited",
+        "Lack of full scientific certainty shall not be used as a reason for postponing cost-effective measures to prevent environmental degradation",
+        "The proponent must prove absolute safety",
+        "Environmental assessment is never required"
+      ],
+      "answer": 1,
+      "explain": "The principle directs decision-makers not to rely on uncertainty as a reason for inaction, and it qualifies the measures by cost-effectiveness."
+    },
+    {
+      "q": "The mitigation hierarchy requires, in order:",
+      "options": [
+        "Offset, restore, minimise, avoid",
+        "Avoid, minimise, restore, offset",
+        "Minimise, avoid, offset, restore",
+        "Restore, offset, avoid, minimise"
+      ],
+      "answer": 1,
+      "explain": "Offsetting is explicitly the last resort, because an avoided impact is certain whereas an offset is speculative."
+    },
+    {
+      "q": "The two principles governing shared watercourses are:",
+      "options": [
+        "Absolute territorial sovereignty and absolute territorial integrity",
+        "Equitable and reasonable utilisation, and the obligation not to cause significant harm",
+        "Prior appropriation and riparian rights",
+        "Sovereign equality and non-intervention"
+      ],
+      "answer": 1,
+      "explain": "The relationship between them is the central unresolved doctrinal question in the law of international watercourses."
+    }
+  ]
+}

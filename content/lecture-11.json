@@ -1,0 +1,247 @@
+{
+  "no": 11,
+  "title": "Nuclear Energy Law: Non-Proliferation, Safety and Liability",
+  "subtitle": "The most internationalised energy technology, and what its regulation teaches about the rest of the field",
+  "module": "Module Two · Substantive Regimes",
+  "keywords": ["non-proliferation", "IAEA safeguards", "nuclear safety", "nuclear liability", "spent fuel", "small modular reactors"],
+  "objectives": [
+    "Explain why nuclear energy is subject to a uniquely dense international regulatory regime.",
+    "Describe the architecture of the non-proliferation regime and the safeguards system.",
+    "Explain the international law of nuclear safety and the conventions through which it operates.",
+    "State the principles of nuclear liability and explain why they differ from ordinary tort principles.",
+    "Analyse the legal problems of spent fuel and radioactive waste disposal.",
+    "Assess the legal questions raised by the prospective expansion of nuclear capacity."
+  ],
+  "slides": [
+    {
+      "type": "bumper",
+      "title": "Nuclear Energy Law"
+    },
+    {
+      "type": "title",
+      "title": "Nuclear Energy Law: Non-Proliferation, Safety and Liability",
+      "subtitle": "The most internationalised energy technology, and what its regulation teaches about the rest of the field",
+      "module": "Module Two · Substantive Regimes",
+      "narration": "Welcome to Lecture Eleven. We consider now the energy technology that is most heavily regulated under international law, and I want to state at the outset why this is so, because the reason shapes everything that follows. Every generating technology has hazards: coal kills through air pollution, gas through explosions, hydro through dam failure. But nuclear technology has one characteristic that no other possesses, which is that the same body of knowledge, equipment and material that produces electricity can also produce a weapon. That dual-use character means that the peaceful exploitation of nuclear energy cannot be separated from the security concerns of the international community, and it is why nuclear energy is governed by a denser, more institutionalised and more intrusive body of international law than any other form of energy. There is an inspection regime with real powers. There are conventions on safety, on waste, on notification and on assistance. And there are liability conventions that replace ordinary tort law with a specialised regime. Let me take you through each of the three pillars."
+    },
+    {
+      "type": "objectives",
+      "title": "What This Lecture Establishes",
+      "narration": "Six outcomes. First, to explain why nuclear energy is subject to a uniquely dense international regulatory regime, and to identify the specific feature that produces that outcome. Second, to describe the architecture of the non-proliferation regime and the safeguards system through which compliance is verified. Third, to explain the international law of nuclear safety, and the conventions and standards through which it operates. Fourth, to state the principles of nuclear liability precisely, and to explain why they depart from ordinary tort principles in ways that surprise students. Fifth, to analyse the legal problems of spent fuel and radioactive waste disposal, which is where the industry's most intractable difficulty lies. And sixth, to assess the legal questions raised by the prospective expansion of nuclear capacity, including small modular reactors and new entrant states."
+    },
+    {
+      "type": "section",
+      "num": "I",
+      "title": "Non-Proliferation",
+      "narration": "Let me begin with the first pillar, and with the bargain on which the whole regime rests."
+    },
+    {
+      "type": "bullets",
+      "kicker": "The grand bargain",
+      "title": "The Non-Proliferation Treaty: A Three-Pillar Bargain",
+      "items": [
+        "Pillar one: non-nuclear-weapon states undertake not to acquire nuclear weapons, and not to seek or receive assistance in manufacturing them.",
+        "Pillar two: the nuclear-weapon states undertake to pursue negotiations in good faith on nuclear disarmament.",
+        "Pillar three: all parties have an inalienable right to develop nuclear energy for peaceful purposes, and to participate in the fullest possible exchange of equipment, materials and information.",
+        "The alleged imbalance between the second and third pillars is the principal source of political tension in the regime."
+      ],
+      "note": "The treaty is a bargain between restraint and disarmament. Its stability depends on both sides being seen to perform.",
+      "narration": "The Treaty on the Non-Proliferation of Nuclear Weapons, opened for signature in 1968, is the foundation of the regime, and it is best understood as a bargain with three pillars. Under the first pillar, each non-nuclear-weapon state party undertakes not to receive, manufacture or otherwise acquire nuclear weapons or other nuclear explosive devices, and not to seek or receive any assistance in their manufacture. Under the second pillar, the nuclear-weapon states parties undertake to pursue negotiations in good faith on effective measures relating to the cessation of the nuclear arms race at an early date and to nuclear disarmament. Under the third pillar, all parties have an inalienable right to develop research, production and use of nuclear energy for peaceful purposes without discrimination, and are to facilitate, and have the right to participate in, the fullest possible exchange of equipment, materials and scientific and technological information for the peaceful uses of nuclear energy. Now, notice the structure of this bargain. The non-nuclear-weapon states accept a binding and verifiable restraint. In exchange they receive two things: a commitment to disarmament, which is expressed in softer language and has been performed slowly, and a right to peaceful technology, which is expressed strongly and has been performed unevenly. The resulting political tension is the central fact of the regime. States outside it, and some within it, argue that the second pillar has been neglected while the first has been enforced asymmetrically. That argument has real force, and if you work in this field you will encounter it constantly. It is also worth noting, for the purposes of this series, that the third pillar is the reason nuclear energy occupies a special place in the law of development: the right to peaceful nuclear technology is a treaty right, and states have relied on it."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Verification",
+      "title": "Safeguards: The Only Regime in Energy Law with Inspectors",
+      "items": [
+        "Non-nuclear-weapon states must conclude comprehensive safeguards agreements with the International Atomic Energy Agency.",
+        "The standard agreement requires the state to declare nuclear material and facilities and to accept Agency verification of those declarations.",
+        "The Additional Protocol significantly expands access, including to undeclared locations and to broader information about the fuel cycle.",
+        "The Agency reports on whether it can conclude that all nuclear material has remained in peaceful activities."
+      ],
+      "note": "Comprehensive safeguards plus an Additional Protocol is now regarded as the verification standard. Neither alone is sufficient.",
+      "narration": "The second element of the non-proliferation architecture is verification, and it is the part of this field that has no analogue anywhere else in energy law. Each non-nuclear-weapon state party is required to accept safeguards, as set out in an agreement to be negotiated and concluded with the International Atomic Energy Agency. The standard comprehensive safeguards agreement requires the state to establish and maintain a system of accounting for and control of nuclear material, to declare the material and the facilities concerned, and to accept the Agency's verification of those declarations through inspection, containment and surveillance measures, including the use of cameras and seals. The Agency's task under such an agreement is to verify that declared nuclear material has not been diverted to nuclear weapons or other nuclear explosive devices. The limitation will be apparent: an agreement of that kind can only verify declared material. Following the discovery in the early nineteen nineties of undeclared nuclear activities in a state under comprehensive safeguards, the Agency's governing board approved the Model Additional Protocol, which substantially expands both the information a state must provide and the Agency's access. Under an Additional Protocol, the state provides a much broader declaration covering the whole of its nuclear fuel cycle, including research and development and mining and milling, and the Agency may seek complementary access to locations, including to undeclared sites, in order to resolve questions about the completeness and correctness of the state's declarations. The combination of comprehensive safeguards and an Additional Protocol is now regarded as the verification standard, and the Agency's conclusion, in the case of a state with both in force, is that all nuclear material has remained in peaceful activities. That conclusion is the strongest assurance the international system can presently give."
+    },
+    {
+      "type": "section",
+      "num": "II",
+      "title": "Safety",
+      "narration": "The second pillar of the regime is safety, and it operates through a different set of instruments."
+    },
+    {
+      "type": "bullets",
+      "kicker": "The safety instruments",
+      "title": "Conventions, Standards and Peer Review",
+      "items": [
+        "The Convention on Nuclear Safety obliges parties to maintain a high level of safety, defined by reference to principles rather than by prescriptive rules.",
+        "The Joint Convention extends the obligations to spent fuel and to radioactive waste management.",
+        "The Early Notification and Assistance Conventions require rapid information and the offer of help in the event of an accident with transboundary consequences.",
+        "Compliance is secured not by sanctions but by peer review: national reports, review meetings and international missions."
+      ],
+      "note": "Nuclear safety law works by transparency and peer pressure rather than by enforcement. Assess whether that is adequate.",
+      "narration": "The international law of nuclear safety is constructed on a quite different principle from the non-proliferation regime, and it is instructive to compare them. The Convention on Nuclear Safety, concluded in 1994 in the aftermath of Chernobyl, does not prescribe technical rules. Instead it requires each contracting party to take appropriate steps to ensure an effective protection of individuals, society and the environment against radiological hazards, and it sets out a series of general obligations: to establish and maintain a legislative and regulatory framework, to establish a regulatory body with adequate powers and independence, to give due priority to nuclear safety in the allocation of resources, and to ensure that prime responsibility for safety rests with the holder of the licence. The obligations are expressed as principles, and their application is elaborated in a substantial body of safety standards issued by the Agency, which are not themselves binding but are widely incorporated into national law. The Joint Convention on the Safety of Spent Fuel Management and on the Safety of Radioactive Waste Management extends the same approach to the back end of the fuel cycle. And the two conventions adopted after Chernobyl, on early notification and on assistance in the case of a nuclear accident or radiological emergency, require a state to notify the Agency and potentially affected states forthwith of an accident with transboundary consequences and to facilitate the provision of assistance. Now, here is the critical design feature, and the one I want you to assess rather than accept. Compliance is secured by peer review rather than by sanctions. Parties submit national reports, review meetings examine them, and international missions conduct operational safety reviews at the invitation of the state concerned. There is no enforcement mechanism. Whether that is adequate is a genuine question, and the answer given after the Fukushima accident was that it required strengthening, through the Agency's Action Plan on Nuclear Safety and through the amendment of the Convention on Nuclear Safety adopted thereafter."
+    },
+    {
+      "type": "two-col",
+      "kicker": "Liability",
+      "title": "Why Nuclear Liability Is Not Ordinary Tort Law",
+      "left_h": "THE ORDINARY POSITION",
+      "left": [
+        "Fault must generally be proved, and causation must be established by the claimant.",
+        "Liability falls on whoever caused the harm, including suppliers, contractors and operators.",
+        "There is no general cap on the damages recoverable.",
+        "Jurisdiction follows the ordinary rules of private international law."
+      ],
+      "right_h": "THE NUCLEAR REGIME",
+      "right": [
+        "Liability is strict, or channeled to the operator and absolute, so that fault need not be proved.",
+        "Liability is channeled exclusively to the operator of the nuclear installation, shielding suppliers and contractors.",
+        "Liability is limited in amount and in time, with minimum amounts set by convention.",
+        "Jurisdiction lies with the courts of the installation state, and financial security is compulsory."
+      ],
+      "narration": "I now want to take you through the third pillar, which is liability, because this is where nuclear law most sharply departs from the principles students have learned in tort, and because the departures are deliberate and defensible. Under the ordinary law of tort, a claimant must generally prove fault, must establish causation, may sue anyone whose conduct contributed to the harm, faces no ceiling on recoverable damages, and litigates wherever the applicable rules of jurisdiction and choice of law point. The nuclear liability regime replaces all five of those positions. First, liability is strict: the claimant need not prove fault, and in the strictest versions of the regime it is absolute, subject only to narrow exceptions. Second, liability is channelled exclusively to the operator of the nuclear installation, so that suppliers, contractors, designers and carriers are shielded from claims; this is the price of inducing industry to participate at all. Third, liability is limited: both in amount, with minimum figures fixed by the conventions and higher figures determined by national law, and in time, with claims extinguished after a prescribed period. Fourth, jurisdiction is vested in the courts of the contracting party in whose territory the installation is situated, which prevents the scattering of claims across many fora. And fifth, the operator is required to maintain financial security, by insurance or by other means, up to the amount of its liability, with the installation state providing public funds beyond that ceiling in the arrangements established by the supplementary conventions. Now, why would the law do this? The answer is the reason the regime exists in its present form. The potential magnitude of nuclear harm exceeds anything the insurance market will bear alone, so the regime substitutes certainty of recovery up to a defined limit, and state-backed provision beyond it, for an unlimited but uncollectable claim. It is a considered trade between compensation and the feasibility of the industry, and it is worth understanding because the same trade is being made now in other technologies, including carbon capture and storage and offshore decommissioning."
+    },
+    {
+      "type": "case",
+      "kicker": "Transboundary harm",
+      "title": "Unilateral Declarations, and the Limits of an Undertaking",
+      "case": "Nuclear Tests Cases (Australia v. France; New Zealand v. France), I.C.J. Reports 1974, and the Request for an Examination of the Situation, I.C.J. Reports 1995",
+      "body": "France conducted atmospheric nuclear tests in the South Pacific. Australia and New Zealand brought proceedings, asserting that the tests violated international law and produced radioactive fallout on their territories, and sought interim protection. The Court made orders indicating provisional measures. France then made public statements that it would cease atmospheric testing, and the Court held in 1974 that the claims had been disposed of, treating those statements as unilateral declarations creating legal obligations and removing the object of the dispute. In 1995 New Zealand sought to reopen the matter in respect of proposed underground testing; the Court held that the basis of its 1974 judgment had been atmospheric testing, and that the new proceedings did not fall within the provision relied upon.",
+      "holding": "A unilateral statement made publicly by a state, and intended to be binding, can create a legal obligation without any agreement. But the scope of that obligation is limited to what the statement covers.",
+      "narration": "Our case is the Nuclear Tests litigation, and I have chosen it because it establishes a principle of general international law that students encounter everywhere and often forget in this field. France conducted atmospheric nuclear tests in the South Pacific. Australia and New Zealand brought proceedings before the International Court, asserting that the tests violated international law, that they caused radioactive fallout to be deposited on their territories, and that the resulting interference with their sovereignty and with the rights of their peoples was unlawful. Both sought provisional measures, and the Court made orders indicating them. France then made a series of public statements to the effect that it would cease atmospheric nuclear testing after the completion of its then current programme. The Court held in 1974 that the claims had thereby been disposed of and that no decision on the merits was required. Its reasoning is the part that matters. It held that a unilateral declaration made publicly by a state, manifesting the intention to be bound according to its terms, creates a legal obligation, and that France's statements, read in their context, were of that character. The dispute was therefore removed. Two decades later, New Zealand sought to reopen the matter in relation to proposed underground testing. The Court held that the basis of the 1974 judgment had been atmospheric testing specifically, and that the new application did not fall within the provision of the Statute that New Zealand invoked. Three lessons. First, unilateral statements bind, and states sometimes discover that a statement made for domestic consumption has created an international obligation. Second, the scope of that obligation is determined by what was said and by its context, which is why precision in public statements by officials matters. And third, this case is a reminder that nuclear activities generate disputes framed in the ordinary language of state responsibility and transboundary harm, and not only in the specialised vocabulary of the nuclear conventions."
+    },
+    {
+      "type": "section",
+      "num": "III",
+      "title": "The Back End and the New Build",
+      "narration": "Let me close with the two questions that will determine whether nuclear energy expands: waste, and new entrants."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Waste",
+      "title": "The Problem at the End of the Fuel Cycle",
+      "items": [
+        "Spent fuel and high-level waste remain hazardous for periods far exceeding any human institution.",
+        "The technical consensus favours deep geological disposal, but the political difficulty of siting is severe.",
+        "Interim storage is being used for periods far longer than originally contemplated, and raises its own safety and security questions.",
+        "The legal questions concern intergenerational consent, the funding of long-term management, and the transfer of liability to the state."
+      ],
+      "note": "No legal regime has yet solved the problem of an obligation that must be discharged over ten thousand years.",
+      "narration": "There is a question that has dogged this industry since its inception and that the law has not solved, and it is worth stating plainly because it is the strongest argument made against expansion. Spent nuclear fuel and high-level radioactive waste remain hazardous for periods vastly exceeding the life of any human institution, and in some cases exceeding the span of recorded history. The technical consensus among specialists is reasonably clear: the appropriate solution is deep geological disposal, at a depth and in a host rock selected for long-term stability, with engineered and natural barriers operating together. A small number of states have progressed to construction or operation of such facilities, and Finland's repository at Onkalo is the first licensed for the disposal of spent fuel. But the political difficulty of siting has proved severe almost everywhere, and in most states spent fuel remains in interim storage, frequently at the reactor site, for periods far longer than was ever contemplated when the plants were built. That interim storage is itself safe, but it transfers a problem to a later generation, and it concentrates material in accessible locations, which raises security as well as safety questions. The legal questions are correspondingly hard. How is consent to be obtained from a community, and how is it to bind the communities that follow it? How is long-term management to be funded, and who guarantees the fund across centuries? At what point does liability transfer from the operator to the state, and what provision is made for the institutional memory necessary to keep the site safe and secure? I put these to you not to argue against nuclear energy, but because they are the questions that a lawyer in this field will actually be asked, and because no jurisdiction has yet answered all of them well."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Expansion",
+      "title": "Small Modular Reactors and New Entrant States",
+      "items": [
+        "Small modular reactors promise factory fabrication and lower upfront capital, which changes the financing and the licensing questions.",
+        "Licensing frameworks built for large plants do not fit a fundamentally different design, and regulators are adapting.",
+        "New entrant states raise the acute non-proliferation question: enrichment and reprocessing capability is dual-use.",
+        "The legal architecture for new entrants includes safeguards agreements, an Additional Protocol, a nuclear cooperation agreement, and restrictions on enrichment and reprocessing."
+      ],
+      "note": "The technology question and the proliferation question are the same question asked at different scales.",
+      "narration": "Finally, let me address the two developments that are reshaping this field, and they are connected more closely than they first appear. The first is small modular reactors. These are reactors of substantially lower output than conventional plant, designed for a significant degree of factory fabrication and for serial deployment. The attractions are financial and programmatic: lower absolute capital commitment, shorter construction schedules, the possibility of incremental capacity addition, and the prospect that learning across a series of units will reduce cost. The legal consequences are considerable. A licensing framework designed around a large, site-specific plant does not fit a factory-built unit of a fundamentally different design, and regulators in several jurisdictions are adapting their frameworks accordingly. There are unresolved questions about security requirements for smaller and more numerous sites, about emergency planning zones, and about how liability limits calibrated to large installations should apply to small ones. The second development is the prospect of new entrant states, particularly in the Middle East and in Asia. And here the non-proliferation question is acute, for the reason I gave at the start of this lecture. A state building a civil nuclear programme acquires knowledge, equipment and personnel; and if that programme includes the capability to enrich uranium or to reprocess spent fuel, it has acquired the technically most demanding parts of a weapons fuel cycle. The legal architecture through which this concern is managed includes a comprehensive safeguards agreement, an Additional Protocol, a bilateral nuclear cooperation agreement with the supplier containing binding commitments on use, on retransfer and on physical protection, and in several cases an explicit undertaking not to pursue enrichment or reprocessing at all. The technology question and the proliferation question are the same question asked at different scales, and that is why this field requires its lawyers to be competent in security as well as in regulation."
+    },
+    {
+      "type": "bullets",
+      "kicker": "Decommissioning",
+      "title": "Decommissioning and the Funding of Very Long Liabilities",
+      "items": [
+        "A nuclear installation must be defuelled, dismantled and its site released for use, over a period measured in decades.",
+        "The obligation is regulated in detail and the cost is very large, so the central question is who has already paid.",
+        "The instruments are segregated funds, levies on generation, and state guarantees for the residual liability.",
+        "Transfers of assets carry the risk that a buyer acquires the revenue without the ability to meet the liability."
+      ],
+      "note": "The test of a decommissioning regime is not whether the obligation exists. It is whether the money is there when it is needed.",
+      "narration": "One further element of nuclear law deserves attention, because it is the area in which several jurisdictions have made serious errors and because it is directly transferable to the rest of this field. A nuclear installation must, at the end of its life, be defuelled, decontaminated, dismantled and its site released for whatever use the regulator will permit. That process is regulated in detail, it is technically demanding, and it takes decades, because a period of safe enclosure is frequently required to allow radioactivity to decay before dismantlement begins. The cost is very large, and the obligation to discharge it arises at precisely the point at which the asset has ceased to generate revenue. The legal question is therefore not whether the obligation exists, since it plainly does. It is whether the money will be there. There are three principal instruments. First, a decommissioning fund, into which contributions are made during the operating life of the plant, held separately from the operator, invested according to a prudent mandate, and released only for qualifying expenditure. Second, a levy on generation, which spreads the cost across all output and therefore across all consumers, and which is the mechanism used in several jurisdictions. And third, a state guarantee or assumption of residual liability, which acknowledges that the fund may prove insufficient and allocates the shortfall in advance rather than by litigation afterwards. Now, the failure mode that should concern you, and it has occurred: an asset is transferred to a new owner, the new owner receives the revenue stream and takes on the liability, but has neither the balance sheet nor the incentive to fund it, and the fund, if one exists, does not travel with the transfer. Regulators in several jurisdictions now require assurance of the acquirer's financial capacity as a condition of approving any transfer of a nuclear asset, and that is the correct response. The test of a decommissioning regime is not whether the obligation is stated. It is whether the money is there when it is needed. Let me extend the point, because it is the general lesson of this lecture. Nuclear energy demonstrates what a genuinely internationalised energy regime looks like, and it does so because the security externality is severe, the number of states involved is small, and the object of inspection is identifiable and immobile. None of those three conditions holds for a wind farm, a mine or a gas network, and it is a serious mistake to conclude from the nuclear example that more international regulation is the answer elsewhere. The lesson is narrower and more useful: international institutions acquire real powers only where states share a compelling interest in verification. That condition exists here, and it is rare."
+    },
+    {
+      "type": "levels",
+      "title": "Why This Matters at Your Level",
+      "ug": [
+        "State the three pillars of the Non-Proliferation Treaty and identify which one is most contested.",
+        "Distinguish comprehensive safeguards from an Additional Protocol, and say why both are needed.",
+        "List the five departures of nuclear liability from ordinary tort, and give the reason for each.",
+        "Explain in one sentence why nuclear energy is more internationally regulated than any other."
+      ],
+      "pg": [
+        "Assess whether peer review is an adequate compliance mechanism for nuclear safety, and what would strengthen it.",
+        "Analyse whether channelling of liability to the operator remains defensible given the role of suppliers and designers.",
+        "Evaluate the legal mechanisms available for intergenerational consent to a geological disposal facility.",
+        "Critique the architecture applied to new entrant states: does it prevent proliferation or merely delay it?"
+      ],
+      "narration": "Let me bring this to your programme. At undergraduate level, I want four things. First, the three pillars of the Non-Proliferation Treaty, and the ability to identify which of them is most contested and why, which is the second, the disarmament pillar. Second, a clear distinction between comprehensive safeguards, which verify declared material, and the Additional Protocol, which permits the Agency to investigate the completeness of declarations, together with an explanation of why both are now regarded as necessary. Third, the five departures of nuclear liability from ordinary tort law: strictness, channelling, limitation in amount and time, exclusive jurisdiction, and compulsory financial security, each with its reason. And fourth, a one-sentence explanation of why nuclear energy is more intensively regulated internationally than any other energy technology, and that sentence should be about dual-use. At postgraduate level, I want assessment. Determine whether peer review is an adequate compliance mechanism for nuclear safety, given that the consequence of failure is catastrophic and transboundary, and say what enforcement would require. Analyse whether the channelling of liability exclusively to the operator remains defensible, given that the causes of major accidents have often included design and regulatory failure rather than operational fault alone. Evaluate the legal mechanisms through which consent to a geological disposal facility might be sought across generations, and be candid about what none of them can deliver. And critique the architecture applied to new entrant states: does it prevent proliferation, or does it make proliferation slower and more visible?"
+    },
+    {
+      "type": "summary",
+      "title": "What We Have Established",
+      "points": [
+        "Nuclear energy is uniquely internationalised because the technology is dual-use: the same knowledge produces power and weapons.",
+        "The Non-Proliferation Treaty rests on a three-pillar bargain whose disarmament pillar remains the most contested.",
+        "Safeguards verify declared material; the Additional Protocol permits verification of completeness. Both are now the standard.",
+        "Safety law operates through principles, standards and peer review rather than sanctions.",
+        "Liability is strict, channelled, limited, exclusively jurisdictional and compulsorily secured — a deliberate trade."
+      ],
+      "takeaway": "Nuclear law is the one place in energy law where international institutions have real powers. Study it to see what the rest of the field might become.",
+      "narration": "Let me close. Nuclear energy is uniquely internationalised because it is dual-use, and the same knowledge that generates electricity can produce a weapon. The Non-Proliferation Treaty rests on a three-pillar bargain in which restraint is exchanged for disarmament and for a right to peaceful technology, and the second pillar remains the most contested. Safeguards verify declared material while the Additional Protocol permits the Agency to test whether declarations are complete, and the combination is now the verification standard. Safety law operates not through prescriptive rules or sanctions but through principles, standards and peer review, which was strengthened after Fukushima. Liability departs from ordinary tort in five deliberate ways, trading unlimited but uncollectable claims for certain recovery up to a limit and state-backed provision beyond it. And the two hardest problems remain where they have always been: what to do with material that is dangerous for ten thousand years, and how to admit new entrants without admitting new weapons capability. In the next lecture we turn to the other end of the energy spectrum, and examine renewable energy and the international law of the energy transition."
+    },
+    {
+      "type": "end",
+      "next": "Lecture 12 — Renewable Energy and the International Law of the Energy Transition",
+      "narration": "Thank you. For the next session, please read the Nuclear Tests judgments, and consider whether a unilateral declaration should bind a state as readily as the Court held that it does."
+    }
+  ],
+  "readings": [
+    "Treaty on the Non-Proliferation of Nuclear Weapons, 1 July 1968, 729 U.N.T.S. 161.",
+    "IAEA, The Structure and Content of Agreements between the Agency and States Required in Connection with the Treaty on the Non-Proliferation of Nuclear Weapons, INFCIR/153 (Corrected).",
+    "IAEA, Model Protocol Additional to the Agreement(s) between State(s) and the International Atomic Energy Agency for the Application of Safeguards, INFCIR/540 (Corrected).",
+    "Convention on Nuclear Safety, 1994; Joint Convention on the Safety of Spent Fuel Management and on the Safety of Radioactive Waste Management, 1997.",
+    "Nuclear Tests Cases (Australia v. France; New Zealand v. France), I.C.J. Reports 1974, pp. 253 and 457; Request for an Examination of the Situation, I.C.J. Reports 1995, p. 288.",
+    "Convention on Supplementary Compensation for Nuclear Damage, 1997."
+  ],
+  "quiz": [
+    {
+      "q": "The principal reason nuclear energy is more heavily regulated internationally than other energy sources is:",
+      "options": [
+        "It is the most dangerous form of generation in normal operation",
+        "The technology is dual-use: the same knowledge and material can produce electricity or weapons",
+        "It is the most expensive",
+        "It produces the most waste by volume"
+      ],
+      "answer": 1,
+      "explain": "Dual-use is the distinguishing feature. Other technologies are more dangerous in normal operation; none combines that danger with weapons applicability."
+    },
+    {
+      "q": "The Additional Protocol was adopted principally because:",
+      "options": [
+        "Comprehensive safeguards were too expensive",
+        "Undeclared nuclear activities were discovered in a state under comprehensive safeguards, which could only verify declared material",
+        "The Non-Proliferation Treaty required it",
+        "It abolished safeguards"
+      ],
+      "answer": 1,
+      "explain": "A comprehensive safeguards agreement verifies declared material. The Additional Protocol permits the Agency to address the completeness of declarations."
+    },
+    {
+      "q": "Which of the following is NOT a feature of the international nuclear liability regime?",
+      "options": [
+        "Strict liability of the operator",
+        "Channelling of liability exclusively to the operator",
+        "Unlimited liability in amount",
+        "Compulsory financial security"
+      ],
+      "answer": 2,
+      "explain": "Liability is limited in amount and in time. That limitation is the trade-off that makes insurance and state-backed supplementary compensation feasible."
+    },
+    {
+      "q": "In the Nuclear Tests cases (1974), the Court held that:",
+      "options": [
+        "Atmospheric testing was unlawful and awarded damages",
+        "France's public statements constituted binding unilateral declarations which removed the object of the dispute",
+        "It lacked jurisdiction",
+        "France must cease all nuclear testing forever"
+      ],
+      "answer": 1,
+      "explain": "The case is the leading authority on unilateral declarations. Its 1995 sequel confirmed that such an obligation is limited to what the statement covered."
+    }
+  ]
+}
