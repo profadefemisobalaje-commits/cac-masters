@@ -1,4 +1,9 @@
-# Heavy derived intermediates — regenerable, never committed.
+# Rendered video: large and regenerable. Rebuild with
+#   python3 tools/build_lecture.py assemble <week>.json
+# in about 5 minutes, without re-voicing anything.
+media/**/*.mp4
+
+# Heavy derived intermediates — regenerable.
 media/**/work*/
 media/**/slides/
 media/**/_pptx_tmp.png

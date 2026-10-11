@@ -314,6 +314,15 @@ commit and push the audio. Audio is the single most expensive asset to
 regenerate (10 clips per turn), so it is committed as soon as it exists rather
 than waiting for the finished video.
 
+**What is committed, and why:** narration audio, slides, PPTX, subtitles,
+transcripts, recording scripts and the lecture JSON — roughly 5 MB per week.
+Rendered MP4s are **not** committed. They are large (45 MB master plus an 18 MB
+preview) and fully regenerable: with the audio and slides already in Git, a
+video rebuilds in about 5 minutes with no re-voicing. Committing the renders
+would exhaust the repository budget after two or three weeks while protecting
+nothing that is expensive to recreate. Deliver videos to the user by presenting
+the file directly.
+
 ### 8.3 Deliverable size
 
 Audio dominated the deliverable: a single lecturer voice was being encoded at
