@@ -8,7 +8,7 @@ duration. Keeps every chunk under the TTS per-call character limit.
 """
 import json, os
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.environ.get("TBUPROJ") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 LIMIT = 1480  # chars per generate_speech call (hard cap 1500)
 
 meta = json.load(open(os.path.join(ROOT, "out", "scenes.json"), encoding="utf-8"))

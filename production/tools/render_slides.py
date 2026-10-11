@@ -19,7 +19,7 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from PIL import Image, ImageDraw
 import design as D
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.environ.get("TBUPROJ") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "out", "slides")
 os.makedirs(OUT, exist_ok=True)
 
@@ -325,6 +325,12 @@ def main():
         header(d, s["slide"])
         if sid in BESPOKE:
             BESPOKE[sid](d, items)
+        elif s["title"].upper().startswith("MAP — "):
+            arch_map(d, s["title"][6:], items)
+        elif s["title"].upper().startswith("TABLE — "):
+            arch_table(d, s["title"][8:], items)
+        elif s["title"].upper().startswith("TIMELINE — "):
+            arch_timeline(d, s["title"][11:], items)
         elif sid in first_of_section and sec != "Opening":
             arch_section_title(d, sec)
         elif sec == "Opening":

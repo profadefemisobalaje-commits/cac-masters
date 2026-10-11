@@ -10,7 +10,7 @@
 import json, os, subprocess, sys, wave
 import numpy as np
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.environ.get("TBUPROJ") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SR = 44100
 FF = subprocess.run([sys.executable, "-c",
                      "import imageio_ffmpeg as f;print(f.get_ffmpeg_exe())"],

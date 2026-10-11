@@ -13,7 +13,7 @@ Scene block grammar:
 """
 import json, os, re, sys, glob
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.environ.get("TBUPROJ") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SCRIPT_DIR = os.path.join(ROOT, "script")
 OUT = os.path.join(ROOT, "out")
 

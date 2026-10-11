@@ -15,7 +15,7 @@ Placement model:
 """
 import json, os, subprocess, sys
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.environ.get("TBUPROJ") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 FF = subprocess.run([sys.executable, "-c",
                      "import imageio_ffmpeg as f;print(f.get_ffmpeg_exe())"],
                     capture_output=True, text=True).stdout.strip()

@@ -2,7 +2,7 @@
 """Closed captions (SRT) + storyboard (Markdown) from out/timeline.json."""
 import json, os, re
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.environ.get("TBUPROJ") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
 def ts(t):

@@ -11,7 +11,7 @@ Writes directly into a 3600 s float32 stereo mix:
 import json, os, wave
 import numpy as np
 
-ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ROOT = os.environ.get("TBUPROJ") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SR = 44100
 TOTAL = 3600.0
 rng = np.random.default_rng(7)
