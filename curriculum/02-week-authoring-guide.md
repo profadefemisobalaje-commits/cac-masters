@@ -9,7 +9,8 @@ adjustment. Derived from the two weeks built and measured so far.
 
 | Quantity | Target | Why |
 |---|---|---|
-| **Narration words** | **5,150 – 5,400** | Measured voice pace is 152 wpm. Below ~5,050 the assembler must stretch audio past 0.85× and the build warns; above ~5,450 it must speed up past 1.06× and the build refuses. |
+| **Narration characters** | **32,400 – 32,600** | The real budget, because characters predict synthesised duration far better than words do. Measured across the first three lectures the reference voice runs at 62.9, 64.0 and 61.9 ms/char (3% spread), while words per minute drifted 154 → 163 over the same three. |
+| Narration words | 5,250 – 5,600 | A rough cross-check only. Words vary with vocabulary: the same character count spans a wide band of word counts. |
 | Slides | 18 – 22 | ~275 words per slide. Fewer slides means longer stretches on one image. |
 | Spoken time | 2,032 – 2,130 s | The budget is 2,100 s minus per-slide padding. |
 | Implied tempo | 0.98 – 1.01 | Anything outside this means the narration needs editing, not the settings. |

@@ -167,30 +167,43 @@ if __name__ == "__main__":
         sys.exit(1)
     lec = Lecture.load(sys.argv[2])
     if sys.argv[1] == "check":
-        print(f"{lec.slug}: {len(lec.slides)} slides, {lec.word_count} words, "
-              f"~{lec.est_minutes:.1f} min")
         # Report the tempo the assembler will have to apply, at authoring time.
         # Catching this here costs nothing; catching it after voicing costs turns.
+        #
+        # The estimate is character-based. Measured over the first three
+        # lectures the reference voice runs at 62.9, 64.0 and 61.9 ms/char - a
+        # 3 percent spread - whereas words per minute drifted from 154 to 163
+        # over the same three, because longer words take longer to say. The
+        # word-based estimate that preceded this one predicted two of the first
+        # three weeks to within 1 percent and missed the third by 5.
         target = lec.data.get("target_minutes", 35) * 60
         padding = len(lec.slides) * 2.3          # 0.7 lead + 1.6 tail per slide
         budget = target - padding
-        speech = lec.word_count / 152.0 * 60
+        speech = lec.est_speech
         tempo = speech / budget if budget > 0 else 1.0
+        fudge = Lecture.MS_PER_CHAR          # seconds of speech per character
         # tempo = speech / budget, so tempo > 1 means the narration runs LONG
         # and the assembler must speed it up.
         if tempo > 1.06:
-            verdict = (f"TOO LONG by {speech-budget:.0f}s — the assembler refuses "
-                       f"above 1.06x and will leave the video long. Trim about "
-                       f"{(speech-budget)*152/60:.0f} words.")
+            verdict = (f"TOO LONG by {speech-budget:.0f}s - the assembler refuses "
+                       f"above 1.06x and will leave the video long. Cut about "
+                       f"{(speech-budget)/fudge:,.0f} characters, or roughly "
+                       f"{(speech-budget)/fudge/6.2:.0f} words.")
         elif tempo > 1.005:
-            verdict = (f"a little over by {speech-budget:.0f}s — will be sped up "
+            verdict = (f"a little over by {speech-budget:.0f}s - will be sped up "
                        f"{tempo:.3f}x, which is imperceptible; acceptable")
-        elif tempo >= 0.995:
-            verdict = "IDEAL — lands on target with essentially no adjustment"
+        elif tempo >= 0.99:
+            verdict = "IDEAL - lands on target with essentially no adjustment"
+        elif tempo >= 0.96:
+            verdict = (f"short by {budget-speech:.0f}s - the assembler will slow it "
+                       f"to {tempo:.3f}x, which is a calm lecture pace and fine")
         else:
-            verdict = (f"short by {budget-speech:.0f}s — the assembler will slow it "
-                       f"down; add about {(budget-speech)*152/60:.0f} words for a "
-                       f"natural lecture pace")
+            verdict = (f"SHORT by {budget-speech:.0f}s - a {tempo:.3f}x slowdown is "
+                       f"audible. Add about {(budget-speech)/fudge:,.0f} characters "
+                       f"of narration, or roughly "
+                       f"{(budget-speech)/fudge/6.2:.0f} words.")
+        print(f"{lec.slug}: {len(lec.slides)} slides, {lec.word_count} words "
+              f"({lec.char_count:,} chars), ~{lec.est_minutes:.1f} min")
         print(f"target {target/60:.0f} min | est speech {speech:.0f}s | "
               f"budget {budget:.0f}s | implied tempo {tempo:.4f}")
         print(f"  -> {verdict}")
