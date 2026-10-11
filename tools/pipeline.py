@@ -449,8 +449,18 @@ def main():
             continue
         out_mp4 = os.path.join(ROOT, "dist", f"lecture-{lec['no']:02d}.mp4")
         if os.path.exists(out_mp4) and os.path.getsize(out_mp4) > 10 * 1024 * 1024:
-            print(f"\n=== Lecture {lec['no']:02d}: {lec['title']} — already rendered, "
-                  f"skipping ===", flush=True)
+            # Rebuilds are expensive, so reuse the MP4; the companion script is
+            # cheap, so still (re)write it in case it is missing.
+            md_path = os.path.join(ROOT, "lectures", f"lecture-{lec['no']:02d}.md")
+            if not a.no_md and not os.path.exists(md_path):
+                print(f"\n=== Lecture {lec['no']:02d}: already rendered — "
+                      f"writing missing script ===", flush=True)
+                write_markdown(lec, {
+                    "no": lec["no"],
+                    "slides": len(lec["slides"]),
+                    "words": sum(len(s.get("narration", "").split())
+                                 for s in lec["slides"]),
+                })
             continue
         print(f"\n=== Lecture {lec['no']:02d}: {lec['title']} ===", flush=True)
         t0 = time.time()
