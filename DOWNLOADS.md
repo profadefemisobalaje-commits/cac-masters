@@ -40,4 +40,16 @@ git clone -b arena/70a529a2-cac-masters \
   https://github.com/profadefemisobalaje-commits/cac-masters.git
 ```
 
+## One single file
+
+`videos/IENRL-complete-course.mp4` — all twenty lectures joined into one
+continuous **9:59:14** video with 20 chapter markers, so you can jump straight
+to any lecture. Built by `tools/combine.py` (a remux, so it costs seconds).
+
+**This file is only in the workspace, not on GitHub.** GitHub rejects any file
+over 100 MB and the combined video is 352 MB; Git LFS would fix that but
+`git-lfs.github.com` is unreachable from this build sandbox. Download it from
+the preview server or the workspace file list. The twenty individual lectures
+above are each 17.7 MB and *are* on GitHub.
+
 The 56 MB masters are kept in `videos/hd/` in the workspace.
