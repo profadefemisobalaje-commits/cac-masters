@@ -8,7 +8,9 @@ const ROOT = process.env.VIDROOT
   : path.resolve(__dirname, '..', 'out', 'video');
 const PORT = parseInt(process.env.VIDPORT || '8000', 10);
 const MIME = { '.mp4': 'video/mp4', '.html': 'text/html; charset=utf-8',
-               '.jpg': 'image/jpeg', '.srt': 'text/plain; charset=utf-8',
+               '.jpg': 'image/jpeg', '.png': 'image/png', '.mp3': 'audio/mpeg',
+               '.json': 'application/json; charset=utf-8', '.ttf': 'font/ttf',
+               '.srt': 'text/plain; charset=utf-8', '.md': 'text/plain; charset=utf-8',
                '.vtt': 'text/vtt; charset=utf-8' };
 http.createServer((req, res) => {
   let p = decodeURIComponent(req.url.split('?')[0]);
