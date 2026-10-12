@@ -4,7 +4,7 @@ pipeline.py — End-to-end lecture production line.
     content/lecture-NN.json
         -> slides/lecture-NN/*.png      (broadcast 1920x1080 stills)
         -> build/lecture-NN/            (per-slide + master audio, .srt)
-        -> dist/lecture-NN.mp4          (30:00 lecture, soft subtitles)
+        -> videos/lecture-NN.mp4          (30:00 lecture, soft subtitles)
         -> lectures/lecture-NN.md       (reading companion / full script)
 
 Duration is calibrated automatically: narration is synthesised sentence by
@@ -39,7 +39,7 @@ BUMPER_S = 5.0           # branded bumper, silent
 END_HOLD = 7.0           # hold on the end card after the last words
 FPS = 24
 
-FFMPEG = os.path.join(ROOT, ".venv", "lib", "python3.11", "site-packages",
+FFMPEG = os.path.join(ROOT, "venv", "lib", "python3.11", "site-packages",
                       "imageio_ffmpeg", "binaries")
 FFMPEG = next((os.path.join(FFMPEG, f) for f in os.listdir(FFMPEG)
                if f.startswith("ffmpeg-")), "ffmpeg") if os.path.isdir(FFMPEG) else "ffmpeg"
@@ -269,8 +269,8 @@ def build(lecture: dict, workdir: str, keep_wav: bool = False,
         f.write(f"file '{entries[-1]}'\nduration 0.040\n")
         f.write(f"file '{entries[-1]}'\n")
 
-    os.makedirs(os.path.join(ROOT, "dist"), exist_ok=True)
-    out = os.path.join(ROOT, "dist", f"lecture-{no:02d}.mp4")
+    os.makedirs(os.path.join(ROOT, "videos"), exist_ok=True)
+    out = os.path.join(ROOT, "videos", f"lecture-{no:02d}.mp4")
     title = f"Lecture {no:02d} — {lecture['title']}"
     cmd = [
         FFMPEG, "-y", "-loglevel", "error", "-stats",
@@ -331,7 +331,7 @@ def write_markdown(lecture: dict, timing: dict) -> str:
     A(f"> **Lecturer:** {S.LECTURER}, {S.UNIVERSITY}  ")
     A(f"> **Duration:** 30 minutes · **Slides:** {timing['slides']} · "
       f"**Narration:** {timing['words']:,} words  ")
-    A(f"> **Video:** `dist/lecture-{no:02d}.mp4`")
+    A(f"> **Video:** `videos/lecture-{no:02d}.mp4`")
     A("")
     A("---")
     A("")
@@ -447,7 +447,7 @@ def main():
         lec = json.load(open(f, encoding="utf-8"))
         if wanted is not None and lec["no"] not in wanted:
             continue
-        out_mp4 = os.path.join(ROOT, "dist", f"lecture-{lec['no']:02d}.mp4")
+        out_mp4 = os.path.join(ROOT, "videos", f"lecture-{lec['no']:02d}.mp4")
         if os.path.exists(out_mp4) and os.path.getsize(out_mp4) > 10 * 1024 * 1024:
             # Rebuilds are expensive, so reuse the MP4; the companion script is
             # cheap, so still (re)write it in case it is missing.

@@ -6,7 +6,7 @@
 > **Module:** Module Two · Substantive Regimes  
 > **Lecturer:** Prof. Williams, TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION, USA  
 > **Duration:** 30 minutes · **Slides:** 17 · **Narration:** 3,464 words  
-> **Video:** `dist/lecture-10.mp4`
+> **Video:** `videos/lecture-10.mp4`
 
 ---
 

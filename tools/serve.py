@@ -5,7 +5,7 @@ serve.py — Static server for the lecture library, with HTTP Range support.
 
 Routes
     /                 -> site/
-    /video/<file>     -> dist/<file>        (MP4s, range-enabled, attachment on ?dl=1)
+    /video/<file>     -> videos/<file>        (MP4s, range-enabled, attachment on ?dl=1)
     /script/<file>    -> lectures/<file>    (markdown scripts)
 
 Files this size need Range requests: without them a browser cannot seek
@@ -29,7 +29,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 
 SITE = os.path.join(ROOT, "site")
-DIST = os.path.join(ROOT, "dist")
+DIST = os.path.join(ROOT, "videos")
 LECTURES = os.path.join(ROOT, "lectures")
 
 MIME = {

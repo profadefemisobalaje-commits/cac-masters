@@ -32,18 +32,30 @@ properly. Filenames come out clean, e.g.
 You can also pull a single file straight from `dist/`:
 
 ```
-dist/lecture-01.mp4 … dist/lecture-20.mp4
+videos/lecture-01.mp4 … videos/lecture-20.mp4
 ```
 
 ---
 
+## A warning about `.gitignore`
+
+Files listed in `.gitignore` are **not** captured in workspace snapshots. An
+earlier version of this repo ignored `*.mp4` and `dist/`, so every rendered
+lecture was silently discarded at the end of a session and had to be rebuilt
+from scratch. The videos now live in `videos/`, which is deliberately *not*
+ignored.
+
+Because `venv/` and `voices/` are also un-ignored (so they survive a rollover),
+**never run `git add -A` here** — add paths explicitly.
+
 ## Rebuilding
 
 ```bash
-pip install -r requirements.txt        # or use the existing .venv
-python tools/pipeline.py 1 2 3 … 20    # lectures that already have an MP4 are skipped
-python tools/site.py                   # regenerate site/index.html
-python tools/serve.py                  # serve the library
+python3 -m venv venv && venv/bin/pip install -r requirements.txt
+venv/bin/python tools/fetch_voice.py       # Piper voice, ~63 MB
+venv/bin/python tools/pipeline.py        # lectures that already have an MP4 are skipped
+venv/bin/python tools/site.py            # regenerate site/index.html
+venv/bin/python tools/serve.py           # serve the library
 ```
 
 Each lecture takes roughly 8–9 minutes: ~5 s of slide rendering, ~4.5 min of
@@ -59,7 +71,8 @@ text-to-speech, and ~5 min of encoding.
 | `tools/pipeline.py` | End-to-end build: slides → audio → subtitles → MP4 → script |
 | `tools/site.py` | Builds the course library page |
 | `tools/serve.py` | Static server with HTTP Range support |
-| `slides/`, `build/`, `dist/` | Generated: PNGs, WAV/SRT, MP4s |
+| `slides/`, `build/` | Generated: PNGs, WAV/SRT |
+| `videos/` | **The deliverable** — 20 MP4s, kept un-ignored so they persist |
 | `lectures/` | Markdown reading companion for each lecture |
 | `site/` | Generated `index.html` (symlinks `video/` → `dist/`, `script/` → `lectures/`) |
 

@@ -32,7 +32,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(HERE)
 
 DEFAULT_MODEL = os.path.join(
-    ROOT, "models", "piper", "joe_us_piper_voice", "data", "en_US-joe-medium.onnx"
+    ROOT, "voices", "piper", "joe_us_piper_voice", "data", "en_US-joe-medium.onnx"
 )
 
 BOS = "^"

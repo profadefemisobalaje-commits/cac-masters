@@ -6,7 +6,7 @@
 > **Module:** Module Four · Dispute Settlement and the Future  
 > **Lecturer:** Prof. Williams, TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION, USA  
 > **Duration:** 30 minutes · **Slides:** 17 · **Narration:** 3,703 words  
-> **Video:** `dist/lecture-16.mp4`
+> **Video:** `videos/lecture-16.mp4`
 
 ---
 

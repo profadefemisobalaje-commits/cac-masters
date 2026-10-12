@@ -1,27 +1,33 @@
+# IMPORTANT
+#   Files that are git-ignored are NOT captured in workspace snapshots, so
+#   anything the user needs to download must NOT be listed here. The MP4
+#   deliverables in videos/ are deliberately un-ignored. Never `git add -A`
+#   in this repo: add paths explicitly, or the venv and voice model end up
+#   in the commit.
+
 # ---- Python / tooling -----------------------------------------------------
-.venv/
 __pycache__/
 *.pyc
 *.egg-info/
 
-# ---- Models (downloadable / large) ---------------------------------------
-models/
-
-# ---- Generated media (regenerate with `python tools/pipeline.py`) ---------
+# ---- Intermediate build artefacts (regenerate with `python tools/pipeline.py`)
 slides/
 audio/
-dist/
 build/
-site/assets/video/
 *.wav
 *.mp3
-*.mp4
 *.srt
+
+# ---- Runtime deps and voice model ------------------------------------------
+# Left un-ignored on purpose so they survive a session rollover. Reproduce
+# them with:
+#   python3 -m venv venv && venv/bin/pip install -r requirements.txt
+#   python tools/fetch_voice.py
+# Do NOT add them to a commit.
+
+# ---- The deliverable -------------------------------------------------------
+# videos/*.mp4 is the course output and must remain downloadable.
 
 # ---- OS --------------------------------------------------------------------
 .DS_Store
 Thumbs.db
-
-# ---- Site (generated) ------------------------------------------------------
-site/video
-site/script

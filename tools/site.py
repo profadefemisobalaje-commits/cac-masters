@@ -2,7 +2,7 @@
 site.py — Build the course index page for the lecture series.
 
 Reads every content/lecture-NN.json, pairs it with whatever has actually been
-rendered into dist/ and written into lectures/, and emits a single static
+rendered into videos/ and written into lectures/, and emits a single static
 index.html under site/.
 
     python tools/site.py            -> site/index.html
@@ -27,7 +27,7 @@ sys.path.insert(0, HERE)
 import slides as S  # noqa: E402
 
 CONTENT = os.path.join(ROOT, "content")
-DIST = os.path.join(ROOT, "dist")
+DIST = os.path.join(ROOT, "videos")
 LECTURES = os.path.join(ROOT, "lectures")
 SLIDES = os.path.join(ROOT, "slides")
 
@@ -47,7 +47,7 @@ def _fmt_duration(path: str) -> str:
         import shutil
         ff = shutil.which("ffprobe")
         if not ff:
-            cand = os.path.join(ROOT, ".venv", "lib", "python3.11",
+            cand = os.path.join(ROOT, "venv", "lib", "python3.11",
                                 "site-packages", "imageio_ffmpeg", "binaries")
             if os.path.isdir(cand):
                 ff = next((os.path.join(cand, f) for f in os.listdir(cand)

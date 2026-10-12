@@ -6,7 +6,7 @@
 > **Module:** Module Three · Cross-Cutting Themes  
 > **Lecturer:** Prof. Williams, TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION, USA  
 > **Duration:** 30 minutes · **Slides:** 16 · **Narration:** 3,519 words  
-> **Video:** `dist/lecture-14.mp4`
+> **Video:** `videos/lecture-14.mp4`
 
 ---
 

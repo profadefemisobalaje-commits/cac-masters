@@ -61,7 +61,7 @@ def _font_dirs() -> List[str]:
     root = os.path.dirname(here)
     dirs = [os.path.join(root, "assets", "fonts")]
     dirs += sorted(glob.glob(
-        os.path.join(root, ".venv", "lib", "python*", "site-packages",
+        os.path.join(root, "venv", "lib", "python*", "site-packages",
                      "font_*", "files")))
     dirs += ["/usr/share/fonts/truetype/dejavu"]
     return [d for d in dirs if os.path.isdir(d)]

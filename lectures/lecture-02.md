@@ -6,7 +6,7 @@
 > **Module:** Module One · Foundations  
 > **Lecturer:** Prof. Williams, TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION, USA  
 > **Duration:** 30 minutes · **Slides:** 18 · **Narration:** 3,547 words  
-> **Video:** `dist/lecture-02.mp4`
+> **Video:** `videos/lecture-02.mp4`
 
 ---
 
