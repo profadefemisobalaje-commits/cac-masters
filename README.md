@@ -37,6 +37,23 @@ videos/lecture-01.mp4 … videos/lecture-20.mp4
 
 ---
 
+## Download editions
+
+| Set | Path | Per file | Total |
+|---|---|---|---|
+| **Download edition** | `videos/lecture-01.mp4` … `lecture-20.mp4` | ~17.7 MB | ~355 MB |
+| Masters | `videos/hd/lecture-01.mp4` … `lecture-20.mp4` | ~56 MB | ~1.1 GB |
+
+Both are 1920x1080 with soft English subtitles. The download edition is made
+by `tools/compact.py` and is three times smaller with no visible difference:
+the picture is a slide that changes every few minutes, so 24 fps is 24 copies
+of the same frame and 1 fps is informationally lossless; and the audio drops
+from 128 kbps to 64 kbps mono, which is imperceptible on speech.
+
+```bash
+venv/bin/python tools/compact.py     # videos/hd/*.mp4 -> videos/*.mp4
+```
+
 ## A warning about `.gitignore`
 
 Files listed in `.gitignore` are **not** captured in workspace snapshots. An
