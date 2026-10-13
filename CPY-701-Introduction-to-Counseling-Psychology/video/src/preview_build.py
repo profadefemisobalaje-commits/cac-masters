@@ -84,11 +84,32 @@ def week_entry(week, num, title, narrated):
 
 
 def main():
-    weeks = [
-        ('w01', 1, 'The Nature and Concept of Counseling Psychology', False),
-        ('w02', 2, 'Historical and Philosophical Development', False),
-        ('w03', 3, 'Relationship to Other Disciplines and Helping Professions', True),
-    ]
+    titles = {
+        'w01': (1, 'The Nature and Concept of Counseling Psychology'),
+        'w02': (2, 'Historical and Philosophical Development'),
+        'w03': (3, 'Relationship to Other Disciplines and Helping Professions'),
+        'w04': (4, 'Theoretical Orientations I: Psychodynamic, Humanistic and Existential'),
+        'w05': (5, 'Theoretical Orientations II: CBT, Constructivist, Systemic and Third-Wave'),
+        'w06': (6, 'The Counseling Process and Core Microskills'),
+        'w07': (7, 'The Counseling Relationship, Diversity and Multicultural Counseling'),
+        'w08': (8, 'Mid-Semester Assessment and Consolidation Seminar'),
+        'w09': (9, 'Assessment, Diagnosis and Case Formulation'),
+        'w10': (10, 'Prevention, Development and Psychoeducation'),
+        'w11': (11, 'Counseling Across Specialization Settings and Populations'),
+        'w12': (12, 'Group, Family and Crisis/Emergency Counseling'),
+        'w13': (13, 'Ethics, Law and Professional Regulation'),
+        'w14': (14, 'Research, Evidence-Based Practice and Technology'),
+        'w15': (15, 'The Counselor as Person and Professional'),
+        'w16': (16, 'Integration, Revision and Course Examination'),
+    }
+    weeks = []
+    for wid in sorted(titles, key=lambda k: int(k[1:])):
+        deck = os.path.join(DIST, 'slides', wid, 'manifest.json')
+        if not os.path.exists(deck):
+            continue
+        num, title = titles[wid]
+        narrated = os.path.exists(os.path.join(DIST, f'CPY701-{wid.upper()}-lecture.mp4'))
+        weeks.append((wid, num, title, narrated))
     data = {'course': 'CPY 701 · Introduction to Counseling Psychology',
             'programme': "Master's Degree in Counseling Psychology",
             'weeks': [week_entry(*w) for w in weeks]}

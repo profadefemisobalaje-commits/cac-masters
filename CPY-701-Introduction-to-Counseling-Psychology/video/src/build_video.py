@@ -38,16 +38,37 @@ def probe(path):
 def plan(week):
     man = json.load(open(os.path.join(DIST, 'slides', week, 'manifest.json')))
     slides = man['slides']
-    chunks, cur, cur_chars = [], [], 0
-    for s in slides:
-        n = s['narration'].strip()
-        if cur and cur_chars + 1 + len(n) > 1490:
-            chunks.append(cur); cur, cur_chars = [], 0
-        cur.append(s); cur_chars += (1 if cur_chars else 0) + len(n)
-    if cur:
-        chunks.append(cur)
+    # optimal partition of slide narrations into the fewest <=1490-char chunks
+    # (DP over prefix char counts); the TTS budget is 10 clips per turn
+    LIMIT = 1490
+    n = len(slides)
+    chars = [len(s['narration'].strip()) for s in slides]
+    pref = [0] * (n + 1)
+    for i in range(n):
+        pref[i + 1] = pref[i] + chars[i] + (1 if i else 0)
+    def segchars(a, b):  # slides[a:b]
+        return pref[b] - pref[a] - (1 if a > 0 else 0)
+    INF = float('inf')
+    dp = [INF] * (n + 1)
+    back = [-1] * (n + 1)
+    dp[0] = 0
+    for i in range(1, n + 1):
+        for j in range(i):
+            if segchars(j, i) <= LIMIT and dp[j] + 1 < dp[i]:
+                dp[i] = dp[j] + 1
+                back[i] = j
+    chunks = []
+    i = n
+    while i > 0:
+        j = back[i]
+        chunks.append(slides[j:i])
+        i = j
+    chunks.reverse()
     out = os.path.join(DIST, 'audio', week)
     os.makedirs(out, exist_ok=True)
+    for old in os.listdir(out):
+        if old.startswith('chunk-') and old.endswith('.txt'):
+            os.remove(os.path.join(out, old))
     plan_chunks = []
     for i, ch in enumerate(chunks, 1):
         text = ' '.join(s['narration'].strip() for s in ch)

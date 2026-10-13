@@ -39,7 +39,8 @@ Requirements: Node ≥ 18; Python ≥ 3.9 with `imageio-ffmpeg` (or system ffmpe
 | 1 | The Nature and Concept of Counseling Psychology | **Produced** (video + deck + captions) |
 | 2 | Historical and Philosophical Development | **Produced** (video + deck + captions) |
 | 3 | Relationship to Other Disciplines and Helping Professions | **Produced** (video + deck + captions) |
-| 4–16 | See `00-16-Week-Video-Outline.md` | Content outlined, production queued |
+| 4 | Theoretical Orientations I: Psychodynamic, Humanistic, Existential | **Produced** (video + deck + captions) |
+| 5–16 | See `00-16-Week-Video-Outline.md` | Content outlined, production queued |
 
 ## Preview player
 

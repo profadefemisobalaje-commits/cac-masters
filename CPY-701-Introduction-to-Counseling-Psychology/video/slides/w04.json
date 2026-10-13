@@ -1,0 +1,247 @@
+{
+  "week": 4,
+  "module": "Module B",
+  "title": "Theoretical Orientations I: Psychodynamic, Humanistic and Existential",
+  "slides": [
+    {
+      "layout": "title",
+      "slug": "title",
+      "kicker": "CPY 701 · Master's Degree in Counseling Psychology",
+      "title": "Theoretical Orientations I",
+      "subtitle": "Week 4 · Psychodynamic, humanistic-experiential and existential foundations",
+      "meta": [
+        "Week 4 of 16 · Module B: Core Frameworks",
+        "Narrated lecture video · 1920 × 1080",
+        "Assessment-linked: case conceptualisation assignment, continuous test (Week 8)"
+      ],
+      "footer": "Department of Counseling Psychology · First Semester",
+      "narration": "Welcome to week four of CPY 701, the first of two weeks on theoretical orientations. If weeks one to three told you who we are and where we sit, weeks four and five hand you the lenses through which counselors see a client. Today: three great families, the psychodynamic, the humanistic-experiential and the existential, from Freud's couch to Rogers's chair to Frankl's search for meaning. By the end you will explain each orientation's view of suffering, its engine of change, the counselor's stance and its signature techniques, and you will begin your first theory-informed case conceptualisation."
+    },
+    {
+      "layout": "bullets",
+      "slug": "outcomes",
+      "kicker": "Learning outcomes",
+      "title": "What you will be able to do by the end of this week",
+      "items": [
+        { "lead": "Explain", "text": "the key concepts, goals and techniques of psychodynamic, person-centred, Gestalt and existential counseling." },
+        { "lead": "Evaluate", "text": "the strengths, limitations and cultural fit of each orientation, including fit with Nigerian clients." },
+        { "lead": "Compare", "text": "their assumptions about human nature side by side." },
+        { "lead": "Produce", "text": "your first theory-informed case conceptualisation using the chain: data, lens, hypothesis, intervention, evaluation." }
+      ],
+      "narration": "Four outcomes. One, explain the key concepts, goals and techniques of psychodynamic, person-centred, Gestalt and existential counseling. Two, evaluate the strengths, limitations and cultural fit of each orientation, including fit with Nigerian clients. Three, compare their assumptions about human nature side by side. Four, produce your first theory-informed case conceptualisation using a structured chain: data, lens, hypothesis, intervention, evaluation. Hold on to outcome four; it is the skill that all the others serve."
+    },
+    {
+      "layout": "bullets",
+      "slug": "why-theory",
+      "kicker": "Purpose",
+      "title": "Theory as a map, and the conceptualisation chain",
+      "items": [
+        { "lead": "A theory is a map with a legend:", "text": "it tells you what to notice, what to ignore and what to do next, openly enough to be criticised." },
+        { "lead": "Without theory,", "text": "counseling is conversation with good intentions; with only one theory, it is a recipe applied to people who never read the cookbook." },
+        { "lead": "Our aim:", "text": "pluralism with coherence, several lenses held by one disciplined method." },
+        { "lead": "The chain:", "text": "gather data; choose a lens; hypothesise what maintains the suffering; select the intervention the hypothesis implies; evaluate whether help helped." },
+        { "lead": "Every orientation", "text": "you meet this week and next is a different way of filling links two and three of that chain." }
+      ],
+      "narration": "A theory is not a dogma; it is a map with a legend. It tells you what to notice, what to ignore and what to do next, and it declares its assumptions openly. Without theory, counseling becomes conversation with good intentions; with only one theory, it becomes a recipe applied to people who never read the cookbook. So we aim for pluralism with coherence: several lenses, one disciplined method. And here is the method, the conceptualisation chain you will use with every orientation: gather data; choose a lens; hypothesise what maintains the suffering; select the intervention the hypothesis implies; evaluate whether help helped. Five links. Every theory we meet this week and next is a different way of filling links two and three."
+    },
+    {
+      "layout": "cards",
+      "slug": "family-tree",
+      "kicker": "The family tree",
+      "title": "Six branches; three we climb this week",
+      "perRow": 3,
+      "cards": [
+        { "title": "Psychodynamic", "color": "#0B1B3A", "text": "Suffering as unconscious conflict and repeating relational patterns. THIS WEEK." },
+        { "title": "Humanistic-experiential", "color": "#0F766E", "text": "Suffering as blocked growth and disowned experience. THIS WEEK." },
+        { "title": "Existential", "color": "#9A3412", "text": "Suffering as confrontation with the givens of existence. THIS WEEK." },
+        { "title": "Behavioural-cognitive", "color": "#8A94A8", "text": "Suffering as learned and thinking patterns. Week 5." },
+        { "title": "Constructivist", "color": "#8A94A8", "text": "Suffering as story: narrative and solution-focused. Week 5." },
+        { "title": "Systemic", "color": "#8A94A8", "text": "Suffering as relationship and context: family systems. Week 5." }
+      ],
+      "narration": "Picture the family tree of counseling theories as six branches. This week we climb three. The psychodynamic branch: suffering as unconscious conflict and repeating relational patterns. The humanistic-experiential branch: suffering as blocked growth and disowned experience. The existential branch: suffering as confrontation with the givens of existence. Next week, three more: the behavioural-cognitive branch, suffering as learned and thinking patterns; the constructivist branch, suffering as story; and the systemic branch, suffering as relationship and context. Six branches, one tree: every branch attempts to explain how change happens. A mature counselor can name which branch they are standing on at any moment of a session."
+    },
+    {
+      "layout": "bullets",
+      "slug": "psychodynamic-concepts",
+      "kicker": "Orientation 1 · Psychodynamic",
+      "title": "Core concepts: conflict, defence, transference",
+      "items": [
+        { "lead": "The unconscious:", "text": "much of mental life is outside awareness, and nothing in the mind is accidental." },
+        { "lead": "Defences:", "text": "they protect against anxiety but distort reality and consume energy." },
+        { "lead": "Attachment and object relations:", "text": "early relationships template adult ones." },
+        { "lead": "Transference:", "text": "the client replays old relational patterns with you; not interference, but the most valuable data in the room." },
+        { "lead": "Countertransference:", "text": "your side of the same dance; a diagnostic instrument once examined, a hazard while unexamined." },
+        { "lead": "Suffering, in this lens:", "text": "conflict, wish against fear, love against hate, loyalty against freedom." }
+      ],
+      "narration": "Begin with psychodynamic thinking. Its claims: much of mental life is unconscious; psychic life is determined, so nothing in the mind is accidental; defences protect us from anxiety but distort reality and consume energy; early attachment and object relations template our adult relationships; and transference, the client replaying old relational patterns with you, is not interference but data, perhaps the most valuable data in the room. Countertransference, your side of the same dance, is a diagnostic instrument once examined and a hazard while unexamined. Suffering, in this lens, is conflict: wish against fear, love against hate, loyalty against freedom."
+    },
+    {
+      "layout": "flow",
+      "slug": "psychodynamic-line",
+      "kicker": "Orientation 1 · Method",
+      "title": "The psychodynamic line of work",
+      "steps": [
+        { "title": "Free association", "color": "#0B1B3A", "text": "Say whatever comes; the seams of the mind show at the edges." },
+        { "title": "Dreams & slips", "color": "#12264F", "text": "The unconscious speaks in compromise formations; listen for them." },
+        { "title": "Resistance", "color": "#0F766E", "text": "What the client avoids marks exactly where the work lives." },
+        { "title": "Transference work", "color": "#C9962E", "text": "The old pattern repeats live with you, and can be examined live." },
+        { "title": "Working through", "color": "#9A3412", "text": "Insight repeated until it becomes structure, not merely news." }
+      ],
+      "note": "Goal: insight and structural change. Brief psychodynamic therapies compress this into 20-40 sessions around a core conflictual relationship theme.",
+      "narration": "The classical technique follows a line. Free association: say whatever comes, and the seams will show. Dream analysis and slips: the unconscious speaks in compromise formations, so listen for them. Interpretation of resistance: what the client avoids marks exactly where the work lives. Transference work: the old pattern repeats live with you, and therefore can be examined live. And working through: insight repeated until it becomes structure, not merely news. The goal is insight and structural change, making the unconscious conscious so that the self can govern what once governed it. Contemporary brief psychodynamic therapies compress this into twenty to forty sessions around a core conflictual relationship theme, and that brief form is the version most worth knowing for practice today."
+    },
+    {
+      "layout": "bullets",
+      "slug": "psychodynamic-eval",
+      "kicker": "Orientation 1 · Evaluation",
+      "title": "Psychodynamic: strengths, limits, cultural fit",
+      "items": [
+        { "lead": "Strengths:", "text": "depth of meaning; explains repetition; a genuine evidence base for brief dynamic therapy in depression and some anxiety presentations; a sophisticated theory of the relationship itself." },
+        { "lead": "Limits:", "text": "classical form is long and costly; concepts resist measurement; progress can be hard to demonstrate to clients, funders and courts." },
+        { "lead": "Cultural assumptions:", "text": "an introspective, verbal, individual self; insight as virtue; candor as health. These are cultural positions, not universal facts." },
+        { "lead": "Local question:", "text": "whose meaning system defines insight here, and does the client share it?" }
+      ],
+      "callout": {
+        "label": "Practice note:",
+        "text": "brief psychodynamic work fits our settings far better than classical analysis; learn the brief form first."
+      },
+      "narration": "Evaluate honestly. Strengths: depth, because it explains meaning and repetition, the patterns clients recognise but cannot stop; a genuine evidence base for brief dynamic therapy in depression and some anxiety presentations; and a sophisticated theory of the relationship itself. Limits: the classical form is long and costly; its concepts resist measurement; and progress can be hard to demonstrate to clients, funders and courts. Cultural assumptions: an introspective, verbal, individual self; insight as virtue; verbal candor as health. These are cultural positions, not universal facts. With Nigerian clients, ask before assuming: whose meaning system defines insight here, and does the client share it? In practice, the brief psychodynamic form fits our settings far better than classical analysis; learn the brief form first."
+    },
+    {
+      "layout": "quote",
+      "slug": "freud-quote",
+      "quote": "Where id was, there ego shall be.",
+      "by": "Sigmund Freud · the psychodynamic ambition in six words",
+      "narration": "Freud condensed the whole project into six words: where id was, there ego shall be. Not the elimination of desire and conflict, but the enlargement of the part of the self that can look at them, name them and choose. Every later orientation either inherited that ambition or rebelled against it, and the first great rebellion is our second family this week."
+    },
+    {
+      "layout": "bullets",
+      "slug": "person-centred",
+      "kicker": "Orientation 2 · Person-centred",
+      "title": "Rogers: the conditions that carry change",
+      "items": [
+        { "lead": "Congruence:", "text": "the counselor is real and transparent within the relationship, not a mask." },
+        { "lead": "Unconditional positive regard:", "text": "prizing the person without making change the price of acceptance." },
+        { "lead": "Empathic understanding:", "text": "sensing the client's private world as if it were your own, without ever losing the as-if." },
+        { "lead": "The actualising tendency:", "text": "given these conditions, people move toward becoming; the client holds the map." },
+        { "lead": "Technique as discipline:", "text": "reflections that test your understanding moment by moment; the courage to stay non-directive when every fiber urges advice." }
+      ],
+      "narration": "Now the rebellion that became its own tradition. Rogers reversed the authority: the client, not the expert, holds the map of their own experience. Change occurs when certain conditions persist, and three carry the practice. Congruence: the counselor is real and transparent within the relationship, not a mask. Unconditional positive regard: prizing the person without making change the price of acceptance. Empathic understanding: sensing the client's private world as if it were your own, without ever losing the as-if. The actualising tendency does the rest: given these conditions, people move toward becoming. And technique here is not a set of tricks but a discipline: reflections that test your understanding moment by moment, and the courage to remain non-directive when every fiber urges advice."
+    },
+    {
+      "layout": "twocol",
+      "slug": "pc-caricature",
+      "kicker": "Orientation 2 · Clarification",
+      "title": "What person-centred is, and is not",
+      "left": {
+        "title": "It is",
+        "color": "#0F766E",
+        "items": [
+          "Disciplined presence; every reflection a hypothesis offered for correction",
+          "Silence chosen, not defaulted to",
+          "A commitment to the client's authority over their own life",
+          "A measured, research-born tradition: our field's first process research"
+        ]
+      },
+      "right": {
+        "title": "It is not",
+        "color": "#9A3412",
+        "items": [
+          "Permissiveness or the absence of method",
+          "Just listening while a client rambles",
+          "Naive optimism: Rogers welcomed disconfirmation",
+          "A refusal to influence; it is a refusal to replace the client's voice"
+        ]
+      },
+      "narration": "Let us clear the caricature. Person-centred work is not permissiveness, not the absence of method, not just listening while a client rambles. It is disciplined presence: every reflection is a hypothesis offered for correction; every silence is chosen, not defaulted to; and the non-directiveness is a commitment to the client's authority over their own life, which is harder than directing. Nor is it naive: Rogers measured his conditions, invited observation and welcomed disconfirmation. The person-centred tradition gave our field its first rigorous process research and, eventually, the common-factors evidence base that every orientation now shares."
+    },
+    {
+      "layout": "bullets",
+      "slug": "gestalt",
+      "kicker": "Orientation 2 · Gestalt",
+      "title": "Gestalt: awareness, experiment, ownership",
+      "items": [
+        { "lead": "Core concepts:", "text": "awareness as the engine of change; the here-and-now as the only place experience exists; figure and ground; unfinished business; contact boundaries such as introjection, projection, retroflection and confluence." },
+        { "lead": "Techniques as experiments:", "text": "the empty chair for dialogue with a person or a part; exaggeration of a gesture to hear its message; staying with the feeling rather than talking about it; dream work as lived scene." },
+        { "lead": "Goal:", "text": "integration and ownership; the client moves from it happens to me, to I do this." },
+        { "lead": "Caution:", "text": "experiments require consent, pacing and cultural care where emotional display is disciplined by norm." }
+      ],
+      "narration": "Gestalt therapy radicalises presence into experiment. Its concepts: awareness as the engine of change; the here-and-now as the only place experience exists; figure and ground, what emerges as urgent against the background of the field; unfinished business, unexpressed feeling that organises present contact; and contact boundaries, the styles by which we interrupt meeting. Its techniques are experiments, not prescriptions: the empty chair for dialogue with a person or a part; exaggeration of a gesture to hear its message; staying with the feeling rather than talking about it; dream work as lived scene. The goal is integration and ownership: the client moves from it happens to me, to I do this. It demands consent, pacing and cultural care."
+    },
+    {
+      "layout": "bullets",
+      "slug": "existential",
+      "kicker": "Orientation 3 · Existential",
+      "title": "The givens of existence and the courage to face them",
+      "items": [
+        { "lead": "The four givens (Yalom):", "text": "death; freedom and its responsibility; existential isolation; and the possibility of meaninglessness." },
+        { "lead": "Reframed anxiety:", "text": "not always a symptom to remove; sometimes an accurate perception of the human condition." },
+        { "lead": "Method:", "text": "phenomenological and Socratic exploration of how this person lives their givens: where they flee freedom, deny limits, or lose meaning." },
+        { "lead": "Logotherapy (Frankl):", "text": "the will to meaning and tragic optimism; even in unchangeable suffering, a stance can be chosen." },
+        { "lead": "Goals:", "text": "authenticity, responsibility, and a meaning the client can carry." }
+      ],
+      "narration": "The existential orientation begins not from pathology but from the givens of existence: death; freedom and its responsibility; existential isolation; and the possibility of meaninglessness. Yalom's point: psychopathology often arises from collision with these givens, so anxiety is sometimes not a symptom to remove but an accurate perception of the human condition. The counselor's work is phenomenological and Socratic: explore how this person lives their givens, where they flee freedom or deny limits. Frankl's logotherapy adds the will to meaning and tragic optimism: even in unchangeable suffering, a stance can be chosen. The goals are authenticity, responsibility, and a meaning the client can carry."
+    },
+    {
+      "layout": "table",
+      "slug": "four-orientations",
+      "kicker": "Comparison",
+      "title": "Four orientations side by side",
+      "cols": [
+        { "t": "Orientation", "w": 0.17 },
+        { "t": "View of suffering", "w": 0.21 },
+        { "t": "Engine of change", "w": 0.21 },
+        { "t": "Counselor's stance", "w": 0.20 },
+        { "t": "Signature technique", "w": 0.21 }
+      ],
+      "rows": [
+        ["Psychodynamic", "Unconscious conflict; repeating patterns", "Insight; working through transference", "Interpreter of the repeating pattern", "Free association; interpretation"],
+        ["Person-centred", "Blocked growth; conditions of worth", "The core conditions, persistently offered", "Real, prizing, empathic companion", "Accurate reflection of feeling and meaning"],
+        ["Gestalt", "Interrupted awareness; unfinished business", "Experiment in the here-and-now", "Active director of experiments", "Empty chair; exaggeration"],
+        ["Existential", "Collision with the givens of existence", "Courageous facing; meaning-making", "Fellow traveller and questioner", "Socratic exploration of the givens"]
+      ],
+      "note": "Each row also carries cultural assumptions; evaluate them, do not swallow them.",
+      "narration": "Set the four orientations of this week side by side and the differences become crisp. Psychodynamic: suffering as unconscious conflict; change through insight and the working through of transference; the counselor as interpreter of the repeating pattern; signature moves of free association and interpretation. Person-centred: suffering as blocked growth; change through the core conditions; the counselor as real, prizing, empathic companion; signature move of accurate reflection. Gestalt: suffering as interrupted awareness; change through experiment in the here-and-now; the counselor as active director of experiments; signature move of the empty chair. Existential: suffering as collision with the givens; change through courageous facing and meaning-making; the counselor as fellow traveller and questioner; signature move of Socratic exploration. Each row also carries cultural assumptions; evaluate them, do not swallow them."
+    },
+    {
+      "layout": "bullets",
+      "slug": "cultural-fit",
+      "kicker": "Critical evaluation",
+      "title": "Whose culture is inside these theories?",
+      "items": [
+        { "lead": "Psychodynamic:", "text": "assumes an introspective, verbal, individual self; insight as the prize." },
+        { "lead": "Person-centred:", "text": "self-direction can collide with hierarchical and communal expectations, yet warmth, prizing and empathy travel astonishingly well." },
+        { "lead": "Gestalt:", "text": "expressive experiments meet norms that discipline public feeling; consent and pacing become ethical necessities." },
+        { "lead": "Existential:", "text": "framed in a secular idiom, yet its questions of meaning, death and responsibility resonate with religious and communal worldviews, including African personhood-in-community." },
+        { "lead": "The standing rule:", "text": "test imported theory locally, adapt with transparency, and report what you learn." }
+      ],
+      "narration": "Now the question week two trained you to ask: whose culture is inside these theories? Psychodynamic thinking assumes an introspective, verbal, individual self, with insight as the prize. Person-centred assumptions of self-direction can collide with hierarchical and communal expectations, yet its conditions of warmth, prizing and empathy travel astonishingly well across cultures. Gestalt's expressive experiments meet norms that discipline public feeling, so consent and pacing become ethical necessities, not stylistic choices. Existentialism is framed in a secular idiom, yet its questions of meaning, death and responsibility resonate deeply with religious and communal worldviews, including African philosophies of personhood-in-community. The standing rule from week two holds: test imported theory locally, adapt with transparency, and report what you learn."
+    },
+    {
+      "layout": "summary",
+      "slug": "summary",
+      "title": "Week 4 in review",
+      "items": [
+        "Four orientations, four answers to why this person suffers and how change happens.",
+        "Psychodynamic: unconscious conflict, insight and the transference; person-centred: blocked growth and the core conditions.",
+        "Gestalt: interrupted awareness and present experiment; existential: the givens and courageous meaning-making.",
+        "Each orientation carries a counselor stance, a signature technique, and cultural assumptions to evaluate.",
+        "Above them all sits the conceptualisation chain: data, lens, hypothesis, intervention, evaluation."
+      ],
+      "narration": "Gather the week. Four orientations, four answers to the questions why does this person suffer and how does change happen: unconscious conflict and insight; blocked growth and the core conditions; interrupted awareness and present experiment; collision with the givens and courageous meaning-making. Each carries a stance for the counselor and a signature technique, and each carries cultural assumptions to be evaluated rather than swallowed. And above them all sits the chain that holds your practice together whatever the lens: data, lens, hypothesis, intervention, evaluation."
+    },
+    {
+      "layout": "task",
+      "slug": "task",
+      "kicker": "Before Week 5",
+      "title": "Applied task and next week",
+      "items": [
+        "Take the week-3 vignette, the 29-year-old teacher, and write four mini-conceptualisations, one per orientation this week: exactly three sentences each on what maintains the suffering, the counselor's stance, and the first intervention.",
+        "Then write one paragraph on the orientation you personally lean toward, answering a single question: what might it blind you to?",
+        "Bring both to the seminar; the four mini-conceptualisations feed directly into the week-9 formulation report."
+      ],
+      "next": "Week 5 · Theoretical orientations II: behavioural-cognitive, constructivist and systemic approaches, third-wave therapies, and the common-factors evidence that humbles them all.",
+      "narration": "Your task before week five. Take the week-three vignette, the twenty-nine-year-old teacher, and write four mini-conceptualisations, one per orientation from this week: exactly three sentences each on what maintains the suffering, what the counselor's stance is, and what the first intervention would be. Then write one paragraph on the orientation you personally lean toward, answering a single question: what might it blind you to? Bring both to the seminar; the four mini-conceptualisations feed directly into the week-nine formulation report. Next week: behavioural, cognitive, constructivist and systemic orientations, third-wave therapies, and the common-factors evidence that humbles them all. See you in week five."
+    }
+  ]
+}
