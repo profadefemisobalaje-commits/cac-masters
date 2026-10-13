@@ -1,0 +1,70 @@
+{
+  "code": "CAC.702",
+  "title": "Adolescent Development",
+  "sem": "First Semester",
+  "hours": 18,
+  "tagline": "Understanding the storm, the struggle, and the strength of adolescence.",
+  "welcome": "Adolescence is not a problem to be managed; it is a passage to be honored. This course teaches you to walk beside young people through one of life's most intense transformations.",
+  "vignette": "A fifteen-year-old who once loved debate now answers every question with a shrug. His grades slide, his friends change, his phone never sleeps. His father calls it rebellion. His counselor suspects a story underneath, and wonders which lens will reveal it.",
+  "vignette_attr": "A secondary-school referral, drawn from supervised practice",
+  "description": "An in-depth study of adolescent physical, cognitive, moral, and identity development. The course examines puberty and body image, formal and postformal thought, moral reasoning, identity and self-esteem, peer culture and the digital world, risk and resilience, and faith formation, preparing counselors to meet adolescents with developmental empathy rather than adult anxiety.",
+  "questions": [
+    "What is the adolescent actually trying to become?",
+    "How much of this behavior is stage, and how much is signal?",
+    "How do we hold authority and alliance at the same time?"
+  ],
+  "importance": [
+    "Adolescents are reached through respect for their emerging identity, not through control",
+    "Most adult mental health stories begin in adolescence; early skilled support changes them",
+    "The digital world has rewritten adolescent social life; counselors must be literate in it"
+  ],
+  "cases": [
+    "the fifteen-year-old whose shrug replaced a once-vivid voice",
+    "a thirteen-year-old whose online life is brilliant and whose offline life is fading",
+    "a seventeen-year-old standing at the edge of decisions that will echo for decades"
+  ],
+  "misconceptions": [
+    "that adolescent turmoil is abnormal, when a degree of storm is a normative part of individuation",
+    "that adolescents cannot engage in deep counseling, when they often engage more honestly than adults"
+  ],
+  "figures": [
+    ["Erik Erikson", "who named identity versus role confusion as the adolescent task"],
+    ["Jean Piaget", "whose formal operations open the door to abstract and moral thought"],
+    ["Lawrence Kohlberg", "who traced the development of moral reasoning through adolescence"]
+  ],
+  "settings": ["secondary schools", "youth and community programmes", "adolescent mental health services", "faith-based youth ministries"],
+  "outcomes": [
+    ["Map adolescent development across domains", "You will describe physical, cognitive, moral, and identity development in adolescence."],
+    ["Apply identity and moral development theories", "You will use Erikson, Marcia, and Kohlberg to understand real adolescents."],
+    ["Assess risk and protective factors", "You will weigh risk and resilience with structured, developmentally attuned tools."],
+    ["Engage adolescents with developmental empathy", "You will build alliance that honors autonomy while providing steady authority."],
+    ["Design developmentally appropriate plans", "You will shape interventions that fit the adolescent's stage and culture."],
+    ["Interpret digital life clinically", "You will assess how social media and screens shape identity and mood."]
+  ],
+  "modules": [
+    ["The Nature of Adolescence", 2, ["Defining the second decade", "Historical and cultural views of adolescence", "Storm and stress revisited"], "A clear definition frees you from both panic and dismissal."],
+    ["Puberty, Body Image, and Physical Change", 3, ["The timing and tempo of puberty", "Body image and self-concept", "Supporting adolescents through physical change"], "Puberty reshapes the self before the mind has words for it; counselors supply the words."],
+    ["Cognitive and Moral Development", 3, ["Formal and postformal operations", "Adolescent egocentrism and the personal fable", "Kohlberg and moral reasoning"], "Understanding adolescent logic prevents us from misreading it as defiance."],
+    ["Identity, Self-Esteem, and Personality", 3, ["Marcia's identity statuses", "Self-esteem and its sources", "Personality temperament in adolescence"], "Identity work is the central task; every intervention either aids or interrupts it."],
+    ["Peers, Culture, and the Digital World", 3, ["Peer groups, crowds, and belonging", "Social media and the curated self", "Culture, ethnicity, and adolescent identity"], "The peer and digital worlds are the adolescent's first society; we must know their rules."],
+    ["Risk, Resilience, and Positive Youth Development", 2, ["Assessing risk without stigma", "Protective factors and mentors", "Strengths-based youth development"], "We count strengths as carefully as risks, because strengths are what we build on."],
+    ["The Counseling Relationship with Adolescents", 2, ["Alliance, autonomy, and authority", "Confidentiality and its limits with minors", "Engaging reluctant adolescents"], "The relationship is the intervention; this module builds it deliberately."]
+  ],
+  "practicum": ["Practice centers on alliance and assessment with real adolescent dynamics.",
+    ["Adolescent interview practice with structured feedback",
+     "Risk-and-resilience mapping exercises",
+     "Youth-culture case discussions",
+     "A recorded alliance-building demonstration"]],
+  "assessment": ["Assessment tests both knowledge and relational skill.",
+    ["An adolescent profile case study",
+     "A developmental interview recording with reflection",
+     "Risk-resilience assessment portfolio",
+     "Module examinations"]],
+  "tips": ["Interview one adolescent this semester and listen more than you speak",
+    "Track one digital-cultural trend each week and note its emotional payload",
+    "Practice holding both authority and warmth in the same sentence"],
+  "integration": "This course grounds every adolescent-facing course that follows, from crisis intervention to substance abuse counseling. You cannot intervene well where you have not first understood.",
+  "faith": "Adolescence is often when faith becomes personal or is set aside. We approach that searching with reverence, walking with young people as they ask ultimate questions for themselves.",
+  "closing": "May you meet adolescents not as problems but as pilgrims, and may your presence make their passage safer.",
+  "style": {"layout": "split", "motif": "risingpath", "bg0": "#161226", "bg1": "#2A2050", "ink": "#EFEAF7", "acc": "#8E7CC3", "acc2": "#D98BC6"}
+}

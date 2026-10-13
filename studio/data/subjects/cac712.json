@@ -1,0 +1,156 @@
+{
+ "code": "CAC.712",
+ "title": "Behavioral Interventions",
+ "sem": "Second Semester",
+ "hours": 24,
+ "tagline": "Changing what can be changed, measurably.",
+ "welcome": "Behavior is communication and habit at once. This course teaches you to change it with precision, kindness, and data.",
+ "vignette": "A seven-year-old's tantrums last forty minutes and end the family's evenings. The parents are exhausted and blaming each other. A functional assessment reveals the pattern; a two-week plan changes the house. Behavior work is hope made operational.",
+ "vignette_attr": "A parent consultation, drawn from practice",
+ "description": "A practical course in behavioral theory and intervention with young people: functional behavioral assessment, reinforcement and extinction, token and contract systems, parent training principles, school-based behavior plans, and data-based decision making.",
+ "questions": [
+  "What is this behavior for?",
+  "Which consequence maintains it?",
+  "How do we change it without shaming the child?"
+ ],
+ "importance": [
+  "Behavior problems are the most common referral for children",
+  "Effective behavioral plans transform homes and classrooms",
+  "Data keeps intervention honest and adjustable"
+ ],
+ "misconceptions": [
+  "that behavioral methods are punishment, when they are overwhelmingly about teaching and reinforcing",
+  "that they ignore feelings, when function includes emotion and need"
+ ],
+ "figures": [
+  "B. F. Skinner",
+  "whose analysis of operant behavior underlies the field",
+  "Gerald Patterson",
+  "who mapped coercive family cycles and parent training",
+  "Robert Kazdin",
+  "who advanced evidence-based parent management training"
+ ],
+ "settings": [
+  "schools and classrooms",
+  "parent-training programmes",
+  "clinical child practice",
+  "home-based services"
+ ],
+ "outcomes": [
+  [
+   "Conduct functional behavioral assessments",
+   "You will identify function from interview, observation, and data."
+  ],
+  [
+   "Design reinforcement systems",
+   "You will build token, contract, and praise systems that work."
+  ],
+  [
+   "Apply extinction and replacement strategies",
+   "You will reduce problem behavior while teaching alternatives."
+  ],
+  [
+   "Coach parents in behavioral principles",
+   "You will train caregivers with clarity and empathy."
+  ],
+  [
+   "Build school-based behavior plans",
+   "You will write plans teachers can actually run."
+  ],
+  [
+   "Use data to decide",
+   "You will graph, review, and adjust intervention from data."
+  ]
+ ],
+ "modules": [
+  [
+   "Behavioral Foundations",
+   3,
+   [
+    "Respondent and operant principles",
+    "The three-term contingency"
+   ],
+   "The contingency is the atom of behavioral work."
+  ],
+  [
+   "Functional Behavioral Assessment",
+   4,
+   [
+    "Interview and observation",
+    "ABC data and function hypotheses"
+   ],
+   "Function first; intervention second."
+  ],
+  [
+   "Reinforcement, Extinction, and Replacement",
+   4,
+   [
+    "Differential reinforcement",
+    "Extinction bursts and ethics"
+   ],
+   "We reinforce what we want and teach what replaces what we don't."
+  ],
+  [
+   "Token, Contract, and Point Systems",
+   4,
+   [
+    "Designing classroom and home systems",
+    "Avoiding common failures"
+   ],
+   "A well-built system outlives the counselor's presence."
+  ],
+  [
+   "Parent Training and Coaching",
+   4,
+   [
+    "Coercion cycle and parent management",
+    "Coaching sessions"
+   ],
+   "Parents are the true interventionists; we coach them."
+  ],
+  [
+   "Data, Graphs, and Decision Making",
+   5,
+   [
+    "Single-case design",
+    "Adjusting from data"
+   ],
+   "Data is how we respect the child enough to be accurate."
+  ]
+ ],
+ "practicum": [
+  "Practice is applied and measured.",
+  [
+   "A full functional assessment of a real case",
+   "Design and run a token system",
+   "Parent-coaching role-plays",
+   "Data-graphing labs"
+  ]
+ ],
+ "assessment": [
+  "Assessment is case and data based.",
+  [
+   "A functional assessment report",
+   "A behavior intervention plan with data plan",
+   "Parent-training demonstration",
+   "Behavioral theory examination"
+  ]
+ ],
+ "tips": [
+  "Define the behavior so two strangers could count it",
+  "Reinforce before you restrict",
+  "Graph weekly; decide from the curve"
+ ],
+ "integration": "Behavioral competence supports school, family, and clinical work across the programme.",
+ "faith": "We shape behavior with patience and praise, believing every child can learn new ways.",
+ "closing": "May your plans be precise and your patience long, and may homes be changed one reinforced step at a time.",
+ "style": {
+  "layout": "band",
+  "motif": "steps",
+  "bg0": "#122416",
+  "bg1": "#1E4023",
+  "ink": "#F0F7EC",
+  "acc": "#6FBF5A",
+  "acc2": "#E4C566"
+ }
+}

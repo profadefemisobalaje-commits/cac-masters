@@ -1,0 +1,156 @@
+{
+ "code": "CAC.721",
+ "title": "Research Methodology",
+ "sem": "Third Semester",
+ "hours": 20,
+ "tagline": "From question to design: building your own inquiry.",
+ "welcome": "This course moves you from reading research to designing it. Your questions about young people deserve rigorous answers; here is how to build them.",
+ "vignette": "A student notices that her school's mindfulness program seems to help some students and not others. She turns that observation into a question, a design, and a plan. Research methodology is the bridge from curiosity to contribution.",
+ "vignette_attr": "A student's emerging inquiry, drawn from supervision",
+ "description": "An advanced course in research methodology for the counseling researcher: formulating research questions and hypotheses, quantitative and qualitative design, sampling and measurement, ethics and consent with minors, data collection and basic analysis, and writing a method section.",
+ "questions": [
+  "What makes a question researchable?",
+  "Which design best answers my question, ethically?",
+  "How do I protect young participants while I learn from them?"
+ ],
+ "importance": [
+  "Your thesis and future practice depend on sound method",
+  "Method rigor is an ethical obligation to participants",
+  "The field advances one careful study at a time"
+ ],
+ "misconceptions": [
+  "that methodology is statistics, when it is the logic of valid inference",
+  "that qualitative is soft, when it is rigorously systematic"
+ ],
+ "figures": [
+  "Donald Campbell",
+  "whose work on validity and design remains foundational",
+  "Barbara Tashakkori",
+  "who advanced mixed methods",
+  "Kenneth Kidder",
+  "whose qualitative rigor shaped the field"
+ ],
+ "settings": [
+  "thesis and dissertation work",
+  "programme evaluation",
+  "clinical research literacy",
+  "future doctoral study"
+ ],
+ "outcomes": [
+  [
+   "Formulate researchable questions",
+   "You will turn observations into precise questions."
+  ],
+  [
+   "Choose appropriate designs",
+   "You will match design to question and ethics."
+  ],
+  [
+   "Plan sampling and measurement",
+   "You will select samples and instruments validly."
+  ],
+  [
+   "Apply research ethics with minors",
+   "You will design consent and protection into studies."
+  ],
+  [
+   "Outline data collection and analysis",
+   "You will plan quantitative or qualitative analysis coherently."
+  ],
+  [
+   "Write a method section",
+   "You will produce a clear, replicable method."
+  ]
+ ],
+ "modules": [
+  [
+   "From Curiosity to Question",
+   3,
+   [
+    "Observation and question formation",
+    "Variables and hypotheses"
+   ],
+   "A good question is half the study."
+  ],
+  [
+   "Quantitative Designs",
+   4,
+   [
+    "Experimental and survey designs",
+    "Validity threats revisited"
+   ],
+   "Design determines what you may claim."
+  ],
+  [
+   "Qualitative Designs",
+   4,
+   [
+    "Phenomenology, grounded theory, case study",
+    "Rigor in qualitative work"
+   ],
+   "Qualitative design makes meaning systematic."
+  ],
+  [
+   "Sampling, Measurement, and Ethics",
+   3,
+   [
+    "Samples and instruments",
+    "Consent and assent with minors"
+   ],
+   "Ethics is designed in, not bolted on."
+  ],
+  [
+   "Data Collection and Basic Analysis",
+   3,
+   [
+    "Collection protocols",
+    "Intro to analysis paths"
+   ],
+   "Analysis follows from design and question."
+  ],
+  [
+   "Writing the Method",
+   3,
+   [
+    "The method section",
+    "Replicability"
+   ],
+   "Write so a stranger could repeat you."
+  ]
+ ],
+ "practicum": [
+  "Practice is designing your own study.",
+  [
+   "A research question and design workshop",
+   "An ethics and consent plan",
+   "A measurement selection exercise",
+   "A full method-section draft"
+  ]
+ ],
+ "assessment": [
+  "Assessment is your emerging study.",
+  [
+   "A research proposal with method section",
+   "An ethics application draft",
+   "Design critique participation",
+   "Methodology examination"
+  ]
+ ],
+ "tips": [
+  "Pilot everything on two people first",
+  "Choose the smallest design that answers the question",
+  "Write the method before you collect a single datum"
+ ],
+ "integration": "Methodology directly feeds your Master Thesis and lifelong scholarly practice.",
+ "faith": "We pursue knowledge with integrity, as stewards of the truths entrusted to us.",
+ "closing": "May your questions be worthy and your methods sound, and may your inquiry serve the young.",
+ "style": {
+  "layout": "split",
+  "motif": "network",
+  "bg0": "#101A22",
+  "bg1": "#1D3140",
+  "ink": "#EFF4F6",
+  "acc": "#5AA7C7",
+  "acc2": "#E0B36A"
+ }
+}

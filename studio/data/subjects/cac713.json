@@ -1,0 +1,156 @@
+{
+ "code": "CAC.713",
+ "title": "School Counseling Practices",
+ "sem": "Second Semester",
+ "hours": 20,
+ "tagline": "The school is the front line of child mental health.",
+ "welcome": "Most children meet a counselor only at school. This course prepares you to be that counselor: skilled, systemic, and present.",
+ "vignette": "A school counselor's day: a suicidal disclosure at 8:40, a teacher consultation at 9:15, a parent call at noon, a classroom lesson at 1:00, and a grief group at 3:00. The role is vast. This course gives it structure and skill.",
+ "vignette_attr": "A school counselor's day, drawn from practice",
+ "description": "A course in the practice of school counseling with children and adolescents: the comprehensive school counseling model, classroom guidance, individual and group counseling in schools, consultation with teachers and parents, crisis response, college and career development, and ethical-legal issues in schools.",
+ "questions": [
+  "How do I serve the whole school and the one child at once?",
+  "What is my role in the teacher's classroom?",
+  "How do I balance confidentiality with school safety?"
+ ],
+ "importance": [
+  "Schools reach nearly every child, including the unreferred",
+  "The school counselor is a mental-health first responder",
+  "Effective school counseling improves climate and outcomes"
+ ],
+ "misconceptions": [
+  "that school counseling is scheduling and discipline support, when it is a clinical and developmental profession",
+  "that individual counseling is the whole job, when the model is comprehensive"
+ ],
+ "figures": [
+  "Norman Gysbers",
+  "whose comprehensive model organized the profession",
+  "Carol Dweck",
+  "whose mindset research informs guidance curriculum",
+  "The ASCA framework architects",
+  "whose national model sets standards"
+ ],
+ "settings": [
+  "primary and secondary schools",
+  "school counseling suites",
+  "district counseling services",
+  "educational agencies"
+ ],
+ "outcomes": [
+  [
+   "Apply the comprehensive school counseling model",
+   "You will plan curriculum, individual, and system services."
+  ],
+  [
+   "Deliver classroom guidance",
+   "You will teach developmental lessons with skill."
+  ],
+  [
+   "Counsel individuals and groups in schools",
+   "You will run brief, effective school-based counseling."
+  ],
+  [
+   "Consult with teachers and parents",
+   "You will influence the adults around the child."
+  ],
+  [
+   "Respond to school crisis",
+   "You will act within the school crisis team."
+  ],
+  [
+   "Navigate school ethics and law",
+   "You will manage confidentiality, consent, and safety in school."
+  ]
+ ],
+ "modules": [
+  [
+   "The Comprehensive Model",
+   3,
+   [
+    "Curriculum, planning, and system support",
+    "The counselor's identity"
+   ],
+   "The model turns busyness into mission."
+  ],
+  [
+   "Classroom Guidance and Curriculum",
+   3,
+   [
+    "Designing lessons",
+    "Delivering with presence"
+   ],
+   "The classroom is your largest counseling room."
+  ],
+  [
+   "Individual and Group Counseling in Schools",
+   4,
+   [
+    "Brief counseling models",
+    "School groups"
+   ],
+   "School counseling is brief but not shallow."
+  ],
+  [
+   "Consultation with Teachers and Parents",
+   3,
+   [
+    "The consultant stance",
+    "Difficult conversations"
+   ],
+   "You multiply yourself through the adults."
+  ],
+  [
+   "Crisis and Safety in Schools",
+   3,
+   [
+    "The counselor on the crisis team",
+    "Suicide response in school"
+   ],
+   "Schools need your clinical skill most in crisis."
+  ],
+  [
+   "Ethics, Law, and the School Counselor",
+   4,
+   [
+    "Confidentiality and minors in school",
+    "Records and rights"
+   ],
+   "The school setting sharpens every ethical edge."
+  ]
+ ],
+ "practicum": [
+  "Practice is school-embedded.",
+  [
+   "A classroom guidance lesson taught and reviewed",
+   "Consultation role-plays",
+   "A comprehensive program audit",
+   "Crisis-team simulation"
+  ]
+ ],
+ "assessment": [
+  "Assessment is applied and programmatic.",
+  [
+   "A guidance lesson demonstration",
+   "A consultation case write-up",
+   "A comprehensive program plan",
+   "School counseling examination"
+  ]
+ ],
+ "tips": [
+  "Keep a weekly map of whole-school, group, and individual time",
+  "Build teacher alliances; they refer and reinforce",
+  "Know your district's legal protocols cold"
+ ],
+ "integration": "School practice integrates every clinical skill with systems work.",
+ "faith": "We serve where the children are, bringing steadiness to the schoolhouse.",
+ "closing": "May every school you serve be safer and kinder because you are in it.",
+ "style": {
+  "layout": "hero",
+  "motif": "lamp",
+  "bg0": "#101C2E",
+  "bg1": "#1C3450",
+  "ink": "#F4F1E6",
+  "acc": "#D9A441",
+  "acc2": "#7FB2D9"
+ }
+}

@@ -1,0 +1,157 @@
+{
+  "courses": [
+    {
+      "code": "CAC.701",
+      "title": "Fundamentals of Counseling Theories",
+      "semester": "First Semester",
+      "hours": 18,
+      "tagline": "The maps every counselor carries into the therapy room.",
+      "description": "A rigorous survey of the major systems of psychotherapy, from psychoanalytic and Adlerian foundations through person-centered, Gestalt, reality, and contemporary cognitive, behavioral, and integrative models, each examined for its view of the child and the adolescent.",
+      "outcomes": [
+        "Explain the major schools of counseling theory",
+        "Compare key concepts across each theoretical system",
+        "Analyze how each theory treats child and adolescent care",
+        "Begin shaping your own integrative counseling framework",
+        "Apply theory to real young-client case vignettes"
+      ],
+      "modules": [
+        ["Foundations and History of Counseling Theory", 2],
+        ["Psychoanalytic and Psychodynamic Approaches", 3],
+        ["Adlerian and Humanistic Approaches", 3],
+        ["Person-Centered, Gestalt and Existential Work", 3],
+        ["Cognitive and Behavior Therapies", 3],
+        ["Contemporary, Integrative and Faith-Sensitive Models", 2],
+        ["Building Your Personal Theory of Practice", 2]
+      ],
+      "practicum": "Theory-to-practice case seminars, live demonstration analyses, and guided reflective journals.",
+      "assessment": "Theory comparison matrix, recorded integrative case formulation, and a comprehensive examination.",
+      "style": ["hero", "laurel", "#0A1A2F", "#142B4C", "#F2E8D5", "#C9A227", "#8FB3D9"]
+    },
+    {
+      "code": "CAC.701*",
+      "title": "Child Development Theories",
+      "semester": "First Semester",
+      "hours": 18,
+      "tagline": "From first steps to first identities.",
+      "description": "A developmental journey through infancy, early childhood, and middle childhood, integrating Piaget, Erikson, Vygotsky, and Bowlby with contemporary neuroscience, attachment research, and the cultural contexts that shape every growing child.",
+      "outcomes": [
+        "Describe milestones across all domains of child development",
+        "Apply Piaget, Erikson, Vygotsky and Bowlby in practice",
+        "Interpret attachment patterns in clinical settings",
+        "Distinguish typical development from early warning signs",
+        "Use developmentally informed intake and assessment tools"
+      ],
+      "modules": [
+        ["Foundations of Developmental Science", 2],
+        ["Infancy: Attachment and Early Bonds", 3],
+        ["Early Childhood: Play, Language and Self", 3],
+        ["Middle Childhood: Cognition and Social Worlds", 3],
+        ["Family, Culture and Developmental Contexts", 3],
+        ["Neuroscience of the Developing Brain", 2],
+        ["Developmental Assessment of the Child", 2]
+      ],
+      "practicum": "Observation studies, developmental milestone charting, and attachment-pattern case laboratories.",
+      "assessment": "Milestone analysis portfolio, child observation report, and a developmental case study.",
+      "style": ["band", "growth", "#26201A", "#4A3620", "#FBF3E4", "#E0912F", "#5FA98F"]
+    },
+    {
+      "code": "CAC.702",
+      "title": "Adolescent Development",
+      "semester": "First Semester",
+      "hours": 18,
+      "tagline": "Understanding the storm, the struggle, and the strength of adolescence.",
+      "description": "An in-depth study of adolescent physical, cognitive, moral, and identity development, addressing risk and resilience, peer culture, digital life, family transitions, and faith formation, and preparing counselors to walk with adolescents through one of life's most intense passages.",
+      "outcomes": [
+        "Map adolescent development across every major domain",
+        "Apply identity and moral development theories in counseling",
+        "Assess adolescent risk and protective factors",
+        "Engage adolescent clients with developmental empathy",
+        "Design developmentally appropriate counseling plans"
+      ],
+      "modules": [
+        ["The Nature of Adolescence", 2],
+        ["Puberty, Body Image and Physical Change", 3],
+        ["Cognitive and Moral Development", 3],
+        ["Identity, Self-Esteem and Personality", 3],
+        ["Peers, Culture and the Digital World", 3],
+        ["Risk, Resilience and Positive Youth Development", 2],
+        ["The Counseling Relationship with Adolescents", 2]
+      ],
+      "practicum": "Adolescent interview practice, risk-and-resilience mapping, and youth-culture case discussions.",
+      "assessment": "Adolescent profile case study, developmental interview recording, and module examinations.",
+      "style": ["split", "risingpath", "#161226", "#2A2050", "#EFEAF7", "#8E7CC3", "#D98BC6"]
+    },
+    {
+      "code": "CAC.703",
+      "title": "Ethics in Counseling",
+      "semester": "First Semester",
+      "hours": 16,
+      "tagline": "The conscience of competent practice.",
+      "description": "A comprehensive study of professional ethics in counseling with children and adolescents: confidentiality and its limits, consent and assent, boundaries, mandated reporting, dual relationships, and culturally humble, faith-informed ethical decision-making.",
+      "outcomes": [
+        "Master the major counseling ethics codes and standards",
+        "Apply structured ethical decision-making models",
+        "Navigate confidentiality and consent with minors",
+        "Recognize and respond to mandated reporting duties",
+        "Build safeguards against boundary violations"
+      ],
+      "modules": [
+        ["Foundations of Professional Ethics", 2],
+        ["Ethical Decision-Making Models", 3],
+        ["Confidentiality, Consent and Assent", 3],
+        ["Boundaries and Dual Relationships", 2],
+        ["Mandated Reporting and Child Protection", 3],
+        ["Multicultural, Legal and Faith Perspectives", 3]
+      ],
+      "practicum": "Ethical dilemma simulation labs and structured case-consultation exercises.",
+      "assessment": "Ethics decision case portfolio and a comprehensive ethics examination.",
+      "style": ["card", "scales", "#1C1014", "#36121E", "#F5E9E4", "#B8860B", "#C65A5A"]
+    },
+    {
+      "code": "CAC.704",
+      "title": "Counseling Techniques and Skills",
+      "semester": "First Semester",
+      "hours": 24,
+      "tagline": "Where compassion becomes clinical skill.",
+      "description": "The flagship skills laboratory of the program: microskills training, the structure of the counseling session, empathy and advanced attending, working alliances with children, adolescents, and caregivers, and deliberate practice with feedback until skill becomes habit.",
+      "outcomes": [
+        "Demonstrate core microskills with fluency",
+        "Structure counseling sessions from opening to closing",
+        "Build strong alliances with young clients and caregivers",
+        "Use self-awareness as a clinical instrument",
+        "Respond effectively to resistance and silence"
+      ],
+      "modules": [
+        ["The Microskills Hierarchy", 3],
+        ["Attending, Empathy and Advanced Listening", 4],
+        ["Session Structure and Helping Skills", 4],
+        ["Questions, Confrontation and Immediacy", 3],
+        ["Building Alliance with Children and Adolescents", 4],
+        ["Deliberate Practice Laboratory", 3],
+        ["Skills Integration and Live Review", 3]
+      ],
+      "practicum": "Recorded microskills laboratories with structured faculty feedback and live supervision.",
+      "assessment": "Recorded skills demonstrations rated with standardized microskills rubrics.",
+      "style": ["band", "bridge", "#0C1F1A", "#144034", "#EFF7F0", "#2E8B6E", "#C6A15B"]
+    },
+    {
+      "code": "CAC.705",
+      "title": "Group Counseling for Children and Adolescents",
+      "semester": "First Semester",
+      "hours": 20,
+      "tagline": "Healing in the circle.",
+      "description": "The theory and practice of therapeutic groups with young people: group stages and dynamics, screening and composition, play-based and expressive formats, school-based groups, and leading groups for grief, social skills, anger, and anxiety.",
+      "outcomes": [
+        "Design developmentally appropriate counseling groups",
+        "Facilitate every stage of the group process",
+        "Screen and compose groups for young clients",
+        "Manage group dynamics and difficult moments",
+        "Evaluate group counseling outcomes"
+      ],
+      "modules": [
+        ["Foundations of Group Work with Young People", 3],
+        ["Group Dynamics and Developmental Stages", 3],
+        ["Screening, Composition and Preparation", 2],
+        ["Play-Based and Expressive Group Formats", 4],
+        ["School-Based Group Programs", 3],
+        [

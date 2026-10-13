@@ -1,0 +1,156 @@
+{
+ "code": "CAC.716",
+ "title": "Mindfulness and Stress Reduction",
+ "sem": "Third Semester",
+ "hours": 18,
+ "tagline": "Teaching the young mind to rest in the present.",
+ "welcome": "Mindfulness is attention trained with kindness. This course teaches you to practice it yourself and to teach it to young people.",
+ "vignette": "Before a test, a thirteen-year-old's heart races and her mind races faster. Her counselor teaches her to name five things she can see. The panic does not vanish, but it loosens. That loosening is the skill.",
+ "vignette_attr": "A pre-test anxiety moment, drawn from practice",
+ "description": "A course in mindfulness-based approaches with children and adolescents: the science of attention and stress, formal and informal mindfulness practices, age-adapted teaching, applications to anxiety and self-regulation, and building a personal contemplative practice.",
+ "questions": [
+  "What does attention have to do with mental health?",
+  "How do I teach stillness to a child who cannot sit?",
+  "How is mindfulness adapted across age and culture?"
+ ],
+ "importance": [
+  "Youth anxiety is widespread and attention is trainable",
+  "Mindfulness skills are portable and low-cost for young people",
+  "Counselors who practice are more present and less burned out"
+ ],
+ "misconceptions": [
+  "that mindfulness is blank-mindedness, when it is vivid present-moment awareness",
+  "that it requires long meditation, when micro-practices work with children"
+ ],
+ "figures": [
+  "Jon Kabat-Zinn",
+  "who brought mindfulness into clinical settings",
+  "Mark Williams",
+  "who advanced mindfulness-based cognitive therapy",
+  "Daniel Siegel",
+  "who linked mindfulness, brain, and development"
+ ],
+ "settings": [
+  "schools and classrooms",
+  "clinical practice with youth",
+  "stress-reduction programmes",
+  "personal and professional self-care"
+ ],
+ "outcomes": [
+  [
+   "Explain the science of attention and stress",
+   "You will describe how mindfulness affects regulation and stress."
+  ],
+  [
+   "Practice core mindfulness methods",
+   "You will sustain a personal practice with competence."
+  ],
+  [
+   "Teach age-adapted mindfulness",
+   "You will lead practices children and teens can engage."
+  ],
+  [
+   "Apply mindfulness to anxiety and regulation",
+   "You will use practices within clinical plans."
+  ],
+  [
+   "Adapt for culture and development",
+   "You will teach inclusively across ages and backgrounds."
+  ],
+  [
+   "Model a contemplative stance",
+   "You will embody the calm you teach."
+  ]
+ ],
+ "modules": [
+  [
+   "Attention, Stress, and the Science",
+   3,
+   [
+    "The stress response",
+    "Attention and the present moment"
+   ],
+   "Science grounds the practice beyond trend."
+  ],
+  [
+   "Core Practices: Breath, Body, Sound",
+   3,
+   [
+    "Formal practices",
+    "Informal daily practices"
+   ],
+   "The basics, done simply, are enough to begin."
+  ],
+  [
+   "Teaching Mindfulness to Children",
+   3,
+   [
+    "Playful and concrete methods",
+    "Short practices that stick"
+   ],
+   "Children learn mindfulness through doing and imagery."
+  ],
+  [
+   "Teaching Mindfulness to Adolescents",
+   3,
+   [
+    "Secular, relevant framing",
+    "Peer and digital-age adaptations"
+   ],
+   "Teens need relevance, not ritual."
+  ],
+  [
+   "Clinical Applications",
+   3,
+   [
+    "Anxiety, rumination, and self-regulation",
+    "Integrating with CBT and trauma care"
+   ],
+   "Mindfulness augments, and sometimes anchors, treatment."
+  ],
+  [
+   "The Counselor's Own Practice",
+   3,
+   [
+    "Building a sustainable practice",
+    "Presence and burnout"
+   ],
+   "You cannot teach what you do not practice."
+  ]
+ ],
+ "practicum": [
+  "Practice is experiential and personal.",
+  [
+   "A personal practice log across the course",
+   "Leading practices with peers and feedback",
+   "Age-adapted lesson design",
+   "A clinical integration case"
+  ]
+ ],
+ "assessment": [
+  "Assessment blends practice and teaching.",
+  [
+   "A recorded mindfulness lesson for a chosen age",
+   "Personal practice reflection portfolio",
+   "Clinical application case",
+   "Mindfulness science examination"
+  ]
+ ],
+ "tips": [
+  "Practice daily, even five minutes",
+  "Teach shorter than feels comfortable",
+  "Let your own calm be the first lesson"
+ ],
+ "integration": "Mindfulness enriches your clinical toolkit and sustains your professional life.",
+ "faith": "Stillness before God and stillness of mind are friends; we teach presence as a gift.",
+ "closing": "May you carry a quiet center into every room, and may many young minds learn to rest.",
+ "style": {
+  "layout": "hero",
+  "motif": "lotus",
+  "bg0": "#182420",
+  "bg1": "#2A4038",
+  "ink": "#F0F5EF",
+  "acc": "#8FBF9F",
+  "acc2": "#D9C58A"
+ }
+}

@@ -1,0 +1,91 @@
+{
+  "code": "CAC.701",
+  "title": "Fundamentals of Counseling Theories",
+  "sem": "First Semester",
+  "hours": 18,
+  "tagline": "The maps every counselor carries into the therapy room.",
+  "welcome": "You are about to meet the great systems of thought that have shaped a century of helping, and to discover which of them will live in your hands when a distressed child sits across from you.",
+  "vignette": "A nine-year-old boy refuses to speak in his third session. His drawings have grown darker. His teacher reports outbursts no one can explain. Your supervisor asks a single question: which theory is guiding your next move, and why?",
+  "vignette_attr": "An intake moment, drawn from supervised practice",
+  "description": "This course surveys the major systems of psychotherapy with one focus held constant throughout: the child and the adolescent. We will study psychoanalytic and psychodynamic thought, Adlerian and humanistic approaches, person-centered, Gestalt, and existential work, the cognitive and behavioral family, and contemporary integrative and faith-sensitive models. For each system you will learn its view of human nature, its theory of change, its techniques, and its limits with young clients.",
+  "cases": [
+    "the nine-year-old who stopped speaking, whose drawings we will learn to read",
+    "a fourteen-year-old whose anger protects a grief she cannot name",
+    "a family whose love is real but whose patterns wound, and who must learn new ones"
+  ],
+  "misconceptions": [
+    "that theory is academic decoration, when in fact every intervention you will ever choose is a theory in action",
+    "that one favorite approach can serve every child, when the evidence and the ethics both demand a wider repertoire"
+  ],
+  "questions": [
+    "What must we believe about a child before we can truly help that child?",
+    "How does a theory of change become a session plan on a difficult afternoon?",
+    "Can a counselor hold several theories and still practice with integrity?"
+  ],
+  "figures": [
+    ["Sigmund Freud", "whose depth psychology taught clinicians to listen beneath the spoken word"],
+    ["Carl Rogers", "who demonstrated that a disciplined, empathic relationship is itself an engine of change"],
+    ["Aaron Beck", "whose cognitive model gave counseling a testable architecture for understanding distress"]
+  ],
+  "settings": [
+    "community mental health clinics",
+    "school counseling suites",
+    "faith-based counseling ministries",
+    "private practice rooms designed for young clients"
+  ],
+  "faith": "As a biblical university, we hold that every theory must be examined with the same seriousness we bring to Scripture: tested, discerned, and put to loving use. Counseling a child is a profoundly moral act, and this course will ask you to integrate competence with conviction, so that your skill serves a vocation rather than a career.",
+  "importance": [
+    "Theory is the counselor's map; without it, empathy wanders and technique drifts into guesswork",
+    "Every clinical decision you will ever justify, from play to confrontation, rests on theoretical ground",
+    "Accrediting bodies and employers expect master's-level counselors to reason theoretically, not merely technically"
+  ],
+  "outcomes": [
+    ["Explain the major schools of counseling theory", "You will describe the founding figures, core concepts, and historical movement of each system with academic precision."],
+    ["Compare key concepts across theoretical systems", "You will set theories side by side, view of human nature against view of human nature, and defend the comparison."],
+    ["Analyze each theory's fit with young clients", "You will evaluate strengths, cultural limits, and developmental cautions of every approach with children and adolescents."],
+    ["Begin an integrative counseling framework", "You will draft your own working model of practice, coherent and defensible, ready to mature across the degree."],
+    ["Apply theory to real case vignettes", "You will take an unseen case and produce goals, methods, and a rationale drawn from a named theoretical position."],
+    ["Reason with professional and ethical humility", "You will know where each theory ends and where referral, consultation, or supervision must begin."]
+  ],
+  "modules": [
+    ["Foundations and History of Counseling Theory", 2,
+     ["Why theories exist and what they do for clinicians", "The moral and pastoral roots of modern helping", "How to read a theory: assumptions, change mechanisms, evidence"],
+     "Before we meet the individual systems, we must learn what a theory actually is, so you never mistake a slogan for a framework."],
+    ["Psychoanalytic and Psychodynamic Approaches", 3,
+     ["Freud's structural model and its modern revisions", "Defense mechanisms observable in child sessions", "Object relations, attachment, and the play of transference"],
+     "Depth psychology taught generations of clinicians to listen beneath the words; with children, its legacy lives in play and symbol."],
+    ["Adlerian and Humanistic Approaches", 3,
+     ["Inferiority, striving, and the child's private logic", "Birth order, family constellation, and lifestyle assessment", "Maslow, Rogers, and the actualizing tendency in young people"],
+     "Adlerian thought remains one of the most practical lenses for schools and families, and humanism guards the dignity of every young client."],
+    ["Person-Centered, Gestalt, and Existential Work", 3,
+     ["The six conditions of therapeutic personality change", "Contact, awareness, and unfinished business in adolescents", "Meaning, freedom, and anxiety developmentally understood"],
+     "These traditions teach presence itself as technique, the hardest skill in the room and the one young clients detect most quickly."],
+    ["Cognitive and Behavior Therapies", 3,
+     ["Classical and operant foundations of behavior change", "Cognitive distortions in child and adolescent form", "The third wave: mindfulness, acceptance, and schema-aware work"],
+     "The evidence base for youth anxiety, depression, and conduct difficulties leans heavily here, so your literacy must be deep and critical."],
+    ["Contemporary, Integrative, and Faith-Sensitive Models", 2,
+     ["Common factors research and what actually heals", "Principled eclecticism versus theoretical integration", "Counseling that honors the spiritual life of the client"],
+     "This is where the field is moving, and where a distinctly Christian university must think carefully, charitably, and rigorously."],
+    ["Building Your Personal Theory of Practice", 2,
+     ["Mapping your assumptions about human nature and change", "Drafting an integrative model with safeguards", "Presenting and defending your framework to peers"],
+     "The course culminates in your own written framework, the document that will quietly guide every practicum that follows."]
+  ],
+  "practicum": ["Practice lives in three structures woven through the eighteen hours of lecture.",
+    ["Theory-to-practice case seminars dissecting recorded demonstrations",
+     "Vignette laboratories: unseen cases answered from a named theory",
+     "Reflective journals tracking your evolving theoretical identity",
+     "A supervised mock-intake integrating theory choice with ethics"]],
+  "assessment": ["Assessment mirrors professional life: formulation, defense, and examination.",
+    ["A theory comparison matrix across all major systems",
+     "A recorded integrative case formulation with written rationale",
+     "Seminar participation and reflective journal portfolio",
+     "A comprehensive examination covering every theoretical family"]],
+  "tips": [
+    "Study theories in pairs, comparing as you go; contrast is how memory works",
+    "After every module, write one paragraph on how that theory would treat the boy who would not speak",
+    "Build your personal framework document early and revise it every week"
+  ],
+  "integration": "This course is the trunk of the tree. Child and adolescent development will give you the clients these theories must serve; ethics will govern how you use them; techniques and skills will put them into your hands. Nothing in your remaining semesters stands independent of this foundation.",
+  "closing": "May these maps serve you well, and may you always remember that behind every theory stands a real child waiting to be understood.",
+  "style": {"layout": "hero", "motif": "laurel", "bg0": "#0A1A2F", "bg1": "#142B4C", "ink": "#F2E8D5", "acc": "#C9A227", "acc2": "#8FB3D9"}
+}

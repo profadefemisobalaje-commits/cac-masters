@@ -1,0 +1,165 @@
+{
+ "code": "CAC.709",
+ "title": "Crisis Intervention Strategies",
+ "sem": "Second Semester",
+ "hours": 24,
+ "tagline": "Steady hands for the worst hours.",
+ "welcome": "In a crisis, a young person borrows your calm. This course builds that calm into skill, so you can act decisively when minutes matter.",
+ "vignette": "At 9 p.m. a text arrives from a sixteen-year-old client: 'I can't do this anymore.' Three words, no name, no location. The counselor's training activates: assess, stabilize, mobilize. This course is what makes those verbs reliable.",
+ "vignette_attr": "An after-hours crisis contact, drawn from practice",
+ "description": "A rigorous training in crisis theory and intervention with children and adolescents: risk and suicide assessment, de-escalation and stabilization, safety planning, mobilizing families and schools, postvention, and the counselor's own regulation under pressure.",
+ "questions": [
+  "How do I assess lethal risk with a minor, clearly and kindly?",
+  "What stabilizes a dysregulated young person in the room?",
+  "Who must be mobilized, and how do I keep the client's trust?"
+ ],
+ "importance": [
+  "Youth suicide and crisis presentations are rising; counselors are first responders",
+  "Crisis competence is the most scrutinized skill in child practice",
+  "A good crisis response can end a chain of tragedy permanently"
+ ],
+ "misconceptions": [
+  "that asking about suicide plants the idea, when asking directly is protective",
+  "that crisis work is improvisation, when it is highly structured and trainable"
+ ],
+ "figures": [
+  "Gerald Caplan",
+  "who founded modern crisis theory",
+  "David Jobes",
+  "whose collaborative assessment and stabilization model saved lives",
+  "Jeffrey Young-Eisendrath",
+  "who advanced adolescent suicide postvention"
+ ],
+ "settings": [
+  "emergency and mobile crisis teams",
+  "schools and universities",
+  "hotlines and crisis lines",
+  "clinical on-call practice"
+ ],
+ "outcomes": [
+  [
+   "Conduct structured risk assessment",
+   "You will assess suicide and harm risk with validated, collaborative methods."
+  ],
+  [
+   "De-escalate and stabilize",
+   "You will use regulation and grounding to bring a crisis down in the room."
+  ],
+  [
+   "Build safety plans that hold",
+   "You will co-author safety plans a young person will actually use."
+  ],
+  [
+   "Mobilize systems around the child",
+   "You will engage family, school, and care with clarity and consent."
+  ],
+  [
+   "Respond after a death or traumatic event",
+   "You will apply postvention and psychological first aid."
+  ],
+  [
+   "Regulate yourself under pressure",
+   "You will keep your own physiology and judgment steady."
+  ]
+ ],
+ "modules": [
+  [
+   "The Nature of Crisis in Young People",
+   3,
+   [
+    "Crisis theory and models",
+    "Epidemiology of youth crisis"
+   ],
+   "A clear model turns alarm into method."
+  ],
+  [
+   "Suicide and Risk Assessment",
+   4,
+   [
+    "Collaborative assessment",
+    "Lethal means and risk factors"
+   ],
+   "Assessment is a conversation, not a checklist."
+  ],
+  [
+   "De-escalation and Stabilization",
+   4,
+   [
+    "Co-regulation and grounding",
+    "The dysregulated adolescent"
+   ],
+   "Stabilization is physiology before psychology."
+  ],
+  [
+   "Safety Planning and Lethal Means Counseling",
+   3,
+   [
+    "The safety plan that works",
+    "Involving caregivers"
+   ],
+   "A good plan is specific, personal, and rehearsed."
+  ],
+  [
+   "Mobilizing Family, School, and Care",
+   3,
+   [
+    "Consent, confidentiality, and duty",
+    "Coordinated care pathways"
+   ],
+   "The child is held by a system; we activate it."
+  ],
+  [
+   "Postvention and Psychological First Aid",
+   3,
+   [
+    "After a suicide or trauma",
+    "School-wide response"
+   ],
+   "Postvention is prevention for the next crisis."
+  ],
+  [
+   "The Counselor Under Pressure",
+   4,
+   [
+    "Self-regulation and rehearsal",
+    "Debriefing and vicarious trauma"
+   ],
+   "Your steadiness is the intervention; we train it deliberately."
+  ]
+ ],
+ "practicum": [
+  "Practice is simulated at full intensity.",
+  [
+   "Risk-assessment role-plays with standardized clients",
+   "De-escalation simulations with live coaching",
+   "Safety-plan construction labs",
+   "Crisis debriefing exercises"
+  ]
+ ],
+ "assessment": [
+  "Assessment tests performance under simulated pressure.",
+  [
+   "A recorded risk-assessment demonstration",
+   "A timed stabilization simulation",
+   "Safety-plan portfolio",
+   "Crisis theory examination"
+  ]
+ ],
+ "tips": [
+  "Rehearse your first five minutes until automatic",
+  "Memorize your local crisis and referral pathways",
+  "Debrief every crisis; never carry one alone"
+ ],
+ "integration": "Crisis competence crowns your clinical training and is assumed in internship and practice.",
+ "faith": "We stand with young people in their darkest hour as witnesses of hope that is disciplined, not sentimental.",
+ "closing": "May your calm be a shelter, and may no young person face their worst hour alone.",
+ "style": {
+  "layout": "band",
+  "motif": "beacon",
+  "bg0": "#200A0C",
+  "bg1": "#3E1216",
+  "ink": "#F8ECEA",
+  "acc": "#E2543E",
+  "acc2": "#F2B25C"
+ }
+}

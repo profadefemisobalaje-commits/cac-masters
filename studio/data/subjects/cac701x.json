@@ -1,0 +1,70 @@
+{
+  "code": "CAC.701*",
+  "title": "Child Development Theories",
+  "sem": "First Semester",
+  "hours": 18,
+  "tagline": "From first steps to first identities.",
+  "welcome": "You will learn to watch a child the way a master clinician watches: seeing the milestone inside the moment, and the meaning inside the play.",
+  "vignette": "A four-year-old in the corner of her classroom arranges the same three dolls in the same silent scene every morning. Her teacher wonders if it is just a habit. You wonder what the scene is saying, and which theory helps you listen.",
+  "vignette_attr": "A preschool observation, drawn from supervised practice",
+  "description": "This course traces human development from infancy through middle childhood, integrating Piaget's cognitive stages, Erikson's psychosocial crises, Vygotsky's sociocultural lens, and Bowlby and Ainsworth's attachment research, together with contemporary developmental neuroscience. Each theory is examined for what it reveals about typical growth and what it flags as early warning.",
+  "questions": [
+    "What is a child capable of at each age, and how do we know?",
+    "When is a variation simply difference, and when is it a signal?",
+    "How does relationship itself build the developing brain?"
+  ],
+  "importance": [
+    "Every counseling decision with a child is checked against what is developmentally expected",
+    "Early recognition of delay or distress changes a child's entire trajectory",
+    "Parents and teachers trust counselors who can explain development clearly and kindly"
+  ],
+  "cases": [
+    "the four-year-old whose silent doll scene repeats every morning",
+    "an infant whose distress no caregiver seems able to soothe",
+    "a nine-year-old whose confidence quietly collapsed after a school change"
+  ],
+  "misconceptions": [
+    "that development is a fixed ladder every child climbs at the same pace, when it is a dynamic, culturally shaped process",
+    "that theory is irrelevant to little children, when in fact infancy research is among the most theory-rich in the field"
+  ],
+  "figures": [
+    ["Jean Piaget", "who mapped the stages by which children construct thought itself"],
+    ["Erik Erikson", "who traced the psychosocial crises that shape identity across the lifespan"],
+    ["John Bowlby", "whose attachment theory revealed the bond as the architecture of security"]
+  ],
+  "settings": ["early childhood centers", "pediatric and family clinics", "school counseling offices", "parent-education programmes"],
+  "outcomes": [
+    ["Describe milestones across developmental domains", "You will chart physical, cognitive, emotional, and social milestones from infancy to middle childhood."],
+    ["Apply Piaget, Erikson, Vygotsky, and Bowlby", "You will use each theorist's framework to interpret real observations of real children."],
+    ["Interpret attachment patterns clinically", "You will recognize secure and insecure patterns and their implications for counseling."],
+    ["Distinguish typical development from warning signs", "You will separate normative variation from indicators that merit assessment or referral."],
+    ["Use developmentally informed assessment tools", "You will select and apply intake and observation tools matched to a child's stage."],
+    ["Communicate development to caregivers", "You will translate developmental science into language parents can use with confidence."]
+  ],
+  "modules": [
+    ["Foundations of Developmental Science", 2, ["How developmental research is designed and read", "Nature, nurture, and their constant interplay", "Culture and context in every milestone"], "A clear foundation keeps you from misreading any single theory as the whole truth."],
+    ["Infancy: Attachment and Early Bonds", 3, ["Bowlby and Ainsworth's attachment framework", "The strange situation and its patterns", "Caregiver attunement and brain development"], "The first year sets the relational template every later therapy partly revisits."],
+    ["Early Childhood: Play, Language, and Self", 3, ["Piaget's preoperational world", "Play as the child's language", "Emerging self, autonomy, and initiative"], "Play is the child's native tongue; this module teaches you to be fluent in it."],
+    ["Middle Childhood: Cognition and Social Worlds", 3, ["Concrete operations and industry", "Peer relationships and competence", "School as a developmental arena"], "Middle childhood is where confidence is built or quietly lost; counselors must see both."],
+    ["Family, Culture, and Developmental Contexts", 3, ["Family systems around the growing child", "Cultural variation in milestones and meaning", "Poverty, adversity, and protective factors"], "No child develops in a vacuum; context is not background, it is part of the child."],
+    ["Neuroscience of the Developing Brain", 2, ["Experience-expectant and experience-dependent growth", "Stress, toxic stress, and regulation", "What neuroscience does and does not justify"], "Neuroscience humbles and empowers the counselor; we will keep its claims precise."],
+    ["Developmental Assessment of the Child", 2, ["Observation and milestone charting", "Screening instruments and their limits", "Writing a developmental summary"], "Assessment turns observation into a clear, kind, actionable picture for the family."]
+  ],
+  "practicum": ["Practice is built around careful observation and clear communication.",
+    ["Structured child observation studies with milestone charting",
+     "Attachment-pattern case laboratories",
+     "Caregiver consultation role-plays translating development into plain language",
+     "A developmental summary written for a real family context"]],
+  "assessment": ["Assessment blends accuracy with communication skill.",
+    ["A milestone analysis portfolio across the age range",
+     "A child observation report with theoretical interpretation",
+     "A developmental case study with referral reasoning",
+     "Module quizzes and a comprehensive examination"]],
+  "tips": ["Pair each theorist with one real child you know and test the theory against that child",
+    "Keep a milestone chart beside your notes and annotate it each week",
+    "Practice explaining one developmental idea to a parent in ninety seconds"],
+  "integration": "This course feeds directly into play therapy, assessment, and psychopathology. You cannot counsel a child you cannot read, and this course teaches you to read development fluently.",
+  "faith": "We believe every child is fearfully and wonderfully made, and that understanding how a child unfolds is a form of honoring that design. Science and reverence meet in careful, loving observation.",
+  "closing": "May you watch children with new eyes, and may what you see always serve what they need.",
+  "style": {"layout": "band", "motif": "growth", "bg0": "#26201A", "bg1": "#4A3620", "ink": "#FBF3E4", "acc": "#E0912F", "acc2": "#5FA98F"}
+}

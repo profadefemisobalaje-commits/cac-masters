@@ -1,0 +1,165 @@
+{
+ "code": "CAC.707",
+ "title": "Play Therapy Techniques",
+ "sem": "First Semester",
+ "hours": 24,
+ "tagline": "Play is the child's language; toys are the words.",
+ "welcome": "Children do not sit and talk; they play and show. This course teaches you to enter their world fluently and therapeutically.",
+ "vignette": "A six-year-old buries the baby doll in the sand tray, uncovers it, and buries it again, three times. Then she looks up, not for permission, but for a witness. The play therapist understands: something has been said, and heard.",
+ "vignette_attr": "A sandtray moment, drawn from supervised practice",
+ "description": "A comprehensive training in play therapy: its history and major models, the therapeutic powers of play, child-centered play therapy skills, directive and expressive techniques, sandtray and art-based methods, limit-setting, and tracking across a course of treatment.",
+ "questions": [
+  "What is the child saying through play?",
+  "When do I follow and when do I lead?",
+  "How do I hold safety and freedom in one room?"
+ ],
+ "importance": [
+  "Play is developmentally the child's natural medium of expression",
+  "Evidence supports play therapy for trauma, anxiety, and behavior",
+  "Without play skills, a counselor is partly blind with children"
+ ],
+ "misconceptions": [
+  "that play therapy is just playing, when it is a disciplined clinical method",
+  "that it is only for little children, when play and expressive methods reach adolescents too"
+ ],
+ "figures": [
+  "Virginia Axline",
+  "whose child-centered principles defined the field",
+  "Garry Landreth",
+  "who systematized child-centered play therapy training",
+  "Charles Schaefer",
+  "who named the therapeutic powers of play"
+ ],
+ "settings": [
+  "play therapy rooms",
+  "schools and clinics",
+  "trauma and child-protection services",
+  "private practice with children"
+ ],
+ "outcomes": [
+  [
+   "Apply the major play therapy models",
+   "You will distinguish and use child-centered and directive approaches."
+  ],
+  [
+   "Demonstrate core child-centered skills",
+   "You will track, reflect, and return responsibility with fluency."
+  ],
+  [
+   "Use directive and expressive techniques",
+   "You will select structured interventions matched to the child."
+  ],
+  [
+   "Facilitate sandtray and art-based work",
+   "You will hold a symbolic process with skill and restraint."
+  ],
+  [
+   "Set limits therapeutically",
+   "You will hold safety without shaming the child."
+  ],
+  [
+   "Track and document a course of treatment",
+   "You will record play themes and progress across sessions."
+  ]
+ ],
+ "modules": [
+  [
+   "History and Models of Play Therapy",
+   3,
+   [
+    "Origins and evidence",
+    "Child-centered versus directive"
+   ],
+   "Knowing the models keeps your choices deliberate."
+  ],
+  [
+   "The Therapeutic Powers of Play",
+   3,
+   [
+    "Expression, access, working-through, relationship",
+    "How play heals"
+   ],
+   "The powers explain why the method works."
+  ],
+  [
+   "Child-Centered Play Therapy Skills",
+   4,
+   [
+    "Tracking and reflecting",
+    "Returning responsibility and esteem"
+   ],
+   "These skills are the bedrock of the room."
+  ],
+  [
+   "Directive and Expressive Techniques",
+   4,
+   [
+    "Structured interventions",
+    "Mutual storytelling and release techniques"
+   ],
+   "Directive tools target what the child brings."
+  ],
+  [
+   "Sandtray and Art-Based Methods",
+   4,
+   [
+    "The sandtray process",
+    "Art as expression and assessment"
+   ],
+   "Symbolic methods reach pre-verbal and buried material."
+  ],
+  [
+   "Limit-Setting and the Therapeutic Environment",
+   3,
+   [
+    "The ACT model of limit-setting",
+    "Room setup and materials"
+   ],
+   "Safety and freedom share the same room."
+  ],
+  [
+   "Treatment Course, Parents, and Documentation",
+   3,
+   [
+    "Stages of play therapy",
+    "Parent involvement and records"
+   ],
+   "Treatment is a journey, not an event."
+  ]
+ ],
+ "practicum": [
+  "Practice is supervised and experiential.",
+  [
+   "Recorded child-centered sessions with feedback",
+   "Sandtray and art experientials",
+   "Limit-setting role-plays",
+   "A play-therapy case portfolio"
+  ]
+ ],
+ "assessment": [
+  "Assessment is performance and portfolio based.",
+  [
+   "Recorded child-centered demonstration",
+   "A directive technique demonstration",
+   "Sandtray process analysis",
+   "Play therapy written examination"
+  ]
+ ],
+ "tips": [
+  "Practice tracking until it is effortless",
+  "Let the child lead more than feels comfortable",
+  "Hold the parent as an ally of the play"
+ ],
+ "integration": "Play therapy is the signature clinical method for children in this programme.",
+ "faith": "We enter the child's world with the reverence of a guest, honoring play as their sacred language.",
+ "closing": "May you learn the child's language so well that no child is left without words.",
+ "style": {
+  "layout": "hero",
+  "motif": "puzzle",
+  "bg0": "#241634",
+  "bg1": "#3E2458",
+  "ink": "#F6EFF9",
+  "acc": "#E270B5",
+  "acc2": "#F7C948"
+ }
+}

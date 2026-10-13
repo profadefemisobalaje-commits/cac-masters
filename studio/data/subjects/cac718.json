@@ -1,0 +1,156 @@
+{
+ "code": "CAC.718",
+ "title": "Consultation in School Settings",
+ "sem": "Third Semester",
+ "hours": 16,
+ "tagline": "Helping the helpers, reaching the child.",
+ "welcome": "Through consultation, one counselor strengthens many adults, and through them, many children. This course makes you a skilled consultant.",
+ "vignette": "A teacher says a nine-year-old is 'impossible' and wants him removed. The consultant reframes: the child is stuck, not bad, and offers two strategies to try. Weeks later the teacher reports the room has changed. Consultation multiplied the counselor's reach.",
+ "vignette_attr": "A teacher consultation, drawn from practice",
+ "description": "A course in consultation as a core counseling function in schools: consultation models and process, building consultative relationships, teacher and parent consultation, classroom-based strategies, program-level consultation, and evaluating consultation outcomes.",
+ "questions": [
+  "How do I influence an adult without authority over them?",
+  "How do I keep the child at the center of adult conversations?",
+  "How do I know consultation worked?"
+ ],
+ "importance": [
+  "Consultation reaches children the counselor never sees",
+  "Teachers and parents are the daily change agents",
+  "Effective consultation improves whole-school climate"
+ ],
+ "misconceptions": [
+  "that consultation is giving advice, when it is a collaborative process",
+  "that it is secondary to counseling, when it is a primary vehicle of impact"
+ ],
+ "figures": [
+  "Jane Conoley",
+  "who advanced school consultation research",
+  "William Doherty",
+  "whose work informs family-school collaboration",
+  "The collaborative problem-solving developers",
+  "who structured teacher consultation"
+ ],
+ "settings": [
+  "schools and districts",
+  "teacher and parent consultation",
+  "programme development",
+  "community agencies"
+ ],
+ "outcomes": [
+  [
+   "Apply consultation models",
+   "You will use process models with fidelity."
+  ],
+  [
+   "Build consultative alliances",
+   "You will join with teachers and parents respectfully."
+  ],
+  [
+   "Conduct problem-solving consultation",
+   "You will move from complaint to plan with an adult."
+  ],
+  [
+   "Design classroom-based strategies",
+   "You will craft feasible, evidence-informed strategies."
+  ],
+  [
+   "Consult at the program level",
+   "You will influence systems, not just cases."
+  ],
+  [
+   "Evaluate consultation outcomes",
+   "You will measure whether the child and adult improved."
+  ]
+ ],
+ "modules": [
+  [
+   "The Consultative Role",
+   2,
+   [
+    "Models and definitions",
+    "Ethics of consultation"
+   ],
+   "Clarity of role prevents role confusion."
+  ],
+  [
+   "The Consultation Process",
+   3,
+   [
+    "Entry, diagnosis, plan, implementation, evaluation",
+    "Building the relationship"
+   ],
+   "The process gives the conversation a spine."
+  ],
+  [
+   "Teacher Consultation",
+   3,
+   [
+    "Collaborative problem-solving",
+    "Managing resistance"
+   ],
+   "Teachers are experts on their rooms; we add a lens."
+  ],
+  [
+   "Parent and Family Consultation",
+   3,
+   [
+    "Joining with parents",
+    "Home strategies"
+   ],
+   "Parents need partnership, not verdicts."
+  ],
+  [
+   "Classroom and Program Consultation",
+   3,
+   [
+    "Whole-class strategies",
+    "Program-level change"
+   ],
+   "Some problems are solved at the system level."
+  ],
+  [
+   "Evaluating Consultation",
+   2,
+   [
+    "Outcome measures",
+    "Closing the loop"
+   ],
+   "Evaluation closes the consultative cycle."
+  ]
+ ],
+ "practicum": [
+  "Practice is live consultation.",
+  [
+   "Recorded teacher-consultation role-plays",
+   "A real or simulated consultation case",
+   "Program consultation design",
+   "Evaluation planning lab"
+  ]
+ ],
+ "assessment": [
+  "Assessment is case and process based.",
+  [
+   "A recorded consultation with critique",
+   "A consultation case write-up",
+   "A program consultation proposal",
+   "Consultation examination"
+  ]
+ ],
+ "tips": [
+  "Start from the adult's concern, end at the child's need",
+  "Offer strategies the adult can actually run",
+  "Follow up; consultation is a loop, not an event"
+ ],
+ "integration": "Consultation multiplies your clinical skill across schools and families.",
+ "faith": "We serve the servants of children, strengthening many hands with one heart.",
+ "closing": "May your counsel strengthen every adult around a child, and may the child feel the difference.",
+ "style": {
+  "layout": "split",
+  "motif": "compass",
+  "bg0": "#20180F",
+  "bg1": "#3A2E1C",
+  "ink": "#F6F0E2",
+  "acc": "#CFA349",
+  "acc2": "#7FA98F"
+ }
+}

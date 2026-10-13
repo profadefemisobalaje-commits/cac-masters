@@ -1,0 +1,156 @@
+{
+ "code": "CAC.719",
+ "title": "Special Education and Counseling",
+ "sem": "Third Semester",
+ "hours": 20,
+ "tagline": "Every learner deserves a counselor who understands.",
+ "welcome": "Children with disabilities and learning differences need counselors who understand both their minds and their systems. This course prepares you.",
+ "vignette": "A nonverbal autistic ten-year-old is labeled 'non-compliant' for leaving circle time. The counselor watches and sees overwhelm, not defiance, and proposes a quiet corner and a visual schedule. Understanding changes the story, and the child's day.",
+ "vignette_attr": "An inclusion classroom moment, drawn from practice",
+ "description": "A course at the intersection of special education and counseling: categories and lived experience of disability, the IEP process and the counselor's role, counseling adaptations for diverse learners, collaboration with special educators and families, and advocacy and inclusion.",
+ "questions": [
+  "How do I counsel a child whose communication differs from mine?",
+  "What is my role on the IEP team?",
+  "How do I advocate for inclusion without ignoring real needs?"
+ ],
+ "importance": [
+  "Children with disabilities face elevated mental-health risk",
+  "Counselors are mandated members of the educational team",
+  "Adapted counseling makes support real for diverse learners"
+ ],
+ "misconceptions": [
+  "that disability defines the child, when it is one facet of a whole person",
+  "that counseling must be standard to be effective, when adaptation is effectiveness"
+ ],
+ "figures": [
+  "Howard Gardner",
+  "whose multiple intelligences widened the view of ability",
+  "Urie Bronfenbrenner",
+  "whose ecology frames the child in systems",
+  "The inclusion movement pioneers",
+  "who insisted on belonging as a right"
+ ],
+ "settings": [
+  "special and inclusive schools",
+  "IEP and student-support teams",
+  "disability services",
+  "clinical practice with diverse learners"
+ ],
+ "outcomes": [
+  [
+   "Understand categories and lived experience",
+   "You will know major disabilities and the child's perspective."
+  ],
+  [
+   "Navigate the IEP process",
+   "You will contribute as a counselor on the team."
+  ],
+  [
+   "Adapt counseling methods",
+   "You will modify communication and techniques for diverse learners."
+  ],
+  [
+   "Collaborate with educators and families",
+   "You will work as a partner in the child's plan."
+  ],
+  [
+   "Support social inclusion",
+   "You will foster belonging and peer understanding."
+  ],
+  [
+   "Advocate for the whole child",
+   "You will champion dignity and appropriate support."
+  ]
+ ],
+ "modules": [
+  [
+   "Disability: Categories and Experience",
+   3,
+   [
+    "Major categories",
+    "The child's and family's lived experience"
+   ],
+   "Experience precedes category."
+  ],
+  [
+   "The IEP Process and the Counselor",
+   3,
+   [
+    "Legal framework and team roles",
+    "The counselor's contributions"
+   ],
+   "The IEP is where systems meet the child."
+  ],
+  [
+   "Counseling Adaptations for Diverse Learners",
+   4,
+   [
+    "Communication adaptations",
+    "Modified techniques and pacing"
+   ],
+   "Adaptation is clinical skill, not compromise."
+  ],
+  [
+   "Collaboration with Educators and Families",
+   3,
+   [
+    "The team stance",
+    "Family partnership"
+   ],
+   "The child's team must pull together."
+  ],
+  [
+   "Social Inclusion and Peer Support",
+   3,
+   [
+    "Belonging interventions",
+    "Peer education"
+   ],
+   "Inclusion is built peer by peer."
+  ],
+  [
+   "Advocacy and the Whole Child",
+   4,
+   [
+    "Dignity and rights",
+    "Systemic advocacy"
+   ],
+   "Advocacy is counseling at the system level."
+  ]
+ ],
+ "practicum": [
+  "Practice is collaborative and adaptive.",
+  [
+   "An adapted counseling session role-play",
+   "IEP meeting simulation",
+   "A collaboration case with educators",
+   "An inclusion initiative design"
+  ]
+ ],
+ "assessment": [
+  "Assessment is team and adaptation focused.",
+  [
+   "An adapted intervention plan",
+   "IEP contribution simulation",
+   "Collaboration case write-up",
+   "Special education examination"
+  ]
+ ],
+ "tips": [
+  "Presume competence and seek the child's channel",
+  "Learn the child's communication system first",
+  "Bring the child's voice into every meeting"
+ ],
+ "integration": "Special-education competence completes your school and clinical preparation.",
+ "faith": "Every child, of every ability, bears full dignity; we counsel accordingly.",
+ "closing": "May every learner be seen whole, and may your understanding open every door they need.",
+ "style": {
+  "layout": "card",
+  "motif": "sprout",
+  "bg0": "#0F2226",
+  "bg1": "#1A3A40",
+  "ink": "#EFF6F5",
+  "acc": "#4FB3A9",
+  "acc2": "#E8B84B"
+ }
+}

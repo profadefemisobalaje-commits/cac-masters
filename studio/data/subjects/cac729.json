@@ -1,0 +1,156 @@
+{
+ "code": "CAC.729",
+ "title": "Advanced Topics in Counseling Children and Adolescents",
+ "sem": "Electives",
+ "hours": 24,
+ "tagline": "The frontier of the field, surveyed.",
+ "welcome": "The field moves; so must you. This seminar surveys emerging evidence, populations, and methods at the frontier of child and adolescent counseling.",
+ "vignette": "A seminar debates a new finding: does digital CBT reach adolescents who refuse the clinic? Students weigh evidence, ethics, and access. Advanced study is the discipline of staying current.",
+ "vignette_attr": "A seminar debate, drawn from experience",
+ "description": "An advanced seminar on contemporary frontiers: emerging evidence and innovations in youth counseling, technology-delivered interventions, adaptations for underserved and special populations, prevention and public-health approaches, integrated care, and the future of the profession, with critical appraisal throughout.",
+ "questions": [
+  "What is genuinely new, and what is hype?",
+  "How do innovations reach underserved young people?",
+  "Where is the profession heading, and how do I lead within it?"
+ ],
+ "importance": [
+  "The evidence base shifts within a career; currency is competence",
+  "Innovation can close access gaps for underserved youth",
+  "Leaders read the frontier critically"
+ ],
+ "misconceptions": [
+  "that advanced means complicated, when it means current and critical",
+  "that the canon is settled, when the field is alive"
+ ],
+ "figures": [
+  "The current trialists and innovators",
+  "whose studies you will appraise",
+  "Implementation scientists",
+  "who move evidence into practice",
+  "Youth and community voices",
+  "who shape what innovation should serve"
+ ],
+ "settings": [
+  "advanced practice",
+  "programme development",
+  "policy and advocacy",
+  "future doctoral study"
+ ],
+ "outcomes": [
+  [
+   "Appraise emerging evidence",
+   "You will critically evaluate new interventions."
+  ],
+  [
+   "Evaluate technology-delivered care",
+   "You will weigh digital CBT and tele-innovations."
+  ],
+  [
+   "Adapt for underserved populations",
+   "You will assess equity-focused adaptations."
+  ],
+  [
+   "Apply prevention and public-health lenses",
+   "You will think at population level."
+  ],
+  [
+   "Understand integrated care models",
+   "You will locate counseling within healthcare."
+  ],
+  [
+   "Anticipate the profession's future",
+   "You will position your practice for what is coming."
+  ]
+ ],
+ "modules": [
+  [
+   "Reading the Frontier",
+   3,
+   [
+    "How to track emerging evidence",
+    "Hype versus signal"
+   ],
+   "Currency is a skill."
+  ],
+  [
+   "Technology-Delivered Interventions",
+   4,
+   [
+    "Digital CBT and apps",
+    "Evidence and limits"
+   ],
+   "Innovation with appraisal."
+  ],
+  [
+   "Underserved and Special Populations",
+   4,
+   [
+    "Equity-focused adaptations",
+    "Reaching the unreached"
+   ],
+   "Innovation must close gaps."
+  ],
+  [
+   "Prevention and Public Health",
+   4,
+   [
+    "Population-level thinking",
+    "School and community prevention"
+   ],
+   "Prevention is counseling at scale."
+  ],
+  [
+   "Integrated and Collaborative Care",
+   4,
+   [
+    "Counseling within healthcare",
+    "Team-based models"
+   ],
+   "Integration is the direction."
+  ],
+  [
+   "The Profession's Future",
+   5,
+   [
+    "Trends and leadership",
+    "Your place at the frontier"
+   ],
+   "You are the field's next chapter."
+  ]
+ ],
+ "practicum": [
+  "Practice is seminar and appraisal.",
+  [
+   "Critical appraisals of new studies",
+   "A debate on an emerging intervention",
+   "An innovation proposal for an underserved group",
+   "A future-of-practice position paper"
+  ]
+ ],
+ "assessment": [
+  "Assessment is critical and forward-looking.",
+  [
+   "Critical appraisal portfolio",
+   "Innovation proposal",
+   "Seminar leadership",
+   "Advanced topics examination"
+  ]
+ ],
+ "tips": [
+  "Read one new study weekly and appraise it",
+  "Follow implementation, not just efficacy",
+  "Let equity guide what you call innovation"
+ ],
+ "integration": "This capstone elective keeps your whole training current and forward-looking.",
+ "faith": "We watch the horizon with discernment, holding fast to what is true and open to what is new.",
+ "closing": "May you remain a student for life, and may the frontier always serve the child.",
+ "style": {
+  "layout": "split",
+  "motif": "infinity",
+  "bg0": "#10151C",
+  "bg1": "#1C2836",
+  "ink": "#F0F3F6",
+  "acc": "#6FA8DC",
+  "acc2": "#E8B84B"
+ }
+}

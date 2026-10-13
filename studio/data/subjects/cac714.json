@@ -1,0 +1,156 @@
+{
+ "code": "CAC.714",
+ "title": "Substance Abuse Counseling",
+ "sem": "Second Semester",
+ "hours": 20,
+ "tagline": "Meeting young people inside the grip.",
+ "welcome": "Adolescent substance use is rarely rebellion; it is usually relief. This course teaches you to meet the need beneath the use.",
+ "vignette": "A fifteen-year-old vapes by the gate before school and drinks on weekends 'to quiet the noise.' He is not seeking help; he is seeking silence. The counselor's task is to offer a quieter, safer path than the substance.",
+ "vignette_attr": "An adolescent substance-use intake, drawn from practice",
+ "description": "A course in adolescent substance use and counseling: epidemiology and developmental impact, screening and assessment, motivational interviewing with young people, family-based interventions, relapse prevention, and recovery support in school and community.",
+ "questions": [
+  "Why is this young person using, and what does it do for them?",
+  "How do I build motivation without confrontation?",
+  "How do I involve the family in recovery?"
+ ],
+ "importance": [
+  "Substance use reshapes the developing brain",
+  "Early skilled intervention changes the trajectory",
+  "Family involvement is the strongest predictor of youth recovery"
+ ],
+ "misconceptions": [
+  "that adolescents must hit rock bottom to change, when motivation can be built early",
+  "that confrontation works, when it typically increases resistance"
+ ],
+ "figures": [
+  "William Miller",
+  "whose motivational interviewing changed the field",
+  "Stephen Rollnick",
+  "who co-developed the spirit and method of MI",
+  "Howard Liddle",
+  "whose family-based treatments lead youth outcomes"
+ ],
+ "settings": [
+  "youth substance-use services",
+  "schools and community programmes",
+  "family therapy settings",
+  "adolescent recovery supports"
+ ],
+ "outcomes": [
+  [
+   "Screen and assess youth substance use",
+   "You will use validated screening and developmental assessment."
+  ],
+  [
+   "Apply motivational interviewing",
+   "You will evoke change talk with skill and spirit."
+  ],
+  [
+   "Understand developmental impact",
+   "You will explain how substances shape the adolescent brain."
+  ],
+  [
+   "Engage families in recovery",
+   "You will run family-based intervention elements."
+  ],
+  [
+   "Build relapse-prevention plans",
+   "You will prepare young people for high-risk moments."
+  ],
+  [
+   "Coordinate recovery support",
+   "You will link school, community, and peer recovery resources."
+  ]
+ ],
+ "modules": [
+  [
+   "Youth Substance Use: Scope and Development",
+   3,
+   [
+    "Epidemiology and patterns",
+    "The developing brain and substances"
+   ],
+   "Development explains both risk and hope."
+  ],
+  [
+   "Screening and Assessment",
+   3,
+   [
+    "Validated screens",
+    "The assessment conversation"
+   ],
+   "Screening opens the door; assessment walks in."
+  ],
+  [
+   "Motivational Interviewing with Young People",
+   4,
+   [
+    "OARS and the spirit of MI",
+    "Eliciting change talk"
+   ],
+   "MI meets resistance with partnership."
+  ],
+  [
+   "Family-Based Interventions",
+   4,
+   [
+    "Engaging parents",
+    "Family therapy elements for use"
+   ],
+   "The family is the recovery environment."
+  ],
+  [
+   "Relapse Prevention and Skills",
+   3,
+   [
+    "High-risk situations",
+    "Coping and refusal skills"
+   ],
+   "Relapse is managed by preparation, not shame."
+  ],
+  [
+   "Recovery Support and Continuity",
+   3,
+   [
+    "School and community recovery",
+    "Peer support and monitoring"
+   ],
+   "Recovery is a community achievement."
+  ]
+ ],
+ "practicum": [
+  "Practice is motivational and family-focused.",
+  [
+   "MI role-plays with coded feedback",
+   "Screening administration labs",
+   "Family engagement simulations",
+   "Relapse-plan construction"
+  ]
+ ],
+ "assessment": [
+  "Assessment tests MI fidelity and case skill.",
+  [
+   "A recorded MI demonstration with fidelity rating",
+   "A substance-use case formulation",
+   "Family intervention plan",
+   "Substance abuse examination"
+  ]
+ ],
+ "tips": [
+  "Roll with resistance; never wrestle it",
+  "Praise any change talk, however small",
+  "Keep the family in the room and on the side"
+ ],
+ "integration": "Substance competence is essential for crisis, trauma, and school practice alike.",
+ "faith": "We meet the young person with the same mercy we hope for, and a steadier path than the cup.",
+ "closing": "May you offer a quieter relief than the substance, and may every young person find their way home to themselves.",
+ "style": {
+  "layout": "split",
+  "motif": "wave",
+  "bg0": "#171A20",
+  "bg1": "#2A2E3A",
+  "ink": "#F0EFF4",
+  "acc": "#8B7FD4",
+  "acc2": "#6FC2B4"
+ }
+}

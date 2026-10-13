@@ -1,0 +1,156 @@
+{
+ "code": "CAC.720",
+ "title": "Child and Adolescent Psychopathology",
+ "sem": "Third Semester",
+ "hours": 24,
+ "tagline": "Knowing the storms by name, and the lighthouse too.",
+ "welcome": "Psychopathology is not a list of defects; it is a map of sufferings, each with a path. This course teaches you to know every storm by name, and the lighthouse too.",
+ "vignette": "A bright eleven-year-old begins hearing a voice that critiques him. His parents are terrified. The clinician must differentiate, explain, and act, with knowledge that is precise and a manner that is calm. Psychopathology, taught well, is mercy with a map.",
+ "vignette_attr": "A first-episode presentation, drawn from practice",
+ "description": "An advanced study of the onset, presentation, and course of mental disorders in childhood and adolescence: neurodevelopmental, anxiety, depressive, bipolar, trauma-related, disruptive, eating, and emerging personality pathology, with comorbidity, etiology, and treatment pathways.",
+ "questions": [
+  "How does this disorder present differently in a child than an adult?",
+  "What is the interplay of biology, development, and environment?",
+  "What is the evidence-informed pathway for this young person?"
+ ],
+ "importance": [
+  "Early recognition and pathway to care change lifelong outcomes",
+  "Comorbidity is the rule in youth; clinicians must see complexity",
+  "Accurate formulation prevents years of mismatched treatment"
+ ],
+ "misconceptions": [
+  "that childhood disorders are adult disorders in miniature, when they are developmental presentations",
+  "that diagnosis is destiny, when early intervention rewrites trajectories"
+ ],
+ "figures": [
+  "Michael Rutter",
+  "the father of modern child psychiatry",
+  "Dante Cicchetti",
+  "whose developmental psychopathology integrated the field",
+  "Daniel Pine",
+  "who advanced developmental affective neuroscience"
+ ],
+ "settings": [
+  "child and adolescent mental health services",
+  "hospital and community clinics",
+  "specialized assessment practice",
+  "consultation and referral networks"
+ ],
+ "outcomes": [
+  [
+   "Describe youth disorders developmentally",
+   "You will present each disorder as it appears across ages."
+  ],
+  [
+   "Integrate etiological models",
+   "You will weigh genetic, neuro, and environmental factors."
+  ],
+  [
+   "Recognize comorbidity and differential patterns",
+   "You will see complexity without losing clarity."
+  ],
+  [
+   "Formulate cases biopsychosocially",
+   "You will write coherent, multi-level formulations."
+  ],
+  [
+   "Map evidence-informed pathways",
+   "You will know treatment and referral routes for each disorder."
+  ],
+  [
+   "Communicate with families humanely",
+   "You will explain disorders with accuracy and hope."
+  ]
+ ],
+ "modules": [
+  [
+   "Developmental Psychopathology Framework",
+   3,
+   [
+    "The developmental lens",
+    "Equifinality and multifinality"
+   ],
+   "The framework organizes everything that follows."
+  ],
+  [
+   "Neurodevelopmental Disorders",
+   4,
+   [
+    "Autism and ADHD",
+    "Intellectual and communication disorders"
+   ],
+   "The most common referrals, understood deeply."
+  ],
+  [
+   "Anxiety and Obsessive-Compulsive Presentations",
+   4,
+   [
+    "Anxiety disorders and OCD",
+    "Somatic and school-refusal patterns"
+   ],
+   "Anxiety wears many masks in childhood."
+  ],
+  [
+   "Depressive and Bipolar Disorders",
+   4,
+   [
+    "Youth depression and suicide link",
+    "Bipolar onset and differential"
+   ],
+   "Mood disorders in youth demand careful, urgent skill."
+  ],
+  [
+   "Trauma, Disruptive, and Eating Presentations",
+   4,
+   [
+    "Trauma-related and conduct disorders",
+    "Eating and feeding pathology"
+   ],
+   "Complex presentations require steady formulation."
+  ],
+  [
+   "Emerging Personality and Psychosis; Pathways",
+   5,
+   [
+    "Early psychosis and personality traits",
+    "Comorbidity and treatment pathways"
+   ],
+   "The emerging severe disorders need earliest eyes."
+  ]
+ ],
+ "practicum": [
+  "Practice is formulation and communication.",
+  [
+   "Case formulation labs across disorders",
+   "Family explanation role-plays",
+   "Comorbidity mapping exercises",
+   "Pathway-to-care design"
+  ]
+ ],
+ "assessment": [
+  "Assessment tests formulation and differential skill.",
+  [
+   "Written developmental formulations",
+   "A differential diagnosis examination",
+   "A family psychoeducation demonstration",
+   "Psychopathology comprehensive exam"
+  ]
+ ],
+ "tips": [
+  "Always plot the disorder on the developmental timeline",
+  "Count comorbidities before concluding",
+  "Practice explaining each disorder in hopeful, honest language"
+ ],
+ "integration": "Psychopathology is the clinical backbone linking assessment, crisis, and treatment courses.",
+ "faith": "We name the storms with compassion, believing no young person is their diagnosis.",
+ "closing": "May your knowledge be precise and your hope contagious, and may every storm you name find its lighthouse.",
+ "style": {
+  "layout": "band",
+  "motif": "brain",
+  "bg0": "#151019",
+  "bg1": "#281A33",
+  "ink": "#F3EEF6",
+  "acc": "#A66BBE",
+  "acc2": "#63B0A2"
+ }
+}

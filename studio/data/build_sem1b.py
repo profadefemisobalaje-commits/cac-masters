@@ -1,0 +1,72 @@
+#!/usr/bin/env python3
+import json, os
+HERE = os.path.dirname(os.path.abspath(__file__))
+def W(**kw):
+    code = kw["code"]
+    p = os.path.join(HERE, "subjects", code.replace(".", "").replace("*", "x").lower() + ".json")
+    json.dump(kw, open(p, "w"), indent=1)
+    print("wrote", p)
+
+W(code="CAC.703", title="Ethics in Counseling", sem="First Semester", hours=16,
+  tagline="The conscience of competent practice.",
+  welcome="Ethics is not a list of rules to fear; it is a discipline of love to master. This course forms your professional conscience.",
+  vignette="A mother asks you, in the hallway, what her daughter said in session. The question is casual. The answer is anything but. In that moment, an entire code of ethics becomes one sentence you must choose.",
+  vignette_attr="A corridor moment, drawn from supervised practice",
+  description="A comprehensive study of professional ethics in counseling children and adolescents: confidentiality and its limits, consent and assent, boundaries and dual relationships, mandated reporting and child protection, and culturally humble, faith-informed ethical decision-making using structured models.",
+  questions=["What do I owe the child, the parent, and the law, when they conflict?", "Where is the line between warmth and boundary?", "How do I decide when no option feels clean?"],
+  importance=["Minors cannot protect themselves; the counselor's ethics is their safety net", "Most licensing complaints are ethical failures, not skill failures", "Ethical clarity frees you to be fully present with the client"],
+  misconceptions=["that ethics is common sense, when it is a trained discipline with its own literature", "that rules give easy answers, when the hard cases require structured judgment"],
+  figures=["Kenneth Kitchener", "whose foundational framework of moral principles still organizes the field", "Laura Brown", "who insisted that ethics be read through culture and context", "The ACA and BACP code drafters", "whose living documents translate values into enforceable standards"],
+  settings=["school and clinical practice", "supervision and consultation rooms", "child-protection and safeguarding teams", "private practice with minors"],
+  outcomes=[["Master major ethics codes and standards","You will navigate ACA and related codes with confidence and precision."],
+   ["Apply structured decision-making models","You will run a dilemma through an explicit, defensible model step by step."],
+   ["Navigate confidentiality and consent with minors","You will balance the child's trust, parental rights, and legal duties."],
+   ["Recognize mandated reporting duties","You will know exactly when and how to report, and how to tell the child."],
+   ["Build safeguards against boundary violations","You will design personal policies that protect clients and yourself."],
+   ["Practice culturally humble ethics","You will apply codes across cultures without imposing your own norms."]],
+  modules=[["Foundations of Professional Ethics",2,["Values, morals, and professional ethics","The principles framework: autonomy, beneficence, justice, fidelity"],"A shared vocabulary keeps hard conversations precise."],
+   ["Ethical Decision-Making Models",3,["A stepwise model for dilemmas","Documentation and consultation as ethical acts"],"A model turns panic into process."],
+   ["Confidentiality, Consent and Assent",3,["The minor's assent and the parent's consent","Limits of confidentiality and how to explain them"],"Trust with a child is built on honest limits."],
+   ["Boundaries and Dual Relationships",2,["Boundary crossings versus violations","Small-community and faith-context complexities"],"Boundaries are the container that makes intimacy safe."],
+   ["Mandated Reporting and Child Protection",3,["Recognizing abuse and neglect","The reporting pathway and aftermath"],"Reporting is a moral act done with skill and care."],
+   ["Multicultural, Legal and Faith Perspectives",3,["Culture and ethical interpretation","Law, conscience, and religious conviction"],"Ethics lives inside culture and conviction; we must see both."]],
+  practicum=["Practice takes the form of guided dilemmas.",["Ethical dilemma simulation labs","Structured case-consultation exercises","A personal ethics policy drafted and defended","Reporting role-plays with debrief"]],
+  assessment=["Assessment tests judgment under pressure.",["An ethics decision case portfolio","A timed dilemma analysis using a named model","A comprehensive ethics examination","Reflection on personal ethics policy"]],
+  tips=["Run every dilemma through the same model until it is habit","Keep a consultation log; ethics is a team discipline","When in doubt, slow down and document"],
+  integration="Ethics governs every other course in this programme; it is the frame around all your clinical skill.",
+  faith="We hold that integrity before God and before the child are the same integrity. Ethics is faith made careful.",
+  closing="May your conscience be as skilled as your hands, and may no child ever be less safe because of you.",
+  style={"layout":"card","motif":"scales","bg0":"#1C1014","bg1":"#36121E","ink":"#F5E9E4","acc":"#B8860B","acc2":"#C65A5A"})
+
+W(code="CAC.704", title="Counseling Techniques and Skills", sem="First Semester", hours=24,
+  tagline="Where compassion becomes clinical skill.",
+  welcome="This is the skills laboratory of the programme. Here, empathy is trained into technique, and technique is kept humane by empathy.",
+  vignette="In a practice session, a student counselor asks a perfect question at the wrong moment, and watches the role-play client close like a door. The supervisor pauses the video. Timing, she says, is a skill. We can build it.",
+  vignette_attr="A microskills laboratory moment",
+  description="The flagship skills course: microskills training, the structure of the counseling session, empathy and advanced attending, questioning and confrontation, building alliances with children, adolescents, and caregivers, and deliberate practice with structured feedback until skill becomes habit.",
+  questions=["What exactly do I say, and when?", "How do I stay present while I stay technical?", "How is skill built and measured?"],
+  importance=["Skills are what a client actually experiences of your training", "Deliberate practice with feedback is the proven route to competence", "Alliance, built by skill, is the strongest predictor of outcome"],
+  misconceptions=["that good people are naturally good counselors, when skill is trained not innate", "that technique is cold, when disciplined technique is how care reaches the client"],
+  figures=["Allen Ivey", "whose microskills hierarchy made counseling teachable", "Robert Carkhuff", "who operationalized empathy and facilitating conditions", "Carl Rogers", "whose conditions remain the benchmark of the helping relationship"],
+  settings=["practice laboratories", "school and clinical counseling rooms", "supervision suites", "telehealth counseling"],
+  outcomes=[["Demonstrate core microskills with fluency","You will attend, question, reflect, and summarize with smooth competence."],
+   ["Structure sessions from opening to closing","You will open, focus, deepen, and close a session with intention."],
+   ["Build alliances with young clients and caregivers","You will earn trust from a child and a parent in the same room."],
+   ["Use self-awareness as a clinical instrument","You will monitor your own reactions and use them as data."],
+   ["Respond to resistance and silence","You will treat resistance as information and silence as material."],
+   ["Engage in deliberate practice","You will rehearse targeted skills with feedback until they hold under pressure."]],
+  modules=[["The Microskills Hierarchy",3,["Attending behavior and observation","Questions, encouragers, and paraphrase"],"The hierarchy is the alphabet of every later skill."],
+   ["Attending, Empathy and Advanced Listening",4,["Reflection of feeling and meaning","Advanced accurate empathy"],"Listening is the most active skill in the room."],
+   ["Session Structure and Helping Skills",4,["Opening and joining","Focusing and deepening","Closing and consolidating"],"Structure frees the client to feel safe enough to be honest."],
+   ["Questions, Confrontation and Immediacy",3,["Open and closed questions","Gentle confrontation and immediacy"],"Challenge must be carried in warmth or it wounds."],
+   ["Building Alliance with Children and Adolescents",4,["Alliance with the child","Alliance with the caregiver","Managing the triangle"],"With minors you hold two alliances at once; this module teaches the balance."],
+   ["Deliberate Practice Laboratory",3,["Targeted rehearsal with feedback","Rating your own recordings"],"Feedback is the fertilizer of skill; we schedule it deliberately."],
+   ["Skills Integration and Live Review",3,["Full-session integration","Live supervised review"],"Integration proves the parts have become a whole."]],
+  practicum=["The course is a laboratory.",["Recorded microskills labs with structured feedback","Role-plays with trained partners","Live supervision of full sessions","A deliberate-practice journal"]],
+  assessment=["Assessment is performance-based.",["Recorded skills demonstrations rated with standardized rubrics","A full recorded session with self-critique","Live supervised demonstration","Microskills written examination"]],
+  tips=["Record yourself weekly and watch with a rubric","Practice one microskill at a time to mastery","Treat feedback as a gift and seek it actively"],
+  integration="Every clinical course after this one assumes these skills; this is where they are built.",
+  faith="Skill is stewardship. We train the hands and the voice because they carry our care to another soul.",
+  closing="May your skills grow until they disappear into presence, and may your presence always carry skill.",
+  style={"layout":"band","motif":"bridge","bg0":"#0C1F1A","bg1":"#144034","ink":"#EFF7F0","acc":"#2E8B6E","acc2":"#C6A15B"})
+print("done sem1b")
