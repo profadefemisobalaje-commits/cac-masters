@@ -193,6 +193,8 @@ law must be studied at every programme level, taught with reference to the pract
 states, investors, communities and tribunals across every region of the world.</p>
 <div class="meta">
   <div><b>{_esc(S.LECTURER)}</b>Lecturer</div>
+  <div><b><a style="color:var(--gold-l)" href="video/IENRL-complete-course.mp4?dl=1"
+     download="IENRL-complete-course.mp4">Download the complete course (one MP4)</a></b>Single file</div>
   <div><b>{len(rows)} lectures · {total_min} hours</b>Format</div>
   <div><b>Undergraduate &amp; Postgraduate</b>Programme levels</div>
   <div><b>Global perspectives</b>Scope</div>
@@ -261,6 +263,12 @@ objectives for undergraduate and postgraduate students.</p>""")
     h.append('<div class="wrap"><section>')
     h.append('<h2 class="sec">Direct downloads</h2>')
     total_mb = sum(r["video_size"] for r in rows)
+    whole = os.path.join(DIST, "IENRL-complete-course.mp4")
+    if os.path.exists(whole):
+        wmb = os.path.getsize(whole) / (1024 * 1024)
+        h.append(f'<div class="downloads"><a href="video/IENRL-complete-course.mp4?dl=1" '
+                 f'download="IENRL-complete-course.mp4"><b>The complete course — one file, '
+                 f'20 chapters</b> <span style="color:var(--muted)">· {wmb:.0f} MB</span></a></div>')
     h.append(f'<p class="note">Right-click and choose “Save link as”, or click to download. '
              f'Each file is a self-contained H.264/AAC MP4 with soft English subtitles. '
              f'Total {total_mb/1024:.2f} GB across {len(rows)} files.</p>')
