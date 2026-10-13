@@ -10,3 +10,7 @@ assets/fonts/raw/*.ttf
 # Snapshot-durable mirror of narration + slide proxies (out/ is not covered by
 # sandbox snapshots, media/ is). Regenerable; never committed.
 season1/*/media/
+
+# EXCEPTION: recorded voice-over is committed during production (TTS quota is
+# expensive; sandbox resets wipe everything outside Git). vo/ is removed from
+# Git once the episode master is delivered.
