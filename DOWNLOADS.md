@@ -2,11 +2,15 @@
 
 **International Energy and Natural Resources Law** — Prof. Williams · TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION, USA
 
-Twenty lectures, ~30 minutes each, ~10 hours total. Every file is 1920x1080 H.264/AAC with soft English subtitles.
+Twenty lectures, ~30 minutes each, ~9.99 hours total. All editions carry the soft English subtitle track and chapter markers.
 
-## Option 1 — four volumes (fewest clicks)
+## Option 1 — one file, the whole course
 
-The whole course in four navigable files, each with chapter markers so you can jump straight to a lecture.
+**[IENRL-complete-course-single.mp4](https://raw.githubusercontent.com/profadefemisobalaje-commits/cac-masters/arena/70a529a2-cac-masters/videos/IENRL-complete-course-single.mp4)** — 9.99 h, 87 MB, 20 chapters, 720p.
+
+This is the one file that fits on GitHub, which caps files at 100 MB. To get there it uses 1 fps (the picture is a slide that changes every few minutes, so higher rates are duplicated frames) and ~14 kbps mono audio. Speech is fully intelligible, but for the best quality use the volumes below.
+
+## Option 2 — four volumes, full quality
 
 | Volume | Lectures | Length | Size | Download |
 |---|---|---:|---:|---|
@@ -15,7 +19,7 @@ The whole course in four navigable files, each with chapter markers so you can j
 | Volume 3 | 11–15 | 2.5 h | 89 MB | [IENRL-volume-3.mp4](https://raw.githubusercontent.com/profadefemisobalaje-commits/cac-masters/arena/70a529a2-cac-masters/videos/IENRL-volume-3.mp4) |
 | Volume 4 | 16–20 | 2.5 h | 85 MB | [IENRL-volume-4.mp4](https://raw.githubusercontent.com/profadefemisobalaje-commits/cac-masters/arena/70a529a2-cac-masters/videos/IENRL-volume-4.mp4) |
 
-## Option 2 — twenty individual lectures
+## Option 3 — twenty individual lectures, full quality
 
 | # | Lecture | MB | Download |
 |---|---------|---:|---|
@@ -42,11 +46,9 @@ The whole course in four navigable files, each with chapter markers so you can j
 
 ## How to download
 
-Click a link, then use GitHub's **Download raw file** button, or right-click and choose *Save link as*. To take everything at once:
+Click a link, then use GitHub's **Download raw file** button, or right-click and choose *Save link as*. Everything at once:
 
 ```
 git clone -b arena/70a529a2-cac-masters \
   https://github.com/profadefemisobalaje-commits/cac-masters.git
 ```
-
-Note: the single-file version of the whole course (`IENRL-complete-course.mp4`, 352 MB) is too large for GitHub, which caps files at 100 MB, so it is only available in the workspace.
