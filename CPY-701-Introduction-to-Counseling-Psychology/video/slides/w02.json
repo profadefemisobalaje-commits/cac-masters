@@ -1,0 +1,241 @@
+{
+  "week": 2,
+  "module": "Module A",
+  "title": "Historical and Philosophical Development of Counseling Psychology",
+  "slides": [
+    {
+      "layout": "title",
+      "slug": "title",
+      "kicker": "CPY 701 · Master's Degree in Counseling Psychology",
+      "title": "Historical and Philosophical Development",
+      "subtitle": "Week 2 · From Frank Parsons (1908) to graduate training in Nigeria (1994)",
+      "meta": [
+        "Week 2 of 16 · Module A: Foundations",
+        "Narrated lecture video · 1920 × 1080",
+        "Assessment-linked: continuous test (Week 8), final examination (Week 16)"
+      ],
+      "footer": "Department of Counseling Psychology · First Semester",
+      "narration": "Welcome back to CPY 701. Week one gave us a definition; week two gives us a memory. Today we trace how counseling psychology came to be, from Frank Parsons's vocational bureau in Boston in 1908, through the mental hygiene movement and the wars, to Carl Rogers's quiet revolution, and then home: to Nigeria, where graduate training in counseling psychology began at the University of Nigeria, Nsukka in 1994. History is not decoration in this course; it explains why we practice as we do."
+    },
+    {
+      "layout": "bullets",
+      "slug": "outcomes",
+      "kicker": "Learning outcomes",
+      "title": "What you will be able to do by the end of this week",
+      "items": [
+        { "lead": "Construct", "text": "a timeline of the field from vocational guidance to the present day." },
+        { "lead": "Identify", "text": "the contributions of key figures: Parsons, Beers, Rogers, Williamson and Super." },
+        { "lead": "Explain", "text": "how counseling psychology developed in Nigeria and Africa, including regulation and the National Mental Health Act 2022." },
+        { "lead": "Articulate", "text": "the philosophical assumptions, humanistic, phenomenological, developmental and contextual, that undergird our practice." }
+      ],
+      "narration": "Four outcomes for this week. One, construct a timeline of the field from vocational guidance to the present. Two, identify the contribution of key figures: Parsons, Beers, Rogers, Williamson and Super. Three, explain how counseling psychology developed in Nigeria and Africa, including regulation and the Mental Health Act of 2022. Four, articulate the philosophical assumptions, humanistic, phenomenological, developmental and contextual, that undergird our practice. Keep them in view as we travel."
+    },
+    {
+      "layout": "bullets",
+      "slug": "why-history",
+      "kicker": "Purpose",
+      "title": "Why a whole week on history?",
+      "items": [
+        { "lead": "Every technique carries an argument.", "text": "When you reflect feeling you take Rogers's side in a debate that began in the 1940s." },
+        { "lead": "Every instrument carries a lineage.", "text": "When you screen a client you inherit a psychometric tradition born in army camps in 1917." },
+        { "lead": "Every outreach carries a movement.", "text": "When you advocate for a community you continue the prevention turn of the 1960s." },
+        { "lead": "History protects you from snobbery:", "text": "old does not mean false, and new does not mean true. Stand deliberately, not by habit." }
+      ],
+      "narration": "Why spend a whole week on history at master's level? Because every technique you will learn carries an argument inside it. When you reflect feeling, you are taking Rogers's side in a debate that began in the 1940s. When you screen a client, you inherit a psychometric tradition born in army camps in 1917. When you advocate for a community, you continue the prevention movement of the 1960s. History tells you what you are standing on, so that you can stand deliberately rather than by habit. It also protects you from chronological snobbery: old does not mean false, and new does not mean true."
+    },
+    {
+      "layout": "flow",
+      "slug": "timeline-1",
+      "kicker": "Global origins · 1908-1946",
+      "title": "How the specialty was seeded",
+      "steps": [
+        { "title": "1908 · Parsons", "color": "#0B1B3A", "text": "Boston Vocations Bureau: self-knowledge, occupational knowledge, true reasoning between them." },
+        { "title": "1908 · Beers", "color": "#0F766E", "text": "A Mind That Found Itself ignites the mental hygiene movement: humane reform and prevention." },
+        { "title": "1917 · Testing", "color": "#2563EB", "text": "Army Alpha and Beta batteries make psychological assessment industrial-scale." },
+        { "title": "1942 · Rogers", "color": "#C9962E", "text": "Counseling and Psychotherapy moves the client, not the diagnosis, to the centre." },
+        { "title": "1946 · Div. 17", "color": "#9A3412", "text": "APA charts Division 17: counseling psychology becomes a named specialty." }
+      ],
+      "narration": "Begin at the beginning. 1908, Boston: Frank Parsons opens the Vocations Bureau and proposes that wise career choice rests on self-knowledge, occupational knowledge, and true reasoning between them, the seed of trait-and-factor counseling. The same year, Clifford Beers turns his own asylum experience into the mental hygiene movement, planting prevention and humane reform. 1917 to 1918: the First World War makes psychological testing industrial-scale with the Army Alpha and Beta batteries; assessment enters public life. 1942: Carl Rogers publishes Counseling and Psychotherapy, and the client, not the diagnosis, moves to the centre. 1946: the American Psychological Association charts Division 17, and counseling psychology becomes a named specialty."
+    },
+    {
+      "layout": "flow",
+      "slug": "timeline-2",
+      "kicker": "Professionalisation · 1949-today",
+      "title": "How the specialty grew up",
+      "steps": [
+        { "title": "1949-51 · Model", "color": "#0B1B3A", "text": "Boulder's scientist-practitioner model; VA funding shapes graduate training." },
+        { "title": "1960s · Community", "color": "#0F766E", "text": "Community mental health pushes practice outward: outreach and prevention grow." },
+        { "title": "1970-80s · Development", "color": "#2563EB", "text": "The developmental turn: lifespan growth and wellness join remediation." },
+        { "title": "1980-90s · Culture", "color": "#C9962E", "text": "The multicultural turn: culture and social justice become clinical necessities." },
+        { "title": "2000s · Evidence", "color": "#9A3412", "text": "Outcome research, measurement-based care, teletherapy and digital practice." }
+      ],
+      "narration": "The second half of the century professionalizes the specialty. From 1949 and 1951, the Boulder conference's scientist-practitioner model and Veterans Administration funding shape graduate training: the counselor as both researcher and clinician. The community mental health movement of the 1960s pushes practice out of the clinic and into communities, strengthening prevention and outreach. The 1970s and 1980s bring the developmental turn: lifespan growth, wellness and vocational development become as central as remediation. Then the multicultural turn of the 1980s and 1990s makes culture and social justice clinical necessities. And our own century adds outcome research, measurement-based care, teletherapy and digital practice."
+    },
+    {
+      "layout": "cards",
+      "slug": "figures",
+      "kicker": "Key figures",
+      "title": "The ancestors, briefly",
+      "perRow": 3,
+      "cards": [
+        { "title": "Frank Parsons", "color": "#0B1B3A", "text": "Engineer and reformer; vocational matching and the very idea of systematic guidance." },
+        { "title": "Clifford Beers", "color": "#0F766E", "text": "A former patient whose memoir supplied the moral impulse: humane care and prevention." },
+        { "title": "Carl Rogers", "color": "#C9962E", "text": "Empathy, congruence and unconditional positive regard as measurable conditions of change." },
+        { "title": "E. G. Williamson", "color": "#2563EB", "text": "The Minnesota point of view: structured, directive trait-and-factor counseling." },
+        { "title": "Donald Super", "color": "#7C3AED", "text": "Gave career development its lifespan psychology: roles, stages and self-concept." },
+        { "title": "Nsukka pioneers, 1994", "color": "#9A3412", "text": "Opened postgraduate training in counseling psychology in Nigeria: our first home-grown cohort." }
+      ],
+      "narration": "Meet the ancestors briefly. Frank Parsons, engineer and reformer, gave us vocational matching and the very idea of systematic guidance. Clifford Beers, a former patient, gave us the moral impulse: humane care and prevention. Carl Rogers gave us the relationship: empathy, congruence and unconditional positive regard as measurable conditions of change. Edward G. Williamson, at Minnesota, defended a more directive, structured trait-and-factor approach, and the Rogers-Williamson debate trained a generation to think about method. Donald Super gave career development its lifespan psychology. And in Nigeria, the pioneers who opened postgraduate training at Nsukka in 1994 gave our own context its first cohort of home-grown counseling psychologists."
+    },
+    {
+      "layout": "bullets",
+      "slug": "great-debate",
+      "kicker": "A productive quarrel",
+      "title": "Rogers versus Williamson: the debate that built our habits",
+      "items": [
+        { "lead": "Williamson's claim:", "text": "clients benefit from structured, directive help: assess, inform, advise where warranted." },
+        { "lead": "Rogers's claim:", "text": "the client carries the capacity for change; the counselor provides conditions, not directions." },
+        { "lead": "The field's answer:", "text": "do not merely choose, test. From the quarrel came outcome and process research." },
+        { "lead": "The compact that survives:", "text": "research feeds practice, and practice poses the questions research must answer." }
+      ],
+      "narration": "That Rogers-Williamson debate deserves a slide of its own, because it created our professional habit of arguing with evidence. Williamson's Minnesota point of view held that clients benefit from structured, directive guidance: assessment, information, advice where warranted. Rogers held that the client carries the capacity for change, and the counselor's job is to provide conditions, not directions. The field did not simply pick a side; it learned to test. From that quarrel came outcome research, process research, and the scientist-practitioner compact that still governs us: research feeds practice, and practice poses the questions research must answer."
+    },
+    {
+      "layout": "quote",
+      "slug": "parsons-quote",
+      "quote": "Three factors enter into wise career choice: a clear understanding of yourself, a knowledge of the requirements and conditions of success in different occupations, and true reasoning about the relations of these two groups of facts.",
+      "by": "Frank Parsons · Choosing a Vocation (1909)",
+      "narration": "Parsons left us the cleanest statement of the early vision, and it still reads like a counseling contract: three factors enter into wise career choice, a clear understanding of yourself, a knowledge of the requirements and conditions of success in different occupations, and true reasoning about the relations of these two groups of facts. Self, context, and disciplined reflection between them: that is counseling in one sentence, a century before our jargon."
+    },
+    {
+      "layout": "bullets",
+      "slug": "indigenous-helping",
+      "kicker": "The story at home · before the clinic",
+      "title": "Indigenous and faith-based helping systems",
+      "items": [
+        { "lead": "Family and elders:", "text": "the extended family mediated conflict, guided the young and carried mentorship as duty." },
+        { "lead": "Faith and tradition:", "text": "religious leaders offered counsel and meaning; traditional healers addressed distress in an idiom of spirit, ancestor and community." },
+        { "lead": "Communal philosophy:", "text": "ubuntu, omoluwabi and kindred ethics frame the person as a person-through-others." },
+        { "lead": "Strengths:", "text": "continuity, meaning and community accountability." },
+        { "lead": "Limits to name honestly:", "text": "stigma around mental distress, spiritual attribution that can delay medical care, and confidentiality norms unlike ours." }
+      ],
+      "narration": "Now bring the story home. Long before any bureau or clinic, African communities ran sophisticated helping systems. The extended family and its elders mediated conflict and guided the young; age grades and titles carried mentorship duties; religious leaders offered counsel and meaning; traditional healers addressed distress in an idiom of spirit, ancestor and community. Communal philosophies, ubuntu in the south of the continent, omoluwabi and similar ethics in Yoruba land, framed the person as a person-through-others. These systems supplied continuity, meaning and accountability. They also carried limits we must name: stigma around mental distress, spiritual attribution that could delay medical care, and confidentiality norms very different from ours."
+    },
+    {
+      "layout": "flow",
+      "slug": "nigeria-formal",
+      "kicker": "The story at home · formal development",
+      "title": "Counseling psychology in Nigeria: five movements",
+      "steps": [
+        { "title": "1950-60s · Schools", "color": "#0B1B3A", "text": "Post-independence school expansion creates guidance services and the teacher-counsellor." },
+        { "title": "1970-80s · Units", "color": "#0F766E", "text": "University guidance and counselling units grow; professional associations form." },
+        { "title": "1994 · Nsukka", "color": "#C9962E", "text": "Postgraduate training in counseling psychology begins: a graduate pipeline of our own." },
+        { "title": "2000s · CRCN", "color": "#2563EB", "text": "The Counsellors Registration Council of Nigeria sets statutory standards and registration." },
+        { "title": "2022 · Act", "color": "#9A3412", "text": "The National Mental Health Act modernizes rights, services and integration of care." }
+      ],
+      "narration": "Formal counseling psychology in Nigeria arrives in five movements. In the 1950s and 60s, post-independence school expansion creates guidance services and the teacher-counsellor. Through the 1970s and 80s, universities establish guidance and counselling units and departments, and professional associations form to set standards. In 1994, the University of Nigeria, Nsukka begins postgraduate training in counseling psychology, the moment our specialty acquires a graduate pipeline of its own. In the 2000s, the Counsellors Registration Council of Nigeria brings statutory registration and standards. And in 2022, the National Mental Health Act modernizes rights, services and integration of mental health into general care."
+    },
+    {
+      "layout": "table",
+      "slug": "two-histories",
+      "kicker": "Comparison",
+      "title": "Two histories, one profession",
+      "cols": [
+        { "t": "Era", "w": 0.17 },
+        { "t": "Global milestones", "w": 0.415 },
+        { "t": "Nigeria and Africa", "w": 0.415 }
+      ],
+      "rows": [
+        ["1900s-1940s", "Parsons, mental hygiene, army testing, Rogers", "Indigenous and faith-based helping; colonial schooling without formal guidance"],
+        ["1950s-1970s", "Division 17, VA training, community mental health", "Post-independence school guidance; university counselling units emerge"],
+        ["1980s-1990s", "Multicultural and preventive turns", "Professional associations; graduate training begins at Nsukka (1994)"],
+        ["2000s-present", "Evidence-based practice, teletherapy, digital care", "CRCN registration; National Mental Health Act 2022; growing research output"]
+      ],
+      "note": "Neither history is a footnote to the other; your practice lives at their intersection.",
+      "narration": "Set the two histories side by side and the picture becomes honest. While Boston was opening vocational bureaus and American armies were testing recruits, our context was running indigenous and faith-based helping, and a colonial school system with no formal guidance. While Division 17 professionalized and community mental health spread, newly independent Nigeria was building school guidance and university counselling units. While the global field turned multicultural and preventive, Nigeria was forming associations and opening graduate training in 1994. And while today's global field argues about evidence and teletherapy, Nigeria is consolidating regulation and research output. Neither history is a footnote to the other; your practice lives at their intersection."
+    },
+    {
+      "layout": "twocol",
+      "slug": "assumptions",
+      "kicker": "Philosophical foundations",
+      "title": "The assumptions underneath the history",
+      "left": {
+        "title": "About persons",
+        "color": "#0B1B3A",
+        "items": [
+          "People are more than their diagnoses",
+          "Choice and agency exist, however constrained by context",
+          "A growth-oriented, self-righting tendency is real",
+          "Mind, body, culture and spirit interlock: holism as method"
+        ]
+      },
+      "right": {
+        "title": "About knowing and doing",
+        "color": "#C9962E",
+        "items": [
+          "Experience is best understood from the client's frame (phenomenology)",
+          "Knowledge is provisional and must be tested (scientist-practitioner)",
+          "Culture constitutes distress and healing; it does not decorate them",
+          "Prevention, wherever possible, is kinder and cheaper than repair"
+        ]
+      },
+      "narration": "Beneath the history sit philosophical assumptions, and you should know yours. About persons: we assume people are more than their diagnoses; that they possess choice and agency, however constrained; that they carry a growth-oriented, self-righting tendency; and that mind, body, culture and spirit interlock, so holism is not a slogan but a method. About knowing and doing: we assume experience is best understood from the client's frame, which is phenomenology; that knowledge is provisional and must be tested, which is the scientist-practitioner; that culture constitutes distress and healing rather than decorating them; and that prevention, wherever possible, is kinder and cheaper than repair."
+    },
+    {
+      "layout": "cards",
+      "slug": "six-isms",
+      "kicker": "Vocabulary",
+      "title": "Six commitments that decode every theory",
+      "perRow": 3,
+      "cards": [
+        { "title": "Humanism", "color": "#0B1B3A", "text": "The person is worthier than the problem." },
+        { "title": "Phenomenology", "color": "#0F766E", "text": "The client's lived experience is primary data." },
+        { "title": "Developmentalism", "color": "#2563EB", "text": "Behaviour makes sense against lifespan tasks." },
+        { "title": "Contextualism", "color": "#7C3AED", "text": "Culture, class and gender shape every session." },
+        { "title": "Prevention", "color": "#C9962E", "text": "Stop harm before it starts; strengthen before it strains." },
+        { "title": "Social justice", "color": "#9A3412", "text": "Some distress is manufactured; answer it with advocacy as well as empathy." }
+      ],
+      "narration": "Name the six commitments and you can read any counseling text with X-ray vision. Humanism: the person is worthier than the problem. Phenomenology: the client's lived experience is primary data. Developmentalism: behaviour makes sense against lifespan tasks. Contextualism: context, culture, class and gender shape every session. Prevention orientation: stop harm before it starts. Social justice: some distress is manufactured, and counselors answer it with advocacy as well as empathy. Every theory we meet in weeks four and five will be a different mixture of these six."
+    },
+    {
+      "layout": "bullets",
+      "slug": "obligations",
+      "kicker": "Implications",
+      "title": "What history obligates you to do",
+      "items": [
+        { "lead": "Hold an identity:", "text": "you inherit a tradition with values, not a bag of tricks." },
+        { "lead": "Hold humility:", "text": "every idea, including yours, is dated and culturally located." },
+        { "lead": "Hold culture seriously:", "text": "imported theories need local validation before you trust them with a client in Ibadan or Kano." },
+        { "lead": "Hold advocacy:", "text": "this field grew whenever it answered a social need, and shrank whenever it did not." },
+        { "lead": "Hold the conversation open:", "text": "your research questions continue a century-long argument; join it with evidence, not volume." }
+      ],
+      "narration": "So what does history obligate you to do? Five things. Hold an identity: you inherit a tradition with values, not a bag of tricks. Hold humility: every idea, including yours, is dated and culturally located. Hold culture seriously: imported theories need local validation before you trust them with a client in Ibadan or Kano. Hold advocacy: this field grew whenever it answered a social need, and shrank whenever it did not. And hold the conversation open: your research questions continue a century-long argument; join it with evidence, not volume."
+    },
+    {
+      "layout": "summary",
+      "slug": "summary",
+      "title": "Week 2 in review",
+      "items": [
+        "The specialty grew from vocational guidance, psychometrics, mental hygiene and the person-centred revolution into a named field in 1946.",
+        "It professionalized through the scientist-practitioner model, then turned developmental, multicultural and preventive across the late century.",
+        "Nigeria's story runs from indigenous and faith-based helping, through school guidance and university units, to graduate training at Nsukka in 1994, statutory registration and the National Mental Health Act 2022.",
+        "Six philosophical commitments, humanism, phenomenology, developmentalism, contextualism, prevention and social justice, undergird the practice.",
+        "History is your professional grammar: it tells you why the field speaks as it does."
+      ],
+      "narration": "Gather the week. Counseling psychology grew from vocational guidance, psychometrics, mental hygiene and the person-centred revolution into a named specialty in 1946, professionalized through the scientist-practitioner model, and turned developmental, multicultural and preventive across the late century. Nigeria's story runs from indigenous and faith-based helping, through school guidance and university units, to graduate training at Nsukka in 1994, statutory registration, and the National Mental Health Act 2022. Underneath sit six philosophical commitments. History, in short, is your professional grammar."
+    },
+    {
+      "layout": "task",
+      "slug": "task",
+      "kicker": "Before Week 3",
+      "title": "Applied task and next week",
+      "items": [
+        "Build a ten-event timeline that interleaves global and Nigerian milestones, with one sentence of significance per event. The interleaving is the point.",
+        "Write one philosophical assumption you personally hold about human nature, then write how your counseling would change if it were false. Bring both paragraphs to the seminar.",
+        "Read the history chapters in Corey and Gladding, plus at least one scholarly account of the growth of counseling psychology in Nigeria."
+      ],
+      "next": "Week 3 · Relationship to other disciplines and helping professions: clinical psychology, psychiatry, social work, pastoral care, traditional healing, and the ethics of referral.",
+      "narration": "Your task before week three. Build a ten-event timeline that interleaves global and Nigerian milestones, one sentence of significance per event; the interleaving is the point. Second, write one philosophical assumption you personally hold about human nature, then write how your counseling would change if it were false; bring both paragraphs to the seminar. Read the history chapters in Corey and Gladding, plus at least one scholarly account of counseling psychology's growth in Nigeria. Next week: where we sit among the helping professions, and the ethics of referral. See you in week three."
+    }
+  ]
+}
