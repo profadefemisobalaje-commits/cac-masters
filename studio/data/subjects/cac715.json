@@ -1,0 +1,156 @@
+{
+ "code": "CAC.715",
+ "title": "Trauma-Informed Care",
+ "sem": "Second Semester",
+ "hours": 24,
+ "tagline": "Safety first, always, for the wounded young.",
+ "welcome": "Trauma changes the question from 'what is wrong with you?' to 'what happened to you?' This course rebuilds your entire practice around that question.",
+ "vignette": "A twelve-year-old flinches when a teacher raises a book to shelve it. No one else notices. The trauma-informed counselor notices, and understands that the body keeps a calendar of its own. Care begins with safety the child can feel.",
+ "vignette_attr": "A classroom trigger moment, drawn from practice",
+ "description": "A comprehensive course in trauma-informed care with children and adolescents: trauma types and their developmental impact, neurobiology of trauma, the principles of safety and trust, trauma-informed relationships and environments, stabilization skills, and knowing when to refer for trauma-focused treatment.",
+ "questions": [
+  "What has this child survived, and how does it show today?",
+  "How do I build safety a nervous system can believe?",
+  "When is stabilization enough, and when is specialized treatment needed?"
+ ],
+ "importance": [
+  "Trauma is common and largely unseen in young people",
+  "Trauma-informed care prevents re-traumatization by systems",
+  "Safety and relationship are the foundation of all trauma recovery"
+ ],
+ "misconceptions": [
+  "that trauma-informed care is a therapy, when it is a stance and system that precedes therapy",
+  "that children must narrate trauma to heal, when stabilization and safety come first"
+ ],
+ "figures": [
+  "Bessel van der Kolk",
+  "whose work mapped how trauma lives in the body",
+  "Bruce Perry",
+  "whose neurosequential model guides regulation-first care",
+  "Judith Herman",
+  "whose stages of recovery organize the field"
+ ],
+ "settings": [
+  "trauma-informed schools",
+  "child welfare and protection",
+  "clinical and residential care",
+  "any service touching children"
+ ],
+ "outcomes": [
+  [
+   "Recognize trauma's developmental signatures",
+   "You will see trauma in behavior, body, and learning."
+  ],
+  [
+   "Apply the neurobiology of trauma",
+   "You will explain stress response and regulation to caregivers."
+  ],
+  [
+   "Build safety and trust deliberately",
+   "You will create environments a nervous system can trust."
+  ],
+  [
+   "Use trauma-informed relationships",
+   "You will regulate, relate, then reason, in that order."
+  ],
+  [
+   "Teach stabilization skills",
+   "You will train grounding and regulation with young people."
+  ],
+  [
+   "Refer for trauma-focused treatment wisely",
+   "You will know the boundary of your role and the pathway beyond."
+  ]
+ ],
+ "modules": [
+  [
+   "Trauma Defined and Its Developmental Impact",
+   4,
+   [
+    "Types and prevalence",
+    "Developmental trauma"
+   ],
+   "Naming the wound is the first act of care."
+  ],
+  [
+   "The Neurobiology of Trauma",
+   4,
+   [
+    "Stress response and the brain",
+    "Regulation and the window of tolerance"
+   ],
+   "The brain story turns blame into understanding."
+  ],
+  [
+   "Principles of Trauma-Informed Care",
+   4,
+   [
+    "Safety, trust, choice, collaboration",
+    "Avoiding re-traumatization"
+   ],
+   "The principles audit every system the child touches."
+  ],
+  [
+   "Trauma-Informed Relationships and Environments",
+   4,
+   [
+    "Regulate, relate, reason",
+    "Classrooms and clinics that heal"
+   ],
+   "Environments are silent therapists."
+  ],
+  [
+   "Stabilization and Grounding Skills",
+   4,
+   [
+    "Regulation skills with children",
+    "Caregiver co-regulation"
+   ],
+   "Stabilization is the gift you can give immediately."
+  ],
+  [
+   "Referral and the Continuum of Trauma Treatment",
+   4,
+   [
+    "Trauma-focused therapies overview",
+    "Knowing your boundary"
+   ],
+   "Good referral is a trauma-informed skill."
+  ]
+ ],
+ "practicum": [
+  "Practice is relational and regulatory.",
+  [
+   "Regulation and grounding skill labs",
+   "Environment audits of real settings",
+   "Caregiver psychoeducation role-plays",
+   "Case formulation with a trauma lens"
+  ]
+ ],
+ "assessment": [
+  "Assessment tests trauma-informed reasoning.",
+  [
+   "A trauma-informed case formulation",
+   "An environment audit and redesign",
+   "A stabilization skills demonstration",
+   "Trauma knowledge examination"
+  ]
+ ],
+ "tips": [
+  "Ask 'what happened' before 'what is wrong'",
+  "Prioritize regulation before conversation",
+  "Audit your own setting for hidden triggers"
+ ],
+ "integration": "Trauma-informed care reframes assessment, crisis, behavior, and family work across the programme.",
+ "faith": "We bind up the wounded as an act of sacred hospitality, gentle and unhurried.",
+ "closing": "May every wounded child find in you a place their nervous system can finally rest.",
+ "style": {
+  "layout": "card",
+  "motif": "heart",
+  "bg0": "#1D1526",
+  "bg1": "#342244",
+  "ink": "#F6F0F7",
+  "acc": "#C77DBB",
+  "acc2": "#E8C979"
+ }
+}

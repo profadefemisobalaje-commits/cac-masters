@@ -1,0 +1,156 @@
+{
+ "code": "CAC.760",
+ "title": "Master Thesis",
+ "sem": "Third Semester",
+ "hours": 12,
+ "tagline": "Your contribution to the field, begun.",
+ "welcome": "The thesis is where you stop only consuming knowledge and begin contributing it. This course guides you from proposal to defense.",
+ "vignette": "A candidate stands before her committee. The question she chose began with one child she could not forget. The thesis is that child's story, made general and rigorous. Scholarship, at its best, is love made systematic.",
+ "vignette_attr": "A thesis defense, drawn from experience",
+ "description": "A guided thesis sequence: selecting and refining a research question, the literature review, research ethics and proposal defense, methodology aligned to the question, academic writing and citation, interpreting findings, and preparing the defense. Independent research and supervisor meetings remain separate requirements.",
+ "questions": [
+  "What question is mine to answer?",
+  "What does the literature already say, and where is the gap?",
+  "How do I write and defend with clarity and humility?"
+ ],
+ "importance": [
+  "The thesis certifies you as a producer of knowledge",
+  "It deepens your expertise in a chosen area",
+  "It prepares you for doctoral study and scholarly practice"
+ ],
+ "misconceptions": [
+  "that the thesis must be groundbreaking, when it must be sound",
+  "that it is a solitary ordeal, when it is supervised collaboration"
+ ],
+ "figures": [
+  "Your supervisory committee",
+  "who guide and examine your work",
+  "The scholars of your chosen topic",
+  "whose shoulders you stand on",
+  "The research participants",
+  "whose trust makes the work possible"
+ ],
+ "settings": [
+  "supervised research",
+  "university thesis programmes",
+  "future doctoral study",
+  "scholarly practice"
+ ],
+ "outcomes": [
+  [
+   "Refine a researchable thesis question",
+   "You will settle a focused, significant question."
+  ],
+  [
+   "Conduct a synthetic literature review",
+   "You will map the field and the gap."
+  ],
+  [
+   "Pass research ethics and proposal",
+   "You will defend a sound, ethical proposal."
+  ],
+  [
+   "Align method to question",
+   "You will choose and justify your methodology."
+  ],
+  [
+   "Write scholarly prose",
+   "You will write clearly with correct citation."
+  ],
+  [
+   "Interpret and defend findings",
+   "You will discuss results with humility and prepare the defense."
+  ]
+ ],
+ "modules": [
+  [
+   "Choosing and Refining the Question",
+   2,
+   [
+    "From interest to question",
+    "Feasibility and significance"
+   ],
+   "The right question makes the work possible."
+  ],
+  [
+   "The Literature Review",
+   2,
+   [
+    "Searching and synthesizing",
+    "Finding the gap"
+   ],
+   "The review positions your contribution."
+  ],
+  [
+   "Ethics and Proposal Defense",
+   2,
+   [
+    "Ethics with human participants",
+    "The proposal and its defense"
+   ],
+   "The proposal is your contract with rigor."
+  ],
+  [
+   "Methodology Aligned to Question",
+   2,
+   [
+    "Design and analysis plan",
+    "Supervisor alignment"
+   ],
+   "Method serves question, never the reverse."
+  ],
+  [
+   "Academic Writing and Citation",
+   2,
+   [
+    "Structure and style",
+    "Citation discipline"
+   ],
+   "Clear writing is clear thinking."
+  ],
+  [
+   "Findings, Discussion, and Defense",
+   2,
+   [
+    "Interpreting results",
+    "Preparing the defense"
+   ],
+   "The defense is a conversation among colleagues."
+  ]
+ ],
+ "practicum": [
+  "Practice is the thesis itself.",
+  [
+   "Proposal drafting and peer review",
+   "Supervisor consultations",
+   "Writing workshops",
+   "A mock defense"
+  ]
+ ],
+ "assessment": [
+  "Assessment is the thesis milestone sequence.",
+  [
+   "Approved proposal",
+   "Literature review chapter",
+   "Ethics approval",
+   "Final thesis and oral defense"
+  ]
+ ],
+ "tips": [
+  "Meet your supervisor prepared every time",
+  "Write a little every week; momentum is everything",
+  "Treat the mock defense as the real one"
+ ],
+ "integration": "The thesis integrates every skill of the degree into one original contribution.",
+ "faith": "We offer our scholarship as service, humble before truth and before the young it serves.",
+ "closing": "May your thesis be a lamp you carry onward, and may it serve the children you will meet.",
+ "style": {
+  "layout": "hero",
+  "motif": "seal",
+  "bg0": "#0D0F13",
+  "bg1": "#1A1E26",
+  "ink": "#EFEDE4",
+  "acc": "#C9A227",
+  "acc2": "#A9B4C0"
+ }
+}

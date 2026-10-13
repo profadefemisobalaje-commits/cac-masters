@@ -1,0 +1,156 @@
+{
+ "code": "CAC.725",
+ "title": "Technology in Counseling",
+ "sem": "Electives",
+ "hours": 18,
+ "tagline": "The digital age is the consulting room's new neighbor.",
+ "welcome": "Young people live partly online; so must your competence. This course covers telehealth, digital ethics, and the psychology of the connected child.",
+ "vignette": "A teen attends telehealth from his closet, the only private place at home. The counselor notices the setting, adjusts consent and safety protocols, and the session works. Technology competence is clinical competence, extended.",
+ "vignette_attr": "A telehealth session, drawn from practice",
+ "description": "A course in technology and counseling: telehealth delivery and best practice, digital ethics and confidentiality online, the impact of screens and social media on development, digital assessment and tools, and reaching young people through technology responsibly.",
+ "questions": [
+  "How do I hold a frame and ensure safety online?",
+  "What does the digital world do to developing minds?",
+  "How do I use tools without losing the relationship?"
+ ],
+ "importance": [
+  "Telehealth is now a permanent modality",
+  "Digital life is a core clinical topic with youth",
+  "Online safety and ethics are non-negotiable"
+ ],
+ "misconceptions": [
+  "that online counseling is second-best, when evidence supports it for many uses",
+  "that technology is the enemy, when it is a tool to be mastered"
+ ],
+ "figures": [
+  "The telepsychology guideline authors",
+  "who set standards for online care",
+  "Jean Twenge",
+  "whose work probes screens and cohort mental health",
+  "The digital-wellbeing researchers",
+  "who balance risk and opportunity"
+ ],
+ "settings": [
+  "telehealth practice",
+  "schools and outreach",
+  "digital mental-health tools",
+  "online youth work"
+ ],
+ "outcomes": [
+  [
+   "Deliver competent telehealth",
+   "You will run online sessions with frame and safety."
+  ],
+  [
+   "Apply digital ethics",
+   "You will protect confidentiality and boundaries online."
+  ],
+  [
+   "Assess digital life clinically",
+   "You will evaluate screen and social-media impact."
+  ],
+  [
+   "Use digital tools wisely",
+   "You will select apps and measures with evidence."
+  ],
+  [
+   "Promote digital wellbeing",
+   "You will coach families on healthy use."
+  ],
+  [
+   "Reach youth responsibly online",
+   "You will use technology for engagement ethically."
+  ]
+ ],
+ "modules": [
+  [
+   "The Digital Landscape of Youth",
+   3,
+   [
+    "Usage patterns and platforms",
+    "Opportunity and risk"
+   ],
+   "Know the territory."
+  ],
+  [
+   "Telehealth Delivery and Best Practice",
+   4,
+   [
+    "Setup, frame, and presence",
+    "Safety and emergency protocols online"
+   ],
+   "Online presence is a learnable craft."
+  ],
+  [
+   "Digital Ethics and Confidentiality",
+   3,
+   [
+    "Privacy and platforms",
+    "Boundaries and social media"
+   ],
+   "The ethics code follows you online."
+  ],
+  [
+   "Screens, Social Media, and Development",
+   3,
+   [
+    "Impact on sleep, mood, identity",
+    "Assessment of digital life"
+   ],
+   "Assess the digital like any other domain."
+  ],
+  [
+   "Digital Tools and Measurement",
+   2,
+   [
+    "Apps and measures",
+    "Evidence for digital tools"
+   ],
+   "Tools serve the relationship."
+  ],
+  [
+   "Digital Wellbeing and Family Coaching",
+   3,
+   [
+    "Family media plans",
+    "Coaching healthy use"
+   ],
+   "Families need plans, not panic."
+  ]
+ ],
+ "practicum": [
+  "Practice is online and applied.",
+  [
+   "A recorded telehealth role-play",
+   "A digital-safety protocol build",
+   "A family media-plan consultation",
+   "A digital-life assessment case"
+  ]
+ ],
+ "assessment": [
+  "Assessment is digital and practical.",
+  [
+   "Telehealth demonstration with critique",
+   "A digital ethics scenario exam",
+   "A family media plan",
+   "Technology examination"
+  ]
+ ],
+ "tips": [
+  "Test technology before every session",
+  "Establish an online emergency protocol up front",
+  "Ask about digital life in every assessment"
+ ],
+ "integration": "Technology competence extends every modality you have learned.",
+ "faith": "We bring wisdom into the digital square, shepherding young hearts online as offline.",
+ "closing": "May your online presence be as steady as your in-person one, and may the digital world be safer for your skill.",
+ "style": {
+  "layout": "split",
+  "motif": "circuit",
+  "bg0": "#0C1620",
+  "bg1": "#15293C",
+  "ink": "#EDF4F7",
+  "acc": "#3FA9E0",
+  "acc2": "#8BE0C8"
+ }
+}

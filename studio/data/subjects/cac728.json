@@ -1,0 +1,156 @@
+{
+ "code": "CAC.728",
+ "title": "Parent-Child Interaction Therapy",
+ "sem": "Electives",
+ "hours": 24,
+ "tagline": "Healing the relationship that heals the child.",
+ "welcome": "PCIT coaches the parent in the room, live, to become the child's therapist. This course trains you in one of the most powerful evidence-based methods for young children.",
+ "vignette": "Behind a one-way mirror, a coach whispers into a mother's earbug: 'Catch him doing anything right.' The mother praises; the boy brightens; the cycle turns. In minutes, the relationship is the treatment.",
+ "vignette_attr": "A live PCIT coaching moment, drawn from practice",
+ "description": "An intensive course in Parent-Child Interaction Therapy: attachment and social-learning foundations, the CDI phase (PRIDE skills and differential attention), the PDI phase (effective commands and consistent follow-through), live bug-in-the-ear coaching, assessment and progress monitoring, and working with challenging cases.",
+ "questions": [
+  "How do I coach a parent live without shaming them?",
+  "How do I sequence warmth before discipline?",
+  "How do I hold fidelity to the model with real families?"
+ ],
+ "importance": [
+  "PCIT has among the strongest evidence for early conduct problems",
+  "It changes the parent, which changes the child durably",
+  "Live coaching is a uniquely powerful skill"
+ ],
+ "misconceptions": [
+  "that PCIT is parent training only, when it is relationship therapy in vivo",
+  "that it is rigid, when it is mastery-based and individualized"
+ ],
+ "figures": [
+  "Sheila Eyberg",
+  "who created PCIT from attachment and learning science",
+  "Cheryl McNeil",
+  "who advanced PCIT training and adaptation",
+  "The PCIT research network",
+  "whose trials sustain the model"
+ ],
+ "settings": [
+  "PCIT clinics",
+  "early childhood services",
+  "home-based adaptations",
+  "family mental health"
+ ],
+ "outcomes": [
+  [
+   "Explain PCIT's theoretical base",
+   "You will integrate attachment and social-learning foundations."
+  ],
+  [
+   "Teach CDI and PRIDE skills",
+   "You will coach praise, reflection, imitation, description, enjoyment."
+  ],
+  [
+   "Teach PDI and effective commands",
+   "You will coach clear commands and consistent follow-through."
+  ],
+  [
+   "Coach live with skill",
+   "You will deliver bug-in-the-ear coaching that builds parents."
+  ],
+  [
+   "Monitor progress with data",
+   "You will use standardized session-by-session measurement."
+  ],
+  [
+   "Adapt to challenging cases",
+   "You will handle complexity within fidelity."
+  ]
+ ],
+ "modules": [
+  [
+   "Foundations of PCIT",
+   3,
+   [
+    "Attachment and social learning",
+    "The evidence base"
+   ],
+   "Two sciences, one method."
+  ],
+  [
+   "Assessment and the PCIT Frame",
+   3,
+   [
+    "Intake and measurement",
+    "The coaching setup"
+   ],
+   "The frame makes coaching possible."
+  ],
+  [
+   "CDI: The Warmth Phase",
+   4,
+   [
+    "PRIDE skills",
+    "Differential attention"
+   ],
+   "Warmth first, and mastery of it."
+  ],
+  [
+   "PDI: The Structure Phase",
+   4,
+   [
+    "Effective commands",
+    "Consistent follow-through"
+   ],
+   "Structure carried in warmth."
+  ],
+  [
+   "Live Coaching Skill",
+   5,
+   [
+    "The coach's voice",
+    "Timing, shaping, and supporting the parent"
+   ],
+   "Coaching is the signature skill."
+  ],
+  [
+   "Challenging Cases and Fidelity",
+   5,
+   [
+    "Complexity and adaptation",
+    "Maintaining fidelity"
+   ],
+   "Fidelity keeps the evidence alive."
+  ]
+ ],
+ "practicum": [
+  "Practice is coached and live.",
+  [
+   "PRIDE and PIDI role-plays",
+   "Live-coaching simulations with feedback",
+   "Progress-monitoring labs",
+   "A PCIT case simulation"
+  ]
+ ],
+ "assessment": [
+  "Assessment is fidelity and coaching based.",
+  [
+   "A recorded coaching segment with fidelity rating",
+   "PRIDE/PDI teaching demonstration",
+   "Progress data interpretation",
+   "PCIT examination"
+  ]
+ ],
+ "tips": [
+  "Praise the parent the way you want them to praise",
+  "Keep coaching statements short and immediate",
+  "Trust the sequence: warmth before structure"
+ ],
+ "integration": "PCIT is a flagship method integrating play, family, and behavioral competence.",
+ "faith": "We strengthen parents as the child's first and lasting healers, honoring the family covenant.",
+ "closing": "May every parent you coach discover their own power, and every child their parent's warmth.",
+ "style": {
+  "layout": "band",
+  "motif": "heart",
+  "bg0": "#26141A",
+  "bg1": "#44222C",
+  "ink": "#F8EEF0",
+  "acc": "#E0708F",
+  "acc2": "#E8C060"
+ }
+}

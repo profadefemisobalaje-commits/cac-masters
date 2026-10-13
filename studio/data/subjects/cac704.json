@@ -1,0 +1,167 @@
+{
+ "code": "CAC.704",
+ "title": "Counseling Techniques and Skills",
+ "sem": "First Semester",
+ "hours": 24,
+ "tagline": "Where compassion becomes clinical skill.",
+ "welcome": "This is the skills laboratory of the programme. Here, empathy is trained into technique, and technique is kept humane by empathy.",
+ "vignette": "In a practice session, a student counselor asks a perfect question at the wrong moment, and watches the role-play client close like a door. The supervisor pauses the video. Timing, she says, is a skill. We can build it.",
+ "vignette_attr": "A microskills laboratory moment",
+ "description": "The flagship skills course: microskills training, the structure of the counseling session, empathy and advanced attending, questioning and confrontation, building alliances with children, adolescents, and caregivers, and deliberate practice with structured feedback until skill becomes habit.",
+ "questions": [
+  "What exactly do I say, and when?",
+  "How do I stay present while I stay technical?",
+  "How is skill built and measured?"
+ ],
+ "importance": [
+  "Skills are what a client actually experiences of your training",
+  "Deliberate practice with feedback is the proven route to competence",
+  "Alliance, built by skill, is the strongest predictor of outcome"
+ ],
+ "misconceptions": [
+  "that good people are naturally good counselors, when skill is trained not innate",
+  "that technique is cold, when disciplined technique is how care reaches the client"
+ ],
+ "figures": [
+  "Allen Ivey",
+  "whose microskills hierarchy made counseling teachable",
+  "Robert Carkhuff",
+  "who operationalized empathy and facilitating conditions",
+  "Carl Rogers",
+  "whose conditions remain the benchmark of the helping relationship"
+ ],
+ "settings": [
+  "practice laboratories",
+  "school and clinical counseling rooms",
+  "supervision suites",
+  "telehealth counseling"
+ ],
+ "outcomes": [
+  [
+   "Demonstrate core microskills with fluency",
+   "You will attend, question, reflect, and summarize with smooth competence."
+  ],
+  [
+   "Structure sessions from opening to closing",
+   "You will open, focus, deepen, and close a session with intention."
+  ],
+  [
+   "Build alliances with young clients and caregivers",
+   "You will earn trust from a child and a parent in the same room."
+  ],
+  [
+   "Use self-awareness as a clinical instrument",
+   "You will monitor your own reactions and use them as data."
+  ],
+  [
+   "Respond to resistance and silence",
+   "You will treat resistance as information and silence as material."
+  ],
+  [
+   "Engage in deliberate practice",
+   "You will rehearse targeted skills with feedback until they hold under pressure."
+  ]
+ ],
+ "modules": [
+  [
+   "The Microskills Hierarchy",
+   3,
+   [
+    "Attending behavior and observation",
+    "Questions, encouragers, and paraphrase"
+   ],
+   "The hierarchy is the alphabet of every later skill."
+  ],
+  [
+   "Attending, Empathy and Advanced Listening",
+   4,
+   [
+    "Reflection of feeling and meaning",
+    "Advanced accurate empathy"
+   ],
+   "Listening is the most active skill in the room."
+  ],
+  [
+   "Session Structure and Helping Skills",
+   4,
+   [
+    "Opening and joining",
+    "Focusing and deepening",
+    "Closing and consolidating"
+   ],
+   "Structure frees the client to feel safe enough to be honest."
+  ],
+  [
+   "Questions, Confrontation and Immediacy",
+   3,
+   [
+    "Open and closed questions",
+    "Gentle confrontation and immediacy"
+   ],
+   "Challenge must be carried in warmth or it wounds."
+  ],
+  [
+   "Building Alliance with Children and Adolescents",
+   4,
+   [
+    "Alliance with the child",
+    "Alliance with the caregiver",
+    "Managing the triangle"
+   ],
+   "With minors you hold two alliances at once; this module teaches the balance."
+  ],
+  [
+   "Deliberate Practice Laboratory",
+   3,
+   [
+    "Targeted rehearsal with feedback",
+    "Rating your own recordings"
+   ],
+   "Feedback is the fertilizer of skill; we schedule it deliberately."
+  ],
+  [
+   "Skills Integration and Live Review",
+   3,
+   [
+    "Full-session integration",
+    "Live supervised review"
+   ],
+   "Integration proves the parts have become a whole."
+  ]
+ ],
+ "practicum": [
+  "The course is a laboratory.",
+  [
+   "Recorded microskills labs with structured feedback",
+   "Role-plays with trained partners",
+   "Live supervision of full sessions",
+   "A deliberate-practice journal"
+  ]
+ ],
+ "assessment": [
+  "Assessment is performance-based.",
+  [
+   "Recorded skills demonstrations rated with standardized rubrics",
+   "A full recorded session with self-critique",
+   "Live supervised demonstration",
+   "Microskills written examination"
+  ]
+ ],
+ "tips": [
+  "Record yourself weekly and watch with a rubric",
+  "Practice one microskill at a time to mastery",
+  "Treat feedback as a gift and seek it actively"
+ ],
+ "integration": "Every clinical course after this one assumes these skills; this is where they are built.",
+ "faith": "Skill is stewardship. We train the hands and the voice because they carry our care to another soul.",
+ "closing": "May your skills grow until they disappear into presence, and may your presence always carry skill.",
+ "style": {
+  "layout": "band",
+  "motif": "bridge",
+  "bg0": "#0C1F1A",
+  "bg1": "#144034",
+  "ink": "#EFF7F0",
+  "acc": "#2E8B6E",
+  "acc2": "#C6A15B"
+ }
+}

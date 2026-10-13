@@ -1,0 +1,156 @@
+{
+ "code": "CAC.710",
+ "title": "Multicultural Counseling",
+ "sem": "Second Semester",
+ "hours": 18,
+ "tagline": "Every child arrives with a whole culture.",
+ "welcome": "Competence across culture is not an add-on to counseling; it is counseling, done honestly. This course trains the humble, skilled cross-cultural counselor.",
+ "vignette": "A counselor praises a ten-year-old for 'speaking up for herself,' and watches the child's grandmother stiffen. In that silence, two cultures meet. The counselor must learn to read the room in more than one language of meaning.",
+ "vignette_attr": "A cross-generational moment, drawn from practice",
+ "description": "A study of multicultural and social-justice competencies in counseling children and adolescents: cultural identity development, bias and microaggressions, culturally responsive assessment and intervention, working with immigrant and minority families, and advocacy.",
+ "questions": [
+  "What do I not see about my own culture?",
+  "How does bias enter assessment and diagnosis?",
+  "How do I honor a family's worldview while protecting a child?"
+ ],
+ "importance": [
+  "Culture shapes every symptom, story, and goal",
+  "Bias in assessment produces real harm and misdiagnosis",
+  "Families trust counselors who respect their world"
+ ],
+ "misconceptions": [
+  "that being kind is the same as being competent across culture",
+  "that culture matters only for minority clients, when every client is cultural"
+ ],
+ "figures": [
+  "Derald Wing Sue",
+  "whose multicultural competencies redefined the field",
+  "Janet Helms",
+  "whose identity development models map the journey",
+  "Paul Pedersen",
+  "who carried multiculturalism across borders"
+ ],
+ "settings": [
+  "diverse schools and clinics",
+  "refugee and immigrant services",
+  "community and faith organizations",
+  "any practice with children"
+ ],
+ "outcomes": [
+  [
+   "Examine your own cultural identity",
+   "You will map your own position and its blind spots."
+  ],
+  [
+   "Recognize bias and microaggressions",
+   "You will catch bias in yourself and in systems, and repair it."
+  ],
+  [
+   "Apply culturally responsive assessment",
+   "You will choose and interpret tools with cultural validity."
+  ],
+  [
+   "Adapt interventions to culture",
+   "You will modify methods without diluting evidence."
+  ],
+  [
+   "Work effectively with immigrant and minority families",
+   "You will build alliance across language and tradition."
+  ],
+  [
+   "Advocate for young people",
+   "You will act beyond the room for justice and access."
+  ]
+ ],
+ "modules": [
+  [
+   "Foundations of Multicultural Competence",
+   3,
+   [
+    "Awareness, knowledge, skills",
+    "The history of the movement"
+   ],
+   "Competence begins with honest self-awareness."
+  ],
+  [
+   "Cultural Identity Development",
+   3,
+   [
+    "Helms and minority identity",
+    "Dominant identity development"
+   ],
+   "Identity models let you meet people where they are."
+  ],
+  [
+   "Bias, Stereotype, and Microaggression",
+   3,
+   [
+    "Implicit bias in the clinician",
+    "Microaggressions and repair"
+   ],
+   "Bias is human; unchecked bias is malpractice."
+  ],
+  [
+   "Culturally Responsive Assessment and Diagnosis",
+   3,
+   [
+    "Cultural formulation",
+    "Avoiding misdiagnosis"
+   ],
+   "Assessment must ask: in this culture, what is this?"
+  ],
+  [
+   "Culture-Adapted Interventions",
+   3,
+   [
+    "Adapting evidence-based methods",
+    "Indigenous and faith-informed practices"
+   ],
+   "Adaptation keeps evidence and respect together."
+  ],
+  [
+   "Families, Language, and Immigration",
+   3,
+   [
+    "Working with interpreters",
+    "Acculturative stress in children"
+   ],
+   "Immigrant children carry two worlds; we hold both."
+  ]
+ ],
+ "practicum": [
+  "Practice is reflective and relational.",
+  [
+   "Cultural genogram and self-audit",
+   "Cross-cultural interview assignments",
+   "Microaggression repair role-plays",
+   "Community immersion reflection"
+  ]
+ ],
+ "assessment": [
+  "Assessment measures growth in competence.",
+  [
+   "A cultural self-audit portfolio",
+   "A culturally adapted case plan",
+   "Cross-cultural interview reflection",
+   "Multicultural competence examination"
+  ]
+ ],
+ "tips": [
+  "Seek feedback from people whose culture differs from yours",
+  "Learn one concrete norm before each new community",
+  "Treat every family as the expert on their own life"
+ ],
+ "integration": "Multicultural competence permeates every clinical course and your entire practice.",
+ "faith": "Every culture bears part of the image of God; honoring culture is a form of honoring the child.",
+ "closing": "May you cross every cultural bridge with humility, and may no child feel foreign in your presence.",
+ "style": {
+  "layout": "split",
+  "motif": "globe",
+  "bg0": "#0B1E33",
+  "bg1": "#123B5C",
+  "ink": "#F2F6F7",
+  "acc": "#3FA7D6",
+  "acc2": "#F4A259"
+ }
+}

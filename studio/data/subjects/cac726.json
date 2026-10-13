@@ -1,0 +1,156 @@
+{
+ "code": "CAC.726",
+ "title": "Internship in Child and Adolescent Counseling",
+ "sem": "Electives",
+ "hours": 12,
+ "tagline": "Where training becomes practice, under wise eyes.",
+ "welcome": "The internship is where everything you have learned meets real children under real supervision. This course orients and sustains you through it.",
+ "vignette": "In week three, an intern sits with a grieving eight-year-old and remembers every course at once, then forgets them all and simply listens well. The supervisor's note reads: presence, then technique. That is the internship's lesson.",
+ "vignette_attr": "An early internship session, drawn from supervision",
+ "description": "An orientation and support course for the supervised clinical placement: internship expectations and documentation, professional conduct and confidentiality on site, supervision use, reflective practice, case presentation, and self-care. It does not replace actual supervised clinical hours.",
+ "questions": [
+  "How do I learn maximally from my supervisor?",
+  "How do I document and present cases professionally?",
+  "How do I sustain myself through clinical demands?"
+ ],
+ "importance": [
+  "Supervised hours are where competence is certified",
+  "Reflective practice turns experience into growth",
+  "Professional conduct on site protects clients and you"
+ ],
+ "misconceptions": [
+  "that the internship is a performance to pass, when it is a learning relationship to use",
+  "that uncertainty is weakness, when it is the raw material of supervision"
+ ],
+ "figures": [
+  "Your site supervisor",
+  "who guides your clinical formation",
+  "Your faculty liaison",
+  "who connects site and programme",
+  "Your peer cohort",
+  "who walks the road with you"
+ ],
+ "settings": [
+  "approved clinical sites",
+  "schools and agencies",
+  "supervision rooms",
+  "reflective practice groups"
+ ],
+ "outcomes": [
+  [
+   "Meet internship expectations",
+   "You will understand hours, conduct, and evaluation."
+  ],
+  [
+   "Document and present cases",
+   "You will write and present professionally."
+  ],
+  [
+   "Use supervision actively",
+   "You will bring questions and receive feedback well."
+  ],
+  [
+   "Practice reflective practice",
+   "You will turn experience into learning."
+  ],
+  [
+   "Maintain ethics and confidentiality on site",
+   "You will conduct yourself impeccably."
+  ],
+  [
+   "Sustain yourself through placement",
+   "You will practice self-care and boundary management."
+  ]
+ ],
+ "modules": [
+  [
+   "Orientation and Expectations",
+   2,
+   [
+    "Hours, roles, evaluation",
+    "Professional identity on site"
+   ],
+   "Clarity first."
+  ],
+  [
+   "Confidentiality and Conduct on Site",
+   2,
+   [
+    "Site ethics and records",
+    "Professional boundaries"
+   ],
+   "Conduct is credibility."
+  ],
+  [
+   "Using Supervision",
+   2,
+   [
+    "Preparing for supervision",
+    "Receiving and applying feedback"
+   ],
+   "Supervision is the engine."
+  ],
+  [
+   "Documentation and Case Presentation",
+   2,
+   [
+    "Notes and case write-ups",
+    "Presenting to peers"
+   ],
+   "Documentation is discipline."
+  ],
+  [
+   "Reflective Practice",
+   2,
+   [
+    "Reflective models",
+    "The reflective journal"
+   ],
+   "Reflection converts hours into growth."
+  ],
+  [
+   "Self-Care and Sustainability",
+   2,
+   [
+    "Burnout prevention",
+    "Boundaries and rest"
+   ],
+   "You are your first client."
+  ]
+ ],
+ "practicum": [
+  "Practice is the placement itself.",
+  [
+   "Supervised clinical hours",
+   "Reflective journal",
+   "Case presentations",
+   "Supervisor evaluations"
+  ]
+ ],
+ "assessment": [
+  "Assessment is the internship sequence.",
+  [
+   "Supervisor evaluations",
+   "Case presentations",
+   "Reflective portfolio",
+   "Internship documentation"
+  ]
+ ],
+ "tips": [
+  "Bring one real question to every supervision",
+  "Write your reflection the same day",
+  "Protect rest; the work is a marathon"
+ ],
+ "integration": "The internship integrates and certifies the whole programme.",
+ "faith": "We serve under guidance with humility, as apprentices in a sacred craft.",
+ "closing": "May your placement form you well, and may the children you meet remember your steadiness.",
+ "style": {
+  "layout": "hero",
+  "motif": "badge",
+  "bg0": "#1A2016",
+  "bg1": "#2E3A26",
+  "ink": "#F2F6EA",
+  "acc": "#9FBF4A",
+  "acc2": "#D9B84A"
+ }
+}

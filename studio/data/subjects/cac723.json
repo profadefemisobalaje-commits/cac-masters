@@ -1,0 +1,156 @@
+{
+ "code": "CAC.723",
+ "title": "Legal Issues in Counseling",
+ "sem": "Electives",
+ "hours": 18,
+ "tagline": "The law as a frame for safe, ethical practice.",
+ "welcome": "Law is not the enemy of counseling; it is the frame that keeps it safe. This course teaches you the legal landscape so you can practice confidently.",
+ "vignette": "A subpoena arrives for a minor client's records. The counselor must know privilege, consent, and procedure, and act within days. Legal knowledge turns a panic into a procedure.",
+ "vignette_attr": "A records subpoena, drawn from practice",
+ "description": "A course in the legal dimensions of counseling children and adolescents: confidentiality, privilege, and their limits with minors; consent and assent; mandated reporting law; custody and divorced-family complexities; records and subpoenas; liability and risk management; and working with the legal system.",
+ "questions": [
+  "What must I keep, what must I break, and what must I report?",
+  "Who holds consent when parents disagree?",
+  "How do I respond to legal process without betraying the child?"
+ ],
+ "importance": [
+  "Legal errors end careers and harm children",
+  "Minors sit inside complex legal relationships",
+  "Confident legal knowledge frees clinical presence"
+ ],
+ "misconceptions": [
+  "that ethics and law are the same, when they differ and must both be navigated",
+  "that legal issues are rare, when they are routine in minor practice"
+ ],
+ "figures": [
+  "Theodore Remley",
+  "whose texts organize counseling law",
+  "Barbara Herlihy",
+  "who advanced ethics and law integration",
+  "Your jurisdiction's statutes",
+  "which ultimately govern your practice"
+ ],
+ "settings": [
+  "any practice with minors",
+  "schools and agencies",
+  "custody and court-adjacent work",
+  "risk management"
+ ],
+ "outcomes": [
+  [
+   "Apply confidentiality and privilege law",
+   "You will know what protects and what compels disclosure."
+  ],
+  [
+   "Navigate consent with minors",
+   "You will manage parental rights and the child's assent."
+  ],
+  [
+   "Execute mandated reporting legally",
+   "You will report correctly and document defensibly."
+  ],
+  [
+   "Handle custody and divided-family cases",
+   "You will stay aligned with legal authority."
+  ],
+  [
+   "Manage records and subpoenas",
+   "You will respond to legal process properly."
+  ],
+  [
+   "Practice risk management",
+   "You will reduce liability through documentation and consultation."
+  ]
+ ],
+ "modules": [
+  [
+   "The Legal Frame of Counseling",
+   3,
+   [
+    "Law versus ethics",
+    "Sources of law"
+   ],
+   "The frame first, then the practice."
+  ],
+  [
+   "Confidentiality, Privilege, and Minors",
+   3,
+   [
+    "Privilege holders",
+    "Exceptions and duty"
+   ],
+   "The heart of minor practice."
+  ],
+  [
+   "Consent, Assent, and the Minor",
+   3,
+   [
+    "Who consents",
+    "The mature minor and its limits"
+   ],
+   "Consent is layered with children."
+  ],
+  [
+   "Mandated Reporting in Law",
+   3,
+   [
+    "Statutes and procedure",
+    "Immunity and penalties"
+   ],
+   "Reporting is a legal and moral act."
+  ],
+  [
+   "Custody, Divorce, and the Counselor",
+   3,
+   [
+    "Custody orders and access",
+    "Staying neutral and legal"
+   ],
+   "Divided families test your legal clarity."
+  ],
+  [
+   "Records, Subpoenas, and Liability",
+   3,
+   [
+    "Records and release",
+    "Risk management and insurance"
+   ],
+   "Paperwork is protection."
+  ]
+ ],
+ "practicum": [
+  "Practice is scenario-based.",
+  [
+   "Subpoena and records simulations",
+   "Consent-with-minors role-plays",
+   "A reporting decision lab",
+   "A risk-management audit of a practice"
+  ]
+ ],
+ "assessment": [
+  "Assessment tests legal reasoning.",
+  [
+   "Scenario examinations",
+   "A records-release decision write-up",
+   "A reporting documentation exercise",
+   "Legal issues comprehensive exam"
+  ]
+ ],
+ "tips": [
+  "Know your jurisdiction's statutes specifically",
+  "Document every legal decision and consultation",
+  "When served, pause and consult before acting"
+ ],
+ "integration": "Legal competence protects every clinical skill you have built.",
+ "faith": "We render to law what is law's, and to the child what is the child's, with integrity.",
+ "closing": "May your practice be safe, your records sound, and your children protected by both.",
+ "style": {
+  "layout": "card",
+  "motif": "gavel",
+  "bg0": "#1D1410",
+  "bg1": "#37261A",
+  "ink": "#F5EEE3",
+  "acc": "#C98F4A",
+  "acc2": "#8FA98F"
+ }
+}

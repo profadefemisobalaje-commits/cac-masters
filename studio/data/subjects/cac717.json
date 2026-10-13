@@ -1,0 +1,156 @@
+{
+ "code": "CAC.717",
+ "title": "Research Methods in Counseling",
+ "sem": "Third Semester",
+ "hours": 20,
+ "tagline": "Reading evidence like a clinician, thinking like a scientist.",
+ "welcome": "Evidence is the counselor's compass. This course teaches you to read research critically and to let it inform, not replace, your judgment.",
+ "vignette": "A headline claims a new therapy 'cures' adolescent anxiety. A parent prints it and asks if you offer it. The research-literate counselor reads the method, the sample, the effect size, and answers with care and precision.",
+ "vignette_attr": "An evidence question in practice, drawn from experience",
+ "description": "A course in research literacy for counselors: the logic of quantitative and qualitative inquiry, reading and critiquing studies, effect sizes and clinical significance, evidence-based practice in counseling children and adolescents, and beginning a research proposal.",
+ "questions": [
+  "What counts as good evidence for my work?",
+  "How large is the effect, and does it matter clinically?",
+  "How do I keep updating as evidence changes?"
+ ],
+ "importance": [
+  "Evidence-based practice is an ethical requirement",
+  "Critical reading protects clients from fads",
+  "Research literacy is required for thesis and lifelong learning"
+ ],
+ "misconceptions": [
+  "that research is only for academics, when every clinician consumes research daily",
+  "that one strong study settles a question, when science accumulates"
+ ],
+ "figures": [
+  "Ronald Fisher",
+  "whose design logic underlies quantitative research",
+  "John Creswell",
+  "whose texts organize qualitative and mixed inquiry",
+  "The evidence-based practice movement",
+  "which joined best evidence, skill, and client values"
+ ],
+ "settings": [
+  "clinical decision-making",
+  "programme evaluation",
+  "thesis and doctoral study",
+  "policy and advocacy"
+ ],
+ "outcomes": [
+  [
+   "Explain research logic and designs",
+   "You will distinguish experimental, quasi, and qualitative designs."
+  ],
+  [
+   "Critique quantitative studies",
+   "You will evaluate sampling, measures, and validity."
+  ],
+  [
+   "Interpret effect sizes and significance",
+   "You will separate statistical from clinical significance."
+  ],
+  [
+   "Appraise qualitative research",
+   "You will judge trustworthiness and method."
+  ],
+  [
+   "Apply evidence-based practice",
+   "You will integrate evidence, skill, and client values."
+  ],
+  [
+   "Draft a research proposal",
+   "You will begin a coherent, ethical inquiry."
+  ]
+ ],
+ "modules": [
+  [
+   "The Research Stance",
+   3,
+   [
+    "Why clinicians need research",
+    "Ways of knowing"
+   ],
+   "The stance is curiosity disciplined."
+  ],
+  [
+   "Quantitative Logic and Designs",
+   4,
+   [
+    "Variables and designs",
+    "Threats to validity"
+   ],
+   "Design is the skeleton of evidence."
+  ],
+  [
+   "Reading and Critiquing Studies",
+   4,
+   [
+    "Anatomy of a paper",
+    "The critique checklist"
+   ],
+   "A checklist makes critique systematic."
+  ],
+  [
+   "Effect Size and Clinical Significance",
+   3,
+   [
+    "Beyond the p-value",
+    "What magnitude means for a child"
+   ],
+   "Magnitude is what matters to a client."
+  ],
+  [
+   "Qualitative and Mixed Inquiry",
+   3,
+   [
+    "Qualitative traditions",
+    "Trustworthiness"
+   ],
+   "Some questions need words, not numbers."
+  ],
+  [
+   "Evidence-Based Practice and Proposal",
+   3,
+   [
+    "The EBP process",
+    "Beginning your proposal"
+   ],
+   "EBP joins evidence, skill, and the child's values."
+  ]
+ ],
+ "practicum": [
+  "Practice is reading and critiquing.",
+  [
+   "Structured critiques of real studies",
+   "Effect-size interpretation labs",
+   "An evidence question answered for a parent",
+   "A proposal outline workshop"
+  ]
+ ],
+ "assessment": [
+  "Assessment tests literacy and critique.",
+  [
+   "Two full study critiques",
+   "An effect-size interpretation exam",
+   "An evidence-based practice case",
+   "A research proposal outline"
+  ]
+ ],
+ "tips": [
+  "Read the method before the conclusion",
+  "Ask how big, not just whether",
+  "Keep a running list of evidence questions from practice"
+ ],
+ "integration": "Research literacy undergirds your thesis and every evidence-informed clinical course.",
+ "faith": "We pursue truth wherever it is found, trusting that honest inquiry honors the Creator of truth.",
+ "closing": "May you read with discernment and practice with evidence, and may your clients be the better for it.",
+ "style": {
+  "layout": "band",
+  "motif": "quill",
+  "bg0": "#1B1A24",
+  "bg1": "#2E2C3E",
+  "ink": "#F2F0F6",
+  "acc": "#B08BD9",
+  "acc2": "#7FC8B0"
+ }
+}

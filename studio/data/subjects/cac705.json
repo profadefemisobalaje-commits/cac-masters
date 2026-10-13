@@ -1,0 +1,165 @@
+{
+ "code": "CAC.705",
+ "title": "Group Counseling for Children and Adolescents",
+ "sem": "First Semester",
+ "hours": 20,
+ "tagline": "Healing in the circle.",
+ "welcome": "A well-led group gives a young person something no individual session can: the discovery that they are not alone.",
+ "vignette": "In a fourth-grade social-skills group, a quiet girl laughs at another child's joke, then freezes, unsure if she is allowed to belong. The group leader holds the moment. In circles, small moments teach the biggest lessons.",
+ "vignette_attr": "A school group session, drawn from practice",
+ "description": "The theory and practice of therapeutic groups with young people: group stages and dynamics, screening and composition, play-based and expressive formats, school-based group programs, and leading groups for grief, social skills, anger, and anxiety.",
+ "questions": [
+  "What does the group provide that the individual cannot?",
+  "How do I lead a circle of children and hold each one?",
+  "When is a group harmful, and how do I prevent it?"
+ ],
+ "importance": [
+  "Peers are the natural change agents of childhood and adolescence",
+  "Groups deliver scarce counseling resources to more young people",
+  "Group experience rehearses the social world in miniature"
+ ],
+ "misconceptions": [
+  "that a group is just several individual sessions at once, when group dynamics are their own force",
+  "that any willing child belongs in any group, when screening and composition decide outcomes"
+ ],
+ "figures": [
+  "Irvin Yalom",
+  "whose therapeutic factors explain why groups heal",
+  "Wilfred Bion",
+  "who revealed the hidden dynamics beneath group life",
+  "Violet Oaklander",
+  "who brought expressive, play-based depth to groups with children"
+ ],
+ "settings": [
+  "schools",
+  "community youth programs",
+  "clinical group practice",
+  "grief and support programs"
+ ],
+ "outcomes": [
+  [
+   "Design developmentally appropriate groups",
+   "You will plan groups matched to age, purpose, and culture."
+  ],
+  [
+   "Facilitate every group stage",
+   "You will lead forming, storming, norming, performing, and adjourning."
+  ],
+  [
+   "Screen and compose groups",
+   "You will select members who help rather than harm one another."
+  ],
+  [
+   "Manage group dynamics and difficult moments",
+   "You will handle scapegoating, dominance, and silence with skill."
+  ],
+  [
+   "Lead expressive and play-based formats",
+   "You will use play and art as the group's language."
+  ],
+  [
+   "Evaluate group outcomes",
+   "You will measure change and report it clearly."
+  ]
+ ],
+ "modules": [
+  [
+   "Foundations of Group Work",
+   3,
+   [
+    "Why groups with young people",
+    "Therapeutic factors for children"
+   ],
+   "The factors name what we must deliberately create."
+  ],
+  [
+   "Group Dynamics and Developmental Stages",
+   3,
+   [
+    "Stages of group development",
+    "Roles, norms, and cohesion"
+   ],
+   "Dynamics are the weather the leader must read."
+  ],
+  [
+   "Screening, Composition and Preparation",
+   2,
+   [
+    "Who belongs and who does not",
+    "Preparing children and parents"
+   ],
+   "Composition is the first and most powerful intervention."
+  ],
+  [
+   "Play-Based and Expressive Group Formats",
+   4,
+   [
+    "Play as group language",
+    "Art, stories, and ritual in the circle"
+   ],
+   "Expression lets children say what words cannot."
+  ],
+  [
+   "School-Based Group Programs",
+   3,
+   [
+    "Designing school groups",
+    "Working within the school system"
+   ],
+   "Schools are where most young people can be reached."
+  ],
+  [
+   "Leading Specialized Groups",
+   3,
+   [
+    "Grief, anger, anxiety, and social-skills groups",
+    "Co-leadership and supervision"
+   ],
+   "Specialized groups need specialized maps."
+  ],
+  [
+   "Evaluating and Ending Groups",
+   2,
+   [
+    "Measuring group outcomes",
+    "Termination and follow-up"
+   ],
+   "Endings consolidate what the circle has built."
+  ]
+ ],
+ "practicum": [
+  "Practice is experiential.",
+  [
+   "Participation in a live experiential group",
+   "Co-leading a short group with feedback",
+   "Group design portfolio",
+   "Dynamics case discussions"
+  ]
+ ],
+ "assessment": [
+  "Assessment blends design and facilitation.",
+  [
+   "A full group proposal with screening plan",
+   "A recorded facilitation segment with critique",
+   "Dynamics analysis examination",
+   "Reflective participation record"
+  ]
+ ],
+ "tips": [
+  "Learn the stages so you never mistake storming for failure",
+  "Protect every member's dignity in the circle",
+  "Co-lead when you can; two eyes see more"
+ ],
+ "integration": "Group work multiplies every individual skill you learn in this programme.",
+ "faith": "The circle echoes the community of faith; we lead it with the same hospitality.",
+ "closing": "May the circles you lead become places where no young person feels alone again.",
+ "style": {
+  "layout": "split",
+  "motif": "circles",
+  "bg0": "#0E2730",
+  "bg1": "#14424E",
+  "ink": "#F0F7F5",
+  "acc": "#2AA7A0",
+  "acc2": "#F0876A"
+ }
+}

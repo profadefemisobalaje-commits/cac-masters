@@ -1,0 +1,165 @@
+{
+ "code": "CAC.708",
+ "title": "Fundamentals of Counseling Theories (Advanced Integration)",
+ "sem": "First Semester",
+ "hours": 18,
+ "tagline": "From knowing the theories to owning a coherent approach.",
+ "welcome": "This advanced study takes the theoretical map from CAC.701 and turns it into a working, integrated, defensible clinical identity.",
+ "vignette": "A supervisee is asked which theory she used in a session. She answers, 'Whichever one the child needed.' Her supervisor smiles and pushes: then show me how you chose. Integration, this course insists, must be reasoned, not improvised.",
+ "vignette_attr": "A supervision exchange, drawn from practice",
+ "description": "An advanced, integrative revisit of counseling theories: common factors, principles of eclecticism and integration, comparative case formulation across systems, and the construction of a coherent personal model of practice, with attention to faith-sensitive and culturally responsive integration.",
+ "questions": [
+  "How do I choose between theories in the moment?",
+  "What makes integration principled rather than random?",
+  "What is my own coherent model?"
+ ],
+ "importance": [
+  "Unexamined eclecticism risks inconsistent, unfalsifiable practice",
+  "Integrated practitioners show better case coherence and confidence",
+  "A written personal model is a professional anchor"
+ ],
+ "misconceptions": [
+  "that integration means using everything, when it means choosing with reasons",
+  "that a personal model is fixed, when it is a living document"
+ ],
+ "figures": [
+  "John Norcross",
+  "whose common-factors and integration research grounds the field",
+  "Larry Beutler",
+  "whose systematic treatment selection links theory to evidence",
+  "Paul Sperry",
+  "who advanced integrative case formulation"
+ ],
+ "settings": [
+  "advanced supervision",
+  "integrative private practice",
+  "clinical case conferences",
+  "consultation rooms"
+ ],
+ "outcomes": [
+  [
+   "Evaluate common factors and integration research",
+   "You will use the evidence on what makes therapy work."
+  ],
+  [
+   "Compare formulations across systems",
+   "You will write one case from three theoretical positions."
+  ],
+  [
+   "Apply systematic treatment selection",
+   "You will match method to client with explicit reasons."
+  ],
+  [
+   "Construct a coherent personal model",
+   "You will draft and defend your integrative framework."
+  ],
+  [
+   "Integrate faith and culture responsibly",
+   "You will hold conviction and evidence in one model."
+  ],
+  [
+   "Present and critique integrative cases",
+   "You will give and receive rigorous peer critique."
+  ]
+ ],
+ "modules": [
+  [
+   "Common Factors and the Case for Integration",
+   2,
+   [
+    "The evidence base",
+    "Dodo verdict and its critics"
+   ],
+   "Start from what actually makes therapy work."
+  ],
+  [
+   "Approaches to Integration",
+   3,
+   [
+    "Eclecticism, integration, assimilation",
+    "Choosing your stance"
+   ],
+   "Name your stance so you can defend it."
+  ],
+  [
+   "Comparative Case Formulation",
+   3,
+   [
+    "One case, three lenses",
+    "Writing cross-system formulations"
+   ],
+   "Comparison builds flexible depth."
+  ],
+  [
+   "Systematic Treatment Selection",
+   3,
+   [
+    "Matching to client and problem",
+    "Decision rules"
+   ],
+   "Selection with rules is selection you can justify."
+  ],
+  [
+   "Faith-Sensitive and Culturally Responsive Integration",
+   2,
+   [
+    "Conviction and evidence",
+    "Culture in the model"
+   ],
+   "Integration must include the whole person and whole client."
+  ],
+  [
+   "Drafting Your Personal Model",
+   3,
+   [
+    "Assumptions, methods, safeguards",
+    "Writing the framework"
+   ],
+   "The written model is the deliverable of the course."
+  ],
+  [
+   "Defense and Peer Critique",
+   2,
+   [
+    "Presenting your model",
+    "Structured critique"
+   ],
+   "Critique is the forge of coherence."
+  ]
+ ],
+ "practicum": [
+  "Practice is scholarly and clinical.",
+  [
+   "Cross-system formulation labs",
+   "Personal model drafting workshops",
+   "Peer critique seminars",
+   "A defended integrative case presentation"
+  ]
+ ],
+ "assessment": [
+  "Assessment centers on the personal model.",
+  [
+   "A written personal theory of practice",
+   "A defended integrative case formulation",
+   "Peer critique participation",
+   "Comparative formulation examination"
+  ]
+ ],
+ "tips": [
+  "Write your model early and revise weekly",
+  "Invite critique; it is the fastest teacher",
+  "Keep one anchor theory and integrate deliberately"
+ ],
+ "integration": "This course completes the theoretical foundation and anchors every clinical course that follows.",
+ "faith": "We integrate with humility, holding our convictions open to evidence and to God.",
+ "closing": "May your model be coherent, humble, and alive, and may it serve every child who meets you.",
+ "style": {
+  "layout": "split",
+  "motif": "seal",
+  "bg0": "#101418",
+  "bg1": "#1E262E",
+  "ink": "#EFEFE6",
+  "acc": "#C9A227",
+  "acc2": "#9FB8C8"
+ }
+}

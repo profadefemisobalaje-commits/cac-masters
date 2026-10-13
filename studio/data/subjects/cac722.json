@@ -1,0 +1,156 @@
+{
+ "code": "CAC.722",
+ "title": "Developmental Disabilities and Counseling",
+ "sem": "Electives",
+ "hours": 20,
+ "tagline": "Counseling the whole person across the lifespan of ability.",
+ "welcome": "Developmental disabilities reshape a family's story from diagnosis onward. This course teaches you to counsel the child, the adolescent, and the family with dignity and skill.",
+ "vignette": "At a diagnosis feedback meeting, a mother hears 'Down syndrome' and goes quiet. The counselor's next ten minutes will shape how this family carries that name for years. Words, paced and kind, are clinical instruments.",
+ "vignette_attr": "A diagnosis feedback meeting, drawn from practice",
+ "description": "A course in counseling individuals with developmental disabilities and their families: major developmental disabilities and their trajectories, diagnosis disclosure and family adaptation, counseling adaptations across ability, transitions across the lifespan, and collaboration and advocacy.",
+ "questions": [
+  "How do I counsel across communication differences?",
+  "How do I support a family at diagnosis and at every transition?",
+  "How do I honor autonomy and capability in every person?"
+ ],
+ "importance": [
+  "Families need sustained counseling across the disability lifespan",
+  "Adapted counseling is a right, not a luxury",
+  "Transitions are predictable crises; skilled support changes them"
+ ],
+ "misconceptions": [
+  "that people with developmental disabilities cannot benefit from counseling, when adapted counseling is effective",
+  "that the family's story ends at diagnosis, when it is a lifelong journey"
+ ],
+ "figures": [
+  "Ann Turnbull",
+  "whose family-centered work shaped disability support",
+  "The family quality-of-life researchers",
+  "who redefined success around the whole family",
+  "The self-advocacy movement",
+  "which insists on the voice of the person"
+ ],
+ "settings": [
+  "disability and family services",
+  "schools and transition programmes",
+  "clinical practice",
+  "advocacy organizations"
+ ],
+ "outcomes": [
+  [
+   "Know major disabilities and trajectories",
+   "You will describe presentations and lifespan courses."
+  ],
+  [
+   "Support diagnosis disclosure and adaptation",
+   "You will pace feedback and family adjustment."
+  ],
+  [
+   "Adapt counseling across ability",
+   "You will modify method and communication."
+  ],
+  [
+   "Guide lifespan transitions",
+   "You will plan school-to-work and adult transitions."
+  ],
+  [
+   "Collaborate across services",
+   "You will work with teams and agencies."
+  ],
+  [
+   "Advocate for dignity and inclusion",
+   "You will champion rights and belonging."
+  ]
+ ],
+ "modules": [
+  [
+   "Developmental Disabilities: An Overview",
+   3,
+   [
+    "Major conditions and trajectories",
+    "Prevalence and co-occurring mental health"
+   ],
+   "The overview grounds every later skill."
+  ],
+  [
+   "Diagnosis Disclosure and Family Adaptation",
+   3,
+   [
+    "The feedback conversation",
+    "Family adaptation models"
+   ],
+   "The first words echo for years."
+  ],
+  [
+   "Counseling Adaptations",
+   4,
+   [
+    "Communication and method adaptations",
+    "Behavior and emotional support"
+   ],
+   "Adaptation is the craft."
+  ],
+  [
+   "The Sibling and the Family System",
+   3,
+   [
+    "Sibling experience",
+    "Family resilience"
+   ],
+   "The whole family carries the journey."
+  ],
+  [
+   "Lifespan Transitions",
+   4,
+   [
+    "Early intervention to school",
+    "School to work and adult life"
+   ],
+   "Transitions are the hinge points."
+  ],
+  [
+   "Collaboration, Rights, and Advocacy",
+   3,
+   [
+    "Service systems and rights",
+    "Advocacy and inclusion"
+   ],
+   "Advocacy completes the counselor's role."
+  ]
+ ],
+ "practicum": [
+  "Practice is family-centered.",
+  [
+   "Adapted counseling role-plays",
+   "A disclosure-meeting simulation",
+   "A transition plan design",
+   "Family collaboration case"
+  ]
+ ],
+ "assessment": [
+  "Assessment is applied and family-focused.",
+  [
+   "An adapted counseling plan",
+   "Disclosure simulation with critique",
+   "Transition plan portfolio",
+   "Disabilities examination"
+  ]
+ ],
+ "tips": [
+  "Presume competence always",
+  "Learn the person's communication first",
+  "Support the siblings too"
+ ],
+ "integration": "This elective deepens special-education and family work across the programme.",
+ "faith": "Every person, of every ability, is made in the image of God and worthy of full dignity.",
+ "closing": "May every family hear hope with the diagnosis, and may every person be counseled as whole.",
+ "style": {
+  "layout": "split",
+  "motif": "sprout",
+  "bg0": "#14231C",
+  "bg1": "#24402F",
+  "ink": "#F0F6EE",
+  "acc": "#7FBF6A",
+  "acc2": "#E3C05C"
+ }
+}

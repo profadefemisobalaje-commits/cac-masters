@@ -1,0 +1,156 @@
+{
+ "code": "CAC.724",
+ "title": "Community Resources and Referrals",
+ "sem": "Electives",
+ "hours": 16,
+ "tagline": "No counselor is an island; the community is the team.",
+ "welcome": "A counselor who knows the community can open any door a child needs. This course maps the ecosystem and trains the referral craft.",
+ "vignette": "A family needs housing, a pediatric psychiatrist, and a food basket, all this week. The counselor's resource map turns three crises into three appointments. Referral skill is hope made logistical.",
+ "vignette_attr": "A multi-need family, drawn from practice",
+ "description": "A course in the community ecosystem around children and families: mapping mental health, medical, educational, social, and faith resources; the warm referral craft; case coordination and follow-through; cultural and access considerations; and building referral networks.",
+ "questions": [
+  "What exists in this community for this child?",
+  "How do I make a referral a family will actually keep?",
+  "How do I coordinate without dropping the thread?"
+ ],
+ "importance": [
+  "Most child needs exceed one professional",
+  "Warm referrals dramatically increase kept appointments",
+  "Coordination prevents children falling between services"
+ ],
+ "misconceptions": [
+  "that referral is passing the buck, when it is an act of care",
+  "that knowing resources is optional, when it is core competence"
+ ],
+ "figures": [
+  "The community psychology movement",
+  "which located healing in communities",
+  "Case management pioneers",
+  "who systematized coordination",
+  "Local resource builders",
+  "whose maps you will inherit and extend"
+ ],
+ "settings": [
+  "community mental health",
+  "schools and agencies",
+  "care coordination",
+  "outreach and advocacy"
+ ],
+ "outcomes": [
+  [
+   "Map the community ecosystem",
+   "You will inventory mental health, medical, and social resources."
+  ],
+  [
+   "Make warm, effective referrals",
+   "You will craft referrals families keep."
+  ],
+  [
+   "Coordinate cases across services",
+   "You will hold the thread across agencies."
+  ],
+  [
+   "Navigate access and cultural barriers",
+   "You will match resources to family reality."
+  ],
+  [
+   "Build and maintain networks",
+   "You will cultivate reciprocal professional relationships."
+  ],
+  [
+   "Document and follow up referrals",
+   "You will close the loop responsibly."
+  ]
+ ],
+ "modules": [
+  [
+   "The Community Ecosystem",
+   2,
+   [
+    "Sectors and services",
+    "The child at the center"
+   ],
+   "The map first."
+  ],
+  [
+   "The Warm Referral Craft",
+   3,
+   [
+    "Barriers to kept appointments",
+    "The warm handoff"
+   ],
+   "The handoff is the intervention."
+  ],
+  [
+   "Case Coordination",
+   3,
+   [
+    "Holding the thread",
+    "Communication across services"
+   ],
+   "Coordination prevents the drop."
+  ],
+  [
+   "Access, Culture, and Equity",
+   3,
+   [
+    "Barriers and bridges",
+    "Equity in referral"
+   ],
+   "Access is a justice issue."
+  ],
+  [
+   "Building Referral Networks",
+   3,
+   [
+    "Reciprocity and trust",
+    "Maintaining the map"
+   ],
+   "Networks are living assets."
+  ],
+  [
+   "Documentation and Follow-Through",
+   2,
+   [
+    "Tracking referrals",
+    "Closing loops"
+   ],
+   "Follow-up is care."
+  ]
+ ],
+ "practicum": [
+  "Practice is mapping and referring.",
+  [
+   "A community resource map of your area",
+   "Warm-referral role-plays",
+   "A coordination case simulation",
+   "A follow-up protocol design"
+  ]
+ ],
+ "assessment": [
+  "Assessment is practical.",
+  [
+   "A resource map with annotations",
+   "A referral case write-up",
+   "Coordination simulation",
+   "Resources examination"
+  ]
+ ],
+ "tips": [
+  "Keep a living, dated resource map",
+  "Do the first booking with the family present",
+  "Follow up every referral within two weeks"
+ ],
+ "integration": "Referral competence completes your clinical reach across every setting.",
+ "faith": "We are members of one another; the community is the body that carries the child.",
+ "closing": "May your map be rich and your handoffs warm, and may no child be left between doors.",
+ "style": {
+  "layout": "band",
+  "motif": "network",
+  "bg0": "#231A10",
+  "bg1": "#40301C",
+  "ink": "#F7F0E0",
+  "acc": "#D9A441",
+  "acc2": "#6FBF8F"
+ }
+}

@@ -1,0 +1,165 @@
+{
+ "code": "CAC.706",
+ "title": "Family Systems Therapy",
+ "sem": "First Semester",
+ "hours": 20,
+ "tagline": "No child arrives alone.",
+ "welcome": "Every child brings a whole family into the room, visibly or not. This course teaches you to see and work with that system.",
+ "vignette": "A ten-year-old's stomachaches vanish on weekends and return on school mornings. The pediatrician finds nothing. In session, the parents sit on opposite edges of the couch. The symptom, you begin to suspect, is speaking for the family.",
+ "vignette_attr": "A family intake, drawn from supervised practice",
+ "description": "A systemic study of the family as the unit of treatment: systems theory and family structure, Bowen and structural and strategic approaches, communication patterns, the family life cycle, and conducting conjoint sessions with children and their caregivers.",
+ "questions": [
+  "Whose problem is the symptom?",
+  "How do I join a whole family at once?",
+  "How is change made in a system that resists it?"
+ ],
+ "importance": [
+  "Most child symptoms are embedded in family patterns",
+  "Family involvement is the strongest predictor of lasting change",
+  "Systems thinking prevents blaming the identified patient"
+ ],
+ "misconceptions": [
+  "that family therapy means seeing everyone every session, when the system can be worked through parts",
+  "that the child's diagnosis is the target, when the pattern is often the target"
+ ],
+ "figures": [
+  "Murray Bowen",
+  "whose differentiation and triangles mapped the emotional system",
+  "Salvador Minuchin",
+  "whose structural therapy reorganized family hierarchies",
+  "Virginia Satir",
+  "who brought communication and warmth to systems work"
+ ],
+ "settings": [
+  "family therapy clinics",
+  "private systemic practice",
+  "school and community consultation",
+  "integrated behavioral health"
+ ],
+ "outcomes": [
+  [
+   "Read family structure and patterns",
+   "You will see boundaries, hierarchies, and triangles in live interaction."
+  ],
+  [
+   "Apply Bowen, structural, and strategic models",
+   "You will choose and use systemic frameworks with precision."
+  ],
+  [
+   "Join and hold a whole family",
+   "You will build alliance across generations in one room."
+  ],
+  [
+   "Reframe symptoms systemically",
+   "You will relocate the problem from child to pattern without blame."
+  ],
+  [
+   "Design systemic interventions",
+   "You will craft enactments and tasks that shift the system."
+  ],
+  [
+   "Navigate the family life cycle",
+   "You will match interventions to the family's developmental stage."
+  ]
+ ],
+ "modules": [
+  [
+   "Systems Thinking and the Identified Patient",
+   3,
+   [
+    "From individual to system",
+    "Circular causality"
+   ],
+   "The shift from linear to circular is the course's core move."
+  ],
+  [
+   "Bowen Family Systems Theory",
+   3,
+   [
+    "Differentiation and triangles",
+    "Multigenerational transmission"
+   ],
+   "Bowen gives you a map across generations."
+  ],
+  [
+   "Structural Family Therapy",
+   3,
+   [
+    "Boundaries, subsystems, hierarchy",
+    "Joining and restructuring in session"
+   ],
+   "Minuchin teaches you to act in the room, not just talk."
+  ],
+  [
+   "Strategic and Communication Approaches",
+   3,
+   [
+    "Problem-maintaining sequences",
+    "Prescribing and reframing"
+   ],
+   "Strategic work targets the pattern that keeps the problem alive."
+  ],
+  [
+   "The Family Life Cycle",
+   2,
+   [
+    "Normative transitions and stuck points",
+    "Culture and the life cycle"
+   ],
+   "Many symptoms mark a transition the family cannot navigate."
+  ],
+  [
+   "Conjoint Sessions with Children and Caregivers",
+   3,
+   [
+    "Managing the multi-person session",
+    "Enactments with children"
+   ],
+   "The conjoint session is where systemic skill becomes visible."
+  ],
+  [
+   "Ethics, Culture and the Systemic Counselor",
+   3,
+   [
+    "Power, culture, and neutrality",
+    "The therapist's own family of origin"
+   ],
+   "The systemic counselor must see their own system too."
+  ]
+ ],
+ "practicum": [
+  "Practice uses live and recorded families.",
+  [
+   "Genogram construction of your own family",
+   "Role-played conjoint sessions with enactments",
+   "Structural mapping laboratories",
+   "Family case consultations"
+  ]
+ ],
+ "assessment": [
+  "Assessment is systemic and applied.",
+  [
+   "A genogram and structural case formulation",
+   "A recorded conjoint segment with critique",
+   "Systems theory examination",
+   "Family intervention design portfolio"
+  ]
+ ],
+ "tips": [
+  "Draw the family before you treat it; the map reveals the move",
+  "Watch interaction, not just content",
+  "Keep the child's voice audible in the system"
+ ],
+ "integration": "Family systems thinking reframes every child course in this programme.",
+ "faith": "The family is the first community; we honor it even as we help it change.",
+ "closing": "May you see the whole family with compassion, and may the child in the middle finally be free.",
+ "style": {
+  "layout": "card",
+  "motif": "rings",
+  "bg0": "#2A1A2E",
+  "bg1": "#4A2A4E",
+  "ink": "#F7EEF5",
+  "acc": "#C98BB8",
+  "acc2": "#E0B96A"
+ }
+}

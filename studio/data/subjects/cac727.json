@@ -1,0 +1,156 @@
+{
+ "code": "CAC.727",
+ "title": "Professional Identity and Development",
+ "sem": "Electives",
+ "hours": 16,
+ "tagline": "Becoming the counselor you are training to be.",
+ "welcome": "Beyond techniques is the person. This course forms your professional identity: your philosophy, your ethics, your community, and your lifelong growth plan.",
+ "vignette": "A new graduate is asked, 'What kind of counselor are you?' She pauses, then answers with a coherent philosophy of person, change, and ethics. That answer is the course's product.",
+ "vignette_attr": "A graduation conversation, drawn from experience",
+ "description": "A course in professional identity: the history and values of the counseling profession, professional organizations and credentials, a personal philosophy of counseling, wellness and burnout prevention, lifelong learning and supervision, and advocacy for the profession and for children.",
+ "questions": [
+  "Who am I as a counselor, and on what ground?",
+  "How will I stay well and growing across a career?",
+  "What do I owe the profession and the public?"
+ ],
+ "importance": [
+  "Identity predicts resilience and ethical consistency",
+  "Professional community prevents isolation and drift",
+  "Advocacy protects children and the profession"
+ ],
+ "misconceptions": [
+  "that identity is fixed at graduation, when it is developed across a career",
+  "that self-care is indulgence, when it is professional duty"
+ ],
+ "figures": [
+  "The profession's founders",
+  "who defined counseling as a distinct discipline",
+  "Your mentors and supervisors",
+  "who model the identity you refine",
+  "Professional associations",
+  "which carry the standards and community"
+ ],
+ "settings": [
+  "early career and beyond",
+  "professional associations",
+  "supervision and consultation",
+  "advocacy and leadership"
+ ],
+ "outcomes": [
+  [
+   "Articulate a personal philosophy",
+   "You will state your view of person, change, and ethics."
+  ],
+  [
+   "Know the profession's history and values",
+   "You will locate yourself in the field's story."
+  ],
+  [
+   "Engage professional community",
+   "You will join organizations and networks."
+  ],
+  [
+   "Practice wellness and prevent burnout",
+   "You will build a sustainable professional life."
+  ],
+  [
+   "Plan lifelong learning",
+   "You will design your growth and supervision path."
+  ],
+  [
+   "Advocate for children and the profession",
+   "You will act beyond the consulting room."
+  ]
+ ],
+ "modules": [
+  [
+   "The Profession's Story and Values",
+   2,
+   [
+    "History and distinct identity",
+    "Core values"
+   ],
+   "Know whose shoulders you stand on."
+  ],
+  [
+   "A Personal Philosophy of Counseling",
+   3,
+   [
+    "Person, change, ethics",
+    "Writing your philosophy"
+   ],
+   "The philosophy anchors every decision."
+  ],
+  [
+   "Professional Community and Credentials",
+   2,
+   [
+    "Organizations and credentials",
+    "Finding your tribe"
+   ],
+   "Community sustains identity."
+  ],
+  [
+   "Wellness, Burnout, and Sustainability",
+   3,
+   [
+    "Impairment and burnout",
+    "A personal wellness plan"
+   ],
+   "Wellness is ethics applied to yourself."
+  ],
+  [
+   "Lifelong Learning and Supervision",
+   3,
+   [
+    "Continuing competence",
+    "Consultation across the career"
+   ],
+   "Growth does not end at graduation."
+  ],
+  [
+   "Advocacy and Leadership",
+   3,
+   [
+    "For children and for the profession",
+    "Finding your advocacy voice"
+   ],
+   "Advocacy is identity in action."
+  ]
+ ],
+ "practicum": [
+  "Practice is reflective and communal.",
+  [
+   "A written professional philosophy",
+   "A personal wellness plan",
+   "Professional organization engagement",
+   "An advocacy action project"
+  ]
+ ],
+ "assessment": [
+  "Assessment is identity-based.",
+  [
+   "Professional philosophy paper",
+   "Wellness plan",
+   "Advocacy project",
+   "Identity and development portfolio"
+  ]
+ ],
+ "tips": [
+  "Write your philosophy now and revisit yearly",
+  "Join one professional community this term",
+  "Schedule wellness like a client"
+ ],
+ "integration": "Identity integrates and sustains every competence in the degree.",
+ "faith": "We form our professional selves as a calling, accountable to God and to the child.",
+ "closing": "May you know who you are as a counselor, and may that knowing steady you for decades.",
+ "style": {
+  "layout": "card",
+  "motif": "shield",
+  "bg0": "#191426",
+  "bg1": "#2C2344",
+  "ink": "#F4F0FA",
+  "acc": "#9C86D9",
+  "acc2": "#E0C060"
+ }
+}

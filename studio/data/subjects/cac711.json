@@ -1,0 +1,156 @@
+{
+ "code": "CAC.711",
+ "title": "Assessment and Diagnosis in Children and Adolescents",
+ "sem": "Second Semester",
+ "hours": 24,
+ "tagline": "Seeing clearly, naming carefully.",
+ "welcome": "A good assessment is an act of respect: it tells a child, what is happening to you has a name, and a path. This course teaches you to see clearly and name carefully.",
+ "vignette": "Two clinicians watch the same restless nine-year-old. One sees ADHD; the other sees anxiety; a third sees a sleepless home. Only careful, multi-source assessment can tell which story is true, and the child's next years depend on it.",
+ "vignette_attr": "A diagnostic conference, drawn from practice",
+ "description": "A comprehensive course in assessment and diagnosis with young people: the DSM-5-TR and ICD-11 disorders of childhood and adolescence, the assessment interview, behavioral observation, rating scales and testing basics, differential diagnosis, and writing clear, humane reports.",
+ "questions": [
+  "What is the difference between a symptom and a signal?",
+  "How do I hold multiple informants who disagree?",
+  "How do I write a diagnosis that opens doors rather than closing them?"
+ ],
+ "importance": [
+  "Misdiagnosis redirects a childhood; careful diagnosis rescues it",
+  "Assessment skill is required for referral, treatment, and advocacy",
+  "Reports are legal and clinical documents; they must be excellent"
+ ],
+ "misconceptions": [
+  "that diagnosis labels and harms, when careful diagnosis protects and guides",
+  "that rating scales diagnose, when they only inform a clinical judgment"
+ ],
+ "figures": [
+  "Thomas Achenbach",
+  "whose empirical assessment system standardized child measurement",
+  "Allen Frances",
+  "who warned against diagnostic inflation",
+  "David Shaffer",
+  "who advanced structured child psychiatric assessment"
+ ],
+ "settings": [
+  "clinical assessment services",
+  "schools and educational psychology",
+  "hospital and community clinics",
+  "private diagnostic practice"
+ ],
+ "outcomes": [
+  [
+   "Apply DSM-5-TR and ICD-11 to youth",
+   "You will diagnose childhood disorders with current criteria."
+  ],
+  [
+   "Conduct the assessment interview",
+   "You will interview child and caregivers with structure and warmth."
+  ],
+  [
+   "Integrate multi-source data",
+   "You will weigh parents, teachers, scales, and observation."
+  ],
+  [
+   "Perform differential diagnosis",
+   "You will separate look-alike disorders systematically."
+  ],
+  [
+   "Use rating scales and testing knowledgeably",
+   "You will select, score, and interpret common instruments."
+  ],
+  [
+   "Write clear, humane reports",
+   "You will produce reports that are precise and protective."
+  ]
+ ],
+ "modules": [
+  [
+   "Foundations of Child Assessment",
+   3,
+   [
+    "Purposes and ethics of assessment",
+    "The assessment process"
+   ],
+   "Clarity of purpose keeps assessment humane."
+  ],
+  [
+   "The Diagnostic Systems",
+   4,
+   [
+    "DSM-5-TR childhood disorders",
+    "ICD-11 and neurodevelopmental conditions"
+   ],
+   "The systems are maps; we learn their borders."
+  ],
+  [
+   "The Assessment Interview and Observation",
+   4,
+   [
+    "Child and caregiver interviews",
+    "Behavioral observation methods"
+   ],
+   "The interview is where data and relationship begin."
+  ],
+  [
+   "Rating Scales, Checklists, and Testing",
+   4,
+   [
+    "Common instruments",
+    "Psychometrics for the counselor"
+   ],
+   "Instruments inform; they do not replace judgment."
+  ],
+  [
+   "Differential Diagnosis and Comorbidity",
+   4,
+   [
+    "Look-alikes and overlaps",
+    "Decision trees"
+   ],
+   "Differential discipline prevents the most common errors."
+  ],
+  [
+   "Report Writing and Feedback",
+   5,
+   [
+    "Structure of the report",
+    "Giving feedback to child and family"
+   ],
+   "The report and the feedback are where assessment becomes help."
+  ]
+ ],
+ "practicum": [
+  "Practice uses real instruments and cases.",
+  [
+   "Interview role-plays with structured guides",
+   "Rating-scale administration and scoring labs",
+   "Differential diagnosis case conferences",
+   "A full mock report with feedback"
+  ]
+ ],
+ "assessment": [
+  "Assessment mirrors professional assessment work.",
+  [
+   "A differential diagnosis case examination",
+   "A scored instrument portfolio",
+   "A complete mock assessment report",
+   "Interview demonstration"
+  ]
+ ],
+ "tips": [
+  "Always count sources before you conclude",
+  "Write the child's strengths first and specifically",
+  "When in doubt, describe behavior; defer labels"
+ ],
+ "integration": "Assessment anchors treatment planning across every clinical course in this programme.",
+ "faith": "We name carefully because every name is carried by a soul made in the image of God.",
+ "closing": "May your eyes be precise and your words be kind, and may your reports open every right door.",
+ "style": {
+  "layout": "card",
+  "motif": "lens",
+  "bg0": "#14181D",
+  "bg1": "#232B33",
+  "ink": "#EEF3F4",
+  "acc": "#56C1D0",
+  "acc2": "#D9A441"
+ }
+}
