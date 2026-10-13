@@ -227,7 +227,7 @@ async function pollStatus(){
     document.getElementById('prog').style.width=pct+'%';
     document.getElementById('progtext').textContent=`encode: ${j.segs}/${j.total} scenes (${pct}%)`+
       (j.started?` · elapsed ${j.elapsed_min} min`:'');
-  }catch(e){document.getElementById('progtext').textContent='encode finished or status unavailable';}
+  }catch(e){document.getElementById('progtext').textContent='awaiting the remaining narration clips';}
 }
 async function checkVideo(){
   try{const r=await fetch('video/final_1080p.mp4',{method:'HEAD',cache:'no-store'});
