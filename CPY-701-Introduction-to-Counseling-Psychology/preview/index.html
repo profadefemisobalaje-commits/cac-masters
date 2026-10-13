@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CPY 701 · Introduction to Counseling Psychology — Lecture Preview</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <span class="chip">CPY 701</span>
+    <div>
+      <h1>Introduction to Counseling Psychology</h1>
+      <p>Master's Degree in Counseling Psychology · narrated video lecture series · Weeks 1–3 preview</p>
+    </div>
+  </div>
+  <nav id="tabs" aria-label="Weeks"></nav>
+</header>
+
+<main>
+  <section class="stage-wrap">
+    <div class="stage" id="stage">
+      <img id="slide" alt="Lecture slide" />
+      <video id="video" controls preload="metadata" style="display:none"></video>
+      <div class="badge" id="modeBadge"></div>
+    </div>
+    <div class="caption" id="caption" aria-live="polite"></div>
+    <div class="controls">
+      <button id="playBtn" title="Play / pause (space)">▶</button>
+      <button id="prevBtn" title="Previous slide (←)">⟨</button>
+      <button id="nextBtn" title="Next slide (→)">⟩</button>
+      <input type="range" id="seek" min="0" max="1000" value="0" aria-label="Seek">
+      <span id="clock">00:00 / 00:00</span>
+      <button id="modeBtn" class="ghost" title="Switch between slide player and full video">Slide player</button>
+    </div>
+    <p class="note" id="weekNote"></p>
+  </section>
+
+  <aside class="panel">
+    <h2>This week</h2>
+    <ol id="outline" class="outline"></ol>
+    <h2>Downloads</h2>
+    <ul id="files" class="files"></ul>
+    <h2>Series status</h2>
+    <ul class="status">
+      <li><strong>Weeks 1–2:</strong> narrated MP4s delivered earlier; shown here as caption-synced slide playback.</li>
+      <li><strong>Week 3:</strong> full narrated video, captions (SRT + VTT) and editable deck available below.</li>
+      <li><strong>Weeks 4–16:</strong> outlined in <code>00-16-Week-Video-Outline.md</code>; production continues weekly.</li>
+    </ul>
+  </aside>
+</main>
+<footer>CPY 701 · Department of Counseling Psychology · preview build</footer>
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

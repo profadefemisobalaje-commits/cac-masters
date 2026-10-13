@@ -38,4 +38,23 @@ Requirements: Node ≥ 18; Python ≥ 3.9 with `imageio-ffmpeg` (or system ffmpe
 |---|---|---|
 | 1 | The Nature and Concept of Counseling Psychology | **Produced** (video + deck + captions) |
 | 2 | Historical and Philosophical Development | **Produced** (video + deck + captions) |
-| 3–16 | See `00-16-Week-Video-Outline.md` | Content outlined, production queued |
+| 3 | Relationship to Other Disciplines and Helping Professions | **Produced** (video + deck + captions) |
+| 4–16 | See `00-16-Week-Video-Outline.md` | Content outlined, production queued |
+
+## Preview player
+
+`preview/` is a small self-contained lecture player for reviewing produced
+weeks: slide-synced captions, keyboard controls, per-week outline navigation,
+download links, and (where the narrated MP4 is present in `dist/`) a switch to
+the full lecture film with embedded WebVTT captions.
+
+```bash
+python3 preview/server.py 8000     # range-capable static server
+# open http://<host>:8000/preview/
+```
+
+`preview/data.js` is regenerated from the rendered decks and caption tracks:
+
+```bash
+cd video && .venv/bin/python src/preview_build.py
+```
