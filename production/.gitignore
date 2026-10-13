@@ -6,3 +6,7 @@ __pycache__/
 
 # Source variable fonts are regenerable from github.com/google/fonts (OFL)
 assets/fonts/raw/*.ttf
+
+# Snapshot-durable mirror of narration + slide proxies (out/ is not covered by
+# sandbox snapshots, media/ is). Regenerable; never committed.
+season1/*/media/

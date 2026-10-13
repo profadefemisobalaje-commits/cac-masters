@@ -23,14 +23,27 @@ TITLE = "One Person, Two Natures"
 SUBTITLE = "THE COUNCIL OF CHALCEDON — HOW THE CHURCH SPENT A CENTURY LEARNING WHAT NOT TO SAY ABOUT CHRIST"
 COURTESY = "A PRESENTATION OF TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION USA"
 RECOGNITION = "RECOGNITION: PROF. ADELEKE DANIEL DUROJAIYE (PHD), PRESIDENT AND CHANCELLOR"
+NOTICE = ("Narration {n} of {t} clips recorded. When the last clips land, this page runs the "
+          "timing, score and mix, then the 1080p encode — and switches to the video player "
+          "(currently: {v}).")
 FONTS = ["Cinzel-700.ttf", "Cinzel-900.ttf", "CormorantGaramond-400.ttf",
          "CormorantGaramond-500.ttf", "Inter-400.ttf", "Montserrat-500.ttf"]
 
 
 def main():
-    tl = json.load(open(os.path.join(OUT, "timeline.json"), encoding="utf-8"))
-    scenes = tl["scenes"]
-    total = tl.get("total") or scenes[-1]["end"]
+    tlp = os.path.join(OUT, "timeline.json")
+    if os.path.exists(tlp):
+        tl = json.load(open(tlp, encoding="utf-8"))
+        scenes = tl["scenes"]
+        total = tl.get("total") or scenes[-1]["end"]
+    else:  # pre-timeline: page still boots from scenes.json
+        sc = json.load(open(os.path.join(OUT, "scenes.json"), encoding="utf-8"))
+        scenes = sc["scenes"] if isinstance(sc, dict) else sc
+        total = 0
+        for s in scenes:
+            s.setdefault("start", "")
+            s.setdefault("end", "")
+            s.setdefault("title", "")
 
     # ---- captions.vtt from captions.srt ----
     srt_path = os.path.join(OUT, "captions.srt")
@@ -60,20 +73,24 @@ def main():
         t = float(t); h = int(t // 3600); m = int(t % 3600 // 60); s = int(t % 60)
         return f"{h:d}:{m:02d}:{s:02d}" if h else f"{m:d}:{s:02d}"
 
-    chapters = [{"t": float(s["start"]), "label": hhmmss(s["start"]),
-                 "title": s.get("title", ""), "n": s.get("id", "")} for s in scenes]
+    chapters = []
+    if total:
+        chapters = [{"t": float(s["start"]), "label": hhmmss(s["start"]),
+                     "title": s.get("title", ""), "n": s.get("id", "")} for s in scenes]
 
     # ---- production dashboard pieces ----
     slides = []
     for s in scenes:
         n = int(s["slide"])
         p = os.path.join(OUT, "proxies", f"p_{n:03d}.jpg")
-        slides.append({"n": n, "title": s.get("title", ""), "t": hhmmss(s["start"]),
+        slides.append({"n": n, "title": s.get("title", ""), "t": hhmmss(s["start"]) if total else "",
                        "src": f"proxies/p_{n:03d}.jpg" if os.path.exists(p) else f"slides/slide_{n:03d}.png"})
     clips = []
     plan = os.path.join(OUT, "audio", "plan.json")
+    NCHUNKS = 0
     if os.path.exists(plan):
         pj = json.load(open(plan, encoding="utf-8"))
+        NCHUNKS = len(pj["chunks"])
         for i, c in enumerate(pj["chunks"]):
             f = os.path.join(OUT, "audio", f"narr_{i:02d}.mp3")
             if os.path.exists(f):
@@ -88,7 +105,8 @@ def main():
     for k, v in {
         "__SERIES__": SERIES, "__SEASON_EP__": SEASON_EP, "__TITLE__": TITLE,
         "__SUBTITLE__": SUBTITLE, "__COURTESY__": COURTESY, "__RECOGNITION__": RECOGNITION,
-        "__RUNTIME__": hhmmss(total), "__CHAP__": chap_json, "__SLIDES__": slide_json,
+        "__RUNTIME__": hhmmss(total) if total else "IN PRODUCTION", "__CHAP__": chap_json, "__SLIDES__": slide_json,
+        "__NOTICE__": NOTICE.format(n=len(clips), t=NCHUNKS, v=("ready" if os.path.exists(os.path.join(OUT,"video","final_1080p.mp4")) else "still encoding")),
         "__CLIPS__": clip_json, "__NSCENES__": str(len(scenes)), "__NCLIPS__": str(len(clips)),
     }.items():
         html = html.replace(k, v)
@@ -163,11 +181,8 @@ footer b{color:var(--gold2);font-weight:500}
 <div id="wip">
   <div class="card">
     <span class="badge" id="state">IN PRODUCTION</span>
-    <span class="badge">NARRATION __NCLIPS__/__NCLIPS__</span>
-    <p class="notice" style="margin-top:14px" id="noticeline">
-      Narration is fully recorded and the mix is mastered. The 1080p encode is running now —
-      this page will switch to the finished video player automatically as soon as it lands.
-    </p>
+    <span class="badge" id="nb">NARRATION __NCLIPS__ CLIPS</span>
+    <p class="notice" style="margin-top:14px" id="noticeline">__NOTICE__</p>
     <div class="bar"><i id="prog"></i></div>
     <p class="meta" id="progtext">checking encode progress…</p>
   </div>
@@ -192,6 +207,7 @@ footer b{color:var(--gold2);font-weight:500}
 </div>
 <script>
 const CH=__CHAP__, SL=__SLIDES__, CL=__CLIPS__;
+/* view helpers */
 const fmt=s=>{const h=Math.floor(s/3600),m=Math.floor(s%3600/60),x=Math.floor(s%60);
   return (h?h+":":"")+String(m).padStart(h?2:1,"0")+":"+String(x).padStart(2,"0")};
 document.getElementById('clips').innerHTML=CL.map(c=>`<div class="clip"><div class="n">${c.i}</div>
