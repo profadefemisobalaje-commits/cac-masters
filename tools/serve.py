@@ -18,6 +18,7 @@ from __future__ import annotations
 
 import argparse
 import html
+import io
 import json
 import os
 import re
@@ -67,11 +68,16 @@ def _nice_names() -> dict:
 
 class Handler(SimpleHTTPRequestHandler):
     server_version = "LectureLibrary/1.0"
+    # HTTP/1.1 rather than the library default of 1.0: preview proxies and
+    # sandbox ingress layers routinely refuse or mis-frame 1.0 responses.
+    protocol_version = "HTTP/1.1"
     nice: dict = {}
 
     # ---------------------------------------------------------------- paths
     def translate_path(self, path: str) -> str:
         p = path.split("?", 1)[0].split("#", 1)[0]
+        if p == "/health":
+            return os.path.join(SITE, "index.html")
         if p.startswith("/video/"):
             return os.path.join(DIST, os.path.basename(p[len("/video/"):]))
         if p.startswith("/script/"):
@@ -92,6 +98,17 @@ class Handler(SimpleHTTPRequestHandler):
         return self.nice.get(base)
 
     def send_head(self):
+        # Cheap liveness probe: proxy health checks must never pull 34 KB of
+        # HTML or touch a 90 MB video.
+        if self.path.split("?", 1)[0] == "/health":
+            body = b"ok\n"
+            self.send_response(200)
+            self.send_header("Content-Type", "text/plain; charset=utf-8")
+            self.send_header("Content-Length", str(len(body)))
+            self.send_header("Access-Control-Allow-Origin", "*")
+            self.end_headers()
+            return None if self.command == "HEAD" else io.BytesIO(body)
+
         path = self.translate_path(self.path)
         if os.path.isdir(path):
             return super().send_head()
