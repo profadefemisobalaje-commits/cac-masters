@@ -14,7 +14,7 @@ Usage:  TBUPROJ=/path/to/episode python tools/make_player.py
 import json, os, shutil
 
 ROOT = os.environ.get("TBUPROJ") or os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-ASSETS = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  # production/
+ASSETS = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "assets")  # production/assets
 OUT = os.path.join(ROOT, "out")
 
 SERIES = "WHAT YOU MAY NOT KNOW"
