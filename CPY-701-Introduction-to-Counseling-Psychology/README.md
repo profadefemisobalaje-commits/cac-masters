@@ -37,4 +37,5 @@ Requirements: Node ≥ 18; Python ≥ 3.9 with `imageio-ffmpeg` (or system ffmpe
 | Week | Topic | Status |
 |---|---|---|
 | 1 | The Nature and Concept of Counseling Psychology | **Produced** (video + deck + captions) |
-| 2–16 | See `00-16-Week-Video-Outline.md` | Content outlined, production queued |
+| 2 | Historical and Philosophical Development | **Produced** (video + deck + captions) |
+| 3–16 | See `00-16-Week-Video-Outline.md` | Content outlined, production queued |

@@ -41,7 +41,7 @@ def plan(week):
     chunks, cur, cur_chars = [], [], 0
     for s in slides:
         n = s['narration'].strip()
-        if cur and cur_chars + 1 + len(n) > 1450:
+        if cur and cur_chars + 1 + len(n) > 1490:
             chunks.append(cur); cur, cur_chars = [], 0
         cur.append(s); cur_chars += (1 if cur_chars else 0) + len(n)
     if cur:
