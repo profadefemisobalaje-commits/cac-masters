@@ -485,6 +485,19 @@ def fig_23_01():
            h=3.8, size=6.4, first_w=19)
 
 
+def fig_24_01():
+    hub("fig-24-01", "Petroleum Industry Act 2021",
+        ["Minister of Petroleum Resources: policy and licence approvals",
+         "NUPRC: upstream regulator",
+         "NMDPRA: midstream and downstream regulator",
+         "NNPC Limited: commercial company under CAMA 2020",
+         "Host communities development trusts: 3% of opex",
+         "Frontier Exploration Fund: 30% of NNPC profit oil and gas",
+         "Fiscal regime: royalties, hydrocarbon tax, CIT",
+         "Environmental remediation and decommissioning funds"],
+        size=6.6, rx=36)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None

@@ -43,3 +43,5 @@ See `git log`. Chapters completed are listed by `wordcount.py`.
 * Ch10–17 complete (206,375 words after Ch17). Figures to fig-17-01 (16-01 waterfall, 16-02 fiscal matrix).
 * Git: do NOT stage book/final/*.pdf until the final build (use `git add -A book ':!book/final'`); push needs `http.postBuffer` (set in .git/config).
 * Next: Ch18 Climate (fig 18-01 Paris ambition cycle), Ch19 Water (19-01), Ch20 Law of the Sea (20-01 maritime zones), Ch21 Part VI opener.
+* Ch18–23 complete (287,738 words after Ch23). Figures to fig-23-01 (19 principles matrix, 20 maritime zones custom, 21 FPIC matrix, 22 compliance hub, 23 justice matrix). Part VI opener in 21a.
+* Next: Ch24 (Part VII opener, part7.jpg; fig 24-01 PIA institutions), Ch25 (25-01 4 As), Ch26 (26-01 roadmap, 26-02 valuation), Ch27 (27-01), Ch28 Part VIII opener (28-01), Ch29 (29-01), Ch30 (30-01).
