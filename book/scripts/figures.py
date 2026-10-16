@@ -384,6 +384,28 @@ def fig_16_02():
            h=3.6, size=6.4, first_w=19)
 
 
+def fig_17_01():
+    vflow("fig-17-01", [
+        "Project proposal\n(oil field, mine, dam, power plant)",
+        "Screening",
+        "Scoping",
+        "Impact statement / ESIA report",
+        "Public participation & consultation",
+        "Review by competent authority",
+        "Decision & permit conditions",
+        "Monitoring, follow-up & enforcement",
+    ], side=[
+        "Proponent prepares project description",
+        "Is EIA required? Transboundary risk?",
+        "Issues, alternatives, baseline, cumulative effects",
+        "Direct & indirect effects, incl. downstream emissions (Finch)",
+        "Affected communities; notification of other states (Espoo)",
+        "Independent panel; expert advice",
+        "Approval, refusal or conditions; reasons published",
+        "Continuous monitoring over project life (Pulp Mills)",
+    ], h=5.2, size=7.0)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
