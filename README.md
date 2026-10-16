@@ -21,7 +21,7 @@ The debug APK is written to `app/build/outputs/apk/debug/app-debug.apk`; the deb
 
 ## Prepare a Play Store release
 
-The release build targets API 36 and builds a signed Android App Bundle (AAB) when the developer upload key is configured. See [`PLAY_STORE_RELEASE.md`](PLAY_STORE_RELEASE.md) for listing copy, privacy/Data Safety preparation and the exact release steps. The **Build Securify Play Store bundle** workflow expects the developer's upload keystore and passwords to be configured as GitHub Actions secrets; never commit or send those secrets in chat. No Play Console submission has been made.
+The release build targets API 36 and builds a signed Android App Bundle (AAB) when the developer upload key is configured. See [`PLAY_STORE_RELEASE.md`](PLAY_STORE_RELEASE.md) for listing copy, privacy/Data Safety preparation and the exact release steps. The **Build Securify Play Store bundle** workflow expects the developer's upload keystore and passwords to be configured as GitHub Actions secrets; never commit or send those secrets in chat. The privacy policy is in the repository but is not publicly hosted until GitHub Pages is enabled. No Play Console submission has been made.
 
 ## Optional PWA install
 

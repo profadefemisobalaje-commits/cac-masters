@@ -6,6 +6,7 @@
 - Release variant targets Android 16 / API 36 and builds an Android App Bundle (AAB).
 - A signed AAB workflow is ready, but **no Play Console submission has been made**. This repository has no Play Console connection, developer account, or upload keystore.
 - The current `Securify-debug.apk` is for sideload testing only. It is not a Play Store upload.
+- GitHub Pages is not enabled yet, so the policy is in the repository but does not have a live public URL. The Pages workflow will publish it after the repository owner enables Pages.
 
 ## Draft listing
 
@@ -27,7 +28,7 @@
 > No account, ads, analytics or file-upload feature. The passphrase is not saved. Forgotten passphrases cannot be reset, and clearing app data or uninstalling may erase the encrypted vault. Keep separate backups of important originals.
 
 **Support URL:** `https://github.com/profadefemisobalaje-commits/cac-masters/issues`
-**Privacy policy:** publish `privacy.html` at a permanent public HTTPS URL before submission.
+**Privacy policy:** after enabling GitHub Pages, publish at `https://profadefemisobalaje-commits.github.io/cac-masters/privacy.html` and enter the live URL in Play Console.
 **App icon:** `icons/securify-512.png` (512 × 512).
 **Feature graphic:** `play-store-assets/feature-graphic-1024x500.png` (1024 × 500).
 **Phone screenshots:** still required for the store listing; capture real screenshots from the final Android build after testing.
@@ -55,7 +56,7 @@ The workflow refuses to produce a release bundle if any signing secret is missin
 ## Remaining release gates
 
 - A verified Google Play developer account and app registration are required; the Play Console cannot be accessed from this workspace.
-- Publish the privacy page at a permanent public HTTPS URL and enter that URL in Play Console.
+- Enable repository **Settings → Pages → Build and deployment → Source: GitHub Actions**, then rerun the latest **Publish Securify site and privacy policy** workflow (or push a site-file change). Verify `https://profadefemisobalaje-commits.github.io/cac-masters/privacy.html` loads publicly before entering it in Play Console. Until Pages is enabled, the workflow skips deployment and the policy has no live URL.
 - Capture at least two current phone screenshots and complete the Play Console graphics/listing fields.
 - Confirm `com.securify.app` is available; if not, change it before the first Play submission.
 - Review the app, privacy policy and Data Safety form against the release AAB. Securify must not be described as scanning or protecting all phone files.
