@@ -275,6 +275,18 @@ def fig_10_01():
            h=3.3, size=6.6, first_w=22)
 
 
+# ----------------------------------------------------------------- Chapter 11
+def fig_11_01():
+    matrix("fig-11-01",
+           ["Objective", "Principal instruments", "Institutions / review"],
+           [["Safety", "Protect people & environment from radiation; prevent accidents", "CNS 1994; Joint Convention 1997; IAEA Safety Standards", "National regulator; CNS peer review; IRRS"],
+            ["Security", "Prevent theft, sabotage & malicious acts", "CPPNM & 2005 Amendment; ICSANT; UNSCR 1540", "Competent authority; IPPAS"],
+            ["Safeguards", "Verify non-diversion to weapons", "NPT Art III; INFCIRC/153; Additional Protocol", "IAEA Board; UN Security Council"],
+            ["Liability", "Compensate victims of nuclear damage", "Paris/Brussels; Vienna; Joint Protocol; CSC", "Courts of installation state"],
+            ["Waste & decommissioning", "Avoid undue burdens on future generations", "Joint Convention; Euratom Dir. 2011/70", "Waste agencies; segregated funds"]],
+           h=3.7, size=6.3, first_w=18)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
