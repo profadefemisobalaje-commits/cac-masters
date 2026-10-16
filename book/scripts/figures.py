@@ -128,6 +128,50 @@ def fig_04_01():
     ], w=4.6, h=3.7, size=6.0, rx=38)
 
 
+# ----------------------------------------------------------------- Chapter 5
+def fig_05_01():
+    f = Fig("fig-05-01", 4.6, 3.1)
+    H = f.H
+    f.box(30, H - 12, 40, 9, "PETROLEUM ARRANGEMENTS", "teal", size=7.4, bold=True)
+    a = f.box(3, H - 30, 40, 10, "Concessionary / licensing systems", "bronze", size=7, bold=True)
+    b = f.box(57, H - 30, 40, 10, "Contractual systems", "bronze", size=7, bold=True)
+    f.arrow(45, H - 12, 23, H - 20, color=GREY); f.arrow(55, H - 12, 77, H - 20, color=GREY)
+    f.box(3, 3, 40, 30, "Investor owns production at wellhead\nState return: bonuses, rentals, royalty, taxes\n\nUK · Norway · US · Australia · Nigeria (PML)", "light", size=6.3)
+    c = f.box(50, 3, 23, 30, "Production sharing contract\nState owns petroleum; contractor recovers costs (cost oil) and shares profit oil\nIndonesia · Angola · Nigeria (deep offshore)", "ivory", size=5.9)
+    d = f.box(75, 3, 22, 30, "Service contract\nState owns all production; contractor paid a fee (pure or risk service)\nIraq TSCs · Iran", "ivory", size=5.9)
+    f.arrow(23, H - 30, 23, 33, color=GREY)
+    f.arrow(72, H - 30, 61.5, 33, color=GREY); f.arrow(82, H - 30, 86, 33, color=GREY)
+    f.save()
+
+
+def fig_05_02():
+    f = Fig("fig-05-02", 4.6, 2.9)
+    H = f.H
+    rows = [
+        ("Gross production", [(100, TEAL2, "10.0 mmbbl")]),
+        ("Royalty (10%)", [(10, BRONZE, "State 1.0"), (90, TEAL_L, "Net 9.0")]),
+        ("Cost oil (limit 60% of net)", [(10, "#FFFFFF", ""), (54, TEAL, "Contractor cost recovery 5.4"), (36, TEAL_L, "Profit oil 3.6")]),
+        ("Profit oil split (60:40)", [(64, "#FFFFFF", ""), (21.6, BRONZE, "State 2.16"), (14.4, TEAL, "Ctr 1.44")]),
+    ]
+    top = H - 4
+    rh = (H - 16) / len(rows)
+    for k, (lab, segs) in enumerate(rows):
+        y = top - (k + 1) * rh
+        f.text(1, y + rh * 0.45, lab, size=6.4, color=INK, ha="left", bold=True)
+        x = 33
+        for w, col, t in segs:
+            ww = w * 0.65
+            if col != "#FFFFFF":
+                f.rect(x, y + 1, ww, rh - 3, fc=col, ec="white", lw=0.6)
+                f.text(x + ww / 2, y + 1 + (rh - 3) / 2, t, size=5.6,
+                       color=WHITE if col in (TEAL, TEAL2, BRONZE) else INK)
+            x += ww
+    f.rect(3, 2, 3, 3, fc=BRONZE); f.text(7, 3.5, "State", size=6.2, ha="left")
+    f.rect(20, 2, 3, 3, fc=TEAL); f.text(24, 3.5, "Contractor", size=6.2, ha="left")
+    f.text(97, 3.5, "Before tax: State 3.16 · Contractor 6.84 (of which cost recovery 5.4) — hypothetical", size=5.6, color=GREY, ha="right", italic=True)
+    f.save()
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
