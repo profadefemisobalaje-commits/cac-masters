@@ -1,0 +1,16 @@
+# Foreword {.front}
+
+Marriage and family therapy is a young discipline with an old subject. Its subject — the ways in which people who are bound to one another by kinship, partnership, and care shape each other's conduct, emotion, and health — is as ancient as human society. Its disciplinary identity, however, was consolidated only in the middle decades of the twentieth century, when clinicians and researchers in the United States, Britain, Italy, and elsewhere began to treat the family not as the background of individual pathology but as a system with properties of its own.
+
+This book is the first volume in a curriculum-based series written for doctoral study in marriage and family therapy. Each volume addresses one course in the doctoral programme of Triune Biblical University Global Extension USA, and each is designed to stand alone as a text that can be read, taught, and examined in its own right. The present volume addresses the foundational course of the programme, *MFT. 901 Advanced Theories of Family Systems*.
+
+The purpose of the series is not to replace the primary literature. Doctoral candidates must read the original texts — Bateson's essays on communication, Minuchin's structural analyses, Bowen's papers on differentiation, Johnson's attachment-based treatment manuals, and the empirical studies on which contemporary practice rests. What a text of this kind can do is to provide a disciplined map: to explain where the ideas came from, what they claim, how they relate to one another, what evidence supports them, where they have been criticised, and how a doctoral researcher can work with them. The series therefore treats theory as a set of tools that must be understood in their historical and cultural context and evaluated on their merits, not as doctrine to be recited.
+
+The book is written for three audiences. The first is the doctoral candidate who is encountering family systems theory at an advanced level and must be able to compare, apply, and critique competing formulations. The second is the practising clinician who wishes to ground practice in theoretical understanding rather than in habit. The third is the researcher and teacher who needs a consolidated account of the field's conceptual architecture, together with its unresolved questions.
+
+Each chapter follows a consistent design: learning objectives; an introduction; numbered sections of analysis; illustrative case material, clearly identified as hypothetical or documentary; applied exercises; a summary; doctoral research questions; and annotated guidance for further reading. Diagrams and illustrations are placed at the points in the argument where they are needed, and are drawn or prepared for this edition.
+
+The series is academic in method and professional in orientation. It engages evidence, including evidence that is inconvenient for preferred theories. It attends to culture, gender, power, and context, because a systems perspective that ignores them is not systematic at all. Above all, it treats the reader as a colleague whose task is not to memorise conclusions but to form independent, defensible judgements.
+
+*The Editorial Board*\
+*Doctoral Texts in Marriage and Family Therapy*
