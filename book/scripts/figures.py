@@ -209,6 +209,26 @@ def fig_06_02():
     f.save()
 
 
+# ----------------------------------------------------------------- Chapter 7
+def fig_07_01():
+    f = Fig("fig-07-01", 4.6, 3.0)
+    H = f.H
+    stages = ["Reconnaissance", "Exploration", "Development\n& construction", "Operation\n(production)", "Closure &\nrehabilitation", "Post-closure\nstewardship"]
+    titles = ["Reconnaissance\npermit\n(non-exclusive)", "Exploration\nlicence\n(exclusive; work\nobligations)", "Mining lease;\nEIA approval;\nCDA; land access", "Royalties & tax;\nHSE compliance;\nreporting", "Closure plan;\nfinancial\nassurance", "Closure\ncertificate;\nresidual liability"]
+    n = len(stages); gap = 1.6; w = (100 - 4 - gap * (n - 1)) / n
+    yb = H * 0.58; bh = H * 0.22
+    for k in range(n):
+        x = 2 + k * (w + gap)
+        f.box(x, yb, w, bh, stages[k], "teal" if k < 4 else "bronze", size=6.0, bold=True)
+        if k:
+            f.arrow(x - gap + 0.05, yb + bh / 2, x - 0.05, yb + bh / 2, color=INK, lw=1.0)
+        f.box(x, H * 0.12, w, H * 0.38, titles[k], "light", size=5.4)
+        f.arrow(x + w / 2, yb - 0.3, x + w / 2, H * 0.50 + 0.3, color=GREY, lw=0.8, style="-")
+    f.text(50, H - 3.5, "Stages of the mining life cycle (top) and the corresponding legal instruments (bottom)", size=6.6, color=GREY, italic=True)
+    f.text(50, H * 0.05, "Security of tenure links exploration to the right to mine; closure obligations are planned and secured from the outset", size=5.8, color=GREY, italic=True)
+    f.save()
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
