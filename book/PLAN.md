@@ -17,7 +17,7 @@ python3 -m venv ~/.venv && ~/.venv/bin/pip install -r book/requirements.txt
 ```
 
 ## Manuscript conventions (`book/manuscript/chapters/NNx.md`)
-* Files are concatenated in sort order; each chapter is split into `NNa.md`, `NNb.md`, `NNc.md`, `NNd.md`.
+* Files are concatenated in sort order; each chapter is split into `NNa.md` … `NNe.md` (5 files, ~2,200+ words each, target ≥ 11,000/chapter). Section titles: see `book/TOC.md` (verbatim).
 * First file of a Part starts with `# Title {.part num="I" img="/images/partN.jpg" summary="..."}`.
 * Chapter heading: `# Title {.chapter num="5" short="Running head"}`; sections `## 5.1 ...`; subsections `###`.
 * Callouts: `::: objectives | casebox | keypoint | comparative | exercise | research | summary | reading | instrument | practice` (optional `title="..."`).
