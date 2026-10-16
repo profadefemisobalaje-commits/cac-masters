@@ -4,7 +4,7 @@ Securify is a small Android app for encrypting files the user chooses and follow
 
 ## Install the Android APK
 
-A debug APK is produced by the **Build Securify Android APK** GitHub Actions workflow and uploaded as the `Securify-debug-apk` workflow artifact. Download `Securify-debug.apk` from a successful workflow run, transfer it to the phone, open it, and approve Android's install confirmation. Android may ask you to allow that file manager/browser to install apps from this source.
+A debug APK is produced by the **Build Securify Android APK** GitHub Actions workflow. It is uploaded as the `Securify-debug-apk` workflow artifact and published at `artifacts/Securify-debug.apk` on the session branch. Download the APK, transfer it to the phone, open it, and approve Android's install confirmation. Android may ask you to allow that file manager/browser to install apps from this source.
 
 This is a debug-signed APK for personal testing and sideloading, not a Play Store release. A Play Store or public production release must be built and signed with the developer's own release key. Never commit that private key or its passwords.
 
