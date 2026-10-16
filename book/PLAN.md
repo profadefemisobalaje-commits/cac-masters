@@ -40,3 +40,6 @@ See `git log`. Chapters completed are listed by `wordcount.py`.
 * Citation discipline: avoid precise statutory section numbers unless certain; hedge recent events; no invented quotations.
 * Next: Ch10 Renewable (fig 10-01 support mechanisms), Ch11 Nuclear (fig 11-01 pillars), Ch12 Hydrogen/CCS (fig 12-01).
 * Remaining after chapters: appendices A–T, front matter (foreword, preface, acknowledgements, about, abbreviations, introduction, how-to-use, disclaimer), bibliography, refdata.py, full 3-pass build.
+* Ch10–17 complete (206,375 words after Ch17). Figures to fig-17-01 (16-01 waterfall, 16-02 fiscal matrix).
+* Git: do NOT stage book/final/*.pdf until the final build (use `git add -A book ':!book/final'`); push needs `http.postBuffer` (set in .git/config).
+* Next: Ch18 Climate (fig 18-01 Paris ambition cycle), Ch19 Water (19-01), Ch20 Law of the Sea (20-01 maritime zones), Ch21 Part VI opener.
