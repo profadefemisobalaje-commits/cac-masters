@@ -424,6 +424,37 @@ def fig_19_01():
            h=3.7, size=6.5, first_w=20)
 
 
+def fig_20_01():
+    f = Fig("fig-20-01", 4.6, 3.4)
+    H = f.H
+    sea = 30
+    f.rect(10, 4, 90, sea - 4, fc="#DCEBEF")
+    f.poly([(0, 4), (0, sea + 3), (10, sea + 3), (10.5, sea), (10, 4)], fc=BRONZE_L, ec=BRONZE)
+    f.text(5, sea + 6, "LAND", size=6.5, color=BRONZE, bold=True)
+    bed = [(10, sea - 2), (34, sea - 6), (44, sea - 8), (56, 12), (70, 8), (100, 6.5), (100, 0), (10, 0)]
+    f.poly(bed, fc="#C9B48F", ec=BRONZE, lw=0.8)
+    f.text(24, sea - 7.5, "shelf", size=5.6, color=INK, italic=True)
+    f.text(46, 18, "slope", size=5.6, color=INK, italic=True)
+    f.text(63, 6.5, "rise", size=5.6, color=INK, italic=True)
+    f.text(86, 3, "abyssal plain", size=5.6, color=WHITE, italic=True)
+    f.line([10.5, 10.5], [4, H - 5], color=TEAL, lw=1.0, ls="--")
+    f.text(10.5, H - 3, "baseline", size=5.8, color=TEAL, bold=True)
+    y1 = sea + 3
+    water = [(10.5, 23, "Territorial sea 12 nm: sovereignty", "teal"),
+             (23, 34, "Contiguous zone 24 nm", "teal2"),
+             (34, 70, "EEZ 200 nm: sovereign rights over resources and energy from water, currents and winds (Art 56)", "light"),
+             (70, 100, "High seas: freedoms incl. laying cables and pipelines (Art 87)", "ivory")]
+    for (a_, b_, lab, st) in water:
+        f.box(a_ + 0.3, y1, b_ - a_ - 0.6, 15, lab, st, size=5.5)
+    y2 = y1 + 17
+    seabed = [(10.5, 80, "Continental shelf (Arts 76-77): 200 nm or outer edge of the margin, max 350 nm or 2,500 m isobath + 100 nm", "bronzel"),
+              (80, 100, "The Area (Part XI): common heritage; ISA", "bronze")]
+    for (a_, b_, lab, st) in seabed:
+        f.box(a_ + 0.3, y2, b_ - a_ - 0.6, 11, lab, st, size=5.5)
+    f.text(99, H - 3, "Water column (lower row) and seabed (upper row); not to scale", size=5.2, color=GREY, ha="right", italic=True)
+    f.save()
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
