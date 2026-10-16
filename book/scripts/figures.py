@@ -287,6 +287,22 @@ def fig_11_01():
            h=3.7, size=6.3, first_w=18)
 
 
+# ----------------------------------------------------------------- Chapter 12
+def fig_12_01():
+    vflow("fig-12-01",
+          ["Production\nelectrolysis (renewable / nuclear) or gas reforming + CCS",
+           "Conversion & storage\nammonia, methanol, LOHC, salt caverns",
+           "Transport\npipelines, ships, trucks",
+           "Trade & import\ncertification, customs, CBAM",
+           "End use\nsteel, fertiliser, shipping, aviation, power"],
+          side=["Classification; permits; water & land rights; RFNBO / carbon-intensity rules",
+                "Seveso & safety law; storage permits; pore space",
+                "Network unbundling; third-party access; IGC Code; transit",
+                "GoO vs mass balance; ISO 19870; TBT & SCM; H2Global",
+                "Demand mandates; support schemes (CfDs, auctions); claims"],
+          h=4.5, size=7.4)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
