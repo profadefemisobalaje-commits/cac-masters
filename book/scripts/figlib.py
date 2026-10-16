@@ -90,7 +90,7 @@ class Fig:
         self.ax.add_patch(a)
 
     def line(self, xs, ys, color=GREY, lw=1.0, ls="-"):
-        self.ax.plot(xs, ys, color=color, lw=lw, ls=ls, solid_capstyle="round")
+        self.ax.plot(xs, ys, color=color, lw=lw, ls=ls, solid_capstyle="round", zorder=0.5)
 
     def circle(self, x, y, r, fc=TEAL_L, ec=TEAL, lw=1.0, alpha=1.0):
         self.ax.add_patch(Circle((x, y), r, fc=fc, ec=ec, lw=lw, alpha=alpha, zorder=3))
@@ -187,7 +187,7 @@ def hub(name, centre, spokes, title=None, w=4.6, h=4.6, size=7.8, rx=37, ry=None
         ang = math.pi / 2 - 2 * math.pi * i / n
         x = 50 + rx * math.cos(ang)
         y = cy + ry * math.sin(ang)
-        bw, bh = 22, 9.5
+        bw, bh = 24, 12
         f.line([50, x], [cy, y], color=BRONZE, lw=0.9)
         f.box(x - bw / 2, y - bh / 2, bw, bh, s, "light" if i % 2 == 0 else "bronzel", size=size)
     f.box(50 - cw / 2, cy - ch / 2, cw, ch, centre, "teal", size=size + 0.6, bold=True)

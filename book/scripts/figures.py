@@ -113,6 +113,21 @@ def fig_03_02():
     f.save()
 
 
+# ----------------------------------------------------------------- Chapter 4
+def fig_04_01():
+    hub("fig-04-01", "GLOBAL ENERGY GOVERNANCE", [
+        "Consumer security\nIEA (1974)",
+        "Producer coordination\nOPEC · OPEC+ · GECF",
+        "Nuclear\nIAEA · NPT safeguards",
+        "Renewables\nIRENA · Clean Energy Ministerial",
+        "Climate\nUNFCCC · Paris Agreement",
+        "Trade & investment\nWTO · ECT · BITs · ICSID",
+        "Finance & development\nWorld Bank · IFC · AfDB · JETPs",
+        "Regional\nEU/ACER · Energy Community · ECOWAS/WAPP",
+        "Dialogue & clubs\nIEF · G7 · G20",
+    ], w=4.6, h=3.7, size=6.0, rx=38)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
