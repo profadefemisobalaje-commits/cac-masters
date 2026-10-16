@@ -474,6 +474,17 @@ def fig_22_01():
         size=7.0)
 
 
+def fig_23_01():
+    matrix("fig-23-01",
+           ["Core question", "Illustrative legal and policy instruments"],
+           [["Distributional", "Who bears the burdens and who receives the benefits of energy systems?", "Lifeline tariffs; targeted subsidies; revenue sharing; benefit-sharing funds"],
+            ["Procedural", "Who participates in decisions, with what information and remedies?", "EIA and public hearings; access to information; FPIC; access to justice"],
+            ["Recognition", "Whose identities, needs and knowledge are acknowledged or ignored?", "Gender assessments; indigenous rights; disaggregated data"],
+            ["Restorative", "How are past and present harms repaired?", "Remediation funds; compensation; clean-up mandates"],
+            ["Intergenerational & cosmopolitan", "What is owed to future generations and to people beyond borders?", "Sovereign wealth funds; climate finance; future-generations bodies"]],
+           h=3.8, size=6.4, first_w=19)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
