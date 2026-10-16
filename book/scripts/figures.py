@@ -406,6 +406,13 @@ def fig_17_01():
     ], h=5.2, size=7.0)
 
 
+def fig_18_01():
+    chain("fig-18-01",
+          ["NDC|every five years, Art\u00a04", "Domestic|measures, Art\u00a04(2)", "Transparency|reports, Art\u00a013", "Global|stocktake, Art\u00a014", "Enhanced NDC|progression, Art\u00a04(3)"],
+          h=2.0, size=6.8,
+          note="Stocktakes 2023, 2028 ... each informs the next round of NDCs; compliance committee (Art 15).")
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
