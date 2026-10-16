@@ -1,0 +1,11 @@
+# Android/Gradle build output
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+
+# Generated installable deliverables stay out of Git
+/artifacts/
+*.apk
+*.aab

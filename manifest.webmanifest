@@ -1,0 +1,34 @@
+{
+  "id": "./",
+  "name": "Securify",
+  "short_name": "Securify",
+  "description": "A private, on-device file vault and Android security checklist.",
+  "lang": "en",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#f4f7f5",
+  "theme_color": "#f4f7f5",
+  "categories": ["security", "utilities"],
+  "icons": [
+    {
+      "src": "./icons/securify-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/securify-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/securify-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4f7f5">
+  <meta name="description" content="Securify privacy policy: what stays on your device and how the local vault works.">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data: blob:; font-src 'self'; connect-src 'self'; worker-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>Privacy policy — Securify</title>
+  <link rel="icon" href="./icons/securify.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body class="privacy-page">
+  <main class="privacy-document">
+    <a class="privacy-brand" href="./index.html"><img src="./icons/securify.svg" alt=""><span>Securify</span></a>
+    <p class="eyebrow"><span class="eyebrow-dot"></span>YOUR PRIVACY, IN PLAIN LANGUAGE</p>
+    <h1>Privacy policy</h1>
+    <p class="privacy-effective">Effective date: 16 October 2026</p>
+    <p>Securify is a local file vault and Android security guide developed by <strong>Securify</strong>. This policy explains what the app handles, where it is stored, and what happens when you choose to open an external service.</p>
+
+    <h2>At a glance</h2>
+    <p>Securify has no account, advertising, analytics, or file-upload service. Files you choose are encrypted on your device before the encrypted copies are saved in this app's local storage. Securify does not receive those files or your passphrase.</p>
+
+    <h2>Files in the vault</h2>
+    <ul>
+      <li>You choose each file using Android's document picker. Securify does not request broad access to shared storage.</li>
+      <li>The selected file and its identifying metadata are encrypted locally with AES-256-GCM using a key derived from your passphrase. The passphrase and key are not saved by Securify.</li>
+      <li>The encrypted copy remains in the app's local WebView/browser storage. The item count and approximate file sizes may be inferable from that storage.</li>
+      <li>Adding a file does not delete the original. When you download a file, Securify decrypts it locally and asks Android where to save the resulting copy.</li>
+      <li>There is no passphrase reset. If you forget it, Securify cannot decrypt the vault. Clearing app/browser data or uninstalling the app may erase the encrypted copies.</li>
+    </ul>
+
+    <h2>Checklist and app settings</h2>
+    <p>Checklist answers are saved locally in browser storage on this device. Securify does not read Android security settings automatically, and checklist answers are not transmitted to Securify.</p>
+
+    <h2>External services</h2>
+    <p>If you choose to open Google's Find My Device service, Android opens that service outside Securify. Google may process information under its own terms and privacy policy. Securify does not receive your Google account information or device location.</p>
+
+    <h2>Network access and sharing</h2>
+    <p>The Android package includes network permission for its local, HTTPS-style app-asset origin. The embedded app does not call a Securify server, upload files, or include third-party analytics or advertising SDKs. The WebView is configured to keep the app interface local and block other embedded network resources. Any external service you open yourself operates under that service's own privacy practices.</p>
+
+    <h2>Retention and deletion</h2>
+    <p>You can delete an encrypted item from the vault inside Securify; this does not delete the original or any downloaded copy. To remove all Securify app data, use Android's app-storage controls or uninstall the app. Browser-installed users can clear the site's storage in their browser settings. Keep separate backups of important originals.</p>
+
+    <h2>Children</h2>
+    <p>Securify is a general-purpose utility and is not designed or marketed for children. It does not knowingly collect personal information from children.</p>
+
+    <h2>Changes to this policy</h2>
+    <p>If Securify's data practices change, this policy and the Google Play Data safety declaration must be updated before release of the changed version. The effective date above identifies this version of the policy.</p>
+
+    <h2>Contact the developer</h2>
+    <p>Developer: <strong>Securify</strong>. For privacy questions, use the public <a href="https://github.com/profadefemisobalaje-commits/cac-masters/issues">Securify project issue page</a>. Do not include files, passphrases, account credentials, or other private information in a public issue.</p>
+
+    <a class="privacy-back" href="./index.html">← Back to Securify</a>
+  </main>
+</body>
+</html>

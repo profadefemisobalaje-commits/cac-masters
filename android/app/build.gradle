@@ -1,0 +1,83 @@
+plugins {
+    id 'com.android.application'
+}
+
+def uploadKeystorePath = System.getenv('SECU_UPLOAD_KEYSTORE_PATH')
+def uploadStorePassword = System.getenv('SECU_UPLOAD_STORE_PASSWORD')
+def uploadKeyAlias = System.getenv('SECU_UPLOAD_KEY_ALIAS')
+def uploadKeyPassword = System.getenv('SECU_UPLOAD_KEY_PASSWORD')
+def hasUploadSigning = [uploadKeystorePath, uploadStorePassword, uploadKeyAlias, uploadKeyPassword].every { value ->
+    value != null && !value.trim().isEmpty()
+}
+def appVersionCode = (System.getenv('SECU_VERSION_CODE') ?: '1').toInteger()
+def appVersionName = System.getenv('SECU_VERSION_NAME') ?: '1.0.0'
+
+android {
+    namespace 'com.securify.app'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'com.securify.app'
+        minSdk 23
+        targetSdk 36
+        versionCode appVersionCode
+        versionName appVersionName
+    }
+
+    signingConfigs {
+        release {
+            if (hasUploadSigning) {
+                storeFile file(uploadKeystorePath)
+                storePassword uploadStorePassword
+                keyAlias uploadKeyAlias
+                keyPassword uploadKeyPassword
+            }
+        }
+    }
+
+    buildTypes {
+        debug {
+            applicationIdSuffix '.debug'
+            versionNameSuffix '-debug'
+        }
+        release {
+            minifyEnabled false
+            if (hasUploadSigning) signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    sourceSets {
+        main {
+            assets.srcDir layout.buildDirectory.dir('generated/securifyWebAssets')
+        }
+    }
+}
+
+def webAppRoot = rootProject.projectDir.parentFile
+def generatedWebAssets = layout.buildDirectory.dir('generated/securifyWebAssets')
+
+tasks.register('prepareSecurifyWebAssets', Copy) {
+    from(webAppRoot) {
+        include 'index.html'
+        include 'privacy.html'
+        include 'styles.css'
+        include 'app.js'
+        include 'manifest.webmanifest'
+        include 'icons/**'
+    }
+    into(generatedWebAssets)
+}
+
+tasks.named('preBuild').configure {
+    dependsOn tasks.named('prepareSecurifyWebAssets')
+}
+
+dependencies {
+    implementation 'androidx.webkit:webkit:1.12.1'
+    implementation 'androidx.core:core:1.15.0'
+}
