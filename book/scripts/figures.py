@@ -172,6 +172,43 @@ def fig_05_02():
     f.save()
 
 
+# ----------------------------------------------------------------- Chapter 6
+def fig_06_01():
+    f = Fig("fig-06-01", 4.6, 2.9)
+    H = f.H
+    stages = ["Upstream\nproduction", "Liquefaction\n(-162 °C)", "Shipping\n(LNG carrier)", "Regasification\n(terminal / FSRU)", "Transmission &\nend-users"]
+    n = len(stages); gap = 2.4; w = (100 - 4 - gap * (n - 1)) / n
+    yb = H * 0.56; bh = H * 0.26
+    xs = []
+    for k, st in enumerate(stages):
+        x = 2 + k * (w + gap); xs.append(x)
+        f.box(x, yb, w, bh, st, "teal" if k % 2 == 0 else "bronze", size=6.6, bold=True)
+        if k:
+            f.arrow(x - gap + 0.1, yb + bh / 2, x - 0.1, yb + bh / 2, color=INK, lw=1.2)
+    contracts = ["Licence / PSC\nfeed-gas supply\nagreement", "Liquefaction or\ntolling agreement;\nEPC contract", "Time / voyage\ncharter;\nSPA (FOB / DES)", "Terminal use\nagreement;\nTPA rules", "Gas sales\nagreements;\nnetwork codes"]
+    for x, c in zip(xs, contracts):
+        f.box(x, H * 0.10, w, H * 0.34, c, "light", size=5.8)
+        f.arrow(x + w / 2, yb - 0.3, x + w / 2, H * 0.44 + 0.3, color=GREY, lw=0.8, style="-")
+    f.text(50, H - 3, "Physical chain (top) and principal legal instruments (bottom)", size=6.8, color=GREY, italic=True)
+    f.save()
+
+
+def fig_06_02():
+    f = Fig("fig-06-02", 4.6, 2.8)
+    H = f.H
+    cols = [("Integrated", "Same owners hold upstream reserves and the liquefaction plant; LNG sold jointly", "Qatar · many Australian projects"),
+            ("Merchant", "Plant company buys feed gas from producers and sells LNG on its own account", "Nigeria LNG (Bonny)"),
+            ("Tolling", "Plant company provides liquefaction service for a fee; gas owners or offtakers keep title", "Freeport LNG (US)")]
+    cw = 30; gap = 3
+    for k, (h, d, e) in enumerate(cols):
+        x = 2 + k * (cw + gap)
+        f.box(x, H - 13, cw, 9, h, "teal", size=7.6, bold=True)
+        f.box(x, H * 0.36, cw, H - 13 - H * 0.36 - 2, d, "light", size=6.3)
+        f.box(x, H * 0.18, cw, H * 0.14, e, "ivory", size=6.0)
+    f.text(50, H * 0.08, "Title to gas:  integrated = joint owners · merchant = plant company · tolling = gas owners / offtakers", size=6.0, color=GREY, italic=True)
+    f.save()
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
