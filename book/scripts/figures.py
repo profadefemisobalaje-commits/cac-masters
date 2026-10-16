@@ -509,6 +509,39 @@ def fig_25_01():
            h=3.8, size=6.4, first_w=17)
 
 
+def fig_26_01():
+    vflow("fig-26-01", [
+        "Dispute arises\n(notice of dispute; negotiation / cooling-off)",
+        "Request for arbitration\n(institutional or ad hoc; treaty or contract basis)",
+        "Constitution of the tribunal\n(appointments, disclosures, challenges)",
+        "First procedural conference\n(Procedural Order No.\u00a01, timetable, bifurcation)",
+        "Written phase\n(memorials, document production, witness & expert reports)",
+        "Hearing\n(cross-examination, expert conferencing, closing submissions)",
+        "Award\n(merits, damages, interest, costs)",
+        "Post-award\n(annulment / set-aside; recognition & enforcement)",
+    ], side=[
+        "Tiered clauses; ECT Art\u00a026 three months; BIT six months",
+        "ICC, LCIA, SCC, SIAC, LCA; ICSID Art\u00a036; UNCITRAL Art\u00a03",
+        "IBA Guidelines on Conflicts of Interest",
+        "Emergency arbitrator; provisional measures",
+        "IBA Rules on the Taking of Evidence; Redfern schedules",
+        "Virtual / hybrid hearings; transcripts",
+        "DCF, market or asset-based valuation",
+        "ICSID Arts\u00a052\u201354; New York Convention Art\u00a0V",
+    ], h=6.2, size=7.2)
+
+
+def fig_26_02():
+    matrix("fig-26-02",
+           ["Method and basis", "Typical use and limitations"],
+           [["Income\n(DCF)", "Present value of expected future net cash flows, discounted at a risk-adjusted rate", "Going concerns with a record of profitability; sensitive to price, production and discount-rate assumptions"],
+            ["Market", "Comparable transactions, trading multiples or bona fide offers", "Requires genuinely comparable assets; adjusted for timing and control"],
+            ["Asset-based\n(cost)", "Sunk investment or book value; replacement cost", "Early-stage projects; may under-compensate profitable assets"],
+            ["Lost\nopportunity", "Value of a chance, discounted for probability", "Exploration-stage or contingent rights; tribunals divided on availability"],
+            ["Interest\nand costs", "Pre- and post-award interest; allocation of legal costs", "Rates and compounding often decisive in total award"]],
+           h=3.8, size=6.4, first_w=17)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
