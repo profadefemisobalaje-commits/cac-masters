@@ -303,6 +303,20 @@ def fig_12_01():
           h=4.5, size=7.4)
 
 
+# ----------------------------------------------------------------- Chapter 13
+def fig_13_01():
+    vflow("fig-13-01",
+          ["Measure found inconsistent with a GATT obligation\n(e.g. Art I, III or XI)",
+           "Tier 1 — Provisional justification\nDoes the measure fall within a paragraph of Art XX?",
+           "Tier 2 — The chapeau\nNo arbitrary or unjustifiable discrimination; no disguised restriction",
+           "Measure justified"],
+          side=["Burden on complainant to establish violation",
+                "(b) 'necessary' — weighing & balancing, alternatives; (g) 'relating to' + even-handedness",
+                "Flexibility for different conditions; good-faith negotiation (US — Shrimp; US — Gasoline)",
+                "Burden on respondent throughout Art XX"],
+          h=3.9, size=7.4)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
