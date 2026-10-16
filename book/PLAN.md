@@ -34,3 +34,9 @@ python3 -m venv ~/.venv && ~/.venv/bin/pip install -r book/requirements.txt
 
 ## Status
 See `git log`. Chapters completed are listed by `wordcount.py`.
+
+## Progress log
+* Ch1–9 complete (98,147 words after Ch9). Each chapter: 5 files a–e, ~11–13.6k words. Figures to fig-09-01.
+* Citation discipline: avoid precise statutory section numbers unless certain; hedge recent events; no invented quotations.
+* Next: Ch10 Renewable (fig 10-01 support mechanisms), Ch11 Nuclear (fig 11-01 pillars), Ch12 Hydrogen/CCS (fig 12-01).
+* Remaining after chapters: appendices A–T, front matter (foreword, preface, acknowledgements, about, abbreviations, introduction, how-to-use, disclaimer), bibliography, refdata.py, full 3-pass build.
