@@ -85,6 +85,34 @@ def fig_02_02():
     f.save()
 
 
+# ----------------------------------------------------------------- Chapter 3
+def fig_03_01():
+    matrix("fig-03-01", ["Regalian / state ownership", "Accession / landowner", "Claim / free entry"], [
+        ["Owner of minerals", "State, nation or people (e.g. Nigeria s 44(3), UK, Mexico art 27)", "Surface owner unless severed (US private land)", "Unowned until located and claimed (US Mining Law 1872)"],
+        ["Grant instrument", "Licence, lease, concession, PSC, service contract", "Private lease negotiated with mineral owner", "Location and registration of claim; patent"],
+        ["Rent capture", "Royalty, tax, profit oil, state participation", "Bonus and royalty to owner; state taxes", "Limited royalty; taxation"],
+        ["Regulator's role", "Owner and regulator: opens acreage, sets terms", "Prevent waste, protect correlative rights", "Record claims, environmental control"],
+        ["Typical issues", "Contract stability, transparency, community benefit", "Rule of capture, pooling, unitisation", "Conflicts with indigenous rights, environment"],
+    ], w=4.6, h=3.6, size=6.2, first_w=19)
+
+
+def fig_03_02():
+    f = Fig("fig-03-02", 4.6, 3.0)
+    H = f.H
+    conds = ["Public purpose", "Non-discrimination", "Due process of law", "Payment of compensation"]
+    for k, c in enumerate(conds):
+        f.box(2 + k * 24.5, H - 15, 22.5, 11, c, "teal", size=6.8, bold=True)
+    f.box(2, H - 34, 46, 13, "All conditions met\nLAWFUL EXPROPRIATION", "light", size=7, bold=True)
+    f.box(52, H - 34, 46, 13, "Any condition unmet\nUNLAWFUL EXPROPRIATION", "bronze", size=7, bold=True)
+    f.box(2, 3, 46, 20, "Treaty standard: fair market value immediately before the taking (or before it became known) + interest — Hull formula 'prompt, adequate and effective'", "ivory", size=6.2)
+    f.box(52, 3, 46, 20, "Customary full reparation (Chorzów): may permit valuation at date of award and consequential loss — ADC v Hungary; Yukos; ConocoPhillips v Venezuela", "ivory", size=6.2)
+    f.arrow(50, H - 15, 25, H - 21, color=BRONZE)
+    f.arrow(50, H - 15, 75, H - 21, color=BRONZE)
+    f.arrow(25, H - 34, 25, 23, color=GREY)
+    f.arrow(75, H - 34, 75, 23, color=GREY)
+    f.save()
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
