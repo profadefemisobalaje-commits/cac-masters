@@ -573,6 +573,19 @@ def fig_28_01():
     ], h=5.8, size=7.2)
 
 
+def fig_29_01():
+    hub("fig-29-01", "Energy law\nreform cycle", [
+        "1. Problem\ndefinition",
+        "2. Impact\nassessment",
+        "3. Public\nconsultation",
+        "4. Drafting and\nscrutiny",
+        "5. Enactment;\ninstitutions",
+        "6. Implementation\nand enforcement",
+        "7. Monitoring and\nex post evaluation",
+        "8. Review, sunset\nand amendment",
+    ])
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
