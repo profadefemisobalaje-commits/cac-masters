@@ -263,6 +263,18 @@ def fig_09_01():
            h=3.0, size=6.6, first_w=24)
 
 
+# ----------------------------------------------------------------- Chapter 10
+def fig_10_01():
+    matrix("fig-10-01",
+           ["What the state fixes", "Who bears price risk", "Typical instruments / examples"],
+           [["Feed-in tariff", "Price per MWh", "Consumers / state", "German EEG 2000; Nigeria FiT Regs 2015"],
+            ["Feed-in premium", "Premium over market", "Shared", "EU schemes after 2014 State aid guidelines"],
+            ["Quota + certificates", "Quantity (obligation)", "Generator", "US RPS; UK Renewables Obligation"],
+            ["Auction + PPA / CfD", "Quantity; price by bid", "Shared (two-way CfD)", "South Africa REIPPPP; UK CfD"],
+            ["Fiscal incentives", "Tax credit or relief", "Taxpayers", "US ITC/PTC; 45Y/48E; duty waivers"]],
+           h=3.3, size=6.6, first_w=22)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
