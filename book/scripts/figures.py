@@ -229,6 +229,29 @@ def fig_07_01():
     f.save()
 
 
+# ----------------------------------------------------------------- Chapter 8
+def fig_08_01():
+    f = Fig("fig-08-01", 4.6, 3.1)
+    H = f.H
+    stages = ["Extraction\n(mining / brine)", "Processing &\nrefining", "Components\n(cathodes, magnets)", "End products\n(batteries, EVs,\nturbines)", "Collection &\nrecycling"]
+    law = ["Mining codes; state\nownership; export\nbans (Art XI GATT)", "Export controls;\ninvestment screening;\nindustrial policy", "Subsidies; local\ncontent; trade\nremedies", "Due diligence;\nforced-labour bans;\nbattery passport", "Recycled content;\nEPR; Basel\nConvention"]
+    n = len(stages); gap = 2.2; w = (100 - 4 - gap * (n - 1)) / n
+    yb = H * 0.50; bh = H * 0.24
+    for k in range(n):
+        x = 2 + k * (w + gap)
+        f.box(x, yb, w, bh, stages[k], "teal" if k != 4 else "bronze", size=6.0, bold=True)
+        if k:
+            f.arrow(x - gap + 0.05, yb + bh / 2, x - 0.05, yb + bh / 2, color=INK, lw=1.0)
+        f.box(x, H * 0.10, w, H * 0.30, law[k], "light", size=5.4)
+        f.arrow(x + w / 2, yb - 0.3, x + w / 2, H * 0.40 + 0.3, color=GREY, lw=0.8, style="-")
+    # recycling loop back to processing
+    xr = 2 + 4 * (w + gap) + w / 2; xp = 2 + 1 * (w + gap) + w / 2
+    f.arrow(xr, yb + bh + 0.3, xp, yb + bh + 0.3, color=BRONZE, lw=1.2, rad=0.25)
+    f.text(50, H - 2.5, "Secondary supply (circular economy)", size=6.0, color=BRONZE, italic=True)
+    f.text(50, H * 0.035, "Supply-chain stage (top) and principal legal levers (bottom); processing is the most concentrated stage", size=5.8, color=GREY, italic=True)
+    f.save()
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
