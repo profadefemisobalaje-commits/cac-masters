@@ -1,0 +1,106 @@
+name: Build Securify Play Store bundle
+
+on:
+  workflow_dispatch:
+    inputs:
+      version_code:
+        description: Android versionCode (must increase for every Play release)
+        required: true
+        type: string
+        default: '1'
+      version_name:
+        description: User-visible version, for example 1.0.0
+        required: true
+        type: string
+        default: '1.0.0'
+
+permissions:
+  contents: write
+
+jobs:
+  signed-play-bundle:
+    name: Build signed Android App Bundle
+    if: github.ref == 'refs/heads/arena/01c4b409-cac-masters'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the session branch
+        uses: actions/checkout@v7
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v6
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Android SDK 36
+        uses: android-actions/setup-android@v4.0.4
+        with:
+          packages: 'platforms;android-36 build-tools;36.0.0'
+
+      - name: Load the developer upload key from Actions secrets
+        shell: bash
+        env:
+          SECU_UPLOAD_KEYSTORE_BASE64: ${{ secrets.SECU_UPLOAD_KEYSTORE_BASE64 }}
+          SECU_UPLOAD_STORE_PASSWORD: ${{ secrets.SECU_UPLOAD_STORE_PASSWORD }}
+          SECU_UPLOAD_KEY_ALIAS: ${{ secrets.SECU_UPLOAD_KEY_ALIAS }}
+          SECU_UPLOAD_KEY_PASSWORD: ${{ secrets.SECU_UPLOAD_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          for secret_name in SECU_UPLOAD_KEYSTORE_BASE64 SECU_UPLOAD_STORE_PASSWORD SECU_UPLOAD_KEY_ALIAS SECU_UPLOAD_KEY_PASSWORD; do
+            if [[ -z "${!secret_name:-}" ]]; then
+              echo "::error::Missing GitHub Actions secret: ${secret_name}. Add the developer's upload keystore and credentials in repository Settings > Secrets and variables > Actions. Do not paste signing secrets into chat or commit them."
+              exit 1
+            fi
+          done
+          keystore_path="$RUNNER_TEMP/securify-upload-key.jks"
+          printf '%s' "$SECU_UPLOAD_KEYSTORE_BASE64" | base64 --decode > "$keystore_path"
+          test -s "$keystore_path"
+          chmod 600 "$keystore_path"
+          echo "SECU_UPLOAD_KEYSTORE_PATH=$keystore_path" >> "$GITHUB_ENV"
+
+      - name: Build the signed release bundle
+        working-directory: android
+        env:
+          SECU_UPLOAD_STORE_PASSWORD: ${{ secrets.SECU_UPLOAD_STORE_PASSWORD }}
+          SECU_UPLOAD_KEY_ALIAS: ${{ secrets.SECU_UPLOAD_KEY_ALIAS }}
+          SECU_UPLOAD_KEY_PASSWORD: ${{ secrets.SECU_UPLOAD_KEY_PASSWORD }}
+          SECU_VERSION_CODE: ${{ inputs.version_code }}
+          SECU_VERSION_NAME: ${{ inputs.version_name }}
+        run: ./gradlew --no-daemon bundleRelease
+
+      - name: Verify, name, and checksum the bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p artifacts
+          bundle="android/app/build/outputs/bundle/release/app-release.aab"
+          test -s "$bundle"
+          jarsigner -verify "$bundle"
+          cp "$bundle" artifacts/Securify-release.aab
+          sha256sum artifacts/Securify-release.aab | tee artifacts/Securify-release.aab.sha256
+
+      - name: Publish the signed bundle to the session branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -f artifacts/Securify-release.aab artifacts/Securify-release.aab.sha256
+          if git diff --cached --quiet; then
+            echo "The release bundle on this branch is already current."
+          else
+            git commit -m "Publish Securify Play Store bundle"
+            git push origin "HEAD:${GITHUB_REF_NAME}"
+          fi
+
+      - name: Upload signed bundle artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: Securify-release-aab-v${{ inputs.version_name }}
+          path: |
+            artifacts/Securify-release.aab
+            artifacts/Securify-release.aab.sha256
+          if-no-files-found: error
+          retention-days: 90
+
+      - name: Remove the temporary upload keystore
+        if: always()
+        run: rm -f "$RUNNER_TEMP/securify-upload-key.jks"

@@ -41,6 +41,7 @@ public final class MainActivity extends Activity {
     private static final int MAX_BASE64_CHARS = 36 * 1024 * 1024;
     private static final String ASSET_HOST = "appassets.androidplatform.net";
     private static final String FIND_DEVICE_URL = "https://www.google.com/android/find/";
+    private static final String SUPPORT_URL = "https://github.com/profadefemisobalaje-commits/cac-masters/issues";
     private static final Pattern MIME_PATTERN = Pattern.compile("^[a-zA-Z0-9!#$&^_.+-]+/[a-zA-Z0-9!#$&^_.+-]+$");
 
     private WebView webView;
@@ -158,6 +159,17 @@ public final class MainActivity extends Activity {
                 && uri.getPath() != null
                 && uri.getPath().startsWith("/android/find")) {
             openFindMyDevice();
+            return true;
+        }
+        if ("https".equals(scheme)
+                && "github.com".equals(host)
+                && uri.getPath() != null
+                && uri.getPath().startsWith("/profadefemisobalaje-commits/cac-masters/issues")) {
+            try {
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(SUPPORT_URL)));
+            } catch (ActivityNotFoundException exception) {
+                Toast.makeText(this, "No browser is available to open the support page.", Toast.LENGTH_LONG).show();
+            }
         }
         // The WebView remains a local app surface; other sites are never loaded in it.
         return true;

@@ -541,6 +541,7 @@ function renderSettings() {
           <li>${icon("check")}<span><strong>Runs locally:</strong> the app has no account or file-upload feature. The checklist is saved in local browser storage. No analytics or third-party scripts are included.</span></li>
           <li>${icon("alert")}<span><strong>Recovery matters:</strong> forgetting the passphrase makes the vault unrecoverable. Clearing browser/app data or uninstalling may delete encrypted files. Keep separate backups.</span></li>
         </ul>
+        <a class="text-link" href="./privacy.html">Read the full privacy policy ${icon("arrowUpRight")}</a>
       </section>
 
       <section class="settings-card settings-card-wide">

@@ -1,0 +1,56 @@
+name: Publish Securify site and privacy policy
+
+on:
+  push:
+    branches:
+      - arena/01c4b409-cac-masters
+    paths:
+      - 'index.html'
+      - 'privacy.html'
+      - 'styles.css'
+      - 'app.js'
+      - 'manifest.webmanifest'
+      - 'sw.js'
+      - 'icons/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: securify-pages
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    name: Deploy privacy policy and PWA
+    if: github.ref == 'refs/heads/arena/01c4b409-cac-masters'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the session branch
+        uses: actions/checkout@v7
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v6
+
+      - name: Assemble static site
+        run: |
+          mkdir -p site/icons
+          cp index.html privacy.html styles.css app.js manifest.webmanifest sw.js site/
+          cp icons/* site/icons/
+          touch site/.nojekyll
+
+      - name: Upload static site
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+      - name: Deploy static site
+        id: deployment
+        uses: actions/deploy-pages@v5

@@ -4,6 +4,7 @@ const CACHE_NAME = "securify-shell-v1";
 const APP_SHELL = [
   "./",
   "./index.html",
+  "./privacy.html",
   "./styles.css",
   "./app.js",
   "./manifest.webmanifest",
