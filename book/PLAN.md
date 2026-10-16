@@ -1,0 +1,50 @@
+# Production Plan — *Becoming a Doctor of International Energy and Natural Resources Law*
+
+Author/publisher line: **TRIUNE BIBLICAL UNIVERSITY GLOBAL EXTENSION USA** · First Edition 2026 · 6 × 9 in.
+Content rules: strictly secular, academic, legally grounded; British spelling; hypothetical exercises
+explicitly labelled fictitious; no fabricated quotations; AI images labelled "illustrative image".
+
+## Requirement
+* ≥ 300,000 words of **main text** (30 chapters; front and back matter excluded) → target ≥ 10,300 words/chapter.
+* Check with `python book/scripts/wordcount.py`.
+
+## Build
+```
+python3 -m venv ~/.venv && ~/.venv/bin/pip install -r book/requirements.txt
+~/.venv/bin/python book/scripts/figures.py        # draw diagrams -> book/figures
+~/.venv/bin/python book/scripts/build.py          # 3-pass build with indexes -> book/final/*.pdf
+~/.venv/bin/python book/scripts/build.py --fast   # single pass, no indexes
+```
+
+## Manuscript conventions (`book/manuscript/chapters/NNx.md`)
+* Files are concatenated in sort order; each chapter is split into `NNa.md` … `NNe.md` (5 files, ~2,200+ words each, target ≥ 11,000/chapter). Section titles: see `book/TOC.md` (verbatim).
+* First file of a Part starts with `# Title {.part num="I" img="/images/partN.jpg" summary="..."}`.
+* Chapter heading: `# Title {.chapter num="5" short="Running head"}`; sections `## 5.1 ...`; subsections `###`.
+* Callouts: `::: objectives | casebox | keypoint | comparative | exercise | research | summary | reading | instrument | practice` (optional `title="..."`).
+* Each chapter: objectives → introduction → 8 numbered sections → casebox(es) → exercise (hypothetical) → summary → research questions → further reading.
+* Figures: `![Caption. *Source:* prepared for this edition.](/figures/fig-NN-MM.png){width=90%}`; drawn in `scripts/figures.py` (functions `fig_NN_MM`).
+* Photos (AI-generated, labelled): `/images/photo-*.jpg`, Part openers `/images/partN.jpg`.
+* Tables: pipe tables followed by `Table: caption`.
+
+## Front / back matter
+* Front (`manuscript/front`, roman pages): 10-foreword, 20-preface, 30-acknowledgements, 40-about,
+  45-abbreviations; generated Tables of Cases/Treaties/Legislation; lists of figures/tables; 50-introduction, 60-how-to-use.
+* Appendices A–T in `manuscript/appendices` (`# Title {.appendix letter="A"}`).
+* Back: 10-bibliography (+ generated indexes from `scripts/refdata.py`).
+
+## Status
+See `git log`. Chapters completed are listed by `wordcount.py`.
+
+## Progress log
+* Ch1–9 complete (98,147 words after Ch9). Each chapter: 5 files a–e, ~11–13.6k words. Figures to fig-09-01.
+* Citation discipline: avoid precise statutory section numbers unless certain; hedge recent events; no invented quotations.
+* Next: Ch10 Renewable (fig 10-01 support mechanisms), Ch11 Nuclear (fig 11-01 pillars), Ch12 Hydrogen/CCS (fig 12-01).
+* Remaining after chapters: appendices A–T, front matter (foreword, preface, acknowledgements, about, abbreviations, introduction, how-to-use, disclaimer), bibliography, refdata.py, full 3-pass build.
+* Ch10–17 complete (206,375 words after Ch17). Figures to fig-17-01 (16-01 waterfall, 16-02 fiscal matrix).
+* Git: do NOT stage book/final/*.pdf until the final build (use `git add -A book ':!book/final'`); push needs `http.postBuffer` (set in .git/config).
+* Next: Ch18 Climate (fig 18-01 Paris ambition cycle), Ch19 Water (19-01), Ch20 Law of the Sea (20-01 maritime zones), Ch21 Part VI opener.
+* Ch18–23 complete (287,738 words after Ch23). Figures to fig-23-01 (19 principles matrix, 20 maritime zones custom, 21 FPIC matrix, 22 compliance hub, 23 justice matrix). Part VI opener in 21a.
+* Next: Ch24 (Part VII opener, part7.jpg; fig 24-01 PIA institutions), Ch25 (25-01 4 As), Ch26 (26-01 roadmap, 26-02 valuation), Ch27 (27-01), Ch28 Part VIII opener (28-01), Ch29 (29-01), Ch30 (30-01).
+* Ch24–30 complete. Main text total 369,939 words (Ch24 14,873; Ch25 13,187; Ch26 13,349; Ch27 12,886; Ch28 9,951; Ch29 8,827; Ch30 9,128). Figures to fig-30-01. Part VII opener in 24a, Part VIII in 28a.
+* Front matter (foreword, preface, acknowledgements, about, abbreviations, introduction, how-to-use; ~5,000 words), appendices A–T (~22,000 words, 10 files), bibliography (verified works only) and `scripts/refdata.py` (curated international/EU/regional cases + auto-harvested national cases and awards; treaties; legislation; three indexes) complete.
+* Final 3-pass build: `~/.venv/bin/python scripts/build.py` -> `final/Becoming-a-Doctor-of-International-Energy-and-Natural-Resources-Law.pdf` (~1,145 pages, 6x9 in).
