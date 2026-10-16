@@ -45,3 +45,6 @@ See `git log`. Chapters completed are listed by `wordcount.py`.
 * Next: Ch18 Climate (fig 18-01 Paris ambition cycle), Ch19 Water (19-01), Ch20 Law of the Sea (20-01 maritime zones), Ch21 Part VI opener.
 * Ch18–23 complete (287,738 words after Ch23). Figures to fig-23-01 (19 principles matrix, 20 maritime zones custom, 21 FPIC matrix, 22 compliance hub, 23 justice matrix). Part VI opener in 21a.
 * Next: Ch24 (Part VII opener, part7.jpg; fig 24-01 PIA institutions), Ch25 (25-01 4 As), Ch26 (26-01 roadmap, 26-02 valuation), Ch27 (27-01), Ch28 Part VIII opener (28-01), Ch29 (29-01), Ch30 (30-01).
+* Ch24–30 complete. Main text total 369,939 words (Ch24 14,873; Ch25 13,187; Ch26 13,349; Ch27 12,886; Ch28 9,951; Ch29 8,827; Ch30 9,128). Figures to fig-30-01. Part VII opener in 24a, Part VIII in 28a.
+* Front matter (foreword, preface, acknowledgements, about, abbreviations, introduction, how-to-use; ~5,000 words), appendices A–T (~22,000 words, 10 files), bibliography (verified works only) and `scripts/refdata.py` (curated international/EU/regional cases + auto-harvested national cases and awards; treaties; legislation; three indexes) complete.
+* Final 3-pass build: `~/.venv/bin/python scripts/build.py` -> `final/Becoming-a-Doctor-of-International-Energy-and-Natural-Resources-Law.pdf` (~1,145 pages, 6x9 in).
