@@ -498,6 +498,17 @@ def fig_24_01():
         size=6.6, rx=36)
 
 
+def fig_25_01():
+    matrix("fig-25-01",
+           ["Meaning", "Illustrative legal instruments"],
+           [["Availability", "Physical existence of energy resources and supply capacity", "Licensing and investment law; strategic reserves; resource diversification"],
+            ["Accessibility", "Ability to obtain supply across borders and networks despite geopolitical obstacles", "Transit rules (GATT Art\u00a0V, ECT Art\u00a07); pipeline agreements; maritime security"],
+            ["Affordability", "Supply at prices that households and economies can bear", "Price regulation; subsidies and social tariffs; emergency market measures"],
+            ["Acceptability", "Environmental and social sustainability of supply", "Climate and environmental law; human rights due diligence; transition policies"],
+            ["Resilience", "Capacity to withstand and recover from shocks, including cyber and physical attacks", "Critical infrastructure and cyber laws; emergency powers; solidarity clauses"]],
+           h=3.8, size=6.4, first_w=17)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
