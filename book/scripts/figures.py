@@ -336,6 +336,19 @@ def fig_14_02():
           note="ICSID: annulment (Art 52), enforcement (Art 54). Others: set-aside at seat; New York Convention.")
 
 
+def fig_15_01():
+    hub("fig-15-01", "PROJECT\nCOMPANY", [
+        "Host government\n(licence / PSC /\nconcession)",
+        "JOA / shareholders'\nagreement",
+        "EPC contract\n(construction)",
+        "O&M agreement\n(operation)",
+        "Fuel / gas supply\nagreement",
+        "Offtake / PPA\n(buyer, utility)",
+        "Loan & security\ndocuments (lenders)",
+        "Insurance\n(property, liability,\npolitical risk)",
+    ], size=7.0)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
