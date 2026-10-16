@@ -1,0 +1,64 @@
+{
+  "program": "PhD in Occupational Health, Safety and Environment",
+  "duration_years": 3,
+  "credit_hours_per_listed_course": 3,
+  "normalization_notes": [
+    "Course codes were normalized by removing spaces after the OHSE. prefix.",
+    "The supplied heading typo TITTLE was corrected to Title.",
+    "Elective courses are listed separately because no elective year or selection rule was specified."
+  ],
+  "years": [
+    {
+      "year": 1,
+      "label": "First Year",
+      "courses": [
+        { "code": "OHSE.901", "title": "Occupational Health and Safety Management Systems", "credit_hours": 3 },
+        { "code": "OHSE.902", "title": "Occupational Epidemiology", "credit_hours": 3 },
+        { "code": "OHSE.903", "title": "Occupational Toxicology", "credit_hours": 3 },
+        { "code": "OHSE.904", "title": "Occupational Hygiene and Exposure Assessment", "credit_hours": 3 },
+        { "code": "OHSE.905", "title": "Risk Assessment and Management in Occupational Health and Safety", "credit_hours": 3 },
+        { "code": "OHSE.906", "title": "Occupational Health and Safety Laws and Regulations", "credit_hours": 3 },
+        { "code": "OHSE.907", "title": "Occupational Health and Safety Auditing and Inspection", "credit_hours": 3 },
+        { "code": "OHSE.908", "title": "Occupational Health and Safety Training and Education", "credit_hours": 3 }
+      ]
+    },
+    {
+      "year": 2,
+      "label": "Second Year",
+      "courses": [
+        { "code": "OHSE.909", "title": "Occupational Health and Safety Culture and Behavior", "credit_hours": 3 },
+        { "code": "OHSE.910", "title": "Occupational Health and Safety Program Evaluation and Improvement", "credit_hours": 3 },
+        { "code": "OHSE.911", "title": "Occupational Health and Safety in Construction Industry", "credit_hours": 3 },
+        { "code": "OHSE.912", "title": "Occupational Health and Safety in Manufacturing Industry", "credit_hours": 3 },
+        { "code": "OHSE.913", "title": "Occupational Health and Safety in Healthcare Industry", "credit_hours": 3 },
+        { "code": "OHSE.914", "title": "Occupational Health and Safety in Mining Industry", "credit_hours": 3 },
+        { "code": "OHSE.915", "title": "Occupational Health and Safety in Oil and Gas Industry", "credit_hours": 3 }
+      ]
+    },
+    {
+      "year": 3,
+      "label": "Third Year",
+      "courses": [
+        { "code": "OHSE.916", "title": "Occupational Health and Safety in Transportation Industry", "credit_hours": 3 },
+        { "code": "OHSE.917", "title": "Occupational Health and Safety in Agriculture Industry", "credit_hours": 3 },
+        { "code": "OHSE.918", "title": "Occupational Health and Safety in Chemical Industry", "credit_hours": 3 },
+        { "code": "OHSE.919", "title": "Occupational Health and Safety in Nuclear Industry", "credit_hours": 3 },
+        { "code": "OHSE.920", "title": "Occupational Health and Safety in Emergency Response and Disaster Management", "credit_hours": 3 },
+        { "code": "OHSE.921", "title": "Advanced Research Methodology", "credit_hours": 3 },
+        { "code": "OHSE.980", "title": "Dissertation", "credit_hours": 3 }
+      ]
+    }
+  ],
+  "electives": [
+    { "code": "OHSE.922", "title": "Occupational Health and Safety in Ergonomics and Human Factors", "credit_hours": 3 },
+    { "code": "OHSE.923", "title": "Occupational Health and Safety in Psychosocial Factors", "credit_hours": 3 },
+    { "code": "OHSE.924", "title": "Occupational Health and Safety in Noise and Vibration", "credit_hours": 3 },
+    { "code": "OHSE.925", "title": "Occupational Health and Safety in Heat and Cold Stress", "credit_hours": 3 },
+    { "code": "OHSE.926", "title": "Occupational Health and Safety in Radiation Protection", "credit_hours": 3 },
+    { "code": "OHSE.927", "title": "Occupational Health and Safety in Biological Hazards", "credit_hours": 3 },
+    { "code": "OHSE.928", "title": "Occupational Health and Safety in Indoor Air Quality", "credit_hours": 3 },
+    { "code": "OHSE.929", "title": "Occupational Health and Safety in Hazardous Material Management", "credit_hours": 3 },
+    { "code": "OHSE.930", "title": "Occupational Health and Safety in Waste Management", "credit_hours": 3 },
+    { "code": "OHSE.931", "title": "Occupational Health and Safety in Environmental Sustainability", "credit_hours": 3 }
+  ]
+}

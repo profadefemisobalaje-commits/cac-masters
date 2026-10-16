@@ -1,0 +1,2348 @@
+{
+  "program": "PhD in Occupational Health, Safety and Environment",
+  "weeks_per_course": 16,
+  "course_count": 32,
+  "weekly_video_topic_count": 512,
+  "notes": [
+    "Topic titles are a draft and can be adapted to the institution’s calendar, legislation, and approved readings.",
+    "OHSE.980 topics are dissertation milestones for supervision and progress review, not a prescribed lecture series."
+  ],
+  "courses": [
+    {
+      "code": "OHSE.901",
+      "title": "Occupational Health and Safety Management Systems",
+      "curriculum_group": "First Year",
+      "year": 1,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "From Compliance to Systems Thinking: The Evolution of OH&S Management"
+        },
+        {
+          "week": 2,
+          "topic": "OH&S Management-System Architectures: ILO-OSH Guidelines, ISO 45001, and System Boundaries"
+        },
+        {
+          "week": 3,
+          "topic": "Organizational Context, Interested Parties, and System Scope"
+        },
+        {
+          "week": 4,
+          "topic": "Leadership, Worker Participation, Consultation, and Representation"
+        },
+        {
+          "week": 5,
+          "topic": "Hazard Identification and Risk/Opportunity Assessment at System Level"
+        },
+        {
+          "week": 6,
+          "topic": "Legal and Other Compliance Obligations as Operational Controls"
+        },
+        {
+          "week": 7,
+          "topic": "Objectives, Competence, Resources, and Action Planning"
+        },
+        {
+          "week": 8,
+          "topic": "Operational Control, the Hierarchy of Controls, and Life-Cycle Thinking"
+        },
+        {
+          "week": 9,
+          "topic": "Procurement, Contractor Management, and Outsourced Processes"
+        },
+        {
+          "week": 10,
+          "topic": "Emergency Preparedness and Workforce Resilience"
+        },
+        {
+          "week": 11,
+          "topic": "Monitoring, Measurement, and OH&S Performance Indicators"
+        },
+        {
+          "week": 12,
+          "topic": "Incident Reporting, Investigation, Corrective Action, and Learning"
+        },
+        {
+          "week": 13,
+          "topic": "Internal Audit, Management Review, and System Assurance"
+        },
+        {
+          "week": 14,
+          "topic": "Integrating OH&S with Quality, Environment, and Enterprise Risk"
+        },
+        {
+          "week": 15,
+          "topic": "Implementation, Maturity, and Failure Modes Across Organizations"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Design and Critique an OH&S Management System"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.902",
+      "title": "Occupational Epidemiology",
+      "curriculum_group": "First Year",
+      "year": 1,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Occupational Epidemiology: Scope, Causal Questions, and Evidence"
+        },
+        {
+          "week": 2,
+          "topic": "Workforce Denominators, Work Histories, and Surveillance Data"
+        },
+        {
+          "week": 3,
+          "topic": "Descriptive Methods, Rates, Standardization, and Burden Estimation"
+        },
+        {
+          "week": 4,
+          "topic": "Cohort Studies of Occupational Exposures and Health Outcomes"
+        },
+        {
+          "week": 5,
+          "topic": "Case-Control and Nested Case-Control Designs"
+        },
+        {
+          "week": 6,
+          "topic": "Cross-Sectional and Repeated-Measures Studies: Uses and Limits"
+        },
+        {
+          "week": 7,
+          "topic": "Exposure Classification, Job-Exposure Matrices, and Misclassification"
+        },
+        {
+          "week": 8,
+          "topic": "Confounding, Selection, Healthy Worker Effects, and Informative Censoring"
+        },
+        {
+          "week": 9,
+          "topic": "Causal Diagrams, Target Populations, and Causal Effect Estimation"
+        },
+        {
+          "week": 10,
+          "topic": "Latency, Rare Outcomes, Historical Exposures, and Disease Registries"
+        },
+        {
+          "week": 11,
+          "topic": "Workplace Outbreaks, Clusters, and Emerging Occupational Risks"
+        },
+        {
+          "week": 12,
+          "topic": "Natural Experiments and Evaluation of Workplace Interventions"
+        },
+        {
+          "week": 13,
+          "topic": "Systematic Reviews, Meta-Analysis, and Heterogeneity in Occupational Studies"
+        },
+        {
+          "week": 14,
+          "topic": "Multilevel, Spatial, and Small-Area Occupational Epidemiology"
+        },
+        {
+          "week": 15,
+          "topic": "Ethics, Privacy, Data Linkage, and Governance of Worker Health Data"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Lab: Protocol and Analysis Plan for an Occupational Epidemiologic Study"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.903",
+      "title": "Occupational Toxicology",
+      "curriculum_group": "First Year",
+      "year": 1,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Occupational Toxicology and Dose-Response Reasoning"
+        },
+        {
+          "week": 2,
+          "topic": "Absorption, Distribution, Metabolism, and Excretion in Workplace Exposure"
+        },
+        {
+          "week": 3,
+          "topic": "Exposure Routes, Chemical Forms, and Co-Exposure Mixtures"
+        },
+        {
+          "week": 4,
+          "topic": "Toxicokinetics, Internal Dose, and Physiologically Based Pharmacokinetic Models"
+        },
+        {
+          "week": 5,
+          "topic": "Target-Organ Toxicity: Respiratory, Dermal, Hepatic, Renal, and Hematologic Effects"
+        },
+        {
+          "week": 6,
+          "topic": "Neurotoxicity and Systemic Effects of Occupational Chemicals"
+        },
+        {
+          "week": 7,
+          "topic": "Genotoxicity, Mutagenesis, and Occupational Carcinogenesis"
+        },
+        {
+          "week": 8,
+          "topic": "Reproductive and Developmental Toxicity in Working Populations"
+        },
+        {
+          "week": 9,
+          "topic": "Sensitization, Occupational Asthma, and Allergic Contact Dermatitis"
+        },
+        {
+          "week": 10,
+          "topic": "Biomarkers of Exposure, Effect, and Susceptibility"
+        },
+        {
+          "week": 11,
+          "topic": "Deriving and Interpreting Occupational Exposure Limits"
+        },
+        {
+          "week": 12,
+          "topic": "Combined Exposures: Additivity, Synergy, and Cumulative Toxicity"
+        },
+        {
+          "week": 13,
+          "topic": "New Approach Methodologies: In Vitro, Omics, and Computational Toxicology"
+        },
+        {
+          "week": 14,
+          "topic": "Translating Toxicological Evidence into Human Health Risk Assessment"
+        },
+        {
+          "week": 15,
+          "topic": "Case Analyses of Acute Poisoning, Chronic Disease, and Exposure Control"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Evidence Synthesis: Critique a Chemical-Specific Toxicity Assessment"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.904",
+      "title": "Occupational Hygiene and Exposure Assessment",
+      "curriculum_group": "First Year",
+      "year": 1,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Occupational Hygiene: Anticipation, Recognition, Evaluation, and Control"
+        },
+        {
+          "week": 2,
+          "topic": "Process Mapping, Source-Pathway-Receptor Models, and Similar Exposure Groups"
+        },
+        {
+          "week": 3,
+          "topic": "Designing Exposure Surveys: Objectives, Sampling Strategies, and Prioritization"
+        },
+        {
+          "week": 4,
+          "topic": "Aerosols: Sampling Inhalable, Thoracic, and Respirable Fractions"
+        },
+        {
+          "week": 5,
+          "topic": "Gases and Vapors: Sampling Methods, Sorbents, and Analytical Constraints"
+        },
+        {
+          "week": 6,
+          "topic": "Direct-Reading Instruments, Sensor Technologies, and Real-Time Data"
+        },
+        {
+          "week": 7,
+          "topic": "Biological Monitoring, Biomarkers, and Interpretation of Internal Dose"
+        },
+        {
+          "week": 8,
+          "topic": "Retrospective Exposure Reconstruction and Job-Exposure Matrices"
+        },
+        {
+          "week": 9,
+          "topic": "Variability, Measurement Error, Detection Limits, and Uncertainty"
+        },
+        {
+          "week": 10,
+          "topic": "Statistical Exposure Assessment: Censored Data and Exposure Distributions"
+        },
+        {
+          "week": 11,
+          "topic": "Mixed Exposures, Cumulative Metrics, and Aggregate Risk"
+        },
+        {
+          "week": 12,
+          "topic": "Predictive Models and Computational Tools for Exposure Estimation"
+        },
+        {
+          "week": 13,
+          "topic": "Quality Assurance, Method Validation, and Laboratory Data Integrity"
+        },
+        {
+          "week": 14,
+          "topic": "Linking Exposure Assessment to Control Selection and Verification"
+        },
+        {
+          "week": 15,
+          "topic": "Sector Case Studies: Comparing Exposure Profiles and Sampling Designs"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Build an Integrated Exposure Assessment Strategy"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.905",
+      "title": "Risk Assessment and Management in Occupational Health and Safety",
+      "curriculum_group": "First Year",
+      "year": 1,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Risk Concepts, Uncertainty, Precaution, and Decision-Making"
+        },
+        {
+          "week": 2,
+          "topic": "Hazard Identification and Risk Characterization Frameworks"
+        },
+        {
+          "week": 3,
+          "topic": "Qualitative and Semi-Quantitative Occupational Risk Methods"
+        },
+        {
+          "week": 4,
+          "topic": "Quantitative Risk Assessment: Frequency, Severity, and Consequence"
+        },
+        {
+          "week": 5,
+          "topic": "Probabilistic Risk Analysis, Sensitivity, and Uncertainty Analysis"
+        },
+        {
+          "week": 6,
+          "topic": "Translating Epidemiologic and Toxicologic Evidence into Risk Estimates"
+        },
+        {
+          "week": 7,
+          "topic": "Risk Matrices: Calibration, Inter-Rater Reliability, and Misuse"
+        },
+        {
+          "week": 8,
+          "topic": "HAZOP, FMEA, Bow-Tie, Fault-Tree, and Event-Tree Analysis"
+        },
+        {
+          "week": 9,
+          "topic": "Dynamic and Systems-Theoretic Risk Analysis: STPA and FRAM"
+        },
+        {
+          "week": 10,
+          "topic": "Human Factors, Organization, and Safety-Critical Decision-Making"
+        },
+        {
+          "week": 11,
+          "topic": "Risk Treatment: Hierarchy of Controls, ALARP, and Residual Risk"
+        },
+        {
+          "week": 12,
+          "topic": "Participatory Risk Assessment and Risk Communication"
+        },
+        {
+          "week": 13,
+          "topic": "Cumulative, Compound, and Emerging Risks: Climate, Nanomaterials, and AI"
+        },
+        {
+          "week": 14,
+          "topic": "Equity, Vulnerability, and the Distribution of Occupational Risk"
+        },
+        {
+          "week": 15,
+          "topic": "Control Assurance, Risk Tolerance, and Reassessment"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Defend a Risk Assessment and Management Plan"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.906",
+      "title": "Occupational Health and Safety Laws and Regulations",
+      "curriculum_group": "First Year",
+      "year": 1,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Foundations and Sources of Occupational Health and Safety Law"
+        },
+        {
+          "week": 2,
+          "topic": "ILO Conventions, Recommendations, and International Labour Standards"
+        },
+        {
+          "week": 3,
+          "topic": "Comparative Regulatory Models and Institutional Design"
+        },
+        {
+          "week": 4,
+          "topic": "Duties of Employers, Workers, Suppliers, and Directors"
+        },
+        {
+          "week": 5,
+          "topic": "Statutes, Regulations, Codes, and Consensus Standards"
+        },
+        {
+          "week": 6,
+          "topic": "Inspections, Enforcement, Penalties, and Prosecution"
+        },
+        {
+          "week": 7,
+          "topic": "Occupational Injury Compensation and Recognition of Work-Related Disease"
+        },
+        {
+          "week": 8,
+          "topic": "Risk-Based, Responsive, and Performance-Based Regulation"
+        },
+        {
+          "week": 9,
+          "topic": "Sector-Specific Regulation: Construction, Mining, Healthcare, and Energy"
+        },
+        {
+          "week": 10,
+          "topic": "Legal Controls for Chemicals, Biological Agents, and Radiation"
+        },
+        {
+          "week": 11,
+          "topic": "Worker Rights, Consultation, Collective Bargaining, and Refusal of Unsafe Work"
+        },
+        {
+          "week": 12,
+          "topic": "Incident Notification, Recordkeeping, Evidence, and Data Protection"
+        },
+        {
+          "week": 13,
+          "topic": "Case Law, Administrative Decisions, and Legal Reasoning in OH&S"
+        },
+        {
+          "week": 14,
+          "topic": "Multinational Enterprises, Global Supply Chains, and Human-Rights Due Diligence"
+        },
+        {
+          "week": 15,
+          "topic": "Regulatory Policy Design, Implementation, and Impact Evaluation"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Legal Seminar: Analyze a Statute or Regulatory Reform Proposal"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.907",
+      "title": "Occupational Health and Safety Auditing and Inspection",
+      "curriculum_group": "First Year",
+      "year": 1,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Audit and Inspection Principles: Independence, Competence, and Assurance"
+        },
+        {
+          "week": 2,
+          "topic": "Building a Risk-Based Audit Program and Defining Scope"
+        },
+        {
+          "week": 3,
+          "topic": "Compliance Inspections Versus OH&S Management-System Audits"
+        },
+        {
+          "week": 4,
+          "topic": "Audit Criteria, Evidence, Sampling, and Materiality"
+        },
+        {
+          "week": 5,
+          "topic": "Interviewing, Observation, Document Review, and Triangulation"
+        },
+        {
+          "week": 6,
+          "topic": "Field Inspection Planning for High-Risk Operations"
+        },
+        {
+          "week": 7,
+          "topic": "Process Safety Audits and Critical-Control Verification"
+        },
+        {
+          "week": 8,
+          "topic": "Auditing Worker Participation, Culture, and Human Factors"
+        },
+        {
+          "week": 9,
+          "topic": "Digital Inspections, Analytics, Remote Audits, and Sensor Evidence"
+        },
+        {
+          "week": 10,
+          "topic": "Classifying Findings, Root Causes, and Corrective-Action Plans"
+        },
+        {
+          "week": 11,
+          "topic": "Inspector Authority, Due Process, Ethics, and Conflict of Interest"
+        },
+        {
+          "week": 12,
+          "topic": "Leading and Lagging Measures: Testing the Assurance Chain"
+        },
+        {
+          "week": 13,
+          "topic": "Integrated OH&S Audits and ISO-Based System Conformity"
+        },
+        {
+          "week": 14,
+          "topic": "Audit Reporting, Close-Out, and Verification of Effectiveness"
+        },
+        {
+          "week": 15,
+          "topic": "Audit Reliability, Gaming, Fraud, and Organizational Learning"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Practicum: Simulated Audit, Findings, and Assurance Report"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.908",
+      "title": "Occupational Health and Safety Training and Education",
+      "curriculum_group": "First Year",
+      "year": 1,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Adult Learning, Competence, and the Evidence Base for Safety Education"
+        },
+        {
+          "week": 2,
+          "topic": "Training Needs Analysis: Task, Worker, and Organizational Levels"
+        },
+        {
+          "week": 3,
+          "topic": "Writing Measurable Objectives and Mapping Competencies"
+        },
+        {
+          "week": 4,
+          "topic": "Instructional Design: Aligning Outcomes, Content, Practice, and Assessment"
+        },
+        {
+          "week": 5,
+          "topic": "Risk Communication, Safety Literacy, and Decision Skills"
+        },
+        {
+          "week": 6,
+          "topic": "Language, Culture, Literacy, and Worker Participation in Learning"
+        },
+        {
+          "week": 7,
+          "topic": "Simulation, Demonstration, and Experiential Learning for High-Risk Work"
+        },
+        {
+          "week": 8,
+          "topic": "Digital, Hybrid, and Immersive Training: Benefits and Limitations"
+        },
+        {
+          "week": 9,
+          "topic": "Assessing Knowledge, Practical Skill, and Competency Transfer"
+        },
+        {
+          "week": 10,
+          "topic": "Train-the-Trainer Models and Instructor Quality Assurance"
+        },
+        {
+          "week": 11,
+          "topic": "Behavior-Based Safety Education: Evidence, Critiques, and Alternatives"
+        },
+        {
+          "week": 12,
+          "topic": "Designing Task-Specific Training for Critical and Non-Routine Work"
+        },
+        {
+          "week": 13,
+          "topic": "Inclusive Training for Migrant, Contract, and Diverse Workforces"
+        },
+        {
+          "week": 14,
+          "topic": "Transfer of Training: Supervisor Support and Work-System Conditions"
+        },
+        {
+          "week": 15,
+          "topic": "Evaluating Training Outcomes, Impact, Cost, and Sustainability"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Design and Defend an OH&S Education Intervention"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.909",
+      "title": "Occupational Health and Safety Culture and Behavior",
+      "curriculum_group": "Second Year",
+      "year": 2,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Safety Culture, Safety Climate, and Behavior: Concepts and Debates"
+        },
+        {
+          "week": 2,
+          "topic": "Measuring Climate and Culture: Surveys, Interviews, and Observations"
+        },
+        {
+          "week": 3,
+          "topic": "Behavioral Theory in Safety: Theory of Planned Behavior, Social Cognitive Theory, and COM-B"
+        },
+        {
+          "week": 4,
+          "topic": "Risk Perception, Heuristics, and Safety-Critical Decision-Making"
+        },
+        {
+          "week": 5,
+          "topic": "Leadership, Power, and the Production of Safety Norms"
+        },
+        {
+          "week": 6,
+          "topic": "Psychosocial Safety Climate and Organizational Health"
+        },
+        {
+          "week": 7,
+          "topic": "Just Culture, Psychological Safety, and Incident Reporting"
+        },
+        {
+          "week": 8,
+          "topic": "Behavior-Based Safety: Mechanisms, Outcomes, and Critiques"
+        },
+        {
+          "week": 9,
+          "topic": "Worker Voice, Participation, Representation, and Collective Agency"
+        },
+        {
+          "week": 10,
+          "topic": "Multilevel Safety Climate and Leading Indicators"
+        },
+        {
+          "week": 11,
+          "topic": "National, Professional, and Workforce Diversity in Safety Practice"
+        },
+        {
+          "week": 12,
+          "topic": "High-Reliability Organizations, Resilience, and Adaptive Capacity"
+        },
+        {
+          "week": 13,
+          "topic": "Blame, Attribution, and Organizational Learning After Incidents"
+        },
+        {
+          "week": 14,
+          "topic": "Designing and Evaluating Culture-Change Interventions"
+        },
+        {
+          "week": 15,
+          "topic": "Ethics of Safety Surveillance, Incentives, and Behavioral Data"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Seminar: Explain and Test a Culture-Behavior-Outcome Model"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.910",
+      "title": "Occupational Health and Safety Program Evaluation and Improvement",
+      "curriculum_group": "Second Year",
+      "year": 2,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Program Evaluation in OH&S: Purposes, Paradigms, and Decision Use"
+        },
+        {
+          "week": 2,
+          "topic": "Logic Models, Program Theory, and Causal Pathways"
+        },
+        {
+          "week": 3,
+          "topic": "Implementation and Process Evaluation in Workplace Programs"
+        },
+        {
+          "week": 4,
+          "topic": "Outcome Evaluation: Exposure, Health, Injury, and Organizational Measures"
+        },
+        {
+          "week": 5,
+          "topic": "Experimental and Quasi-Experimental Designs for Program Evaluation"
+        },
+        {
+          "week": 6,
+          "topic": "Economic Evaluation: Cost-Effectiveness, Cost-Benefit, and Productivity"
+        },
+        {
+          "week": 7,
+          "topic": "Data Systems, Registries, and Routine Program Monitoring"
+        },
+        {
+          "week": 8,
+          "topic": "Leading and Lagging Indicators: Validity, Gaming, and Unintended Effects"
+        },
+        {
+          "week": 9,
+          "topic": "Equity-Focused Evaluation and Distributional Impacts"
+        },
+        {
+          "week": 10,
+          "topic": "Participatory Evaluation and Stakeholder Co-Interpretation"
+        },
+        {
+          "week": 11,
+          "topic": "Continuous Improvement: PDCA, Lean, and Learning-System Approaches"
+        },
+        {
+          "week": 12,
+          "topic": "Root-Cause Analysis and Testing Corrective-Action Effectiveness"
+        },
+        {
+          "week": 13,
+          "topic": "Implementation Fidelity, Adaptation, Scaling, and Sustainability"
+        },
+        {
+          "week": 14,
+          "topic": "Evaluating Complex Interventions and Systems-Level Change"
+        },
+        {
+          "week": 15,
+          "topic": "Comparative Case Studies of OH&S Program Success and Failure"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Develop an Evaluation Protocol and Improvement Plan"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.911",
+      "title": "Occupational Health and Safety in Construction Industry",
+      "curriculum_group": "Second Year",
+      "year": 2,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Construction Work Systems, Project Delivery, and the Changing Risk Profile"
+        },
+        {
+          "week": 2,
+          "topic": "Construction Regulation, Procurement, and Safety Accountability"
+        },
+        {
+          "week": 3,
+          "topic": "Prevention Through Design and Pre-Construction Risk Elimination"
+        },
+        {
+          "week": 4,
+          "topic": "Site-Specific Safety Planning and Dynamic Risk Management"
+        },
+        {
+          "week": 5,
+          "topic": "Work at Height: Falls, Scaffolds, Ladders, and Edge Protection"
+        },
+        {
+          "week": 6,
+          "topic": "Lifting Operations: Cranes, Rigging, Suspended Loads, and Dropped Objects"
+        },
+        {
+          "week": 7,
+          "topic": "Excavation, Trenching, Underground Services, and Ground Failure"
+        },
+        {
+          "week": 8,
+          "topic": "Temporary Works, Formwork, and Structural Stability"
+        },
+        {
+          "week": 9,
+          "topic": "Mobile Plant, Site Traffic, and Pedestrian-Equipment Interfaces"
+        },
+        {
+          "week": 10,
+          "topic": "Electrical Safety, Utilities, and Temporary Power"
+        },
+        {
+          "week": 11,
+          "topic": "Silica, Asbestos, Dust, and Other Construction Exposures"
+        },
+        {
+          "week": 12,
+          "topic": "Heat, Noise, Vibration, and Musculoskeletal Risks on Site"
+        },
+        {
+          "week": 13,
+          "topic": "Contractor Coordination, Subcontracting, and Multi-Employer Worksites"
+        },
+        {
+          "week": 14,
+          "topic": "Incident Investigation, Near-Miss Learning, and Safety Climate"
+        },
+        {
+          "week": 15,
+          "topic": "BIM, Wearables, and Digital Safety: Evidence, Privacy, and Limits"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Case Project: Integrated Safety Plan for a Complex Construction Project"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.912",
+      "title": "Occupational Health and Safety in Manufacturing Industry",
+      "curriculum_group": "Second Year",
+      "year": 2,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Manufacturing Systems, Production Pressures, and Occupational Risk"
+        },
+        {
+          "week": 2,
+          "topic": "Machine Guarding, Energy Isolation, and Lockout/Tagout"
+        },
+        {
+          "week": 3,
+          "topic": "Industrial Robotics, Cobots, and Human-Automation Interaction"
+        },
+        {
+          "week": 4,
+          "topic": "Process Safety and Occupational Safety: Interfaces and Boundaries"
+        },
+        {
+          "week": 5,
+          "topic": "Chemical Handling, Process Exposures, and Control Strategies"
+        },
+        {
+          "week": 6,
+          "topic": "Ergonomics, Repetitive Work, and Manual Material Handling"
+        },
+        {
+          "week": 7,
+          "topic": "Noise and Vibration Control in Production Environments"
+        },
+        {
+          "week": 8,
+          "topic": "Confined Spaces, Permit-to-Work, and Non-Routine Tasks"
+        },
+        {
+          "week": 9,
+          "topic": "Electrical, Thermal, Pressure, and Utility Hazards"
+        },
+        {
+          "week": 10,
+          "topic": "Maintenance, Reliability, and Safety-Critical Asset Integrity"
+        },
+        {
+          "week": 11,
+          "topic": "Management of Change, Contractor Safety, and Production Shutdowns"
+        },
+        {
+          "week": 12,
+          "topic": "Occupational Hygiene and Health Surveillance in Manufacturing"
+        },
+        {
+          "week": 13,
+          "topic": "Incident Analysis: Production Trade-Offs, Drift, and Learning"
+        },
+        {
+          "week": 14,
+          "topic": "Cleaner Production, Hazardous Substances, and Waste Risk"
+        },
+        {
+          "week": 15,
+          "topic": "Industry 4.0, Connected Workers, and Predictive Safety Analytics"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Integrated OH&S Strategy for a Manufacturing System"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.913",
+      "title": "Occupational Health and Safety in Healthcare Industry",
+      "curriculum_group": "Second Year",
+      "year": 2,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Healthcare Work Systems: Occupational Risk Across Care Settings"
+        },
+        {
+          "week": 2,
+          "topic": "Bloodborne Pathogens, Sharps, and Exposure Prevention"
+        },
+        {
+          "week": 3,
+          "topic": "Airborne Infection, Ventilation, and Healthcare Worker Protection"
+        },
+        {
+          "week": 4,
+          "topic": "Safe Patient Handling and Musculoskeletal Injury Prevention"
+        },
+        {
+          "week": 5,
+          "topic": "Workplace Violence, Aggression, and Security in Care Environments"
+        },
+        {
+          "week": 6,
+          "topic": "Hazardous Drugs, Disinfectants, and Other Chemical Exposures"
+        },
+        {
+          "week": 7,
+          "topic": "Ionizing Radiation and Diagnostic/Imaging Work"
+        },
+        {
+          "week": 8,
+          "topic": "Shift Work, Fatigue, Staffing, and Psychosocial Risk"
+        },
+        {
+          "week": 9,
+          "topic": "Laboratory, Sterilization, and Diagnostic-Service Hazards"
+        },
+        {
+          "week": 10,
+          "topic": "Emergency Preparedness, Mass Casualties, and Continuity of Care"
+        },
+        {
+          "week": 11,
+          "topic": "Occupational Health Services: Immunization, Surveillance, and Return to Work"
+        },
+        {
+          "week": 12,
+          "topic": "Facilities, Contractors, Waste, and Environmental Services"
+        },
+        {
+          "week": 13,
+          "topic": "Safety Culture, Reporting, and Learning in Healthcare"
+        },
+        {
+          "week": 14,
+          "topic": "Pandemic Preparedness and Health-System Resilience"
+        },
+        {
+          "week": 15,
+          "topic": "Evaluating Interventions Across Clinical Occupations and Sites"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Design an Integrated Healthcare Worker Protection Program"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.914",
+      "title": "Occupational Health and Safety in Mining Industry",
+      "curriculum_group": "Second Year",
+      "year": 2,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Mining Systems: Surface, Underground, and Small-Scale Operations"
+        },
+        {
+          "week": 2,
+          "topic": "Mining Regulation, Safety Cases, and Risk Governance"
+        },
+        {
+          "week": 3,
+          "topic": "Ground Control, Geotechnical Failure, and Rockfall Prevention"
+        },
+        {
+          "week": 4,
+          "topic": "Mine Ventilation, Gases, Oxygen Deficiency, and Atmospheric Monitoring"
+        },
+        {
+          "week": 5,
+          "topic": "Respirable Dust, Silica, Coal Dust, and Chronic Lung Disease"
+        },
+        {
+          "week": 6,
+          "topic": "Explosives, Blasting, Misfires, and Flyrock Risk"
+        },
+        {
+          "week": 7,
+          "topic": "Mobile Equipment, Haul Roads, and Collision Prevention"
+        },
+        {
+          "week": 8,
+          "topic": "Conveyors, Machinery, Energy Isolation, and Maintenance Safety"
+        },
+        {
+          "week": 9,
+          "topic": "Confined Spaces, Underground Access, and Rescue Readiness"
+        },
+        {
+          "week": 10,
+          "topic": "Heat, Fatigue, Shift Work, and Workload in Mining"
+        },
+        {
+          "week": 11,
+          "topic": "Noise, Vibration, and Hearing Conservation"
+        },
+        {
+          "week": 12,
+          "topic": "Mine Emergencies: Fire, Inundation, Explosions, and Rescue"
+        },
+        {
+          "week": 13,
+          "topic": "Contractor Safety, Artisanal Mining, and Vulnerable Workforces"
+        },
+        {
+          "week": 14,
+          "topic": "Long-Latency Disease, Surveillance, and Exposure Reconstruction"
+        },
+        {
+          "week": 15,
+          "topic": "Automation, Remote Operations, and Digital Mine Safety"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Case Analysis: Integrated Risk Management for a Mine"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.915",
+      "title": "Occupational Health and Safety in Oil and Gas Industry",
+      "curriculum_group": "Second Year",
+      "year": 2,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Oil and Gas Lifecycle, Work Systems, and Major-Hazard Interfaces"
+        },
+        {
+          "week": 2,
+          "topic": "Process Safety Leadership, Barrier Management, and Safety-Critical Elements"
+        },
+        {
+          "week": 3,
+          "topic": "Drilling Operations, Well Integrity, and Blowout Prevention"
+        },
+        {
+          "week": 4,
+          "topic": "Hydrocarbon Exposures: Hydrogen Sulfide, Benzene, VOCs, and Oxygen Deficiency"
+        },
+        {
+          "week": 5,
+          "topic": "Offshore Work: Marine Operations, Aviation, Evacuation, and Personnel-on-Board"
+        },
+        {
+          "week": 6,
+          "topic": "Permit-to-Work, Confined Space, Hot Work, and Simultaneous Operations"
+        },
+        {
+          "week": 7,
+          "topic": "Lifting, Dropped Objects, Pressure Systems, and Mechanical Integrity"
+        },
+        {
+          "week": 8,
+          "topic": "Hazardous Chemicals, Corrosion Products, and Naturally Occurring Radioactive Material"
+        },
+        {
+          "week": 9,
+          "topic": "Fire, Explosion, and Toxic Release: Scenario Analysis and Emergency Controls"
+        },
+        {
+          "week": 10,
+          "topic": "Fatigue, Remote Work, Ergonomics, and Psychosocial Health"
+        },
+        {
+          "week": 11,
+          "topic": "Contractor Management, Project Interfaces, and Supply-Chain Risk"
+        },
+        {
+          "week": 12,
+          "topic": "Occupational Hygiene, Health Surveillance, and Medical Fitness"
+        },
+        {
+          "week": 13,
+          "topic": "Pipelines, Terminals, Process Facilities, and Maintenance Work"
+        },
+        {
+          "week": 14,
+          "topic": "Oil-Spill Response, Evacuation, and Emergency Coordination"
+        },
+        {
+          "week": 15,
+          "topic": "Major-Accident Investigation, Barrier Metrics, and Learning"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Develop and Defend an Oil and Gas HSE Case"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.916",
+      "title": "Occupational Health and Safety in Transportation Industry",
+      "curriculum_group": "Third Year",
+      "year": 3,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Transport Systems, Work Organization, and Occupational Safety Metrics"
+        },
+        {
+          "week": 2,
+          "topic": "Road Transport: Driver Risk, Journey Management, and Fleet Safety"
+        },
+        {
+          "week": 3,
+          "topic": "Fatigue, Circadian Disruption, and Hours-of-Service Management"
+        },
+        {
+          "week": 4,
+          "topic": "Vehicle Design, Maintenance, Inspection, and Safety-Critical Defects"
+        },
+        {
+          "week": 5,
+          "topic": "Loading, Unloading, Cargo Securement, and Warehouse Interfaces"
+        },
+        {
+          "week": 6,
+          "topic": "Rail Work: Track Access, Rolling Stock, and Maintenance Safety"
+        },
+        {
+          "week": 7,
+          "topic": "Maritime Work: Seafarer Health, Shipboard Hazards, and Port Operations"
+        },
+        {
+          "week": 8,
+          "topic": "Aviation Work: Ground Handling, Maintenance, and Ramp Safety"
+        },
+        {
+          "week": 9,
+          "topic": "Logistics, Warehousing, Last-Mile Delivery, and Contractor Risk"
+        },
+        {
+          "week": 10,
+          "topic": "Dangerous Goods Transport and Emergency Preparedness"
+        },
+        {
+          "week": 11,
+          "topic": "Manual Handling, Whole-Body Vibration, and Musculoskeletal Health"
+        },
+        {
+          "week": 12,
+          "topic": "Roadside Work, Weather, Heat, and Environmental Exposure"
+        },
+        {
+          "week": 13,
+          "topic": "Crash and Incident Investigation: Human, Technical, and Organizational Factors"
+        },
+        {
+          "week": 14,
+          "topic": "Violence, Lone Work, and Psychosocial Risks in Transport"
+        },
+        {
+          "week": 15,
+          "topic": "Telematics, Automation, and Worker Privacy in Safety Management"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Integrated OH&S Program for a Transport System"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.917",
+      "title": "Occupational Health and Safety in Agriculture Industry",
+      "curriculum_group": "Third Year",
+      "year": 3,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Agricultural Work Systems, Informal Employment, and Occupational Risk"
+        },
+        {
+          "week": 2,
+          "topic": "Tractors, PTOs, Rollovers, and Machinery Safeguarding"
+        },
+        {
+          "week": 3,
+          "topic": "Pesticide Toxicology, Application, Re-Entry, and Exposure Prevention"
+        },
+        {
+          "week": 4,
+          "topic": "Zoonoses, Livestock Handling, and Animal-Associated Injury"
+        },
+        {
+          "week": 5,
+          "topic": "Heat, Ultraviolet Radiation, and Climate-Related Farm Work"
+        },
+        {
+          "week": 6,
+          "topic": "Ergonomics, Repetitive Tasks, and Manual Material Handling"
+        },
+        {
+          "week": 7,
+          "topic": "Grain Bins, Silos, Dust Explosions, and Confined-Space Entry"
+        },
+        {
+          "week": 8,
+          "topic": "Fertilizers, Fuels, Storage, and Chemical Compatibility"
+        },
+        {
+          "week": 9,
+          "topic": "Farm Traffic, All-Terrain Vehicles, and Public-Road Interfaces"
+        },
+        {
+          "week": 10,
+          "topic": "Noise, Hand-Arm Vibration, and Mobile Equipment"
+        },
+        {
+          "week": 11,
+          "topic": "Seasonal, Migrant, and Family Labor: Equity and Protection"
+        },
+        {
+          "week": 12,
+          "topic": "Psychosocial Stress, Isolation, and Mental Health in Agriculture"
+        },
+        {
+          "week": 13,
+          "topic": "Rural Emergency Planning, First Aid, and Delayed Access to Care"
+        },
+        {
+          "week": 14,
+          "topic": "Farm Exposure Assessment, Health Surveillance, and Disease Burden"
+        },
+        {
+          "week": 15,
+          "topic": "Precision Agriculture, Drones, and Automated Equipment Risks"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Design a Context-Sensitive Farm Safety Program"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.918",
+      "title": "Occupational Health and Safety in Chemical Industry",
+      "curriculum_group": "Third Year",
+      "year": 3,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Chemical Industry Process Landscapes and Inherent Hazards"
+        },
+        {
+          "week": 2,
+          "topic": "Process Safety Management Across the Facility Life Cycle"
+        },
+        {
+          "week": 3,
+          "topic": "Process Hazard Analysis: HAZOP, LOPA, and Scenario Selection"
+        },
+        {
+          "week": 4,
+          "topic": "Reactive Chemicals, Thermal Runaway, and Chemical Incompatibility"
+        },
+        {
+          "week": 5,
+          "topic": "Containment, Corrosion, Pressure Systems, and Loss of Integrity"
+        },
+        {
+          "week": 6,
+          "topic": "Toxic Release, Dispersion, and Worker Exposure Consequences"
+        },
+        {
+          "week": 7,
+          "topic": "GHS Classification, Labelling, Safety Data Sheets, and Chemical Governance"
+        },
+        {
+          "week": 8,
+          "topic": "Chemical Storage, Segregation, and Inventory Control"
+        },
+        {
+          "week": 9,
+          "topic": "Engineering Controls, Ventilation, and Closed-System Handling"
+        },
+        {
+          "week": 10,
+          "topic": "Industrial Hygiene Strategy for Complex Chemical Exposures"
+        },
+        {
+          "week": 11,
+          "topic": "Permit-to-Work, Confined Space, and Hot Work in Process Plants"
+        },
+        {
+          "week": 12,
+          "topic": "Management of Change, Contractor Controls, and Process-Safety Culture"
+        },
+        {
+          "week": 13,
+          "topic": "Fire, Explosion, and Toxic-Release Emergency Planning"
+        },
+        {
+          "week": 14,
+          "topic": "Hazardous Waste, Pollution Prevention, and Environmental Interfaces"
+        },
+        {
+          "week": 15,
+          "topic": "Major Accident Investigation and Organizational Learning"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Integrated Process and Occupational Safety Case"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.919",
+      "title": "Occupational Health and Safety in Nuclear Industry",
+      "curriculum_group": "Third Year",
+      "year": 3,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Nuclear Work Systems, Radiological Hazards, and Defense in Depth"
+        },
+        {
+          "week": 2,
+          "topic": "Radiation Physics, Dose Quantities, and Occupational Exposure Pathways"
+        },
+        {
+          "week": 3,
+          "topic": "Radiation Protection Principles: ALARA, Optimization, and Dose Limits"
+        },
+        {
+          "week": 4,
+          "topic": "External Exposure Monitoring, Dosimetry, and Dose Records"
+        },
+        {
+          "week": 5,
+          "topic": "Internal Contamination, Bioassay, and Internal Dose Assessment"
+        },
+        {
+          "week": 6,
+          "topic": "Conventional Occupational Safety in Nuclear Facilities"
+        },
+        {
+          "week": 7,
+          "topic": "Safety Barriers, Human Performance, and Reactor Operations"
+        },
+        {
+          "week": 8,
+          "topic": "Radiological Work Planning, Permits, and Contamination Control"
+        },
+        {
+          "week": 9,
+          "topic": "Fuel Cycle, Radioactive Waste, and Decommissioning Work"
+        },
+        {
+          "week": 10,
+          "topic": "Nuclear Emergency Planning, Protective Actions, and Worker Safety"
+        },
+        {
+          "week": 11,
+          "topic": "Shift Work, Fatigue, and Human Reliability in Nuclear Operations"
+        },
+        {
+          "week": 12,
+          "topic": "Radiation Protection Programs: Regulation, Audits, and Assurance"
+        },
+        {
+          "week": 13,
+          "topic": "Radiation Health Effects, Epidemiology, and Dose-Response Evidence"
+        },
+        {
+          "week": 14,
+          "topic": "Emerging Nuclear Technologies and New Worker Protection Challenges"
+        },
+        {
+          "week": 15,
+          "topic": "Nuclear Events, Near Misses, Safety Culture, and Investigation"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Scenario: Integrated OH&S Risk Review for a Nuclear Facility"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.920",
+      "title": "Occupational Health and Safety in Emergency Response and Disaster Management",
+      "curriculum_group": "Third Year",
+      "year": 3,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Disaster Management Systems and Responder Occupational Health"
+        },
+        {
+          "week": 2,
+          "topic": "All-Hazards Assessment, Scenario Planning, and Operational Risk"
+        },
+        {
+          "week": 3,
+          "topic": "Incident Command, Unified Coordination, and Interagency Governance"
+        },
+        {
+          "week": 4,
+          "topic": "Responder Accountability, Risk-Benefit Decisions, and Safety Officers"
+        },
+        {
+          "week": 5,
+          "topic": "PPE, Respiratory Protection, Fit Testing, and Heat Burden"
+        },
+        {
+          "week": 6,
+          "topic": "Fireground, Structural Collapse, and Technical Rescue Hazards"
+        },
+        {
+          "week": 7,
+          "topic": "Hazardous Materials Response: Recognition, Isolation, and Control Zones"
+        },
+        {
+          "week": 8,
+          "topic": "Biological Emergencies, Outbreak Response, and Infection Prevention"
+        },
+        {
+          "week": 9,
+          "topic": "Chemical and Radiological Emergencies: Worker Protection and Decontamination"
+        },
+        {
+          "week": 10,
+          "topic": "Physical Workload, Fatigue, Heat, and Extended Operations"
+        },
+        {
+          "week": 11,
+          "topic": "Psychological Trauma, Moral Injury, and Post-Incident Support"
+        },
+        {
+          "week": 12,
+          "topic": "Rehabilitation, Exposure Records, and Long-Term Responder Health"
+        },
+        {
+          "week": 13,
+          "topic": "Community Engagement, Evacuation, and Vulnerable Populations"
+        },
+        {
+          "week": 14,
+          "topic": "Logistics, Mutual Aid, and Resource Management Under Uncertainty"
+        },
+        {
+          "week": 15,
+          "topic": "Exercises, After-Action Reviews, and Organizational Learning"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Tabletop: Design a Responder Safety Plan for a Complex Disaster"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.921",
+      "title": "Advanced Research Methodology",
+      "curriculum_group": "Third Year",
+      "year": 3,
+      "course_type": "core",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Research Paradigms, Ontology, Epistemology, and Reflexivity in OHSE"
+        },
+        {
+          "week": 2,
+          "topic": "From Topic to Problem: Researchable Questions and Conceptual Models"
+        },
+        {
+          "week": 3,
+          "topic": "Searching, Appraising, and Synthesizing Scholarly Literature"
+        },
+        {
+          "week": 4,
+          "topic": "Quantitative Designs: Cohort, Survey, Experimental, and Observational Studies"
+        },
+        {
+          "week": 5,
+          "topic": "Qualitative Paradigms, Sampling, Interviews, and Fieldwork"
+        },
+        {
+          "week": 6,
+          "topic": "Mixed-Methods Designs, Integration, and Meta-Inference"
+        },
+        {
+          "week": 7,
+          "topic": "Sampling Frames, Power, Precision, and Recruitment in Worker Populations"
+        },
+        {
+          "week": 8,
+          "topic": "Measurement Validity, Reliability, Exposure Metrics, and Instrumentation"
+        },
+        {
+          "week": 9,
+          "topic": "Advanced Quantitative Analysis: Regression, Multilevel, and Survival Models"
+        },
+        {
+          "week": 10,
+          "topic": "Causal Inference, Natural Experiments, and Quasi-Experimental Evaluation"
+        },
+        {
+          "week": 11,
+          "topic": "Qualitative Analysis: Coding, Thematic, Framework, and Case Approaches"
+        },
+        {
+          "week": 12,
+          "topic": "Research Ethics, Consent, Worker Power, and Vulnerable Populations"
+        },
+        {
+          "week": 13,
+          "topic": "Data Governance, Reproducibility, Open Science, and Research Security"
+        },
+        {
+          "week": 14,
+          "topic": "Implementation Science and Evaluation of OHSE Interventions"
+        },
+        {
+          "week": 15,
+          "topic": "Grant Writing, Scholarly Argument, Publication, and Peer Review"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Workshop: Present and Defend a Feasible OHSE Research Protocol"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.980",
+      "title": "Dissertation",
+      "curriculum_group": "Third Year",
+      "year": 3,
+      "course_type": "dissertation",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Dissertation Scope, Milestones, and Feasibility"
+        },
+        {
+          "week": 2,
+          "topic": "Supervisory Agreement, Research Integrity, and Project Governance"
+        },
+        {
+          "week": 3,
+          "topic": "Scoping the Literature and Establishing the Research Gap"
+        },
+        {
+          "week": 4,
+          "topic": "Refining Research Questions, Aims, and Conceptual Framework"
+        },
+        {
+          "week": 5,
+          "topic": "Selecting and Justifying the Research Design"
+        },
+        {
+          "week": 6,
+          "topic": "Protocol Development, Ethics Submission, and Data-Access Planning"
+        },
+        {
+          "week": 7,
+          "topic": "Instrument Development, Sampling, and Fieldwork Preparation"
+        },
+        {
+          "week": 8,
+          "topic": "Pilot Study, Feasibility Assessment, and Protocol Refinement"
+        },
+        {
+          "week": 9,
+          "topic": "Recruitment, Fieldwork, and Data-Collection Management"
+        },
+        {
+          "week": 10,
+          "topic": "Data Quality, Security, Documentation, and Progress Review"
+        },
+        {
+          "week": 11,
+          "topic": "Analysis, Interpretation, and Robustness Checks"
+        },
+        {
+          "week": 12,
+          "topic": "Connecting Findings to Theory, Evidence, and Practice"
+        },
+        {
+          "week": 13,
+          "topic": "Thesis Structure, Scholarly Writing, and Chapter Integration"
+        },
+        {
+          "week": 14,
+          "topic": "Peer Review, Revision, and Examination Readiness"
+        },
+        {
+          "week": 15,
+          "topic": "Viva/Defense Preparation and Response to Critical Questions"
+        },
+        {
+          "week": 16,
+          "topic": "Dissemination, Knowledge Translation, and Post-Doctoral Development"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.922",
+      "title": "Occupational Health and Safety in Ergonomics and Human Factors",
+      "curriculum_group": "Elective Courses",
+      "year": null,
+      "course_type": "elective",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Human Factors and Ergonomics: Systems, Tasks, and Work Design"
+        },
+        {
+          "week": 2,
+          "topic": "Ergonomic Risk Assessment: RULA, REBA, NIOSH, and Method Selection"
+        },
+        {
+          "week": 3,
+          "topic": "Anthropometry, Population Design, and Inclusive Workstations"
+        },
+        {
+          "week": 4,
+          "topic": "Biomechanics, Force, Posture, and Manual Material Handling"
+        },
+        {
+          "week": 5,
+          "topic": "Repetitive Work, Upper-Limb Disorders, and Exposure Metrics"
+        },
+        {
+          "week": 6,
+          "topic": "Cognitive Workload, Situation Awareness, and Human Reliability"
+        },
+        {
+          "week": 7,
+          "topic": "Human-Computer Interaction, Usability, and Error-Resistant Design"
+        },
+        {
+          "week": 8,
+          "topic": "Automation, AI, and Human-Robot Collaboration"
+        },
+        {
+          "week": 9,
+          "topic": "Fatigue, Circadian Rhythms, and Performance Under Workload"
+        },
+        {
+          "week": 10,
+          "topic": "Participatory Ergonomics and Worker-Led Design"
+        },
+        {
+          "week": 11,
+          "topic": "System Accidents, Error Traps, and Resilient Performance"
+        },
+        {
+          "week": 12,
+          "topic": "Ergonomics Across Age, Disability, Pregnancy, and Diverse Workforces"
+        },
+        {
+          "week": 13,
+          "topic": "Job Design, Work Organization, and Socio-Technical Systems"
+        },
+        {
+          "week": 14,
+          "topic": "Intervention Design and Outcome Evaluation in Ergonomics"
+        },
+        {
+          "week": 15,
+          "topic": "Wearables, Motion Capture, and Biomechanical Sensor Methods"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Design Studio: Develop an Evidence-Based Ergonomic Intervention"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.923",
+      "title": "Occupational Health and Safety in Psychosocial Factors",
+      "curriculum_group": "Elective Courses",
+      "year": null,
+      "course_type": "elective",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Psychosocial Hazards: Definitions, Models, and Measurement Challenges"
+        },
+        {
+          "week": 2,
+          "topic": "Demand-Control-Support and Effort-Reward Imbalance Frameworks"
+        },
+        {
+          "week": 3,
+          "topic": "Work Stress, Burnout, Allostatic Load, and Occupational Health"
+        },
+        {
+          "week": 4,
+          "topic": "Precarious Work, Job Insecurity, and Platform/Gig Employment"
+        },
+        {
+          "week": 5,
+          "topic": "Workload, Scheduling, Autonomy, and Organizational Design"
+        },
+        {
+          "week": 6,
+          "topic": "Workplace Violence, Bullying, Harassment, and Discrimination"
+        },
+        {
+          "week": 7,
+          "topic": "Trauma Exposure, Moral Injury, and Secondary Stress"
+        },
+        {
+          "week": 8,
+          "topic": "Organizational Justice, Trust, Respect, and Fairness"
+        },
+        {
+          "week": 9,
+          "topic": "Work-Life Boundaries, Care Responsibilities, and Shift Work"
+        },
+        {
+          "week": 10,
+          "topic": "Psychosocial Safety Climate and Organizational Governance"
+        },
+        {
+          "week": 11,
+          "topic": "Psychosocial Risk Assessment: Surveys, Interviews, and Mixed Methods"
+        },
+        {
+          "week": 12,
+          "topic": "Primary, Secondary, and Tertiary Psychosocial Interventions"
+        },
+        {
+          "week": 13,
+          "topic": "Mental Health Accommodation, Return to Work, and Stigma"
+        },
+        {
+          "week": 14,
+          "topic": "Standards, Law, and Employer Duties for Psychosocial Risk"
+        },
+        {
+          "week": 15,
+          "topic": "Linking Work Exposures to Mental Health and Organizational Outcomes"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Conduct a Psychosocial Risk Assessment and Action Plan"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.924",
+      "title": "Occupational Health and Safety in Noise and Vibration",
+      "curriculum_group": "Elective Courses",
+      "year": null,
+      "course_type": "elective",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Acoustics, Noise Metrics, and Occupational Exposure Standards"
+        },
+        {
+          "week": 2,
+          "topic": "Noise Sampling: Dosimetry, Mapping, and Measurement Uncertainty"
+        },
+        {
+          "week": 3,
+          "topic": "Auditory and Non-Auditory Health Effects of Occupational Noise"
+        },
+        {
+          "week": 4,
+          "topic": "Hearing Conservation Programs: Design, Effectiveness, and Equity"
+        },
+        {
+          "week": 5,
+          "topic": "Engineering Noise Control: Source, Path, and Receiver"
+        },
+        {
+          "week": 6,
+          "topic": "Hearing Protection: Fit, Attenuation, Communication, and Limitations"
+        },
+        {
+          "week": 7,
+          "topic": "Impulse Noise, Impact Sound, and High-Risk Work Settings"
+        },
+        {
+          "week": 8,
+          "topic": "Whole-Body Vibration: Sources, Metrics, and Health Effects"
+        },
+        {
+          "week": 9,
+          "topic": "Hand-Arm Vibration, Neuromuscular Disorders, and Control"
+        },
+        {
+          "week": 10,
+          "topic": "Vibration Exposure Assessment and Tool/Vehicle Selection"
+        },
+        {
+          "week": 11,
+          "topic": "Audiometry, Health Surveillance, and Interpretation of Threshold Shifts"
+        },
+        {
+          "week": 12,
+          "topic": "Noise Mapping, Machinery Purchasing, and Quiet-by-Design"
+        },
+        {
+          "week": 13,
+          "topic": "Standards, Regulation, and Communicating Noise/Vibration Risk"
+        },
+        {
+          "week": 14,
+          "topic": "Co-Exposure to Noise and Ototoxic Chemicals"
+        },
+        {
+          "week": 15,
+          "topic": "Evaluating Noise and Vibration Controls in Real Workplaces"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Design an Integrated Noise and Vibration Program"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.925",
+      "title": "Occupational Health and Safety in Heat and Cold Stress",
+      "curriculum_group": "Elective Courses",
+      "year": null,
+      "course_type": "elective",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Human Thermoregulation and Occupational Heat/Cold Stress"
+        },
+        {
+          "week": 2,
+          "topic": "Heat Exposure Assessment: WBGT, Workload, and Acclimatization"
+        },
+        {
+          "week": 3,
+          "topic": "Hydration, Work-Rest Cycles, and Heat-Illness Prevention"
+        },
+        {
+          "week": 4,
+          "topic": "Recognizing, Treating, and Reporting Occupational Heat Illness"
+        },
+        {
+          "week": 5,
+          "topic": "Engineering and Administrative Controls in Hot Work Environments"
+        },
+        {
+          "week": 6,
+          "topic": "Cold Stress Physiology: Hypothermia, Frostbite, and Cold Injury"
+        },
+        {
+          "week": 7,
+          "topic": "Wind Chill, Cold Exposure Assessment, and Work Organization"
+        },
+        {
+          "week": 8,
+          "topic": "Thermal Clothing, PPE, and the Burden of Protective Equipment"
+        },
+        {
+          "week": 9,
+          "topic": "Humidity, Radiant Heat, Air Movement, and Microclimate Assessment"
+        },
+        {
+          "week": 10,
+          "topic": "Vulnerability, Health Conditions, Medication, and Worker Differences"
+        },
+        {
+          "week": 11,
+          "topic": "Indoor and Outdoor Heat/Cold Risks Across Industries"
+        },
+        {
+          "week": 12,
+          "topic": "Climate Change, Extreme Weather, and Occupational Adaptation"
+        },
+        {
+          "week": 13,
+          "topic": "Wearables, Forecasting, and Real-Time Thermal Risk Alerts"
+        },
+        {
+          "week": 14,
+          "topic": "Cold Storage, Refrigeration, and Remote-Work Hazards"
+        },
+        {
+          "week": 15,
+          "topic": "Evaluating Heat/Cold Programs and Climate-Adaptation Measures"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Build a Heat and Cold Stress Management Plan"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.926",
+      "title": "Occupational Health and Safety in Radiation Protection",
+      "curriculum_group": "Elective Courses",
+      "year": null,
+      "course_type": "elective",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Radiation Types, Sources, and Occupational Exposure Pathways"
+        },
+        {
+          "week": 2,
+          "topic": "Ionizing Radiation Quantities, Units, and Biological Effects"
+        },
+        {
+          "week": 3,
+          "topic": "Time, Distance, Shielding, ALARA, and Exposure Optimization"
+        },
+        {
+          "week": 4,
+          "topic": "External Dosimetry: Devices, Calibration, and Dose Interpretation"
+        },
+        {
+          "week": 5,
+          "topic": "Internal Dosimetry, Bioassay, and Contamination Pathways"
+        },
+        {
+          "week": 6,
+          "topic": "Radiation Surveys, Instrument Selection, and Quality Assurance"
+        },
+        {
+          "week": 7,
+          "topic": "Regulatory Standards, Dose Limits, and Radiation Protection Governance"
+        },
+        {
+          "week": 8,
+          "topic": "Medical Radiation: Diagnostic, Interventional, and Nuclear Medicine Work"
+        },
+        {
+          "week": 9,
+          "topic": "Industrial Radiography, Non-Destructive Testing, and Source Security"
+        },
+        {
+          "week": 10,
+          "topic": "Nuclear Fuel Cycle, Radioactive Waste, and Decommissioning Protection"
+        },
+        {
+          "week": 11,
+          "topic": "Radon, Natural Radiation, and Workplace Assessment"
+        },
+        {
+          "week": 12,
+          "topic": "Non-Ionizing Radiation: Lasers, RF, EMF, and Optical Hazards"
+        },
+        {
+          "week": 13,
+          "topic": "Radiation Emergencies, Contamination Control, and Worker Decontamination"
+        },
+        {
+          "week": 14,
+          "topic": "Radiation Risk Communication, Ethics, and Worker Consent"
+        },
+        {
+          "week": 15,
+          "topic": "Program Audits, Dose Optimization, and Exposure Record Management"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Scenario: Design a Radiation Protection Program for a Workplace"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.927",
+      "title": "Occupational Health and Safety in Biological Hazards",
+      "curriculum_group": "Elective Courses",
+      "year": null,
+      "course_type": "elective",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Biological Hazards: Agents, Exposure Routes, and Occupational Context"
+        },
+        {
+          "week": 2,
+          "topic": "Risk Groups, Biosafety Levels, and Containment Principles"
+        },
+        {
+          "week": 3,
+          "topic": "Biological Exposure Assessment and Task-Based Risk Characterization"
+        },
+        {
+          "week": 4,
+          "topic": "Zoonoses, Vector-Borne Disease, and Emerging Pathogens"
+        },
+        {
+          "week": 5,
+          "topic": "Bloodborne Pathogens, Sharps, and Post-Exposure Management"
+        },
+        {
+          "week": 6,
+          "topic": "Bioaerosols, Airborne Transmission, and Ventilation Controls"
+        },
+        {
+          "week": 7,
+          "topic": "Laboratory Biosafety: Risk Assessment, Containment, and Work Practices"
+        },
+        {
+          "week": 8,
+          "topic": "Healthcare Infection Prevention, Vaccination, and Worker Protection"
+        },
+        {
+          "week": 9,
+          "topic": "Agriculture, Animal Care, and Occupational Biological Risks"
+        },
+        {
+          "week": 10,
+          "topic": "Wastewater, Solid Waste, and Biological Waste-Worker Exposure"
+        },
+        {
+          "week": 11,
+          "topic": "PPE, Respiratory Protection, Decontamination, and Disinfection"
+        },
+        {
+          "week": 12,
+          "topic": "Occupational Health Surveillance, Outbreak Detection, and Contact Tracing"
+        },
+        {
+          "week": 13,
+          "topic": "Biosafety, Biosecurity, and Dual-Use Governance"
+        },
+        {
+          "week": 14,
+          "topic": "Emerging Technologies: Synthetic Biology and Novel Biological Risks"
+        },
+        {
+          "week": 15,
+          "topic": "Exposure Incident Investigation and Biosafety Program Evaluation"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Develop an Integrated Biosafety Management Program"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.928",
+      "title": "Occupational Health and Safety in Indoor Air Quality",
+      "curriculum_group": "Elective Courses",
+      "year": null,
+      "course_type": "elective",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Indoor Air Quality: Concepts, Building-Related Symptoms, and Evidence"
+        },
+        {
+          "week": 2,
+          "topic": "Indoor Pollutant Sources: Occupants, Materials, Processes, and Outdoor Air"
+        },
+        {
+          "week": 3,
+          "topic": "Ventilation Fundamentals, HVAC Operation, and Air Exchange"
+        },
+        {
+          "week": 4,
+          "topic": "IAQ Sampling: Strategy, Instrumentation, and Sensor Limitations"
+        },
+        {
+          "week": 5,
+          "topic": "Particulate Matter, Fibres, and Indoor Bioaerosols"
+        },
+        {
+          "week": 6,
+          "topic": "VOCs, Formaldehyde, and Chemical Contaminants"
+        },
+        {
+          "week": 7,
+          "topic": "Dampness, Mould, and Moisture-Related Building Risks"
+        },
+        {
+          "week": 8,
+          "topic": "Combustion Products, Carbon Monoxide, and Radon in Buildings"
+        },
+        {
+          "week": 9,
+          "topic": "Thermal Comfort, CO₂, Ventilation, and Occupant Interpretation"
+        },
+        {
+          "week": 10,
+          "topic": "Building Design, Commissioning, Maintenance, and IAQ Performance"
+        },
+        {
+          "week": 11,
+          "topic": "IAQ in Healthcare, Laboratories, Schools, and Industrial Settings"
+        },
+        {
+          "week": 12,
+          "topic": "Exposure Assessment, Complaints, and Investigation Protocols"
+        },
+        {
+          "week": 13,
+          "topic": "Airflow, Aerosol Transmission, and Infection-Risk Reduction"
+        },
+        {
+          "week": 14,
+          "topic": "Remediation, Source Control, Ventilation, and Filtration"
+        },
+        {
+          "week": 15,
+          "topic": "Communicating Findings and Evaluating IAQ Interventions"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Case Study: Conduct and Present an Integrated IAQ Assessment"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.929",
+      "title": "Occupational Health and Safety in Hazardous Material Management",
+      "curriculum_group": "Elective Courses",
+      "year": null,
+      "course_type": "elective",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Hazardous Materials: Definitions, Lifecycle, and Governance"
+        },
+        {
+          "week": 2,
+          "topic": "GHS Classification, Labelling, Safety Data Sheets, and Inventory"
+        },
+        {
+          "week": 3,
+          "topic": "Chemical Storage, Segregation, Compatibility, and Emergency Access"
+        },
+        {
+          "week": 4,
+          "topic": "Procurement, Substitution, and Safer-Chemistry Decision-Making"
+        },
+        {
+          "week": 5,
+          "topic": "Exposure Assessment and Controls for Hazardous Materials"
+        },
+        {
+          "week": 6,
+          "topic": "Chemical Hygiene, Handling, Transfer, and Decontamination"
+        },
+        {
+          "week": 7,
+          "topic": "Dangerous Goods Transport, Packaging, and Regulatory Interfaces"
+        },
+        {
+          "week": 8,
+          "topic": "Spill Prevention, Response, and Incident Command"
+        },
+        {
+          "week": 9,
+          "topic": "Hazardous Waste Identification, Segregation, and Cradle-to-Grave Control"
+        },
+        {
+          "week": 10,
+          "topic": "Contractor, Laboratory, and Maintenance Hazardous-Material Controls"
+        },
+        {
+          "week": 11,
+          "topic": "PPE, Respiratory Protection, and Selection for Chemical Tasks"
+        },
+        {
+          "week": 12,
+          "topic": "Confined-Space and Permit-to-Work Hazardous-Materials Scenarios"
+        },
+        {
+          "week": 13,
+          "topic": "Digital Chemical Inventories, SDS Systems, and Data Governance"
+        },
+        {
+          "week": 14,
+          "topic": "Auditing, Exposure Incidents, and Corrective-Action Learning"
+        },
+        {
+          "week": 15,
+          "topic": "Waste Minimization, Circularity, and Life-Cycle Risk Trade-Offs"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Design a Hazardous Materials Management System"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.930",
+      "title": "Occupational Health and Safety in Waste Management",
+      "curriculum_group": "Elective Courses",
+      "year": null,
+      "course_type": "elective",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Waste Streams, Hazard Classification, and the Waste Hierarchy"
+        },
+        {
+          "week": 2,
+          "topic": "Waste Characterization, Segregation, and Workplace Generation Audits"
+        },
+        {
+          "week": 3,
+          "topic": "Hazardous Waste Law, Tracking, and Cradle-to-Grave Accountability"
+        },
+        {
+          "week": 4,
+          "topic": "Collection, Transport, and Worker Exposure in Waste Operations"
+        },
+        {
+          "week": 5,
+          "topic": "Sorting, Manual Handling, Sharps, and Injury Prevention"
+        },
+        {
+          "week": 6,
+          "topic": "Healthcare Waste: Infectious, Sharps, Pharmaceutical, and Cytotoxic Streams"
+        },
+        {
+          "week": 7,
+          "topic": "Chemical Waste, Compatibility, Packaging, and Storage"
+        },
+        {
+          "week": 8,
+          "topic": "Landfill Work: Leachate, Methane, Dust, and Confined Spaces"
+        },
+        {
+          "week": 9,
+          "topic": "Recycling and E-Waste: Metals, Batteries, and Emerging Hazards"
+        },
+        {
+          "week": 10,
+          "topic": "Incineration, Thermal Treatment, and Worker Exposure Controls"
+        },
+        {
+          "week": 11,
+          "topic": "Wastewater, Sludge, and Biological/Chemical Risks"
+        },
+        {
+          "week": 12,
+          "topic": "Informal Waste Work, Equity, and Vulnerable Worker Protection"
+        },
+        {
+          "week": 13,
+          "topic": "PPE, Hygiene, Immunization, and Health Surveillance in Waste Work"
+        },
+        {
+          "week": 14,
+          "topic": "Fires, Spills, Confined Spaces, and Waste-Site Emergency Planning"
+        },
+        {
+          "week": 15,
+          "topic": "Circular Economy, Zero Waste, and Worker-Safety Trade-Offs"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Develop a Worker-Centred Waste Management Program"
+        }
+      ]
+    },
+    {
+      "code": "OHSE.931",
+      "title": "Occupational Health and Safety in Environmental Sustainability",
+      "curriculum_group": "Elective Courses",
+      "year": null,
+      "course_type": "elective",
+      "weeks": [
+        {
+          "week": 1,
+          "topic": "Sustainability Science and the OHSE-Environment Nexus"
+        },
+        {
+          "week": 2,
+          "topic": "Environmental Management Systems, ESG, and Governance"
+        },
+        {
+          "week": 3,
+          "topic": "Climate Mitigation, Adaptation, and Occupational Safety Co-Benefits"
+        },
+        {
+          "week": 4,
+          "topic": "Life-Cycle Assessment, Carbon Footprints, and System Boundaries"
+        },
+        {
+          "week": 5,
+          "topic": "Sustainable Procurement, Supply Chains, and Labour Protection"
+        },
+        {
+          "week": 6,
+          "topic": "Pollution Prevention, Green Chemistry, and Hazard Substitution"
+        },
+        {
+          "week": 7,
+          "topic": "Water Stewardship, Process Safety, and Worker Health"
+        },
+        {
+          "week": 8,
+          "topic": "Energy Efficiency, Decarbonization, and Safety-Critical Trade-Offs"
+        },
+        {
+          "week": 9,
+          "topic": "Waste Prevention, Circularity, and Occupational Risk"
+        },
+        {
+          "week": 10,
+          "topic": "Biodiversity, Land Use, and Community/Worker Health"
+        },
+        {
+          "week": 11,
+          "topic": "Environmental Justice, Just Transition, and Distributional Impacts"
+        },
+        {
+          "week": 12,
+          "topic": "Integrating Environmental Monitoring with Occupational Hygiene"
+        },
+        {
+          "week": 13,
+          "topic": "Sustainability Metrics, Reporting, and Assurance"
+        },
+        {
+          "week": 14,
+          "topic": "Climate Resilience, Extreme Events, and Workforce Protection"
+        },
+        {
+          "week": 15,
+          "topic": "Evaluating Sustainability Interventions: Co-Benefits and Trade-Offs"
+        },
+        {
+          "week": 16,
+          "topic": "Doctoral Capstone: Propose an Integrated OHSE Sustainability Strategy"
+        }
+      ]
+    }
+  ]
+}
