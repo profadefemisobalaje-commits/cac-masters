@@ -542,6 +542,17 @@ def fig_26_02():
            h=3.8, size=6.4, first_w=17)
 
 
+def fig_27_01():
+    matrix("fig-27-01",
+           ["Core question", "Energy illustrations"],
+           [["Illegality", "Did the decision-maker act within its statutory powers and consider relevant matters?", "Failure to assess downstream (scope\u00a03) emissions: Finch (UKSC 2024)"],
+            ["Irrationality", "Was the decision one no reasonable authority could reach?", "Unreasoned tariff or licence refusals; reliance on irrelevant considerations"],
+            ["Procedural\nimpropriety", "Were consultation, fairness and statutory procedures followed?", "Inadequate consultation of affected communities and traditional owners (Tipakalippa)"],
+            ["Legitimate\nexpectation", "Was a clear, unqualified representation frustrated without justification?", "Retroactive withdrawal of renewable feed-in tariffs"],
+            ["Rights and\nproportionality", "Is interference with protected rights justified and proportionate?", "Climate and environmental rights claims (Neubauer; KlimaSeniorinnen)"]],
+           h=3.9, size=6.4, first_w=18)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
