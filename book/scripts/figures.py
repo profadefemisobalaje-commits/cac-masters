@@ -252,6 +252,17 @@ def fig_08_01():
     f.save()
 
 
+# ----------------------------------------------------------------- Chapter 9
+def fig_09_01():
+    matrix("fig-09-01",
+           ["Competition in generation", "Wholesale buyer choice", "Retail choice", "Typical examples"],
+           [["1. Vertically integrated monopoly", "No", "No", "No", "Many developing states; SE United States"],
+            ["2. Single buyer", "Yes — for new PPAs", "No", "No", "1990s Asian & African IPP models"],
+            ["3. Wholesale competition", "Yes", "Yes", "No", "Transitional systems; Nigeria (in law)"],
+            ["4. Retail competition", "Yes", "Yes", "Yes", "EU; Great Britain; Texas; Australia"]],
+           h=3.0, size=6.6, first_w=24)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
