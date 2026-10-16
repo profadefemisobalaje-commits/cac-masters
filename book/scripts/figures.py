@@ -349,6 +349,41 @@ def fig_15_01():
     ], size=7.0)
 
 
+def fig_16_01():
+    vflow("fig-16-01", [
+        "Project revenues\n(PPA / offtake receipts into proceeds account)",
+        "Operating & maintenance costs",
+        "Taxes, royalties & regulatory charges",
+        "Senior debt service\n(fees, interest, principal)",
+        "Debt service reserve account top-up",
+        "Maintenance & other reserve accounts",
+        "Subordinated / mezzanine debt service",
+        "Distribution lock-up test (DSCR, no default)",
+        "Equity distributions to sponsors",
+    ], side=[
+        "Lender-controlled accounts",
+        "Per O&M agreement and budget",
+        "Fiscal regime (s 16.4–16.5)",
+        "Senior lenders, ECAs, DFIs",
+        "Typically 6 months' debt service",
+        "Scheduled major overhauls",
+        "Ranks behind senior debt",
+        "Cash trapped if test fails",
+        "Residual, first-loss capital",
+    ], h=5.6, size=7.0)
+
+
+def fig_16_02():
+    matrix("fig-16-02",
+           ["Concession (tax & royalty)", "Production sharing contract", "Service contract"],
+           [["Ownership of production", "Investor at wellhead", "State; contractor takes cost & profit oil", "State; contractor paid a fee"],
+            ["Main state instruments", "Bonus, royalty, income tax, resource rent tax", "Royalty, profit-oil split, income tax, state participation", "Retention of all production; fee set by contract"],
+            ["Cost recovery", "Through tax deductions", "Cost oil, subject to a recovery limit", "Reimbursed with fee (risk or pure service)"],
+            ["Risk bearer", "Investor bears most risk", "Contractor bears exploration risk", "State bears most market risk"],
+            ["Examples", "UK, Norway, USA, Australia", "Indonesia, Angola, Nigeria (deep offshore)", "Iran, Iraq (TSCs), pre-2013 Mexico"]],
+           h=3.6, size=6.4, first_w=19)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
