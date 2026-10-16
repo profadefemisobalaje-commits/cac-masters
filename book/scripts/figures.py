@@ -455,6 +455,17 @@ def fig_20_01():
     f.save()
 
 
+def fig_21_01():
+    matrix("fig-21-01",
+           ["What it requires", "Common failures in practice"],
+           [["Free", "No coercion, intimidation, manipulation or undue pressure; community sets the process", "Security presence; selective payments; dividing communities"],
+            ["Prior", "Sought before concessions are granted and before activities begin", "Consultation after licensing or construction"],
+            ["Informed", "Full, accessible information on scope, risks, impacts and benefits; independent advice", "Technical documents only; no local language; no time to deliberate"],
+            ["Consent", "Collective decision through the people's own institutions; may be given, conditioned or withheld", "Hand-picked representatives; treating consultation as consent"],
+            ["Ongoing agreement", "Benefit-sharing, mitigation, monitoring and grievance redress over the project life", "One-off sign-off; no follow-up on changes"]],
+           h=3.7, size=6.5, first_w=17)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
