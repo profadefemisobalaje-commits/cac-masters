@@ -586,6 +586,19 @@ def fig_29_01():
     ])
 
 
+def fig_30_01():
+    hub("fig-30-01", "Future of energy\nand resources law", [
+        "Decarbonisation",
+        "Digitalisation\nand AI",
+        "Decentralisation",
+        "Geopolitical\nfragmentation",
+        "Critical\nminerals",
+        "Climate risk\nand finance",
+        "Justice and\nrights",
+        "New frontiers\n(seabed, hydrogen)",
+    ])
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
