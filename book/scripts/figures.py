@@ -413,6 +413,17 @@ def fig_18_01():
           note="Stocktakes 2023, 2028 ... each informs the next round of NDCs; compliance committee (Art 15).")
 
 
+def fig_19_01():
+    matrix("fig-19-01",
+           ["Core content", "Sources and authorities"],
+           [["Equitable & reasonable utilisation", "Each state entitled to an equitable share; all factors weighed; vital human needs", "UNWC Arts 5, 6, 10; Gabčíkovo-Nagymaros; Helsinki Rules"],
+            ["No significant harm", "Due diligence to prevent harm; mitigation; compensation where appropriate", "UNWC Art 7; Trail Smelter; Pulp Mills"],
+            ["Notification & consultation", "Prior notice of planned measures; six-month reply; good-faith negotiation", "UNWC Arts 11–19; Lac Lanoux; Silala"],
+            ["Cooperation & data exchange", "Joint bodies; regular exchange of hydrological data; flood warning", "UNWC Arts 8–9; Water Convention; OMVS; NBA"],
+            ["Ecosystem protection", "Environmental flows; pollution control; emergencies", "UNWC Arts 20–28; Kishenganga awards"]],
+           h=3.7, size=6.5, first_w=20)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
