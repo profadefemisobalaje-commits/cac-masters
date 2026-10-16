@@ -553,6 +553,26 @@ def fig_27_01():
            h=3.9, size=6.4, first_w=18)
 
 
+def fig_28_01():
+    vflow("fig-28-01", [
+        "Identify the problem\n(gap, puzzle or practical failure in energy and resource law)",
+        "Formulate research questions and thesis\n(descriptive, explanatory, evaluative, normative)",
+        "Review the literature\n(state of the art; theoretical framework)",
+        "Select methodology\n(doctrinal, comparative, socio-legal, empirical, mixed)",
+        "Gather and analyse sources and data\n(primary authorities, interviews, datasets)",
+        "Develop the argument\n(analysis, synthesis, evaluation)",
+        "Original contribution\n(new knowledge, theory, reform proposals)",
+    ], side=[
+        "Significance; feasibility; originality",
+        "Scope; hypotheses; key concepts",
+        "Systematic searching; critical engagement",
+        "Fit between question and method",
+        "Ethics approval; data management",
+        "Counter-arguments; limitations",
+        "Viva voce; publication; impact",
+    ], h=5.8, size=7.2)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
