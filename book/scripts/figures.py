@@ -466,6 +466,14 @@ def fig_21_01():
            h=3.7, size=6.5, first_w=17)
 
 
+def fig_22_01():
+    hub("fig-22-01", "Effective compliance programme",
+        ["Tone at the top and governance", "Risk assessment", "Policies and procedures",
+         "Third-party due diligence", "Training and communication", "Speak-up and whistleblowing",
+         "Investigation and discipline", "Monitoring, testing and review"],
+        size=7.0)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
