@@ -282,6 +282,7 @@
     let el = it.element
     let pg = it.page()
     set par(first-line-indent: 0pt, justify: false)
+    set text(hyphenate: false)
     if it.level == 1 {
       if el.supplement != [front] {
         v(1.0em, weak: true)
@@ -306,6 +307,9 @@
   outline(title: none, depth: 3, indent: 0pt)
 }
 
+#let lof-mode = state("lof-mode", false)
+#let figsrc(body) = context if lof-mode.get() { none } else { body }
+
 #let list-of(kind, title) = {
   front-heading(title)
   show outline.entry: it => {
@@ -316,5 +320,7 @@
       text(font: sans, size: 8.4pt, weight: "bold", fill: teal, hyphenate: false)[#chap-num.at(el.location()).#counter(figure.where(kind: kind)).at(el.location()).first()],
       text(size: 9pt)[#el.caption.body #dots], text(size: 9pt)[#it.page()]))
   }
+  lof-mode.update(true)
   outline(title: none, target: figure.where(kind: kind))
+  lof-mode.update(false)
 }

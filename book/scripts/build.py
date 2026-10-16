@@ -39,9 +39,11 @@ def md_files(sub):
 
 
 def convert(md: Path) -> str:
-    return pypandoc.convert_file(
+    t = pypandoc.convert_file(
         str(md), "typst", format="markdown-auto_identifiers+smart",
         extra_args=["--lua-filter", str(FILTER), "--wrap=preserve"])
+    # wrap figure "Source:" notes so the List of Figures can omit them
+    return re.sub(r"(#emph\[Source:\].*?)(\n\s*\]\s*\n\s*\))", r"#figsrc[\1]\2", t, flags=re.S)
 
 
 def chunk(name, files):
