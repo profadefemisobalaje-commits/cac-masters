@@ -317,6 +317,25 @@ def fig_13_01():
           h=3.9, size=7.4)
 
 
+# ----------------------------------------------------------------- Chapter 14
+def fig_14_01():
+    matrix("fig-14-01",
+           ["Core content", "Leading authorities"],
+           [["Fair and equitable treatment", "Legitimate expectations; non-arbitrariness; due process; transparency; denial of justice", "Tecmed; Saluka; Parkerings; Waste Management II; Chevron v Ecuador II"],
+            ["Full protection & security", "Due diligence against physical harm, incl. by third parties", "AAPL v Sri Lanka; Wena Hotels v Egypt"],
+            ["National treatment / MFN", "No less favourable treatment in like circumstances", "SD Myers; Occidental I; Methanex; Maffezini; Plama"],
+            ["Expropriation", "Public purpose, non-discrimination, due process, compensation (FMV)", "Metalclad; Methanex; Philip Morris v Uruguay; Yukos"],
+            ["Umbrella clause", "Observance of obligations entered into with the investor", "SGS v Pakistan; SGS v Philippines; ECT Art 10(1)"]],
+           h=3.7, size=6.5, first_w=20)
+
+
+def fig_14_02():
+    chain("fig-14-02",
+          ["Dispute|& notice", "Cooling-off|negotiation", "Constitution|of tribunal", "Jurisdiction|& merits", "Award", "Annulment|or set-aside", "Enforce-|ment"],
+          h=1.9, size=6.6,
+          note="ICSID: annulment (Art 52), enforcement (Art 54). Others: set-aside at seat; New York Convention.")
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
