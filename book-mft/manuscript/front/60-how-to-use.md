@@ -1,0 +1,13 @@
+# How to Use This Book {.front}
+
+**For the doctoral candidate.** Read each section before the seminar in which it is discussed, then re-read it after. The numbered sections are self-contained enough to be read in any order, but the volume is designed to be read in sequence: the later traditions assume the conceptual vocabulary established in the first section. Keep a theory-comparison notebook, recording for each tradition its unit of analysis, its account of problem maintenance, its mechanism of change, its principal methods, and its evidence. By the end of the volume you should be able to reproduce that grid from memory and defend its entries.
+
+**For the seminar leader.** Each chapter contains an applied exercise designed for group work in ninety minutes, followed by doctoral research questions suitable for written assignments. Case illustrations can be role-played: assign the family positions, one observer to each of two competing theoretical models, and a third observer whose task is to record which model generated a testable formulation and which generated a description that no data could refute.
+
+**For the supervisor.** The comparative material is intended for use in supervision when a trainee is stuck. The question "which of the traditions in the grid would formulate this case differently, and what would that formulation lead you to do next?" converts theoretical knowledge into clinical flexibility.
+
+**For the researcher.** The evidence discussions identify where the empirical record is strong, where it is thin, and where it is contested. Those passages are the natural starting points for dissertation work; the doctoral research questions at the end of each chapter mark live problems rather than settled questions.
+
+**Conventions.** British spelling is used throughout. Terms of art appear in **bold** at first definition and in the index thereafter. Figures are numbered by chapter. Tables are numbered by chapter and carry a caption above the table. Case material is hypothetical unless a published source is cited, and hypothetical exercises are labelled as such. Where an instrument is described, its copyright status is noted; standardised instruments cannot be reproduced freely, and their use is subject to the terms of the publisher or author.
+
+**A caution about scope.** A volume of this kind can teach theory, evidence, and method. It cannot confer clinical competence. Competence is acquired through supervised practice, direct observation and feedback, personal development work, and compliance with the regulatory and ethical framework of the jurisdiction in which one works. Nothing in this book should be read as authorising practice beyond the reader's training, licensure, or lawful scope of practice.
