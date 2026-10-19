@@ -527,6 +527,73 @@ def fig_03_04():
     f.save()
 
 
+# ============================================================== Chapter 4
+def fig_04_01():
+    chain("fig-04-01", [
+        "Engage|goals and frame",
+        "Assess|context and safety",
+        "Formulate|working map",
+        "Treat|agreed tasks",
+        "Review|adapt, refer, or end",
+    ], h=2.7, size=7.0,
+       note="A non-linear clinical arc: new information or risk may return the work to assessment or contracting.")
+
+
+def fig_04_02():
+    matrix("fig-04-02",
+           ["Clinical question", "Evidence to gather"],
+           [
+               ("Each partner", "What matters to each person?", "Individual goals, meanings, hopes, concerns"),
+               ("Interaction", "What happens in the recurring sequence?", "Specific actions, interpretations, responses, repair"),
+               ("History", "What has changed across the relationship?", "Transitions, treatment history, exceptions"),
+               ("Individual", "What health or functioning factors matter?", "Symptoms, health, substance use, referral needs"),
+               ("Context", "What shapes options and access?", "Work, caregiving, culture, resources, institutions"),
+               ("Safety", "Can both participate freely?", "Private inquiry, coercion, risk, protective plan"),
+           ], h=3.7, size=5.9, first_w=18)
+
+
+def fig_04_03():
+    f = Fig("fig-04-03", 4.6, 3.5)
+    f.text(50, f.H - 5, "SAFETY AND SUITABILITY FOR CONJOINT WORK", size=6.8, color=TEAL, bold=True)
+    a = f.box(27, 55, 46, 12, "PRIVATE INQUIRY\nFear · coercion · violence · freedom to speak", "teal", size=6.3, bold=True)
+    b = f.box(27, 37, 46, 12, "ASSESS RISK, CONSENT, PROTECTION, AND CLINICAL COMPETENCE", "light", size=6.0, bold=True)
+    varrow(f, a, b, color=BRONZE, lw=1.2)
+    options = [
+        (2, 8, 30, 19, "No current coercion identified\nConjoint work may be considered with ongoing review", "bronzel"),
+        (35, 8, 30, 19, "Unclear or changing risk\nPause, consult, obtain further assessment", "ivory"),
+        (68, 8, 30, 19, "Coercion or danger present\nDo not proceed conjointly; prioritise safety and referral", "bronze"),
+    ]
+    for x,y,w,h,t,style in options:
+        f.box(x,y,w,h,t,style,size=5.7,bold=True)
+        f.arrow(50,37,x+w/2,y+h,color=GREY,lw=0.8)
+    f.text(50, 3.2, "Reassess throughout treatment; a single screen does not settle risk.", size=5.7, color=GREY, italic=True)
+    f.save()
+
+
+def fig_04_04():
+    chain("fig-04-04", [
+        "Accounts|each partner's meaning",
+        "Pattern|specific sequence",
+        "Context|history, resources, risk",
+        "Goals|shared or distinct aims",
+        "Plan|model, tasks, review",
+    ], h=2.65, size=6.5,
+       note="Keep the formulation provisional; safety and access remain active considerations throughout.")
+
+
+def fig_04_05():
+    matrix("fig-04-05",
+           ["Review domain", "Decision prompt"],
+           [
+               ("Partner goals", "What has changed for each person?"),
+               ("Interaction", "Can disagreement be handled more safely?"),
+               ("Experience", "Do both partners feel heard and able to participate?"),
+               ("Safety", "Has risk or freedom to speak changed?"),
+               ("Context", "Are external barriers or supports different?"),
+               ("Treatment fit", "Continue, adapt, consult, refer, or end?"),
+           ], h=3.6, size=6.1, first_w=21)
+
+
 if __name__ == "__main__":
     import sys
     only = sys.argv[1:] or None
