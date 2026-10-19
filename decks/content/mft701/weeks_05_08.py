@@ -1,0 +1,648 @@
+"""MFT 701 — Weeks 5–8."""
+from ..model import lecture, week
+
+WEEKS = [
+
+# ==========================================================================
+week(
+    n=5,
+    title="Homeostasis, Change and the Family Life Cycle",
+    short="Life Cycle",
+    standfirst="Families are built to stay the same and to move on, and those two obligations collide at every transition.",
+    epigraph="Every family is a system in motion, held together by habits it cannot see.",
+    epigraph_src="Course epigraph",
+    keywords=["Stability", "Transition", "Crisis"],
+    outcomes=[
+        "Distinguish morphostasis from morphogenesis and identify both in a family's ordinary functioning.",
+        "Explain why symptomatic behaviour often appears at points of life-cycle transition.",
+        "Map a family's position in the life cycle, including its cultural and structural variations.",
+        "Distinguish a developmental crisis from a chronic pattern that has been mistaken for one.",
+        "Design one intervention that supports a transition rather than merely removing a symptom.",
+    ],
+    concepts=[
+        ("Homeostasis",
+         "The system's tendency to hold its organisation steady by correcting deviation — even when the steady state is painful.",
+         "In the room: the family reports the same fight every week, with the same ending."),
+        ("Morphogenesis",
+         "The capacity of a system to change its own structure in response to information from inside or outside.",
+         "In the room: a birth, a death or a migration forces the family to reorganise."),
+        ("Life-cycle stage",
+         "A recognisable phase defined by tasks that must be accomplished before the family can move on.",
+         "In the room: the presenting problem dates from the week the eldest child left home."),
+        ("Horizontal and vertical stressors",
+         "The stressors moving through time with the family, and the legacies carried across generations.",
+         "In the room: a new job lands on a family already carrying an old grief."),
+    ],
+    lectures=[
+        lecture(
+            "Lecture I · Stability",
+            "Why families resist the change they request",
+            [
+                ("The function of the symptom",
+                 "A symptom can regulate distance, conflict or care. Removing it may destabilise the arrangement that depended on it."),
+                ("First-order change",
+                 "More of the same: the family escalates its existing solutions, and the pattern intensifies."),
+                ("Second-order change",
+                 "A change in the rules of the system itself: the sequence is interrupted rather than repeated more efficiently."),
+                ("Clinical patience",
+                 "Resistance is usually a sign that the system is protecting something it cannot yet name."),
+            ],
+            "When a family seems to sabotage progress, ask what the symptom has been holding in place.",
+        ),
+        lecture(
+            "Lecture II · Transition",
+            "The life cycle as a sequence of reorganisations",
+            [
+                ("Leaving home",
+                 "The young adult negotiates separation without severance; the family renegotiates its centre."),
+                ("Joining families",
+                 "A couple forms a new system while remaining loyal to two older ones — the classic site of triangulation."),
+                ("Families with young children",
+                 "New roles, new time, new money; the couple's relationship is re-founded around caregiving."),
+                ("Adolescence and later life",
+                 "The system must tolerate increasing autonomy, then reincorporate it as care reverses."),
+            ],
+            "Most presenting problems are transitions that no one has named as a transition.",
+        ),
+        lecture(
+            "Lecture III · Context",
+            "The life cycle is not a single staircase",
+            [
+                ("Cultural variation",
+                 "Timing, sequence and the meaning of each stage differ across cultures, faiths and economies."),
+                ("Structural constraint",
+                 "Poverty, migration, housing and employment can delay or foreclose stages the model assumes."),
+                ("Horizontal stressors",
+                 "War, illness, bereavement and displacement strike the family wherever it happens to be standing."),
+                ("Clinical use",
+                 "Use the life cycle as a diagnostic question — 'where is this family being asked to change?' — not as a norm."),
+            ],
+            "A model of stages becomes an instrument of judgement the moment it is used as a standard rather than a question.",
+        ),
+    ],
+    figure=dict(
+        kicker="Figure 05 · Diagram",
+        title="The family life cycle, with its stressors",
+        caption="Stages are not a staircase. Horizontal stressors arrive on schedule; vertical ones arrive from earlier generations. Crises cluster where the two intersect.",
+        source="Prepared for this course.",
+        notes="Ask students to place their own family of origin on the arc, and to name one horizontal and one vertical stressor.",
+    ),
+    vignette=dict(
+        title="The week the eldest left",
+        body=("A couple has been married for twenty-two years. Their eldest child left for university in September. "
+              "By November the father has begun working late, the mother has taken on a second job and the youngest "
+              "child has developed migraines that keep her home from school two days a week. Neither parent connects "
+              "any of this to the departure. The referral asks for help with the child's headaches."),
+        prompts=[
+            "What transition is the family being asked to make, and who is carrying the cost of not making it?",
+            "Which is the presenting symptom, and which is the systemic symptom?",
+            "What would a transition-focused intervention look like in the first session?",
+        ],
+        notes="The migraines are real. Do not let students treat them as metaphor — that is a common and damaging error.",
+    ),
+    skills=dict(
+        title="Mapping a transition",
+        intro=("In pairs, take one family and plot it on the life-cycle arc: current stage, the transition it faces, and the "
+               "stressors converging on it. Then design one intervention that names the transition."),
+        steps=[
+            ("Locate", "Place the family at a stage and name the tasks it must accomplish to move on."),
+            ("Stressors", "List one horizontal and one vertical stressor, with dates."),
+            ("Function", "Describe what the symptom may be holding steady. Who would lose what if it stopped?"),
+            ("Intervene", "Name one conversation that would make the transition speakable."),
+        ],
+        timing=["8 min", "10 min", "12 min", "10 min"],
+        debrief=("The commonest error is to treat the symptom as the problem. The second commonest is to treat the stage as a norm."),
+    ),
+    seminar=[
+        "Is 'resistance' a description of the family or of the therapist's frustration?",
+        "Can a family be developmentally late, or is that only a judgement borrowed from one culture?",
+        "What happens to the life-cycle model in a context of chronic economic precarity?",
+        "Should a therapist ever name a transition the family has not named?",
+        "How would you distinguish a developmental crisis from a long-standing pattern?",
+    ],
+    assignment=dict(
+        major_title="A transition case formulation",
+        major_text=("Formulate a case of your own as a life-cycle problem. Identify the stage, the transition, the stressors and "
+                    "the function of the symptom. Conclude with one intervention you would make and the risk it carries. "
+                    "Anonymise all identifying detail."),
+        major_meta="900 words · 20% of final grade · due Friday",
+        tasks=[
+            "Draw the life-cycle arc and mark the family's position.",
+            "Note one vertical stressor that predates the couple.",
+            "Bring one transition-naming sentence to rehearse aloud.",
+        ],
+        criteria=[
+            "Precision: the stage and the transition are named in behavioural terms.",
+            "Function: the symptom's role is described without implying intent.",
+            "Context: at least one structural or cultural constraint is analysed.",
+            "Candour: the risk of the proposed intervention is stated plainly.",
+        ],
+        note="Do not use the life-cycle model to imply that a family is failing to develop. It is a question about task, not a schedule.",
+    ),
+    readings=[
+        ("Core", "Carter, B., & McGoldrick, M. (Eds.). (2011). The expanded family life cycle: Individual, family, and social perspectives (4th ed.). Pearson."),
+        ("Classic", "Haley, J. (1980). Leaving home: The therapy of disturbed young people. McGraw-Hill."),
+        ("Theory", "Watzlawick, P., Weakland, J., & Fisch, R. (1974). Change: Principles of problem formation and problem resolution. Norton."),
+        ("Context", "Falicov, C. J. (2014). Latino families in therapy (2nd ed.). Guilford Press."),
+        ("Research", "Umberson, D., & Thomeer, M. B. (2020). Family matters: Research on family ties and health, 2010–2020. Journal of Marriage and Family, 82(1), 404–419."),
+        ("Critique", "Bograd, M. (1988). Enmeshment, fusion or relatedness? A conceptual analysis. Journal of Psychotherapy & the Family, 3(4), 65–80."),
+    ],
+    synthesis=("A symptom is often a transition that the family has not yet been able to name.",
+               "Course synthesis"),
+    next=dict(
+        n=6,
+        title="Boundaries, Subsystems and Triangles",
+        preview=[
+            "Minuchin's structural vocabulary: boundaries, alignments, coalitions.",
+            "Why the triangle is the smallest stable unit of a family system.",
+            "Detriangulation without blame: what the therapist actually does.",
+        ],
+        read="Minuchin, Families and Family Therapy — chapters 1–3.",
+        annotate="One boundary in your own family that was clear, and one that was not.",
+        bring="A triangle you have observed and can describe from all three positions.",
+    ),
+),
+
+# ==========================================================================
+week(
+    n=6,
+    title="Boundaries, Subsystems and Triangles",
+    short="Structure",
+    standfirst="A family is not a crowd. It is an arrangement of parts with rules about who may speak, touch, know and decide.",
+    epigraph="Every system is a subsystem of another system, and every boundary is a negotiation.",
+    epigraph_src="Course epigraph",
+    keywords=["Structure", "Boundary", "Triangle"],
+    outcomes=[
+        "Describe a family's structure in Minuchin's terms: subsystems, boundaries, alignments and coalitions.",
+        "Distinguish enmeshed from disengaged boundaries without moralising either.",
+        "Explain why the triangle is the smallest stable relational unit and how it stabilises conflict.",
+        "Recognise the therapist's own recruitment into a family triangle.",
+        "Plan a restructuring intervention that respects the family's hierarchy and culture.",
+    ],
+    concepts=[
+        ("Subsystem",
+         "A coherent unit within the family — parental, sibling, spousal — with its own rules and legitimate authority.",
+         "In the room: the children adjudicate the parents' arguments because the parental subsystem has collapsed."),
+        ("Boundary",
+         "The invisible rule that regulates who participates, and how, in each subsystem.",
+         "In the room: a mother reads her daughter's messages 'just to be safe'."),
+        ("Alignment",
+         "Who stands with whom, and how support is recruited during conflict.",
+         "In the room: two siblings vote with one parent before the argument begins."),
+        ("Triangle",
+         "A three-person configuration in which tension between two is displaced onto, or stabilised by, the third.",
+         "In the room: the child's symptom appears whenever the parents' conflict rises."),
+    ],
+    lectures=[
+        lecture(
+            "Lecture I · Structure",
+            "Subsystems and the authority to act",
+            [
+                ("The parental subsystem",
+                 "Adults must hold executive authority while remaining a couple. When the two roles collapse, children are recruited upward."),
+                ("The sibling subsystem",
+                 "A laboratory for negotiation, belonging and rivalry; it needs to be protected from adult conflict."),
+                ("Clear boundaries",
+                 "Clear does not mean rigid. Clear boundaries permit contact and protect difference at the same time."),
+                ("Hierarchy",
+                 "Authority is not domination. A family needs someone with the legitimate power to decide and to protect."),
+            ],
+            "Structure is not what a family says it believes. It is what happens when someone tries to speak.",
+        ),
+        lecture(
+            "Lecture II · Boundary style",
+            "Enmeshment, disengagement and the moral trap",
+            [
+                ("Enmeshment",
+                 "Diffuse boundaries: high responsiveness, low differentiation; the child's mood organises the household."),
+                ("Disengagement",
+                 "Rigid boundaries: low responsiveness, high distance; distress is not registered until it becomes a crisis."),
+                ("The moral trap",
+                 "Clinicians tend to prefer one style. That preference is cultural and personal, and it shapes the assessment."),
+                ("Clinical judgement",
+                 "Ask what the boundary protects before judging whether it is too tight or too loose."),
+            ],
+            "Enmeshment and disengagement are descriptions of a system, not verdicts on a parent.",
+        ),
+        lecture(
+            "Lecture III · Triangles",
+            "The smallest stable unit",
+            [
+                ("Why three",
+                 "Two-person systems are unstable under conflict. A third position absorbs tension and restores equilibrium."),
+                ("The classic triangle",
+                 "Pursuer, distancer and the third who is recruited — often a child, an in-law, or a therapist."),
+                ("Costs",
+                 "The triangle stabilises the couple at the expense of the third, who carries the symptom."),
+                ("Detriangulation",
+                 "The therapist keeps the conflict in the dyad where it belongs, without blaming whoever was recruited."),
+            ],
+            "You will be recruited into a triangle. The question is whether you notice before you speak.",
+        ),
+    ],
+    figure=dict(
+        kicker="Figure 06 · Diagram",
+        title="The triangle under tension",
+        caption="When anxiety rises between two people, a third is recruited to hold it. The triangle stabilises the pair and burdens the third.",
+        source="Prepared for this course.",
+        notes="Ask the room who usually occupies position three in their own families. Then ask who occupies it in the consulting room.",
+    ),
+    vignette=dict(
+        title="The child who knows too much",
+        body=("A nine-year-old is referred for anxiety and stomach aches. In the first session she answers questions "
+              "about her parents' arguments with more precision than either parent. Her mother says the child is 'very "
+              "sensitive'. Her father says she 'takes after her mother'. When the therapist asks the parents to discuss "
+              "a recent disagreement directly, the child interrupts twice to explain what each of them meant, and both "
+              "parents defer to her account."),
+        prompts=[
+            "Map the triangle: who is in each position, and what does each gain?",
+            "What structural change would reduce the child's burden without blaming her?",
+            "How would you interrupt the pattern in the session itself, not only by advising the parents?",
+        ],
+        notes="Do not interpret the child in front of the family. Direct the intervention to the structure, not the person.",
+    ),
+    skills=dict(
+        title="Drawing the structure",
+        intro=("Using the vignette, draw the family's structure: subsystems, boundary quality, alignments and the triangle. "
+               "Then rehearse the sentence that would begin a restructuring move."),
+        steps=[
+            ("Map", "Draw subsystems as boxes; mark boundaries with solid or broken lines."),
+            ("Align", "Add arrows for alliances and coalitions. Use a different arrow for conflict."),
+            ("Test", "Predict what happens in session two if nothing structural changes."),
+            ("Move", "Script one sentence that supports the parental subsystem without blaming either parent."),
+        ],
+        timing=["10 min", "8 min", "8 min", "10 min"],
+        debrief=("A structural map is a hypothesis, not a fact. Ask what the drawing predicts, then watch whether it does."),
+    ),
+    seminar=[
+        "Is hierarchy a universal requirement of healthy families, or a culturally specific preference?",
+        "Can a boundary be too clear?",
+        "Who is the third person most often recruited in the families you see?",
+        "When is a triangle protective rather than pathological?",
+        "What does a therapist gain from being triangulated, and what does it cost the family?",
+    ],
+    assignment=dict(
+        major_title="Structural map and restructuring plan",
+        major_text=("Draw the structure of a case from your placement, then write an analysis of the map. Identify one "
+                    "restructuring move you would make in the next session, state it verbatim, and predict the family's "
+                    "response. Anonymise all identifying detail."),
+        major_meta="1,000 words plus one diagram · 25% of final grade · due in two weeks",
+        tasks=[
+            "Draft the structural map before, and again after, the next session.",
+            "Record one sentence you actually said. Assess it against the plan.",
+            "Bring a triangle you found yourself inside.",
+        ],
+        criteria=[
+            "Accuracy: the map is consistent with observed behaviour, not with the referral letter.",
+            "Precision: boundary descriptions are behavioural and specific.",
+            "Restraint: the intervention is achievable in one session.",
+            "Reflexivity: your own position in the structure is analysed.",
+        ],
+        note="The map is assessed for how it guides action, not for how elaborate it looks.",
+    ),
+    readings=[
+        ("Core", "Minuchin, S. (1974). Families and family therapy. Harvard University Press."),
+        ("Classic", "Bowen, M. (1978). Family therapy in clinical practice. Jason Aronson."),
+        ("Method", "Minuchin, S., & Fishman, H. C. (1981). Family therapy techniques. Harvard University Press."),
+        ("Research", "Nichols, M. P., & Davis, S. D. (2016). The essentials of family therapy (6th ed.). Pearson."),
+        ("Critique", "Hare-Mustin, R. T. (1987). The problem of gender in family therapy theory. Family Process, 26(1), 15–27."),
+        ("Context", "Nwoye, A. (2017). A postcolonial theory of African psychology. Journal of Psychology in Africa, 27(3), 197–209."),
+    ],
+    synthesis=("The child who carries the symptom is usually standing where an adult should be.",
+               "Course synthesis"),
+    next=dict(
+        n=7,
+        title="The Pragmatics of Human Communication",
+        preview=[
+            "Every behaviour is a message; every message has a relationship level.",
+            "Reported speech, commands and the double bind.",
+            "Reading digital communication and its silences.",
+        ],
+        read="Watzlawick, Beavin & Jackson, Pragmatics of Human Communication — chapters 2–3.",
+        annotate="One double bind you have observed outside a family.",
+        bring="A message whose content and relationship level disagreed.",
+    ),
+),
+
+# ==========================================================================
+week(
+    n=7,
+    title="The Pragmatics of Human Communication",
+    short="Communication",
+    standfirst="Families do not mainly exchange information. They exchange definitions of who is speaking, to whom, and with what right.",
+    epigraph="One cannot not communicate.",
+    epigraph_src="Watzlawick, Beavin & Jackson (1967)",
+    keywords=["Report", "Command", "Paradox"],
+    outcomes=[
+        "Apply the distinction between report and command to a clinical exchange.",
+        "Identify the five axioms of pragmatic communication in naturally occurring family interaction.",
+        "Recognise double binds and describe their contribution to symptomatic behaviour.",
+        "Analyse digital and asynchronous communication in contemporary family life.",
+        "Practise metacommunication without escalation.",
+    ],
+    concepts=[
+        ("Report",
+         "The content of a message: what it says about the world.",
+         "In the room: 'The dishes are still in the sink.'"),
+        ("Command",
+         "The relationship level: what the message says about who is speaking and how it is to be received.",
+         "In the room: the same sentence, said at the door, as an indictment."),
+        ("Double bind",
+         "A pattern in which a message at one level contradicts another, and the receiver cannot comment on the contradiction.",
+         "In the room: 'Of course you can go — I'll just be alone again.'"),
+        ("Digital pragmatics",
+         "The rules of presence, response time, read receipts and silence in messaging.",
+         "In the room: a partner's unanswered messages become evidence of contempt."),
+    ],
+    lectures=[
+        lecture(
+            "Lecture I · Axioms",
+            "Five claims about human communication",
+            [
+                ("One cannot not communicate",
+                 "Silence, absence and non-response are themselves messages, interpreted by the other."),
+                ("Content and relationship",
+                 "Every message carries a report and a command; the command frames how the report is to be taken."),
+                ("Punctuation",
+                 "Communicators organise sequences into causes and effects; each participant claims the innocent position."),
+                ("Digital and analogue",
+                 "Words carry content; tone, posture and timing carry relationship. Mismatch between them produces confusion or conflict."),
+            ],
+            "Most family conflict is a disagreement about the relationship level conducted entirely at the level of content.",
+        ),
+        lecture(
+            "Lecture II · Paradox",
+            "The double bind and its clinical significance",
+            [
+                ("Contradiction across levels",
+                 "The verbal message and the relationship message cannot both be obeyed."),
+                ("Prohibition on comment",
+                 "The receiver cannot name the contradiction without incurring a further penalty."),
+                ("Learned response",
+                 "The only available move is to take the contradiction literally, or to become symptomatic."),
+                ("Clinical caution",
+                 "The double-bind hypothesis explains some patterns; it does not explain all distress, and it is not a causal theory of psychosis."),
+            ],
+            "The double bind is not a wicked parent. It is a pattern that no one in the family can step outside of.",
+        ),
+        lecture(
+            "Lecture III · Technique",
+            "Metacommunication in practice",
+            [
+                ("Name the level",
+                 "'When you said that, I heard something about what you expect of me. Was that what you meant?'"),
+                ("Slow the sequence",
+                 "Ask each person to say what they heard before the other replies."),
+                ("Digital analysis",
+                 "Ask when the last message was sent, what time it was read and what was inferred from the delay."),
+                ("Therapist's own messages",
+                 "Your pacing, seating, notes and tone are also commands. They define who is authorised to speak."),
+            ],
+            "Metacommunication is the most powerful and most dangerous intervention in the room. Timing is everything.",
+        ),
+    ],
+    figure=dict(
+        kicker="Figure 07 · Diagram",
+        title="Report, command and the double bind",
+        caption="A message carries content and a definition of the relationship. When the two levels contradict each other, and comment is prohibited, the receiver is left with no viable move.",
+        source="Prepared for this course.",
+        notes="Ask for a recent family message and separate its report from its command. Most rooms find this uncomfortable and revealing.",
+    ),
+    vignette=dict(
+        title="'I'm fine, do what you want'",
+        body=("A young couple presents with 'communication problems'. He says she never tells him what she wants. She "
+              "says that when she does, he becomes defensive. In the session she says, quietly, 'Go out with your friends, "
+              "I'm fine.' Her face and her voice say otherwise. He hears the words and prepares to leave; she experiences "
+              "this as proof that he does not care. Neither of them can describe the pattern without describing the other "
+              "as the cause."),
+        prompts=[
+            "Separate the report from the command in her sentence. What is the command asking for?",
+            "Why can neither partner comment on the contradiction directly?",
+            "What would you say to make the level of the message itself available for discussion?",
+        ],
+        notes="Do not adjudicate whose perception is correct. The clinical object is the mismatch, not the person.",
+    ),
+    skills=dict(
+        title="Report and command",
+        intro=("In triads, practise hearing the relationship level beneath the content. One person speaks a complaint; the "
+               "second names the command; the third observes and keeps time."),
+        steps=[
+            ("Speak", "Offer a genuine but mild complaint, as you would at home."),
+            ("Name", "State the command: what the message asks of the listener, and by what right."),
+            ("Check", "Ask the speaker whether the named command was the intended one."),
+            ("Repair", "Rewrite the message so that report and command agree."),
+        ],
+        timing=["8 min", "10 min", "10 min", "8 min"],
+        debrief=("Students often find that the command was not intended, but was still heard. Intent and impact are different data."),
+    ),
+    seminar=[
+        "Is the double bind still a useful clinical concept, or has it been superseded?",
+        "What does digital messaging do to punctuation and to the double bind?",
+        "Can a therapist avoid issuing commands?",
+        "When is metacommunication contraindicated?",
+        "Is 'mind reading' always an error, or sometimes an accurate reading of the analogue level?",
+    ],
+    assignment=dict(
+        major_title="An interactional transcript",
+        major_text=("Record (with consent, or from memory in an anonymised form) a short family exchange. Transcribe it, then "
+                    "annotate every turn for report and command, punctuation and analogue features. Write a 400-word analysis "
+                    "of what the transcript reveals that the participants cannot hear."),
+        major_meta="1,200 words · 25% of final grade · due Friday",
+        tasks=[
+            "Annotate at least ten turns.",
+            "Mark the point at which the sequence was punctuated as 'the beginning'.",
+            "Bring one anonymised excerpt to the seminar.",
+        ],
+        criteria=[
+            "Fidelity: the transcript is faithful and clearly anonymised.",
+            "Analysis: report and command are distinguished with evidence from the text.",
+            "Sensitivity: analogue features are described without over-interpretation.",
+            "Implication: one clinical consequence is drawn and defended.",
+        ],
+        note="Consent, anonymisation and the security of any recording are part of the assessment, not preliminary to it.",
+    ),
+    readings=[
+        ("Core", "Watzlawick, P., Beavin, J. H., & Jackson, D. D. (1967). Pragmatics of human communication: A study of interactional patterns, pathologies, and paradoxes. Norton."),
+        ("Method", "Watzlawick, P., Weakland, J., & Fisch, R. (1974). Change: Principles of problem formation and problem resolution. Norton."),
+        ("Review", "Ruesch, J., & Bateson, G. (1951). Communication: The social matrix of psychiatry. Norton."),
+        ("Digital", "Turkle, S. (2015). Reclaiming conversation: The power of talk in a digital age. Penguin Press."),
+        ("Culture", "Gudykunst, W. B., & Ting-Toomey, S. (1988). Culture and interpersonal communication. Sage."),
+        ("Critique", "Hoffman, L. (1981). Foundations of family therapy. Basic Books."),
+    ],
+    synthesis=("Most couples are not arguing about the dishes. They are arguing about what the dishes mean.",
+               "Course synthesis"),
+    next=dict(
+        n=8,
+        title="The Therapist's Stance and the Use of Self",
+        preview=[
+            "Curiosity, neutrality and the disciplined use of the therapist's own reactions.",
+            "The difference between self-disclosure and self-indulgence.",
+            "Managing the pull to rescue, to judge and to be liked.",
+        ],
+        read="Cecchin, 'Hypothesizing, circularity, and neutrality revisited'.",
+        annotate="One moment in your practice when your own reaction shaped the session.",
+        bring="A question you avoided asking, and your best account of why.",
+    ),
+),
+
+# ==========================================================================
+week(
+    n=8,
+    title="The Therapist's Stance and the Use of Self",
+    short="Stance",
+    standfirst="The instrument is the clinician. Everything else is technique.",
+    epigraph="The therapist cannot not influence the system, and cannot stand outside it.",
+    epigraph_src="Course epigraph",
+    keywords=["Curiosity", "Neutrality", "Use of self"],
+    outcomes=[
+        "Describe the components of a systemic therapeutic stance: curiosity, respect, tentativeness and accountability.",
+        "Distinguish neutrality from indifference, and explain why the concept was revised.",
+        "Use the therapist's own reactions as clinical data without making the session about the therapist.",
+        "Identify the common pulls — rescue, judgement, approval, boredom — and their relational function.",
+        "Formulate a personal plan for supervision and reflective practice.",
+    ],
+    concepts=[
+        ("Curiosity",
+         "A disciplined interest in how the family's world works, held without the need to be right.",
+         "In the room: 'I don't yet understand how that helps — can you show me?'"),
+        ("Neutrality",
+         "Not the absence of a position, but a refusal to ally permanently with any one description.",
+         "In the room: both partners leave feeling understood, and neither leaves feeling vindicated."),
+        ("Use of self",
+         "The deliberate, disciplined use of one's own reactions as information about the relational field.",
+         "In the room: your reluctance to ask about the drinking is data about the system."),
+        ("Reflective practice",
+         "A structured habit of examining one's work, preferably with another clinician.",
+         "In the room: the case you keep postponing is the one to take to supervision."),
+    ],
+    lectures=[
+        lecture(
+            "Lecture I · Stance",
+            "What the therapist brings before technique",
+            [
+                ("Curiosity",
+                 "Genuine interest in the family's logic, including the parts that seem irrational or repellent."),
+                ("Respect",
+                 "The assumption that the family is doing its best with the resources it has, even when the result is harmful."),
+                ("Tentativeness",
+                 "Holding hypotheses lightly enough to be corrected by the next thing the family says."),
+                ("Accountability",
+                 "Naming your own position, including its cultural and moral assumptions, rather than hiding behind technique."),
+            ],
+            "Technique without stance becomes manipulation. Stance without technique becomes conversation.",
+        ),
+        lecture(
+            "Lecture II · Neutrality",
+            "A contested concept and its revision",
+            [
+                ("Original formulation",
+                 "Neutrality meant maintaining an equal alliance with all family members and refusing to take sides."),
+                ("Feminist critique",
+                 "Neutrality can mask the asymmetry of violence, power and material dependency; it can neutralise the victim."),
+                ("Revised practice",
+                 "Curiosity about all positions, combined with an explicit refusal to be neutral about harm."),
+                ("Clinical line",
+                 "Be neutral about explanations. Do not be neutral about safety."),
+            ],
+            "Neutrality is a stance toward theories, not toward injuries.",
+        ),
+        lecture(
+            "Lecture III · Use of self",
+            "The clinician as instrument",
+            [
+                ("Countertransference, relationally read",
+                 "Not only a residue of the therapist's history, but information about the system being entered."),
+                ("Enactments",
+                 "The therapist is recruited into the family's pattern; the enactment is the material, not the failure."),
+                ("Disclosure",
+                 "Brief, purposeful, in the service of the family's work. Never to meet the therapist's need for intimacy."),
+                ("Sustainability",
+                 "Supervision, peer consultation, personal therapy and limits on workload are professional obligations."),
+            ],
+            "Your irritation is not a flaw to hide; it is a hypothesis to test.",
+        ),
+    ],
+    figure=dict(
+        kicker="Figure 08 · Diagram",
+        title="The reflexive position",
+        caption="The therapist moves between joining and observing: close enough to be affected, far enough to describe what is happening.",
+        source="Prepared for this course.",
+        notes="Ask students where they tend to sit on the continuum, and what the cost is in each direction.",
+    ),
+    vignette=dict(
+        title="The session that would not end",
+        body=("A therapist notices that she keeps extending sessions with one family by ten or fifteen minutes. She tells "
+              "herself they need it. In supervision she describes the mother as 'remarkable' and the father as 'difficult "
+              "to reach'. The supervisor asks who in the family might describe her the same way. The therapist realises "
+              "she has become the mother's ally and the father's judge, and that the family has begun to reproduce the "
+              "very division it came to change."),
+        prompts=[
+            "What is the function of the therapist's over-extension in this system?",
+            "How would you test the hypothesis that you have been recruited?",
+            "What would you say to the father in the next session, and what would you be risking?",
+        ],
+        notes="Normalise the experience before analysing it. Shame closes the learning.",
+    ),
+    skills=dict(
+        title="The pull inventory",
+        intro=("Work alone, then share in pairs. Identify three moments in recent work where your own reaction shaped the "
+               "session. For each, name the pull and the function it served in the system."),
+        steps=[
+            ("Notice", "Name the felt state: boredom, anxiety, rescue, irritation, admiration."),
+            ("Locate", "Identify the moment in the session when it peaked."),
+            ("Function", "Ask what the system gained from your occupying that position."),
+            ("Move", "Script one alternative move you could make next time."),
+        ],
+        timing=["10 min", "10 min", "12 min", "8 min"],
+        debrief=("Share only what you can share safely. The exercise is not a confession; it is a method of observation."),
+    ),
+    seminar=[
+        "Is there such a thing as too much curiosity?",
+        "Can a therapist be neutral about a father who is violent?",
+        "When is self-disclosure therapeutically indicated?",
+        "How should a trainee's own family history be handled in training?",
+        "What does burnout look like in systemic terms?",
+    ],
+    assignment=dict(
+        major_title="Stance statement",
+        major_text=("Write a reflective statement of your current therapeutic stance. It should be analytic rather than "
+                    "confessional: name your assumptions, your cultural and moral position, the pulls you are most "
+                    "vulnerable to, and the practices you will use to remain accountable."),
+        major_meta="1,000 words · 20% of final grade · due Friday",
+        tasks=[
+            "Complete the pull inventory and select one pattern to work on.",
+            "Write three sentences you would say to a family to name your position.",
+            "Bring one question for supervision.",
+        ],
+        criteria=[
+            "Specificity: the statement refers to concrete clinical moments.",
+            "Honesty: the difficult material is named, not avoided.",
+            "Accountability: the plan for supervision and limits is credible.",
+            "Discipline: reflection used in the service of practice, not catharsis.",
+        ],
+        note="This statement is confidential to the tutor and the student's supervisor. It is not shared with the seminar.",
+    ),
+    readings=[
+        ("Core", "Cecchin, G. (1987). Hypothesizing, circularity, and neutrality revisited: An invitation to curiosity. Family Process, 26(4), 405–413."),
+        ("Method", "Tomm, K. (1987). Interventive interviewing: Part II. Reflexive questioning as a means to enable self-healing. Family Process, 26(2), 167–183."),
+        ("Classic", "Bowen, M. (1978). Family therapy in clinical practice. Jason Aronson."),
+        ("Critique", "Hare-Mustin, R. T. (1994). Discourses in the mirrored room: A postmodern analysis of therapy. Family Process, 33(1), 19–35."),
+        ("Training", "Aponte, H. J., & Kissil, K. (2016). 'If I don't use myself, there's no more me': The person of the therapist. Journal of Family Psychotherapy, 27(1), 1–18."),
+        ("Ethics", "American Association for Marriage and Family Therapy. (2015). Code of ethics. AAMFT."),
+    ],
+    synthesis=("You cannot not influence the system. You can only become accountable for how.",
+               "Course synthesis"),
+    next=dict(
+        n=9,
+        title="Attachment and Development Across the Lifespan",
+        preview=[
+            "Attachment as a relational, not merely individual, achievement.",
+            "Bowlby to Fonagy: from security to mentalisation.",
+            "What attachment theory adds to systems thinking, and what it risks losing.",
+        ],
+        read="Bowlby, A Secure Base — chapters 1–3.",
+        annotate="One passage where Bowlby writes about family, not only dyads.",
+        bring="A case in which attachment and system explanations disagree.",
+    ),
+),
+]
