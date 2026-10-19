@@ -181,6 +181,45 @@ def compile_pdf(out):
     print(f"  compiled {out.name} in {time.time() - t:.1f}s")
 
 
+def strip_blank_page_furniture(path):
+    """A page left blank by a recto break should carry no running head or folio.
+
+    Typst's `pagebreak(to: "odd")` creates such pages but still applies the
+    header/footer, so any page whose entire content is a folio plus an upper-case
+    running head (and a header rule) is cleared.
+    """
+    import re
+    import pymupdf
+
+    doc = pymupdf.open(path)
+    cleared = []
+    for page in doc:
+        if page.get_images():
+            continue
+        lines = [l.strip() for l in page.get_text().splitlines() if l.strip()]
+        if len(lines) != 2:
+            continue
+        if not any(re.fullmatch(r"\d{1,4}", l) for l in lines):
+            continue
+        other = [l for l in lines if not re.fullmatch(r"\d{1,4}", l)][0]
+        if not re.fullmatch(r"[A-Z0-9 ·:\-–—'’.,&]+", other):
+            continue
+        if not any(abs(dr["rect"].height) < 4 and dr["rect"].width > 200
+                   for dr in page.get_drawings()):
+            continue
+        page.add_redact_annot(page.rect)
+        cleared.append(page.number + 1)
+    for number in cleared:
+        doc[number - 1].apply_redactions()
+    if cleared:
+        tmp = path.with_name(path.stem + ".tmp.pdf")
+        doc.save(tmp, garbage=3, deflate=True)
+        doc.close()
+        tmp.replace(path)
+        print(f"  cleared running head and folio from {len(cleared)} blank pages")
+    else:
+        doc.close()
+
 def main():
     args = sys.argv[1:]
     if "--figures" in args:
@@ -204,6 +243,7 @@ def main():
     make_indexes.run(p2, BUILD)
     print("Pass 3 (final) ...")
     compile_pdf(FINAL / PDF_NAME)
+    strip_blank_page_furniture(FINAL / PDF_NAME)
     print("Done ->", FINAL / PDF_NAME)
 
 

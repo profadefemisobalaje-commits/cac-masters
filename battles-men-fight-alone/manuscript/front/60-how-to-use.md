@@ -8,9 +8,9 @@ Every chapter follows the same architecture, so that the reader always knows whe
 
 | Element | What it does |
 | --- | --- |
-| **Chapter Objectives** | Six aims, in plain language, stating what the chapter is intended to make possible. |
+| **Chapter Objectives** | A short list of aims, in plain language, stating what the chapter is intended to make possible. |
 | **Illustrative Story** | An original composite narrative — a man, a family, a situation — that opens the chapter's subject concretely. |
-| **Body sections** | Six numbered sections that explain, describe, and instruct. Each corresponds to one of the topics listed in the table of contents. |
+| **Body sections** | Eight to eleven numbered sections that explain, describe, and instruct. Each corresponds to one of the topics listed in the table of contents. |
 | **Figures and tables** | Diagrams and organisers that reduce a complex experience to a structure the reader can hold in mind. |
 | **Illustrative case** | A second, shorter composite case, usually presenting a turning point or a contrast. |
 | **Practical exercise** | A written exercise, conversation rehearsal, or planning task, to be done rather than read. |
