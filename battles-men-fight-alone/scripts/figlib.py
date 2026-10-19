@@ -62,35 +62,65 @@ class Fig:
         self.fig.subplots_adjust(0.01, 0.01, 0.99, 0.99)
 
     def box(self, x, y, w, h, text, style="light", size=8.5, wrap=None, bold=False, align="center", radius=1.2, lw=0.9):
+        """A rounded box. Text may be given as ``Title|Body``: the title is set in
+        bold on its own line and the body follows it."""
         fc, tc, ec = STYLES[style]
         p = FancyBboxPatch((x, y), w, h, boxstyle=f"round,pad=0,rounding_size={radius}",
                            fc=fc, ec=ec, lw=lw)
         self.ax.add_patch(p)
         ha = {"center": "center", "left": "left"}[align]
         tx = x + w / 2 if align == "center" else x + 1.5
-        t = self.ax.text(tx, y + h / 2, "", ha=ha, va="center", fontsize=size, color=tc,
-                         fontweight="bold" if bold else "normal", linespacing=1.15)
-        # Shrink the type until the wrapped text measures inside the box.  The
-        # measurement uses the renderer, so it is exact rather than estimated.
+
+        has_title = "|" in text
+        head, body = (text.split("|", 1) if has_title else (None, text))
+        head, body = (head.strip() if head else None), body.strip()
+
+        def laid(t, sz, weight):
+            wr = wrap or max(6, int((w - 1.6) * self.unit_pt / (0.5 * sz)))
+            lines = []
+            for para in t.split("\n"):
+                lines.extend(textwrap.wrap(para, wr) or [""])
+            o = self.ax.text(tx, y + h / 2, "\n".join(lines), ha=ha, va="center",
+                             fontsize=sz, color=tc, fontweight=weight, linespacing=1.15)
+            return o
+
         try:
             r = self.fig.canvas.get_renderer()
-            box_px = h * self.ax.get_window_extent().height / self.H
+            ax_px = self.ax.get_window_extent().height
+            box_px = h * ax_px / self.H
+            px_to_data = self.H / ax_px
         except Exception:
-            r, box_px = None, None
+            r, box_px, px_to_data = None, None, None
+
         fitted = size
-        for _ in range(18):
-            wr = wrap or max(6, int((w - 1.6) * self.unit_pt / (0.5 * fitted)))
-            lines = []
-            for para in text.split("\n"):
-                lines.extend(textwrap.wrap(para, wr) or [""])
-            t.set_text("\n".join(lines))
-            t.set_fontsize(fitted)
+        for _ in range(20):
+            objs = []
+            if has_title:
+                objs.append((laid(head, fitted + 0.5, "bold"), "bottom"))
+                objs.append((laid(body, fitted, "normal"), "top"))
+            else:
+                objs.append((laid(body, fitted, "bold" if bold else "normal"), "center"))
             if r is None:
                 break
-            bb = t.get_window_extent(renderer=r)
-            if bb.height <= box_px * 0.94 or fitted <= 4.4:
+            heights = [o.get_window_extent(renderer=r).height for o, _ in objs]
+            gap_px = fitted * 0.35
+            total = sum(heights) + (gap_px if has_title else 0)
+            if total <= box_px * 0.94 or fitted <= 4.4:
                 break
+            for o, _ in objs:
+                o.remove()
             fitted -= 0.2
+
+        if has_title:
+            gap = fitted * 0.35 * px_to_data if px_to_data else 0.4
+            ht = heights[0] * px_to_data if px_to_data else 0
+            hb = heights[1] * px_to_data if px_to_data else 0
+            cy = y + h / 2
+            top_of_body = cy + (ht + gap + hb) / 2 - ht - gap / 2
+            objs[0][0].set_position((tx, top_of_body + gap / 2))
+            objs[0][0].set_va("bottom")
+            objs[1][0].set_position((tx, top_of_body))
+            objs[1][0].set_va("top")
         return (x, y, w, h)
 
     def text(self, x, y, s, size=8, color=INK, ha="center", va="center", bold=False, italic=False, wrap=None, rot=0):

@@ -42,13 +42,15 @@ def cycle(name, items, centre=None, w=4.5, h=4.5, rx=33, ry=None, size=7.2):
     ry = ry or (f.H / 2 - 12)
     cy = f.H / 2 + (1.5 if centre else 0)
     n = len(items)
-    bw, bh = 40, 11
+    bh = 11
     pts = []
     for i in range(n):
         ang = math.pi / 2 - 2 * math.pi * i / n
         x = 50 + rx * math.cos(ang)
         y = cy + ry * math.sin(ang)
         pts.append((x, y))
+    # keep every box inside the canvas: width is limited by the box nearest an edge
+    bw = min(40, 2 * min(min(x, 100 - x) for x, _ in pts) - 3)
     for i, item in enumerate(items):
         x, y = pts[i]
         nxt = pts[(i + 1) % n]
@@ -73,17 +75,17 @@ def compare(name, head_l, items_l, head_r, items_r, w=4.6, h=None, size=7.4,
     h = h or (1.05 + 0.42 * (n + 1))
     f = Fig(name, w, h)
     top = f.H - 1.5
-    hh = 0.42 * (f.H / h) * 1.0
-    rh = (top - 1.5) / (n + 1)
+    hh = 8.4                       # header band: a fixed, shallow strip
+    rh = (top - hh - 1.5) / n      # every item row gets an equal share
     cw = 45
-    f.box(2, top - rh, cw, rh - 0.8, head_l, style_l, size=size + 0.6, bold=True)
-    f.box(53, top - rh, cw, rh - 0.8, head_r, style_r, size=size + 0.6, bold=True)
+    f.box(2, top - hh, cw, hh, head_l, style_l, size=size + 0.6, bold=True)
+    f.box(53, top - hh, cw, hh, head_r, style_r, size=size + 0.6, bold=True)
     for i in range(n):
-        y = top - (i + 2) * rh
+        y = top - hh - (i + 1) * rh
         if i < len(items_l):
-            f.box(2, y + 0.4, cw, rh - 0.8, items_l[i], "ivory", size=size)
+            f.box(2, y + 0.45, cw, rh - 0.9, items_l[i], "ivory", size=size)
         if i < len(items_r):
-            f.box(53, y + 0.4, cw, rh - 0.8, items_r[i], "light", size=size)
+            f.box(53, y + 0.45, cw, rh - 0.9, items_r[i], "light", size=size)
     f.save()
 
 
