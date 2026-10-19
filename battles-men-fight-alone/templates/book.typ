@@ -20,6 +20,10 @@
 #let book-author = "Prof. Adeleke Daniel Durojaiye (PhD)"
 #let running-verso = "Battles Men Fight Alone"
 
+// Pandoc emits `#horizontalrule` for a Markdown `---`; current Typst removed
+// that symbol, so bind it to a restrained rule in the book's palette.
+#let horizontalrule = align(center, line(length: 32%, stroke: 0.6pt + bronze))
+
 // --------------------------------------------------------------------------
 // State used for running heads and chapter-relative numbering
 // --------------------------------------------------------------------------

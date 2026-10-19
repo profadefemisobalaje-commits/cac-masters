@@ -97,7 +97,7 @@ def run(pdf: Path, build: Path):
         s.append(f'#block(sticky: true, above: 1.0em, below: 0.4em, text(font: sans, size: 8.6pt, weight: "bold", fill: teal)[{esc(letter)}])\n')
         for display, hits in group:
             s.append('#block(above: 0.3em, below: 0.3em, par(first-line-indent: 0pt, hanging-indent: 1.1em, '
-                     f'justify: false)[#text(size: 8.4pt)[{fmt(display)}#box(width: 1fr, repeat[ ])#h(0.35em){compress(hits)}]]\n')
+                     f'justify: false)[#text(size: 8.4pt)[{fmt(display)}#box(width: 1fr, repeat[ ])#h(0.35em){compress(hits)}]])\n')
     s.append("]\n")
     (build / "generated_indexes.typ").write_text("".join(s), encoding="utf-8")
     print(f"  indexed {stop - start} pages, {len(items)} entries")

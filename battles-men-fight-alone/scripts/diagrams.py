@@ -25,10 +25,12 @@ def iceberg(name, visible, hidden, w=4.6, h=3.9, visible_label="THE VISIBLE SURF
     f.box(50 - bw / 2, water + 2.0, bw, bh, visible, "teal", size=8.0)
     label(f, 50, water + bh + 4.6, visible_label, size=7.2)
     f.line([2, 98], [water, water], color=TEAL2, lw=1.0, ls=(0, (4, 3)))
-    f.text(97, water + 1.6, water_label, size=6.4, color=GREY, ha="right", italic=True)
+    # the waterline caption gets its own clear band beneath the line
+    band = 6.2
+    f.text(96, water - band / 2 - 0.4, water_label, size=6.4, color=GREY, ha="right", italic=True)
     n = len(hidden)
     gap = 2.0
-    avail = water - 4.0 - gap * (n - 1)
+    avail = water - 4.0 - band - gap * (n - 1)
     hh = avail / n
     for i, item in enumerate(hidden):
         y = 4.0 + (n - 1 - i) * (hh + gap)

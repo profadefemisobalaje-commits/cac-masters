@@ -81,7 +81,7 @@ MAIN = r'''
     set par(leading: 0.52em)
     text(font: serif, size: 12.4pt, style: "italic", fill: rgb("#EFE6D6"))[The Hidden Struggles, Silent Sacrifices, Emotional Wounds, and Unspoken Realities of Manhood]
   }))
-  place(bottom + left, dx: 0.5in, dy: 0.55in, block(width: 5.0in, {
+  place(bottom + left, dx: 0.5in, dy: -0.55in, block(width: 5.0in, {
     set par(justify: false, first-line-indent: 0pt)
     line(length: 100%, stroke: 0.6pt + rgb("#F2E3C9"))
     v(0.4em)
@@ -141,6 +141,7 @@ MAIN = r'''
 #counter(page).update(1)
 #context [#metadata((kind: "main-start", page: here().page())) <pmark>]
 #include "chapters.typ"
+#include "concluding.typ"
 
 // ============================== APPENDICES =================================
 #context [#metadata((kind: "appendix-start", page: here().page())) <pmark>]
@@ -160,6 +161,7 @@ def assemble(cover):
     chunk("front_b", [f for f in front if "10" <= f.name < "50"])
     chunk("front_c", [f for f in front if f.name >= "50"])
     chunk("chapters", md_files("chapters"))
+    chunk("concluding", md_files("concluding"))
     chunk("appendices", md_files("appendices"))
     back = md_files("back")
     chunk("back_a", [f for f in back if f.name < "40"])
