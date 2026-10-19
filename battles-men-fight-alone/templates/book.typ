@@ -317,8 +317,13 @@
 #let lof-mode = state("lof-mode", false)
 #let figsrc(body) = context if lof-mode.get() { none } else { body }
 
-#let list-of(kind, title) = {
+#let list-of(kind, title, note: none) = {
   front-heading(title)
+  if note != none {
+    v(0.05em)
+    par(first-line-indent: 0pt, justify: false)[#text(size: 9pt, style: "italic", fill: grey)[#note]]
+    v(0.6em)
+  }
   show outline.entry: it => {
     set par(first-line-indent: 0pt, justify: false)
     let el = it.element

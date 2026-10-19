@@ -87,13 +87,14 @@ def run(pdf: Path, build: Path):
     items = sorted(collect(pages, indexdata.SUBJECT, start, stop), key=lambda x: x[0].lower().lstrip("*"))
     groups = {}
     for d, h in items:
-        groups.setdefault(d.lstrip("*")[0].upper(), []).append((d, h))
+        k = d.lstrip("*")[0].upper()
+        groups.setdefault("Numerals" if k.isdigit() else k, []).append((d, h))
 
     s = ['#import "/templates/book.typ": *\n', '#matter.update("back")\n']
     s.append('#front-heading([Subject Index], runhead: "Subject Index")\n')
     s.append('#par(first-line-indent: 0pt)[#text(size: 9pt, style: "italic")[Page references are to the numbered pages of the main text and the appendices. Bold entries indicate the principal discussion of a topic.]]\n#v(0.6em)\n')
     s.append("#columns(2, gutter: 14pt)[\n")
-    for letter, group in sorted(groups.items()):
+    for letter, group in sorted(groups.items(), key=lambda kv: (kv[0] == "Numerals", kv[0])):
         s.append(f'#block(sticky: true, above: 1.0em, below: 0.4em, text(font: sans, size: 8.6pt, weight: "bold", fill: teal)[{esc(letter)}])\n')
         for display, hits in group:
             s.append('#block(above: 0.3em, below: 0.3em, par(first-line-indent: 0pt, hanging-indent: 1.1em, '

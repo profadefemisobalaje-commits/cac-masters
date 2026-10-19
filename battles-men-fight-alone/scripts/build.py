@@ -132,7 +132,7 @@ MAIN = r'''
 #book-toc()
 #include "front_b.typ"
 #list-of(image, "List of Figures and Illustrations")
-#list-of(table, "List of Tables")
+#list-of(table, "List of Tables", note: "The numbered tables are the principal exhibits of each chapter, ordered by chapter and by sequence within it. Short working tables — checklists, inventories, and the blank schedules a reader completes — appear in the text unnumbered and are not listed here.")
 #include "front_c.typ"
 
 // ============================== MAIN TEXT ==================================
