@@ -92,3 +92,21 @@ def fig_44_02():
         "The narrowing|Attention contracts; new events are read through old categories.",
         "The confirming arrangement|His conduct produces the evidence for his account.",
     ], centre="The loop", w=4.7, h=4.9, rx=33, size=6.8)
+
+
+# ---------------------------------------------------------------- Chapter 45
+@_fig("fig-45-01")
+def fig_45_01():
+    d.compare("fig-45-01", "What a man carries", [
+        "The responsibilities: the household, the work, the obligations, the parties who depend on him.",
+        "The standard: provision, protection, competence, accountability, presence, repair.",
+        "The obligation: he answers for his position, and its consequence is his.",
+        "The accountability: he holds the decisions, and the outcomes are his to conduct.",
+        "The competence: he acquires, conducts, and is corrected in.",
+    ], "What he is released from", [
+        "The exclusivity: that every component of the position be conducted by him alone.",
+        "The silence: that the accurate position be held by nobody else.",
+        "The personalisation: that the position's size be computed at his exhaustion.",
+        "The anonymity: that the household conduct its arrangements without knowing them.",
+        "The requirement that the endurance be conducted without instruments or parties.",
+    ], w=4.75, h=3.95)
