@@ -1,0 +1,9 @@
+# Build toolchain for the lecture decks.
+#   python3 -m venv ~/.venv-deck
+#   ~/.venv-deck/bin/pip install -r decks/requirements.txt
+python-pptx==1.0.2
+typst==0.15.0
+pillow==13.0.0
+matplotlib==3.11.2
+pymupdf==1.28.2
+fonttools==4.67.0

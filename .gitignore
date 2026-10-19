@@ -1,3 +1,9 @@
 book/build/
 __pycache__/
 *.pyc
+
+# Generated lecture decks (rebuild with: python -m decks.build --course 701)
+decks/out/
+decks/build/
+decks/figures/MFT-*/
+decks/assets/
