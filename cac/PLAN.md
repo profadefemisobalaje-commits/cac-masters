@@ -106,7 +106,7 @@ gate passes.
 | # | Slug | Course | Weeks done | Status |
 |---|---|---|---|---|
 | 1 | cac701 | CAC. 701 Fundamentals of Counseling Theories | 16 of 16 | complete — all sixteen weeks typeset, 26 diagrams, 147 pp, 84 references, QA passing |
-| 2 | cac701b | CAC. 701 Child Development Theories | 0 | queued |
+| 2 | cac701b | CAC. 701 Child Development Theories | 8 of 16 | in progress — weeks 1–8 typeset (methods, prenatal, Piaget, Vygotsky, EF/ToM, temperament, language, self/morals), 8 diagrams |
 | 3 | cac702 | CAC. 702 Adolescent Development | 0 | queued |
 | 4 | cac703 | CAC. 703 Ethics in Counseling | 0 | queued |
 
