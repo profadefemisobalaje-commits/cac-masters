@@ -242,7 +242,12 @@
 }
 
 // Lecture unit inside a course chapter — one unit per teaching week.
+// Each week is also the figure/table numbering unit, so that captions, file
+// names (fig-WW-NN) and in-text references agree.
 #let unit-open(num: "1", title: [], week: none, hours: none) = {
+  chap-num.update(num)
+  counter(figure.where(kind: image)).update(0)
+  counter(figure.where(kind: table)).update(0)
   v(1.5em, weak: true)
   block(width: 100%, breakable: false, above: 0.6em, below: 0.9em, {
     set par(justify: false, first-line-indent: 0pt)

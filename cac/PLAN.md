@@ -105,7 +105,7 @@ gate passes.
 
 | # | Slug | Course | Weeks done | Status |
 |---|---|---|---|---|
-| 1 | cac701 | CAC. 701 Fundamentals of Counseling Theories | 4 of 16 | in progress — weeks 1–4 typeset, QA passing |
+| 1 | cac701 | CAC. 701 Fundamentals of Counseling Theories | 8 of 16 | in progress — weeks 1–8 typeset (psychodynamic, behavioural, third-wave, person-centred), 85 pp, QA passing |
 | 2 | cac701b | CAC. 701 Child Development Theories | 0 | queued |
 | 3 | cac702 | CAC. 702 Adolescent Development | 0 | queued |
 | 4 | cac703 | CAC. 703 Ethics in Counseling | 0 | queued |
@@ -118,7 +118,10 @@ Remaining volumes follow in curriculum order (see the chapter map above for code
   `CAC. 717`/`CAC. 721` overlap, the uniform `1.6` unit value). None silently corrected.
 * Series architecture: one volume per course under `cac/books/<slug>/`, shared design in
   `cac/templates/handbook.typ`, PDF/UA-1 export, QA gate `scripts/qa_book.py`.
-* Volume 1 (cac701): front matter, weeks 1–4 (psychodynamic and attachment lineage begun), eight
-  diagrams, 58 pages, QA passing. Weeks 5–16 to follow, then volumes 2 onward.
+* Volume 1 (cac701): front matter, weeks 1–8 (psychodynamic/attachment, behavioural, third-wave,
+  person-centred lineages), fourteen diagrams, 85 pages, QA passing. Figure and table numbering is
+  per lecture week, so captions, file names and in-text references agree. Weeks 9–16 to follow
+  (existential, systemic, solution-focused/narrative, critique, integration, evidence, practicum,
+  revision), then volumes 2 onward.
 * Git: `cac/build/` and `cac/books/*/build/` are ignored; per-volume release PDFs are committed
   with the volume they belong to.
