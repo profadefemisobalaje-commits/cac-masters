@@ -1,0 +1,27 @@
+# How to Use This Handbook {.front}
+
+**For the student.** Work through a chapter in order. The units build: each assumes the vocabulary established in the one before it, and the third lecture of a unit usually answers an objection raised in the first. Read the outcomes before you read the unit, and read them again when you finish; if you cannot do what they say, you have not finished. The seminar questions are not rhetorical — write answers to them. The skills laboratory requires another person, or a recording of yourself, and a clock; it is the part of the unit most often skipped and the part that most changes practice. Keep one notebook per course in which you record, for each theory or method you meet, its view of the child, its account of how problems are maintained, its mechanism of change, its principal techniques, and the strength of its evidence. By the end of the programme you should be able to reproduce that grid for any approach you have studied and defend each entry.
+
+**For the seminar leader.** Each unit is designed for one four-hour block, divisible into ninety minutes of teaching, ninety minutes of skills or seminar work, and the remainder as preparation and follow-up. The three lectures are self-contained and can be assigned in any order if a cohort needs the vignette first. The assessed task printed in each unit is the task set for that unit; the criteria printed with it are the criteria used. Where a cohort's placements differ in kind — school, clinic, community agency, private practice — the vignette and the skills laboratory are the right places to substitute local material, provided the substitute is fictitious and labelled.
+
+**For the supervisor.** Use the formulation exercises. The question that converts knowledge into judgement is always the same: *which of the approaches in this chapter would formulate this case differently, and what would that formulation lead you to do on Tuesday?* The comparative callouts exist to be argued with. A trainee who can state a theory's mechanism of change and then say what would falsify it is ready for independent caseload; a trainee who can only describe the theory is not.
+
+**For the examiner.** Every outcome in this handbook is written to be observable, and every unit carries an assessed task matched to its outcomes. Where an examination question is drawn from a unit, the unit number and the outcome code identify it. The programme overview records the curriculum as supplied by the University; chapter numbers are the handbook's own and are sequential because one course code in the curriculum record is used against two courses.
+
+## Conventions
+
+**Spelling.** British spelling is used in the handbook's own prose (*behaviour*, *programme*, *organisation*, *-ise*). Quoted titles, journal names, publisher names and direct quotations retain their original American spelling, which in this field is most of the literature. Both forms therefore appear in these pages by design.
+
+**Citations.** APA 7th edition. In-text citations give author and date — (Ainsworth et al., 1978) — and direct quotations give a page or paragraph locator. The reference list at the end of each chapter and in the back matter includes only works actually cited. Readers requiring full bibliographic detail for submission should consult the original.
+
+**Figures and tables.** Numbered by chapter: Figure 1.3 is the third figure of chapter 1. Figure captions appear below the figure, table captions above the table. Every figure carries alternative text, and the file is tagged for screen readers.
+
+**Callouts.** Eleven recurring boxes structure each unit: *Learning Outcomes*, *Key Concept*, *Case Illustration*, *Clinical Vignette*, *Skills Laboratory*, *Comparative Perspective*, *Applied Exercise*, *Seminar and Research Questions*, *Assessment*, *Unit Synthesis* and *Reading*. Two are specific to this programme: **Safeguarding and Duty to Report**, which appears wherever a unit touches abuse, neglect, self-harm, risk to others or disclosure, and **Assessment Instrument**, which names standardised measures, states their copyright position, and never reproduces them.
+
+**Case material.** All of it is fictitious unless a published source is cited. Cases marked *fictitious composite* are built from several invented presentations; ages, names, family composition and identifying detail are altered. No real client, pupil, patient or student is described anywhere in this handbook.
+
+**Legal and reporting material.** Described as a framework, not as advice, and stated as understood at the date of writing. Duties of reporting, consent, confidentiality and record-keeping are **jurisdiction-dependent**; the operative rule is always that of the place where the student practises and of the institution that employs or places them.
+
+## A caution about scope
+
+A handbook can teach theory, evidence, method and the discipline of accounting for one's own judgements. It cannot confer competence with children. Competence is acquired through supervised practice, direct observation and feedback, the counsellor's own development work, and compliance with the ethical and regulatory framework of the jurisdiction in which one practises. Nothing in this volume should be read as authorising practice beyond the reader's training, licensure and lawful scope, or as a substitute for the safeguarding procedure that applies where the reader works.
