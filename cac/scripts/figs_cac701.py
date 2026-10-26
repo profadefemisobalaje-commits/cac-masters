@@ -376,13 +376,188 @@ def fig_08_01():
     F.save(fig, "fig-08-01.png")
 
 
+
+# ---------------------------------------------------------------------------
+# Week 9 - existential givens in adolescent idiom
+# ---------------------------------------------------------------------------
+def fig_09_01():
+    fig, ax = F.canvas(4.6, 2.9)
+    F.txt(ax, 50, 96, "THE FOUR GIVENS, IN ADOLESCENT IDIOM", size=6.8,
+          color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([32, 68], [92.5, 92.5], color=F.BRONZE, lw=1.0, zorder=3)
+    quads = [
+        (26, 68, "MORTALITY", "\"people die. I will.\nso what is the rush for?\"", F.TEAL_LIGHT, F.TEAL),
+        (74, 68, "FREEDOM", "\nobody is choosing for me\nand that is the terror\"", F.TEAL_LIGHT, F.TEAL),
+        (26, 30, "ISOLATION", "\"no one can actually be\ninside my head\"", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+        (74, 30, "MEANINGLESSNESS", "\"if it all ends, what was\nany of it for?\"", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+    ]
+    for cx, cy, t, b, fill, edge in quads:
+        F.box(ax, cx - 21, cy - 13, 42, 26, fill, edge=edge, r=1.8)
+        F.txt(ax, cx, cy + 8, t, size=6.0, color=edge, weight="bold")
+        F.txt(ax, cx, cy - 3, b, size=5.8, color=F.INK)
+    ax.add_patch(Circle((50, 49), 10.5, facecolor=F.TEAL, edgecolor="none", zorder=3))
+    F.txt(ax, 50, 51, "WHO AM I", size=5.8, color="#F2E3C9", weight="bold")
+    F.txt(ax, 50, 45.5, "TO BE?", size=5.8, color="#F2E3C9", weight="bold")
+    F.txt(ax, 50, 5.5, "The givens are not pathologies. An adolescent meeting them is developing;\n"
+                       "an adolescent alone with them is at risk. The work is company, not correction.",
+          size=5.6, color=F.GREY, style="italic")
+    F.save(fig, "fig-09-01.png")
+
+
+# ---------------------------------------------------------------------------
+# Week 10 - structural family map and circular causality
+# ---------------------------------------------------------------------------
+def fig_10_01():
+    fig, ax = F.canvas(4.6, 3.0)
+    F.txt(ax, 50, 96, "A STRUCTURAL FAMILY MAP: BOUNDARIES ARE THE DIAGNOSIS", size=6.4,
+          color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([24, 76], [92.5, 92.5], color=F.BRONZE, lw=1.0, zorder=3)
+    # parental subsystem
+    F.box(ax, 14, 66, 34, 20, F.TEAL_LIGHT, edge=F.TEAL, r=1.6)
+    F.txt(ax, 31, 80, "PARENTAL SUBSYSTEM", size=5.6, color=F.TEAL, weight="bold")
+    F.txt(ax, 23, 72, "mother", size=6.0, color=F.INK)
+    F.txt(ax, 39, 72, "father", size=6.0, color=F.GREY)
+    ax.plot([26, 36], [69.5, 69.5], color=F.GREY, lw=0.8, ls=(0, (2, 2)), zorder=4)
+    # child
+    F.box(ax, 58, 66, 26, 20, F.BRONZE_LIGHT, edge=F.BRONZE_TEXT, r=1.6)
+    F.txt(ax, 71, 80, "IDENTIFIED child", size=5.6, color=F.BRONZE_TEXT, weight="bold")
+    F.txt(ax, 71, 72, "Daniel, 9", size=6.0, color=F.INK)
+    # enmeshed dyad mother-child
+    ax.plot([40, 62], [62, 62], color="#8C3B2E", lw=2.0, zorder=4)
+    ax.plot([40, 62], [60.5, 60.5], color="#8C3B2E", lw=2.0, zorder=4)
+    F.txt(ax, 51, 56, "enmeshed: no privacy,\nno separate position", size=5.5, color="#8C3B2E",
+          style="italic")
+    # disengaged father
+    ax.plot([44, 56], [74, 74], color=F.GREY, lw=1.0, ls=(0, (1.5, 2.5)), zorder=4)
+    F.txt(ax, 50, 77.5, "disengaged", size=5.5, color=F.GREY, style="italic")
+    # school
+    F.box(ax, 14, 22, 30, 16, F.IVORY, edge=F.GREY, r=1.6)
+    F.txt(ax, 29, 33, "SCHOOL", size=5.6, color=F.GREY, weight="bold")
+    F.txt(ax, 29, 27, "informal exemption\nfrom attendance", size=5.5, color=F.INK)
+    ax.plot([44, 66], [30, 64], color=F.GREY, lw=0.9, ls=(0, (3, 2)), zorder=3)
+    F.txt(ax, 62, 44, "coalition across\ngenerations", size=5.4, color=F.GREY, style="italic")
+    # legend
+    F.txt(ax, 58, 22, "double line = enmeshed", size=5.3, color=F.INK, ha="left")
+    F.txt(ax, 58, 18, "dotted = disengaged", size=5.3, color=F.INK, ha="left")
+    F.txt(ax, 58, 14, "dashed = cross-generation coalition", size=5.3, color=F.INK, ha="left")
+    F.txt(ax, 50, 6.5, "The symptom sits in the child; the organisation that maintains it does not.\n"
+                       "Draw the map before you invite anyone to a session.",
+          size=5.6, color=F.GREY, style="italic")
+    F.save(fig, "fig-10-01.png")
+
+
+def fig_10_02():
+    fig, ax = F.canvas(4.6, 2.6)
+    F.txt(ax, 50, 95, "CIRCULAR CAUSALITY: THE LOOP, NOT THE PERSON, IS THE PROBLEM", size=6.2,
+          color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([22, 78], [91.5, 91.5], color=F.BRONZE, lw=1.0, zorder=3)
+    nodes = [
+        (25, 66, "child withdraws", F.TEAL_LIGHT, F.TEAL),
+        (75, 66, "parent presses / worries", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+        (75, 30, "child withdraws further", F.TEAL_LIGHT, F.TEAL),
+        (25, 30, "parent rescues, then reproaches", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+    ]
+    for cx, cy, t, fill, edge in nodes:
+        F.box(ax, cx - 19, cy - 8, 38, 16, fill, edge=edge, r=1.5)
+        F.txt(ax, cx, cy, t, size=5.9, color=F.INK)
+    for p0, p1 in [((44, 66), (56, 66)), ((75, 58), (75, 38)), ((56, 30), (44, 30)), ((25, 38), (25, 58))]:
+        F.arrow(ax, p0, p1, color=F.GREY, lw=1.0)
+    F.txt(ax, 50, 48, "each move is a sensible\nresponse to the previous one", size=5.5,
+          color=F.GREY, style="italic")
+    F.txt(ax, 50, 8, "Linear questions (who started it?) produce blame. Circular questions\n"
+                     "(what happens next, and then who notices?) produce the loop.",
+          size=5.6, color=F.GREY, style="italic")
+    F.save(fig, "fig-10-02.png")
+
+
+# ---------------------------------------------------------------------------
+# Week 11 - scaling and externalisation
+# ---------------------------------------------------------------------------
+def fig_11_01():
+    fig, ax = F.canvas(4.6, 2.5)
+    ax.set_xlim(0, 100)
+    ax.set_ylim(0, 100)
+    ax.axis("off")
+    F.txt(ax, 50, 92, "THE SCALING CONVERSATION: SMALL NUMBERS, REAL MOVEMENT", size=6.4,
+          color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([26, 74], [88, 88], color=F.BRONZE, lw=1.0, zorder=3)
+    ax.plot([8, 92], [50, 50], color=F.INK, lw=1.1, zorder=3)
+    for i in range(11):
+        x = 8 + i * 8.4
+        ax.plot([x, x], [48, 52], color=F.INK, lw=0.7, zorder=3)
+        F.txt(ax, x, 42, str(i), size=5.6, color=F.GREY)
+    marks = [(2, "the worst\nit got", F.GREY), (4, "today", F.TEAL), (5, "the next\nsmall step", F.BRONZE_TEXT)]
+    for v, lab, col in marks:
+        x = 8 + v * 8.4
+        ax.add_patch(Circle((x, 50), 2.2, facecolor=col, edgecolor="none", zorder=4))
+        F.txt(ax, x, 66 if v == 4 else 74, lab, size=5.6, color=col, weight="bold")
+        ax.plot([x, x], [52, 62 if v == 4 else 70], color=col, lw=0.7, ls=(0, (2, 2)), zorder=3)
+    F.txt(ax, 8, 26, "0 = the worst it has been", size=5.5, color=F.GREY, ha="left")
+    F.txt(ax, 92, 26, "10 = the day after the miracle", size=5.5, color=F.GREY, ha="right")
+    F.txt(ax, 50, 10, "The question that does the work: \"what told you it was a 4 and not a 3?\"\n"
+                      "The child's answer is the intervention, already in the child's words.",
+          size=5.6, color=F.GREY, style="italic")
+    F.save(fig, "fig-11-01.png")
+
+
+def fig_11_02():
+    fig, ax = F.canvas(4.6, 2.6)
+    F.txt(ax, 50, 95, "EXTERNALISATION: THE CHILD AND THE PROBLEM ARE NOT THE SAME THING",
+          size=6.0, color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([20, 80], [91.5, 91.5], color=F.BRONZE, lw=1.0, zorder=3)
+    F.box(ax, 8, 44, 34, 30, F.TEAL_LIGHT, edge=F.TEAL, r=1.8)
+    F.txt(ax, 25, 66, "THE CHILD", size=6.4, color=F.TEAL, weight="bold")
+    F.txt(ax, 25, 57, "skills, loyalties, jokes,\nfears, friends, a history\nof getting through things", size=5.6, color=F.INK)
+    F.box(ax, 58, 44, 34, 30, "#F7EDE9", edge="#8C3B2E", r=1.8)
+    F.txt(ax, 75, 66, "THE PROBLEM", size=6.4, color="#8C3B2E", weight="bold")
+    F.txt(ax, 75, 57, "\"the Worry\" - its tricks,\nits favourite times,\nwhat it wants her to do", size=5.6, color=F.INK)
+    F.arrow(ax, (42, 59), (58, 59), color=F.GREY, lw=1.0)
+    F.txt(ax, 50, 63, "relationship:\ninvited, resisted,\noutwitted", size=5.4, color=F.GREY, style="italic")
+    F.box(ax, 25, 12, 50, 16, F.IVORY, edge=F.GREY, r=1.6)
+    F.txt(ax, 50, 24, "THE AUDIENCE", size=5.8, color=F.GREY, weight="bold")
+    F.txt(ax, 50, 17, "who needs to know that the child outwitted the Worry this week?", size=5.5, color=F.INK)
+    F.arrow(ax, (50, 44), (50, 28), color=F.GREY, lw=0.9)
+    F.txt(ax, 50, 4, "Externalising is not evasion of responsibility: it is the position from which\n"
+                    "responsibility becomes possible.",
+          size=5.6, color=F.GREY, style="italic")
+    F.save(fig, "fig-11-02.png")
+
+
+# ---------------------------------------------------------------------------
+# Week 12 - cultural formulation
+# ---------------------------------------------------------------------------
+def fig_12_01():
+    fig, ax = F.canvas(4.6, 3.0)
+    F.txt(ax, 50, 96, "CULTURAL FORMULATION: FOUR QUESTIONS BEFORE ANY DIAGNOSIS", size=6.2,
+          color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([24, 76], [92.5, 92.5], color=F.BRONZE, lw=1.0, zorder=3)
+    quads = [
+        (26, 68, "IDENTITY & LANGUAGE", "who is this child among\ntheir people? in which\nlanguage do they hurt?", F.TEAL_LIGHT, F.TEAL),
+        (74, 68, "CONCEPTS OF DISTRESS", "what is this called at\nhome? what does the\nfamily fear it means?", F.TEAL_LIGHT, F.TEAL),
+        (26, 30, "STRESSORS & SUPPORTS", "what is pressing, and\nwho and what holds\nthis child up?", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+        (74, 30, "THE RELATIONSHIP", "what am I to this child?\nwhat does my skin, accent\nand office say first?", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+    ]
+    for cx, cy, t, b, fill, edge in quads:
+        F.box(ax, cx - 21, cy - 13, 42, 26, fill, edge=edge, r=1.8)
+        F.txt(ax, cx, cy + 8.5, t, size=5.8, color=edge, weight="bold")
+        F.txt(ax, cx, cy - 3, b, size=5.6, color=F.INK)
+    ax.add_patch(Circle((50, 49), 10, facecolor=F.TEAL, edgecolor="none", zorder=3))
+    F.txt(ax, 50, 51, "THE CHILD", size=5.6, color="#F2E3C9", weight="bold")
+    F.txt(ax, 50, 45.5, "IN CONTEXT", size=5.6, color="#F2E3C9", weight="bold")
+    F.txt(ax, 50, 5.5, "After the cultural formulation interview structure. The fourth quadrant is the\n"
+                       "one practitioners skip, and the one the child experiences first.",
+          size=5.6, color=F.GREY, style="italic")
+    F.save(fig, "fig-12-01.png")
+
+
 def main():
     F._register_fonts()
     F.set_outdir(OUT)
     print(f"Drawing CAC.701 figures -> {OUT}")
     for fn in (F.fig_01_01, F.fig_01_02, F.fig_01_03,
                fig_02_01, fig_02_02, fig_03_01, fig_03_02, fig_04_01,
-               fig_05_01, fig_05_02, fig_06_01, fig_06_02, fig_07_01, fig_08_01):
+               fig_05_01, fig_05_02, fig_06_01, fig_06_02, fig_07_01, fig_08_01,
+               fig_09_01, fig_10_01, fig_10_02, fig_11_01, fig_11_02, fig_12_01):
         fn()
     print("Done")
 

@@ -7,15 +7,23 @@ Ainsworth, M. D. S., Blehar, M. C., Waters, E., & Wall, S. N. (1978). *Patterns 
 
 Allen, J. G., Fonagy, P., & Bateman, A. W. (2008). *Mentalizing in clinical practice*. American Psychiatric Publishing.
 
+American Psychological Association. (2017). *Multicultural guidelines: An ecological approach to context, identity, and intersectionality*. American Psychological Association.
+
 Axline, V. M. (1947). *Play therapy: The inner dynamics of childhood*. Houghton Mifflin.
 
 Bandura, A. (1977). *Social learning theory*. Prentice-Hall.
 
 Bateman, A., & Fonagy, P. (Eds.). (2019). *Handbook of mentalizing in mental health practice* (2nd ed.). American Psychiatric Association Publishing.
 
+Bateson, G., Jackson, D. D., Haley, J., & Weakland, J. (1956). Toward a theory of schizophrenia. *Behavioral Science, 1*(4), 251–264.
+
 Beck, A. T. (1976). *Cognitive therapy and the emotional disorders*. International Universities Press.
 
+Berg, I. K. (1994). *Family-based services: A solution-focused approach*. W. W. Norton.
+
 Bowlby, J. (1982). *Attachment and loss: Vol. 1. Attachment* (2nd ed.). Basic Books. (Original work published 1969)
+
+Carr, A. (2019). *Family therapy: Concepts, research and practice* (3rd ed.). Wiley.
 
 Cassidy, J., & Shaver, P. R. (Eds.). (2016). *Handbook of attachment: Theory, research, and clinical applications* (3rd ed.). Guilford Press.
 
@@ -23,11 +31,17 @@ Corey, G. (2017). *Theory and practice of counseling and psychotherapy* (10th ed
 
 Coyne, L. W., McHugh, L., & Martinez, E. R. (2011). Acceptance and commitment therapy (ACT): Advances and applications with children, adolescents, and families. *Child and Adolescent Psychiatric Clinics of North America, 20*(2), 379–399.
 
+Crenshaw, K. (1989). Demarginalizing the intersection of race and sex: A Black feminist critique of antidiscrimination doctrine, feminist theory and antiracist politics. *University of Chicago Legal Forum, 1989*(1), 139–167.
+
 Creswell, C., & Cartwright-Hatton, S. (2007). Family treatment of child anxiety: Outcomes, limitations and future directions. *Clinical Child and Family Psychology Review, 10*(3), 232–252.
+
+de Shazer, S. (1985). *Keys to solution in brief therapy*. W. W. Norton.
 
 Dunning, D., Griffiths, K., Kuyken, W., Jones, E., Foulkes, L., Parker, P., & Dalgleish, T. (2019). Research review: The effects of mindfulness-based interventions on cognition and mental health in children and adolescents — A meta-analysis of randomized controlled trials. *Journal of Child Psychology and Psychiatry, 60*(3), 244–258.
 
 Ensink, K., Mayes, L. C., & Slade, A. (2015). Parental reflective functioning: Conceptualization, assessment, and clinical applications. *Attachment & Human Development, 17*(5), 437–444.
+
+Fernando, S. (2014). *Mental health worldwide: Culture, globalization and development*. Palgrave Macmillan.
 
 Fonagy, P., Gergely, G., Jurist, E. L., & Target, M. (2002). *Affect regulation, mentalization, and the development of the self*. Other Press.
 
@@ -35,11 +49,17 @@ Forehand, R., & McMahon, R. J. (1981). *Helping the noncompliant child: A parent
 
 Frank, J. D., & Frank, J. B. (1991). *Persuasion and healing: A comparative study of psychotherapy* (3rd ed.). Johns Hopkins University Press.
 
+Frankl, V. E. (2006). *Man's search for meaning*. Beacon Press. (Original work published 1946)
+
 Freud, A. (1946). *The psycho-analytical treatment of children* (2nd ed.). International Universities Press.
 
 Friedberg, R. D., & McClure, J. M. (2015). *Clinical practice of cognitive therapy with children and adolescents: The nuts and bolts* (2nd ed.). Guilford Press.
 
 Geldard, K., Geldard, D., & Foo, R. Y. (2018). *Counselling children: A practical introduction* (5th ed.). SAGE.
+
+Gingerich, W. J., & Eisengart, S. (2000). Solution-focused brief therapy: A review of the outcome research. *Family Process, 39*(4), 477–496.
+
+Haley, J. (1976). *Problem-solving therapy: New strategies for effective family therapy*. Jossey-Bass.
 
 Harlow, H. F. (1958). The nature of love. *American Psychologist, 13*(12), 673–685.
 
@@ -63,6 +83,12 @@ Main, M., & Solomon, J. (1990). Procedures for identifying infants as disorganiz
 
 Midgley, N., & Kennedy, E. (2011). Psychodynamic psychotherapy for children and adolescents: A critical review of the evidence base. *Journal of Child Psychotherapy, 37*(3), 277–300.
 
+Minuchin, S. (1974). *Families and family therapy*. Harvard University Press.
+
+Morgan, A. (2000). *What is narrative therapy? An easy-to-read introduction*. Dulwich Centre Publications.
+
+Nichols, M. P., & Davis, S. D. (2020). *Family therapy: Concepts and methods* (12th ed.). Pearson.
+
 Norcross, J. C., & Lambert, M. J. (2019). Psychotherapy relationships that work III. *Psychotherapy, 56*(4), 503–515.
 
 Patterson, G. R. (1982). *Coercive family process*. Castalia Publishing.
@@ -77,6 +103,8 @@ Sackett, D. L., Rosenberg, W. M. C., Gray, J. A. M., Haynes, R. B., & Richardson
 
 Schaefer, C. E., & Drewes, A. A. (2011). *The therapeutic powers of play: 20 core agents of change* (2nd ed.). John Wiley & Sons.
 
+Schneider, K. J., & May, R. (1995). *The psychology of existence: An integrative, clinical perspective*. McGraw-Hill.
+
 Sharp, C., & Fonagy, P. (2008). The parent's capacity to treat the child as a psychological agent: Constructs, measures and implications for developmental psychopathology. *Social Development, 17*(3), 737–754.
 
 Skinner, B. F. (1953). *Science and human behavior*. Macmillan.
@@ -87,15 +115,35 @@ Sroufe, L. A., Egeland, B., Carlson, E. A., & Collins, W. A. (2005). *The develo
 
 Stallard, P. (2002). *Think good — feel good: A cognitive behaviour therapy workbook for children and young people*. John Wiley & Sons.
 
+Sue, D. W. (2001). Multidimensional facets of cultural competence. *The Counseling Psychologist, 29*(6), 790–821.
+
+Sue, D. W., & Sue, D. (2016). *Counseling the culturally diverse: Theory and practice* (7th ed.). John Wiley & Sons.
+
 Swales, M. A. (Ed.). (2019). *The Oxford handbook of dialectical behaviour therapy*. Oxford University Press.
 
+Tervalon, M., & Murray-García, J. (1998). Cultural humility versus cultural competence: A critical distinction in defining physician training outcomes in multicultural education. *Journal of Health Care for the Poor and Underserved, 9*(2), 117–125.
+
+van Deurzen, E. (2010). *Everyday mysteries: A handbook of existential counselling* (2nd ed.). Routledge.
+
+van Deurzen, E., & Arnold-Baker, C. (Eds.). (2005). *Existential perspectives on human issues: A companion for therapeutic practice*. Palgrave Macmillan.
+
+Vetere, A. (2001). Structural family therapy. *Child Psychology and Psychiatry Review, 6*(3), 133–139.
+
 Weisz, J. R., & Kazdin, A. E. (Eds.). (2017). *Evidence-based psychotherapies for children and adolescents* (3rd ed.). Guilford Press.
+
+White, M., & Epston, D. (1990). *Narrative means to therapeutic ends*. W. W. Norton.
 
 Wilson, K., & Ryan, V. (2017). *Play therapy with children and adolescents in crisis: Individual and group treatment manual* (4th ed.). Brunner-Routledge.
 
 Winnicott, D. W. (1971). *Playing and reality*. Tavistock Publications.
 
+Winslade, J., & Monk, G. (2000). *Narrative counseling in schools: Powerful and brief*. Corwin Press.
+
 Wolpe, J. (1958). *Psychotherapy by reciprocal inhibition*. Stanford University Press.
+
+Wong, P. T. P. (2010). Meaning therapy: An integrative and positive existential psychotherapy. *Journal of Contemporary Psychotherapy, 40*(2), 85–99.
+
+Yalom, I. D. (1980). *Existential psychotherapy*. Basic Books.
 
 Zeanah, C. H., & Gleason, M. M. (2015). Annual research review: Attachment disorders in early childhood — clinical presentation, causes, correlates, and treatment. *Journal of Child Psychology and Psychiatry, 56*(3), 207–222.
 :::
