@@ -387,7 +387,7 @@ def fig_09_01():
     ax.plot([32, 68], [92.5, 92.5], color=F.BRONZE, lw=1.0, zorder=3)
     quads = [
         (26, 68, "MORTALITY", "\"people die. I will.\nso what is the rush for?\"", F.TEAL_LIGHT, F.TEAL),
-        (74, 68, "FREEDOM", "\nobody is choosing for me\nand that is the terror\"", F.TEAL_LIGHT, F.TEAL),
+        (74, 68, "FREEDOM", '"nobody is choosing for me\nand that is the terror"', F.TEAL_LIGHT, F.TEAL),
         (26, 30, "ISOLATION", "\"no one can actually be\ninside my head\"", F.BRONZE_LIGHT, F.BRONZE_TEXT),
         (74, 30, "MEANINGLESSNESS", "\"if it all ends, what was\nany of it for?\"", F.BRONZE_LIGHT, F.BRONZE_TEXT),
     ]
@@ -427,19 +427,21 @@ def fig_10_01():
     ax.plot([40, 62], [60.5, 60.5], color="#8C3B2E", lw=2.0, zorder=4)
     F.txt(ax, 51, 56, "enmeshed: no privacy,\nno separate position", size=5.5, color="#8C3B2E",
           style="italic")
-    # disengaged father
-    ax.plot([44, 56], [74, 74], color=F.GREY, lw=1.0, ls=(0, (1.5, 2.5)), zorder=4)
-    F.txt(ax, 50, 77.5, "disengaged", size=5.5, color=F.GREY, style="italic")
+    # disengaged father: dotted line from father to the child
+    ax.plot([42, 56], [74, 74], color=F.GREY, lw=1.0, ls=(0, (1.5, 2.5)), zorder=4)
+    F.txt(ax, 49, 78, "father disengaged", size=5.5, color=F.GREY, style="italic")
     # school
     F.box(ax, 14, 22, 30, 16, F.IVORY, edge=F.GREY, r=1.6)
     F.txt(ax, 29, 33, "SCHOOL", size=5.6, color=F.GREY, weight="bold")
     F.txt(ax, 29, 27, "informal exemption\nfrom attendance", size=5.5, color=F.INK)
-    ax.plot([44, 66], [30, 64], color=F.GREY, lw=0.9, ls=(0, (3, 2)), zorder=3)
-    F.txt(ax, 62, 44, "coalition across\ngenerations", size=5.4, color=F.GREY, style="italic")
+    # coalition: school sides with mother, across the generations of the map
+    ax.plot([27, 23], [38, 66], color=F.GREY, lw=0.9, ls=(0, (3, 2)), zorder=3)
+    F.txt(ax, 44, 50, "coalition: the school\nsides with mother", size=5.4, color=F.GREY,
+          style="italic")
     # legend
     F.txt(ax, 58, 22, "double line = enmeshed", size=5.3, color=F.INK, ha="left")
     F.txt(ax, 58, 18, "dotted = disengaged", size=5.3, color=F.INK, ha="left")
-    F.txt(ax, 58, 14, "dashed = cross-generation coalition", size=5.3, color=F.INK, ha="left")
+    F.txt(ax, 58, 14, "dashed = coalition", size=5.3, color=F.INK, ha="left")
     F.txt(ax, 50, 6.5, "The symptom sits in the child; the organisation that maintains it does not.\n"
                        "Draw the map before you invite anyone to a session.",
           size=5.6, color=F.GREY, style="italic")
@@ -512,7 +514,7 @@ def fig_11_02():
     F.txt(ax, 75, 66, "THE PROBLEM", size=6.4, color="#8C3B2E", weight="bold")
     F.txt(ax, 75, 57, "\"the Worry\" - its tricks,\nits favourite times,\nwhat it wants her to do", size=5.6, color=F.INK)
     F.arrow(ax, (42, 59), (58, 59), color=F.GREY, lw=1.0)
-    F.txt(ax, 50, 63, "relationship:\ninvited, resisted,\noutwitted", size=5.4, color=F.GREY, style="italic")
+    F.txt(ax, 50, 67, "relationship:\ninvited, resisted,\noutwitted", size=5.4, color=F.GREY, style="italic")
     F.box(ax, 25, 12, 50, 16, F.IVORY, edge=F.GREY, r=1.6)
     F.txt(ax, 50, 24, "THE AUDIENCE", size=5.8, color=F.GREY, weight="bold")
     F.txt(ax, 50, 17, "who needs to know that the child outwitted the Worry this week?", size=5.5, color=F.INK)
@@ -550,6 +552,190 @@ def fig_12_01():
     F.save(fig, "fig-12-01.png")
 
 
+
+# ---------------------------------------------------------------------------
+# Week 13 - formulation across competing accounts
+# ---------------------------------------------------------------------------
+def fig_13_01():
+    fig, ax = F.canvas(4.6, 3.0)
+    F.txt(ax, 50, 96, "FOUR READINGS, ONE CHILD: HOW A FORMULATION CONVERGES", size=6.2,
+          color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([24, 76], [92.5, 92.5], color=F.BRONZE, lw=1.0, zorder=3)
+    cols = [
+        (14, "ATTACHMENT /\nPSYCHODYNAMIC", "inhibited separation\nanxiety; mother as sole\nregulator", F.TEAL_LIGHT, F.TEAL),
+        (38, "BEHAVIOURAL /\nCOGNITIVE", "escape reinforced each\nmorning; catastrophic\nbelief never tested", F.TEAL_LIGHT, F.TEAL),
+        (62, "HUMANISTIC /\nEXISTENTIAL", "no adult able to bear\nhis fear with him;\nregard made conditional", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+        (86, "SYSTEMIC /\nCULTURAL", "enmeshed dyad,\ndisengaged father,\nschool in coalition", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+    ]
+    for cx, t, b, fill, edge in cols:
+        F.box(ax, cx - 11, 62, 22, 26, fill, edge=edge, r=1.5)
+        F.txt(ax, cx, 83, t, size=5.1, color=edge, weight="bold")
+        F.txt(ax, cx, 71, b, size=5.1, color=F.INK)
+        F.arrow(ax, (cx, 62), (50 + (cx - 50) * 0.25, 50), color=F.GREY, lw=0.8)
+    F.box(ax, 18, 30, 64, 20, F.TEAL, r=2.0)
+    F.txt(ax, 50, 45, "THE FORMULATION", size=6.2, color="#F2E3C9", weight="bold")
+    F.txt(ax, 50, 38, "predisposing · precipitating · maintaining · protective,\n"
+                     "in one paragraph, with the mechanism named", size=5.4, color="#CFE0E4")
+    F.arrow(ax, (50, 30), (50, 24), color=F.INK, lw=1.0)
+    F.box(ax, 18, 8, 64, 16, F.IVORY, edge=F.GREY, r=1.6)
+    F.txt(ax, 50, 19, "THE PLAN - AND ITS FALSIFIER", size=5.8, color=F.GREY, weight="bold")
+    F.txt(ax, 50, 12.5, "what we will do, in what order, with whom - and the one\n"
+                        "observation that would tell us the formulation is wrong", size=5.4, color=F.INK)
+    F.save(fig, "fig-13-01.png")
+
+
+def fig_13_02():
+    fig, ax = F.canvas(4.6, 2.3)
+    F.txt(ax, 50, 93, "THE FIVE PS: A FORMULATION SKELETON THAT SURVIVES SUPERVISION", size=6.2,
+          color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([22, 78], [89, 89], color=F.BRONZE, lw=1.0, zorder=3)
+    ps = [
+        ("PRESENTING", "what brings the\nchild now, in whose\nwords first"),
+        ("PREDISPOSING", "temperament, early\ncare, history,\ndevelopment"),
+        ("PRECIPITATING", "what changed just\nbefore the onset -\nthe move, the loss"),
+        ("PERPETUATING", "what maintains it\nnow: loops, beliefs,\ncontexts"),
+        ("PROTECTIVE", "what holds the child\nup: people, skills,\nmeaning, faith"),
+    ]
+    for i, (t, b) in enumerate(ps):
+        cx = 10 + i * 20
+        fill = F.TEAL_LIGHT if i % 2 == 0 else F.BRONZE_LIGHT
+        edge = F.TEAL if i % 2 == 0 else F.BRONZE_TEXT
+        F.box(ax, cx - 9, 30, 18, 44, fill, edge=edge, r=1.4)
+        F.txt(ax, cx, 68, t, size=5.3, color=edge, weight="bold")
+        F.txt(ax, cx, 50, b, size=5.2, color=F.INK)
+    F.txt(ax, 50, 14, "Perpetuating is where treatment lives; protective is where hope lives.\n"
+                      "A formulation with neither is a complaint, not a plan.",
+          size=5.6, color=F.GREY, style="italic")
+    F.save(fig, "fig-13-02.png")
+
+
+# ---------------------------------------------------------------------------
+# Week 14 - outcome monitoring
+# ---------------------------------------------------------------------------
+def fig_14_01():
+    import numpy as np
+    fig, ax = F.canvas(4.6, 2.7)
+    ax.set_xlim(0, 14)
+    ax.set_ylim(-8, 41)
+    F.txt(ax, 7, 38.5, "SESSION-BY-SESSION OUTCOME: TWO CHILDREN, TWO VERDICTS", size=6.2,
+          color=F.BRONZE_TEXT, weight="bold", ha="center")
+    ax.plot([0.5, 13.5], [14, 14], color="#8C3B2E", lw=0.9, ls=(0, (4, 3)), zorder=3)
+    F.txt(ax, 13.4, 15.4, "clinical cut-off", size=5.4, color="#8C3B2E", ha="right")
+    x = np.arange(1, 13)
+    y1 = 34 - 2.1 * x + 1.2 * np.sin(x)
+    y2 = 33 - 0.35 * x + 1.0 * np.sin(2 * x)
+    ax.plot([0.9, 12.1], [0, 0], color=F.GREY, lw=0.8, zorder=3)
+    ax.plot(x, y1, color=F.TEAL, lw=1.5, marker="o", markersize=2.4, zorder=4)
+    ax.plot(x, y2, color=F.GREY, lw=1.5, marker="o", markersize=2.4, zorder=4)
+    for i in x:
+        ax.plot([i, i], [0, -0.9], color=F.GREY, lw=0.8, zorder=3)
+        F.txt(ax, i, -2.6, str(i), size=5.4, color=F.GREY)
+    F.txt(ax, 7, -5.6, "sessions (lower score = fewer difficulties)", size=5.6,
+          color=F.GREY, ha="center")
+    ax.annotate("responding: below the\ncut-off by session 7", xy=(8.6, 12.6), xytext=(8.4, 5.2),
+                fontsize=5.6, color=F.TEAL, fontstyle="italic",
+                arrowprops=dict(arrowstyle="->", lw=0.8, color=F.TEAL))
+    ax.annotate("not responding by session 4:\nthe plan changes, not the child", xy=(6, 30.5),
+                xytext=(6.8, 34.6), fontsize=5.6, color=F.GREY, fontstyle="italic",
+                arrowprops=dict(arrowstyle="->", lw=0.8, color=F.GREY))
+    F.save(fig, "fig-14-01.png")
+
+
+def fig_14_02():
+    fig, ax = F.canvas(4.6, 2.5)
+    F.txt(ax, 50, 93, "EVIDENCE-BASED PRACTICE: THREE LEGS, ONE STOOL", size=6.6,
+          color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([28, 72], [89, 89], color=F.BRONZE, lw=1.0, zorder=3)
+    F.box(ax, 20, 62, 60, 14, F.TEAL, r=1.6)
+    F.txt(ax, 50, 69, "THE DECISION FOR THIS CHILD, THIS WEEK", size=6.0, color="#F2E3C9", weight="bold")
+    legs = [
+        (26, "BEST AVAILABLE\nRESEARCH", "trials, reviews, and their\npopulations and limits", F.TEAL_LIGHT, F.TEAL),
+        (50, "CLINICAL\nEXPERTISE", "formulation, judgement,\nmeasured outcomes", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+        (74, "VALUES &\nCONTEXT", "the child's and family's\naims, culture, means", F.IVORY, F.GREY),
+    ]
+    for cx, t, b, fill, edge in legs:
+        F.box(ax, cx - 11, 18, 22, 34, fill, edge=edge, r=1.4)
+        F.txt(ax, cx, 46, t, size=5.4, color=edge, weight="bold")
+        F.txt(ax, cx, 30, b, size=5.2, color=F.INK)
+        ax.plot([cx, cx], [52, 62], color=F.GREY, lw=0.9, zorder=3)
+    F.txt(ax, 50, 8, "After Sackett et al. (1996) and Kazdin (2008). Remove any leg and the stool\n"
+                     "falls: guideline-medicine, untested intuition, or preference without evidence.",
+          size=5.6, color=F.GREY, style="italic")
+    F.save(fig, "fig-14-02.png")
+
+
+# ---------------------------------------------------------------------------
+# Week 15 - the completed comparison grid
+# ---------------------------------------------------------------------------
+def fig_15_01():
+    fig, ax = F.canvas(4.6, 3.2)
+    F.txt(ax, 50, 97, "DANIEL, FOUR WAYS: THE GRID COMPLETED", size=6.8,
+          color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([34, 66], [93.5, 93.5], color=F.BRONZE, lw=1.0, zorder=3)
+    rows = ["View of the child", "What maintains it", "Mechanism of change", "First move"]
+    cols = ["ATTACHMENT", "BEHAVIOURAL", "PERSON-CENTRED", "SYSTEMIC"]
+    cells = [
+        ["insecure-organised;\nmother sole regulator", "learner whose escape\nis reinforced daily", "person whose fear has\nnever been met", "node in an enmeshed\ndyad + absent father"],
+        ["separation anxiety;\ninhibited signalling", "negative reinforcement;\nuntested catastrophe", "regard conditional on\nnot being afraid", "dyad holds him home;\nschool coalition"],
+        ["reliable other;\nco-regulation", "extinction +\ndisconfirmation", "being felt without\nconditions", "changed boundaries\nand positions"],
+        ["work with mother's\nanxiety; play", "graded return;\nparent contingencies", "non-directive sessions;\nno pushing", "family session;\nenactment"],
+    ]
+    top, bot = 88, 16
+    n = len(rows)
+    rh = (top - bot) / n
+    label_w = 20
+    gx = label_w + 2
+    cw = (98 - gx) / 4
+    F.box(ax, 2, bot, label_w, top - bot, F.TEAL_LIGHT, r=1.0)
+    for i, r in enumerate(rows):
+        y = top - i * rh
+        F.txt(ax, 4, y - rh / 2, r, size=5.6, color=F.TEAL, weight="bold", ha="left")
+    for j, c in enumerate(cols):
+        x = gx + j * cw
+        fill = F.WHITE if j % 2 == 0 else F.IVORY
+        F.box(ax, x, bot, cw - 1.2, top - bot, fill, edge="#D8DEDF", r=1.0)
+        F.txt(ax, x + (cw - 1.2) / 2, top + 3.4, c, size=5.4, color=F.BRONZE_TEXT, weight="bold")
+        for i in range(n):
+            y = top - i * rh
+            F.txt(ax, x + (cw - 1.2) / 2, y - rh / 2, cells[i][j], size=4.9, color=F.INK)
+            if i:
+                ax.plot([x, x + cw - 1.2], [y, y], color="#E3E7E8", lw=0.6, zorder=3)
+    F.txt(ax, 50, 7, "The grid is not a menu. Integration is choosing, with reasons, which column\n"
+                     "governs this week - and saying what the others contribute and what they forbid.",
+          size=5.6, color=F.GREY, style="italic")
+    F.save(fig, "fig-15-01.png")
+
+
+# ---------------------------------------------------------------------------
+# Week 16 - the course map
+# ---------------------------------------------------------------------------
+def fig_16_01():
+    fig, ax = F.canvas(4.6, 3.0)
+    F.txt(ax, 50, 97, "THE COURSE IN ONE MAP: LINEAGES, MECHANISMS, SHARED GROUND", size=6.2,
+          color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([22, 78], [93.5, 93.5], color=F.BRONZE, lw=1.0, zorder=3)
+    lin = [
+        (14, "PSYCHODYNAMIC\n& ATTACHMENT", "insight, containment,\ninternal working models,\nmentalising", F.TEAL_LIGHT, F.TEAL),
+        (38, "BEHAVIOURAL\n& COGNITIVE", "extinction, new learning,\ndisconfirmation,\nflexibility", F.TEAL_LIGHT, F.TEAL),
+        (62, "HUMANISTIC\n& EXISTENTIAL", "conditions, being met,\nmeaning in adversity", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+        (86, "SYSTEMIC\n& NARRATIVE", "structure, boundaries,\nloops, re-authoring", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+    ]
+    for cx, t, b, fill, edge in lin:
+        F.box(ax, cx - 11, 64, 22, 26, fill, edge=edge, r=1.5)
+        F.txt(ax, cx, 85, t, size=5.1, color=edge, weight="bold")
+        F.txt(ax, cx, 72, b, size=5.0, color=F.INK)
+    F.box(ax, 8, 34, 84, 18, F.TEAL, r=2.0)
+    F.txt(ax, 50, 47, "THE SHARED GROUND", size=6.2, color="#F2E3C9", weight="bold")
+    F.txt(ax, 50, 39.5, "the relationship · development · culture and power · evidence and measurement · safeguarding",
+          size=5.2, color="#CFE0E4")
+    F.arrow(ax, (50, 34), (50, 28), color=F.INK, lw=1.0)
+    F.box(ax, 16, 8, 68, 20, F.IVORY, edge=F.GREY, r=1.6)
+    F.txt(ax, 50, 22, "THE PRACTITIONER'S POSITION", size=6.0, color=F.GREY, weight="bold")
+    F.txt(ax, 50, 14, "a formulation with a mechanism, a plan with a falsifier,\n"
+                      "outcomes measured, and the child's world investigated", size=5.4, color=F.INK)
+    F.save(fig, "fig-16-01.png")
+
+
 def main():
     F._register_fonts()
     F.set_outdir(OUT)
@@ -557,7 +743,8 @@ def main():
     for fn in (F.fig_01_01, F.fig_01_02, F.fig_01_03,
                fig_02_01, fig_02_02, fig_03_01, fig_03_02, fig_04_01,
                fig_05_01, fig_05_02, fig_06_01, fig_06_02, fig_07_01, fig_08_01,
-               fig_09_01, fig_10_01, fig_10_02, fig_11_01, fig_11_02, fig_12_01):
+               fig_09_01, fig_10_01, fig_10_02, fig_11_01, fig_11_02, fig_12_01,
+               fig_13_01, fig_13_02, fig_14_01, fig_14_02, fig_15_01, fig_16_01):
         fn()
     print("Done")
 

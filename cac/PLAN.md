@@ -105,7 +105,7 @@ gate passes.
 
 | # | Slug | Course | Weeks done | Status |
 |---|---|---|---|---|
-| 1 | cac701 | CAC. 701 Fundamentals of Counseling Theories | 12 of 16 | in progress — weeks 1–12 typeset (all four lineages plus existential, systemic and critique), 116 pp, QA passing |
+| 1 | cac701 | CAC. 701 Fundamentals of Counseling Theories | 16 of 16 | complete — all sixteen weeks typeset, 26 diagrams, 147 pp, 84 references, QA passing |
 | 2 | cac701b | CAC. 701 Child Development Theories | 0 | queued |
 | 3 | cac702 | CAC. 702 Adolescent Development | 0 | queued |
 | 4 | cac703 | CAC. 703 Ethics in Counseling | 0 | queued |
@@ -118,10 +118,13 @@ Remaining volumes follow in curriculum order (see the chapter map above for code
   `CAC. 717`/`CAC. 721` overlap, the uniform `1.6` unit value). None silently corrected.
 * Series architecture: one volume per course under `cac/books/<slug>/`, shared design in
   `cac/templates/handbook.typ`, PDF/UA-1 export, QA gate `scripts/qa_book.py`.
-* Volume 1 (cac701): front matter, weeks 1–8 (psychodynamic/attachment, behavioural, third-wave,
-  person-centred lineages), twenty diagrams, 116 pages, QA passing. Figure and table numbering is
-  per lecture week, so captions, file names and in-text references agree. Weeks 13–16 to follow
-  (integration and formulation, evidence-based practice and outcome monitoring, the comparative
-  practicum, revision and examination), then volumes 2 onward.
+* Volume 1 (cac701): COMPLETE. Front matter, all sixteen weeks (four lineages, existential,
+  systemic, critique, integration and formulation, evidence-based practice and outcome
+  monitoring, comparative practicum, revision and examination), twenty-six diagrams, 147 pages,
+  84 verified references, PDF/UA-1, QA passing. Figure and table numbering is per lecture week,
+  so captions, file names and in-text references agree. Every diagram has been visually
+  inspected; faults found and repaired include a lost axis (fig 14.1), an escaped quotation
+  (fig 9.1), a mis-routed coalition line (fig 10.1) and a label struck by its own arrow
+  (fig 11.2). Figures of weeks 1–8 remain due a second inspection pass before volume 2 begins.
 * Git: `cac/build/` and `cac/books/*/build/` are ignored; per-volume release PDFs are committed
   with the volume they belong to.

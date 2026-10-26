@@ -21,6 +21,8 @@ Beck, A. T. (1976). *Cognitive therapy and the emotional disorders*. Internation
 
 Berg, I. K. (1994). *Family-based services: A solution-focused approach*. W. W. Norton.
 
+Bickman, L. (2008). A measurement feedback system (MFS) is necessary to improve mental health outcomes. *Journal of the American Academy of Child & Adolescent Psychiatry, 47*(10), 1114–1119.
+
 Bowlby, J. (1982). *Attachment and loss: Vol. 1. Attachment* (2nd ed.). Basic Books. (Original work published 1969)
 
 Carr, A. (2019). *Family therapy: Concepts, research and practice* (3rd ed.). Wiley.
@@ -37,7 +39,13 @@ Creswell, C., & Cartwright-Hatton, S. (2007). Family treatment of child anxiety:
 
 de Shazer, S. (1985). *Keys to solution in brief therapy*. W. W. Norton.
 
+Duncan, B. L., Miller, S. D., Wampold, B. E., & Hubble, M. A. (Eds.). (2010). *The heart and soul of change: Delivering what works in therapy* (2nd ed.). American Psychological Association.
+
+Dunlosky, J., Rawson, K. A., Marsh, E. J., Nathan, M. J., & Willingham, D. T. (2013). Improving students' learning with effective learning techniques: Promising directions from cognitive and educational psychology. *Psychological Science in the Public Interest, 14*(1), 4–58.
+
 Dunning, D., Griffiths, K., Kuyken, W., Jones, E., Foulkes, L., Parker, P., & Dalgleish, T. (2019). Research review: The effects of mindfulness-based interventions on cognition and mental health in children and adolescents — A meta-analysis of randomized controlled trials. *Journal of Child Psychology and Psychiatry, 60*(3), 244–258.
+
+Eells, T. D. (Ed.). (2007). *Handbook of psychotherapy case formulation* (2nd ed.). Guilford Press.
 
 Ensink, K., Mayes, L. C., & Slade, A. (2015). Parental reflective functioning: Conceptualization, assessment, and clinical applications. *Attachment & Human Development, 17*(5), 437–444.
 
@@ -67,17 +75,29 @@ Hayes, S. C., Strosahl, K. D., & Wilson, K. G. (1999). *Acceptance and commitmen
 
 Holmes, J. (2014). *John Bowlby and attachment theory* (2nd ed.). Routledge.
 
+Jacobson, N. S., & Truax, P. (1991). Clinical significance: A statistical approach to defining meaningful change in psychotherapy research. *Journal of Consulting and Clinical Psychology, 59*(1), 12–19.
+
+Johnstone, L., & Dallos, R. (Eds.). (2013). *Formulation in psychology and psychotherapy: An introduction* (2nd ed.). Routledge.
+
 Kazdin, A. E. (2008). Evidence-based treatment and practice: New opportunities to bridge clinical research and practice, enhance the knowledge base, and improve patient care. *American Psychologist, 63*(3), 146–159.
 
 Kendall, P. C., & Hedtke, K. A. (2006). *Cognitive-behavioral therapy for anxious children: Therapist manual* (3rd ed.). Workbook Publishing.
 
+Kendjelic, E. M., & Eells, T. D. (2007). Generic psychotherapy case formulation training improves formulation quality. *Psychotherapy: Theory, Research, Practice, Training, 44*(1), 66–77.
+
 Klein, M. (1932). *The psycho-analysis of children*. Hogarth Press.
 
+Kuyken, W., Padesky, C. A., & Dudley, R. (2009). *Collaborative case conceptualization: Working effectively with clients in cognitive-behavior therapy*. Guilford Press.
+
 Lambert, M. J. (1992). Implications of outcome research for psychotherapy integration. In J. C. Norcross & M. R. Goldfried (Eds.), *Handbook of psychotherapy integration* (pp. 94–129). Basic Books.
+
+Lambert, M. J., & Shimokawa, K. (2011). Collecting client feedback. *Psychotherapy, 48*(1), 72–79.
 
 Landreth, G. L. (2012). *Play therapy: The art of the relationship* (3rd ed.). Routledge.
 
 Linehan, M. M. (1993). *Cognitive-behavioral treatment of borderline personality disorder*. Guilford Press.
+
+Macneil, C. A., Hasty, M. K., Conus, P., & Berk, M. (2012). Is diagnosis enough to guide interventions in mental health? Using case formulation in clinical practice. *BMC Medicine, 10*, 111.
 
 Main, M., & Solomon, J. (1990). Procedures for identifying infants as disorganized/disoriented during the Ainsworth Strange Situation. In M. T. Greenberg, D. Cicchetti, & E. M. Cummings (Eds.), *Attachment in the preschool years* (pp. 121–160). University of Chicago Press.
 
@@ -93,7 +113,11 @@ Norcross, J. C., & Lambert, M. J. (2019). Psychotherapy relationships that work 
 
 Patterson, G. R. (1982). *Coercive family process*. Castalia Publishing.
 
+Persons, J. B. (2008). *The case formulation approach to cognitive-behavior therapy*. Guilford Press.
+
 Rathus, J. H., & Miller, A. L. (2015). *DBT skills manual for adolescents*. Guilford Press.
+
+Roediger, H. L., & Karpicke, J. D. (2006). Test-enhanced learning: Taking memory tests improves long-term retention. *Psychological Science, 17*(3), 249–255.
 
 Rogers, C. R. (1951). *Client-centered therapy: Its current practice, implications, and theory*. Houghton Mifflin.
 
