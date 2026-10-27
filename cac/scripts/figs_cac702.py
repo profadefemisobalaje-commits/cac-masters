@@ -278,9 +278,236 @@ def fig_07_01():
     F.save(fig, "fig-07-01.png")
 
 
+
+# ---------------------------------------------------------------------------
+# Week 9 - the peer world, inward
+# ---------------------------------------------------------------------------
+def fig_09_01():
+    fig, ax = F.canvas(4.6, 2.8)
+    ax.set_xlim(0, 100)
+    ax.set_ylim(-8, 102)
+    F.txt(ax, 50, 96, "THE PEER WORLD, INWARD: CROWD, CLIQUE, FRIENDSHIP, ROMANCE",
+          size=6.0, color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([22, 78], [92.5, 92.5], color=F.BRONZE, lw=1.0, zorder=3)
+    F.box(ax, 6, 16, 88, 68, "#F2F2F2", edge=F.GREY, r=1.6)
+    F.txt(ax, 9, 80, "the crowd: a label and a reputation - loose, public, useful",
+          size=5.2, color=F.GREY, ha="left", weight="bold")
+    F.box(ax, 14, 24, 72, 50, F.TEAL_LIGHT, edge=F.TEAL, r=1.4)
+    F.txt(ax, 17, 70, "the clique: three to nine, chosen, daily", size=5.2,
+          color=F.TEAL, ha="left", weight="bold")
+    F.box(ax, 24, 32, 52, 34, F.BRONZE_LIGHT, edge=F.BRONZE_TEXT, r=1.2)
+    F.txt(ax, 27, 62, "the friendship: two, disclosed, tested", size=5.2,
+          color=F.BRONZE_TEXT, ha="left", weight="bold")
+    F.box(ax, 34, 40, 32, 18, "#F7EDE9", edge="#8C3B2E", r=1.0)
+    F.txt(ax, 50, 49, "romance: two, time,\nbody, risk", size=5.2, color="#8C3B2E", weight="bold")
+    F.txt(ax, 50, 6, "Intimacy and risk both deepen toward the centre: the dyad carries\n"
+                    "the disclosure - and the heartbreak, and the coercion when it comes.",
+          size=5.4, color=F.GREY, style="italic")
+    F.save(fig, "fig-09-01.png")
+
+
+# ---------------------------------------------------------------------------
+# Week 10 - Super's stages
+# ---------------------------------------------------------------------------
+def fig_10_01():
+    fig, ax = F.canvas(4.6, 2.6)
+    ax.set_xlim(0, 100)
+    ax.set_ylim(-10, 102)
+    F.txt(ax, 50, 96, "WORK, SCHOOL AND THE LONG HORIZON: SUPER'S STAGES", size=6.2,
+          color=F.BRONZE_TEXT, weight="bold")
+    F.box(ax, 4, 52, 30, 16, F.TEAL_LIGHT, edge=F.TEAL, r=1.0)
+    F.txt(ax, 19, 63, "growth", size=5.6, color=F.TEAL, weight="bold")
+    F.txt(ax, 19, 57, "fantasy, interest, capacity", size=4.8, color=F.INK)
+    F.box(ax, 34, 52, 32, 16, F.BRONZE_LIGHT, edge=F.BRONZE_TEXT, r=1.0)
+    F.txt(ax, 50, 63, "exploration", size=5.6, color=F.BRONZE_TEXT, weight="bold")
+    F.txt(ax, 50, 57, "tentative, transition, trial", size=4.8, color=F.INK)
+    F.box(ax, 66, 52, 30, 16, "#EDEDED", edge=F.GREY, r=1.0)
+    F.txt(ax, 81, 63, "establishment", size=5.6, color=F.GREY, weight="bold")
+    F.txt(ax, 81, 57, "the decades after school", size=4.8, color=F.INK)
+    F.txt(ax, 19, 46, "childhood", size=5.2, color=F.GREY)
+    F.txt(ax, 50, 46, "adolescence and\nemerging adulthood", size=5.2, color=F.GREY)
+    F.txt(ax, 81, 46, "adulthood", size=5.2, color=F.GREY)
+    ax.annotate("", xy=(96, 36), xytext=(4, 36),
+                arrowprops=dict(arrowstyle="->", lw=0.9, color=F.GREY), zorder=3)
+    ax.plot([44, 44], [24, 74], color="#8C3B2E", lw=1.0, ls=(0, (3, 2)), zorder=4)
+    F.txt(ax, 44, 82, "the adolescent: exploration's first trials -\n"
+                     "real choices made before the self is settled", size=5.4,
+          color="#8C3B2E", style="italic")
+    F.txt(ax, 50, 4, "Super's stages are tasks, not ages: schooling, work and economies move\n"
+                    "the boundaries - the sequence holds.", size=5.4, color=F.GREY, style="italic")
+    F.save(fig, "fig-10-01.png")
+
+
+# ---------------------------------------------------------------------------
+# Week 11 - the five Cs
+# ---------------------------------------------------------------------------
+def fig_11_01():
+    fig, ax = F.canvas(4.6, 2.8)
+    ax.set_xlim(0, 100)
+    ax.set_ylim(-8, 102)
+    F.txt(ax, 50, 96, "POSITIVE YOUTH DEVELOPMENT: THE FIVE Cs AND THE SIXTH",
+          size=6.2, color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([24, 76], [92.5, 92.5], color=F.BRONZE, lw=1.0, zorder=3)
+    cs = [
+        (50, 76, "competence", "skill in valued domains", F.TEAL_LIGHT, F.TEAL),
+        (78, 60, "confidence", "worth that survives scores", F.TEAL_LIGHT, F.TEAL),
+        (68, 30, "connection", "bonds that hold", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+        (32, 30, "character", "rules that travel", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+        (22, 60, "caring", "sympathy in action", "#F7EDE9", "#8C3B2E"),
+    ]
+    for cx, cy, t, b, fill, edge in cs:
+        ax.plot([cx, 50], [cy, 52], color=F.GREY, lw=0.7, zorder=2)
+    for cx, cy, t, b, fill, edge in cs:
+        F.box(ax, cx - 13, cy - 8, 26, 16, fill, edge=edge, r=1.2)
+        F.txt(ax, cx, cy + 3, t, size=5.4, color=edge, weight="bold")
+        F.txt(ax, cx, cy - 3, b, size=4.6, color=F.INK)
+    F.box(ax, 38, 45, 24, 14, "#FFFFFF", edge=F.INK, r=1.0)
+    F.txt(ax, 50, 52, "contribution:\nthe sixth C, outward", size=5.0, color=F.INK, weight="bold")
+    F.txt(ax, 50, 6, "The five Cs are not traits to install but products of good settings: programmes\n"
+                    "that supply all five move contribution - the sixth C - outward.",
+          size=5.4, color=F.GREY, style="italic")
+    F.save(fig, "fig-11-01.png")
+
+
+# ---------------------------------------------------------------------------
+# Week 12 - one biology, many clocks
+# ---------------------------------------------------------------------------
+def fig_12_01():
+    fig, ax = F.canvas(4.6, 2.8)
+    ax.set_xlim(0, 100)
+    ax.set_ylim(-8, 102)
+    F.txt(ax, 50, 96, "ONE BIOLOGY, MANY CLOCKS: ADOLESCENCE WORLDWIDE", size=6.2,
+          color=F.BRONZE_TEXT, weight="bold")
+    cols = [
+        (4, "high-income settings", "school to 18 and beyond;\nmarriage late; a long\nmoratorium; the risks:\ninternalising, screens, drift", F.TEAL_LIGHT, F.TEAL),
+        (36, "low- and middle-income", "work and marriage arrive\nearly for many; girls'\nschooling the strongest\nprotection; child marriage\npersists where poverty does", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+        (68, "humanitarian settings", "transitions broken: school,\nhome and clinic lost\ntogether; belonging rebuilt\nfrom nothing; the adolescent\nas carer and earner", "#EDEDED", F.GREY),
+    ]
+    for x, h, b, fill, edge in cols:
+        F.txt(ax, x + 14, 86, h, size=5.6, color=edge, weight="bold")
+        F.box(ax, x, 26, 28, 54, fill, edge=edge, r=1.2)
+        F.txt(ax, x + 14, 60, b, size=4.9, color=F.INK)
+    F.txt(ax, 50, 12, "same puberty, same pruning, same absence of universal storm - different clocks",
+          size=5.4, color=F.GREY, style="italic")
+    F.txt(ax, 50, 4, "The social clock decides what the biological clock will mean.", size=5.4,
+          color=F.GREY, style="italic")
+    F.save(fig, "fig-12-01.png")
+
+
+# ---------------------------------------------------------------------------
+# Week 13 - the onset curve
+# ---------------------------------------------------------------------------
+def fig_13_01():
+    fig, ax = F.canvas(4.6, 2.6)
+    ax.set_xlim(-2, 72)
+    ax.set_ylim(-16, 104)
+    F.txt(ax, 35, 98, "MOST DISORDERS BEGIN EARLY: THE CUMULATIVE ONSET CURVE",
+          size=6.0, color=F.BRONZE_TEXT, weight="bold")
+    ax.fill_between([10, 19], 0, 104, color=F.BRONZE_LIGHT, zorder=1)
+    F.txt(ax, 14.5, 90, "adolescence", size=5.2, color=F.BRONZE_TEXT, weight="bold")
+    a = np.linspace(0, 70, 80)
+    c = 84 / (1 + np.exp(-(a - 15) / 6))
+    ax.plot(a, c, color="#8C3B2E", lw=1.6, zorder=3)
+    for x, lab in ((15, "half of lifetime onset\nby the mid-teens"),
+                   (22, "three quarters\nby the mid-twenties")):
+        y = 84 / (1 + np.exp(-(x - 15) / 6))
+        ax.plot([x, x], [4, y], color=F.GREY, lw=0.8, ls=(0, (3, 2)), zorder=2)
+        F.txt(ax, x - 1.2, y + 5, lab, size=5.0, color=F.GREY, ha="right", style="italic")
+    for w in (0, 10, 20, 30, 40, 50, 60):
+        ax.plot([w, w], [1.5, 4], color=F.GREY, lw=0.8, zorder=3)
+        F.txt(ax, w, -3, str(w), size=5.0, color=F.GREY)
+    ax.plot([0, 70], [4, 4], color=F.GREY, lw=0.8, zorder=3)
+    F.txt(ax, 40, -9, "age in years - schematic after Kessler et al. (2005): the onset distribution\n"
+                      "is why adolescent services are prevention, not merely treatment",
+          size=5.2, color=F.GREY, ha="center", style="italic")
+    F.save(fig, "fig-13-01.png")
+
+
+# ---------------------------------------------------------------------------
+# Week 14 - the confidentiality circle
+# ---------------------------------------------------------------------------
+def fig_14_01():
+    fig, ax = F.canvas(4.6, 2.8)
+    ax.set_xlim(0, 100)
+    ax.set_ylim(-8, 102)
+    F.txt(ax, 50, 96, "WHAT STAYS, WHAT TRAVELS: THE CONFIDENTIALITY CIRCLE",
+          size=6.0, color=F.BRONZE_TEXT, weight="bold")
+    F.box(ax, 6, 18, 88, 70, "#F2F2F2", edge=F.GREY, r=1.6)
+    F.txt(ax, 50, 83, "must travel: risk to life or to others - said to the child first,\n"
+                      "then shared, with the child accompanied", size=5.2, color=F.GREY, weight="bold")
+    F.box(ax, 16, 28, 68, 48, F.BRONZE_LIGHT, edge=F.BRONZE_TEXT, r=1.4)
+    F.txt(ax, 50, 71, "travels with the child's knowledge: the planned\nfamily conversation, the referral, the report",
+          size=5.2, color=F.BRONZE_TEXT, weight="bold")
+    F.box(ax, 30, 38, 40, 26, F.TEAL_LIGHT, edge=F.TEAL, r=1.2)
+    F.txt(ax, 50, 54, "kept: the child's words -\nthe ordinary rule of the room", size=5.2,
+          color=F.TEAL, weight="bold")
+    F.txt(ax, 50, 6, "Gillick competence asks whether this child understands this decision -\n"
+                    "not whether children in general may decide.", size=5.4, color=F.GREY, style="italic")
+    F.save(fig, "fig-14-01.png")
+
+
+# ---------------------------------------------------------------------------
+# Week 15 - the practicum gradient
+# ---------------------------------------------------------------------------
+def fig_15_01():
+    fig, ax = F.canvas(4.6, 2.8)
+    ax.set_xlim(0, 100)
+    ax.set_ylim(-8, 102)
+    F.txt(ax, 50, 96, "ONE METHOD, THREE REGISTERS: THE PRACTICUM GRADIENT", size=6.2,
+          color=F.BRONZE_TEXT, weight="bold")
+    cols = [
+        (4, "age 13", "concrete, short,\nside-by-side, doing;\nthe draw and the walk;\nconsent: the guardian\nplus the child's assent", F.TEAL_LIGHT, F.TEAL),
+        (36, "age 15", "the peer register:\nloyalty first, then the\nworry; hot and cold\nsequencing; the card\nin the pocket", F.BRONZE_LIGHT, F.BRONZE_TEXT),
+        (68, "age 17", "the adult register:\ntheir agenda, their\nwords, their plan; your\nquestions last; consent\ntheir own", "#EDEDED", F.GREY),
+    ]
+    for x, h, b, fill, edge in cols:
+        F.txt(ax, x + 14, 86, h, size=5.8, color=edge, weight="bold")
+        F.box(ax, x, 32, 28, 48, fill, edge=edge, r=1.2)
+        F.txt(ax, x + 14, 66, b, size=5.0, color=F.INK)
+    ax.annotate("", xy=(94, 24), xytext=(6, 24),
+                arrowprops=dict(arrowstyle="->", lw=0.9, color=F.GREY), zorder=3)
+    F.txt(ax, 50, 16, "concrete and accompanied  -  abstract and autonomous", size=5.2,
+          color=F.GREY, weight="bold")
+    F.txt(ax, 50, 5, "The method does not change; the register does. What fails at thirteen\n"
+                    "is not the therapy but the grammar.", size=5.4, color=F.GREY, style="italic")
+    F.save(fig, "fig-15-01.png")
+
+
+# ---------------------------------------------------------------------------
+# Week 16 - the semester in four strands
+# ---------------------------------------------------------------------------
+def fig_16_01():
+    fig, ax = F.canvas(4.6, 2.8)
+    ax.set_xlim(0, 100)
+    ax.set_ylim(-8, 102)
+    F.txt(ax, 50, 96, "THE SEMESTER IN FOUR STRANDS", size=6.4, color=F.BRONZE_TEXT, weight="bold")
+    ax.plot([30, 70], [92.5, 92.5], color=F.BRONZE, lw=1.0, zorder=3)
+    lanes = [
+        (74, "the body and the brain", [1, 2, 3], F.TEAL_LIGHT, F.TEAL),
+        (56, "the self and its weather", [4, 5, 6, 7], F.BRONZE_LIGHT, F.BRONZE_TEXT),
+        (38, "relationships and contexts", [8, 9, 10, 11, 12], "#EDEDED", F.GREY),
+        (20, "practice and integration", [13, 14, 15, 16], "#F7EDE9", "#8C3B2E"),
+    ]
+    x0, w = 26, 70 / 16
+    for y, lab, weeks, fill, edge in lanes:
+        F.txt(ax, 3, y + 6, lab, size=5.2, color=edge, ha="left", weight="bold")
+        for i in range(16):
+            n = i + 1
+            f = fill if n in weeks else "#FAFAFA"
+            e = edge if n in weeks else "#E4E4E4"
+            F.box(ax, x0 + i * w, y, w - 0.5, 12, f, edge=e, r=0.6)
+            if n in weeks:
+                F.txt(ax, x0 + i * w + (w - 0.5) / 2, y + 6, str(n), size=4.6, color=F.INK)
+    F.txt(ax, 50, 6, "Weeks 15 and 16 gather all four strands: the practicum panel and the\n"
+                    "examination assume every lane at once.", size=5.4, color=F.GREY, style="italic")
+    F.save(fig, "fig-16-01.png")
+
+
 def main():
     F.set_outdir(OUT)
-    for f in (fig_01_01, fig_02_01, fig_03_01, fig_04_01, fig_03_02, fig_05_01, fig_06_01, fig_07_01, fig_08_01):
+    for f in (fig_01_01, fig_02_01, fig_03_01, fig_04_01, fig_03_02, fig_05_01, fig_06_01, fig_07_01, fig_08_01,
+             fig_09_01, fig_10_01, fig_11_01, fig_12_01, fig_13_01, fig_14_01,
+             fig_15_01, fig_16_01):
         f()
     print("Done")
 

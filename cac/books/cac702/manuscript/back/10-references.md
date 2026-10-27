@@ -11,9 +11,13 @@ Blakemore, S.-J., Burnett, S., & Dahl, R. E. (2010). The role of puberty in the 
 
 Blos, P. (1962). *On adolescence: A psychoanalytic interpretation*. Free Press.
 
+Brown, B. B., & Larson, J. (2009). Peer relationships in adolescence. In R. M. Lerner & L. Steinberg (Eds.), *Handbook of adolescent psychology* (3rd ed., Vol. 2, pp. 74–103). Wiley.
+
 Carskadon, M. A. (2011). Sleep in adolescents: The perfect storm. *Pediatric Clinics of North America, 58*(3), 637–647.
 
 Casey, B. J., Getz, S., & Galvan, A. (2008). The adolescent brain. *Developmental Review, 28*(1), 62–77.
+
+Collins, W. A. (2003). More than myth: The developmental significance of romantic relationships during adolescence. *Journal of Research on Adolescence, 13*(1), 1–24.
 
 Dahl, R. E. (2004). Adolescent brain development: A period of vulnerabilities and opportunities. *Annals of the New York Academy of Sciences, 1021*(1), 1–22.
 
@@ -23,21 +27,35 @@ Erikson, E. H. (1968). *Identity: Youth and crisis*. W. W. Norton.
 
 Gardner, M., & Steinberg, L. (2005). Peer influence on risk taking, risk preference, and risky decision making in adolescence and adulthood: An experimental study. *Developmental Psychology, 41*(4), 625–635.
 
+*Gillick v West Norfolk and Wisbech Area Health Authority* [1986] AC 112 (House of Lords).
+
 Hall, G. S. (1904). *Adolescence: Its psychology and its relations to physiology, anthropology, sociology, sex, crime, religion and education* (Vols. 1–2). D. Appleton & Company.
 
 Harter, S. (1999). *The construction of the self: A developmental perspective*. Guilford Press.
 
+Henrich, J., Heine, S. J., & Norenzayan, A. (2010). The weirdest people in the world? *Behavioral and Brain Sciences, 33*(2–3), 61–83.
+
 Hyde, J. S., Mezulis, A. H., & Abramson, L. Y. (2008). The ABCs of depression: Integrating affective, biological, and cognitive models to explain the emergence of the gender difference in depression. *Psychological Review, 115*(2), 291–313.
+
+Kessler, R. C., Berglund, P., Demler, O., Jin, R., Merikangas, K. R., & Walters, E. E. (2005). Lifetime prevalence and age-of-onset distributions of DSM-IV disorders in the National Comorbidity Survey Replication. *Archives of General Psychiatry, 62*(6), 593–602.
 
 Laursen, B., Coy, K. C., & Collins, W. A. (1998). Reconsidering changes in parent-child conflict across adolescence: A meta-analysis. *Child Development, 69*(3), 817–832.
 
+Lerner, R. M. (2004). *Liberty: Thriving and civic engagement among America's youth*. Sage Publications.
+
 Marcia, J. E. (1966). Development and validation of ego-identity status. *Journal of Personality and Social Psychology, 3*(5), 551–558.
 
+Masten, A. S. (2001). Ordinary magic: Resilience processes in development. *American Psychologist, 56*(3), 227–238.
+
 Mead, M. (1928). *Coming of age in Samoa: A psychological study of primitive youth for Western civilisation*. William Morrow & Company.
+
+Miller, W. R., & Rollnick, S. (2013). *Motivational interviewing: Helping people change* (3rd ed.). Guilford Press.
 
 Nock, M. K. (2010). Self-injury. *Annual Review of Clinical Psychology, 6*, 339–363.
 
 Nolen-Hoeksema, S. (2001). Gender differences in depression. *Current Directions in Psychological Science, 10*(5), 173–176.
+
+Nsamenang, A. B. (1992). *Human development in cultural context: A Third-World psychology*. Sage Publications.
 
 Odgers, C. L., & Jensen, M. R. (2020). Annual Research Review: Adolescent mental health in the digital age: Facts, fears, and future directions. *Journal of Child Psychology and Psychiatry, 61*(3), 336–352.
 
@@ -46,6 +64,8 @@ Patton, G. C., Sawyer, S. M., Santelli, J. S., Ross, D. A., Afifi, R., Allen, N.
 Phinney, J. S. (1990). Ethnic identity in adolescents and adults: Review of research. *Psychological Bulletin, 108*(3), 499–514.
 
 Piaget, J., & Inhelder, B. (1969). *The psychology of the child*. Basic Books.
+
+Rose, A. J. (2002). Co-rumination in the friendships of girls and boys. *Child Development, 73*(6), 1830–1843.
 
 Rosenberg, M. (1965). *Society and the adolescent self-image*. Princeton University Press.
 
@@ -58,4 +78,8 @@ Spear, L. P. (2000). The adolescent brain and age-related behavioral manifestati
 Steinberg, L. (2008). A social neuroscience perspective on adolescent risk-taking. *Developmental Review, 28*(1), 78–106.
 
 Steinberg, L. (2014). *Age of opportunity: Lessons from the new science of adolescence*. Houghton Mifflin Harcourt.
+
+Super, D. E. (1980). A life-span, life-space approach to career development. *Journal of Vocational Behavior, 16*(3), 282–298.
+
+World Health Organization. (2014). *Health for the world's adolescents: A second chance in the second decade*. WHO.
 :::
