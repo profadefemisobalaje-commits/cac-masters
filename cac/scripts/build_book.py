@@ -96,7 +96,7 @@ MAIN = r'''
 #matter.update("cover")
 #page(margin: 0pt, header: none, footer: none, numbering: none, {
   set text(hyphenate: false)
-  if __COVER__ != none { place(image(__COVER__, width: 100%, height: 100%, fit: "cover")) }
+  if __COVER__ != none { place(image(__COVER__, width: 100%, height: 100%, fit: "cover", alt: "Decorative cover artwork drawn for this edition in the series palette.")) }
   else { place(rect(width: 100%, height: 100%, fill: ivory)) }
   place(top + left, dx: 0.55in, dy: 0.5in, block(width: 4.9in, {
     set par(justify: false, leading: 0.3em, first-line-indent: 0pt)
@@ -174,6 +174,34 @@ MAIN = r'''
 // ============================== BACK MATTER ================================
 #pagebreak(to: "odd", weak: true)
 #include "back.typ"
+
+// ============================== BACK COVER =================================
+#matter.update("cover")
+#page(margin: 0pt, header: none, footer: none, numbering: none, {
+  set text(hyphenate: false)
+  place(rect(width: 100%, height: 100%, fill: ivory))
+  place(top + left, dx: 0.55in, dy: 0.55in, block(width: 4.9in, {
+    set par(justify: false, first-line-indent: 0pt, leading: 0.42em)
+    text(font: sans, size: 7.6pt, weight: "semibold", tracking: 0.24em, fill: bronze-text)[__SERIES__]
+    v(0.5em)
+    line(length: 3.2em, stroke: 2pt + bronze)
+    v(0.7em)
+    text(font: serif, size: 15pt, weight: "semibold", fill: teal)[__TITLEMIXED__]
+    v(0.35em)
+    text(font: sans, size: 8.2pt, tracking: 0.08em, fill: rgb("#3c4a4f"))[__SUBKICK__]
+  }))
+  place(top + left, dx: 0.55in, dy: 2.55in, block(width: 4.9in, {
+    set par(justify: false, leading: 0.5em)
+    set text(size: 9.6pt, fill: ink)
+    [__BACKBODY__]
+  }))
+  place(bottom + left, block(width: 100%, fill: teal, inset: (x: 0.55in, y: 0.3in), {
+    set par(justify: false, first-line-indent: 0pt)
+    text(font: sans, size: 8.6pt, weight: "semibold", tracking: 0.12em, fill: rgb("#F2E3C9"))[__PUBLISHER__]
+    v(0.25em)
+    text(font: sans, size: 7.4pt, fill: rgb("#CFE0E4"))[One volume per course of the Master in Children and Adolescent Counseling · First Edition · 2026]
+  }))
+})
 '''
 
 
@@ -197,6 +225,7 @@ def main():
     title = meta.get("title", book)
     semester = meta.get("semester", "")
     units = meta.get("units", "1.6")
+    vol = meta.get("volume", "")
 
     MS = BOOK / "manuscript"
     BUILD = BOOK / "build"
@@ -217,12 +246,19 @@ def main():
         src = BOOK / "templates" / t if (BOOK / "templates" / t).exists() else CAC / "templates" / t
         shutil.copy(src, BUILD / t)
 
+    cover_png = BOOK / "cover" / "cover-art.png"
+    cover_arg = f'"/books/{book}/cover/cover-art.png"' if cover_png.exists() else "none"
+    bc = BOOK / "backcover.md"
+    backbody = convert(bc) if bc.exists() else ""
+    series_line = SERIES.upper() + (f" · VOLUME {vol}" if vol else "")
+
     words = title.split()
     main_title = " ".join(words[:1]) if False else title
     sub = (f"{code} · {semester} Semester · {units} units · A complete lecture course "
            f"for a sixteen-week semester")
-    main = (MAIN.replace("__COVER__", "none")
-                .replace("__SERIES__", SERIES.upper())
+    main = (MAIN.replace("__COVER__", cover_arg)
+                .replace("__SERIES__", series_line)
+                .replace("__BACKBODY__", backbody)
                 .replace("__TITLEUPPER__", title.upper())
                 .replace("__TITLEMAIN__", title.upper())
                 .replace("__TITLEMIXED__", title)

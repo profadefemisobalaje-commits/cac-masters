@@ -7,6 +7,7 @@ Volume 2 of the CAC Masters Series. One volume per course of the curriculum.
 - semester: First
 - units: 1.6
 - slug: cac701b
+- volume: 2
 - weeks: 16
 
 ## Scope of this volume

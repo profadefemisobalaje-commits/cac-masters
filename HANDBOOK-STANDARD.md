@@ -87,6 +87,17 @@ accreditation reviewer) must be able to walk from any page to the curriculum lin
 - Voice: academic and professional, second person only in the "how to use" matter and in exercise
   instructions.
 
+## 4. Covers
+
+Each volume opens with a designed front cover and closes with a back cover in the house
+palette. Cover art is drawn per edition (vector line work, no stock or generated imagery):
+a motif proper to the volume — the confluence of lineages for volume 1, growth rings for
+volume 2 — keeping the upper third of the page calm for the typographic block. The front
+cover carries the series line with volume number, course code, title, programme line and
+the imprint band. The back cover carries the volume blurb, its strand list, the imprint
+and the series statement. Covers carry no running heads, no folios and no outline
+entries, and the cover image carries alt text for PDF/UA-1.
+
 ## 4. Production and typographic standard
 
 | Element | Specification | Source |
