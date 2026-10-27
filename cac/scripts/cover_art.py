@@ -103,7 +103,27 @@ def art_horizon(path: Path):
     print(f"  cover art -> {path.name}")
 
 
-MOTIFS = {"cac701": art_confluence, "cac702": art_horizon}
+def art_balance(path: Path):
+    """Volume 4: the level beam - two duties held at once, the pivot bronze."""
+    fig, ax = _canvas()
+    ax.plot([0.16, 0.84], [0.58, 0.58], color=TEAL, lw=1.6, solid_capstyle="round", zorder=3)
+    ax.add_patch(plt.Polygon([[0.5, 0.58], [0.44, 0.24], [0.56, 0.24]], closed=True,
+                             facecolor="#D7E4E8", edgecolor=TEAL, lw=1.0, zorder=2))
+    for xe in (0.16, 0.84):
+        ax.plot([xe, xe], [0.58, 0.46], color=BRONZE, lw=0.8, alpha=0.85, zorder=3)
+        t = np.linspace(-1, 1, 60)
+        ax.plot(xe + 0.085 * t, 0.46 - 0.035 * (1 - t ** 2), color=BRONZE, lw=1.3,
+                solid_capstyle="round", zorder=3)
+    ax.add_patch(plt.Circle((0.5, 0.58), 0.016, facecolor=BRONZE, edgecolor="none", zorder=4))
+    for r, a in ((0.09, 0.4), (0.15, 0.25)):
+        ax.add_patch(plt.Circle((0.5, 0.58), r, fill=False, edgecolor=BRONZE, lw=0.7,
+                                alpha=a, zorder=2))
+    fig.savefig(path, facecolor=IVORY)
+    plt.close(fig)
+    print(f"  cover art -> {path.name}")
+
+
+MOTIFS = {"cac701": art_confluence, "cac702": art_horizon, "cac703": art_balance}
 
 
 def main(slug: str):
