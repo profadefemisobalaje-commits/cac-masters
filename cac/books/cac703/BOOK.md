@@ -14,3 +14,4 @@
 - trim: 6 x 9 in
 - citation: APA 7th
 - rights: All rights reserved
+- week-floor: 8000

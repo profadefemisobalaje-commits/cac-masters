@@ -124,6 +124,10 @@ Remaining volumes follow in curriculum order (see the chapter map above for code
   development I-II, the developmental formulation, screening and measurement, the three-ages
   practicum, revision), fifteen diagrams, 132 pages with designed covers, 50 verified
   references, PDF/UA-1, QA passing. Running case: Ife and Kunle, fictitious composite.
+* Per-week word floor (University directive, 27 October 2026): no week of any course subject
+  shall be less than 8,000 words. Declared per volume in `BOOK.md` as `week-floor: 8000` and
+  enforced week-by-week by `qa_book.py` from volume 4 (cac703) onward. Volumes 1-3 were released
+  under the previous no-floor rule.
 * Volume 3 (cac702): COMPLETE. Front matter, all sixteen weeks (definitions and the widening gap,
   puberty and the HPG axis, the remaking brain and sleep, formal operations and peer-accelerated
   risk, identity and its statuses, esteem and the comparison machine, internalising and the risk
