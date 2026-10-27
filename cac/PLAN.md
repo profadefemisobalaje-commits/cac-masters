@@ -106,7 +106,7 @@ gate passes.
 | # | Slug | Course | Weeks done | Status |
 |---|---|---|---|---|
 | 1 | cac701 | CAC. 701 Fundamentals of Counseling Theories | 16 of 16 | complete — all sixteen weeks typeset, 26 diagrams, 147 pp, 84 references, QA passing |
-| 2 | cac701b | CAC. 701 Child Development Theories | 8 of 16 | in progress — weeks 1–8 typeset (methods, prenatal, Piaget, Vygotsky, EF/ToM, temperament, language, self/morals), 8 diagrams |
+| 2 | cac701b | CAC. 701 Child Development Theories | 16 of 16 | complete — all sixteen weeks typeset, 15 diagrams, 132 pages with covers, 50 references, QA passing |
 | 3 | cac702 | CAC. 702 Adolescent Development | 0 | queued |
 | 4 | cac703 | CAC. 703 Ethics in Counseling | 0 | queued |
 
@@ -118,6 +118,12 @@ Remaining volumes follow in curriculum order (see the chapter map above for code
   `CAC. 717`/`CAC. 721` overlap, the uniform `1.6` unit value). None silently corrected.
 * Series architecture: one volume per course under `cac/books/<slug>/`, shared design in
   `cac/templates/handbook.typ`, PDF/UA-1 export, QA gate `scripts/qa_book.py`.
+* Volume 2 (cac701b): COMPLETE. Front matter, all sixteen weeks (methods and ecology, prenatal
+  foundations, Piaget, Vygotsky, executive function and theory of mind, temperament and
+  attachment, language, self and morals, peers and gender, family and adversity, atypical
+  development I-II, the developmental formulation, screening and measurement, the three-ages
+  practicum, revision), fifteen diagrams, 132 pages with designed covers, 50 verified
+  references, PDF/UA-1, QA passing. Running case: Ife and Kunle, fictitious composite.
 * Volume 1 (cac701): COMPLETE. Front matter, all sixteen weeks (four lineages, existential,
   systemic, critique, integration and formulation, evidence-based practice and outcome
   monitoring, comparative practicum, revision and examination), twenty-six diagrams, 147 pages,
