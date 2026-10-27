@@ -82,7 +82,28 @@ def art_rings(path: Path):
     print(f"  cover art -> {path.name}")
 
 
-MOTIFS = {"cac701": art_confluence}
+
+def art_horizon(path: Path):
+    """Volume 3: the rising path that becomes dashed at the horizon - becoming."""
+    fig, ax = _canvas()
+    x = np.linspace(0.08, 0.62, 120)
+    y = 0.16 + 0.62 * (x - 0.08) ** 1.25
+    ax.plot(x, y, color=TEAL, lw=1.6, solid_capstyle="round", zorder=3)
+    x2 = np.linspace(0.62, 0.92, 80)
+    y2 = 0.16 + 0.62 * (x2 - 0.08) ** 1.25
+    ax.plot(x2, y2, color=TEAL, lw=1.6, ls=(0, (5, 4)), solid_capstyle="round", zorder=3)
+    ax.plot([0.06, 0.94], [0.62, 0.62], color=BRONZE, lw=0.9, alpha=0.75, zorder=2)
+    ax.add_patch(plt.Circle((0.62, 0.16 + 0.62 * 0.54 ** 1.25), 0.016,
+                            facecolor=BRONZE, edgecolor="none", zorder=4))
+    for r, a in ((0.09, 0.4), (0.15, 0.25)):
+        ax.add_patch(plt.Circle((0.62, 0.16 + 0.62 * 0.54 ** 1.25), r, fill=False,
+                                edgecolor=BRONZE, lw=0.7, alpha=a, zorder=2))
+    fig.savefig(path, facecolor=IVORY)
+    plt.close(fig)
+    print(f"  cover art -> {path.name}")
+
+
+MOTIFS = {"cac701": art_confluence, "cac702": art_horizon}
 
 
 def main(slug: str):
