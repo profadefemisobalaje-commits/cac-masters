@@ -1,0 +1,12 @@
+node_modules/
+dist/
+toolcheck/
+*.mp4
+*.mp3
+*.png
+!docs/**/*.png
+__pycache__/
+.venv/
+# transient cross-turn narration cache (removed once a week is assembled)
+!video/voice-cache/
+!video/voice-cache/**/*.mp3
