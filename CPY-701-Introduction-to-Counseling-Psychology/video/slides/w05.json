@@ -1,0 +1,471 @@
+{
+  "week": 5,
+  "module": "Module B",
+  "title": "Theoretical Orientations II: Behavioural-Cognitive, Constructivist and Systemic",
+  "slides": [
+    {
+      "layout": "title",
+      "slug": "title",
+      "kicker": "CPY 701 · Master's Degree in Counseling Psychology",
+      "title": "Theoretical Orientations II",
+      "subtitle": "Week 5 · Behavioural-cognitive, constructivist and systemic foundations",
+      "meta": [
+        "Week 5 of 16 · Module B: Core Frameworks",
+        "Narrated lecture video · 1920 × 1080",
+        "Assessment-linked: comparative essay (Week 7), continuous test (Week 8)"
+      ],
+      "footer": "Department of Counseling Psychology · First Semester",
+      "narration": "Welcome to week five of CPY 701, the second of our two weeks on theoretical orientations. Last week we climbed the psychodynamic, humanistic-experiential and existential branches of the family tree. Today we complete the tree: the behavioural-cognitive branch, where suffering is learned and thinking patterns; the constructivist branch, where suffering is a story that can be re-authored; and the systemic branch, where suffering lives between people rather than inside one. We close with the evidence that humbles every branch, the common factors. By the end you will explain each orientation's concepts and techniques, evaluate its evidence and cultural fit, and choose and justify a lens for a named presenting problem."
+    },
+    {
+      "layout": "bullets",
+      "slug": "outcomes",
+      "kicker": "Learning outcomes",
+      "title": "What you will be able to do by the end of this week",
+      "items": [
+        {
+          "lead": "Explain",
+          "text": "the key concepts, goals and techniques of behaviour therapy, cognitive therapy and REBT, the third-wave therapies, narrative therapy, solution-focused brief therapy and family systems approaches."
+        },
+        {
+          "lead": "Evaluate",
+          "text": "the evidence base and the cultural fit of each orientation, including fit with Nigerian clients and settings."
+        },
+        {
+          "lead": "Account for",
+          "text": "the common-factors research: what actually makes therapy work, across all orientations."
+        },
+        {
+          "lead": "Extend your case conceptualisation:",
+          "text": "choose an orientation for a named presenting problem and justify the choice with evidence and culture."
+        }
+      ],
+      "narration": "Four outcomes. One, explain the concepts, goals and techniques of behaviour therapy, cognitive therapy and REBT, the third-wave therapies, narrative therapy, solution-focused brief therapy and family systems. Two, evaluate the evidence base and cultural fit of each, including fit with Nigerian clients and settings. Three, account for the common-factors research: what actually makes therapy work across orientations. Four, extend your case conceptualisation: choose an orientation for a named presenting problem and justify it. Outcome four feeds your comparative essay, due in week seven."
+    },
+    {
+      "layout": "bullets",
+      "slug": "behavioural-foundations",
+      "kicker": "Branch four · Behavioural",
+      "title": "Behaviour therapy: suffering as learned pattern",
+      "items": [
+        {
+          "lead": "The radical question:",
+          "text": "not what does the symptom mean, but how was it learned, and what now maintains it?"
+        },
+        {
+          "lead": "Classical conditioning (Pavlov, Watson):",
+          "text": "neutral cues paired with fear come to trigger fear; the cue itself is treatable."
+        },
+        {
+          "lead": "Operant conditioning (Skinner):",
+          "text": "consequences shape behaviour; avoidance persists because it pays, relieving anxiety in the short run."
+        },
+        {
+          "lead": "Social learning (Bandura):",
+          "text": "patterns are acquired by watching models; self-efficacy governs whether we act."
+        },
+        {
+          "lead": "Wolpe (1958):",
+          "text": "systematic desensitisation paired relaxation with graded imagined exposure, and it worked measurably, which was the point."
+        },
+        {
+          "lead": "The lens:",
+          "text": "suffering is a learned pattern maintained by its consequences; change is new learning."
+        }
+      ],
+      "narration": "The behavioural branch begins with a radical simplicity: do not ask what the symptom means; ask how it was learned and what now maintains it. Classical conditioning, Pavlov and Watson: neutral cues paired with fear come to trigger fear. Operant conditioning, Skinner: consequences shape behaviour, so avoidance persists because it pays. Social learning, Bandura: we acquire patterns by watching models, and self-efficacy governs whether we act. Wolpe added systematic desensitisation in nineteen fifty-eight, pairing relaxation with graded exposure, and it worked measurably. Suffering is a learned pattern maintained by its consequences; change is new learning, and the counselor is an active trainer."
+    },
+    {
+      "layout": "flow",
+      "slug": "exposure-line",
+      "kicker": "Technique line",
+      "title": "Exposure and behavioural activation: the sequence every protocol shares",
+      "steps": [
+        {
+          "title": "1 · Psychoeducation",
+          "color": "#0B1B3A",
+          "text": "Name the cycle with the client: fear cue, avoidance, short-term relief, long-term cost."
+        },
+        {
+          "title": "2 · Hierarchy",
+          "color": "#0F766E",
+          "text": "List feared situations and rank them by expected distress: the map of the work."
+        },
+        {
+          "title": "3 · Expose",
+          "color": "#2563EB",
+          "text": "Enter the situation, or the memory, deliberately, with consent and preparation."
+        },
+        {
+          "title": "4 · Prevent the response",
+          "color": "#C9962E",
+          "text": "Stay without escaping or neutralising; the fear curve falls and new learning lands."
+        },
+        {
+          "title": "5 · Consolidate",
+          "color": "#9A3412",
+          "text": "Repeat until the item is boring; climb the hierarchy; generalise to real life."
+        }
+      ],
+      "narration": "Follow the behavioural technique line, the sequence every exposure protocol shares. One, psychoeducation: name the cycle with the client, fear cue, avoidance, short-term relief, long-term cost. Two, build the hierarchy: list feared situations and rank them by expected distress. Three, expose: enter the situation, or the memory, deliberately, with consent. Four, prevent the response: stay without escaping or neutralising, so the fear curve falls and new learning lands. Five, consolidate: repeat until the item is boring, climb the hierarchy, and generalise to real life. Behavioural activation runs the same logic for depression: schedule valued activities before motivation returns, then let the consequences rebuild it."
+    },
+    {
+      "layout": "bullets",
+      "slug": "cognitive-beck",
+      "kicker": "Branch four · Cognitive",
+      "title": "Cognitive therapy (Beck): the appraisal is the target",
+      "items": [
+        {
+          "lead": "Beck's discovery (1960s):",
+          "text": "depressed patients stream spontaneous negative thoughts; the thoughts are data, not noise."
+        },
+        {
+          "lead": "The cognitive triad:",
+          "text": "a negative view of self, world and future, each reinforcing the others."
+        },
+        {
+          "lead": "Schemas and distortions:",
+          "text": "childhood-fitted lenses filter incoming data; all-or-nothing thinking, overgeneralisation, catastrophising, mind reading, personalisation."
+        },
+        {
+          "lead": "Suffering:",
+          "text": "not the situation but the appraisal of it; and appraisals are testable."
+        },
+        {
+          "lead": "Engine of change:",
+          "text": "collaborative empiricism: every thought is a hypothesis put on trial."
+        },
+        {
+          "lead": "Techniques:",
+          "text": "thought records, Socratic guided discovery, behavioural experiments, schema work for the deeper layers."
+        }
+      ],
+      "narration": "The cognitive turn asks a different question: not what was learned, but what the experience means. Aaron Beck, treating depressed patients in the nineteen sixties, noticed streams of spontaneous negative thoughts, and proposed the cognitive triad: a negative view of self, world and future. Beneath the thoughts sit schemas, lenses fitted in childhood that filter incoming data, and the distortions, habits of biased inference: all-or-nothing thinking, catastrophising, mind reading. Suffering here is not the situation but the appraisal of it, and appraisals are testable. Change comes through collaborative empiricism: every thought is a hypothesis put on trial. The techniques: thought records, Socratic guided discovery, behavioural experiments, and schema work for deeper layers."
+    },
+    {
+      "layout": "bullets",
+      "slug": "rebt-ellis",
+      "kicker": "Branch four · Cognitive",
+      "title": "REBT (Ellis): disputing the musts",
+      "items": [
+        {
+          "lead": "Ellis (1955):",
+          "text": "rational therapy, later REBT: earlier and more confrontational than Beck, and deliberately philosophical."
+        },
+        {
+          "lead": "A · Activating event:",
+          "text": "what happened."
+        },
+        {
+          "lead": "B · Beliefs:",
+          "text": "the pivot: rational preferences versus irrational demands framed as musts."
+        },
+        {
+          "lead": "C · Consequences:",
+          "text": "emotions and behaviours follow from B, not from A."
+        },
+        {
+          "lead": "D and E:",
+          "text": "active disputation of the demands, then a new effective philosophy and its emotions."
+        },
+        {
+          "lead": "Goal and tone:",
+          "text": "unconditional self-acceptance, pursued directly, disputationally, often with humour."
+        }
+      ],
+      "narration": "Albert Ellis arrived earlier, in nineteen fifty-five, with a more confrontational cousin: rational emotive behaviour therapy. Its engine is the ABC model. A, the activating event: what happened. B, the beliefs, and here is the pivot: rational preferences versus irrational demands framed as musts, I must perform well, others must treat me fairly, life must be comfortable. C, the consequences, which follow from B, not from A. Then D, disputation: the counselor actively challenges the demands, where is the evidence that you must be approved? And E, a new effective philosophy and its emotions. The tone is direct, disputational, often humorous; the goal is unconditional self-acceptance."
+    },
+    {
+      "layout": "quote",
+      "slug": "epictetus",
+      "quote": "Men are not disturbed by things, but by the views which they take of them.",
+      "by": "Epictetus · the Stoic motto Ellis made REBT's engine",
+      "narration": "Ellis borrowed his motto from the Stoic philosopher Epictetus: men are not disturbed by things, but by the views which they take of them. Two thousand years old, and still the cleanest one-sentence statement of the cognitive branch: between event and emotion stands a belief, and beliefs can be examined."
+    },
+    {
+      "layout": "bullets",
+      "slug": "cbt-integrator",
+      "kicker": "The merger",
+      "title": "CBT: architecture, evidence, and why it travels",
+      "items": [
+        {
+          "lead": "The merger:",
+          "text": "behaviour and cognition combined into CBT, now the most researched family of treatments in the world."
+        },
+        {
+          "lead": "Architecture:",
+          "text": "a session agenda; problems defined concretely; a shared formulation drawn with the client, not delivered at them; skills taught and practised; outcomes measured."
+        },
+        {
+          "lead": "Homework:",
+          "text": "change happens in the week, not the hour."
+        },
+        {
+          "lead": "Time-limited by design:",
+          "text": "twelve to twenty sessions; transdiagnostic protocols treat clusters, worry, rumination, avoidance, through shared processes."
+        },
+        {
+          "lead": "Why it matters here:",
+          "text": "the largest evidence base to cite, and a structured, psychoeducational style that travels well in clinics, schools and digital formats."
+        },
+        {
+          "lead": "Limits:",
+          "text": "presumes verbal articulacy and a thinking-self model; can underweight meaning, culture and relationship; homework assumes a stable life context."
+        }
+      ],
+      "narration": "Behaviour and cognition merged into CBT, now the most researched family of treatments in the world. Its architecture: a structured session agenda; problems defined concretely; a shared formulation drawn with the client, not delivered at them; skills taught and practised; homework, because change happens in the week, not the hour; and outcomes measured. It is time-limited by design, twelve to twenty sessions, and transdiagnostic protocols treat whole clusters, worry, rumination, avoidance, through shared processes. For Nigerian practice this matters twice: the largest evidence base to point at, and a structured, psychoeducational style that travels well in clinics, schools and digital formats. Its limits: it presumes verbal articulacy, can underweight meaning, culture and relationship, and homework assumes a stable life context."
+    },
+    {
+      "layout": "cards",
+      "slug": "third-wave",
+      "kicker": "Branch four · Third wave",
+      "title": "Acceptance, mindfulness and values: changing the relationship to experience",
+      "perRow": 3,
+      "cards": [
+        {
+          "title": "MBCT / MBSR",
+          "color": "#0B1B3A",
+          "text": "Kabat-Zinn's stress reduction since 1979; mindfulness-based cognitive therapy (Segal, Williams, Teasdale) built to prevent depressive relapse: thoughts watched as events, not truths."
+        },
+        {
+          "title": "ACT · Hayes",
+          "color": "#C9962E",
+          "text": "The target is psychological flexibility, not symptom reduction: accept, defuse, be present, self-as-context, values, committed action. Pain is inevitable; suffering grows optional when the struggle stops."
+        },
+        {
+          "title": "DBT · Linehan",
+          "color": "#0F766E",
+          "text": "Built for chronic suicidality and emotion dysregulation: a biosocial theory, an invalidating environment meets a sensitive temperament, and four skills modules held in a dialectic of acceptance and change."
+        }
+      ],
+      "narration": "The third wave keeps the empiricism and questions the machinery. Mindfulness-based approaches: Kabat-Zinn's stress reduction since nineteen seventy-nine, and mindfulness-based cognitive therapy, built to stop relapse in depression by changing the relationship to thoughts, watching them as events rather than truths. Acceptance and Commitment Therapy, Hayes: the target is psychological flexibility, not symptom reduction; six processes, accepting, defusing, present-moment contact, self-as-context, values, and committed action. Dialectical Behaviour Therapy, Linehan: built for chronic suicidality and emotion dysregulation, on a biosocial theory, an invalidating environment meeting a sensitive temperament, with four skills modules held in a dialectic of acceptance and change. All three say the same deep thing: change the relationship to experience, not only its content."
+    },
+    {
+      "layout": "bullets",
+      "slug": "narrative",
+      "kicker": "Branch five · Constructivist",
+      "title": "Narrative therapy: the person is not the problem",
+      "items": [
+        {
+          "lead": "The refusal (White & Epston):",
+          "text": "the person is not the problem; the problem is the problem."
+        },
+        {
+          "lead": "Externalisation:",
+          "text": "give the problem a name and a character, so a child does not have anger but faces 'The Temper', and the relationship to it can change."
+        },
+        {
+          "lead": "Unique outcomes:",
+          "text": "moments the dominant story missed, when the problem did not win."
+        },
+        {
+          "lead": "Re-authoring:",
+          "text": "weave the exceptions into a preferred plot; outsider-witness practices and therapeutic letters put the new story in writing and in community."
+        },
+        {
+          "lead": "Stance:",
+          "text": "decentred and influential: the counselor is an editor and co-investigator, never the author of the client's life."
+        },
+        {
+          "lead": "Suffering and change:",
+          "text": "a saturated story; re-membering a richer one."
+        }
+      ],
+      "narration": "The constructivist branch starts elsewhere entirely: people live by stories, and problems colonise the plots. Michael White and David Epston shaped narrative therapy around a refusal: the person is not the problem; the problem is the problem. Externalisation gives the problem a character and a name, so a child does not have anger but faces The Temper, and the relationship to it can change. Then comes the search for unique outcomes: moments the dominant story missed, when the problem did not win. Re-authoring weaves those exceptions into a preferred plot, and therapeutic documents, letters and certificates, put the new story in writing and in community. The stance is decentred and influential: the counselor is an editor and co-investigator, never the author of the client's life. Suffering is a saturated story; change is re-membering a richer one."
+    },
+    {
+      "layout": "bullets",
+      "slug": "sfbt",
+      "kicker": "Branch five · Constructivist",
+      "title": "Solution-focused brief therapy: constructivism in a hurry",
+      "items": [
+        {
+          "lead": "De Shazer & Berg, Milwaukee:",
+          "text": "the brevity is not a compromise; it is the argument."
+        },
+        {
+          "lead": "Barely examines the problem:",
+          "text": "searches instead for the solution already flickering."
+        },
+        {
+          "lead": "Miracle question:",
+          "text": "suppose tonight a miracle solves this problem; what is the first small sign tomorrow morning that life is different?"
+        },
+        {
+          "lead": "Scaling and exceptions:",
+          "text": "zero to ten, what moved you up one point; when was the problem absent or smaller, and what was different then?"
+        },
+        {
+          "lead": "Dosage:",
+          "text": "three to eight sessions on average; coping questions carry the hardest weeks."
+        },
+        {
+          "lead": "Fit for Nigeria:",
+          "text": "high need, few specialists, per-visit costs, and cultural fluency in hope and future language; brief is economics made clinical."
+        }
+      ],
+      "narration": "Solution-focused brief therapy, de Shazer and Berg in Milwaukee, is constructivism in a hurry, and its brevity is its argument. It barely examines the problem; it searches for the solution already flickering. The miracle question: suppose tonight a miracle solves this problem, what is the first small sign tomorrow morning that life is different? Scaling questions: where are you from zero to ten, and what moved you one point up? Exception questions: when was the problem smaller, and what was different then? Coping questions carry the hardest weeks. Therapy averages three to eight sessions. For Nigerian settings: high need, few specialists, and cultural fluency in hope language. Brief is not shallow; it is economics made clinical."
+    },
+    {
+      "layout": "twocol",
+      "slug": "family-systems",
+      "kicker": "Branch six · Systemic",
+      "title": "Family systems: relocating suffering between people",
+      "left": {
+        "title": "The systemic lens",
+        "color": "#0B1B3A",
+        "items": [
+          "Circularity: behaviour is both cause and effect in loops; linear blame dissolves",
+          "Homeostasis: systems resist change; one member's improvement can upset the balance of the whole",
+          "Boundaries and subsystems: Minuchin mapped enmeshment and disengagement",
+          "Triangles: dyads under stress recruit a third, often a child (Bowen)",
+          "Differentiation of self: Bowen's developmental goal"
+        ]
+      },
+      "right": {
+        "title": "Systemic practice",
+        "color": "#C9962E",
+        "items": [
+          "Genograms chart multigenerational patterns",
+          "Enactments bring the fight into the room and restructure it live",
+          "Strategic directives and paradoxical prescriptions assign work between sessions",
+          "The identified patient reframed as the family's symptom-bearer",
+          "Change = a new pattern of interaction, not a fixed insight"
+        ]
+      },
+      "narration": "The systemic branch relocates suffering from inside the person to between people. The lens: circularity, behaviour is both cause and effect in loops; homeostasis, systems resist change, and one member's improvement can upset the balance of the whole; boundaries and subsystems, Minuchin mapped enmeshment and disengagement; and triangles, Bowen showed how dyads under stress recruit a third, and made differentiation of self the goal. The practice: genograms chart multigenerational patterns; enactments bring the fight into the room and restructure it live; and the identified patient is reframed as the family's symptom-bearer. Suffering is a pattern of the system; change is a new pattern of interaction."
+    },
+    {
+      "layout": "table",
+      "slug": "six-orientations",
+      "kicker": "Comparison",
+      "title": "This week's six orientations side by side",
+      "cols": [
+        {
+          "t": "Orientation",
+          "w": 0.16
+        },
+        {
+          "t": "View of suffering",
+          "w": 0.21
+        },
+        {
+          "t": "Engine of change",
+          "w": 0.21
+        },
+        {
+          "t": "Counselor's stance",
+          "w": 0.2
+        },
+        {
+          "t": "Signature technique",
+          "w": 0.22
+        }
+      ],
+      "rows": [
+        [
+          "Behaviour therapy",
+          "Learned patterns maintained by consequences",
+          "New learning through exposure and consequences",
+          "Active trainer; scientist of behaviour",
+          "Graded exposure; behavioural activation"
+        ],
+        [
+          "CBT (Beck, Ellis)",
+          "Distorted appraisals; irrational demands",
+          "Collaborative testing of thoughts as hypotheses",
+          "Co-scientist and teacher",
+          "Thought records; behavioural experiments"
+        ],
+        [
+          "Third wave (MBCT, ACT, DBT)",
+          "Entanglement and struggle with experience",
+          "Acceptance, mindfulness, values-based action",
+          "Coach of psychological flexibility",
+          "Defusion; skills modules"
+        ],
+        [
+          "Narrative therapy",
+          "A problem-saturated story",
+          "Re-authoring around unique outcomes",
+          "Decentred editor; co-investigator",
+          "Externalisation; therapeutic letters"
+        ],
+        [
+          "Solution-focused (SFBT)",
+          "Problem-saturated talk",
+          "Solution-building from exceptions and hopes",
+          "Questioner of exceptions",
+          "Miracle and scaling questions"
+        ],
+        [
+          "Family systems",
+          "Relational patterns across the system",
+          "New interactions; restructuring loops",
+          "Director of the system",
+          "Genograms; enactments"
+        ]
+      ],
+      "narration": "Behaviour therapy: learned patterns; new learning through exposure; the counselor as trainer. CBT: distorted appraisals; collaborative testing of thoughts; the counselor as co-scientist. Third wave: entanglement and struggle; acceptance, mindfulness and values; the counselor as coach of flexibility. Narrative: a saturated story; re-authoring around unique outcomes; the counselor as decentred editor. Solution-focused: problem-saturated talk; solution-building from exceptions; the counselor as questioner of exceptions. Family systems: relational patterns; new interactions; the counselor as director of the system. Six rows, one question: which pattern?"
+    },
+    {
+      "layout": "bullets",
+      "slug": "common-factors-culture",
+      "kicker": "The humbling evidence",
+      "title": "Common factors, the dodo verdict, and cultural fit",
+      "items": [
+        {
+          "lead": "The dodo bird verdict:",
+          "text": "Rosenzweig (1936): everybody has won, and all must have prizes."
+        },
+        {
+          "lead": "Lambert's shares:",
+          "text": "roughly forty per cent client strengths and events outside therapy, thirty relationship, fifteen expectancy, fifteen model and technique."
+        },
+        {
+          "lead": "Wampold's meta-analyses:",
+          "text": "bona fide therapies differ little; orientations are structured ways of buying the same active ingredients."
+        },
+        {
+          "lead": "The ingredients:",
+          "text": "a coherent rationale, a healing relationship, expectation of help, and practice at new experience."
+        },
+        {
+          "lead": "Cultural fit:",
+          "text": "CBT suits structured brief care and schools; narrative and SFBT speak the language of proverbs, hope and community; family therapy must treat the extended family as a resource, not a pathology."
+        },
+        {
+          "lead": "Standing rule:",
+          "text": "interdependence is not enmeshment until proven otherwise; test every imported tool locally."
+        }
+      ],
+      "narration": "Now the humbling evidence. Rosenzweig named the dodo bird verdict in nineteen thirty-six: everybody has won, and all must have prizes. Lambert's analysis put shares on it: roughly forty per cent of improvement comes from client strengths and events outside therapy, thirty from the relationship, fifteen from hope and expectancy, and only about fifteen from the model and technique. So orientations are not rival truths but structured ways of delivering the same ingredients: a rationale, a healing relationship, expectancy, and practice. Cultural fit: CBT suits structured brief care and schools; narrative and solution-focused work speak the language of proverbs, hope and community; family therapy must treat the extended family as a resource, not a pathology. Interdependence is not enmeshment until proven otherwise."
+    },
+    {
+      "layout": "summary",
+      "slug": "summary",
+      "title": "Week 5 in review",
+      "items": [
+        "Six orientations join the tree: behaviour, cognition, their merger into CBT, the third wave, narrative, solution-focused, and family systems.",
+        "Each treats a different pattern: learned behaviour, appraisal, entanglement, story, talk, relationship.",
+        "Common factors bind them: relationship, expectancy, rationale and practice do most of the work; models deliver them with discipline.",
+        "The chain holds with nine lenses available: data, lens, hypothesis, intervention, evaluation.",
+        "Cultural fit is a clinical question, not a footnote: test imported theory locally and report what you find."
+      ],
+      "narration": "Gather the week. Six orientations added to the tree: behaviour, cognition, their merger into CBT, the third wave, narrative re-authoring, solution-focused brevity, and family systems. Each names a different pattern to treat: learned behaviour, appraisal, entanglement, story, talk, relationship. The common factors bind them: relationship, expectancy, rationale and practice do most of the work. And your chain holds: data, lens, hypothesis, intervention, evaluation, now with nine lenses to choose from and evidence to justify the choice."
+    },
+    {
+      "layout": "task",
+      "slug": "task",
+      "kicker": "Before Week 6",
+      "title": "Applied task and next week",
+      "items": [
+        "Comparative essay (your seminar paper, assessed): about fifteen hundred words arguing one orientation from Weeks 4-5 for one presenting problem common in Nigerian practice, exam anxiety, depression in students, marital distress, grief. Include a chain conceptualisation, three techniques with their targets, an honest cultural-fit critique, and at least two Nigerian or African empirical references. Submit in Week 7.",
+        "Ten-minute rehearsal: practise one technique on a willing peer, a thought record, a scaling question, an externalising conversation. Do not therapise them; rehearse the move and keep process notes on what was hard.",
+        "Bring both to Week 6, where theory becomes skill: the counseling process, the microskills laboratory, and your first recorded practice."
+      ],
+      "next": "Week 6 · The counseling process and core microskills: attending, listening, questioning, reflecting, and the working alliance in action. Read the process and microskills chapters in Corey and Ivey.",
+      "narration": "Your task before week six, and it is assessed. Write a comparative essay of about fifteen hundred words: choose one presenting problem common in Nigerian practice, exam anxiety, depression in students, marital distress, grief, and argue for one orientation from weeks four or five. Include a conceptualisation using the chain; three techniques with what each targets; an honest cultural-fit critique; and at least two Nigerian or African empirical references. Submit in week seven; it is your seminar paper. Second, a ten-minute rehearsal: try one technique on a willing peer, a thought record, a scaling question, an externalising conversation. Do not therapise them; rehearse the move and write process notes on what was hard. Bring the notes to week six, where theory becomes skill: the counseling process, the microskills laboratory, and your first recorded practice. See you there."
+    }
+  ]
+}

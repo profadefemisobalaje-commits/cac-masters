@@ -49,7 +49,8 @@ newer bundled ffmpeg build is SIGKILLed by the render sandbox) or system ffmpeg;
 | 2 | Historical and Philosophical Development | **Produced** (video + deck + captions) |
 | 3 | Relationship to Other Disciplines and Helping Professions | **Produced** (video + deck + captions) |
 | 4 | Theoretical Orientations I: Psychodynamic, Humanistic, Existential | **Produced** (video + deck + captions) |
-| 5–16 | See `00-16-Week-Video-Outline.md` | Content outlined, production queued |
+| 5 | Theoretical Orientations II: Behavioural-Cognitive, Constructivist, Systemic | **Produced** (video + deck + captions) |
+| 6–16 | See `00-16-Week-Video-Outline.md` | Content outlined, production queued |
 
 ## Preview player
 
