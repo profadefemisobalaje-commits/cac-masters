@@ -8,5 +8,5 @@ toolcheck/
 __pycache__/
 .venv/
 # transient cross-turn narration cache (removed once a week is assembled)
-!video/voice-cache/
-!video/voice-cache/**/*.mp3
+!**/voice-cache/
+!**/voice-cache/**/*.mp3
