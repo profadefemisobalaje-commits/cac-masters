@@ -1,0 +1,259 @@
+{
+  "week": 3,
+  "module": "Module A",
+  "title": "Relationship to Other Disciplines and Helping Professions",
+  "slides": [
+    {
+      "layout": "title",
+      "slug": "title",
+      "kicker": "CPY 701 · Master's Degree in Counseling Psychology",
+      "title": "Among the Helping Professions",
+      "subtitle": "Week 3 · Relationship to other disciplines and the ethics of referral",
+      "meta": [
+        "Week 3 of 16 · Module A: Foundations",
+        "Narrated lecture video · 1920 × 1080",
+        "Assessment-linked: continuous test (Week 8), final examination (Week 16)"
+      ],
+      "footer": "Department of Counseling Psychology · First Semester",
+      "narration": "Welcome to week three of CPY 701. Last week we saw where the field came from; this week we map where it sits. A profession is defined not only by what it does, but by what its neighbours do, and by what it refuses to do. By the end of this lecture you should be able to place counseling psychology confidently among clinical psychology, psychiatry, social work, nursing, pastoral care and traditional healing, and to move a client between those worlds ethically."
+    },
+    {
+      "layout": "bullets",
+      "slug": "outcomes",
+      "kicker": "Learning outcomes",
+      "title": "What you will be able to do by the end of this week",
+      "items": [
+        { "lead": "Contrast", "text": "counseling psychology with clinical psychology, psychiatry, social work, nursing, pastoral care and traditional healing." },
+        { "lead": "Identify", "text": "the unique contributions of the specialty to multidisciplinary work." },
+        { "lead": "Map", "text": "a referral network for your own community, including informal helping resources." },
+        { "lead": "Apply", "text": "the ethics of referral: consent, warm handover, no abandonment, and the feedback loop." }
+      ],
+      "narration": "Four outcomes. One, contrast counseling psychology with clinical psychology, psychiatry, social work, nursing, pastoral care and traditional healing. Two, identify the unique contributions of our specialty to multidisciplinary work. Three, map a referral network for your own community, including the informal helping resources clients actually use. Four, apply the ethics of referral: consent, warm handover, no abandonment, and the feedback loop. These are examination favourites, but more importantly, they are Monday-morning skills."
+    },
+    {
+      "layout": "bullets",
+      "slug": "why-boundaries",
+      "kicker": "Purpose",
+      "title": "Why professional boundaries matter",
+      "items": [
+        { "lead": "Identity:", "text": "you cannot offer what you cannot name; boundaries tell clients what they are buying." },
+        { "lead": "Competence:", "text": "ethical codes bind practice to training; crossing a boundary silently is how harm begins." },
+        { "lead": "Collaboration:", "text": "clear roles make teamwork possible; blurred roles make it a turf war." },
+        { "lead": "Client safety:", "text": "blur produces duplication, contradiction and abandonment, three injuries no client deserves." }
+      ],
+      "narration": "Why dwell on boundaries? Four reasons. Identity: you cannot offer what you cannot name; boundaries tell a client what they are actually buying when they sit with you. Competence: our ethical codes bind practice to training, and crossing a boundary silently is how harm begins. Collaboration: clear roles make teamwork possible, while blurred roles turn a case conference into a turf war. And client safety: blurred boundaries produce duplication, contradiction and abandonment, three injuries no client deserves. Boundaries are not walls; they are the joints that let the helping system move."
+    },
+    {
+      "layout": "table",
+      "slug": "professions-table",
+      "kicker": "The landscape",
+      "title": "Six helping professions at a glance",
+      "cols": [
+        { "t": "Profession", "w": 0.20 },
+        { "t": "Training & regulation", "w": 0.24 },
+        { "t": "Primary focus", "w": 0.28 },
+        { "t": "Methods & prescribing", "w": 0.28 }
+      ],
+      "rows": [
+        ["Counseling psychology", "Postgraduate professional training; CRCN registration", "Functioning, development, mild to moderate distress", "Psychotherapy, assessment, prevention; no prescribing"],
+        ["Clinical psychology", "Doctorate; professional licensing", "Severe psychopathology; assessment-intensive work", "Psychotherapy plus test batteries; no prescribing"],
+        ["Psychiatry", "Medical degree plus specialization", "Diagnosis and medical treatment of mental disorder", "Pharmacotherapy and medical procedures; prescribes"],
+        ["Social work", "Professional social work degree", "Welfare, protection, family and community systems", "Case management, advocacy, group and community work"],
+        ["Psychiatric nursing", "Nursing degree plus specialization", "Continuity of care and the therapeutic milieu", "Observation, adherence support, ward and community care"],
+        ["Pastoral care", "Theological formation; faith-community mandate", "Meaning, ritual, moral and spiritual support", "Counseling, prayer and ritual; no state licence"]
+      ],
+      "note": "Read the table as emphasis, not superiority: every row saves lives that other rows cannot.",
+      "narration": "Read the landscape row by row. Counseling psychology: postgraduate professional training with registration through the Counsellors Registration Council of Nigeria; focus on functioning, development and mild to moderate distress; methods of psychotherapy, assessment and prevention; no prescribing. Clinical psychology: doctorate-level training, heavier on severe psychopathology and test batteries. Psychiatry: a medical degree plus specialization; diagnosis and pharmacotherapy; the only row that prescribes. Social work: welfare, protection and family systems through case management and advocacy. Psychiatric nursing: continuity of care, adherence and the therapeutic milieu. Pastoral care: meaning, ritual and moral support under a faith community's mandate, with no state licence. Every row saves lives the other rows cannot."
+    },
+    {
+      "layout": "twocol",
+      "slug": "clinical-vs-counseling",
+      "kicker": "Nearest neighbour",
+      "title": "Counseling psychology and clinical psychology",
+      "left": {
+        "title": "Clinical psychology leans toward",
+        "color": "#0B1B3A",
+        "items": [
+          "Severe and chronic psychopathology as the central subject",
+          "Assessment-heavy culture: batteries, forensics, differential diagnosis",
+          "Hospital, forensic and specialised clinic settings",
+          "Research on disorder mechanisms and treatment efficacy"
+        ]
+      },
+      "right": {
+        "title": "Counseling psychology leans toward",
+        "color": "#C9962E",
+        "items": [
+          "Normative life challenges alongside disorder: study, work, love, loss",
+          "Strengths, functioning and vocational behaviour as first-class data",
+          "University, community, workplace and private-practice settings",
+          "Research on development, prevention, culture and the working alliance"
+        ]
+      },
+      "narration": "Start with our nearest neighbour, clinical psychology. We share a scientific core and much training overlap, but the centres of gravity differ. Clinical psychology leans toward severe and chronic psychopathology, an assessment-heavy culture of batteries and differential diagnosis, hospital and forensic settings, and research on disorder mechanisms. Counseling psychology leans toward normative life challenges alongside disorder: study, work, love and loss; it treats strengths, functioning and vocational behaviour as first-class data; it lives in universities, communities, workplaces and private practice; and its research favourites are development, prevention, culture and the working alliance. Same family, different centre of gravity."
+    },
+    {
+      "layout": "bullets",
+      "slug": "psychiatry",
+      "kicker": "The medical interface",
+      "title": "Psychiatry and the medical model",
+      "items": [
+        { "lead": "What psychiatry brings:", "text": "medical diagnosis, exclusion of organic causes, pharmacotherapy, and risk management in severe illness." },
+        { "lead": "How we interface:", "text": "shared care; referral for medication review; counseling for adherence, side-effect distress and adjustment to diagnosis; family psychoeducation." },
+        { "lead": "The attitude to keep:", "text": "medicine is not the enemy of talk, and medication is not the enemy of meaning. Many clients need both, sequenced well." },
+        { "lead": "The error to avoid:", "text": "counseling a client whose untreated medical or psychotic condition makes counseling unsafe or futile." }
+      ],
+      "narration": "Now the medical interface. Psychiatry brings what we cannot: medical diagnosis, the exclusion of organic causes, pharmacotherapy, and risk management in severe illness. We interface through shared care: referral for medication review; counseling for adherence, for the distress of side effects, and for adjustment to a diagnosis; and psychoeducation for families carrying the illness home. Keep this attitude: medicine is not the enemy of talk, and medication is not the enemy of meaning; many clients need both, sequenced well. And avoid the classic error: counseling a client whose untreated medical or psychotic condition makes counseling unsafe or futile. Screen first, then sit down."
+    },
+    {
+      "layout": "cards",
+      "slug": "other-professions",
+      "kicker": "The wider circle",
+      "title": "Professions we work beside, not above",
+      "perRow": 3,
+      "cards": [
+        { "title": "Social work", "color": "#0B1B3A", "text": "Case management, welfare, housing and protection; the system around the client." },
+        { "title": "Psychiatric nursing", "color": "#0F766E", "text": "Continuity, observation, adherence and the therapeutic milieu, day after day." },
+        { "title": "School guidance", "color": "#2563EB", "text": "Developmental guidance, career information and early identification of distress." },
+        { "title": "Rehabilitation services", "color": "#7C3AED", "text": "Return to work, community roles and disability adjustment." },
+        { "title": "Pastoral care", "color": "#C9962E", "text": "Meaning, ritual and moral support inside communities of faith." },
+        { "title": "Traditional healing", "color": "#9A3412", "text": "Culturally congruent explanation and healing; first contact for many clients." }
+      ],
+      "narration": "Beyond the clinic sit the professions we work beside, not above. Social work holds the system around the client: case management, welfare, housing, protection. Psychiatric nursing holds continuity: observation, adherence, the therapeutic milieu, day after day. School guidance holds the developmental line: guidance curricula, career information, early identification. Rehabilitation services hold the return to work and community roles. Pastoral care holds meaning and ritual inside communities of faith. And traditional healing holds culturally congruent explanation and ritual, and for many clients it is the first door, not the last. A counselor who dismisses any of these six will lose clients to them; a counselor who understands them gains allies."
+    },
+    {
+      "layout": "bullets",
+      "slug": "pastoral",
+      "kicker": "Faith communities",
+      "title": "Pastoral care: strengths, limits, collaboration",
+      "items": [
+        { "lead": "Strengths:", "text": "trust and access, the pulpit is often the first clinic; a language of meaning and hope; continuity across the lifespan." },
+        { "lead": "Limits:", "text": "confidentiality norms differ; some practices delay care or load guilt onto the sufferer; training in psychopathology varies widely." },
+        { "lead": "Collaboration models:", "text": "consultation and respectful two-way referral; joint psychoeducation programmes; mental-health literacy training for clergy." },
+        { "lead": "The client's reality:", "text": "many clients want both a counselor and a pastor. Coordinate, do not compete." }
+      ],
+      "narration": "Consider pastoral care with particular care, because in our context it is often the first resort. Its strengths are trust and access: the pulpit is frequently the first clinic, speaking a language of meaning and hope, with continuity across the lifespan. Its limits are real: confidentiality norms differ; some practices delay care or load guilt onto the sufferer; and training in psychopathology varies widely. The collaboration models that work are humble ones: consultation and respectful two-way referral, joint psychoeducation programmes, and mental-health literacy training for clergy who want it. Remember the client's reality: many clients want both a counselor and a pastor. Our job is to coordinate, not to compete."
+    },
+    {
+      "layout": "bullets",
+      "slug": "traditional-healers",
+      "kicker": "Community resources",
+      "title": "Traditional healers: prevalence, reasons, ethics",
+      "items": [
+        { "lead": "Prevalence:", "text": "in many communities a majority of people with mental health concerns consult a traditional or faith healer first." },
+        { "lead": "Reasons:", "text": "cultural congruence, cost, proximity, family acceptance, and explanations that make sense of suffering." },
+        { "lead": "Risks:", "text": "delayed evidence-based care; occasionally harmful practices; models that can override the client's own voice." },
+        { "lead": "Ethical engagement:", "text": "respect the worldview; ask what has already been tried; negotiate a plural pathway with consent; build community referral relationships." },
+        { "lead": "Policy backing:", "text": "WHO's mental health gap action programme explicitly supports task-sharing and collaboration with community resources." }
+      ],
+      "callout": {
+        "label": "Working rule:",
+        "text": "never ask a client to choose between their healer and you; where safety allows, coordinate both and keep the client's consent at the centre."
+      },
+      "narration": "Traditional healers deserve the same seriousness. In many communities a majority of people with mental health concerns consult a traditional or faith healer first. The reasons are rational: cultural congruence, cost, proximity, family acceptance, and explanations that make sense of suffering in the community's own idiom. The risks are equally real: delayed evidence-based care, occasionally harmful practices, and explanatory models that can override the client's own voice. Ethical engagement therefore looks like this: respect the worldview; ask openly what has already been tried; negotiate a plural pathway with the client's consent; and build referral relationships with community resources before a crisis forces improvisation. The World Health Organization's mental health gap action programme explicitly supports task-sharing and collaboration with community resources."
+    },
+    {
+      "layout": "flow",
+      "slug": "referral-flow",
+      "kicker": "Practice architecture",
+      "title": "The referral pathway in five moves",
+      "steps": [
+        { "title": "1 · Screen", "color": "#0B1B3A", "text": "Intake: presenting problem, risk, medical flags, and the client's help-seeking path so far." },
+        { "title": "2 · Check", "color": "#0F766E", "text": "Competence check: within my training, scope and current capacity? If doubtful, consult first." },
+        { "title": "3 · Route", "color": "#2563EB", "text": "In scope: counseling plan. Medical flags: physician first. Severe: shared care. Social: welfare. Spiritual: pastoral link." },
+        { "title": "4 · Handover", "color": "#C9962E", "text": "Warm handover: introduce the client, transfer a concise summary, agree roles and consent in writing." },
+        { "title": "5 · Loop", "color": "#9A3412", "text": "Follow up and request feedback; a referral is not complete until it is confirmed and documented." }
+      ],
+      "narration": "Turn the landscape into practice architecture: the referral pathway in five moves. One, screen: intake covers the presenting problem, risk, medical flags, and the client's help-seeking path so far, including healers and pastors already involved. Two, check competence: is this within my training, scope and current capacity? If doubtful, consult before proceeding. Three, route: in scope means a counseling plan; medical flags mean a physician first; severe or complex means shared care; social needs mean welfare and social work; spiritual needs mean a pastoral link with consent. Four, warm handover: introduce the client personally, transfer a concise summary, agree roles and consent in writing. Five, close the loop: follow up, request feedback, document. A referral is not complete until it is confirmed."
+    },
+    {
+      "layout": "bullets",
+      "slug": "referral-ethics",
+      "kicker": "Ethics",
+      "title": "The ethics of moving a client between worlds",
+      "items": [
+        { "lead": "Consent first:", "text": "explain why, to whom, and exactly what information will travel; record the client's decision." },
+        { "lead": "No abandonment:", "text": "you remain responsible until the receiving professional accepts the handover." },
+        { "lead": "Minimum necessary:", "text": "share what the next professional needs, not the whole file; confidentiality survives the referral." },
+        { "lead": "Know your map:", "text": "name your nearest psychiatrist, neurologist, shelter, welfare office and crisis line before you need them." },
+        { "lead": "Task-sharing:", "text": "in low-resource settings it is ethical only with training, protocols and supervision, never as a shortcut." }
+      ],
+      "narration": "The ethics of moving a client between worlds reduce to five disciplines. Consent first: explain why, to whom, and exactly what information will travel, and record the client's decision. No abandonment: you remain responsible until the receiving professional accepts the handover; a phone number on paper is not a referral. Minimum necessary: share what the next professional needs, not the whole file; confidentiality survives the referral. Know your map: be able to name your nearest psychiatrist, neurologist, shelter, welfare office and crisis line before you need them, because crisis is the worst time to do research. And task-sharing: in low-resource settings it is ethical only with training, protocols and supervision, never as a shortcut."
+    },
+    {
+      "layout": "twocol",
+      "slug": "teamwork",
+      "kicker": "Multidisciplinary work",
+      "title": "What we bring to the team, what we ask of it",
+      "left": {
+        "title": "What we bring",
+        "color": "#0B1B3A",
+        "items": [
+          "Strengths-based functional assessment",
+          "Brief, focal, evidence-based interventions",
+          "Prevention and psychoeducation programme design",
+          "Family work, and routine outcome measurement"
+        ]
+      },
+      "right": {
+        "title": "What we ask of the team",
+        "color": "#C9962E",
+        "items": [
+          "Clear role boundaries and named responsibilities",
+          "Consent-based information sharing, not casual disclosure",
+          "Respectful case conferences, including disagreement",
+          "Joint review of shared clients, and protected counseling space"
+        ]
+      },
+      "narration": "Inside a multidisciplinary team, know your contribution and your conditions. What we bring: strengths-based functional assessment; brief, focal, evidence-based interventions; prevention and psychoeducation programme design; family work; and routine outcome measurement that tells the team whether help is helping. What we ask of the team: clear role boundaries and named responsibilities; consent-based information sharing rather than casual corridor disclosure; respectful case conferences where disagreement is allowed; joint review of shared clients; and protected counseling space, because a client who cannot speak privately will not speak truthfully. Bring, and ask, in that order."
+    },
+    {
+      "layout": "quote",
+      "slug": "no-health",
+      "quote": "There is no health without mental health.",
+      "by": "The Lancet · editorial slogan that reshaped global mental health policy (2007)",
+      "narration": "One line to carry from this week: there is no health without mental health. That slogan, popularised in global policy discourse from 2007, is why mental health now belongs in primary care, in schools, in workplaces and in community programmes. It is also why counseling psychology is an integration profession: we translate between medicine and the person, between the community and the clinic, between what a client believes and what a client needs. Wherever health is being delivered, our competence has a seat at that table."
+    },
+    {
+      "layout": "bullets",
+      "slug": "identity-card",
+      "kicker": "Identity",
+      "title": "Your identity card: six distinctive contributions",
+      "items": [
+        { "lead": "Strengths and development:", "text": "functioning and growth, not only symptom counts." },
+        { "lead": "Brief focal intervention:", "text": "evidence-based help that respects time and cost." },
+        { "lead": "Vocational expertise:", "text": "career and work as mental health variables, our historical signature." },
+        { "lead": "Prevention design:", "text": "programmes that stop harm before it starts." },
+        { "lead": "Multicultural competence:", "text": "culture treated as clinical fact, including our own." },
+        { "lead": "Outcome measurement:", "text": "we measure whether help helped, and we publish it." }
+      ],
+      "narration": "So carry an identity card with six entries. Strengths and development: functioning and growth, not only symptom counts. Brief focal intervention: evidence-based help that respects a client's time and money. Vocational expertise: career and work as mental health variables, our historical signature since Parsons. Prevention design: programmes that stop harm before it starts. Multicultural competence: culture treated as a clinical fact, including our own. And outcome measurement: we measure whether help helped, and we are willing to publish the answer. When a team forgets these contributions, remind them, with evidence, not volume."
+    },
+    {
+      "layout": "summary",
+      "slug": "summary",
+      "title": "Week 3 in review",
+      "items": [
+        "Counseling psychology sits among six helping worlds, defined by emphasis: functioning, development, prevention and culture.",
+        "Clinical psychology and psychiatry differ from us in centre of gravity and prescribing rights, not in worth.",
+        "Social work, nursing, school guidance, pastoral care and traditional healing are allies with distinct mandates.",
+        "Referral is a five-move discipline: screen, check, route, warm handover, close the loop.",
+        "The ethics hold: consent, no abandonment, minimum necessary disclosure, and a mapped community."
+      ],
+      "narration": "Gather the week. Counseling psychology sits among six helping worlds, defined by emphasis: functioning, development, prevention and culture. Clinical psychology and psychiatry differ from us in centre of gravity and prescribing rights, not in worth. Social work, nursing, school guidance, pastoral care and traditional healing are allies with distinct mandates, and our clients often use several of them at once. Referral is a five-move discipline: screen, check, route, warm handover, close the loop. And the ethics hold throughout: consent, no abandonment, minimum necessary disclosure, and a community map you built before the crisis."
+    },
+    {
+      "layout": "task",
+      "slug": "task",
+      "kicker": "Before Week 4",
+      "title": "Applied task and next week",
+      "items": [
+        "Draw the referral map of your local government area: at least one named resource in each of six categories, medical, psychiatric, social, educational, faith-based and traditional.",
+        "Write a 150-word warm referral letter for this vignette: a 29-year-old teacher with low mood, weight loss and morning-worse rhythm, currently seeing a traditional healer.",
+        "Interview or telephone one professional from a neighbouring profession and ask one question: what do you wish counselors understood about your work? Bring the answer to the seminar."
+      ],
+      "next": "Week 4 · Theoretical orientations I: psychodynamic, humanistic and existential foundations, and your first theory-informed case conceptualisation.",
+      "narration": "Your task before week four has three parts. First, draw the referral map of your local government area: at least one named resource in each of six categories, medical, psychiatric, social, educational, faith-based and traditional. Second, write a one-hundred-and-fifty-word warm referral letter for this vignette: a twenty-nine-year-old teacher with low mood, weight loss and a morning-worse rhythm, who is currently seeing a traditional healer. Third, interview or telephone one professional from a neighbouring profession and ask a single question: what do you wish counselors understood about your work? Bring the answer to the seminar. Next week we open the theories: psychodynamic, humanistic and existential foundations. See you in week four."
+    }
+  ]
+}

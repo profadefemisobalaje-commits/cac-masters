@@ -1,0 +1,259 @@
+{
+  "week": 1,
+  "module": "Module A",
+  "title": "The Nature and Concept of Counseling Psychology",
+  "slides": [
+    {
+      "layout": "title",
+      "slug": "title",
+      "kicker": "CPY 701 · Master's Degree in Counseling Psychology",
+      "title": "Introduction to Counseling Psychology",
+      "subtitle": "Week 1 · The Nature and Concept of Counseling Psychology",
+      "meta": [
+        "Week 1 of 16 · Module A: Foundations",
+        "Narrated lecture video · 1920 × 1080",
+        "Assessment-linked: continuous test (Week 8), final examination (Week 16)"
+      ],
+      "footer": "Department of Counseling Psychology · First Semester",
+      "narration": "Welcome to CPY 701, Introduction to Counseling Psychology, a core course in the Master's degree in Counseling Psychology. I am glad you are here. This is week one of sixteen, and in this first lecture we ask the most fundamental question of all: what exactly is counseling psychology? By the end of this session you will be able to define the specialty, place it on the helping continuum, and describe the values, scope and limits that govern professional practice."
+    },
+    {
+      "layout": "bullets",
+      "slug": "outcomes",
+      "kicker": "Learning outcomes",
+      "title": "What you will be able to do by the end of this week",
+      "items": [
+        { "lead": "Define", "text": "counseling psychology from authoritative sources, in your own words." },
+        { "lead": "Distinguish", "text": "guidance, counseling and psychotherapy without confusing them." },
+        { "lead": "Explain", "text": "the core values of the specialty and its scope of practice, including where competence ends and referral begins." },
+        { "lead": "Describe", "text": "the scientist-practitioner-advocate identity this programme expects you to grow into." }
+      ],
+      "narration": "Here is what this week promises. First, you will define counseling psychology from authoritative sources. Second, you will distinguish guidance, counseling and psychotherapy without confusing them. Third, you will explain the core values of the specialty and its scope of practice, including where your competence ends and referral begins. And fourth, you will describe the scientist, practitioner and advocate identity that this programme expects you to grow into. Keep these four outcomes beside you as we move; every slide today serves one of them."
+    },
+    {
+      "layout": "bullets",
+      "slug": "working-picture",
+      "kicker": "A first definition",
+      "title": "Counseling psychology: a working picture",
+      "items": [
+        { "lead": "Professional.", "text": "Governed by training, ethics and regulation, not by good intentions." },
+        { "lead": "Psychological.", "text": "Works through mental processes, behaviour and relationship, not through medicine or coercion." },
+        { "lead": "Helping.", "text": "Its engine is a deliberate, boundaried relationship between a trained counselor and a client who seeks change." },
+        { "text": "It applies psychological theory, research and technique to help people improve wellbeing, resolve problems in living, and develop personally, socially, educationally and vocationally.", "lvl": 1 }
+      ],
+      "narration": "Let us begin with a working picture. Counseling psychology is a professional specialty within psychology. It applies psychological theory, research and technique to help people improve their wellbeing, resolve problems in living, and develop personally, socially, educationally and vocationally. Notice three things in that sentence. It is professional: it is governed by training, ethics and regulation, not by good intentions. It is psychological: it works through mental processes, behaviour and relationship, not through medicine or coercion. And it is helping: its engine is a deliberate, boundaried relationship between a trained counselor and a client who seeks change. Everything else in this course grows from those three anchors."
+    },
+    {
+      "layout": "cards",
+      "slug": "definitions",
+      "kicker": "Authoritative voices",
+      "title": "Three definitions worth keeping",
+      "perRow": 3,
+      "cards": [
+        { "title": "APA Division 17", "color": "#0B1B3A", "text": "A specialty that facilitates personal and interpersonal functioning across the lifespan: emotional, social, vocational, educational, health-related and developmental concerns." },
+        { "title": "Corey (2021)", "color": "#C9962E", "text": "A collaborative process between two people, in which the counselor's attitudes and skills help the client examine and change behaviour, thoughts and feelings." },
+        { "title": "Gladding (2021)", "color": "#0F766E", "text": "The professional practice of helping people who are not severely disturbed to solve problems, make decisions and grow." }
+      ],
+      "narration": "Now let three authoritative voices sharpen the definition. The Society of Counseling Psychology, Division 17 of the American Psychological Association, describes the field as a specialty that facilitates personal and interpersonal functioning across the lifespan, focusing on emotional, social, vocational, educational, health-related and developmental concerns. Corey reminds us that counseling is a collaborative process between two people, in which the counselor's attitudes and skills help the client examine and change behaviour. Gladding calls counseling the professional practice of helping people who are not severely disturbed to solve problems and make decisions. Hear the common thread: ordinary people, real problems, a trained helper, and change that the client owns."
+    },
+    {
+      "layout": "quote",
+      "slug": "rogers",
+      "quote": "The curious paradox is that when I accept myself just as I am, then I can change.",
+      "by": "Carl R. Rogers · founder of person-centred counseling",
+      "narration": "Carl Rogers left us a line that captures the heart of our work: the curious paradox is that when I accept myself just as I am, then I can change. Counseling psychology is not about fixing broken people. It is about creating conditions in which a person, accepted and understood, can move toward their own potential. Hold that paradox; it will return in every theory we study."
+    },
+    {
+      "layout": "continuum",
+      "slug": "helping-continuum",
+      "kicker": "Placement",
+      "title": "The helping continuum",
+      "nodes": [
+        { "title": "Guidance", "color": "#2563EB", "text": "Informative, preventive, educational: information and direction for choices." },
+        { "title": "Counseling", "color": "#C9962E", "text": "Relational process with situational and developmental distress; ordinary functioning." },
+        { "title": "Psychotherapy", "color": "#7C3AED", "text": "Longer, intensive work with entrenched personality and chronic emotional patterns." },
+        { "title": "Medical treatment", "color": "#9A3412", "text": "Diagnosis-led psychiatric care; medication and medical management." }
+      ],
+      "note": "The boundaries blur in practice; the direction of travel, depth, duration and training differ.",
+      "narration": "Where does counseling sit on the helping road? Picture a continuum. At one end is guidance: informative, preventive and often educational, giving students or clients the information and direction they need, for example choosing a course or a career. Next is counseling: a deeper, relational process with clients who are experiencing adjustment, developmental or situational distress but remain within the range of ordinary functioning. Further along is psychotherapy: longer, more intensive work with deeper-seated personality or chronic emotional difficulties. And at the far end sits psychiatric and medical treatment, where diagnosis and medication lead. The boundaries blur in practice, but the direction of travel, depth, duration and training differ."
+    },
+    {
+      "layout": "table",
+      "slug": "compare-three",
+      "kicker": "Comparison",
+      "title": "Guidance, counseling and psychotherapy side by side",
+      "cols": [
+        { "t": "Dimension", "w": 0.16 },
+        { "t": "Guidance", "w": 0.27 },
+        { "t": "Counseling", "w": 0.29 },
+        { "t": "Psychotherapy", "w": 0.28 }
+      ],
+      "rows": [
+        ["Focus", "Information, orientation, prevention", "Adjustment and developmental problems in living", "Deeper personality and chronic emotional patterns"],
+        ["Typical client", "Students and groups, generally well adjusted", "Individuals or couples in situational distress", "Individuals with entrenched or diagnosed difficulties"],
+        ["Duration", "Minutes to a few sessions", "Short term: roughly 6 to 20 sessions", "Medium to long term: months or years"],
+        ["Depth", "Surface: information and direction", "Present concerns, feelings and decisions", "Past-rooted patterns, meaning and identity"],
+        ["Practitioner", "Teacher, guidance officer, advisor", "Counseling psychologist, professional counselor", "Psychotherapist, clinical psychologist, psychiatrist"]
+      ],
+      "note": "The columns describe emphasis, not walls: real practice overlaps.",
+      "narration": "Let us make those differences concrete. Guidance is typically brief, informational and preventive; its client is often a student or a group; a teacher or guidance officer may deliver it. Counseling is relational and focused on present problems in living; its client is a person or couple in situational distress; the counselor holds postgraduate professional training. Psychotherapy runs longer, works with more entrenched patterns and often with diagnosed disorders; the psychotherapist or clinical psychologist leads it. Memorise the table's dimensions, focus, client, duration, depth and practitioner, because examination questions love to ask you to distinguish these three in practice."
+    },
+    {
+      "layout": "twocol",
+      "slug": "neighbours",
+      "kicker": "Professional identity",
+      "title": "Counseling psychology among its neighbours",
+      "left": {
+        "title": "What we share",
+        "color": "#0B1B3A",
+        "items": [
+          "Psychological assessment and diagnostic awareness",
+          "Evidence-based intervention and outcome measurement",
+          "Ethics, confidentiality and informed consent",
+          "Work inside multidisciplinary teams and referral networks"
+        ]
+      },
+      "right": {
+        "title": "What distinguishes us",
+        "color": "#C9962E",
+        "items": [
+          "Emphasis on strengths, resources and resilience",
+          "Developmental and vocational concerns taken as seriously as disorder",
+          "Prevention and brief, focal intervention",
+          "Culture, context and social justice treated as clinical facts",
+          "Normal-range distress addressed before it becomes pathology"
+        ]
+      },
+      "narration": "A frequent confusion: how is counseling psychology different from clinical psychology and psychiatry? We share much: assessment, diagnostic awareness, evidence-based intervention, and ethics. What distinguishes us is emphasis. Counseling psychology stresses strengths and resources, not only pathology; it works with developmental and vocational concerns as seriously as with disorder; it favours brief, focal, preventive intervention; and it treats culture, context and social justice as clinical facts, not footnotes. Psychiatry adds medical training and prescribing; clinical psychology leans harder on severe psychopathology and assessment batteries. Knowing the overlap protects you from turf wars; knowing the distinction protects your professional identity."
+    },
+    {
+      "layout": "cards",
+      "slug": "core-values",
+      "kicker": "Values",
+      "title": "Six values that give the specialty its character",
+      "perRow": 3,
+      "cards": [
+        { "title": "Wellness & prevention", "color": "#0F766E", "text": "Strengthen communities and prevent harm, not only repair damage." },
+        { "title": "Strengths & resilience", "color": "#C9962E", "text": "Hunt for resources and capacities, not merely deficits." },
+        { "title": "Lifespan development", "color": "#0B1B3A", "text": "Meet the child, the adult and the elder at their own developmental tasks." },
+        { "title": "Multicultural justice", "color": "#7C3AED", "text": "Culture, faith, gender and poverty shape distress and help-seeking." },
+        { "title": "Evidence-informed practice", "color": "#2563EB", "text": "Choose what works, keep it brief and focal, and measure the result." },
+        { "title": "Advocacy", "color": "#9A3412", "text": "Sometimes the most therapeutic act is to change the wounding system." }
+      ],
+      "narration": "Six values give the specialty its character. Wellness and prevention: we would rather strengthen a community than only repair damage. Strengths and resilience: we hunt for resources, not merely deficits. Development across the lifespan: a twelve-year-old, a forty-year-old and a seventy-year-old face different tasks, and we meet each where they are. Multicultural and social justice commitment: culture, faith, gender and poverty shape distress and help-seeking. Brief, focal, evidence-informed practice: we choose what works, and we measure it. And advocacy: sometimes the most therapeutic act is to change the system that wounds the client."
+    },
+    {
+      "layout": "bullets",
+      "slug": "scope",
+      "kicker": "Scope of practice",
+      "title": "What counseling psychologists actually do",
+      "items": [
+        { "lead": "Populations:", "text": "children, adolescents, students, couples, families, workers and older adults." },
+        { "text": "Adjustment to change; academic and examination stress; career decision-making; grief; relationship conflict.", "lvl": 1 },
+        { "text": "Mild to moderate anxiety and depression; trauma reactions; health-related adjustment; early substance-use concerns.", "lvl": 1 },
+        { "lead": "Settings:", "text": "schools and universities, hospitals and clinics, workplaces and employee assistance programmes, rehabilitation centres, faith and community organisations, non-governmental organisations, private and telepractice." },
+        { "lead": "Remember:", "text": "the scope is wide, but it is not unlimited. Width is not the same as licence." }
+      ],
+      "narration": "What does the scope of practice look like on the ground? Populations: children, adolescents, students, couples, families, workers and older adults. Concerns: adjustment to change, academic and examination stress, career decision-making, grief, relationship conflict, mild to moderate anxiety and depression, trauma reactions, health-related adjustment, and substance-use concerns at an early stage. Settings: schools and universities, hospitals and clinics, workplaces and employee assistance programmes, rehabilitation centres, faith and community organisations, non-governmental organisations, and private or telepractice. Wide, yes. Unlimited, no. And that brings us to limits."
+    },
+    {
+      "layout": "bullets",
+      "slug": "limits",
+      "kicker": "Limits of practice",
+      "title": "Where competence ends and referral begins",
+      "items": [
+        { "lead": "Refer onward when:", "text": "you meet psychosis or severe mood disorder with risk; when medical causes may explain the presentation; when medication review is needed; when forensic or custody questions arise; when the problem exceeds your training." },
+        { "lead": "Stand aside when:", "text": "your own values, history or relationship with the client compromise your objectivity." },
+        { "lead": "Refer in and collaborate:", "text": "counseling psychologists work inside multidisciplinary teams; a warm referral letter is part of the intervention." },
+        { "lead": "Ask early:", "text": "if you are unsure whether a case is yours, supervision exists precisely for that question." }
+      ],
+      "callout": {
+        "label": "Rule of thumb:",
+        "text": "when in doubt, consult your supervisor before you proceed, and document the consultation as part of good practice."
+      },
+      "narration": "Competence has edges, and naming them is a professional act, not a confession of weakness. Refer onward when you meet psychosis or severe mood disorder with risk; when medical causes may explain the presentation; when the client needs medication review; when forensic or custody questions arise; when the problem exceeds your training, such as specialist eating-disorder or addiction treatment; and whenever your own values or relationship with the client compromise objectivity. Equally, refer in: counseling psychologists work inside multidisciplinary teams, and a warm referral letter is part of the intervention. If you ever feel unsure whether a case is yours, supervision exists precisely for that question."
+    },
+    {
+      "layout": "triangle",
+      "slug": "spa-model",
+      "kicker": "Professional model",
+      "title": "The scientist-practitioner-advocate identity",
+      "points": [
+        { "title": "Scientist", "color": "#0B1B3A" },
+        { "title": "Practitioner", "color": "#0F766E" },
+        { "title": "Advocate", "color": "#9A3412" }
+      ],
+      "center": ["Counseling", "psychologist"],
+      "lede": "As scientist you consume and produce evidence. As practitioner you translate it into skilful, humane action. As advocate you change the conditions that manufacture suffering.",
+      "narration": "So who are you becoming? The classic answer is the scientist, practitioner, and, in newer formulations, the advocate. As scientist you consume and produce evidence: you read outcome research, you measure your own results, you stay humble before data. As practitioner you translate that evidence into skilful, timely, humane action with a real person in front of you. As advocate you notice that some suffering is manufactured by unjust systems, and you act to change conditions, in schools, workplaces and policy. The gold centre of this triangle is you: the integrated counseling psychologist, holding all three roles without letting any one of them dominate."
+    },
+    {
+      "layout": "twocol",
+      "slug": "art-science",
+      "kicker": "A creative tension",
+      "title": "Counseling as science and as art",
+      "left": {
+        "title": "The science",
+        "color": "#0B1B3A",
+        "items": [
+          "Theory, technique and treatment sequencing",
+          "Measurement, outcome research and fidelity",
+          "Hypothesis-testing in every case formulation",
+          "Accountability to clients and to the profession"
+        ]
+      },
+      "right": {
+        "title": "The art",
+        "color": "#C9962E",
+        "items": [
+          "Timing: knowing when to be silent and when to speak",
+          "Presence, warmth and the disciplined use of self",
+          "Language, metaphor and cultural fluency",
+          "Courage to challenge at the right moment"
+        ]
+      },
+      "narration": "Is counseling an art or a science? The honest answer is both, and the tension is creative. The science side gives you theory, technique, measurement and research evidence: what to do, in what order, with what expected effect. The art side gives you timing, presence, language and intuition: knowing when to be silent, when to challenge, when a metaphor will land where a lecture would bounce off. Science without art is mechanical and cold; art without science is charming but unaccountable. Our discipline asks you to be rigorous enough to be trusted and human enough to be helpful."
+    },
+    {
+      "layout": "bullets",
+      "slug": "person-of-counselor",
+      "kicker": "Preview · developed fully in Week 15",
+      "title": "The person of the counselor",
+      "items": [
+        { "lead": "Self-awareness", "text": "and honesty about your own wounds; the examined life is a clinical tool." },
+        { "lead": "Warmth and genuineness:", "text": "respect that the client can feel, not merely read in a code of ethics." },
+        { "lead": "Emotional stability:", "text": "the capacity to tolerate another's pain without collapsing or fleeing." },
+        { "lead": "Openness to difference:", "text": "culture, faith, gender and class that are not your own." },
+        { "lead": "A disciplined conscience:", "text": "ethics practised in private, where no one is watching." },
+        { "lead": "Start now:", "text": "open a reflective journal this week; one page after every skills practice." }
+      ],
+      "narration": "Finally this week, a preview of the person of the counselor. Technical skill will not carry you if the person behind the skill is unexamined. The qualities we will cultivate across this programme include self-awareness and honesty about your own wounds; warmth, respect and genuineness; emotional stability and the capacity to tolerate another's pain without collapsing or fleeing; openness to culture and difference; courage to be challenged and to change; and a disciplined ethical conscience. Start a reflective journal now, this week. One page after every skills practice. By week fifteen you will see a counselor forming in those pages."
+    },
+    {
+      "layout": "summary",
+      "slug": "summary",
+      "title": "Week 1 in review",
+      "items": [
+        "Counseling psychology applies psychological science to improve functioning and wellbeing across the lifespan.",
+        "It sits between guidance and psychotherapy on the helping continuum, distinguished by focus, depth, duration and training.",
+        "It shares ground with clinical psychology and psychiatry while keeping its own emphasis on strengths, development, prevention and culture.",
+        "Its scope is broad but bounded; referral is a professional skill, not a failure.",
+        "It is lived through a scientist-practitioner-advocate identity held by an examined person."
+      ],
+      "narration": "Let us gather the week. Counseling psychology applies psychological science to help people improve functioning and wellbeing across the lifespan. It sits between guidance and psychotherapy on the helping continuum, distinguished by focus, depth, duration and training. It shares ground with clinical psychology and psychiatry while keeping its own emphasis on strengths, development, prevention and culture. Its scope is broad but bounded, and referral is a skill, not a failure. And it is lived through a scientist, practitioner, advocate identity held by an examined person."
+    },
+    {
+      "layout": "task",
+      "slug": "task",
+      "kicker": "Before Week 2",
+      "title": "Applied task and next week",
+      "items": [
+        "Write your own sixty-word definition of counseling psychology, then defend it in one paragraph against the strongest objection you can imagine.",
+        "Observe one helping conversation in your community, teacher and student, pastor and member, friend and friend, and classify it: guidance, counseling, or something else? Note what made you decide.",
+        "Bring both to the seminar, and open your reflective journal with today's entry."
+      ],
+      "next": "Week 2 · Historical and philosophical development: from Frank Parsons (1908) to the first graduate training in counseling psychology in Nigeria (1994). Read the history chapters in Corey and Gladding.",
+      "narration": "Your task before next week. Write your own sixty-word definition of counseling psychology, then defend it in one paragraph against the strongest objection you can imagine. Second, observe one helping conversation in your community, a teacher and student, a pastor and a member, a friend and a friend, and note which helping mode it was: guidance, counseling, or something else. Bring both to the seminar. Next week we travel through history, from Frank Parsons to the first graduate training in counseling psychology in Nigeria. Read Corey and Gladding's history chapters before then. Thank you for your attention; I will see you in week two."
+    }
+  ]
+}
