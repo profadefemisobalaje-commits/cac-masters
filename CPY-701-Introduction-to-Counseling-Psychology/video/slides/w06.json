@@ -1,0 +1,445 @@
+{
+  "week": 6,
+  "module": "Module B",
+  "title": "The Counseling Process and Core Microskills",
+  "slides": [
+    {
+      "layout": "title",
+      "slug": "title",
+      "kicker": "CPY 701 · Master's Degree in Counseling Psychology",
+      "title": "The Counseling Process and Microskills",
+      "subtitle": "Week 6 · From theory to practice: the working alliance in action",
+      "meta": [
+        "Week 6 of 16 · Module B: Core Frameworks",
+        "Narrated lecture video · 1920 × 1080",
+        "Assessment-linked: microskills demonstration (10%), recorded role-play (Week 7)"
+      ],
+      "footer": "Department of Counseling Psychology · First Semester",
+      "narration": "Welcome to week six of CPY 701, where theory becomes practice. Weeks four and five gave you nine lenses for seeing suffering; this week gives you the hands. Every orientation we studied is delivered through the same medium: a conversation conducted with disciplined skill. Today we walk the counseling process from first contact to termination, and then we drill the microskills, the smallest units of that conversation, the way a musician drills scales. By the end you will structure the process across its stages, run a first session, demonstrate the core listening and influencing skills, recognise and correct beginner pitfalls, and adapt every skill to Nigerian relational norms. This week opens your practice laboratory."
+    },
+    {
+      "layout": "bullets",
+      "slug": "outcomes",
+      "kicker": "Learning outcomes",
+      "title": "What you will be able to do by the end of this week",
+      "items": [
+        {
+          "lead": "Structure",
+          "text": "the counseling process across its stages, from relationship building to termination and follow-up."
+        },
+        {
+          "lead": "Demonstrate",
+          "text": "the core microskills: attending, listening, reflection of feeling, questioning, summarising, and the influencing skills."
+        },
+        {
+          "lead": "Diagnose",
+          "text": "common beginner pitfalls and apply deliberate corrections."
+        },
+        {
+          "lead": "Adapt",
+          "text": "every skill to Nigerian relational norms: respect, eye contact, indirectness, gender and age dynamics."
+        }
+      ],
+      "narration": "Four outcomes. One, structure the counseling process across its stages, from relationship building through assessment, intervention and evaluation, to termination and follow-up. Two, demonstrate the core microskills: attending, listening, reflection of feeling, questioning and summarising, plus the influencing skills of immediacy, confrontation and self-disclosure. Three, diagnose common beginner pitfalls and apply deliberate corrections. Four, adapt every skill to Nigerian relational norms: respect, eye contact, indirectness, gender and age dynamics. Outcome two is assessed: your recorded microskills demonstration counts for ten per cent of the course."
+    },
+    {
+      "layout": "flow",
+      "slug": "process-stages",
+      "kicker": "The arc of help",
+      "title": "The counseling process in five stages",
+      "steps": [
+        {
+          "title": "1 · Relationship",
+          "color": "#0B1B3A",
+          "text": "Safety before strategy: rapport, structure, consent, confidentiality and its limits. The alliance is the strongest common factor you control."
+        },
+        {
+          "title": "2 · Assessment & goals",
+          "color": "#0F766E",
+          "text": "The story, the strengths, the risks; a shared formulation; goals in the client's language, concrete enough to measure."
+        },
+        {
+          "title": "3 · Intervention",
+          "color": "#2563EB",
+          "text": "The working phase: your chosen lens in action, techniques paced to the alliance, homework where the model asks for it."
+        },
+        {
+          "title": "4 · Evaluation",
+          "color": "#C9962E",
+          "text": "Routine outcome monitoring: is help helping? Adjust, escalate or refer on the evidence."
+        },
+        {
+          "title": "5 · Termination & follow-up",
+          "color": "#9A3412",
+          "text": "End deliberately: review gains, plan for setbacks, say goodbye properly, schedule the follow-up that closes the loop."
+        }
+      ],
+      "narration": "The process has an arc, and the arc holds whatever lens you use. Stage one, relationship building: safety before strategy; rapport, consent and confidentiality settled early, because the alliance is the strongest common factor under your control. Stage two, assessment and goals: gather the story and the strengths, screen risk, and set goals in the client's own language, concrete enough to measure. Stage three, intervention: the working phase, your chosen lens in action, techniques paced to the alliance. Stage four, evaluation: routine outcome monitoring, asking whether help is helping, and adjusting on evidence. Stage five, termination and follow-up: end deliberately, review gains, plan for setbacks, say goodbye properly, and schedule the contact that closes the loop."
+    },
+    {
+      "layout": "bullets",
+      "slug": "first-session",
+      "kicker": "Stage one in practice",
+      "title": "Anatomy of the first session",
+      "items": [
+        {
+          "lead": "Opening five minutes:",
+          "text": "greet, seat, water; state who you are, your role, session length, fees if any, and what happens today."
+        },
+        {
+          "lead": "Consent and confidentiality:",
+          "text": "plain the limits in plain language, harm to self or others, court orders, supervision; record consent."
+        },
+        {
+          "lead": "The invitation:",
+          "text": "'What brings you here?' then listen long; the first telling carries both content and the client's test of you."
+        },
+        {
+          "lead": "Screening:",
+          "text": "risk, medical flags, substances, current supports; week three's screen-before-you-sit discipline."
+        },
+        {
+          "lead": "Closing structure:",
+          "text": "summarise what you heard, agree one small next step, state when and how you will meet again."
+        },
+        {
+          "lead": "Documentation:",
+          "text": "notes written the same day; the record is for care, for ethics and for supervision."
+        }
+      ],
+      "narration": "Zoom into stage one: the anatomy of a first session. The opening five minutes matter more than they look: greet, seat, water; state your role and what happens today. Consent and confidentiality come next in plain language, including the limits; record it. Then the invitation: what brings you here? Listen long: the first telling carries the content and the client's test of you. Screen as you listen: risk, medical flags, substances, and supports; week three's discipline, screen before you sit down. Close with structure: summarise what you heard in the client's own words, agree one next step and the next meeting. Then document the same day: the record serves care, ethics and supervision."
+    },
+    {
+      "layout": "bullets",
+      "slug": "attending",
+      "kicker": "Microskills · level one",
+      "title": "Attending behaviour: the skill underneath every skill",
+      "items": [
+        {
+          "lead": "SOLER (Egan):",
+          "text": "Squarely face, Open posture, Lean in, Eye contact appropriate to culture, Relaxed."
+        },
+        {
+          "lead": "Vocal channel:",
+          "text": "tone, pace and volume follow the client's affect; your voice is an instrument, not a metronome."
+        },
+        {
+          "lead": "Verbal following:",
+          "text": "stay on the client's topics and key words; do not import your own agenda in the first ten minutes."
+        },
+        {
+          "lead": "Cultural attunement:",
+          "text": "eye contact norms differ by age, gender and status; in many Nigerian settings, lowered gaze signals respect, not evasion."
+        },
+        {
+          "lead": "Why it matters:",
+          "text": "attending is the delivery system for everything else; unskilled presence leaks, whatever the words say."
+        }
+      ],
+      "narration": "Microskills stack in levels, and level one is attending: the skill underneath every skill. Egan's SOLER gives the body a syntax: face the client squarely, keep an open posture, lean in slightly, hold culturally apt eye contact, and stay relaxed. The vocal channel matters as much: let tone and pace follow the client's affect; your voice is an instrument, not a metronome. Verbally, follow the client's topics and key words; do not import your own agenda early. And attune culturally: eye-contact norms differ by age, gender and status, and in many Nigerian settings a lowered gaze signals respect, not evasion, so calibrate SOLER to the person, not the textbook. Attending is the delivery system for all that follows; unskilled presence leaks."
+    },
+    {
+      "layout": "bullets",
+      "slug": "listening",
+      "kicker": "Microskills · level two",
+      "title": "Active listening: encouragers, paraphrase, reflection of feeling",
+      "items": [
+        {
+          "lead": "Minimal encouragers:",
+          "text": "'mm', 'go on', nods: low-cost signals that keep the story moving without steering it."
+        },
+        {
+          "lead": "Paraphrase:",
+          "text": "return the content in fewer words and check: 'So the transfer happened two weeks before the headaches?'"
+        },
+        {
+          "lead": "Reflection of feeling:",
+          "text": "name the emotion behind the content: 'You sound angry, and underneath that, hurt.'"
+        },
+        {
+          "lead": "The formula:",
+          "text": "feeling word + context; tentatively offered, corrected by the client without shame."
+        },
+        {
+          "lead": "Accuracy test:",
+          "text": "a good reflection earns a yes, a deepening, or a correction, all three are progress; a deflection means you missed."
+        }
+      ],
+      "narration": "Level two is active listening, and it has three instruments. Minimal encouragers: mm, go on, a nod, low-cost signals that keep the story moving without steering it. Paraphrase: return the content in fewer words and check it. Reflection of feeling: name the emotion behind the content, you sound angry, and underneath that, hurt. The formula is a feeling word plus its context, offered tentatively and corrected without shame. The accuracy test: a good reflection earns a yes, a deepening, or a correction, and all three are progress, because each tells you the client felt heard enough to go further or set you right. A deflection or a change of subject usually means you missed. Missing is not failure; failing to notice that you missed is."
+    },
+    {
+      "layout": "quote",
+      "slug": "deeply-heard",
+      "quote": "When a person realizes he has been deeply heard, his eyes moisten. It is as though he is saying, thank God, somebody heard me.",
+      "by": "Carl R. Rogers · A Way of Being (1980)",
+      "narration": "Rogers captured what level two is for: when a person realises he has been deeply heard, his eyes moisten, as though he is saying, thank God, somebody heard me. In most of our clients' lives, that experience is rarer than advice, and far more transformative."
+    },
+    {
+      "layout": "bullets",
+      "slug": "questioning",
+      "kicker": "Microskills · level two",
+      "title": "Questioning: the scalpel, not the hammer",
+      "items": [
+        {
+          "lead": "Open questions:",
+          "text": "'What was that like?' invites narrative; use them to explore."
+        },
+        {
+          "lead": "Closed questions:",
+          "text": "invite one-word answers; use them deliberately for facts and risk screening, not for conversation."
+        },
+        {
+          "lead": "The 'why' trap:",
+          "text": "'Why did you stay?' sounds like accusation; recast: 'What made staying possible?'"
+        },
+        {
+          "lead": "Question density:",
+          "text": "two questions in a row without a reflection is a warning sign; the client becomes witness, not author."
+        },
+        {
+          "lead": "The reliable sequence:",
+          "text": "listen, reflect, then ask: a question after a reflection lands on softened ground."
+        }
+      ],
+      "narration": "Questioning is the scalpel of listening, and like a scalpel it cuts both ways. Open questions, what was that like, invite narrative; use them to explore. Closed questions invite one-word answers; use them for facts and risk screening, where precision matters, not for conversation. Beware the why trap: why did you stay sounds like an accusation even when it is not meant as one; recast it, what made staying possible, or what did staying do for you. Watch your question density: two questions in a row without a reflection in between flips the session into interrogation, and the client becomes the witness rather than the author. The reliable sequence is listen, reflect, then ask: a question that follows a reflection lands on softened ground, and the client answers from experience rather than from defence."
+    },
+    {
+      "layout": "bullets",
+      "slug": "high-voltage",
+      "kicker": "Holding the difficult",
+      "title": "Silence, tears and other high-voltage moments",
+      "items": [
+        {
+          "lead": "Silence is a skill:",
+          "text": "count slowly; the client's silence is usually work, not breakdown. Interrupting it steals the insight."
+        },
+        {
+          "lead": "When to enter:",
+          "text": "if silence hardens into shutdown, name it gently: 'I notice we went quiet; would it help to say what is happening?'"
+        },
+        {
+          "lead": "Tears:",
+          "text": "do not rush to stop them; offer tissue, presence, time. Tears are data and discharge, not emergency."
+        },
+        {
+          "lead": "Anger in the room:",
+          "text": "stay steady; do not match it or moralise it; reflect what is underneath."
+        },
+        {
+          "lead": "Risk disclosures:",
+          "text": "shift deliberately to direct, closed screening; a clear question about suicide does not plant the idea, it opens the door to help."
+        },
+        {
+          "lead": "Your own surge:",
+          "text": "notice, breathe, keep attending; process your reaction later in supervision, not in the session."
+        }
+      ],
+      "narration": "Some moments carry more voltage than words. Silence is a skill: count slowly, because the client's silence is usually work, not breakdown; interrupting steals the insight forming inside it. If silence hardens into shutdown, name it gently: I notice we went quiet, would it help to say what is happening? Tears: do not rush to stop them; offer tissue, presence and time; tears are data and discharge, not emergency. Anger in the room: stay steady, do not match it or moralise it; reflect what is underneath. Risk disclosures change the register deliberately: move to direct, closed screening questions, because a clear question about suicide does not plant the idea; it opens the door to help. And when your own emotions surge, notice, breathe, keep attending; process it in supervision, never in session."
+    },
+    {
+      "layout": "bullets",
+      "slug": "summarising",
+      "kicker": "Microskills · level two, upper",
+      "title": "Summarising, structuring and pacing",
+      "items": [
+        {
+          "lead": "Summarising:",
+          "text": "bundle content, feeling and themes at transitions and session ends; it gives the client the shape of their own story."
+        },
+        {
+          "lead": "Structuring:",
+          "text": "say what a phase is for: 'For the next few minutes I would like us to slow down around what you just said.'"
+        },
+        {
+          "lead": "Pacing:",
+          "text": "match the client's tempo before leading it; deep material entered too fast produces retreat, not progress."
+        },
+        {
+          "lead": "The alliance, live:",
+          "text": "Bordin's bonds, goals and tasks are built out of exactly these moves, session after session."
+        },
+        {
+          "lead": "Repair:",
+          "text": "when you misread or miss, say so plainly; a repaired rupture strengthens the alliance more than smoothness ever did."
+        }
+      ],
+      "narration": "Upper level two: summarising, structuring and pacing. Summarising bundles content, feeling and themes at transitions and session ends; it gives clients the shape of their own story. Structuring says out loud what a phase is for. Pacing matches the client's tempo before leading it, because deep material entered too fast produces retreat, not progress. Notice what these moves add up to: Bordin's working alliance, bonds, goals and tasks, is built out of exactly these behaviours, session after session. And when you misread or miss, as you will, repair it plainly: I got that wrong, tell me again. A repaired rupture strengthens the alliance more than smoothness ever did."
+    },
+    {
+      "layout": "bullets",
+      "slug": "influencing",
+      "kicker": "Microskills · level three",
+      "title": "The influencing skills: immediacy, challenge, disclosure",
+      "items": [
+        {
+          "lead": "Level three:",
+          "text": "skills that add the counselor's perspective; they only work on top of solid levels one and two."
+        },
+        {
+          "lead": "Immediacy:",
+          "text": "use the here-and-now of this relationship: 'Right now, as you tell me this, I notice you are smiling. What is happening between us?'"
+        },
+        {
+          "lead": "Supportive challenge:",
+          "text": "hold two data points side by side and invite the client to look: 'You say it does not matter, and your fists say it does.'"
+        },
+        {
+          "lead": "Self-disclosure:",
+          "text": "brief, purposeful, for the client's benefit; the test is always whose need it serves."
+        },
+        {
+          "lead": "Interpretation and advice:",
+          "text": "the riskiest moves; both land only where the alliance can carry them, and both are earned, not opened with."
+        }
+      ],
+      "narration": "Level three is influencing: the skills that add the counselor's perspective to the room. They work only on top of solid attending and listening; influence without rapport is noise. Immediacy uses the here-and-now of this relationship: right now, as you tell me this, I notice you are smiling, what is happening between us? Supportive challenge holds two data points side by side: you say it does not matter, and your fists say it does. Self-disclosure must be brief, purposeful and for the client's benefit; the test is whose need it serves. And interpretation and advice are the riskiest moves: both land only where the alliance can carry them, and both are earned, never opened with."
+    },
+    {
+      "layout": "cards",
+      "slug": "hierarchy",
+      "kicker": "Intentional interviewing (Ivey)",
+      "title": "The microskills hierarchy in three levels",
+      "perRow": 3,
+      "cards": [
+        {
+          "title": "Level one · Attending",
+          "color": "#0B1B3A",
+          "text": "SOLER, vocal tone, verbal following. The body speaks before the mouth does; presence is the precondition of everything."
+        },
+        {
+          "title": "Level two · Listening",
+          "color": "#0F766E",
+          "text": "Encouragers, paraphrase, reflection of feeling, questioning, summarising. The client's story returns to them organised and heard; most of most sessions live here."
+        },
+        {
+          "title": "Level three · Influencing",
+          "color": "#C9962E",
+          "text": "Immediacy, supportive challenge, self-disclosure, interpretation, direction. The counselor's perspective enters, dosed to what the alliance can carry."
+        }
+      ],
+      "narration": "Ivey's intentional interviewing organises this into a hierarchy that is the curriculum. Level one, attending: SOLER, vocal tone, verbal following; the body speaks before the mouth does. Level two, listening: encouragers, paraphrase, reflection of feeling, questioning and summarising; the client's story returns to them organised and heard, and most of most sessions should live here. Level three, influencing: immediacy, supportive challenge, self-disclosure, interpretation and direction; the counselor's perspective enters, dosed to what the alliance can carry. Intentional interviewing means knowing which level you are on, why you chose it, and what the alternatives were. That awareness separates a professional conversation from a well-meaning one."
+    },
+    {
+      "layout": "table",
+      "slug": "pitfalls",
+      "kicker": "Supervision favourites",
+      "title": "Six beginner pitfalls and their corrections",
+      "cols": [
+        {
+          "t": "Pitfall",
+          "w": 0.2
+        },
+        {
+          "t": "How it sounds",
+          "w": 0.27
+        },
+        {
+          "t": "What it costs",
+          "w": 0.26
+        },
+        {
+          "t": "Correction",
+          "w": 0.27
+        }
+      ],
+      "rows": [
+        [
+          "Reassurance rush",
+          "'Don't worry, it will be fine'",
+          "Feels like dismissal; ends exploration",
+          "Reflect first: 'It has been a hard week'"
+        ],
+        [
+          "Interrogation mode",
+          "Closed questions in volleys",
+          "Client becomes witness, not author",
+          "Listen, reflect, then one open question"
+        ],
+        [
+          "Advice early",
+          "'If I were you, I would...'",
+          "Robbed decision; unowned change",
+          "Explore options; let the client choose"
+        ],
+        [
+          "Story hijack",
+          "'That happened to me too...'",
+          "Session changes owner",
+          "One line of disclosure, then back to them"
+        ],
+        [
+          "Feeling avoidance",
+          "Skipping past tears to logistics",
+          "The core material goes unspoken",
+          "Stay: 'Stay with that a moment'"
+        ],
+        [
+          "Premature depth",
+          "Trauma excavation in session two",
+          "Retreat, dropout, re-traumatisation",
+          "Pace to the alliance; stabilise first"
+        ]
+      ],
+      "narration": "Supervision sees six pitfalls in every cohort. Reassurance rush: don't worry, it will be fine, feels like dismissal; reflect first. Interrogation mode: closed questions in volleys make the client a witness; listen, reflect, then one open question. Advice early: if I were you robs the client of ownership; explore options, let them choose. Story hijack: that happened to me too changes the session's owner; one line of disclosure, then back to them. Feeling avoidance: skipping past tears leaves the core material unspoken; stay with that a moment. Premature depth: excavating trauma in session two produces retreat or re-traumatisation; stabilise first. Every pitfall is a skill at the wrong time; the correction is another skill."
+    },
+    {
+      "layout": "bullets",
+      "slug": "nigerian-calibration",
+      "kicker": "Cultural calibration",
+      "title": "Microskills, Nigerian edition",
+      "items": [
+        {
+          "lead": "Respect grammar:",
+          "text": "honorifics, greetings and inquiries about family are not small talk; they are the entry permit to the real conversation."
+        },
+        {
+          "lead": "Eye contact:",
+          "text": "calibrate by age, gender and status; a lowered gaze from a young client may be respect, not shame or evasion."
+        },
+        {
+          "lead": "Indirectness:",
+          "text": "serious material often arrives wrapped in proverb, story or third person ('someone I know'); unwrap with the client, not against them."
+        },
+        {
+          "lead": "Elders and authority:",
+          "text": "when a parent or pastor sits in, negotiate confidentiality and private time explicitly, at intake if possible."
+        },
+        {
+          "lead": "Gender dynamics:",
+          "text": "offer choice of counselor where possible; mirror conservatively until the client sets the tone."
+        },
+        {
+          "lead": "Communal self:",
+          "text": "goals phrased only as individual autonomy may miss the client's actual world; weigh family outcomes honestly in the plan."
+        }
+      ],
+      "narration": "Now calibrate every skill to home ground. Respect grammar first: honorifics, greetings and inquiries about family are the entry permit to the real conversation, not small talk. Eye contact: calibrate by age, gender and status; a lowered gaze may signal respect, not evasion. Indirectness: serious material often arrives wrapped in proverb, story or the third person; unwrap it with the client, never against them. When a parent or pastor sits in, negotiate confidentiality and private time. Gender: offer choice of counselor where possible; mirror conservatively until the client sets the tone. And the communal self: goals phrased only as individual autonomy may miss their world. The skills are universal; their expression is local; that is competence."
+    },
+    {
+      "layout": "summary",
+      "slug": "summary",
+      "title": "Week 6 in review",
+      "items": [
+        "The counseling process has five stages: relationship, assessment and goals, intervention, evaluation, termination and follow-up, and the arc holds across every orientation.",
+        "Microskills stack in three levels: attending, listening, influencing; intentional interviewing means knowing your level and your reasons.",
+        "Reflection of feeling, pacing and repair build the alliance, the strongest common factor under your control.",
+        "The six beginner pitfalls are each corrected by another skill, deliberately timed.",
+        "Every skill needs Nigerian calibration: respect grammar, eye contact, indirectness, elders, gender, and the communal self."
+      ],
+      "narration": "Gather the week. The process has five stages, and the arc holds whatever lens you bring. Microskills stack in three levels, attending, listening, influencing; intentional interviewing means knowing your level and your reasons. Reflection, pacing and repair build the alliance, the strongest common factor under your control. The six pitfalls are each corrected by another skill, deliberately timed. Every skill needs Nigerian calibration: respect, eye contact, indirectness, elders, gender and the communal self. The hands are learning now."
+    },
+    {
+      "layout": "task",
+      "slug": "task",
+      "kicker": "Before Week 7",
+      "title": "Applied task and next week",
+      "items": [
+        "Form a practice triad, counselor, client, observer, and rotate. Rehearse each level: five minutes of attending only, then listening, then one dosed influencing move. The observer uses this lecture's checklist and gives one strength and one correction per round.",
+        "Record a ten-minute role-play segment with a peer using the week-three teacher vignette: demonstrate attending, two reflections of feeling, one open question, one summary, and one repaired rupture. Submit the recording and a one-page self-critique in Week 7; this is your microskills demonstration, 10% of the course.",
+        "Keep your reflective journal: one entry on the skill that felt hardest, and why."
+      ],
+      "next": "Week 7 · The counseling relationship in depth: the working alliance, diversity and multicultural competence, power and social justice in the room. Read Ivey's interviewing chapters and Corey on the person of the counselor.",
+      "narration": "Your tasks before week seven, and the second is assessed. First, form a practice triad: counselor, client, observer, and rotate. Rehearse each level separately: five minutes of attending only, then listening, then one dosed influencing move; the observer gives one strength and one correction per round. Second, record a ten-minute role-play with a peer using the week-three teacher vignette. Demonstrate five things: steady attending, two reflections of feeling, one open question, one summary, and one repaired rupture, where you misread something and fix it openly. Submit the recording with a one-page self-critique in week seven; it is your microskills demonstration, worth ten per cent. Third, one journal entry on the skill that felt hardest, and why. Next week we take the relationship itself as the subject: the working alliance, diversity and multicultural competence, and power in the room. See you there."
+    }
+  ]
+}

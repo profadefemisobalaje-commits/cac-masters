@@ -50,7 +50,8 @@ newer bundled ffmpeg build is SIGKILLed by the render sandbox) or system ffmpeg;
 | 3 | Relationship to Other Disciplines and Helping Professions | **Produced** (video + deck + captions) |
 | 4 | Theoretical Orientations I: Psychodynamic, Humanistic, Existential | **Produced** (video + deck + captions) |
 | 5 | Theoretical Orientations II: Behavioural-Cognitive, Constructivist, Systemic | **Produced** (video + deck + captions) |
-| 6–16 | See `00-16-Week-Video-Outline.md` | Content outlined, production queued |
+| 6 | The Counseling Process and Core Microskills | **Produced** (video + deck + captions) |
+| 7–16 | See `00-16-Week-Video-Outline.md` | Content outlined, production queued |
 
 ## Preview player
 
