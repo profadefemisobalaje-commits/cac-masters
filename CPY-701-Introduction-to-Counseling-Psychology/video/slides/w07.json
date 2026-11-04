@@ -1,0 +1,433 @@
+{
+  "week": 7,
+  "module": "Module B",
+  "title": "The Counseling Relationship: Alliance, Diversity and Multicultural Competence",
+  "slides": [
+    {
+      "layout": "title",
+      "slug": "title",
+      "kicker": "CPY 701 · Master's Degree in Counseling Psychology",
+      "title": "The Counseling Relationship",
+      "subtitle": "Week 7 · The working alliance, diversity and multicultural competence",
+      "meta": [
+        "Week 7 of 16 · Module B: Core Frameworks",
+        "Narrated lecture video · 1920 × 1080",
+        "Assessment-linked: alliance audit + identity exercise; continuous test (Week 8, 15%)"
+      ],
+      "footer": "Department of Counseling Psychology · First Semester",
+      "narration": "Welcome to week seven of CPY 701. Weeks four, five and six gave you lenses and hands; this week examines the medium both float in: the counseling relationship itself. Everything you have learned arrives through a human relationship, and the evidence is blunt: the relationship is not a warm-up to the intervention; in substantial part, it is the intervention. Today we build the working alliance deliberately, repair it when it breaks, widen the frame to diversity, multicultural competence and power, and close with what all of it means in Nigerian practice. This week also prepares you for the mid-semester test in week eight, which covers weeks one to seven."
+    },
+    {
+      "layout": "bullets",
+      "slug": "outcomes",
+      "kicker": "Learning outcomes",
+      "title": "What you will be able to do by the end of this week",
+      "items": [
+        {
+          "lead": "Explain",
+          "text": "Bordin's pan-theoretical working alliance and the evidence that the relationship contributes to outcome independently of method."
+        },
+        {
+          "lead": "Build and repair",
+          "text": "the alliance deliberately: recognise rupture, metacommunicate, and use the empirically supported relationship elements."
+        },
+        {
+          "lead": "Apply",
+          "text": "multicultural competence frameworks, awareness, knowledge and skills, including Hays's ADDRESSING model of social identities."
+        },
+        {
+          "lead": "Analyse",
+          "text": "power and intersectionality in the room and in society, and practise advocacy as part of counseling."
+        }
+      ],
+      "narration": "Four outcomes. One, explain Bordin's pan-theoretical working alliance and the evidence that the relationship contributes to outcome independently of method. Two, build and repair the alliance deliberately: recognise rupture, metacommunicate, and use the empirically supported relationship elements. Three, apply multicultural competence frameworks, awareness, knowledge and skills, including the ADDRESSING model of social identities. Four, analyse power and intersectionality in the room and in society, and practise advocacy as part of counseling. Your tasks this week also prepare your week-eight test."
+    },
+    {
+      "layout": "bullets",
+      "slug": "evidence",
+      "kicker": "The relationship as evidence",
+      "title": "What the research actually says",
+      "items": [
+        {
+          "lead": "Norcross & Lambert:",
+          "text": "the psychotherapy relationship makes a substantial and consistent contribution to outcome, independent of the specific method used."
+        },
+        {
+          "lead": "The number:",
+          "text": "Flückiger's meta-analysis: an alliance-outcome correlation around r = .28 across thousands of studies, among the most robust findings in the field."
+        },
+        {
+          "lead": "Supported elements:",
+          "text": "empathy, positive regard, genuineness, alliance, rupture repair, client expectations, countertransference management, cultural adaptation."
+        },
+        {
+          "lead": "What it does not say:",
+          "text": "that techniques do not matter; they carry about fifteen per cent of outcome and make hope concrete."
+        },
+        {
+          "lead": "The consequence:",
+          "text": "whatever lens you hold, you deliver it through a relationship that is measurable, trainable and ethically serious."
+        }
+      ],
+      "narration": "Start with the evidence; it changes priorities. Norcross and Lambert's consensus statement is blunt: the psychotherapy relationship makes a substantial and consistent contribution to outcome, independent of the specific method used. Flückiger's meta-analysis puts the alliance-outcome correlation at roughly point two eight, among the most robust findings in the field. Empathy, regard, genuineness, the alliance itself, rupture repair, expectations and countertransference management are the supported elements. This does not say technique does not matter: technique carries about fifteen per cent of outcome and makes hope concrete. Whatever lens you hold, you deliver it through a relationship whose quality is measurable, trainable, and ethically serious."
+    },
+    {
+      "layout": "cards",
+      "slug": "bordin",
+      "kicker": "The working model",
+      "title": "Bordin's pan-theoretical alliance: bonds, goals, tasks",
+      "perRow": 3,
+      "cards": [
+        {
+          "title": "Bonds",
+          "color": "#0B1B3A",
+          "text": "The affective glue: safety, respect, felt understanding. The part clients name first when asked why they stayed."
+        },
+        {
+          "title": "Goals",
+          "color": "#0F766E",
+          "text": "Agreement on what the work is for, in the client's own language. Misaligned goals are the commonest silent killer of therapy."
+        },
+        {
+          "title": "Tasks",
+          "color": "#C9962E",
+          "text": "Agreement on how: what each person does in session and between sessions. Homework refusal is often task disagreement in disguise."
+        }
+      ],
+      "narration": "Bordin made the alliance pan-theoretical with three interlocking parts, and this triad is the most useful working model you will own. Bonds: the affective glue, do I feel safe, respected and understood here? Goals: agreement on what this work is for, stated in language the client owns. Tasks: agreement on how we get there, what each of us does in session and between sessions. Weakness in any part strains the whole, and misalignment of goals is the commonest silent killer, because counselor and client can work hard at different projects for months without noticing. And the model travels: psychodynamic, CBT, narrative, systemic work can all be described, monitored and repaired in this one language."
+    },
+    {
+      "layout": "flow",
+      "slug": "rupture-repair",
+      "kicker": "Safran & Muran",
+      "title": "Rupture and repair: the cycle that strengthens the alliance",
+      "steps": [
+        {
+          "title": "1 · Strain appears",
+          "color": "#0B1B3A",
+          "text": "Rupture markers: the client withdraws, goes flat, deflects, or confronts and criticises the process."
+        },
+        {
+          "title": "2 · Notice",
+          "color": "#0F766E",
+          "text": "Your own body is the first instrument: tightening, a drop in warmth, a rehearsed defence."
+        },
+        {
+          "title": "3 · Name gently",
+          "color": "#2563EB",
+          "text": "Invite exploration rather than defend: 'I notice something shifted; can we look at it together?'"
+        },
+        {
+          "title": "4 · Metacommunicate",
+          "color": "#C9962E",
+          "text": "Talk about the talking: what just happened between us? Own your part without collapsing into apology."
+        },
+        {
+          "title": "5 · Renegotiate",
+          "color": "#9A3412",
+          "text": "Reset goals or tasks where the rupture is about direction; the tested alliance returns stronger."
+        }
+      ],
+      "narration": "Rupture is not failure; unrepaired rupture is. Safran and Muran's cycle gives the shape. One, strain appears: the client withdraws, goes flat, deflects, or confronts and criticises the process. Two, notice: your body is the first instrument: tightening, a drop in warmth, a rehearsed defence. Three, name it gently, inviting exploration rather than defending. Four, metacommunicate: talk about the talking, what just happened between us? Own your contribution without collapsing into apology; repair requires honesty. Five, renegotiate goals or tasks where the rupture is about direction. The outcome: an alliance strengthened by being tested, and a client who learns that conflict with you is survivable, for many clients the deepest therapy on offer."
+    },
+    {
+      "layout": "bullets",
+      "slug": "empathy",
+      "kicker": "Supported element one",
+      "title": "Empathy: trainable, measurable, culturally accented",
+      "items": [
+        {
+          "lead": "Not sympathy, not identification:",
+          "text": "accurate understanding of the client's inner frame of reference, communicated so the client recognises it."
+        },
+        {
+          "lead": "Carkhuff's scale:",
+          "text": "level one misses the feeling; level three captures content and feeling; level five adds depth the client senses but has not named. Aim at three, reach for five."
+        },
+        {
+          "lead": "The instrument:",
+          "text": "week six's reflection of feeling; a yes, a deepening or a correction all count as progress."
+        },
+        {
+          "lead": "Cultural syntax:",
+          "text": "deep empathy may be carried by presence, proverb, practical help and respectful silence rather than feeling words; read the idiom, keep the function."
+        }
+      ],
+      "narration": "Now empathy itself. Empathy is not sympathy, I feel sorry for you, and not identification, I have lived your story. It is accurate understanding of the client's inner frame of reference, communicated so the client recognises it. Carkhuff's scale made it trainable: level one misses the feeling; level three captures content and feeling; level five adds the depth the client senses but has not named. Aim at three, reach for five. Week six's reflection of feeling is its instrument; a yes, a deepening or a correction all count as progress. Empathy has a cultural syntax: in many Nigerian contexts it is carried less by feeling words than by presence, proverb, practical help and respectful silence. Read the idiom; keep the function."
+    },
+    {
+      "layout": "quote",
+      "slug": "yalom",
+      "quote": "It is the relationship that heals, the relationship that heals, the relationship that heals.",
+      "by": "Irvin D. Yalom · The Gift of Therapy (2002), his personal seal",
+      "narration": "Yalom carried the whole week on his personal seal: it is the relationship that heals, repeated three times, not because he lacked vocabulary, but because every school of therapy keeps forgetting it and must be reminded."
+    },
+    {
+      "layout": "bullets",
+      "slug": "other-elements",
+      "kicker": "Supported elements two to five",
+      "title": "Regard, congruence, expectation, countertransference",
+      "items": [
+        {
+          "lead": "Unconditional positive regard:",
+          "text": "prizing without conditions of worth; an attitude with behaviours: warmth of voice, patience with repetition, no flinching at the shameful parts."
+        },
+        {
+          "lead": "Congruence:",
+          "text": "genuineness within the relationship; inner experience matches outer expression, within what serves the client."
+        },
+        {
+          "lead": "Client expectations:",
+          "text": "cultivate positive expectancy with a credible rationale; hope is an active ingredient, not a placebo to be tolerated."
+        },
+        {
+          "lead": "Countertransference:",
+          "text": "week four's instrument: monitored, supervised, used as data rather than leaked as behaviour."
+        },
+        {
+          "lead": "One sentence:",
+          "text": "be real, be for them, understand them, repair what breaks, adapt to who they are."
+        }
+      ],
+      "narration": "The other classical conditions. Unconditional positive regard: acceptance without conditions of worth, prizing the person even while rejecting some behaviour; an attitude with behaviours, warmth of voice, patience with repetition, and no flinching at the shameful parts. Congruence: the counselor is real within the relationship; inner experience matches outer expression, within what serves the client. Norcross adds two more supported elements: cultivating positive expectations through a credible rationale, because hope is an active ingredient, not a placebo to tolerate; and managing countertransference, week four's instrument, monitored and supervised, used as data rather than leaked as behaviour. Five elements, one sentence: be real, be for them, understand them, repair what breaks, and adapt to who they are."
+    },
+    {
+      "layout": "bullets",
+      "slug": "diversity",
+      "kicker": "Widening the frame",
+      "title": "Diversity and intersectionality in the Nigerian room",
+      "items": [
+        {
+          "lead": "Nigeria is not one culture:",
+          "text": "250+ ethnic groups, Hausa, Yoruba and Igbo among the largest; a near-even Christian-Muslim presence with indigenous traditions woven through both; Pidgin as the room's lingua franca."
+        },
+        {
+          "lead": "The widest gaps:",
+          "text": "urban and rural worlds, class and education, gender and age hierarchies, disability, orientation, migrant and displaced populations."
+        },
+        {
+          "lead": "Intersectionality (Crenshaw):",
+          "text": "a client is a crossing point where systems of advantage and disadvantage meet, not a list of categories."
+        },
+        {
+          "lead": "Both directions:",
+          "text": "the same identity can be oppression in one context and strength in another."
+        },
+        {
+          "lead": "Where to start:",
+          "text": "the honest inventory of yourself, because that is where the gradient is hardest to see."
+        }
+      ],
+      "narration": "Now widen the frame. Nigeria is not one culture: more than two hundred and fifty ethnic groups, Hausa, Yoruba and Igbo among the largest; a near-even Christian-Muslim presence with indigenous traditions woven through both; class and education gaps wider than many borders; and Nigerian Pidgin as the room's true lingua franca. Layer on gender and age, disability, orientation, and displaced populations. Crenshaw's intersectionality is the analytic tool: a client is not a list of categories but a crossing point where systems of advantage and disadvantage meet, and the same identity can be oppression in one context and strength in another. Competence begins with the honest inventory of yourself."
+    },
+    {
+      "layout": "bullets",
+      "slug": "frameworks",
+      "kicker": "Structure, not slogans",
+      "title": "Multicultural competence: the frameworks",
+      "items": [
+        {
+          "lead": "Sue & Sue's triad:",
+          "text": "awareness of your own assumptions; knowledge of worldviews and the literature describing them; skills to intervene in culturally congruent ways, including knowing when to consult."
+        },
+        {
+          "lead": "Hays's ADDRESSING:",
+          "text": "Age, Disability, Religion, Ethnicity, Socioeconomic status, Sexual orientation, Indigenous heritage, National origin, Gender; map yourself and your client on all nine, and note where power flows toward you."
+        },
+        {
+          "lead": "Professional standards:",
+          "text": "the APA Multicultural Guidelines and the ACA multicultural and advocacy competencies."
+        },
+        {
+          "lead": "The posture:",
+          "text": "lifelong self-examination, attention to power and privilege, culturally sensitive assessment, advocacy at client, community and public levels."
+        },
+        {
+          "lead": "Not a certificate:",
+          "text": "a posture with practices."
+        }
+      ],
+      "narration": "Competence has structure. Sue and Sue's triad: awareness of your own assumptions; knowledge of the client's worldview and its literature; and skills to intervene congruently, including knowing when to consult. Hays's ADDRESSING gives the identity checklist: Age, Disability, Religion, Ethnicity, Socioeconomic status, Sexual orientation, Indigenous heritage, National origin, Gender. Map yourself and your client on all nine axes, and note where power flows toward you. The APA Guidelines and ACA competencies add the standards: lifelong self-examination, attention to power and privilege, culturally sensitive assessment, and advocacy at client, community and public levels. Competence is not a certificate; it is a posture with practices."
+    },
+    {
+      "layout": "bullets",
+      "slug": "skills-audit",
+      "kicker": "Week two's discipline applied",
+      "title": "Audit the skills: every universal has an accent",
+      "items": [
+        {
+          "lead": "Eye contact:",
+          "text": "respect or defiance, depending on age and gender."
+        },
+        {
+          "lead": "Feeling disclosure:",
+          "text": "liberation or embarrassment, depending on family norms."
+        },
+        {
+          "lead": "'What do you want?':",
+          "text": "routine in an individualist frame; near-impossible where the self is defined through family."
+        },
+        {
+          "lead": "Silence, touch, seating, the clock:",
+          "text": "even the fifty-minute hour is a cultural artefact."
+        },
+        {
+          "lead": "The discipline:",
+          "text": "imported tools are hypotheses, not truths; test, adapt transparently, document what works here, and never let adaptation harden into stereotype. Ask: how does your family talk about problems like this?"
+        }
+      ],
+      "narration": "Audit the skills: every universal has a cultural accent. Direct eye contact: respect or defiance, depending on age and gender. Self-disclosure of feeling: liberation or embarrassment, depending on family norms. The question, what do you want: routine in an individualist frame, near-impossible where the self is defined through family. Silence, touch, seating, even the clock are cultural artefacts. The discipline from week two governs: imported tools are hypotheses, not truths. Test them, adapt transparently, document what works here, and never let adaptation harden into stereotype, because culture describes contexts, never a particular person. The standing question is gentle: how does your family talk about problems like this?"
+    },
+    {
+      "layout": "bullets",
+      "slug": "power",
+      "kicker": "The gradient",
+      "title": "Power in the room, and advocacy beyond it",
+      "items": [
+        {
+          "lead": "Power you hold:",
+          "text": "expertise, the diagnostic label, gatekeeping over reports and referrals, and often class and education."
+        },
+        {
+          "lead": "Unexamined:",
+          "text": "the gradient quietly decides who speaks, which goals look realistic, and which stories get pathologised."
+        },
+        {
+          "lead": "Practise against it:",
+          "text": "share formulation and notes where feasible; offer choice of methods; name your limits openly; let the client's expertise on their life outrank yours on lives in general."
+        },
+        {
+          "lead": "Advocacy (ACA competencies):",
+          "text": "social justice at three levels: with and for the client, in the community, at systems and policy."
+        },
+        {
+          "lead": "Week one's advocate:",
+          "text": "some suffering is manufactured; empathy alone ratifies it."
+        }
+      ],
+      "narration": "Power sits in the room whether or not you name it. You hold expert power, the diagnostic label, gatekeeping over reports, and often class and education power. Unexamined, that gradient quietly decides who speaks, which goals count as realistic, and which stories get pathologised. The answer is to practise against it: share formulation and notes where feasible, offer choice of methods, name your limits openly, and let the client's expertise on their life outrank yours on lives in general. Beyond the room, the ACA advocacy competencies make social justice part of the job at three levels: with the client, in the community, and at systems and policy. Some suffering is manufactured; empathy alone ratifies it, and week one's advocate answers it."
+    },
+    {
+      "layout": "table",
+      "slug": "differences-table",
+      "kicker": "Carry this into practice",
+      "title": "Six dimensions of difference: assumption, risk, grounded practice",
+      "cols": [
+        {
+          "t": "Dimension",
+          "w": 0.15
+        },
+        {
+          "t": "Assumption to drop",
+          "w": 0.25
+        },
+        {
+          "t": "Risk if unexamined",
+          "w": 0.28
+        },
+        {
+          "t": "Culturally grounded practice",
+          "w": 0.32
+        }
+      ],
+      "rows": [
+        [
+          "Age",
+          "Youth means immaturity; elders cannot change",
+          "Patronising at either end; goals set by hierarchy",
+          "Adapt pace and idiom; honour hierarchy without surrendering the client's voice"
+        ],
+        [
+          "Gender",
+          "Roles as they are, are roles as they must be",
+          "Therapy reinforces the norms producing the suffering",
+          "Explore what gender costs and permits for this client"
+        ],
+        [
+          "Religion",
+          "Faith is denial, or prayer alone is enough",
+          "Alliance rupture in either direction",
+          "Treat faith as resource and stressor; involve clergy only with consent"
+        ],
+        [
+          "Ethnicity & language",
+          "Shared nationality means shared meaning",
+          "Idioms of distress missed; somatic language ignored",
+          "Work through interpreters, Pidgin and mother-tongue affect"
+        ],
+        [
+          "Class & education",
+          "Insight requires formal education",
+          "Abstract methods fail concrete lives",
+          "Proverbial, oral, concrete forms of the same skills"
+        ],
+        [
+          "Disability",
+          "Incapacity, or inspiration",
+          "The person vanishes behind the category",
+          "Accessibility first, then the person's own account"
+        ]
+      ],
+      "narration": "Six dimensions to carry into practice. Age: youth is not immaturity, age is not rigidity; adapt pace and idiom, honouring hierarchy without surrendering the client's voice. Gender: the risk is therapy reinforcing the norms producing the suffering; explore what gender costs and permits for this client. Religion: faith is neither denial nor a substitute for care; treat it as resource and stressor; clergy only with consent. Ethnicity and language: shared nationality is not shared meaning; work through interpreters and mother-tongue affect. Class and education: insight needs no formal education; use proverbial, oral, concrete forms of the same skills. Disability: neither incapacity nor inspiration; accessibility first, then the person's own account."
+    },
+    {
+      "layout": "bullets",
+      "slug": "nigerian-alliance",
+      "kicker": "Home ground",
+      "title": "The alliance in Nigerian conditions",
+      "items": [
+        {
+          "lead": "Religion:",
+          "text": "often the client's first language of suffering and hope; work with it, and know when a pastor or imam is an ally and when referral is needed."
+        },
+        {
+          "lead": "Family:",
+          "text": "in many settings the real client is a system; negotiate early and explicitly who sits in, what is shared, and where the private space is."
+        },
+        {
+          "lead": "Stigma:",
+          "text": "shapes disclosure; clients often arrive late with somatic complaints, because the body may speak what the mouth must not."
+        },
+        {
+          "lead": "Language:",
+          "text": "Pidgin and mother tongue carry affect English cannot; code-switch with the client rather than correct them."
+        },
+        {
+          "lead": "Logistics:",
+          "text": "crowded clinics and per-visit costs mean brief, structured, high-yield sessions, which is exactly what weeks five and six equipped you for."
+        },
+        {
+          "lead": "The rule:",
+          "text": "the relationship adapts; the function holds."
+        }
+      ],
+      "narration": "Finally, the alliance at home. Religion is often the client's first language of suffering and hope; know when a pastor or imam is an ally and when referral is needed. Family: in many settings the real client is a system; negotiate early who sits in, what is shared, and where the private space is. Stigma shapes disclosure: many clients arrive late with somatic complaints, because the body may speak what the mouth must not. Language: Pidgin and mother tongue carry affect that English cannot; code-switch with the client rather than correct them. Logistics: crowded clinics and per-visit costs mean brief, structured sessions, exactly what weeks five and six equipped you for. The relationship adapts; the function holds."
+    },
+    {
+      "layout": "summary",
+      "slug": "summary",
+      "title": "Week 7 in review",
+      "items": [
+        "The relationship makes a substantial, consistent contribution to outcome, independent of method (Norcross & Lambert; alliance r ≈ .28).",
+        "Bordin's bonds, goals and tasks give the working model; rupture and repair make the alliance trainable, and stronger when tested.",
+        "Supported elements: empathy, positive regard, congruence, expectations, countertransference management, cultural adaptation.",
+        "Intersectionality and ADDRESSING map the person; awareness, knowledge and skills form the posture; power and advocacy keep the gradient honest.",
+        "It is the relationship that heals, and in Nigerian conditions it is the culturally adapted relationship that heals."
+      ],
+      "narration": "Gather the week. The relationship makes a substantial and consistent contribution to outcome, independent of method. Bordin's triad gives the working model; rupture and repair make the alliance trainable. The supported elements: empathy, regard, congruence, expectation, countertransference management, and cultural adaptation across them all. ADDRESSING maps the person; awareness, knowledge and skills form the posture; advocacy keeps the gradient honest. It is the relationship that heals, and in Nigerian conditions, the culturally adapted relationship that heals."
+    },
+    {
+      "layout": "task",
+      "slug": "task",
+      "kicker": "Before Week 8",
+      "title": "Applied tasks and test preparation",
+      "items": [
+        "Alliance audit: rewatch your Week 7 microskills recording three times, once for bonds, once for goals, once for tasks; note one strain moment and one repair moment in each pass.",
+        "Identity exercise: map yourself on the nine ADDRESSING axes and mark where power flows toward you relative to a typical client in your future setting; write one paragraph on the axis you understand least, and one concrete way you will learn it.",
+        "Test preparation: the Week 8 continuous assessment test covers Weeks 1-7 and counts 15%. It asks you to apply, not recite: practise explaining the conceptualisation chain, the alliance triad and the multicultural triad to a study partner in two minutes each."
+      ],
+      "next": "Week 8 · Mid-semester review and continuous assessment test (15%, Weeks 1-7). Read Corey on the person of the counselor and the Sue & Sue introduction.",
+      "narration": "Your tasks lead into the week-eight test. First, the alliance audit: rewatch your microskills recording three times, once for bonds, once for goals, once for tasks; note one moment of strain and one of repair in each pass. Second, the identity exercise: map yourself on the nine ADDRESSING axes and mark where power flows toward you relative to a typical client in your future setting; write one paragraph on the axis you understand least, and one concrete way to learn it. Third, test preparation: the week-eight test covers weeks one to seven, worth fifteen per cent, and asks you to apply, not recite; practise explaining the conceptualisation chain, the alliance triad and the multicultural triad to a study partner in two minutes each. Read Corey on the person of the counselor and the Sue and Sue introduction. Next week: mid-semester review and the test. See you there."
+    }
+  ]
+}
